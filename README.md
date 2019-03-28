@@ -1,2 +1,0 @@
-# adipid.no
-🏡 Personal website

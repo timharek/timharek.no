@@ -1,0 +1,77 @@
+@import url("https://use.typekit.net/tkm2mmq.css");
+
+html, body {
+    background: #eff1f3;;
+    color: #6a6f75;
+    font-family: acumin-pro, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.container {
+    max-width: 580px;
+    margin: 10px;
+    z-index: 100;
+}
+.container * {
+    margin-bottom: 15px;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 80px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social * {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.social .item img{
+    width: 16px;
+}
+
+a {
+    color: #0096F5;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 1;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+a:active {
+    opacity: .75;
+}
