@@ -2,7 +2,7 @@
 
 html, body {
     background: #eff1f3;;
-    color: #6a6f75;
+    color: #364046;
     font-family: acumin-pro, sans-serif;
     font-size: 18px;
     margin: 0;
@@ -58,7 +58,7 @@ html, body {
 }
 
 .social .item img{
-    width: 16px;
+    width: 20px;
 }
 
 a {
