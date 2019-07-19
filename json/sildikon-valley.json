@@ -29,7 +29,7 @@
     },
     {
       "name": "Haugaland Kraft",
-      "type": "haugalandkraft",
+      "type": "hkraft",
       "Coords":{
         "lat": "59.3963737",
         "lng": "5.2916253"
