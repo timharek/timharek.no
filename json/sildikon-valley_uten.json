@@ -1,0 +1,77 @@
+{
+  "locations": [
+    {
+      "name": "Gassco",
+      "type": "gassco",
+      "Coords":{
+        "lat": "59.3003851",
+        "lng": "5.3037174"
+      },
+      "description": "Gassco har som operatør ansvar for sikker og effektiv transport av gass fra norsk sokkel og skal være en ledende gasstransportør i Europa."
+    },
+    {
+      "name": "Omega",
+      "type": "omega",
+      "Coords":{
+        "lat": "59.5978766",
+        "lng": "5.7425198"
+      },
+      "description": "Big enough to deliver — small enough to care"
+    },
+    {
+      "name": "Haugaland Kraft",
+      "type": "haugalandkraft",
+      "Coords":{
+        "lat": "59.3963737",
+        "lng": "5.2916253"
+      },
+      "description": "Haugaland Kraft ble etablert i 1998 ved at Haugesund Energi og Karmsund Kraftlag fusjonerte. Etter en omstrukturering av virksomheten i 2015 ble selskapet organisert som et konsern fra 1. januar 2016. "
+    },
+    {
+      "name": "Hatteland Group",
+      "type": "hatteland",
+      "Coords":{
+        "lat": "59.4756617",
+        "lng": "5.7349879"
+      },
+      "description": "We deliver innovations that make your business more efficient, reliable and secure. We started selling electronic components in 1971, and our  success brought along challenges."
+    },
+    {
+      "name": "Aibel",
+      "type": "aibel",
+      "Coords":{
+        "lat": "59.1497289",
+        "lng": "5.2016387"
+      },
+      "description": "Aibel is a leading service company within the upstream oil & gas and offshore wind industries."
+    },
+    {
+      "name": "Sjøfartsdirektoratet",
+      "type": "sjofart",
+      "Coords":{
+        "lat": "59.4058919",
+        "lng": "5.2743491"
+      },
+      "description": "Sjøfartsdirektoratet er et forvaltningsorgan underlagt Nærings- og fiskeridepartementet og Klima- og miljøverndepartementet."
+    },
+    {
+      "name": "Bouvet",
+      "type": "bouvet",
+      "Coords":{
+        "lat": "59.3968958",
+        "lng": "5.2939672"
+      },
+      "description": "Bouvet er et skandinavisk konsulentselskap som designer, utvikler, forvalter og gir råd om IT-løsninger og digital kommunikasjon."
+    },
+    {
+      "name": "Atea",
+      "type": "atea",
+      "Coords":{
+        "lat": "59.3887992",
+        "lng": "5.3104757"
+      },
+      "description": "Sammen med kundene våre i hele landet bygger Atea Norge med IT.  Vi vil bidra til mer effektiv læring i skolen."
+    }
+  ]
+}
+
