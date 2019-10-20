@@ -79,6 +79,7 @@ h1 {
 .social {
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 
 .social * {
