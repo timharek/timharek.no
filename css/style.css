@@ -53,7 +53,7 @@ body {
   z-index: 100;
 }
 .container * {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -68,13 +68,14 @@ h1 {
 
 .desc {
     font-size: .7rem;
+    margin-bottom: 25px;
 }
 
 .social {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: .6rem;
 }
 
 .social * {
@@ -105,5 +106,19 @@ a:active {
   body {
     background-color: #212121;
     color: #eee;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  h1 {
+    font-size: .9rem;
+  }
+
+  .desc {
+    font-size: .5rem;
+  }
+
+  .social {
+    justify-content: space-around;
   }
 }
