@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 791 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-840,0)">
+        <g id="adipid-logo-light" transform="matrix(1,0,0,1,0.314197,0)">
+            <rect x="840" y="0" width="790" height="280" style="fill:none;"/>
+            <g id="Adipid" transform="matrix(1.03947,0,0,0.538462,840,1.84741e-13)">
+                <g id="D" transform="matrix(0.962025,0,0,1.85714,336.709,-668.571)">
+                    <path d="M400,600L270,600L270,560L280,560L280,440L270,440L270,400L400,400L400,600ZM350,560L350,440L330,440L330,560L350,560Z" style="fill:rgb(254,255,254);"/>
+                </g>
+                <g id="I" transform="matrix(0.962025,0,0,1.85714,115.443,-668.571)">
+                    <rect x="440" y="400" width="40" height="200" style="fill:rgb(254,255,254);"/>
+                </g>
+                <g id="P" transform="matrix(0.962025,0,0,1.85714,-57.7215,-668.571)">
+                    <path d="M600,520L530,520L530,600L480,600L480,520L470,520L470,480L480,480L480,440L470,440L470,400L600,400L600,520ZM550,480L550,440L530,440L530,480L550,480Z" style="fill:rgb(254,255,254);"/>
+                </g>
+                <g id="I1" serif:id="I" transform="matrix(0.962025,0,0,1.85714,-86.5823,-668.571)">
+                    <rect x="440" y="400" width="40" height="200" style="fill:rgb(254,255,254);"/>
+                </g>
+                <g id="D1" serif:id="D" transform="matrix(0.962025,0,0,1.85714,-67.3418,-668.571)">
+                    <path d="M400,600L270,600L270,560L280,560L280,440L270,440L270,400L400,400L400,600ZM350,560L350,440L330,440L330,560L350,560Z" style="fill:rgb(254,255,254);"/>
+                </g>
+                <g id="A" transform="matrix(0.962025,0,0,1.85714,-76.962,-668.571)">
+                    <g transform="matrix(-1,0,0,1,390,0)">
+                        <path d="M200,400L205,540L195,540L180,600L130,600L180,400L200,400Z" style="fill:rgb(0,119,214);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-10,0)">
+                        <path d="M225,400L195,540L180,600L130,600L180,400L225,400Z" style="fill:rgb(0,151,246);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
