@@ -1,42 +1,35 @@
 @import url("https://use.typekit.net/tkm2mmq.css");
-
-html,
-body {
-  background: #eff1f3;
-  color: #364046;
+html, body {
+  background: #eee;
+  color: #212121;
   font-family: acumin-pro, sans-serif;
   font-size: 32px;
   margin: 0;
   padding: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #212121;
+    color: #eee;
+  }
+}
+
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   -webkit-animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
   animation: fadein 2s;
 }
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -46,41 +39,103 @@ body {
   }
 }
 
-.container {
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(120px, 200px) 1fr;
+      grid-template-columns: minmax(120px, 200px) 1fr;
+      grid-template-areas: "logo name" "logo desc" "logo social";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+}
+
+.wrapper .container .logo {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: logo;
+}
+
+.wrapper .container .name {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: name;
+  font-size: 100px;
+}
+
+.wrapper .container .desc {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: desc;
+}
+
+.wrapper .container .social {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: social;
+}
+
+.wrapper .container .social *:not(:first-child) {
+  margin-left: 10px;
+}
+
+.wrapper .container .social .email {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.wrapper .container .social .email #email {
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+}
+
+.wrapper .container .social .email:hover .popuptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.wrapper .container .social .email .popuptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #eee;
   text-align: center;
-  max-width: 1200px;
-  margin: 20px;
-  z-index: 100;
-}
-.container * {
-  margin-bottom: 10px;
-}
-
-.logo {
-  margin: 0 auto;
-  width: 150px;
-}
-
-h1 {
-    font-size: 1.25rem;
-    margin-top: 0;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  font-size: 14px;
 }
 
-.desc {
-    font-size: .7rem;
-    margin-bottom: 25px;
-}
-
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: .6rem;
-}
-
-.social * {
-  margin: 0;
-  margin-right: 10px;
+.wrapper .container .social .email .popuptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
 }
 
 a {
@@ -88,10 +143,6 @@ a {
   text-decoration: none;
   font-weight: 700;
   opacity: 1;
-}
-
-a.uib {
-  color: #cf3c3a;
 }
 
 a:hover {
@@ -102,23 +153,13 @@ a:active {
   opacity: 0.75;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #212121;
-    color: #eee;
-  }
+::-moz-selection {
+  background: #0096f5;
+  color: #eee;
 }
 
-@media screen and (max-width: 475px) {
-  h1 {
-    font-size: .9rem;
-  }
-
-  .desc {
-    font-size: .5rem;
-  }
-
-  .social {
-    justify-content: space-around;
-  }
+::selection {
+  background: #0096f5;
+  color: #eee;
 }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,140 @@
+@import url("https://use.typekit.net/tkm2mmq.css");
+
+$primary-color: #0096f5;;
+$primary-dark-color: #212121;
+$secondary-dark-color: #555;
+$primary-light-color: #eee;
+
+html, body {
+  background: $primary-light-color;
+  color: $primary-dark-color;
+  font-family: acumin-pro, sans-serif;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $primary-dark-color;
+    color: $primary-light-color;
+  }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+
+    @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+    .container {
+        display: grid;
+
+        grid-template-columns: minmax(120px, 200px) 1fr;
+        grid-template-areas: 
+        "logo name"
+        "logo desc"
+        "logo social";
+        align-items: center;
+        gap: 1em;
+
+
+
+        .logo {
+            grid-area: logo;
+        }
+
+        .name {
+            grid-area: name;
+            font-size: 100px;
+        }
+
+        .desc {
+            grid-area: desc;
+        }
+
+        .social {
+            grid-area: social;
+
+            *:not(:first-child) {
+                margin-left: 10px;
+            }
+
+            .email {
+                position: relative;
+                display: inline-block;
+                cursor: pointer;
+
+                #email {
+                    user-select: all;
+                }
+
+                &:hover .popuptext{
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                .popuptext {
+                    visibility: hidden;
+                    width: 140px;
+                    background-color: $secondary-dark-color;
+                    color: $primary-light-color;
+                    text-align: center;
+                    border-radius: 6px;
+                    padding: 5px;
+                    position: absolute;
+                    z-index: 1;
+                    top: 110%;
+                    left: 50%;
+                    margin-left: -75px;
+                    opacity: 0;
+                    transition: opacity 0.3s;
+                    font-size: 14px;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 100%;
+                        left: 50%;
+                        margin-left: -10px;
+                        border-width: 10px;
+                        border-style: solid;
+                        border-color: transparent transparent $secondary-dark-color transparent;
+                    }
+                }
+            }
+        }
+    }
+  }
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 1;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    &:active {
+        opacity: 0.75;
+    }
+}
+
+::selection {
+    background: $primary-color;
+    color: $primary-light-color;
+}
