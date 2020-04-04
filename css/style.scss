@@ -46,7 +46,7 @@ html, body {
         grid-template-areas: 
         "logo name"
         "logo desc"
-        "logo social";
+        "social social";
         align-items: center;
         gap: 1em;
 
@@ -67,10 +67,10 @@ html, body {
 
         .social {
             grid-area: social;
-
-            *:not(:first-child) {
-                margin-left: 10px;
-            }
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 205px);
+            justify-content: space-between;
+            text-align: center;
 
             .email {
                 position: relative;

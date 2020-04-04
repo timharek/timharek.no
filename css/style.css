@@ -53,7 +53,7 @@ html, body {
   display: grid;
   -ms-grid-columns: minmax(120px, 200px) 1fr;
       grid-template-columns: minmax(120px, 200px) 1fr;
-      grid-template-areas: "logo name" "logo desc" "logo social";
+      grid-template-areas: "logo name" "logo desc" "social social";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -62,7 +62,7 @@ html, body {
 
 .wrapper .container .logo {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: logo;
 }
@@ -82,12 +82,17 @@ html, body {
 
 .wrapper .container .social {
   -ms-grid-row: 3;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: social;
-}
-
-.wrapper .container .social *:not(:first-child) {
-  margin-left: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (205px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 205px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
 }
 
 .wrapper .container .social .email {
