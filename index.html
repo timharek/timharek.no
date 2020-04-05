@@ -29,21 +29,62 @@
 </head>
 <body>
     <div class="wrapper">
+        
         <div class="container">
+
+
             <div class="logo">
                 <img src="img/adipid-symbol.svg" alt="Adipid logo">
             </div>
-            <h1>Tim Hårek</h1>
-            <div class="desc" alt="Description">
-                Computer Security  
-                @<a class="uib" href="https://uib.no" target="_blank">University of Bergen</a>
-            </div>
-            <div class="social">
-                <a href="mailto:tim@adipid.no" alt="E-mail me">E-mail</a>
-                <a class="item" href="https://github.com/adipid" target="_blank" alt="My GitHub profile">GitHub</a>
-                <a class="item" href="https://www.linkedin.com/in/timhrek/" target="_blank" alt="My LinkedIn profile">LinkedIn</a>
-            </div>
+
+            <div class="name">
+                <h1>Tim Hårek</h1>
+            
+
+            <p class="desc" alt="Description">
+                Studying Computer Security @UiB
+            </p>
+
         </div>
+
+            <div class="social">
+
+                <span class="item">
+                    
+                    <a href="https://www.linkedin.com/in/timhrek/" target="_blank" alt="My LinkedIn profile">LinkedIn</a>
+
+                </span>
+                
+                <span class="item">
+
+                    <a href="https://github.com/adipid" target="_blank" alt="My GitHub profile">GitHub</a>
+
+                </span>
+
+                <div class="email">
+                    <span id="email" onclick="email_stuff()" onmouseout="email_out()">tim@adipid.no</span>
+                    <span id="email-popup" class="popuptext">Copy to clipboard</span>
+                </div>
+
+            </div>
+        
+        </div>
+
     </div>
+
+    <script>
+        // When the user the email, opens popup
+        function email_stuff() {
+            document.execCommand('copy');
+            var tooltip = document.getElementById("email-popup");
+            tooltip.innerHTML = "Copied!";
+        }
+
+        function email_out() {
+            var tooltip = document.getElementById("email-popup");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+
 </body>
 </html>
