@@ -3,9 +3,21 @@ html, body {
   background: #eee;
   color: #212121;
   font-family: acumin-pro, sans-serif;
-  font-size: 32px;
+  font-size: 2vw;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1200px) {
+  html, body {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html, body {
+    font-size: 32px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -53,11 +65,20 @@ html, body {
   display: grid;
   -ms-grid-columns: minmax(120px, 200px) 1fr;
       grid-template-columns: minmax(120px, 200px) 1fr;
-      grid-template-areas: "logo name" "logo desc" "social social";
+      grid-template-areas: "logo name" "logo name" "social social";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 1em;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "logo" "name" "social";
+  }
 }
 
 .wrapper .container .logo {
@@ -67,16 +88,56 @@ html, body {
   grid-area: logo;
 }
 
+@media screen and (max-width: 768px) {
+  .wrapper .container .logo img {
+    max-width: 150px;
+  }
+}
+
 .wrapper .container .name {
   -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 2;
   grid-area: name;
-  font-size: 100px;
+}
+
+.wrapper .container .name h1, .wrapper .container .name p {
+  margin: 0;
+}
+
+.wrapper .container .name h1 {
+  font-size: 5vw;
+}
+
+@media (max-width: 1000px) {
+  .wrapper .container .name h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .wrapper .container .name h1 {
+    font-size: 100px;
+  }
+}
+
+.wrapper .container .name p {
+  font-size: 2.5vw;
+}
+
+@media (max-width: 800px) {
+  .wrapper .container .name p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrapper .container .name p {
+    font-size: 35px;
+  }
 }
 
 .wrapper .container .desc {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: desc;
 }
 
@@ -87,18 +148,21 @@ html, body {
   grid-area: social;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (205px)[auto-fit];
-      grid-template-columns: repeat(auto-fit, 205px);
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  text-align: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 520px) {
+  .wrapper .container .social {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: .5em;
+  }
 }
 
 .wrapper .container .social .email {
   position: relative;
   display: inline-block;
-  cursor: pointer;
 }
 
 .wrapper .container .social .email #email {
@@ -106,6 +170,9 @@ html, body {
      -moz-user-select: all;
       -ms-user-select: all;
           user-select: all;
+  cursor: pointer;
+  color: #0096f5;
+  font-weight: 700;
 }
 
 .wrapper .container .social .email:hover .popuptext {
@@ -123,7 +190,7 @@ html, body {
   padding: 5px;
   position: absolute;
   z-index: 1;
-  top: 110%;
+  top: 120%;
   left: 50%;
   margin-left: -75px;
   opacity: 0;
@@ -133,10 +200,11 @@ html, body {
 }
 
 .wrapper .container .social .email .popuptext::after {
+  /* Arrow on the popup */
   content: "";
   position: absolute;
   bottom: 100%;
-  left: 50%;
+  left: 10%;
   margin-left: -10px;
   border-width: 10px;
   border-style: solid;

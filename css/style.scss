@@ -5,11 +5,60 @@ $primary-dark-color: #212121;
 $secondary-dark-color: #555;
 $primary-light-color: #eee;
 
+$breakkpoint-xl:        1200px;
+$breakpoint-lg:         992px;
+$breakpoint-medium:     768px;
+$breakpoint-medium2:    600px;
+$breakpoint-small:      520px;
+$breakpoint-xtra-small: 375px;
+
+
+///
+/// Viewport sized typography with minimum and maximum values
+///
+/// @author Eduardo Boucas (@eduardoboucas)
+///
+/// @param {Number}   $responsive  - Viewport-based size
+/// @param {Number}   $min         - Minimum font size (px)
+/// @param {Number}   $max         - Maximum font size (px)
+///                                  (optional)
+/// @param {Number}   $fallback    - Fallback for viewport-
+///                                  based units (optional)
+///
+/// @example scss - 5vw font size (with 50px fallback), 
+///                 minumum of 35px and maximum of 150px
+///  @include responsive-font(5vw, 35px, 150px, 50px);
+/// https://codepen.io/eduardoboucas/pen/YXxmwv
+///
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+    $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+    $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+    $min-breakpoint: $min / $responsive-unitless * 100;
+    
+    @media (max-#{$dimension}: #{$min-breakpoint}) {
+      font-size: $min;
+    }
+    
+    @if $max {
+      $max-breakpoint: $max / $responsive-unitless * 100;
+      
+      @media (min-#{$dimension}: #{$max-breakpoint}) {
+        font-size: $max;
+      }
+    }
+    
+    @if $fallback {
+      font-size: $fallback;
+    }
+    
+    font-size: $responsive;
+}
+
 html, body {
   background: $primary-light-color;
   color: $primary-dark-color;
   font-family: acumin-pro, sans-serif;
-  font-size: 32px;
+  @include responsive-font(2vw, 24px, 32px);
   margin: 0;
   padding: 0;
 
@@ -41,24 +90,52 @@ html, body {
 
     .container {
         display: grid;
-
         grid-template-columns: minmax(120px, 200px) 1fr;
         grid-template-areas: 
         "logo name"
-        "logo desc"
+        "logo name"
         "social social";
         align-items: center;
         gap: 1em;
 
+        padding: 10px;
 
+        @media screen and (max-width: $breakpoint-medium2) {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "logo"
+            "name"
+            "social";
+        }
 
         .logo {
             grid-area: logo;
+
+            @media screen and (max-width: $breakpoint-medium) {
+                img {
+                    max-width: 150px;
+                }
+            }
         }
 
         .name {
             grid-area: name;
-            font-size: 100px;
+            
+            h1, p {
+                margin: 0;
+            }
+
+            h1 {
+                @include responsive-font(5vw, 50px, 100px);
+            }
+
+            p {
+                @include responsive-font(2.5vw, 20px, 35px);
+            }
+
+            @media screen and (max-width: $breakpoint-medium2) {
+
+            }
         }
 
         .desc {
@@ -68,17 +145,23 @@ html, body {
         .social {
             grid-area: social;
             display: grid;
-            grid-template-columns: repeat(auto-fit, 205px);
-            justify-content: space-between;
-            text-align: center;
+            grid-template-columns: repeat(3, 1fr);
+
+            @media screen and (max-width: $breakpoint-small) {
+                grid-template-columns: 1fr;
+                gap: .5em;
+            }
+
 
             .email {
                 position: relative;
                 display: inline-block;
-                cursor: pointer;
 
                 #email {
                     user-select: all;
+                    cursor: pointer;
+                    color: $primary-color;
+                    font-weight: 700;
                 }
 
                 &:hover .popuptext{
@@ -96,18 +179,18 @@ html, body {
                     padding: 5px;
                     position: absolute;
                     z-index: 1;
-                    top: 110%;
+                    top: 120%;
                     left: 50%;
                     margin-left: -75px;
                     opacity: 0;
                     transition: opacity 0.3s;
                     font-size: 14px;
 
-                    &::after {
+                    &::after { /* Arrow on the popup */
                         content: "";
                         position: absolute;
                         bottom: 100%;
-                        left: 50%;
+                        left: 10%;
                         margin-left: -10px;
                         border-width: 10px;
                         border-style: solid;
