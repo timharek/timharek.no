@@ -1,17 +1,16 @@
 @import url("https://use.typekit.net/tkm2mmq.css");
 
-$primary-color: #0096f5;;
+$primary-color: #0096f5;
 $primary-dark-color: #212121;
 $secondary-dark-color: #555;
 $primary-light-color: #eee;
 
-$breakkpoint-xl:        1200px;
-$breakpoint-lg:         992px;
-$breakpoint-medium:     768px;
-$breakpoint-medium2:    600px;
-$breakpoint-small:      520px;
+$breakkpoint-xl: 1200px;
+$breakpoint-lg: 992px;
+$breakpoint-medium: 768px;
+$breakpoint-medium2: 600px;
+$breakpoint-small: 520px;
 $breakpoint-xtra-small: 375px;
-
 
 ///
 /// Viewport sized typography with minimum and maximum values
@@ -25,47 +24,48 @@ $breakpoint-xtra-small: 375px;
 /// @param {Number}   $fallback    - Fallback for viewport-
 ///                                  based units (optional)
 ///
-/// @example scss - 5vw font size (with 50px fallback), 
+/// @example scss - 5vw font size (with 50px fallback),
 ///                 minumum of 35px and maximum of 150px
 ///  @include responsive-font(5vw, 35px, 150px, 50px);
 /// https://codepen.io/eduardoboucas/pen/YXxmwv
 ///
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
     $responsive-unitless: $responsive / ($responsive - $responsive + 1);
-    $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+    $dimension: if(unit($responsive) == "vh", "height", "width");
     $min-breakpoint: $min / $responsive-unitless * 100;
-    
+
     @media (max-#{$dimension}: #{$min-breakpoint}) {
-      font-size: $min;
+        font-size: $min;
     }
-    
+
     @if $max {
-      $max-breakpoint: $max / $responsive-unitless * 100;
-      
-      @media (min-#{$dimension}: #{$max-breakpoint}) {
-        font-size: $max;
-      }
+        $max-breakpoint: $max / $responsive-unitless * 100;
+
+        @media (min-#{$dimension}: #{$max-breakpoint}) {
+            font-size: $max;
+        }
     }
-    
+
     @if $fallback {
-      font-size: $fallback;
+        font-size: $fallback;
     }
-    
+
     font-size: $responsive;
 }
 
-html, body {
-  background: $primary-light-color;
-  color: $primary-dark-color;
-  font-family: acumin-pro, sans-serif;
-  @include responsive-font(2vw, 24px, 32px);
-  margin: 0;
-  padding: 0;
+html,
+body {
+    background: $primary-light-color;
+    color: $primary-dark-color;
+    font-family: acumin-pro, sans-serif;
+    @include responsive-font(2vw, 24px, 32px);
+    margin: 0;
+    padding: 0;
 
-  @media (prefers-color-scheme: dark) {
-    background-color: $primary-dark-color;
-    color: $primary-light-color;
-  }
+    @media (prefers-color-scheme: dark) {
+        background-color: $primary-dark-color;
+        color: $primary-light-color;
+    }
 }
 
 .wrapper {
@@ -81,20 +81,20 @@ html, body {
 
     @keyframes fadein {
         from {
-          opacity: 0;
+            opacity: 0;
         }
         to {
-          opacity: 1;
+            opacity: 1;
         }
-      }
+    }
 
     .container {
         display: grid;
         grid-template-columns: minmax(120px, 200px) 1fr;
-        grid-template-areas: 
-        "logo name"
-        "logo name"
-        "social social";
+        grid-template-areas:
+            "logo name"
+            "logo name"
+            "social social";
         align-items: center;
         gap: 1em;
 
@@ -102,10 +102,10 @@ html, body {
 
         @media screen and (max-width: $breakpoint-medium2) {
             grid-template-columns: 1fr;
-            grid-template-areas: 
-            "logo"
-            "name"
-            "social";
+            grid-template-areas:
+                "logo"
+                "name"
+                "social";
         }
 
         .logo {
@@ -120,8 +120,9 @@ html, body {
 
         .name {
             grid-area: name;
-            
-            h1, p {
+
+            h1,
+            p {
                 margin: 0;
             }
 
@@ -134,7 +135,6 @@ html, body {
             }
 
             @media screen and (max-width: $breakpoint-medium2) {
-
             }
         }
 
@@ -149,9 +149,8 @@ html, body {
 
             @media screen and (max-width: $breakpoint-small) {
                 grid-template-columns: 1fr;
-                gap: .5em;
+                gap: 0.5em;
             }
-
 
             .email {
                 position: relative;
@@ -164,7 +163,7 @@ html, body {
                     font-weight: 700;
                 }
 
-                &:hover .popuptext{
+                &:hover .popuptext {
                     visibility: visible;
                     opacity: 1;
                 }
@@ -186,7 +185,8 @@ html, body {
                     transition: opacity 0.3s;
                     font-size: 14px;
 
-                    &::after { /* Arrow on the popup */
+                    &::after {
+                        /* Arrow on the popup */
                         content: "";
                         position: absolute;
                         bottom: 100%;
@@ -200,7 +200,7 @@ html, body {
             }
         }
     }
-  }
+}
 
 a {
     color: $primary-color;

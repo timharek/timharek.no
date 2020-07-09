@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/tkm2mmq.css");
-html, body {
+html,
+body {
   background: #eee;
   color: #212121;
   font-family: acumin-pro, sans-serif;
@@ -9,19 +10,22 @@ html, body {
 }
 
 @media (max-width: 1200px) {
-  html, body {
+  html,
+  body {
     font-size: 24px;
   }
 }
 
 @media (min-width: 1600px) {
-  html, body {
+  html,
+  body {
     font-size: 32px;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  html, body {
+  html,
+  body {
     background-color: #212121;
     color: #eee;
   }
@@ -101,7 +105,8 @@ html, body {
   grid-area: name;
 }
 
-.wrapper .container .name h1, .wrapper .container .name p {
+.wrapper .container .name h1,
+.wrapper .container .name p {
   margin: 0;
 }
 
@@ -156,7 +161,7 @@ html, body {
   .wrapper .container .social {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    gap: .5em;
+    gap: 0.5em;
   }
 }
 
