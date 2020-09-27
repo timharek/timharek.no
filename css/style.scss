@@ -90,6 +90,7 @@ body {
     }
 
     .container {
+        max-width: 800px;
         display: grid;
         grid-template-columns: minmax(120px, 200px) 1fr;
         grid-template-areas:
@@ -97,6 +98,7 @@ body {
             "logo name"
             "logo social";
         gap: 1em;
+        align-items: center;
 
         padding: 10px;
 
@@ -111,10 +113,16 @@ body {
         .logo {
             grid-area: logo;
 
-            @media screen and (max-width: $breakpoint-medium) {
+            max-width: 200px;
+            /* @media screen and (max-width: $breakpoint-medium) {
                 img {
                     max-width: 150px;
                 }
+            } */
+            .no-svg {
+                background-image: url(../img/symbol.png);
+                background-size: 200px 200px;
+                height: 200px;
             }
         }
 
@@ -129,7 +137,6 @@ body {
             h1 {
                 @include responsive-font(5vw, 50px, 100px);
                 text-transform: uppercase;
-
                 .r {
                     display: inline-block;
                     transform: scale(-1, 1);

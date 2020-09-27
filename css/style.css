@@ -66,12 +66,16 @@ body {
 }
 
 .wrapper .container {
+  max-width: 800px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(120px, 200px) 1fr;
       grid-template-columns: minmax(120px, 200px) 1fr;
       grid-template-areas: "logo name" "logo name" "logo social";
   gap: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
 }
 
@@ -88,12 +92,18 @@ body {
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: logo;
+  max-width: 200px;
+  /* @media screen and (max-width: $breakpoint-medium) {
+                img {
+                    max-width: 150px;
+                }
+            } */
 }
 
-@media screen and (max-width: 768px) {
-  .wrapper .container .logo img {
-    max-width: 150px;
-  }
+.wrapper .container .logo .no-svg {
+  background-image: url(../img/symbol.png);
+  background-size: 200px 200px;
+  height: 200px;
 }
 
 .wrapper .container .name {
