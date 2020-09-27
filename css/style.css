@@ -93,11 +93,6 @@ body {
   -ms-grid-column: 1;
   grid-area: logo;
   max-width: 200px;
-  /* @media screen and (max-width: $breakpoint-medium) {
-                img {
-                    max-width: 150px;
-                }
-            } */
 }
 
 .wrapper .container .logo .no-svg {
