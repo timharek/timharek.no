@@ -1,82 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="theme-color" content="#0096F5" />
-        <meta name="description" content="Tim Hårek, a Computer Security student from Norway." />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Tim Hårek" />
-        <meta name="twitter:description" content="Tim Hårek, a Computer Security student from Norway." />
-        <meta name="twitter:image" content="http://harek.dev/cover.png" />
-        <meta property="og:title" content="Tim Hårek" />
-        <meta property="og:type" content="website" />
-        <meta property="og:description" content="Tim Hårek, a Computer Security student from Norway." />
-        <meta property="og:url" content="http://harek.dev" />
-        <meta property="og:image" content="http://harek.dev/cover.png" />
-        <meta name="apple-mobile-web-app-capable" content="no" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="shortcut icon" type="image/png" sizes="192x192" href="img/favicon.png" />
-        <link rel="apple-touch-icon" href="img/favicon.png" />
-        <link rel="mask-icon" href="img/adipid.svg" color="blue" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#0096F5" />
+    <meta name="description" content="Tim Hårek, a Computer Security student from Norway." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tim Hårek" />
+    <meta name="twitter:description" content="Tim Hårek, a Computer Security student from Norway." />
+    <meta name="twitter:image" content="http://harek.dev/cover.png" />
+    <meta property="og:title" content="Tim Hårek" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Tim Hårek, a Computer Security student from Norway." />
+    <meta property="og:url" content="http://harek.dev" />
+    <meta property="og:image" content="http://harek.dev/cover.png" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-        <title>Tim Hårek</title>
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="container">
-                <div class="logo">
-                    <img src="img/adipid-symbol.svg" alt="Adipid logo" />
-                </div>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" sizes="192x192" href="img/symbol.png" />
+    <link rel="apple-touch-icon" href="img/symbol.png" />
+    <link rel="mask-icon" href="img/symbol.svg" color="blue" />
 
-                <div class="name">
-                    <h1>Tim Hårek</h1>
+    <title>Tim Hårek</title>
+</head>
 
-                    <p class="desc" alt="Description">
-                        Studying Computer Security @UiB
-                    </p>
-                </div>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo">
+                <img src="img/symbol.svg" alt="Tim Hårek logo" />
+            </div>
 
-                <div class="social">
-                    <span class="item">
-                        <a
-                            href="https://www.linkedin.com/in/timhrek/"
-                            target="_blank"
-                            rel="noreferrer"
-                            alt="My LinkedIn profile"
-                            >LinkedIn</a
-                        >
-                    </span>
+            <div class="name">
+                <h1>Tim Hå<span class="r">r</span>ek</h1>
 
-                    <span class="item">
-                        <a href="https://github.com/timharek" target="_blank" rel="noreferrer" alt="My GitHub profile"
-                            >GitHub</a
-                        >
-                    </span>
+                <p class="desc" alt="Description">
+                    Studying Computer Security @UiB
+                </p>
+            </div>
 
-                    <div class="email">
-                        <span id="email" onclick="email_stuff()" onmouseout="email_out()">tim@harek.dev</span>
-                        <span id="email-popup" class="popuptext">Copy to clipboard</span>
-                    </div>
+            <div class="social">
+                <span class="item">
+                    <a href="https://www.linkedin.com/in/timhrek/" target="_blank" rel="noreferrer"
+                        alt="My LinkedIn profile">LinkedIn</a>
+                </span>
+
+                <span class="item">
+                    <a href="https://github.com/timharek" target="_blank" rel="noreferrer"
+                        alt="My GitHub profile">GitHub</a>
+                </span>
+
+                <div class="email">
+                    <span id="email" onclick="email_stuff()" onmouseout="email_out()">tim@harek.dev</span>
+                    <span id="email-popup" class="popuptext">Copy to clipboard</span>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script>
-            // When the user the email, opens popup
-            function email_stuff() {
-                document.execCommand("copy");
-                var tooltip = document.getElementById("email-popup");
-                tooltip.innerHTML = "Copied!";
-            }
+    <script>
+        // When the user the email, opens popup
+        function email_stuff() {
+            document.execCommand("copy");
+            var tooltip = document.getElementById("email-popup");
+            tooltip.innerHTML = "Copied!";
+        }
 
-            function email_out() {
-                var tooltip = document.getElementById("email-popup");
-                tooltip.innerHTML = "Copy to clipboard";
-            }
-        </script>
-    </body>
+        function email_out() {
+            var tooltip = document.getElementById("email-popup");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+</body>
+
 </html>
