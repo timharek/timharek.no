@@ -86,16 +86,23 @@ body {
   }
 }
 
-.wrapper .container .logo {
+.wrapper .container #logo {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: logo;
+  pointer-events: none;
   max-width: 200px;
 }
 
-.wrapper .container .logo .no-svg {
+.wrapper .container #logo .no-svg {
   background-image: url(../img/symbol.png);
+  background-size: 200px 200px;
+  height: 200px;
+}
+
+.wrapper .container #logo .no-svg-error {
+  background-image: url(../img/error.png);
   background-size: 200px 200px;
   height: 200px;
 }

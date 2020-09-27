@@ -109,12 +109,20 @@ body {
                 "social";
         }
 
-        .logo {
+        #logo {
             grid-area: logo;
 
+            pointer-events: none;
             max-width: 200px;
+            
             .no-svg {
                 background-image: url(../img/symbol.png);
+                background-size: 200px 200px;
+                height: 200px;
+            }
+
+            .no-svg-error {
+                background-image: url(../img/error.png);
                 background-size: 200px 200px;
                 height: 200px;
             }
