@@ -1,2 +1,11 @@
-![GitHub banner](.github/img/banner.png)
-My personal static website, super simple and lightweight.
+# [harek.dev](https://harek.dev)
+
+> Personal website of Tim Hårek
+
+My very own website, where I share my thoughts, projects etc. Made with [Jekyll](https://jekyllrb.com/)
+
+## To further develop
+
+```sh
+./start.sh
+```
