@@ -4,14 +4,8 @@ title: About
 permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Tim Hårek; a developer 👨‍💻, dogperson 🐕 and hiker 🏔. I'm currently a Computer Security student at the University of Bergen, where I also work as an IT assistent, helping students and lecturers. I also have a 2nd part-time job as an IT manager for an offshore-service company, [Vest Kontakt](https://vestkontakt.no), where I assist in "every" aspect of IT whenever they need me.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I mostly work with automating my everyday needs through scripting, but I also enjoy web development every now and then.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+FYI: I'm a privacy advocate, so I won't collect any data from you when you visit my site, period.
