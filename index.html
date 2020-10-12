@@ -1,0 +1,30 @@
+---
+layout: home
+---
+
+<object type="image/svg+xml" data="{{ "/assets/img/symbol.svg" | relative_url }}" id="logo">
+    <div class="no-svg"></div>
+</object>
+
+<div class="name">
+    <h1>Tim Hå<span class="r">r</span>ek</h1>
+
+    <p class="desc" alt="Description">
+        {{ site.description }}
+    </p>
+</div>
+
+<div class="social">
+    <span class="item">
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noreferrer"
+            alt="My LinkedIn profile">LinkedIn</a>
+    </span>
+
+    <span class="item">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noreferrer" alt="My GitHub profile">GitHub</a>
+    </span>
+
+    <div class="email">
+        <a href="mailto:{{ site.email }}" id="email">{{ site.email }}</a>
+    </div>
+</div>

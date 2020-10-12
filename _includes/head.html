@@ -1,0 +1,35 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#{{ site.primary_color }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="http://harek.dev/cover.png" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:image" content="{{ "/assets/img/conver.png" | relative_url }}" />
+  <meta name="apple-mobile-web-app-capable" content="no" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" type="image/png" sizes="192x192" href="{{ "/assets/img/symbol.png" | relative_url }}" />
+  <link rel="apple-touch-icon" href="{{ "/assets/img/symbol.png" | relative_url }}" />
+  <link rel="mask-icon" href="{{ "/assets/img/symbol.svg" | relative_url }}" color="blue" />
+  
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+
+  {% if page.title %}
+    <title>
+      {{ site.title }} - {{ page.title }}
+    </title>
+  {% else %}
+    <title>
+      {{ site.title }}
+    </title>
+  {% endif %}
+</head>
