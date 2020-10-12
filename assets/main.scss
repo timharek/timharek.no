@@ -109,6 +109,12 @@ body {
 					padding: 15px;
 					border-radius: 10px;
 
+					transition: 150ms;
+					&:hover {
+						box-shadow: 0 0 30px rgba(0, 0, 0, 0.14);
+						transform: scale(1.01) rotate(0deg);
+					}
+
 					.logo img {
 						width: 50px;
 					}
