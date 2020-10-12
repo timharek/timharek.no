@@ -1,0 +1,10 @@
+- name: vestkontakt.no redesign
+  desc: >-
+      Total redesign of their website, with elements dating back to 2003.
+  svg: /assets/img/projects/vk.svg
+
+- name: 5545.no
+  desc: >-
+      Weather app for a local ZIP code in Norway, built with Vue.js.
+  svg: /assets/img/projects/vk.svg
+  github: https://github.com/timharek/5545.no

@@ -11,38 +11,21 @@ animate: animate
         </p>
     </div>
     <div class="projects">
-        <div class="project">
-            <div class="logo">
-                <img src="{{ "/assets/img/projects/vk.svg" | relative_url }}" alt="">
+        {% for project in site.data.projects %}
+            <div class="project">
+                <div class="logo">
+                    <img src="{{ project.svg | relative_url }}" alt="{{ project.name }} logo">
+                </div>
+                <div class="desc">
+                    <h1>{{ project.name }}</h1>
+                    <p>
+                        {{ project.desc }}
+                    </p>
+                    {% if project.github %}
+                        <a href="{{ project.github }}">View on GitHub</a>
+                    {% endif %}
+                </div>
             </div>
-            <div class="desc">
-                <h1>vestkontakt.no redesign</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat temporibus inventore voluptates. 
-                </p>
-            </div>
-        </div>
-        <div class="project">
-            <div class="logo">
-                <img src="{{ "/assets/img/projects/vk.svg" | relative_url }}" alt="">
-            </div>
-            <div class="desc">
-                <h1>vestkontakt.no redesign</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat temporibus inventore voluptates.
-                </p>
-            </div>
-        </div>
-        <div class="project">
-            <div class="logo">
-                <img src="{{ "/assets/img/projects/vk.svg" | relative_url }}" alt="">
-            </div>
-            <div class="desc">
-                <h1>vestkontakt.no redesign</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat temporibus inventore voluptates.
-                </p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
