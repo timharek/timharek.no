@@ -6,5 +6,4 @@
 - name: 5545.no
   desc: >-
       Weather app for a local ZIP code in Norway, built with Vue.js.
-  svg: /assets/img/projects/vk.svg
   github: https://github.com/timharek/5545.no
