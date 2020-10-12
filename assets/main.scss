@@ -13,6 +13,8 @@ html {
 	}
 }
 
+$site-max-width: 760px;
+
 $primary-color: #0096f5;
 $primary-dark-color: #212121;
 $secondary-dark-color: #555;
@@ -46,8 +48,12 @@ body {
 .wrapper {
 	margin: 0 auto;
 	margin-top: 100px;
-	max-width: 760px;
+	max-width: $site-max-width;
 	height: 100vh - margin-top;
+
+	@media screen and (max-width: $breakpoint-small) {
+		margin-top: 50px;
+	}
 
 	&.animate {
 		animation: fadein 2s;
@@ -63,7 +69,8 @@ body {
 	}
 
 	.container {
-		width: 100%;
+		width: 100% - padding;
+		padding: 0 10px;
 
 		header {
 			width: 100%;
@@ -78,7 +85,7 @@ body {
 			}
 
 			nav {
-				font-size: 26px;
+				font-size: 1.5rem;
 				ul {
 					list-style-type: none;
 					margin: 0;
@@ -128,6 +135,18 @@ body {
 						h1 {
 							font-size: 2rem;
 							margin-bottom: 5px;
+
+							@media screen and (max-width: $site-max-width) {
+								font-size: 1.5rem;
+							}
+
+							@media screen and (max-width: $breakpoint-medium2) {
+								font-size: 1.25rem;
+							}
+
+							@media screen and (max-width: $breakpoint-xtra-small) {
+								font-size: 1rem;
+							}
 						}
 						p {
 							margin: 5px 0;
@@ -148,16 +167,32 @@ body {
 				padding: 0;
 				font-size: 1.8rem;
 
+				@media screen and (max-width: $breakpoint-medium2) {
+					font-size: 1.25rem;
+				}
+
 				li {
 					display: flex;
 					justify-content: space-between;
 					align-items: center;
+
+					&:not(:last-of-type) {
+						margin-bottom: 20px;
+					}
 
 					.post-meta {
 						font-size: 1.2rem;
 						color: $secondary-light-color;
 					}
 				}
+			}
+		}
+
+		article {
+			.post-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
 			}
 		}
 
@@ -207,6 +242,32 @@ h1 {
 p {
 	font-size: 1.25rem;
 	font-weight: normal;
+}
+
+@media screen and (max-width: $site-max-width) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (max-width: $breakpoint-medium2) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: $breakpoint-xtra-small) {
+	h1 {
+		font-size: 1.5rem;
+	}
 }
 
 ::selection {
