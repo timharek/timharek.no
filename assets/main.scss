@@ -46,14 +46,17 @@ body {
 	margin-top: 100px;
 	max-width: 760px;
 	height: 100vh - margin-top;
-	animation: fadein 2s;
 
-	@keyframes fadein {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
+	&.animate {
+		animation: fadein 2s;
+
+		@keyframes fadein {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
 		}
 	}
 
@@ -68,7 +71,7 @@ body {
 			gap: 15px;
 			margin-bottom: 50px;
 
-			object {
+			svg {
 				width: 75px;
 			}
 
