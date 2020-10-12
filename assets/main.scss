@@ -100,7 +100,7 @@ body {
 				flex-direction: column;
 
 				.project {
-					width: 100%;
+					width: 100% - padding;
 					display: flex;
 					align-items: center;
 					gap: 25px;
@@ -126,6 +126,25 @@ body {
 					&:not(:last-of-type) {
 						margin-bottom: 30px;
 					}
+				}
+			}
+		}
+
+		footer {
+			margin-top: 30px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: $secondary-dark-color;
+			font-size: 16px;
+
+			.social {
+				display: flex;
+				gap: 10px;
+
+				a svg {
+					width: 25px;
+					fill: $secondary-dark-color;
 				}
 			}
 		}
