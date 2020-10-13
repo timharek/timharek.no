@@ -1,0 +1,241 @@
+@import url('font/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+$primary-color: #0096f5;
+$primary-dark-color: #212121;
+$secondary-dark-color: #555;
+$primary-light-color: #eee;
+
+$breakkpoint-xl: 1200px;
+$breakpoint-lg: 992px;
+$breakpoint-medium: 768px;
+$breakpoint-medium2: 600px;
+$breakpoint-small: 520px;
+$breakpoint-xtra-small: 375px;
+
+///
+/// Viewport sized typography with minimum and maximum values
+///
+/// @author Eduardo Boucas (@eduardoboucas)
+///
+/// @param {Number}   $responsive  - Viewport-based size
+/// @param {Number}   $min         - Minimum font size (px)
+/// @param {Number}   $max         - Maximum font size (px)
+///                                  (optional)
+/// @param {Number}   $fallback    - Fallback for viewport-
+///                                  based units (optional)
+///
+/// @example scss - 5vw font size (with 50px fallback),
+///                 minumum of 35px and maximum of 150px
+///  @include responsive-font(5vw, 35px, 150px, 50px);
+/// https://codepen.io/eduardoboucas/pen/YXxmwv
+///
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+    $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+    $dimension: if(unit($responsive) == "vh", "height", "width");
+    $min-breakpoint: $min / $responsive-unitless * 100;
+
+    @media (max-#{$dimension}: #{$min-breakpoint}) {
+        font-size: $min;
+    }
+
+    @if $max {
+        $max-breakpoint: $max / $responsive-unitless * 100;
+
+        @media (min-#{$dimension}: #{$max-breakpoint}) {
+            font-size: $max;
+        }
+    }
+
+    @if $fallback {
+        font-size: $fallback;
+    }
+
+    font-size: $responsive;
+}
+
+html,
+body {
+    background: $primary-light-color;
+    color: $primary-dark-color;
+    @include responsive-font(2vw, 24px, 32px);
+    margin: 0;
+    padding: 0;
+
+    @media (prefers-color-scheme: dark) {
+        background-color: $primary-dark-color;
+        color: $primary-light-color;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .container {
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: minmax(120px, 200px) 1fr;
+        grid-template-areas:
+            "logo name"
+            "logo name"
+            "logo social";
+        gap: 1em;
+        align-items: center;
+
+        padding: 10px;
+
+        @media screen and (max-width: $breakpoint-medium2) {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "logo"
+                "name"
+                "social";
+        }
+
+        #logo {
+            grid-area: logo;
+
+            pointer-events: none;
+            max-width: 200px;
+            
+            .no-svg {
+                background-image: url(../img/symbol.png);
+                background-size: 200px 200px;
+                height: 200px;
+            }
+
+            .no-svg-error {
+                background-image: url(../img/error.png);
+                background-size: 200px 200px;
+                height: 200px;
+            }
+        }
+
+        .name {
+            grid-area: name;
+
+            h1,
+            p {
+                margin: 0;
+            }
+
+            h1 {
+                @include responsive-font(5vw, 50px, 100px);
+                text-transform: uppercase;
+                .r {
+                    display: inline-block;
+                    transform: scale(-1, 1);
+                }
+            }
+
+            p {
+                @include responsive-font(2.5vw, 20px, 35px);
+            }
+
+            @media screen and (max-width: $breakpoint-medium2) {
+            }
+        }
+
+        .desc {
+            grid-area: desc;
+        }
+
+        .social {
+            grid-area: social;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            @media screen and (max-width: $breakpoint-small) {
+                grid-template-columns: 1fr;
+                gap: 0.5em;
+            }
+
+            .email {
+                position: relative;
+                display: inline-block;
+
+                #email {
+                    user-select: all;
+                    cursor: pointer;
+                    color: $primary-color;
+                    font-weight: 700;
+                }
+
+                &:hover .popuptext {
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                .popuptext {
+                    visibility: hidden;
+                    width: 140px;
+                    background-color: $secondary-dark-color;
+                    color: $primary-light-color;
+                    text-align: center;
+                    border-radius: 6px;
+                    padding: 5px;
+                    position: absolute;
+                    z-index: 1;
+                    top: 120%;
+                    left: 50%;
+                    margin-left: -75px;
+                    opacity: 0;
+                    transition: opacity 0.3s;
+                    font-size: 14px;
+
+                    &::after {
+                        /* Arrow on the popup */
+                        content: "";
+                        position: absolute;
+                        bottom: 100%;
+                        left: 10%;
+                        margin-left: -10px;
+                        border-width: 10px;
+                        border-style: solid;
+                        border-color: transparent transparent $secondary-dark-color transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 1;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    &:active {
+        opacity: 0.75;
+    }
+}
+
+::selection {
+    background: $primary-color;
+    color: $primary-light-color;
+}
