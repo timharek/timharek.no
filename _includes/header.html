@@ -2,9 +2,9 @@
 
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a href="{{ site.url }}">
+  <a href="{{ site.url }}" aria-label="Home">
     <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5"
-      viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-label="{{ site.title }} logo">
       <path d="m0 0h500v500h-500z" fill="none" />
       <path
         d="m480 134.621c0-63.261-51.36-114.621-114.621-114.621h-230.758c-63.261 0-114.621 51.36-114.621 114.621v230.758c0 63.261 51.36 114.621 114.621 114.621h230.758c63.261 0 114.621-51.36 114.621-114.621z"
