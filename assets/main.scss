@@ -16,8 +16,9 @@ html {
 $site-max-width: 760px;
 
 $primary-color: #0096f5;
+$secondary-color: #006eb3;
 $primary-dark-color: #212121;
-$secondary-dark-color: #555;
+$secondary-dark-color: #8f8f8f;
 $primary-light-color: #eee;
 $secondary-light-color: #c7c7c7;
 
@@ -210,8 +211,12 @@ body {
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
-			color: $secondary-dark-color;
 			font-size: 16px;
+
+			@media (prefers-color-scheme: dark) {
+				color: $secondary-dark-color;
+			}
+			color: $primary-dark-color;
 
 			@media screen and (max-width: $breakpoint-xtra-small) {
 				flex-direction: column;
@@ -257,7 +262,10 @@ body {
 }
 
 a {
-	color: $primary-color;
+	@media (prefers-color-scheme: dark) {
+		color: $primary-color;
+	}
+	color: $secondary-color;
 	text-decoration: none;
 	font-weight: 700;
 	opacity: 1;
