@@ -77,7 +77,6 @@ body {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			gap: 15px;
 			margin-bottom: 50px;
 
 			svg {
@@ -123,8 +122,6 @@ body {
 					width: 100% - padding;
 					display: flex;
 					align-items: center;
-					gap: 25px;
-
 					border: 1px solid $secondary-dark-color;
 					padding: 15px;
 					border-radius: 10px;
@@ -135,7 +132,10 @@ body {
 						transform: scale(1.01) rotate(0deg);
 					}
 
-					.logo img {
+					.logo {
+						margin-right: 25px;
+					}
+					img {
 						width: 50px;
 					}
 
@@ -207,10 +207,19 @@ body {
 		footer {
 			margin-top: 30px;
 			display: flex;
+			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
 			color: $secondary-dark-color;
 			font-size: 16px;
+
+			@media screen and (max-width: $breakpoint-xtra-small) {
+				flex-direction: column;
+
+				.social {
+					margin-top: 15px;
+				}
+			}
 
 			.footer-link {
 				&:not(:last-of-type) {
@@ -223,11 +232,24 @@ body {
 
 			.social {
 				display: flex;
-				gap: 10px;
+				align-items: center;
+				justify-content: space-between;
+
+				* {
+					align-self: center;
+					display: block;
+					&:not(:last-of-type) {
+						margin-right: 10px;
+					}
+				}
 
 				a svg {
 					width: 25px;
 					fill: $secondary-dark-color;
+
+					@media screen and (max-width: $breakpoint-xtra-small) {
+						width: 20px;
+					}
 				}
 			}
 		}
