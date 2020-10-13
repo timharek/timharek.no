@@ -204,6 +204,15 @@ body {
 			color: $secondary-dark-color;
 			font-size: 16px;
 
+			.footer-link {
+				&:not(:last-of-type) {
+					margin-right: 10px;
+				}
+				&:first-of-type {
+					margin-left: 5px;
+				}
+			}
+
 			.social {
 				display: flex;
 				gap: 10px;
