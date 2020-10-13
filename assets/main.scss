@@ -105,6 +105,14 @@ body {
 		.content {
 			.intro {
 				margin-bottom: 50px;
+
+				.name {
+					text-transform: uppercase;
+					.r {
+						display: inline-block;
+						transform: scale(-1, 1);
+					}
+				}
 			}
 
 			.projects {
