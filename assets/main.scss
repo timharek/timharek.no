@@ -157,8 +157,16 @@ body {
 								font-size: 1rem;
 							}
 						}
+
 						p {
 							margin: 5px 0;
+						}
+
+						a {
+							font-size: 1.1rem;
+							&:not(:last-of-type) {
+								margin-right: 15px;
+							}
 						}
 					}
 
