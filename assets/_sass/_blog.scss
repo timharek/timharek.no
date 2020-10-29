@@ -1,0 +1,35 @@
+.blog {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		font-size: 1.8rem;
+
+		@media screen and (max-width: $breakpoint-medium2) {
+			font-size: 1.25rem;
+		}
+
+		li {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			&:not(:last-of-type) {
+				margin-bottom: 20px;
+			}
+
+			.post-meta {
+				font-size: 1.2rem;
+				color: $secondary-light-color;
+			}
+		}
+	}
+}
+
+article {
+	.post-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

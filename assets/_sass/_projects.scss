@@ -1,0 +1,60 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+
+	.project {
+		width: 100% - padding;
+		display: flex;
+		align-items: center;
+		border: 1px solid $secondary-dark-color;
+		padding: 15px;
+		border-radius: 10px;
+
+		transition: 150ms;
+		&:hover {
+			box-shadow: 0 0 30px rgba(0, 0, 0, 0.14);
+			transform: translateY(-2px);
+		}
+
+		.logo {
+			margin-right: 25px;
+		}
+		img {
+			width: 50px;
+		}
+
+		.desc {
+			h1 {
+				font-size: 2rem;
+				margin-bottom: 5px;
+
+				@media screen and (max-width: $site-max-width) {
+					font-size: 1.5rem;
+				}
+
+				@media screen and (max-width: $breakpoint-medium2) {
+					font-size: 1.25rem;
+				}
+
+				@media screen and (max-width: $breakpoint-xtra-small) {
+					font-size: 1rem;
+				}
+			}
+
+			p {
+				margin: 5px 0;
+			}
+
+			a {
+				font-size: 1.1rem;
+				&:not(:last-of-type) {
+					margin-right: 15px;
+				}
+			}
+		}
+
+		&:not(:last-of-type) {
+			margin-bottom: 30px;
+		}
+	}
+}

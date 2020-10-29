@@ -4,6 +4,9 @@ description: >-
     I'm a developer, dogperson, and hiker. I'm currently studying Computer Security @UiB. This is my corner on the interwebs, have a look around.
 url: "https://harek.dev"
 
+sass:
+    sass_dir: assets/_sass
+
 primary_color: 0096F5
 
 github_username: timharek
