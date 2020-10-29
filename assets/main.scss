@@ -130,7 +130,7 @@ body {
 					transition: 150ms;
 					&:hover {
 						box-shadow: 0 0 30px rgba(0, 0, 0, 0.14);
-						transform: scale(1.01) rotate(0deg);
+						transform: translateY(-5px);
 					}
 
 					.logo {
