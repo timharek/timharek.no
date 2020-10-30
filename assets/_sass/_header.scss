@@ -5,6 +5,10 @@ header {
 	justify-content: space-between;
 	margin-bottom: 50px;
 
+	@media screen and (max-width: $breakpoint-small) {
+		margin-bottom: 25px;
+	}
+
 	svg {
 		width: 75px;
 	}

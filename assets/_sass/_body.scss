@@ -31,7 +31,7 @@ body {
 	height: 100vh - margin-top;
 
 	@media screen and (max-width: $breakpoint-small) {
-		margin-top: 50px;
+		margin-top: 15px;
 	}
 
 	&.animate {
@@ -54,6 +54,10 @@ body {
 		.content {
 			.intro {
 				margin-bottom: 50px;
+
+				@media screen and (max-width: $breakpoint-small) {
+					margin-bottom: 15px;
+				}
 
 				.name {
 					text-transform: uppercase;
