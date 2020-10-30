@@ -47,8 +47,18 @@
 
 			a {
 				font-size: 1.1rem;
+
 				&:not(:last-of-type) {
 					margin-right: 15px;
+				}
+
+				@media screen and (max-width: $breakpoint-medium2) {
+					display: block;
+					margin-right: 0;
+
+					&:not(:last-of-type) {
+						margin-bottom: 10px;
+					}
 				}
 			}
 		}
