@@ -23,6 +23,19 @@ header {
 			li {
 				display: inline;
 
+				a {
+					padding: 10px;
+					border-radius: 10px;
+
+					&:hover {
+						@media (prefers-color-scheme: dark) {
+							background: #3a3a3a;
+						}
+						background: $secondary-light-color;
+						transition: all 350ms;
+					}
+				}
+
 				&:not(:last-of-type) {
 					margin-right: 15px;
 				}
