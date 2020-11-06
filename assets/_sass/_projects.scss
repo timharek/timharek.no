@@ -18,9 +18,14 @@
 
 		.logo {
 			margin-right: 25px;
-		}
-		img {
-			width: 50px;
+
+			img {
+				width: 50px;
+
+				@media screen and (max-width: $breakpoint-medium2) {
+					width: 35px;
+				}
+			}
 		}
 
 		.desc {
