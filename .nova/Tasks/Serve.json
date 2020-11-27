@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n.\/start.sh"
+    }
+  },
+  "identifier" : "DF460D29-E015-4F72-B90E-5A3816946BCA"
+}
