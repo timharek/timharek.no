@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Privacy
+footer-title: "/privacy"
 permalink: /privacy
 menu: footer
 ---

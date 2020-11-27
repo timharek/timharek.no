@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Contact
+footer-title: "/contact"
 permalink: /contact
 menu: footer
 ---
