@@ -1,11 +1,13 @@
 ---
-layout: default
+layout: project
 title: "Vest Kontakt"
 client: "Vest Kontakt AS"
+type: Identity design, web design and web development
+timeframe: Summer 2018 - ongoing
 permalink: /projects/vestkontakt
 ---
 
-# Vest Kontakt AS
+![](/assets/projects/vestkontakt/web-2020.png)
 
 I started working for VK back in 2012, as a part-time job beside senior high school. I've learned what this business inside out, as I've been part of everything from the assembly of their products to be a part of the sales process for their customers offshore, like Equinor (previously Statoil), Aker BP etc.
 

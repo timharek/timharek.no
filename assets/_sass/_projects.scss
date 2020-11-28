@@ -73,3 +73,15 @@
 		}
 	}
 }
+
+article.project {
+	.meta {
+		display: block;
+		font-size: 1.25rem;
+		color: $secondary-dark-color;
+
+		&:not(:last-of-type) {
+			margin-bottom: 10px;
+		}
+	}
+}
