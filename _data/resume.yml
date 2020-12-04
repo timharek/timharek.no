@@ -31,8 +31,8 @@ experience:
       end: 2020-08-03
       glyph: /assets/img/resume/empty.svg
       desc:
-          - Repair on computers on location at different customers
-          - IT support at ABB Bergen Kokstad
+          - Computer-repair of Dell and Lenovo computers, both laptops and desktops.
+          - IT support at ABB Bergen Kokstad.
     - name: Appex
       role: Developer (Summer intern)
       current: false
@@ -49,14 +49,14 @@ voluntary:
       end:
       glyph: /assets/img/resume/srib.svg
       desc:
-          - Development of new website
+          - Development of their new website, using new technologies.
     - name: friByte
       role: Member
       start: 2020-09-08
       end:
       glyph: /assets/img/resume/fribyte.svg
       desc:
-          - Maintenence and operation of IT systems for different student organizations in Bergen
+          - Maintenence and operation of IT systems for student organizations in Bergen.
 education:
     - name: University of Bergen
       degree: Bachelor in Computer Security
@@ -64,7 +64,7 @@ education:
       end:
       glyph: /assets/img/resume/uib.svg
       desc: >-
-          hei
+          A bachelors degree in Computer Science with an extra emphasis on security.
 programming:
     - Java
     - "C#"

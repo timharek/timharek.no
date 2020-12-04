@@ -36,11 +36,15 @@ menu: main
             </div>
 
             <div class="desc">
+                {% if exp.desc.size > 1 %}
                 <ul>
                     {% for desc in exp.desc %}
                     <li>{{ desc }}</li>
                     {% endfor %}
                 </ul>
+                {% else %}
+                <p>{{ exp.desc }}</p>
+                {% endif %}
             </div>
         </div>
         {% endfor %} {% assign prev_exp = prev_exp | sort: 'end' | reverse %} {% for exp in prev_exp %}
@@ -55,11 +59,15 @@ menu: main
             </div>
 
             <div class="desc">
+                {% if exp.desc.size > 1 %}
                 <ul>
                     {% for desc in exp.desc %}
                     <li>{{ desc }}</li>
                     {% endfor %}
                 </ul>
+                {% else %}
+                <p>{{ exp.desc }}</p>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
@@ -78,7 +86,15 @@ menu: main
             </div>
 
             <div class="desc">
+                {% if vol.desc.size > 1 %}
+                <ul>
+                    {% for desc in vol.desc %}
+                    <li>{{ desc }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
                 <p>{{ vol.desc }}</p>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
@@ -97,7 +113,7 @@ menu: main
             </div>
 
             <div class="desc">
-                <p>{{ vol.desc }}</p>
+                <p>{{ edu.desc }}</p>
             </div>
         </div>
         {% endfor %}
