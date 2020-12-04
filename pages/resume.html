@@ -5,20 +5,19 @@ permalink: /resume
 menu: main
 ---
 
-{% assign resume = site.data.resume %} 
+{% assign resume = site.data.resume %}
 
 <div class="resume">
-    
     <h1>Tim Hårek Andreassen</h1>
-    
+
     <div class="tldr">
         <h2>tl;dr</h2>
-        <p>{{ site.data.resume.tldr }}</p>
+        <p>{{ resume.tldr }}</p>
     </div>
     <div class="experience">
         <h2>Experience</h2>
-        {% assign sorted_exp = site.data.resume.experience | sort: 'end' %} {% assign current_exp = sorted_exp | where: 'current', 'true' %} {% assign prev_exp
-        = sorted_exp | where: 'current', 'false' %} {% for exp in current_exp %}
+        {% assign sorted_exp = resume.experience | sort: 'end' %} {% assign current_exp = sorted_exp | where: 'current', 'true' %} {% assign prev_exp =
+        sorted_exp | where: 'current', 'false' %} {% for exp in current_exp %}
         <div class="work current">
             <div class="title">
                 <img src="{{ exp.glyph }}" alt="" class="glyph" />
@@ -68,7 +67,7 @@ menu: main
     </div>
     <div class="voluntary">
         <h2>Voluntary work</h2>
-        {% for vol in site.data.resume.voluntary %}
+        {% for vol in resume.voluntary %}
         <div class="work">
             <div class="title">
                 <img src="{{ vol.glyph }}" alt="" class="glyph" />
@@ -95,7 +94,7 @@ menu: main
     </div>
     <div class="education">
         <h2>Education</h2>
-        {% for edu in site.data.resume.education %}
+        {% for edu in esume.education %}
         <div class="edu">
             <div class="title">
                 <img src="{{ edu.glyph }}" alt="" class="glyph" />
@@ -116,27 +115,27 @@ menu: main
         <h2>Skills</h2>
         <div class="category">
             <h3>Programming languages</h3>
-            {% assign programming = site.data.resume.programming %}
+            {% assign programming = resume.programming %}
             <span class="subskills"> {{ programming | join: ", "}} </span>
         </div>
         <div class="category">
             <h3>Libraries and frameworks</h3>
-            {% assign libraries = site.data.resume.libraries %}
+            {% assign libraries = resume.libraries %}
             <span class="subskills"> {{ libraries | join: ", "}} </span>
         </div>
         <div class="category">
             <h3>Tools</h3>
-            {% assign tools = site.data.resume.tools %}
+            {% assign tools = resume.tools %}
             <span class="subskills"> {{ tools | join: ", "}} </span>
         </div>
         <div class="category">
             <h3>Platforms</h3>
-            {% assign platforms = site.data.resume.platforms %}
+            {% assign platforms = resume.platforms %}
             <span class="subskills"> {{ platforms | join: ", "}} </span>
         </div>
         <div class="category">
             <h3>Design</h3>
-            {% assign design = site.data.resume.design %}
+            {% assign design = resume.design %}
             <span class="subskills"> {{ design | join: ", "}} </span>
         </div>
     </div>

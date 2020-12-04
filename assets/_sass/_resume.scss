@@ -13,6 +13,13 @@
     .voluntary,
     .skills {
         margin-bottom: 30px;
+        ul,
+        p {
+            @media (prefers-color-scheme: light) {
+                color: $primary-dark-color;
+            }
+            color: $primary-light-color;
+        }
     }
 
     .experience,
@@ -57,13 +64,6 @@
                     padding: 0;
                     margin: 10px 0;
                     margin-left: 20px;
-                }
-                ul,
-                p {
-                    @media (prefers-color-scheme: light) {
-                        color: $primary-dark-color;
-                    }
-                    color: $primary-light-color;
                 }
             }
         }
