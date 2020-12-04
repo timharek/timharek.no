@@ -2,10 +2,16 @@
 
 > Personal website of Tim Hårek
 
-My very own website, where I share my thoughts, projects etc. Made with [Jekyll](https://jekyllrb.com/)
+My own website, with some of my projects, about section, resume and contact details with my public key. Nothing more, nothing less.
 
-## To further develop
+Made with [Jekyll](https://jekyllrb.com/)
+
+## Quick start
 
 ```sh
 ./start.sh
 ```
+
+## License
+
+MIT © [Tim Hårek](https://harek.dev)
