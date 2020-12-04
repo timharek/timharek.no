@@ -32,6 +32,9 @@
             }
             .title {
                 display: flex;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
 
                 img {
                     max-width: 50px;
