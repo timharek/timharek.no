@@ -1,0 +1,85 @@
+.resume {
+    font-size: 1.1rem;
+    h1 {
+    }
+    p {
+        font-size: inherit;
+    }
+
+    .info,
+    .tldr,
+    .experience,
+    .education,
+    .voluntary,
+    .skills {
+        margin-bottom: 30px;
+    }
+
+    .experience,
+    .education,
+    .voluntary {
+        .work,
+        .edu {
+            &:not(:last-of-type) {
+                margin-bottom: 30px;
+            }
+            .title {
+                display: flex;
+
+                img {
+                    max-width: 50px;
+                    margin-right: 20px;
+                }
+                .meta {
+                    h3 {
+                        font-size: 1.35rem;
+                        font-weight: 500;
+                    }
+                    h4 {
+                        display: inline-block;
+                        font-size: 1.1rem;
+                        font-weight: 400;
+                    }
+                    .duration {
+                        display: inline-block;
+                        font-size: 1rem;
+                    }
+
+                    & > * {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .desc {
+                font-size: inherit;
+                ul {
+                    padding: 0;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+
+    .skills {
+        .category {
+            display: flex;
+            align-content: center;
+            align-items: center;
+
+            @media screen and (max-width: $breakpoint-medium) {
+                display: block;
+                &:not(:last-of-type) {
+                    margin-bottom: 30px;
+                }
+            }
+
+            h3 {
+                font-weight: 500;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                width: 50%;
+            }
+        }
+    }
+}

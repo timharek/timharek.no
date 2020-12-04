@@ -1,0 +1,133 @@
+---
+layout: default
+title: Resume
+permalink: /resume
+menu: main
+---
+
+<div class="resume">
+    <h1>Tim Hårek Andreassen</h1>
+    <div class="info">
+        <h2>
+            <code class="language-plaintext highlighter-rouge">metadata</code>
+        </h2>
+        <ul>
+            {% for info in site.data.resume.info %}
+            <li>{{ info[0] | capitalize }}: {{ info[1] }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="tldr">
+        <h2>tl;dr</h2>
+        <p>{{ site.data.resume.tldr }}</p>
+    </div>
+    <div class="experience">
+        <h2>Experience</h2>
+        {% assign sorted_exp = site.data.resume.experience | sort: 'end' %} {% assign current_exp = sorted_exp | where: 'current', 'true' %} {% assign prev_exp
+        = sorted_exp | where: 'current', 'false' %} {% for exp in current_exp %}
+        <div class="work current">
+            <div class="title">
+                <img src="{{ exp.glyph }}" alt="" class="glyph" />
+                <div class="meta">
+                    <h3>{{ exp.name }}</h3>
+                    <h4>{{ exp.role }}</h4>
+                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "current" | date: "%b %Y"}} </span>
+                </div>
+            </div>
+
+            <div class="desc">
+                <ul>
+                    {% for desc in exp.desc %}
+                    <li>{{ desc }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %} {% assign prev_exp = prev_exp | sort: 'end' | reverse %} {% for exp in prev_exp %}
+        <div class="work previous">
+            <div class="title">
+                <img src="{{ exp.glyph }}" alt="" class="glyph" />
+                <div class="meta">
+                    <h3>{{ exp.name }}</h3>
+                    <h4>{{ exp.role }}</h4>
+                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "current" | date: "%b %Y"}} </span>
+                </div>
+            </div>
+
+            <div class="desc">
+                <ul>
+                    {% for desc in exp.desc %}
+                    <li>{{ desc }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="voluntary">
+        <h2>Voluntary work</h2>
+        {% for vol in site.data.resume.voluntary %}
+        <div class="work">
+            <div class="title">
+                <img src="{{ vol.glyph }}" alt="" class="glyph" />
+                <div class="meta">
+                    <h3>{{ vol.name }}</h3>
+                    <h4>{{ vol.role }}</h4>
+                    <span class="duration">— {{ vol.start | date: "%b %Y" }} - {{ vol.end | date: "%b %Y" | default: 'current'}}</span>
+                </div>
+            </div>
+
+            <div class="desc">
+                <p>{{ vol.desc }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="education">
+        <h2>Education</h2>
+        {% for edu in site.data.resume.education %}
+        <div class="edu">
+            <div class="title">
+                <img src="{{ edu.glyph }}" alt="" class="glyph" />
+                <div class="meta">
+                    <h3>{{ edu.name }}</h3>
+                    <h4>{{ edu.degree }}</h4>
+                    <span class="duration">— {{ edu.start | date: "%b %Y" }} - {{ edu.end | default: 'current'}}</span>
+                </div>
+            </div>
+
+            <div class="desc">
+                <p>{{ vol.desc }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="category">
+            <h3>Programming languages</h3>
+            {% assign programming = site.data.resume.programming %}
+            <span class="subskills"> {{ programming | join: ", "}} </span>
+        </div>
+        <div class="category">
+            <h3>Libraries and frameworks</h3>
+            {% assign libraries = site.data.resume.libraries %}
+            <span class="subskills"> {{ libraries | join: ", "}} </span>
+        </div>
+        <div class="category">
+            <h3>Tools</h3>
+            {% assign tools = site.data.resume.tools %}
+            <span class="subskills"> {{ tools | join: ", "}} </span>
+        </div>
+        <div class="category">
+            <h3>Platforms</h3>
+            {% assign platforms = site.data.resume.platforms %}
+            <span class="subskills"> {{ platforms | join: ", "}} </span>
+        </div>
+        <div class="category">
+            <h3>Design</h3>
+            {% assign design = site.data.resume.design %}
+            <span class="subskills"> {{ design | join: ", "}} </span>
+        </div>
+    </div>
+</div>
