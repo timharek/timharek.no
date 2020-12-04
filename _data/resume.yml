@@ -1,10 +1,7 @@
-info:
-    birthdate: 1996-11-29
-    linkedin: timhrek
-    github: timharek
 tldr:
-    "I'm 24 years old, and have major interest for technology, especially computers/IT. As of today, I'm on my last semester for Computer Security at UiB. I
-    have two part-time jobs; IT assisent at UiB and IT manager at an oil-service company Vest Kontakt as."
+    I'm a developer from the west coast of Norway with an eerie interest for privacy, security and design. Currently I'm finishing my last semester of my
+    bachelors degree in Computer Security at the University of Bergen. I have two part-time jobs beside my studies, at the University and for an oil-service
+    company, Vest Kontakt AS.
 experience:
     - name: Vest Kontakt AS
       role: IT Manager

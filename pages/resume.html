@@ -5,18 +5,12 @@ permalink: /resume
 menu: main
 ---
 
+{% assign resume = site.data.resume %} 
+
 <div class="resume">
+    
     <h1>Tim Hårek Andreassen</h1>
-    <div class="info">
-        <h2>
-            <code class="language-plaintext highlighter-rouge">metadata</code>
-        </h2>
-        <ul>
-            {% for info in site.data.resume.info %}
-            <li>{{ info[0] | capitalize }}: {{ info[1] }}</li>
-            {% endfor %}
-        </ul>
-    </div>
+    
     <div class="tldr">
         <h2>tl;dr</h2>
         <p>{{ site.data.resume.tldr }}</p>
