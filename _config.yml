@@ -9,7 +9,6 @@ sass:
 primary_color: 0096F5
 
 github_username: timharek
-linkedin_username: timhrek
 
 plugins:
     - jekyll-feed
