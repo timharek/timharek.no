@@ -16,8 +16,11 @@ menu: main
     </div>
     <div class="experience">
         <h2>Experience</h2>
-        {% assign sorted_exp = resume.experience | sort: 'end' %} {% assign current_exp = sorted_exp | where: 'current', 'true' %} {% assign prev_exp =
-        sorted_exp | where: 'current', 'false' %} {% for exp in current_exp %}
+        <!-- prettier-ignore -->
+        {% assign sorted_exp = resume.experience | sort: 'end' %}
+        {% assign current_exp = sorted_exp | where: 'current', 'true' %}
+        {% assign prev_exp = sorted_exp | where: 'current', 'false' %}
+        {% for exp in current_exp %}
         <div class="work current">
             <div class="title">
                 <img src="{{ exp.glyph }}" alt="" class="glyph" />
@@ -40,7 +43,10 @@ menu: main
                 {% endif %}
             </div>
         </div>
-        {% endfor %} {% assign prev_exp = prev_exp | sort: 'end' | reverse %} {% for exp in prev_exp %}
+        {% endfor %}
+        <!-- prettier-ignore -->
+        {% assign prev_exp = prev_exp | sort: 'end' | reverse %}
+        {% for exp in prev_exp %}
         <div class="work previous">
             <div class="title">
                 <img src="{{ exp.glyph }}" alt="" class="glyph" />
