@@ -1,4 +1,4 @@
-# [harek.dev](https://harek.dev)
+# [timharek.no](https://timharek.no)
 
 > Personal website of Tim Hårek
 
@@ -14,4 +14,4 @@ Made with [Jekyll](https://jekyllrb.com/)
 
 ## License
 
-MIT © [Tim Hårek](https://harek.dev)
+MIT © [Tim Hårek](https://timharek.no)
