@@ -25,8 +25,6 @@ I wanted to be true the original logo, so I kept the red accent to the logo, whi
 
 ![](/assets/img/projects/vestkontakt/symbols.png)
 
-Our symbol was a bit more difficult, as the old one was not related to the logo itself. So I chose to just use our new "V" as our symbol, this has always been meant to be a temporary solution.
-
 ## Moving databases, e-mail provider, CRM
 
 As with the new logo in 2018, we needed to move systems over to a new modern accounting system that we could get support for, as the one we were using had not been updated since 1991.
@@ -47,7 +45,7 @@ We went from using no CRM to using Streak, the free version, where we only use i
 
 ## New website
 
-In 2020 the company was sold to [Tollaksvik AS](https://tollaksvik.no), to be part of the [Saga Group]().
+In 2020 the company was sold to [Tollaksvik AS](https://tollaksvik.no), to be part of the [Saga Group](https://sagasubsea.com).
 
 They made it possible for me to be allowed to fix and bring our website up to date! There is still some work to be done, but within Q1 of 2021, the website should be fully static instead dynamically maintained by PHP.
 
@@ -67,10 +65,10 @@ Not much changed during those 8 years, VK removed the web store because people e
 
 ![](/assets/img/projects/vestkontakt/web-2020.png)
 
-Today, VK's website is simpler and much easier to understand and navigate. We've gained a lot more traffic since our redesign, our customers stays on our website on average for 1 min for new users and mainly go for our contact-page. So our redesign has been worth it.
+Today, VK's website is simpler and much easier to understand and navigate. We've gained a lot more traffic since our redesign, our customers stays on our website on average for 2 min for new users and mainly go for our contact-page. So our redesign has been worth it.
 
 You can check it out via [vestkontakt.no](https://vestkontakt.no)
 
 ## Project is still work in progress
 
-I will update this case study as it progresses, I want this to reflect what I've been able to improve Vest Kontakt AS.
+I will update this case study as it progresses, I want this to reflect what I've been able to improve at Vest Kontakt AS.
