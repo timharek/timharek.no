@@ -34,6 +34,13 @@ header {
 						background: $secondary-light-color;
 						transition: all 350ms;
 					}
+
+					&.page-link.current {
+						@media (prefers-color-scheme: dark) {
+							background: #3a3a3a;
+						}
+						background: $secondary-light-color;
+					}
 				}
 
 				&:not(:last-of-type) {

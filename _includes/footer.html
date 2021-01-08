@@ -1,10 +1,15 @@
 <footer>
-    {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths = site.header_pages | default: default_paths -%}
-
     <div class="copyright">
-        {%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path", path | first -%} {%- if my_page.menu == 'footer' -%}
-        <a class="footer-link" href="{{ my_page.url | relative_url }}">{{ my_page.footer-title | escape }}</a>
-        {%- endif -%} {%- endfor -%}
+        
+        {% assign pages = site.pages %}
+        {% for this_page in pages %}
+            {% for page_menu in this_page.menu %}
+                {% if page_menu == "footer" %}
+                    <a class="footer-link" href="{{ this_page.url | relative_url }}">{{ this_page.footer-title | escape }}</a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
         <a class="footer-link" href="https://harek.photos" rel="noopener noreferrer" target="_blank">.photos</a>
     </div>
 
