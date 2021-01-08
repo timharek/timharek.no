@@ -11,4 +11,15 @@
 		display: none;
 		margin: 0;
 	}
+
+	.resume h1:before {
+		content: "CV - ";
+	}
+
+	.secret {
+		display: inline !important;
+		&:before {
+			content: "tim@harek.dev";
+		}
+	}
 }
