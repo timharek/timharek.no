@@ -7,7 +7,7 @@ timeframe: Summer 2018 - ongoing
 permalink: /projects/vestkontakt
 ---
 
-![](/assets/projects/vestkontakt/web-2020.png)
+![](/assets/img/projects/vestkontakt/web-2020.png)
 
 I started working for VK back in 2012, as a part-time job beside senior high school. I've learned what this business inside out, as I've been part of everything from the assembly of their products to be a part of the sales process for their customers offshore, like Equinor (previously Statoil), Aker BP etc.
 
@@ -17,13 +17,13 @@ Today, my responsibility consists mainly of providing them with IT support and s
 
 ## New identity
 
-![](/assets/projects/vestkontakt/logos.png)
+![](/assets/img/projects/vestkontakt/logos.png)
 
 In 2018, I redesigned their logo. I gave it more of a consistency than it had before, because it was using two totally different logos for the same brand, which was confusing our new customers.
 
 I wanted to be true the original logo, so I kept the red accent to the logo, which I've always found to show that this is a Norwegian company, that it has a part of our national flag in it.
 
-![](/assets/projects/vestkontakt/symbols.png)
+![](/assets/img/projects/vestkontakt/symbols.png)
 
 Our symbol was a bit more difficult, as the old one was not related to the logo itself. So I chose to just use our new "V" as our symbol, this has always been meant to be a temporary solution.
 
@@ -53,19 +53,19 @@ They made it possible for me to be allowed to fix and bring our website up to da
 
 ### Website from 2004
 
-![](/assets/projects/vestkontakt/web-2004.png)
+![](/assets/img/projects/vestkontakt/web-2004.png)
 
 VK used to have a web store, that was selfhosted and maintained by a local developer.
 
 ### Website from 2012
 
-![](/assets/projects/vestkontakt/web-2012.png)
+![](/assets/img/projects/vestkontakt/web-2012.png)
 
 Not much changed during those 8 years, VK removed the web store because people exploited it and made fake orders.
 
 ### Website today
 
-![](/assets/projects/vestkontakt/web-2020.png)
+![](/assets/img/projects/vestkontakt/web-2020.png)
 
 Today, VK's website is simpler and much easier to understand and navigate. We've gained a lot more traffic since our redesign, our customers stays on our website on average for 1 min for new users and mainly go for our contact-page. So our redesign has been worth it.
 
