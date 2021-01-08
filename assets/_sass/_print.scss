@@ -1,6 +1,14 @@
 @media print {
-    header,
-    footer {
-        display: none;
-    }
+	@page {
+		size: A4;
+	}
+
+	.wrapper {
+		margin: 0;
+	}
+	header,
+	footer {
+		display: none;
+		margin: 0;
+	}
 }
