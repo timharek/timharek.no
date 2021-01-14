@@ -5,6 +5,7 @@ client: "Vest Kontakt AS"
 type: Identity design, web design and web development
 timeframe: Summer 2018 - ongoing
 permalink: /projects/vestkontakt
+description: Case study of what Tim Hårek has done for Vest Kontakt AS.
 ---
 
 ![](/assets/img/projects/vestkontakt/web-2020.png)

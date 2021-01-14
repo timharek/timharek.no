@@ -4,6 +4,7 @@ title: Public key
 footer-title: "/key"
 permalink: /key
 menu: footer
+description: Tim Hårek's public key PGP
 ---
 
 fingerprint: `18131862de62d969f02a14e834853dfd0b419a0d`

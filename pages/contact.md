@@ -4,6 +4,7 @@ title: Contact
 footer-title: "/contact"
 permalink: /contact
 menu: footer
+description: How to contact Tim Hårek
 ---
 
 {% assign email = site.email | split: "@" %}

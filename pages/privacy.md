@@ -4,6 +4,7 @@ title: Privacy
 footer-title: "/privacy"
 permalink: /privacy
 menu: footer
+description: Tim Hårek's privacy policy. No personal data is collected.
 ---
 
 I will never collect any personal data from you, whenever you visit or use something that I've created, period.
