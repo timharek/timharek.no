@@ -3,7 +3,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 50px;
+	margin-bottom: 1.5em;
 
 	@media screen and (max-width: $breakpoint-small) {
 		margin-bottom: 25px;
@@ -14,7 +14,7 @@ header {
 	}
 
 	nav {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -25,7 +25,7 @@ header {
 
 				a {
 					padding: 10px;
-					border-radius: 10px;
+					border-radius: 5px;
 
 					&:hover {
 						@media (prefers-color-scheme: dark) {

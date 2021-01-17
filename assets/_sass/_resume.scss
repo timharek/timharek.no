@@ -1,13 +1,15 @@
 .resume {
-	font-size: 1.1rem;
-	h1 {
-	}
-	p {
-		font-size: inherit;
+	font-size: 1rem;
+	h2 {
+		margin: 10px 0;
 	}
 
 	.secret {
 		display: none;
+	}
+
+	.tldr p {
+		margin-bottom: 0;
 	}
 
 	.info,
@@ -16,8 +18,7 @@
 	.education,
 	.voluntary,
 	.skills {
-		margin-bottom: 30px;
-		page-break-inside: avoid;
+		margin-bottom: 1.25em;
 		ul,
 		p {
 			@media (prefers-color-scheme: light) {
@@ -34,7 +35,7 @@
 		.edu {
 			page-break-inside: avoid;
 			&:not(:last-of-type) {
-				margin-bottom: 30px;
+				margin-bottom: 1.25em;
 			}
 			.title {
 				display: flex;
@@ -72,7 +73,7 @@
 				font-size: inherit;
 				ul {
 					padding: 0;
-					margin: 10px 0;
+					margin: 5px 0;
 					margin-left: 20px;
 				}
 			}
@@ -88,14 +89,13 @@
 			@media screen and (max-width: $breakpoint-medium) {
 				display: block;
 				&:not(:last-of-type) {
-					margin-bottom: 30px;
+					margin-bottom: 1.5em;
 				}
 			}
 
 			h3 {
 				font-weight: 500;
-				margin-top: 5px;
-				margin-bottom: 5px;
+				margin: 0;
 				width: 50%;
 			}
 		}

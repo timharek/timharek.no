@@ -9,13 +9,17 @@ body {
 	margin: 0;
 	padding: 0;
 
+	font-size: $font-size-desktop;
+
+	line-height: 1.5;
+
+	@media screen and (max-width: $breakpoint-medium2) {
+		font-size: $font-size-mobile;
+	}
+
 	@media (prefers-color-scheme: dark) {
 		background-color: $primary-dark-color;
 		color: $primary-light-color;
-
-		p {
-			color: $secondary-light-color;
-		}
 	}
 }
 
@@ -26,9 +30,13 @@ body {
 	max-width: $site-max-width;
 	height: 100vh - margin-top;
 
+	@media screen and (max-width: $breakpoint-medium2) {
+		margin-top: 50px;
+	}
+
 	@media screen and (max-width: $breakpoint-small) {
-		margin-top: 15px;
-		margin-bottom: 10px;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
 	}
 
 	&.animate {
@@ -50,11 +58,7 @@ body {
 
 		.content {
 			.intro {
-				margin-bottom: 50px;
-
-				@media screen and (max-width: $breakpoint-small) {
-					margin-bottom: 15px;
-				}
+				margin-bottom: 1.5em;
 
 				.name {
 					text-transform: uppercase;
