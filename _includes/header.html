@@ -32,22 +32,19 @@
 
     <nav role="navigation">
         <ul class="navigation">
-            {% assign pages = site.pages %}
+            {% assign pages = site.pages | where: "menu", "main" %}
             {% for this_page in pages %}
-                {% for page_menu in this_page.menu %}
-                    {% if page_menu == "main" %}
-                        <li>
-                        
-                            <a 
-                            {% if page.url == this_page.url %}
-                                class="page-link current"
-                            {% else %}
-                                class="page-link"
-                            {% endif %}
-                            href="{{ this_page.url | relative_url }}">{{ this_page.title | escape }}</a>
+                <li>
+                    
+                    <a 
+                    {% if page.url == this_page.url %}
+                        class="page-link current"
+                    {% else %}
+                        class="page-link"
                     {% endif %}
-                    </li>
-                {% endfor %}
+                    href="{{ this_page.url | relative_url }}">{{ this_page.title | escape }}</a>
+
+                </li>
             {% endfor %}
         </ul>
     </nav>

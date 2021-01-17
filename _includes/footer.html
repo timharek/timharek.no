@@ -1,13 +1,9 @@
 <footer>
     <div class="copyright">
         
-        {% assign pages = site.pages %}
+        {% assign pages = site.pages | where: "menu", "footer" %}
         {% for this_page in pages %}
-            {% for page_menu in this_page.menu %}
-                {% if page_menu == "footer" %}
-                    <a class="footer-link" href="{{ this_page.url | relative_url }}">{{ this_page.footer-title | escape }}</a>
-                {% endif %}
-            {% endfor %}
+            <a class="footer-link" href="{{ this_page.url | relative_url }}">{{ this_page.footer-title | escape }}</a>
         {% endfor %}
 
         <a class="footer-link external" href="https://harek.photos" rel="noopener noreferrer" target="_blank">.photos</a>
