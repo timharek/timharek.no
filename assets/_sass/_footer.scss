@@ -41,12 +41,17 @@ footer {
 			}
 		}
 
-		a svg {
-			width: 25px;
-			fill: $secondary-dark-color;
+		a {
+			&.external::after {
+				display: none;
+			}
+			svg {
+				width: 25px;
+				fill: $secondary-dark-color;
 
-			@media screen and (max-width: $breakpoint-xtra-small) {
-				width: 20px;
+				@media screen and (max-width: $breakpoint-xtra-small) {
+					width: 20px;
+				}
 			}
 		}
 	}

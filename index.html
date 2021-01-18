@@ -20,9 +20,9 @@ animate: animate
                 {% if project.casestudy %}
                 <a href="projects/{{ project.casestudy }}">Case study</a>
                 {% endif %} {% if project.link %}
-                <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="external">{{ project.link_short }}</a>
+                <a href="{{ project.link }}">{{ project.link_short }}</a>
                 {% endif %} {% if project.github %}
-                <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer" class="external">View on GitHub</a>
+                <a href="{{ project.github }}">View on GitHub</a>
                 {% endif %}
             </div>
         </div>
