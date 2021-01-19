@@ -3,6 +3,8 @@ $code-bg-dark: #151515;
 .language-plaintext {
 	font-family: $font-family-mono;
 	background: $code-bg-dark;
+    overflow-x: scroll;
+    max-width: 100%;
 
 	&.highlighter-rouge {
 		color: $primary-light-color !important;
