@@ -12,6 +12,12 @@ Made with [Jekyll](https://jekyllrb.com/)
 ./start.sh
 ```
 
+## Installation
+```sh
+bundle install
+./start.sh
+```
+
 ## License
 
 MIT © [Tim Hårek](https://timharek.no)
