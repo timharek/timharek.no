@@ -14,5 +14,10 @@ plugins:
     - jekyll-feed
     - jekyll-target-blank
 
+exclude: 
+    - start.sh
+    - README.md
+    - LICENSE
+
 target-blank:
     add_css_classes: external
