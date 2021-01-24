@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Resume
+title: Résumé
 permalink: /resume
 menu: main
-description: Tim Hårek's resume. Experience, education and skills.
+description: Tim Hårek's résumé. Experience, education and skills.
 ---
 
 {% assign resume = site.data.resume %}
@@ -75,7 +75,8 @@ description: Tim Hårek's resume. Experience, education and skills.
     </div>
     <div class="voluntary">
         <h2>Voluntary work</h2>
-        {% for vol in resume.voluntary %}
+        {% assign voluntary = resume.voluntary | sort: 'start' | reverse %}
+        {% for vol in voluntary %}
         <div class="work">
             <div class="title">
                 <img src="{{ vol.glyph }}" alt="" class="glyph" />

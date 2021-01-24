@@ -46,17 +46,21 @@ voluntary:
     - name: Studentradioen i Bergen
       role: Web developer
       start: 2020-02-12
-      end:
       glyph: /assets/img/resume/srib.svg
       desc:
           - Development of their new website, using new technologies.
     - name: friByte
       role: Member
       start: 2020-09-08
-      end:
+      end: 2021-01-23
       glyph: /assets/img/resume/fribyte.svg
       desc:
           - Maintenence and operation of IT systems for student organizations in Bergen.
+    - name: friByte
+      role: Leader
+      start: 2021-01-23
+      glyph: /assets/img/resume/fribyte.svg
+    # desc:
 education:
     - name: University of Bergen
       degree: Bachelor in Computer Security
