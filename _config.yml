@@ -12,6 +12,7 @@ github_username: timharek
 
 plugins:
     - jekyll-feed
+    - jekyll-json-feed
     - jekyll-target-blank
     - jekyll-redirect-from
 
