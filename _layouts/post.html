@@ -17,8 +17,7 @@ layout: default
                 datetime="{{ page.date | date_to_xmlschema }}"
                 itemprop="datePublished"
             >
-                {%- assign date_format = site.minima.date_format | default: "%b
-                %-d, %Y" -%} {{ page.date | date: date_format }}
+            {{ page.date | date: "%b %d, %Y"}}
             </time>
             {%- if page.author -%} •
             <span
@@ -26,7 +25,7 @@ layout: default
                 itemscope
                 itemtype="http://schema.org/Person"
                 ><span class="p-author h-card" itemprop="name"
-                    >{{ page.author }}</span
+                    >By {{ page.author }}</span
                 ></span
             >
             {%- endif -%}
