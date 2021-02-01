@@ -42,9 +42,6 @@ footer {
 		}
 
 		a {
-			&.external::after {
-				display: none;
-			}
 			svg {
 				width: 25px;
 				fill: $secondary-dark-color;
