@@ -1,5 +1,11 @@
 ul.blog {
     margin-left: 0;
+
+    li {
+        .date {
+            float: right;
+        }
+    }
 }
 
 article {

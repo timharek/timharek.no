@@ -2,7 +2,7 @@
 layout: post
 date: 2021-01-28
 title: "Hello world #29"
-summary: I swear, this is the last time I will try to do this
+summary: Hello world. I am Tim Hårek, you have found my corner on the interwebs. This is my humble blog beginnings, welcome. 
 author: Tim Hårek
 tags: nothing
 ---
