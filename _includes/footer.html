@@ -3,10 +3,10 @@
         
         {% assign pages = site.pages | where: "menu", "footer" %}
         {% for this_page in pages %}
-            <a class="footer-link" href="{{ this_page.url | relative_url }}">{{ this_page.footer-title | escape }}</a>
+            <a class="footer-link" href="{{ this_page.url | relative_url }}">{{ this_page.title | escape }}</a>
         {% endfor %}
 
-        <a class="footer-link" href="https://harek.photos">.photos</a>
+        <a class="footer-link" href="https://harek.photos">Photos</a>
     </div>
 
     <div class="social">

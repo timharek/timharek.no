@@ -11,4 +11,4 @@ description: How to contact Tim Hårek
 
 You reach me at _{{ email[0] }}_ **at** _{{ email[1] }}_, my [public key](/key).
 
-I'm always happy to answer questions, or get any kind of feedback!
+I am always happy to answer questions, or get any kind of feedback!

@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Public key
-footer-title: "/key"
 permalink: /key
-menu: footer
 description: Tim Hårek's public key PGP
 ---
 
