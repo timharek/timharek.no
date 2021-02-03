@@ -5,9 +5,9 @@ permalink: /key
 description: Tim Hårek's public key PGP
 ---
 
-fingerprint: `18131862de62d969f02a14e834853dfd0b419a0d`
+Fingerprint: `18131862de62d969f02a14e834853dfd0b419a0d`
 
-You can download my key [here](/assets/public-key.asc)
+You can download my key [here](/assets/public-key.asc), you can also find it on [keys.openpgp.org](https://keys.openpgp.org/search?q=tim%40harek.dev).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
