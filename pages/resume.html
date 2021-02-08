@@ -84,8 +84,16 @@ redirect_from:
                 <img src="{{ vol.glyph }}" alt="" class="glyph" />
                 <div class="meta">
                     <h3>{{ vol.name }}</h3>
-                    <h4>{{ vol.role }}</h4>
-                    <span class="duration">— {{ vol.start | date: "%b %Y" }} - {{ vol.end | date: "%b %Y" | default: 'current'}}</span>
+                    {% for role in vol.role %}
+                        {% if vol.role.size > 1 %}
+                            <h4>{{ role.name }}</h4>
+                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'current'}}</span>
+                            <br>
+                        {% else %}
+                            <h4>{{ role.name }}</h4>
+                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'current'}}</span>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
 
