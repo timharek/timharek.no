@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+title_alt: <code class="language-plaintext highlighter-rouge">whoami</code>
 permalink: /about
 menu: main
 description: About Tim Hårek, a developer based in Norway.

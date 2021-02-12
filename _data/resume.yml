@@ -1,12 +1,12 @@
-last_update: 2021-02-08
+last_update: 2021-02-12
 tldr:
-  I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. Currently I'm finishing my last semester of my
+  I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. presently I'm finishing my last semester of my
   bachelors degree in Computer Security at the University of Bergen. I have two part-time jobs beside my studies, at the University and for an oil-service
   company, Vest Kontakt AS.
 experience:
   - name: Vest Kontakt AS
     role: IT Manager
-    current: true
+    present: true
     start: 2012-12-24
     end:
     glyph: /assets/img/resume/vk.svg
@@ -17,7 +17,7 @@ experience:
       - Created a more efficient system for taking annual inventory.
   - name: University of Bergen
     role: IT assistent
-    current: true
+    present: true
     start: 2018-08-12
     end:
     glyph: /assets/img/resume/uib.svg
@@ -26,7 +26,7 @@ experience:
       - Part-time job beside my bachelors-degree
   - name: InfoCare Norge AS
     role: Technician (Summer job)
-    current: false
+    present: false
     start: 2020-06-18
     end: 2020-08-03
     glyph: /assets/img/resume/empty.svg
@@ -35,7 +35,7 @@ experience:
       - IT support at ABB Bergen Kokstad.
   - name: Appex
     role: Developer (Summer intern)
-    current: false
+    present: false
     start: 2019-06-17
     end: 2019-08-05
     glyph: /assets/img/resume/appex.svg
@@ -82,6 +82,7 @@ libraries:
 tools:
   - Git
   - UNIX
+  - Vim
 platforms:
   - WordPress
   - Joomla

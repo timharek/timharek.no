@@ -22,8 +22,8 @@ redirect_from:
         <h2>Experience</h2>
         <!-- prettier-ignore -->
         {% assign sorted_exp = resume.experience | sort: 'end' %}
-        {% assign current_exp = sorted_exp | where: 'current', 'true' %}
-        {% assign prev_exp = sorted_exp | where: 'current', 'false' %}
+        {% assign current_exp = sorted_exp | where: 'present', 'true' %}
+        {% assign prev_exp = sorted_exp | where: 'present', 'false' %}
         {% for exp in current_exp %}
         <div class="work current">
             <div class="title">
@@ -31,7 +31,7 @@ redirect_from:
                 <div class="meta">
                     <h3>{{ exp.name }}</h3>
                     <h4>{{ exp.role }}</h4>
-                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "current" | date: "%b %Y"}} </span>
+                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "present" | date: "%b %Y"}} </span>
                 </div>
             </div>
 
@@ -57,7 +57,7 @@ redirect_from:
                 <div class="meta">
                     <h3>{{ exp.name }}</h3>
                     <h4>{{ exp.role }}</h4>
-                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "current" | date: "%b %Y"}} </span>
+                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "present" | date: "%b %Y"}} </span>
                 </div>
             </div>
 
@@ -87,11 +87,11 @@ redirect_from:
                     {% for role in vol.role %}
                         {% if vol.role.size > 1 %}
                             <h4>{{ role.name }}</h4>
-                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'current'}}</span>
+                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'present'}}</span>
                             <br>
                         {% else %}
                             <h4>{{ role.name }}</h4>
-                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'current'}}</span>
+                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'present'}}</span>
                         {% endif %}
                     {% endfor %}
                 </div>
@@ -120,7 +120,7 @@ redirect_from:
                 <div class="meta">
                     <h3>{{ edu.name }}</h3>
                     <h4>{{ edu.degree }}</h4>
-                    <span class="duration">— {{ edu.start | date: "%b %Y" }} - {{ edu.end | default: 'current'}}</span>
+                    <span class="duration">— {{ edu.start | date: "%b %Y" }} - {{ edu.end | default: 'present'}}</span>
                 </div>
             </div>
 
