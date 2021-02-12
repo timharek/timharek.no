@@ -1,106 +1,145 @@
 .resume {
-	font-size: 1rem;
-	h2 {
-		margin: 10px 0;
-	}
+    font-size: 1rem;
+    h2 {
+        margin: 10px 0;
+    }
 
-	.secret {
-		display: none;
-	}
+    .secret {
+        display: none;
+    }
 
-	.tldr p {
-		margin-bottom: 0;
-	}
+    .tldr p {
+        margin-bottom: 0;
+    }
 
-	.info,
-	.tldr,
-	.experience,
-	.education,
-	.voluntary,
-	.skills {
-		margin-bottom: 1.25em;
-		ul,
-		p {
-			@media (prefers-color-scheme: light) {
-				color: $primary-dark-color;
-			}
-			color: $primary-light-color;
-		}
-	}
+    .info,
+    .tldr,
+    .experience,
+    .education,
+    .voluntary,
+    .skills {
+        margin-bottom: 1.25em;
+        ul,
+        p {
+            @media (prefers-color-scheme: light) {
+                color: $primary-dark-color;
+            }
+            color: $primary-light-color;
+        }
+    }
 
-	.experience,
-	.education,
-	.voluntary {
-		.work,
-		.edu {
-			page-break-inside: avoid;
-			&:not(:last-of-type) {
-				margin-bottom: 1.25em;
-			}
-			.title {
-				display: flex;
-				flex-direction: row;
-				align-content: center;
-				align-items: center;
-				page-break-after: avoid;
+    .experience,
+    .education,
+    .voluntary {
+        .work,
+        .edu {
+            page-break-inside: avoid;
+            &:not(:last-of-type) {
+                margin-bottom: 1.25em;
+            }
+            .title {
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+                page-break-after: avoid;
 
-				img {
-					max-width: 50px;
-					margin-right: 20px;
-				}
-				.meta {
-					h3 {
-						font-size: 1.35rem;
-						font-weight: 500;
-					}
-					h4 {
-						display: inline-block;
-						font-size: 1.1rem;
-						font-weight: 400;
-					}
-					.duration {
-						display: inline-block;
-						font-size: 1rem;
-					}
+                img {
+                    max-width: 50px;
+                    margin-right: 20px;
+                }
+                .meta {
+                    h3 {
+                        font-size: 1.35rem;
+                        font-weight: 500;
+                    }
+                    h4 {
+                        display: inline-block;
+                        font-size: 1.1rem;
+                        font-weight: 400;
+                    }
+                    .duration {
+                        display: inline-block;
+                        font-size: 1rem;
+                    }
 
-					& > * {
-						margin-top: 5px;
-						margin-bottom: 5px;
-					}
-				}
-			}
-			.desc {
-				font-size: inherit;
-				ul {
-					padding: 0;
-					margin: 5px 0;
-					margin-left: 20px;
-				}
-			}
-		}
-	}
+                    & > * {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .desc {
+                font-size: inherit;
+                ul {
+                    padding: 0;
+                    margin: 5px 0;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
 
-	.skills {
-		.category {
-			display: flex;
-			align-content: center;
-			align-items: center;
+    .experiences {
+        .experience {
+            .header {
+                display: flex;
+                align-items: center;
 
-			@media screen and (max-width: $breakpoint-medium) {
-				display: block;
-				&:not(:last-of-type) {
-					margin-bottom: 1.5em;
-				}
-			}
+                h3 {
+                    font-size: 1.35rem;
+                    font-weight: 500;
+                    margin: 0;
+                }
 
-			h3 {
-				font-weight: 500;
-				margin: 0;
-				width: 50%;
-			}
-		}
-	}
-	.last-update {
-		font-size: 0.75em;
-	}
+                img {
+                    width: 50px;
+                    margin-right: 1em;
+                }
+            }
+            .role {
+                padding-left: calc(50px + 1em); // Indent, to be straight under the glyph
+
+                h4 {
+                    margin-top: 0;
+                    margin-bottom: .5em;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                }
+
+                p,ul {
+                    margin: .5em 0;
+                    margin-bottom: 1em;
+                }
+                
+                ul {
+                    padding-left: 1em;
+                }
+
+            }
+        }
+    }
+    .skills {
+        .category {
+            display: flex;
+            align-content: center;
+            align-items: center;
+
+            @media screen and (max-width: $breakpoint-medium) {
+                display: block;
+                &:not(:last-of-type) {
+                    margin-bottom: 1.5em;
+                }
+            }
+
+            h3 {
+                font-weight: 500;
+                margin: 0;
+                width: 50%;
+            }
+        }
+    }
+    .last-update {
+        font-size: 0.75em;
+    }
 }

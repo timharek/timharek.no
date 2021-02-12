@@ -59,6 +59,10 @@ voluntary:
           - Maintenence and operation of IT systems for student organizations in Bergen.
       - name: Leader
         start: 2021-01-23
+        desc:
+          - Admin stuff
+          - Calling in to meetings
+          - Being happy
     glyph: /assets/img/resume/fribyte.svg
 education:
   - name: University of Bergen
