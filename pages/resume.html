@@ -11,155 +11,16 @@ redirect_from:
 {% assign resume = site.data.resume %}
 
 <div class="resume">
-    <h1>Tim Hårek Andreassen</h1>
+    <h1>{{ resume.name }}</h1>
     <div class="secret"></div>
 
     <div class="tldr">
         <h2>tl;dr</h2>
         <p>{{ resume.tldr }}</p>
     </div>
-    <div class="experience">
-        <h2>Experience</h2>
-        <!-- prettier-ignore -->
-        {% assign sorted_exp = resume.experience | sort: 'end' %}
-        {% assign current_exp = sorted_exp | where: 'present', 'true' %}
-        {% assign prev_exp = sorted_exp | where: 'present', 'false' %}
-        {% for exp in current_exp %}
-        <div class="work current">
-            <div class="title">
-                <img src="{{ exp.glyph }}" alt="" class="glyph" />
-                <div class="meta">
-                    <h3>{{ exp.name }}</h3>
-                    <h4>{{ exp.role }}</h4>
-                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "present" | date: "%b %Y"}} </span>
-                </div>
-            </div>
-
-            <div class="desc">
-                {% if exp.desc.size > 1 %}
-                <ul>
-                    {% for desc in exp.desc %}
-                    <li>{{ desc }}</li>
-                    {% endfor %}
-                </ul>
-                {% else %}
-                <p>{{ exp.desc }}</p>
-                {% endif %}
-            </div>
-        </div>
-        {% endfor %}
-        <!-- prettier-ignore -->
-        {% assign prev_exp = prev_exp | sort: 'end' | reverse %}
-        {% for exp in prev_exp %}
-        <div class="work previous">
-            <div class="title">
-                <img src="{{ exp.glyph }}" alt="" class="glyph" />
-                <div class="meta">
-                    <h3>{{ exp.name }}</h3>
-                    <h4>{{ exp.role }}</h4>
-                    <span class="duration"> — {{ exp.start | date: "%b %Y" }} - {{ exp.end | default: "present" | date: "%b %Y"}} </span>
-                </div>
-            </div>
-
-            <div class="desc">
-                {% if exp.desc.size > 1 %}
-                <ul>
-                    {% for desc in exp.desc %}
-                    <li>{{ desc }}</li>
-                    {% endfor %}
-                </ul>
-                {% else %}
-                <p>{{ exp.desc }}</p>
-                {% endif %}
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <div class="voluntary">
-        <h2>Voluntary work</h2>
-        {% assign voluntary = resume.voluntary | sort: 'start' | reverse %}
-        {% for vol in voluntary %}
-        <div class="work">
-            <div class="title">
-                <img src="{{ vol.glyph }}" alt="" class="glyph" />
-                <div class="meta">
-                    <h3>{{ vol.name }}</h3>
-                    {% for role in vol.role %}
-                        {% if vol.role.size > 1 %}
-                            <h4>{{ role.name }}</h4>
-                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'present'}}</span>
-                            <br>
-                        {% else %}
-                            <h4>{{ role.name }}</h4>
-                            <span class="duration">— {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y" | default: 'present'}}</span>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-
-            <div class="desc">
-                {% if vol.desc.size > 1 %}
-                <ul>
-                    {% for desc in vol.desc %}
-                    <li>{{ desc }}</li>
-                    {% endfor %}
-                </ul>
-                {% else %}
-                <p>{{ vol.desc }}</p>
-                {% endif %}
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <div class="education">
-        <h2>Education</h2>
-        {% for edu in resume.education %}
-        <div class="edu">
-            <div class="title">
-                <img src="{{ edu.glyph }}" alt="" class="glyph" />
-                <div class="meta">
-                    <h3>{{ edu.name }}</h3>
-                    <h4>{{ edu.degree }}</h4>
-                    <span class="duration">— {{ edu.start | date: "%b %Y" }} - {{ edu.end | default: 'present'}}</span>
-                </div>
-            </div>
-
-            <div class="desc">
-                <p>{{ edu.desc }}</p>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <div class="experiences">
-        <h2>Test section</h2>
-
-        {% assign voluntaries = resume.voluntary | sort: 'start' | reverse %}
-        {% for voluntary in voluntaries %}
-            <div class="experience">
-                <div class="header">
-                    <img src="{{ voluntary.glyph }}" alt="{{ voluntary.name }} logo">
-                    <h3>{{ voluntary.name }}</h3>
-                </div>
-                {% assign roles = voluntary.role | sort: "start" | reverse %}
-                {% for role in roles %}
-                    <div class="role">
-                        <h4>{{ role.name }} - {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y"| default: 'present'}}</h4>
-                        {% if role.desc.size > 1 %}
-                            <ul>
-                                {% for desc in role.desc %}
-                                    <li>{{ desc }}</li>
-                                {% endfor %}
-                            </ul>
-                        {% else %}
-                            <p>
-                                {{ role.desc }}
-                            </p>
-                        {% endif %}
-                    </div>
-                {% endfor %}
-            </div>
-            {% endfor %}
-    </div>
+    {% include resume/section.html title="Work experience" array=resume.experience reversed="false" %}
+    {% include resume/section.html title="Education" array=resume.education %}
+    {% include resume/section.html title="Voluntary experience" array=resume.voluntary %}
     <div class="skills">
         <h2>Skills</h2>
         <div class="category">

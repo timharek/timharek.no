@@ -1,5 +1,6 @@
 .resume {
     font-size: 1rem;
+
     h2 {
         margin: 10px 0;
     }
@@ -8,83 +9,22 @@
         display: none;
     }
 
-    .tldr p {
-        margin-bottom: 0;
-    }
-
-    .info,
-    .tldr,
-    .experience,
-    .education,
-    .voluntary,
-    .skills {
+    .tldr {
         margin-bottom: 1.25em;
-        ul,
+
         p {
-            @media (prefers-color-scheme: light) {
-                color: $primary-dark-color;
-            }
-            color: $primary-light-color;
+            margin-bottom: 0;
         }
     }
-
-    .experience,
-    .education,
-    .voluntary {
-        .work,
-        .edu {
-            page-break-inside: avoid;
-            &:not(:last-of-type) {
-                margin-bottom: 1.25em;
-            }
-            .title {
-                display: flex;
-                flex-direction: row;
-                align-content: center;
-                align-items: center;
-                page-break-after: avoid;
-
-                img {
-                    max-width: 50px;
-                    margin-right: 20px;
-                }
-                .meta {
-                    h3 {
-                        font-size: 1.35rem;
-                        font-weight: 500;
-                    }
-                    h4 {
-                        display: inline-block;
-                        font-size: 1.1rem;
-                        font-weight: 400;
-                    }
-                    .duration {
-                        display: inline-block;
-                        font-size: 1rem;
-                    }
-
-                    & > * {
-                        margin-top: 5px;
-                        margin-bottom: 5px;
-                    }
-                }
-            }
-            .desc {
-                font-size: inherit;
-                ul {
-                    padding: 0;
-                    margin: 5px 0;
-                    margin-left: 20px;
-                }
-            }
-        }
-    }
-
     .experiences {
         .experience {
+            page-break-inside: avoid;
+            margin-bottom: 1.25em;
+
             .header {
                 display: flex;
                 align-items: center;
+                page-break-after: avoid;
 
                 h3 {
                     font-size: 1.35rem;
@@ -102,20 +42,20 @@
 
                 h4 {
                     margin-top: 0;
-                    margin-bottom: .5em;
+                    margin-bottom: 0.5em;
                     font-size: 1.1rem;
                     font-weight: 400;
                 }
 
-                p,ul {
-                    margin: .5em 0;
+                p,
+                ul {
+                    margin: 0.5em 0;
                     margin-bottom: 1em;
                 }
-                
+
                 ul {
                     padding-left: 1em;
                 }
-
             }
         }
     }
