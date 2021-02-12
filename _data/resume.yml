@@ -63,9 +63,7 @@ voluntary:
       - name: Leader
         start: 2021-01-23
         desc:
-          - Admin stuff
-          - Calling in to meetings
-          - Being happy
+          - Administrative tasks, convene meetings etc.
     glyph: /assets/img/resume/fribyte.svg
 education:
   - name: University of Bergen
@@ -75,25 +73,33 @@ education:
         start: 2017-08-14
         desc: 
           - A bachelors degree in Computer Science with an extra emphasis on security.
-programming:
-  - Java
-  - "C#"
-  - Python
-  - "HTML & CSS"
-  - Liquid
-libraries:
-  - Node.js
-  - jQuery
-  - Vue.js
-  - Jekyll
-tools:
-  - Git
-  - UNIX
-  - Vim
-platforms:
-  - WordPress
-  - Joomla
-design:
-  - Affinity Designer
-  - Adobe Illustrator
-  - Sketch
+skills:
+  - name: Programming languages
+    list:
+      - Java
+      - "C#"
+      - Python
+      - HTML 
+      - (S)CSS
+      - JS
+      - Liquid
+  - name: Libraries and frameworks
+    list:
+      - Node.js
+      - jQuery
+      - Vue.js
+      - Jekyll
+  - name: Tools
+    list:
+      - Git
+      - UNIX
+      - Vim
+  - name: Platforms
+    list:
+      - WordPress
+      - Joomla
+  - name: Design
+    list:
+      - Affinity Designer
+      - Adobe CC
+      - Sketch

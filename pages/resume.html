@@ -23,31 +23,9 @@ redirect_from:
     {% include resume/section.html title="Voluntary experience" array=resume.voluntary %}
     <div class="skills">
         <h2>Skills</h2>
-        <div class="category">
-            <h3>Programming languages</h3>
-            {% assign programming = resume.programming %}
-            <span class="subskills"> {{ programming | join: ", "}} </span>
-        </div>
-        <div class="category">
-            <h3>Libraries and frameworks</h3>
-            {% assign libraries = resume.libraries %}
-            <span class="subskills"> {{ libraries | join: ", "}} </span>
-        </div>
-        <div class="category">
-            <h3>Tools</h3>
-            {% assign tools = resume.tools %}
-            <span class="subskills"> {{ tools | join: ", "}} </span>
-        </div>
-        <div class="category">
-            <h3>Platforms</h3>
-            {% assign platforms = resume.platforms %}
-            <span class="subskills"> {{ platforms | join: ", "}} </span>
-        </div>
-        <div class="category">
-            <h3>Design</h3>
-            {% assign design = resume.design %}
-            <span class="subskills"> {{ design | join: ", "}} </span>
-        </div>
+        {% for skill in resume.skills %}
+            {% include resume/skill.html title=skill.name array=skill.list %}
+        {% endfor %}
     </div>
     <span class="last-update">
         Last update: {{ resume.last_update | date: "%Y-%m-%d" }}
