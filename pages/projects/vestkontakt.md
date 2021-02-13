@@ -68,7 +68,7 @@ Not much changed during those 8 years, VK removed the web store because people e
 
 Today, VK's website is simpler and much easier to understand and navigate. We've gained a lot more traffic since our redesign, our customers stays on our website on average for 2 min for new users and mainly go for our contact-page. So our redesign has been worth it.
 
-You can check it out via [vestkontakt.no](https://vestkontakt.no?source=timharek.no)
+You can check it out via [vestkontakt.no](https://vestkontakt.no)
 
 ## Project is still work in progress
 
