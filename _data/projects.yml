@@ -1,6 +1,6 @@
 - name: p-yr
   desc: >-
-     Simple Python script for local weather, using MET Norway Weather API.
+     Simple Python script for local weather, using Yr.no, MET Norway Weather API.
   svg: /assets/img/projects/p-yr.svg
   github: https://github.com/timharek/p-yr
 - name: vestkontakt.no redesign
