@@ -1,4 +1,7 @@
 @media print {
+    html, body {
+        background: white;
+    }
 	@page {
 		size: A4;
 	}
