@@ -224,3 +224,11 @@ $code-bg-dark: #151515;
 		color: #099;
 	} // Literal.Number.Integer.Long
 }
+
+kbd {
+    background: white;
+    color: $primary-dark-color;
+    border-radius: 2px;
+    padding: 2px;
+    border: 1px solid $code-bg-dark;
+}
