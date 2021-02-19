@@ -29,7 +29,7 @@ brew install openconnect
 2. Right-click anywhere and click `Show page info`
 3. There should be a "tab" named `Security`, click that
 4. Click `Show Certificate`
-5. In Firefox, you should be able to find a section that says "Download", choose `PEM (cert)` and save it to your downloads folder (`~/Downloads`)
+5. In Firefox, under Miscellaneous,  you should be able to find a section that says "Download", choose `PEM (cert)` and save it to your downloads folder (`~/Downloads`)
 
 ## Step 3: Setting up the certificate
 Now that you have managed to retrieve your VPN certificate, you need to setup the certificate so that you will be able to use it.
