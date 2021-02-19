@@ -64,3 +64,6 @@ You should now be able to run the command `vpn` to connect to UiB VPN.
 3. Input your UiB password
 4. (Optional) Input your Microsoft 2FA code
 5. Sucess!
+
+## Disconnecting
+Press <kbd>CTRL</kbd>+<kbd>C</kbd>
