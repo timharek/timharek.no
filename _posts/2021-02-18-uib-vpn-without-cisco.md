@@ -10,19 +10,17 @@ If you are a student at the University of Bergen (UiB), you might have discovere
 
 ## Step 1: Installation
 Firstly, you need to install _OpenConnect_.
-
-### Linux
-```
-sudo apt update
+<details>
+    <summary>Linux</summary>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
 sudo apt install openconnect
-```
-
-### macOS
-I highly suggest downloading and setting up [Homebrew](https://brew.sh), as I do not provide instructions for other alternatives.
-
-```
-brew install openconnect
-```
+</code></pre></div></div>
+</details>
+<details>
+    <summary>macOS</summary>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install openconnect
+</code></pre></div></div>
+</details>
 
 ## Step 2: Getting your VPN certificate
 1. Login on [vpn3.uib.no](https://vpn3.uib.no), with your UiB credentials (_abc001_)
