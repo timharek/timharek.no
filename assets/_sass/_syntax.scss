@@ -3,13 +3,16 @@ $code-bg-dark: #151515;
 .language-plaintext {
 	font-family: $font-family-mono;
 	background: $code-bg-dark;
-    overflow-x: scroll;
+    overflow: auto;
     max-width: 100%;
 
 	&.highlighter-rouge {
 		color: $primary-light-color !important;
 		background: $code-bg-dark;
-		padding: 0 5px;
+
+        &:not(.highlight) {
+            padding: 0 4px;
+        }
 	}
 }
 
@@ -20,7 +23,7 @@ $code-bg-dark: #151515;
 
 	background: $code-bg-dark !important;
 	margin: 10px 0;
-	padding: 20px;
+	padding: 10px;
 	/* @extend %vertical-rhythm; */
 
 	* {
@@ -228,7 +231,7 @@ $code-bg-dark: #151515;
 kbd {
     background: white;
     color: $primary-dark-color;
-    border-radius: 2px;
-    padding: 2px;
+    border-radius: 4px;
+    padding: 2px 4px;
     border: 1px solid $code-bg-dark;
 }
