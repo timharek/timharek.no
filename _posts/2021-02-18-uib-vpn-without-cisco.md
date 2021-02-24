@@ -51,7 +51,7 @@ This will depend of which shell you are using, I am using [ZSH](https://www.zsh.
 1. `nano ~/.zshrc` 
     - `.bashrc` if you are using BASH
 2. Paste this at the end of the file, and change the username: 
-    - `alias vpn="sudo openconnect --user=abc001 --cafile=/Users/$USER/.cert/vpn3-uib-no.pem vpn3.uib.no"`
+    - `alias vpn="sudo openconnect --user=abc001 --cafile=~/.cert/vpn3-uib-no.pem vpn3.uib.no"`
 3. To save and exit out of `nano`, press <kbd>CTRL</kbd>+<kbd>X</kbd> and then <kbd>Y</kbd> (for yes) and then <kbd>Enter</kbd> to write the changes.
 4. Run `source .zshrc`
 
