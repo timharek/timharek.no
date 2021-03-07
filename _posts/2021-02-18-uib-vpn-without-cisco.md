@@ -2,7 +2,7 @@
 layout: post
 date: 2021-02-18 
 title: How to connect to UiB VPN without Cisco AnyConnect 
-excerpt: Tutorial on how to setup OpenConnect to connect to UiB's new VPN 
+excerpt: Tutorial on how to setup OpenConnect to connect to University of Bergen's new VPN 
 author: Tim Hårek
 tags: tutorial, vpn
 ---
