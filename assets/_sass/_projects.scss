@@ -11,10 +11,6 @@
 		border-radius: 10px;
 
 		transition: 150ms;
-		&:hover {
-			box-shadow: 0 0 30px rgba(255, 255, 255, 0.14);
-			transform: scale(1.001);
-		}
 
 		.logo {
 			margin-right: 25px;
