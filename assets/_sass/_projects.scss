@@ -3,7 +3,7 @@
 	flex-direction: column;
 
 	.project {
-		width: 100% - padding;
+		width: calc(100% - 30px);
 		display: flex;
 		align-items: center;
 		border: 1px solid $secondary-dark-color;
