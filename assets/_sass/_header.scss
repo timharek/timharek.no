@@ -1,52 +1,67 @@
 header {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 1.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
 
-	@media screen and (max-width: $breakpoint-small) {
-		margin-bottom: 25px;
-	}
+    @media screen and (max-width: $breakpoint-small) {
+        margin-bottom: 25px;
+    }
 
-	svg {
-		width: 75px;
-	}
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
 
-	nav {
-		font-size: 1.25rem;
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
+        svg {
+            width: 75px;
+        }
 
-			li {
-				display: inline;
+        &:focus {
+            outline: none;
+            box-shadow:
+                0 0 0 5px $primary-color;
+        }
+    }
 
-				a {
-					padding: 10px;
-					border-radius: 5px;
+    nav {
+        font-size: 1.25rem;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
 
-					&:hover {
-						@media (prefers-color-scheme: dark) {
-							background: #3a3a3a;
-						}
-						background: $secondary-light-color;
-						transition: all 350ms;
-					}
+            li {
+                display: inline;
 
-					&.page-link.current {
-						@media (prefers-color-scheme: dark) {
-							background: #3a3a3a;
-						}
-						background: $secondary-light-color;
-					}
-				}
+                a {
+                    padding: 10px;
+                    border-radius: 5px;
 
-				&:not(:last-of-type) {
-					margin-right: 15px;
-				}
-			}
-		}
-	}
+                    &:hover,
+                    &:focus {
+                        outline: none;
+                        @media (prefers-color-scheme: dark) {
+                            background: #3a3a3a;
+                        }
+                        background: $secondary-light-color;
+                        transition: all 350ms;
+                    }
+
+                    &.page-link.current {
+                        @media (prefers-color-scheme: dark) {
+                            background: #3a3a3a;
+                        }
+                        background: $secondary-light-color;
+                    }
+                }
+
+                &:not(:last-of-type) {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
 }

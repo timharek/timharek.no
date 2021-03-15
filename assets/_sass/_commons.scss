@@ -8,9 +8,16 @@ a {
 	opacity: 1;
 	transition: 150ms;
 
+    border-radius: 4px;
+
 	&:hover {
 		opacity: 0.5;
 	}
+
+    &:focus {
+        outline: 2px solid $primary-color;
+        outline-offset: 5px;
+    }
 
 	&:active {
 		opacity: 0.75;
