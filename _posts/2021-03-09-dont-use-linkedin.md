@@ -5,6 +5,8 @@ title: "Why I don't use LinkedIn"
 excerpt: How I used LinkedIn in the past, my interactions and why I deleted my account i 2020.
 author: Tim Hårek
 tags: social-media
+redirect_from:
+    - /2021/03/09/dont-need-linkedin
 ---
 I created my LinkedIn-profile back in 2013-2014, back when I actually didn't have any job experience other than my part-time holiday job at Vest Kontakt (same place I'm the IT manager today). I cannot remember why I decided to join so early, but I guess it had to do with the FOMO, especially since I was 16-18 years old back then. 
 
