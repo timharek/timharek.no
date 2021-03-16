@@ -3,9 +3,9 @@
      Simple Python script for local weather, using Yr.no, MET Norway Weather API.
   svg: /assets/img/projects/p-yr.svg
   github: https://github.com/timharek/p-yr
-- name: vestkontakt.no redesign
+- name: vestkontakt.no
   desc: >-
-    Total redesign of their website, with elements from 2003.
+    Total redesign of their website.
   svg: /assets/img/projects/vk.svg
   link: https://vestkontakt.no
   link_short: vestkontakt.no
