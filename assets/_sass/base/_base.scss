@@ -58,11 +58,3 @@ body {
         }
     }
 }
-
-a {
-    &.external::after {
-        position: relative;
-        top: -0.5em;
-        content: "↗";
-    }
-}

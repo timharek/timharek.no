@@ -1,3 +1,48 @@
+a {
+	@media (prefers-color-scheme: dark) {
+		color: $primary-color;
+	}
+	color: $secondary-color;
+	text-decoration: none;
+	font-weight: 700;
+	opacity: 1;
+	transition: 150ms;
+
+    border-radius: 4px;
+
+	&:hover {
+		opacity: 0.5;
+	}
+
+    &:focus {
+        outline: 2px solid $primary-color;
+        outline-offset: 5px;
+    }
+
+	&:active {
+		opacity: 0.75;
+	}
+    &.external::after {
+        position: relative;
+        top: -0.5em;
+        content: "↗";
+    }
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 2rem;
+}
+
+::selection {
+	background: $primary-color;
+	color: $primary-light-color;
+}
+
+/*
+    Syntax highlighting
+*/
 $code-bg-dark: #151515;
 
 .language-plaintext {
