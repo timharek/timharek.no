@@ -13,8 +13,13 @@ Currently, I am finishing the last semester of my bachelors degree in Computer S
 
 I spend my free time learning about new technologies, automating my everyday and mostly hiking with my dog, Ayla! 🐕
 
+## Contact
+- Email: [{{ site.email }}](mailto:{{ site.email }}) ([public key](/key))
+- Mastodon: [{{ site.mastodon_username }}@{{ site.mastodon_instance }}](https://{{ site.mastodon_instance }}/@{{ site.mastodon_username }})
+- GitHub: [@{{ site.github_username }}](https://github.com/{{ site.github_username }})
+
 ## My website
 
-I self host my website using [1984Hosting](https://1984hosting.com), which is based on Iceland. The website is built using [Jekyll](https://jekyllrb.com) with [Vim](https://www.vim.org/). You can view the source code on [GitHub](https://github.com/timharek/timharek.no).
+I self-host my website using [1984Hosting](https://1984hosting.com), which is based on Iceland. The website is built using [Jekyll](https://jekyllrb.com) with [Vim](https://www.vim.org/). 
 
-My website is part of the <a href="https://512kb.club"><img src="https://512kb.club/assets/images/green-team.svg" /></a>
+Source code is available on [GitHub](https://github.com/timharek/timharek.no).
