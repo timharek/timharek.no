@@ -5,6 +5,8 @@ title_alt: <code class="language-plaintext highlighter-rouge">whoami</code>
 permalink: /about
 menu: main
 description: About Tim Hårek, a developer based in Norway.
+redirect_from:
+    - /contact
 ---
 
 My name is Tim Hårek Andreassen. I am a developer, designer, hiker and dog-person from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience.
