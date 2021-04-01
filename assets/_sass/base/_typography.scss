@@ -36,6 +36,13 @@ h1 {
 	font-size: 2rem;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+
 ::selection {
 	background: $primary-color;
 	color: $primary-light-color;
