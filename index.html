@@ -10,11 +10,12 @@ layout: default
         <p>{{ site.description }}</p>
     </div>
     <div class="projects">
+        <h2>Recent projects</h2>
         {% for project in site.data.projects %}
         <div class="project">
             <div class="logo"><img src="{{ project.svg | default: "/assets/img/error.svg" | relative_url }}" alt="{{ project.name }} logo"></div>
             <div class="desc">
-                <h1>{{ project.name }}</h1>
+                <h3>{{ project.name }}</h3>
                 <p>{{ project.desc }}</p>
                 {% if project.casestudy %}
                 <a href="projects/{{ project.casestudy }}">Case study</a>
