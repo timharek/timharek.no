@@ -18,6 +18,7 @@ I spend my free time learning about new technologies, automating my everyday and
 ## Contact
 - Email: [{{ site.email }}](mailto:{{ site.email }}) ([public key](/key))
 - Mastodon: [{{ site.mastodon_username }}@{{ site.mastodon_instance }}](https://{{ site.mastodon_instance }}/@{{ site.mastodon_username }})
+- `sourcehut`: [~{{ site.sourcehut_username }}](https://git.sr.ht/~{{ site.github_username }})
 - GitHub: [@{{ site.github_username }}](https://github.com/{{ site.github_username }})
 
 ## My website
