@@ -3,6 +3,7 @@
      Simple Python script for local weather, using Yr.no, MET Norway Weather API.
   svg: /assets/img/projects/p-yr.svg
   github: https://github.com/timharek/p-yr
+  sourcehut: https://git.sr.ht/~timharek/p-yr
 - name: vestkontakt.no
   desc: >-
     Total redesign of their website.
@@ -15,6 +16,7 @@
   desc: >-
     Weather app for a local ZIP code in Norway, built with Vue.js.
   github: https://github.com/timharek/5545.no
+  sourcehut: https://git.sr.ht/~timharek/no-5545
   link: https://5545.no
   link_short: 5545.no
   svg: /assets/img/projects/5545.svg
