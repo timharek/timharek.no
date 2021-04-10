@@ -2,7 +2,7 @@
 layout: post
 date: 2021-02-09 
 title: reMarkable 2 reView (sort of)
-excerpt: A small review from the past few weeks I have been using the reMarkable 2.
+excerpt: A small review from the past few weeks I have been using the tablet.
 author: Tim Hårek
 tags: review 
 ---

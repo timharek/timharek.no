@@ -11,9 +11,9 @@ redirect_from:
 
 My name is Tim Hårek Andreassen. I am a developer, designer, hiker and dog-person from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience.
 
-Currently, I am finishing the last semester of my bachelors degree in Computer Security at the University of Bergen. Where I've learned a lot of different practices in terms of development, security and privacy.
+Currently, I am finishing the last semester of my bachelors degree in Computer Security at the University of Bergen. I've learned a lot of different practices in terms of development, security and privacy.
 
-I spend my free time learning about new technologies, automating my everyday and mostly hiking with my dog, Ayla! 🐕
+I spend my free time learning about new technologies, automating my everyday and going hiking with my dog, Ayla! 🐕
 
 ## Contact
 - Email: [{{ site.email }}](mailto:{{ site.email }}) ([public key](/key))
@@ -23,6 +23,6 @@ I spend my free time learning about new technologies, automating my everyday and
 
 ## My website
 
-I self-host my website using [1984Hosting](https://1984hosting.com), which is based on Iceland. The website is built using [Jekyll](https://jekyllrb.com) with [Vim](https://www.vim.org/). 
+I self-host my website using [1984Hosting](https://1984hosting.com). The website is built using [Jekyll](https://jekyllrb.com) with [Vim](https://www.vim.org/). 
 
-Source code is available on [GitHub](https://github.com/timharek/timharek.no).
+Source code is available on [sourcehut](https://git.sr.ht/~timharek/timharek.no).
