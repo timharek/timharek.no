@@ -16,6 +16,8 @@ ul.blog {
         }
 
         .post-summary {
+            hyphens: auto;
+
             span {
                 display: block;
             }
@@ -24,6 +26,8 @@ ul.blog {
 }
 
 article {
+    hyphens: auto;
+
     .post-header {
         .post-meta {
             margin-top: 0;
@@ -32,7 +36,7 @@ article {
 
             span {
                 font-weight: bold;
-                margin-right: .5em;
+                margin-right: 0.5em;
             }
         }
     }
