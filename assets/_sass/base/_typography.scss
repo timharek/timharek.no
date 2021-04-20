@@ -6,9 +6,7 @@ a {
 	text-decoration: none;
 	font-weight: 700;
 	opacity: 1;
-	transition: 150ms;
-
-    border-radius: 4px;
+	transition: all 150ms ease;
 
 	&:hover {
 		opacity: 0.5;
