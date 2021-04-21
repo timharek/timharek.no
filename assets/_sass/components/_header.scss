@@ -21,7 +21,7 @@ header {
 
         &:focus {
             outline: none;
-            box-shadow: 0 0 0 5px $primary-color;
+            box-shadow: 0 0 0 5px var(--color-primary);
         }
     }
 
@@ -50,18 +50,12 @@ header {
             &:hover,
             &:focus {
                 outline: none;
-                @media (prefers-color-scheme: dark) {
-                    background: #3a3a3a;
-                }
-                background: $secondary-light-color;
+                background: var(--color-nav-accent);
                 transition: all 350ms;
             }
 
             &.page-link.current {
-                @media (prefers-color-scheme: dark) {
-                    background: #3a3a3a;
-                }
-                background: $secondary-light-color;
+                background: var(--color-nav-accent);
             }
         }
     }

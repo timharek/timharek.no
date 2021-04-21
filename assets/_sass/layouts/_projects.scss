@@ -10,7 +10,7 @@
 		width: calc(100% - 30px);
 		display: flex;
 		align-items: center;
-		border: 1px solid $secondary-dark-color;
+		border: 1px solid var(--color-border);
 		padding: 15px;
 		border-radius: 10px;
 
@@ -53,7 +53,7 @@ article.project {
 	.meta {
 		display: block;
 		font-size: 1.25rem;
-		color: $secondary-dark-color;
+		color: var(--color-bg-accent);
 
 		&:not(:last-of-type) {
 			margin-bottom: 10px;

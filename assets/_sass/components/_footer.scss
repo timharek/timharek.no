@@ -6,11 +6,6 @@ footer {
 	align-items: center;
 	font-size: 16px;
 
-	@media (prefers-color-scheme: dark) {
-		color: $secondary-dark-color;
-	}
-	color: $primary-dark-color;
-
 	@media screen and (max-width: $breakpoint-xtra-small) {
 		flex-direction: column;
 
@@ -40,17 +35,6 @@ footer {
 			display: block;
 			&:not(:last-of-type) {
 				margin-right: 10px;
-			}
-		}
-
-		a {
-			svg {
-				width: 25px;
-				fill: $secondary-dark-color;
-
-				@media screen and (max-width: $breakpoint-xtra-small) {
-					width: 20px;
-				}
 			}
 		}
 	}

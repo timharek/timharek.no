@@ -1,8 +1,5 @@
 a {
-	@media (prefers-color-scheme: dark) {
-		color: $primary-color;
-	}
-	color: $secondary-color;
+	color: var(--color-primary);
 	text-decoration: none;
 	font-weight: 700;
 	opacity: 1;
@@ -13,7 +10,7 @@ a {
 	}
 
     &:focus {
-        outline: 2px solid $primary-color;
+        outline: 2px solid var(--color-primary);
         outline-offset: 5px;
     }
 
@@ -42,8 +39,8 @@ h4 {
 }
 
 ::selection {
-	background: $primary-color;
-	color: $primary-light-color;
+	background: var(--color-primary);
+	color: $color-white;
 }
 
 /*
@@ -58,7 +55,7 @@ $code-bg-dark: #151515;
     max-width: 100%;
 
 	&.highlighter-rouge {
-		color: $primary-light-color !important;
+		color: $color-white !important;
 		background: $code-bg-dark;
 
         &:not(.highlight) {
@@ -68,10 +65,6 @@ $code-bg-dark: #151515;
 }
 
 .highlight {
-	@media (prefers-color-scheme: light) {
-		color: $primary-light-color;
-	}
-
 	background: $code-bg-dark !important;
 	margin: 10px 0;
 	padding: 10px;
@@ -182,7 +175,7 @@ $code-bg-dark: #151515;
 		color: #008080;
 	} // Name.Attribute
 	.nb {
-		color: $primary-color;
+		color: var(--color-primary);
 	} // Name.Builtin
 	.nc {
 		color: #458;
@@ -281,7 +274,7 @@ $code-bg-dark: #151515;
 
 kbd {
     background: white;
-    color: $primary-dark-color;
+    color: $color-black;
     border-radius: 4px;
     padding: 2px 4px;
     border: 1px solid $code-bg-dark;
