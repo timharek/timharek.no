@@ -17,6 +17,18 @@ header {
 
         svg {
             width: 75px;
+
+            #head {
+                fill: $color-blue-light;
+            }
+
+            #head-outline, #eyes {
+                fill: black;
+            }
+
+            #mouth {
+                stroke: black;
+            }
         }
 
         &:focus {
