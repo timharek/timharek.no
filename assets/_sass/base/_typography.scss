@@ -1,12 +1,13 @@
-a {
+a:not(.logo) {
 	color: var(--color-primary);
 	text-decoration: none;
 	font-weight: 700;
 	opacity: 1;
 	transition: all 150ms ease;
+    border-bottom: 2px solid var(--color-link-border);
 
 	&:hover {
-		opacity: 0.5;
+        opacity: .5;
 	}
 
     &:focus {
@@ -16,12 +17,14 @@ a {
 
 	&:active {
 		opacity: 0.75;
+        outline: 0;
 	}
 
     &.external::after {
         position: relative;
         top: -0.5em;
         content: "↗";
+        color: var(--color-link-border);
     }
 }
 

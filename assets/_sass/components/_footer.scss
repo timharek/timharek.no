@@ -14,10 +14,11 @@ footer {
 		}
 	}
 
-	.footer-link {
+	.footer--link {
 		&:not(:last-of-type) {
 			margin-right: 10px;
 		}
+        border-bottom: 0;
 	}
 
     .copyright {

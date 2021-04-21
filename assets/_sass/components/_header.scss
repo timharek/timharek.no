@@ -58,12 +58,17 @@ header {
         a {
             padding: 10px;
             border-radius: 5px;
+            border-bottom: 0 !important;
 
             &:hover,
             &:focus {
                 outline: none;
                 background: var(--color-nav-accent);
                 transition: all 350ms;
+            }
+
+            &:active {
+                outline: none;
             }
 
             &.page-link.current {
