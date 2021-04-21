@@ -4,10 +4,10 @@
     </a>
 
     <nav role="navigation">
-        <ul class="navigation">
+        <ul class="nav--list">
             {% assign pages = site.pages | where: "menu", "main" %}
             {% for this_page in pages %}
-                <li>
+                <li class="nav--item">
                     
                     <a 
                     {% if page.url == this_page.url %}
