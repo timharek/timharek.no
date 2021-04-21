@@ -9,7 +9,7 @@ footer {
 	@media screen and (max-width: $breakpoint-xtra-small) {
 		flex-direction: column;
 
-		.social {
+		.footer--container:not(:first-of-type) {
 			margin-top: 15px;
 		}
 	}
@@ -21,22 +21,8 @@ footer {
         border-bottom: 0;
 	}
 
-    .copyright {
+    .footer--container {
         display: flex;
         align-items: center;
     }
-
-	.social {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-
-		* {
-			align-self: center;
-			display: block;
-			&:not(:last-of-type) {
-				margin-right: 10px;
-			}
-		}
-	}
 }
