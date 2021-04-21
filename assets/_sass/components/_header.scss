@@ -62,6 +62,7 @@ header {
 
             &:hover,
             &:focus {
+                opacity: 1 !important;
                 outline: none;
                 background: var(--color-nav-accent);
                 transition: all 350ms;
