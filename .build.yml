@@ -21,7 +21,7 @@ tasks:
       jekyll --version
   - build: |
       cd timharek.no
-      jekyll build
+      bundle exec jekyll build
   - deploy: |
       cd timharek.no
       sshopts="-4 -o StrictHostKeyChecking=no"
