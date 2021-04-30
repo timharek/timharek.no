@@ -18,7 +18,7 @@ triggers:
 tasks:
   - setup: |
       sudo gem install jekyll bundler
-      bundle exec jekyll --version
+      jekyll --version
   - build: |
       cd timharek.no
       bundle exec jekyll build
