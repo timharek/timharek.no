@@ -1,4 +1,4 @@
-last_update: 2021-02-12
+last_update: 2021-04-30
 name: Tim Hårek Andreassen
 tldr:
   I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. Presently I'm finishing my last semester of my
@@ -102,8 +102,8 @@ skills:
   - name: Tools
     list:
       - Git
-      - UNIX
       - Vim
+      - UNIX
   - name: Platforms
     list:
       - WordPress
@@ -113,3 +113,4 @@ skills:
       - Affinity Designer
       - Adobe CC
       - Sketch
+      - Figma
