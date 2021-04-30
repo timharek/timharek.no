@@ -17,7 +17,7 @@ triggers:
     to: Tim Hårek Andreassen <tim@harek.dev>
 tasks:
   - setup: |
-      sudo gem install jekyll bundler
+      sudo gem install github-pages jekyll-textile-converter
       jekyll --version
   - build: |
       cd timharek.no
