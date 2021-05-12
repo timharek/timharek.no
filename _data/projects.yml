@@ -1,9 +1,17 @@
+- name: friByte.no
+  desc: >-
+    Re-design of friByte's website. Built with Jekyll.
+  svg: /assets/img/resume/fribyte.svg
+  link: https://fribyte.no
+  link_short: fribyte.no
+
 - name: p-yr
   desc: >-
     Simple Python-script for weather, using yr.no API.
   svg: /assets/img/projects/p-yr.svg
   github: https://github.com/timharek/p-yr
   sourcehut: https://git.sr.ht/~timharek/p-yr
+
 - name: vestkontakt.no
   desc: >-
     Re-design of Vest Kontakt AS's website.
