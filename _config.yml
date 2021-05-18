@@ -26,3 +26,11 @@ exclude:
 
 target-blank:
     add_css_classes: external
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    posts:
+      excerpt: How I used LinkedIn in the past, my interactions and why I deleted my account i 2020.
+      author: Tim Hårek
+      tags: social-media
