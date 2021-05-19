@@ -3,19 +3,19 @@ layout: default
 ---
 
 <div class="content">
-    <div class="intro">
+    <section class="intro">
         <h1>
             Hi, I'm <span class="name">Tim Hå<span class="r">r</span>ek</span>
         </h1>
         <p>{{ site.description }}</p>
-    </div>
+    </section>
     {% if site.projects %}
-        <div class="projects">
-            <h2>Recent projects</h2>
+        <h2>Recent projects</h2>
+        <section class="projects">
             {% assign projects = site.projects | reverse %}
             {% for project in projects %}
                 {% include components/project.html project=project %}
             {% endfor %}
-        </div>
+        </section>
     {% endif %}
 </div>
