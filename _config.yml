@@ -35,6 +35,7 @@ plugins:
     - jekyll-json-feed
     - jekyll-target-blank
     - jekyll-redirect-from
+    - jekyll-sitemap
 
 favicon:
   source: /assets/img/symbol.svg
