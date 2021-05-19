@@ -1,21 +1,26 @@
-ul.blog {
+.blog {
     margin-left: 0;
     padding: 0;
 
-    li.post {
+    &__post {
         margin-bottom: 1.5em;
         list-style: none;
         display: inline-flex;
 
         @media (max-width: $breakpoint-medium2) {
             display: block;
+
+            .post__summary span {
+                margin-top: .5em;
+            }
         }
 
-        .post-date {
+        .post__date {
+            flex-shrink: 0;
             margin-right: 1em;
         }
 
-        .post-summary {
+        .post__summary {
             hyphens: auto;
 
             span {

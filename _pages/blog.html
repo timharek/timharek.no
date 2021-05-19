@@ -9,11 +9,9 @@ permalink: /blog
 <h1>Blog</h1>
 <ul class="blog">
     {% for post in site.posts %}
-    <li class="post">
-        <div class="post-metadata">
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-        </div>
-        <div class="post-summary">
+    <li class="blog__post">
+        <span class="post__date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <div class="post__summary">
             <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a> 
             <span>
                 {{ post.excerpt }}
