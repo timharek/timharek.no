@@ -1,6 +1,7 @@
 @media print {
     html, body {
         background: white;
+        color: black;
     }
 	@page {
 		size: A4;
@@ -9,8 +10,8 @@
 	.wrapper {
 		margin: 0;
 	}
-	header,
-	footer {
+	header.header,
+	footer.footer {
 		display: none !important;
 		margin: 0;
 	}
