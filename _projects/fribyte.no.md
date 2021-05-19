@@ -5,5 +5,4 @@ desc: >-
     Re-design of friByte's website. Built with Jekyll.
 svg: /assets/img/resume/fribyte.svg
 link: https://fribyte.no
-link_short: fribyte.no
 ---
