@@ -106,6 +106,7 @@ skills:
       - UNIX
   - name: Platforms
     list:
+      - Craft CMS
       - WordPress
       - Joomla
   - name: Design
