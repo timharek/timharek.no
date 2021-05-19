@@ -2,20 +2,18 @@
 layout: default
 ---
 
-<div class="content">
-    <section class="intro">
-        <h1>
-            Hi, I'm <span class="name">Tim Hå<span class="r">r</span>ek</span>
-        </h1>
-        <p>{{ site.description }}</p>
+<section class="intro">
+    <h1>
+        Hi, I'm <span class="intro__name">Tim Hå<span class="intro__name--r">r</span>ek</span>
+    </h1>
+    <p>{{ site.description }}</p>
+</section>
+{% if site.projects %}
+    <h2>Recent projects</h2>
+    <section class="projects">
+        {% assign projects = site.projects | reverse %}
+        {% for project in projects %}
+            {% include components/project.html project=project %}
+        {% endfor %}
     </section>
-    {% if site.projects %}
-        <h2>Recent projects</h2>
-        <section class="projects">
-            {% assign projects = site.projects | reverse %}
-            {% for project in projects %}
-                {% include components/project.html project=project %}
-            {% endfor %}
-        </section>
-    {% endif %}
-</div>
+{% endif %}

@@ -19,23 +19,9 @@ body {
     max-width: $site-max-width;
     height: 100vh - margin-top;
 
-    margin-bottom: clamp(.5vh, 5%, 50px);
+    margin-bottom: clamp(0.5vh, 5%, 50px);
     margin-top: clamp(1vh, 10%, 100px);
+    width: 100% - padding;
+    padding: 0 10px;
 
-    .container {
-        width: 100% - padding;
-        padding: 0 10px;
-
-        .content {
-            .intro {
-                .name {
-                    text-transform: uppercase;
-                    .r {
-                        display: inline-block;
-                        transform: scale(-1, 1);
-                    }
-                }
-            }
-        }
-    }
 }

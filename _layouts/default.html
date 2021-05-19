@@ -5,20 +5,17 @@
 
   <body>
 
-    <div class="wrapper {{ page.animate | default: ""}}">
+    <div class="wrapper">
     
-      <div class="container">
     
-        {%- include header.html -%}
+    {%- include header.html -%}
+
+    {{ content }}
+
+    {%- include footer.html -%}
     
-        {{ content }}
-    
-        {%- include footer.html -%}
-    
-      </div>
     
     </div>
 
   </body>
 
-</html>
