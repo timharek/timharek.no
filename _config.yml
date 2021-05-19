@@ -8,21 +8,26 @@ sass:
 
 primary_color: 0096F5
 
-github_username: timharek
-sourcehut_username: timharek
-mastodon_instance: snabelen.no
-mastodon_username: tim
-
-plugins:
-    - jekyll-feed
-    - jekyll-json-feed
-    - jekyll-target-blank
-    - jekyll-redirect-from
+social:
+  github: timharek
+  sourcehut: timharek
+  mastodon:
+    instance: snabelen.no
+    name: tim
 
 exclude: 
     - start.sh
     - README.md
     - LICENSE
+
+####
+# Plugins section
+####
+plugins:
+    - jekyll-feed
+    - jekyll-json-feed
+    - jekyll-target-blank
+    - jekyll-redirect-from
 
 target-blank:
     add_css_classes: external

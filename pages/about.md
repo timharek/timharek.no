@@ -17,9 +17,9 @@ I spend my free time learning about new technologies, automating my everyday and
 
 ## Contact
 - Email: [{{ site.email }}](mailto:{{ site.email }}) ([public key](/key))
-- Mastodon: [{{ site.mastodon_username }}@{{ site.mastodon_instance }}](https://{{ site.mastodon_instance }}/@{{ site.mastodon_username }})
-- `sourcehut`: [~{{ site.sourcehut_username }}](https://git.sr.ht/~{{ site.github_username }})
-- GitHub: [@{{ site.github_username }}](https://github.com/{{ site.github_username }})
+- Mastodon: [{{ site.social.mastodon.name }}@{{ site.social.mastodon.instance }}](https://{{ site.social.mastodon.instance }}/@{{ site.social.mastodon.name }})
+- `sourcehut`: [~{{ site.social.sourcehut }}](https://git.sr.ht/~{{ site.social.sourcehut }})
+- GitHub: [@{{ site.social.github }}](https://github.com/{{ site.social.github }})
 
 ## My website
 
