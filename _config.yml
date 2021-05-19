@@ -3,8 +3,6 @@ email: tim@harek.dev
 description: >-
   I'm a developer from Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. 
 url: "https://timharek.no"
-sass:
-    sass_dir: assets/_sass
 
 primary_color: 0096F5
 
