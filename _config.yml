@@ -19,6 +19,9 @@ collections:
   projects:
     sort_by: date
 
+include:
+  - _pages
+
 exclude: 
     - start.sh
     - README.md
