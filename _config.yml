@@ -15,6 +15,10 @@ social:
     instance: snabelen.no
     name: tim
 
+collections:
+  projects:
+    sort_by: date
+
 exclude: 
     - start.sh
     - README.md

@@ -9,23 +9,13 @@ layout: default
         </h1>
         <p>{{ site.description }}</p>
     </div>
-    <div class="projects">
-        <h2>Recent projects</h2>
-        {% for project in site.data.projects %}
-        <div class="project">
-            <div class="logo"><img src="{{ project.svg | default: "/assets/img/error.svg" | relative_url }}" alt="{{ project.name }} logo"></div>
-            <div class="desc">
-                <h3>{{ project.name }}</h3>
-                <p>{{ project.desc }}</p>
-                {% if project.casestudy %}
-                <a href="projects/{{ project.casestudy }}">Case study</a>
-                {% endif %} {% if project.link %}
-                <a href="{{ project.link }}">{{ project.link_short }}</a>
-                {% endif %} {% if project.sourcehut %}
-                <a href="{{ project.sourcehut }}">View on sourcehut</a>
-                {% endif %}
-            </div>
+    {% if site.projects %}
+        <div class="projects">
+            <h2>Recent projects</h2>
+            {% assign projects = site.projects | reverse %}
+            {% for project in projects %}
+                {% include components/project.html project=project %}
+            {% endfor %}
         </div>
-        {% endfor %}
-    </div>
+    {% endif %}
 </div>

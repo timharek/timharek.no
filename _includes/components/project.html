@@ -1,0 +1,17 @@
+{% assign project = include.project %}
+<div class="project">
+    <div class="logo">
+        <img src="{{ project.svg | default: "/assets/img/error.svg" | relative_url }}" alt="{{ project.name }} logo">
+    </div>
+    <div class="desc">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.desc }}</p>
+        {% if project.casestudy %}
+        <a href="projects/{{ project.casestudy }}">Case study</a>
+        {% endif %} {% if project.link %}
+        <a href="{{ project.link }}">{{ project.link_short }}</a>
+        {% endif %} {% if project.sourcehut %}
+        <a href="{{ project.sourcehut }}">View on sourcehut</a>
+        {% endif %}
+    </div>
+</div>
