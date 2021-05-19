@@ -1,5 +1,5 @@
 <div class="experiences">
-    <h2>{{ include.title }}</h2>
+    <h2 class="experiences__title">{{ include.title }}</h2>
 
     {% if include.reversed == 'false' %}
         {% assign experiences = include.array | sort: 'start' %}
@@ -7,25 +7,25 @@
         {% assign experiences = include.array | sort: 'start' | reverse %}
     {% endif %}
     {% for experience in experiences %}
-    <div class="experience">
-        <div class="header">
-            <img src="{{ experience.glyph }}" alt="{{ experience.name }} logo" />
-            <h3>{{ experience.name }}</h3>
-        </div>
+    <article class="experience">
+        <header class="experience__header">
+            <img class="experience__logo"src="{{ experience.glyph }}" alt="{{ experience.name }} logo" />
+            <h3 class="experience__name">{{ experience.name }}</h3>
+        </header>
         {% assign roles = experience.role | sort: "start" | reverse %} {% for role in roles %}
-        <div class="role">
-            <h4>{{ role.name }} - {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y"| default: 'present'}}</h4>
+        <div class="experience__role">
+            <h4 class="role__name">{{ role.name }} - {{ role.start | date: "%b %Y" }} - {{ role.end | date: "%b %Y"| default: 'present'}}</h4>
             {% if role.desc.size > 1 %}
-            <ul>
+            <ul class="role__list">
                 {% for desc in role.desc %}
-                <li>{{ desc }}</li>
+                <li class="role__list-item">{{ desc }}</li>
                 {% endfor %}
             </ul>
             {% else %}
-            <p>{{ role.desc }}</p>
+            <p class="role__description">{{ role.desc }}</p>
             {% endif %}
         </div>
         {% endfor %}
-    </div>
+    </article>
     {% endfor %}
 </div>

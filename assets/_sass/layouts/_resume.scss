@@ -5,11 +5,11 @@
         margin: 10px 0;
     }
 
-    .secret {
+    &__secret {
         display: none;
     }
 
-    .tldr {
+    &__tldr {
         margin-bottom: 1.25em;
         hyphens: auto;
 
@@ -17,70 +17,74 @@
             margin-bottom: 0;
         }
     }
-    .experiences {
-        .experience {
-            page-break-inside: avoid;
-            margin-bottom: 1.25em;
+}
 
-            .header {
-                display: flex;
-                align-items: center;
-                page-break-after: avoid;
+.experience {
+    page-break-inside: avoid;
+    margin-bottom: 1.25em;
 
-                h3 {
-                    font-size: 1.35rem;
-                    font-weight: 500;
-                    margin: 0;
-                }
+    &__header {
+        display: flex;
+        align-items: center;
+        page-break-after: avoid;
+    }
 
-                img {
-                    width: 50px;
-                    margin-right: 1em;
-                }
-            }
-            .role {
-                padding-left: calc(50px + 1em); // Indent, to be straight under the glyph
+    &__name {
+        font-size: 1.35rem;
+        font-weight: 500;
+        margin: 0;
+    }
 
-                h4 {
-                    margin-top: 0;
-                    margin-bottom: 0.5em;
-                    font-size: 1.1rem;
-                    font-weight: 400;
-                }
+    &__logo {
+        width: 50px;
+        margin-right: 1em;
+    }
 
-                p,
-                ul {
-                    margin: 0.5em 0;
-                    margin-bottom: 1em;
-                }
+    &__role {
+        padding-left: calc(50px + 1em); // Indent, to be straight under the glyph
+    }
 
-                ul {
-                    padding-left: 1em;
-                }
-            }
+    .role {
+        &__name {
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        &__description,
+        &__list {
+            margin: 0.5em 0;
+            margin-bottom: 1em;
+        }
+
+        &__list {
+            padding-left: 1em;
         }
     }
-    .skills {
-        .category {
-            display: flex;
-            align-content: center;
-            align-items: center;
+}
 
-            @media screen and (max-width: $breakpoint-medium) {
-                display: block;
-                &:not(:last-of-type) {
-                    margin-bottom: 1.5em;
-                }
-            }
+.resume__skills {
+    .skill__category {
+        display: flex;
+        align-content: center;
+        align-items: center;
 
-            h3 {
-                font-weight: 500;
-                margin: 0;
-                width: 50%;
+        @media screen and (max-width: $breakpoint-medium) {
+            display: block;
+            &:not(:last-of-type) {
+                margin-bottom: 1.5em;
             }
         }
+
+        .skill__category-name {
+            font-weight: 500;
+            margin: 0;
+            width: 50%;
+        }
     }
-    .last-update {
-        font-size: 0.75em;
-    }
+}
+
+.resume__last-update {
+    font-size: 0.75em;
 }
