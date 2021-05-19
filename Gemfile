@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-target-blank'
   gem 'jekyll-redirect-from'
   gem 'jekyll-json-feed'
+  gem 'jekyll-favicon', '~> 0.2.9'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
