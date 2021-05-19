@@ -41,7 +41,9 @@
     }
 
     &__role {
-        padding-left: calc(50px + 1em); // Indent, to be straight under the glyph
+        @media (min-width: $breakpoint-small) {
+            padding-left: calc(50px + 1em); // Indent, to be straight under the glyph
+        }
     }
 
     .role {
