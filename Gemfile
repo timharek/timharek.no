@@ -9,7 +9,6 @@ group :jekyll_plugins do
   gem 'jekyll-target-blank'
   gem 'jekyll-redirect-from'
   gem 'jekyll-json-feed'
-  gem 'jekyll-favicon', '~> 0.2.9'
   gem 'jekyll-sitemap'
 end
 

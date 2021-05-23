@@ -1,5 +1,4 @@
 <head>
-    {% favicon %}
     {% if page.title %}
         {% assign page_title = site.title | append: ' - ' | append: page.title %}
         <title>{{ page_title }}</title>
@@ -22,6 +21,10 @@
     <meta property="og:image" content="{{ site.url }}{{ page.image | default: "/assets/img/cover.png" | relative_url }}" />
     <meta name="apple-mobile-web-app-capable" content="no" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="shortcut icon" sizes="192x192" href="{{ "/assets/img/symbol.svg" | relative_url }}"> 
+    <link rel="apple-touch-icon" href="{{ "/assets/img/symbol.svg" | relative_url }}"> 
+    <link rel="mask-icon" href="{{ "/assets/img/symbol.svg" | relative_url }}"> 
 
     <link rel="preload" href="{{ "/assets/main.css" | relative_url }}" as="style"> 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">

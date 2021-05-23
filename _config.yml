@@ -37,10 +37,6 @@ plugins:
     - jekyll-redirect-from
     - jekyll-sitemap
 
-favicon:
-  source: /assets/img/symbol.svg
-  path: /assets/img
-
 target-blank:
     add_css_classes: external
 
