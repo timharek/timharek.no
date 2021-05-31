@@ -1,4 +1,4 @@
-last_update: 2021-04-30
+last_update: 2021-05-31
 name: Tim Hårek Andreassen
 tldr:
   I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. Presently I'm finishing my last semester of my
@@ -58,8 +58,9 @@ voluntary:
     role: 
       - name: Web developer
         start: 2020-02-12
+        end: 2021-05-29
         desc:
-          - Development of their new website, using new technologies.
+          - Contributed on the development of their new website, using modern technologies.
     glyph: /assets/img/resume/srib.svg
   - name: friByte
     role:
