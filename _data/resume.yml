@@ -1,18 +1,20 @@
-last_update: 2021-05-31
+last_update: 2021-06-08
 name: Tim Hårek Andreassen
-tldr:
-  I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. Presently I'm finishing my last semester of my
-  bachelors degree in Computer Security at the University of Bergen. I have two part-time jobs beside my studies, at the University and for an oil-service
-  company, Vest Kontakt AS.
+tldr: >-
+  I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. 
+  Presently I'm finishing my last semester of my bachelors degree in Computer Security at the University of Bergen. 
+  I'm currently self-employed, working as a freelance developer for Netlife Design Bergen, and also assisting an offshore-service company, Vest Kontakt, with technical support.
 work:
   - name: TH Andreassen
     glyph: /assets/img/symbol.svg
     role: 
-      - name: Freelance
+      - name: Freelance developer
         present: true
         start: 2021-04-19
         desc:
-          - Freelance for Netlife Design Bergen.
+          - Working for Netlife Design Bergen.
+          - Development of KHdele's new website.
+          - Development of One Ocean Expedtion's new website.
   - name: Vest Kontakt AS
     glyph: /assets/img/resume/vk.svg
     role: 
@@ -28,8 +30,9 @@ work:
     glyph: /assets/img/resume/uib.svg
     role: 
       - name: IT assistent
-        present: true
+        present: false
         start: 2018-08-12
+        end: 2021-06-30
         desc:
           - Technical support for students and lectures.
           - Part-time job beside my bachelors-degree.
