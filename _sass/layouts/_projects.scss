@@ -6,7 +6,6 @@
     @media (max-width: $breakpoint-medium2) {
         grid-template-columns: 1fr;
     }
-
 }
 
 .project {
@@ -15,7 +14,9 @@
     border-radius: 10px;
 
     &:first-child {
-        grid-column: span 2;
+        @media (min-width: $breakpoint-medium2) {
+            grid-column: span 2;
+        }
     }
 
     .project__header {
@@ -35,12 +36,12 @@
     }
 
     .project__description {
-        margin: .5em 0;
+        margin: 0.5em 0;
     }
 
     .project__metadata {
         display: flex;
         flex-wrap: wrap;
-        gap: .5em 1em;
+        gap: 0.5em 1em;
     }
 }
