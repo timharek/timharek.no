@@ -6,12 +6,17 @@
     @media (max-width: $breakpoint-medium2) {
         grid-template-columns: 1fr;
     }
+
 }
 
 .project {
     padding: 1.5em;
     border: 2px solid var(--color-border);
     border-radius: 10px;
+
+    &:first-child {
+        grid-column: span 2;
+    }
 
     .project__header {
         display: inline-flex;
@@ -26,7 +31,7 @@
 
     .project__name {
         font-size: 1.2rem;
-        margin-top: 0;
+        margin: 0;
     }
 
     .project__description {
