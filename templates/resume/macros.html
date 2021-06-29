@@ -5,7 +5,7 @@
   {% for experience in array %}
   <article class="experience">
     <header class="experience__header">
-      <img class="experience__logo" src="{{ experience.glyph }}" alt="{{ experience.name }} logo" />
+      <img class="experience__logo" src="{{ get_url(path=experience.glyph) | safe }}" alt="{{ experience.name }} logo" />
       <h3 class="experience__name">{{ experience.name }}</h3>
     </header>
     {% set roles = experience.role %} {% for role in roles | sort(attribute="start") | reverse %}
@@ -25,8 +25,7 @@
   </article>
   {% endfor %}
 </div>
-{% endmacro resume_section %} 
-{% macro skill(title, array) %}
+{% endmacro resume_section %} {% macro skill(title, array) %}
 <div class="skill__category">
   <h3 class="skill__category-name">{{ title }}</h3>
   <span class="skill__list">{{ array | join(sep=", ") }}</span>
