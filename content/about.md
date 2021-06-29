@@ -7,8 +7,6 @@ aliases = ["/contact"]
 
 My name is Tim Hårek Andreassen. I'm a developer, designer, hiker and dog-person from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience.
 
-Presently I'm finishing the last semester of my bachelors degree in Computer Security at the University of Bergen. I've learned a lot of different practices in terms of development, security and privacy.
-
 I spend my free time learning about new technologies, automating my everyday and going hiking with my dog, Ayla! 🐕
 
 ## Contact
@@ -21,7 +19,7 @@ I usually host my project at [GitHub][github] or [Datatukler.no][datatukler].
 
 ## My website
 
-I self-host my webconfig.extra using [1984Hosting][1984]. The website is built using [Zola][zola] with [Vim][vim]. 
+I self-host my webconfig.extra using [1984Hosting][1984]. The website is built using [Zola][zola] with [Vim][vim].
 
 Source code is available on [GitHub][sourcecode].
 
