@@ -1,0 +1,32 @@
+{% extends "base/base.html" %} {% block content %}
+<section class="intro">
+  <h1>
+    Hi, I'm <span class="intro__name">Tim Hå<span class="intro__name--r">r</span>ek</span>
+  </h1>
+  <p>{{ config.description }}</p>
+</section>
+
+{% set projects = load_data(path="content/projects.toml") %}
+<h2>Recent projects</h2>
+<section class="projects">
+  {% for project in projects.projects | sort(attribute="date") | reverse %}
+  <article class="project">
+    <div class="project__header">
+      <img class="project__logo" src="{{ get_url(path=project.logo) | default(value=get_url(path="img/error.svg")) }}" alt="{{ project.name }} logo">
+      <h1 class="project__name">{{ project.name }}</h1>
+    </div>
+    <p class="project__description">{{ project.description }}</p>
+    {% if project.link or project.sourcecode %}
+    <div class="project__metadata">
+      {% if project.link %}
+      <a href="{{ project.link }}">{{ project.link | trim_start_matches(pat="https://") }}</a>
+      {% endif %} {% if project.sourcecode %}
+      <a href="{{ project.sourcecode }}">Source code</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+
+{% endblock content %}

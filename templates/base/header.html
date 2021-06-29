@@ -1,0 +1,26 @@
+<header class="header" role="banner">
+    <a class="header__logo" rel="me" href="/" aria-label="Home">
+        {{ load_data(path="static/img/logo.svg") | safe }}
+    </a>
+
+    <nav class="header__nav" role="navigation">
+        <ul class="nav__list">
+
+            {% for menu_item in config.extra.nav %}
+                <li class="nav__item">
+                    {% set path = menu_item.path ~'/' %}
+                    
+                    <a 
+                    {% if current_path == path %}
+                        class="nav__item--link nav__item--link--current"
+                    {% else %}
+                        class="nav__item--link"
+                    {% endif %}
+                    href="{{ menu_item.path }}">{{ menu_item.name | safe }}</a>
+
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
+

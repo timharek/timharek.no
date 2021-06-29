@@ -1,0 +1,59 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53.1 60.3" enable-background="new 0 0 53.1 60.3" xml:space="preserve">
+<polygon fill="#008bcbe8" points="38.1,30.1 53.1,21.5 53.1,16 28.6,30.1 53.1,44.3 53.1,38.8 "/>
+<polygon fill="#008bcbe8" points="51.9,14.1 47.2,11.4 32.2,20 32.2,2.7 27.5,0 27.5,14.1 27.5,28.2 "/>
+<polygon fill="#008bcbe8" points="25.3,0 20.6,2.7 20.6,20 5.6,11.4 0.9,14.1 25.3,28.2 "/>
+<polygon fill="#008bcbe8" points="15,30.2 0,38.8 0,44.3 24.4,30.2 0,16.1 0,21.5 "/>
+<polygon fill="#008bcbe8" points="1.1,46.2 5.8,48.9 20.8,40.3 20.8,57.6 25.5,60.3 25.5,46.2 25.5,32.1 "/>
+<polygon fill="#008bcbe8" points="52.2,46.2 27.8,32.1 27.8,60.3 32.5,57.6 32.5,40.3 47.5,48.9 "/>
+<script xmlns="">try {
+                        Object.defineProperty(screen, "availTop", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availLeft", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availWidth", { value: 2560 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availHeight", { value: 1440 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "colorDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (Macintosh)" });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 0
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 0
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = window.screen.height
+            } catch (e) { }
+        
+            try {
+                window.screenX = 1280
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 1280
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 1280
+            } catch (e) { }
+        </script></svg>

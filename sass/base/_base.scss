@@ -1,0 +1,27 @@
+html {
+    font-family: $font-family-sans;
+}
+
+html,
+body {
+    background: var(--color-bg);
+    color: var(--color-font);
+    margin: 0;
+    padding: 0;
+
+    font-size: clamp(1rem, 2vw, 1.075rem);
+
+    line-height: 1.5;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: $site-max-width;
+    height: 100vh - margin-top;
+
+    margin-bottom: clamp(0.5vh, 5%, 50px);
+    margin-top: clamp(1vh, 10%, 100px);
+    width: 100% - padding;
+    padding: 0 10px;
+
+}

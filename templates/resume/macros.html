@@ -1,0 +1,34 @@
+{% macro section(title, array) %}
+<div class="experiences">
+  <h2 class="experiences__title">{{ title }}</h2>
+
+  {% for experience in array %}
+  <article class="experience">
+    <header class="experience__header">
+      <img class="experience__logo" src="{{ experience.glyph }}" alt="{{ experience.name }} logo" />
+      <h3 class="experience__name">{{ experience.name }}</h3>
+    </header>
+    {% set roles = experience.role %} {% for role in roles | sort(attribute="start") | reverse %}
+    <div class="experience__role">
+      <h4 class="role__name">{{ role.name }} - {{ role.start | date(format="%b %Y") }} - {% if role.end %}{{ role.end | date(format="%b %Y") }}{% else %}present{% endif %}</h4>
+      {% if role.desc | length > 1 %}
+      <ul class="role__list">
+        {% for desc in role.desc %}
+        <li class="role__list-item">{{ desc }}</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="role__description">{{ role.desc | first }}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </article>
+  {% endfor %}
+</div>
+{% endmacro resume_section %} 
+{% macro skill(title, array) %}
+<div class="skill__category">
+  <h3 class="skill__category-name">{{ title }}</h3>
+  <span class="skill__list">{{ array | join(sep=", ") }}</span>
+</div>
+{% endmacro skill %}

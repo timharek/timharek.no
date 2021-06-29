@@ -1,0 +1,20 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+<h1>{{ section.title }}</h1>
+<ul class="blog">
+    {% for post in section.pages %}
+    <li class="blog__post">
+        <span class="post__date">{{ post.date | date(format="%Y-%m-%d") }}</span>
+        <div class="post__summary">
+            <a href="{% if post.extra.link %}{{ post.extra.link }}{% else %}{{ post.permalink | trim_start_matches(pat=config.base_url) }}{% endif %}">{{ post.title }}</a>
+            <span>
+                {{ post.description }}
+            </span>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
+
