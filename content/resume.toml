@@ -1,15 +1,28 @@
 last_update = 2021-06-08
 name = "Tim Hårek Andreassen"
-tldr = "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm self-employed, working as a freelance developer for Netlife Design Bergen, and also assisting an offshore-service company, Vest Kontakt, providing technical support."
+tldr = "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt."
 
 [[work]]
-name = "TH Andreassen"
+name = "Netlife Design (Bergen)"
+glyph = "img/resume/netlife.svg"
+
+  [[work.role]]
+  name = "Technologist"
+  present = true
+  start = 2021-08-02
+  desc = [
+  "Mainly front-end development",
+]
+
+[[work]]
+name = "TH Andreassen (self-empolyed)"
 glyph = "img/symbol.svg"
 
   [[work.role]]
   name = "Freelance developer"
   present = true
   start = 2021-04-19
+  end = 2021-07-16
   desc = [
   "Working for Netlife Design Bergen.",
   "Development of KHdele's new website.",
