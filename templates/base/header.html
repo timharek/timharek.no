@@ -11,7 +11,7 @@
                     {% set path = menu_item.path ~'/' %}
                     
                     <a 
-                    {% if current_path == path %}
+                    {% if current_path and current_path == path %}
                         class="nav__item--link nav__item--link--current"
                     {% else %}
                         class="nav__item--link"

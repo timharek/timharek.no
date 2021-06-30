@@ -14,7 +14,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% elif section.title %}{{ section.title }} - {% endif %}{{ config.title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elif section.description %}{{ section.description }}{% else %}{{ config.description }}{% endif %}" />
-  <meta property="og:url" content="{{ current_url | safe }}" />
+  <meta property="og:url" content="{% if current_url %}{{ current_url | safe }}{% else %}{{ config.title }}{% endif %}" />
   <meta property="og:image" content="{{ cover | safe }}" />
   <meta name="apple-mobile-web-app-capable" content="no" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
