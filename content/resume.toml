@@ -15,21 +15,6 @@ glyph = "img/resume/netlife.svg"
 ]
 
 [[work]]
-name = "TH Andreassen (self-empolyed)"
-glyph = "img/symbol.svg"
-
-  [[work.role]]
-  name = "Freelance developer"
-  present = true
-  start = 2021-04-19
-  end = 2021-07-16
-  desc = [
-  "Working for Netlife Design Bergen.",
-  "Development of KHdele's new website.",
-  "Development of One Ocean Expedtion's new website."
-]
-
-[[work]]
 name = "Vest Kontakt AS"
 glyph = "img/resume/vk.svg"
 
@@ -42,6 +27,21 @@ glyph = "img/resume/vk.svg"
   "IT support for employees, both remote and on-site.",
   "Re-designed their website, with modern technologies.",
   "Created a more efficient system for their annual inventory."
+]
+
+[[work]]
+name = "TH Andreassen (self-empolyed)"
+glyph = "img/symbol.svg"
+
+  [[work.role]]
+  name = "Freelance developer"
+  present = true
+  start = 2021-04-19
+  end = 2021-07-16
+  desc = [
+  "Working for Netlife Design Bergen.",
+  "Development of KHdele's new website.",
+  "Development of One Ocean Expedtion's new website."
 ]
 
 [[work]]
