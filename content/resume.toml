@@ -11,7 +11,8 @@ glyph = "img/resume/netlife.svg"
   present = true
   start = 2021-08-02
   desc = [
-  "Mainly front-end development",
+  "Front-end development with Craft CMS.",
+  "Front- and back-end development with Sanity CMS."
 ]
 
 [[work]]
