@@ -1,4 +1,5 @@
-{% import "resume/macros.html" as macros %} {% extends "base/base.html" %} {% block content %} {% set resume = load_data(path="content/resume.toml") %}
+{% import "resume/macros.html" as macros %} {% extends "base/base.html" %} {%
+block content %} {% set resume = load_data(path="content/resume.toml") %}
 <section class="resume">
   <h1 class="resume__name">{{ resume.name }}</h1>
   <div class="resume__secret"></div>
@@ -8,13 +9,18 @@
     <p>{{ resume.tldr }}</p>
   </div>
 
-  {{ macros::section(title="Work experiences", array=resume.work) }} {{ macros::section(title="Education", array=resume.education) }} {{ macros::section(title="Voluntary experiences", array=resume.voluntary) }}
+  {{ macros::section(title="Work experiences", array=resume.work) }} {{
+  macros::section(title="Education", array=resume.education) }} {{
+  macros::section(title="Voluntary experiences", array=resume.voluntary) }}
 
   <div class="resume__skills">
     <h2>Skills</h2>
-    {% for skill in resume.skills %} {{ macros::skill(title=skill.name, array=skill.list) }} {% endfor %}
+    {% for skill in resume.skills %} {{ macros::skill(title=skill.name,
+    array=skill.list) }} {% endfor %}
   </div>
-  <span class="resume__last-update"> Last update: {{ resume.last_update | date(format="%Y-%m-%d") }} </span>
+  <span class="resume__last-update">
+    Last update: {{ resume.last_update | date(format="%Y-%m-%d") }}
+  </span>
 </section>
 
 {% endblock content %}

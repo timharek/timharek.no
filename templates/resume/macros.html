@@ -5,12 +5,21 @@
   {% for experience in array %}
   <article class="experience">
     <header class="experience__header">
-      <img class="experience__logo" src="{{ get_url(path=experience.glyph) | safe }}" alt="{{ experience.name }} logo" />
+      <img
+        class="experience__logo"
+        src="{{ get_url(path=experience.glyph) | safe }}"
+        alt="{{ experience.name }} logo"
+      />
       <h3 class="experience__name">{{ experience.name }}</h3>
     </header>
-    {% set roles = experience.role %} {% for role in roles | sort(attribute="start") | reverse %}
+    {% set roles = experience.role %} {% for role in roles |
+    sort(attribute="start") | reverse %}
     <div class="experience__role">
-      <h4 class="role__name">{{ role.name }} - {{ role.start | date(format="%b %Y") }} - {% if role.end %}{{ role.end | date(format="%b %Y") }}{% else %}present{% endif %}</h4>
+      <h4 class="role__name">
+        {{ role.name }} - {{ role.start | date(format="%b %Y") }} - {% if
+        role.end %}{{ role.end | date(format="%b %Y") }}{% else %}present{%
+        endif %}
+      </h4>
       {% if role.desc | length > 1 %}
       <ul class="role__list">
         {% for desc in role.desc %}
