@@ -23,9 +23,9 @@ Custom built desktop PC:
 - **Case**: NZXT H1 Matte Black
 
 
-### Laptop (work)
+### Laptop 
 
-My work issued laptop, M1 MacBook Pro 13":
+M1 MacBook Pro 13":
 - **CPU** & **GPU**: M1 8-core
 - **RAM**: 16GB
 - **Storage**: 512GB
