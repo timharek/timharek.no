@@ -35,13 +35,14 @@ article {
 
   .post-header {
     .post-meta {
-      margin-top: 0;
+      display: inline-flex;
+      gap: .5em;
       margin-bottom: 1.5em;
-      text-transform: uppercase;
 
-      span {
+      .author {
         font-weight: bold;
         margin-right: 0.5em;
+        text-transform: uppercase;
       }
     }
   }
