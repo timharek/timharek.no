@@ -87,8 +87,9 @@ I don't use my phone (iPhone 12 Mini) that much, but these are my most frequentl
 
 I use a few services on a regular basis:
 
-- [Migadu][migadu] (amazing email hosting)
+- [Migadu][migadu] (Amazing email hosting)
 - [Nextcloud][nextcloud] (Self-host)
+- [1984 Hosting][1984] (My VPS provider)
 - [Spotify][spotify]
 
 
@@ -108,3 +109,4 @@ I use a few services on a regular basis:
 [yr]: https://www.yr.no
 [darkroom]: https://apps.apple.com/us/app/a-dark-room/id736683061
 [migadu]: https://migadu.com
+[1984]: https://1984hosting.com
