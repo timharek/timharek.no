@@ -1,7 +1,8 @@
 +++
 title = "Launching Everyday Privacy"
 date = 2021-06-12
-description = "Launching a project I worked on my last semester at the University of Bergen, helping educate everyday people about privacy and security."
+updated = 2021-08-14
+description = "Launching a project I worked on my last semester, spring 2021, at the University of Bergen, helping educate everyday people about privacy and security."
 tags = ["privacy", "foss"] 
 +++
 
