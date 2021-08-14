@@ -34,6 +34,7 @@ nav = [
 ]
 
 footer = [
+  { name = "Uses", path = "/uses" },
   { name = "Privacy", path = "/privacy" },
   { name = "Photos", path = "https://photos.timharek.no" },
 ]
