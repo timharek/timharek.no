@@ -1,4 +1,4 @@
-last_update = 2021-06-08
+last_update = 2021-08-15
 name = "Tim Hårek Andreassen"
 tldr = "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt."
 
@@ -134,15 +134,15 @@ glyph = "img/resume/uib.svg"
 
 [[skills]]
 name = "Programming languages"
-list = [ "Java", "C#", "Python", "HTML", "(S)CSS", "JS", "Liquid", "Tera" ]
+list = [ "Java", "C#", "Python", "HTML", "(S)CSS", "JS", "PHP" ]
 
 [[skills]]
 name = "Libraries and frameworks"
-list = [ "Node.js", "jQuery", "React.js","Vue.js", "Jekyll", "Zola" ]
+list = [ "Node.js", "jQuery", "React.js","Vue.js",  "Next.js", "Jekyll", "Zola", "Tailwind" ]
 
 [[skills]]
 name = "Tools"
-list = [ "Git", "Vim", "UNIX" ]
+list = [ "Git", "(Neo)Vim", "UNIX" ]
 
 [[skills]]
 name = "Platforms"
