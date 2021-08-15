@@ -67,6 +67,10 @@
 }
 
 .resume__skills {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+
   .skill__category {
     display: flex;
     align-content: center;
@@ -82,11 +86,17 @@
     .skill__category-name {
       font-weight: 500;
       margin: 0;
-      width: 50%;
+      flex-grow: 1
+    }
+    
+    .skill__list {
+      flex-grow: 1;
+      max-width: 50%;
     }
   }
 }
 
 .resume__last-update {
+  margin: 2em 0;
   font-size: 0.75em;
 }

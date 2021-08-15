@@ -18,9 +18,9 @@ block content %} {% set resume = load_data(path="content/resume.toml") %}
     {% for skill in resume.skills %} {{ macros::skill(title=skill.name,
     array=skill.list) }} {% endfor %}
   </div>
-  <span class="resume__last-update">
+  <div class="resume__last-update">
     Last update: {{ resume.last_update | date(format="%Y-%m-%d") }}
-  </span>
+  </div>
 </section>
 
 {% endblock content %}
