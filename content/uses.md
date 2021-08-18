@@ -70,7 +70,9 @@ I use a lot of different software, I'll try to list the ones I use daily, but yo
 - [iTerm2][iterm2]
 - [Affinity Designer][affinity]
 - Apple Mail
-
+- [skhd][skhd] (Keyboard shortcuts for macOS)
+- [Rectangle][rectangle] (Open source window controls for macOS)
+- ~~[yabai][yabai] (Open source window manager for macOS)~~ (can't use on M1 Mac's, yet)
 
 ### Mobile software
 
@@ -110,3 +112,6 @@ I use a few services on a regular basis:
 [darkroom]: https://apps.apple.com/us/app/a-dark-room/id736683061
 [migadu]: https://migadu.com
 [1984]: https://1984hosting.com
+[skhd]: https://github.com/koekeishiya/skhd
+[rectangle]: https://github.com/rxhanson/Rectangle
+[yabai]: https://github.com/koekeishiya/yabai
