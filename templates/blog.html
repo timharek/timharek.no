@@ -1,4 +1,11 @@
-{% extends "base/base.html" %} {% block content %}
+{% extends "base/base.html" %}
+
+{% block head %}
+  {% set title = section.title ~ " - " ~ config.title %}
+  {% set description = section.description | default(value=config.description) %}
+{% endblock head %}
+
+{% block content %}
 <h1>{{ section.title }}</h1>
 <ul class="blog">
   {% for post in section.pages %}

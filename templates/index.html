@@ -1,4 +1,11 @@
-{% extends "base/base.html" %} {% block content %}
+{% extends "base/base.html" %}
+
+{% block head %}
+  {% set title = config.title %}
+  {% set description = config.description %}
+{% endblock head %}
+
+{% block content %}
 <section class="intro">
   <h1>Hi, I'm <span class="intro__name">Tim Hårek</span></h1>
   <p>{{ config.description }}</p>

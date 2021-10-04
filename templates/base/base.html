@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
-  {%- include "base/head.html" -%}
+  {% set logo = get_url(path="img/symbol.svg") %}
+  {% set cover = get_url(path="img/cover.png") %}
+  {% block head %} 
+    {% set title = page.title ~ " - " ~ config.title %}
+    {% set description = page.description | default(value=config.description) %}
+  {% endblock head %}
+  <head>
+    <title>{{ title }}</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#{{ config.extra.primary_color }}" />
+    <meta name="description" content="{{ description }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta name="twitter:image" content="{{ cover | safe }}" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta
+      property="og:url"
+      content="{% if current_url %}{{ current_url | safe }}{% else %}{{ config.title }}{% endif %}"
+    />
+    <meta property="og:image" content="{{ cover | safe }}" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="shortcut icon" sizes="192x192" href="{{ logo | safe }}" />
+    <link rel="apple-touch-icon" href="{{ logo | safe }}" />
+    <link rel="mask-icon" href="{{ logo | safe }}" />
+
+    <link rel="preload" href="{{ get_url(path="main.css") | safe }}" as="style"
+    /> <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
+
+    <script
+      async
+      defer
+      data-domain="timharek.no"
+      src="https://timharek.no/js/script.js"
+    ></script>
+
+    <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed"
+    type="application/rss+xml" title="{{ config.title }}" />
+  </head>
   <body>
     <div class="wrapper">
-      {%- include "base/header.html" -%} {% block content %} {% endblock %} {%-
-      include "base/footer.html" -%}
+      {% include "base/header.html" %} {% block content %} {% endblock content
+      %} {% include "base/footer.html" %}
     </div>
   </body>
 </html>

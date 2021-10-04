@@ -1,4 +1,11 @@
-{% extends "base/base.html" %} {% block content %}
+{% extends "base/base.html" %}
+
+{% block head %}
+  {% set title = "Not found" %}
+  {% set description = "404 Page not found" %}
+{% endblock head %}
+
+{% block content %}
 
 <article class="post">
   <div class="post-content">
