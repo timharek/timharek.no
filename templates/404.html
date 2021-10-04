@@ -1,15 +1,15 @@
 {% extends "base/base.html" %}
 
 {% block head %}
-  {% set title = "Not found" %}
-  {% set description = "404 Page not found" %}
+  {% set title = "Not found - " ~ config.title %}
+  {% set description = "404 - Page not found" %}
 {% endblock head %}
 
 {% block content %}
 
 <article class="post">
   <div class="post-content">
-    <h1 class="post-title">404 - Not found</h1>
+    <h1 class="post-title">{{ description }}</h1>
     Please return to the <a href="/">home page</a>
   </div>
 </article>
