@@ -1,5 +1,7 @@
-{% import "resume/macros.html" as macros %} {% extends "base/base.html" %} {%
-block content %} {% set resume = load_data(path="content/resume.toml") %}
+{% import "resume/macros.html" as macros %}
+{% extends "base/base.html" %}
+{% block content %}
+{% set resume = load_data(path="content/resume.json") %}
 <section class="resume">
   <h1 class="resume__name">{{ resume.name }}</h1>
   <div class="resume__secret"></div>
