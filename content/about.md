@@ -22,10 +22,13 @@ You can always reach me at [tim@harek.dev](mailto:tim@harek.dev) ([public key](/
 This website is built using [Zola][zola] by yours truly.
 Hosted on  [1984Hosting][1984].
 
+Proud member of [1MB club][1mb] and [512kB club][512kb].
+
 Source code is available on [GitHub][sourcecode].
 
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org
-[vim]: https://www.vim.org
+[1mb]: https://1mb.club
+[512kb]: https://512kb.club
 [sourcecode]: https://github.com/timharek/timharek.no
 [uib]: https://uib.no/en/ii
