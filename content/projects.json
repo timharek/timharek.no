@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "date": "2021-05-16",
+      "description": "Re-design of friByte's website. Built with Jekyll.",
+      "link": "https://fribyte.no",
+      "logo": "img/resume/fribyte.svg",
+      "name": "fribyte.no"
+    },
+    {
+      "date": "2021-02-13",
+      "description": "Re-design of Vest Kontakt AS's website.",
+      "link": "https://vestkontakt.no",
+      "logo": "img/projects/vk.svg",
+      "name": "vestkontakt.no"
+    },
+    {
+      "date": "2021-02-04",
+      "description": "Simple Python-script for weather, using yr.no's API",
+      "logo": "img/projects/p-yr.svg",
+      "name": "p-yr",
+      "sourcecode": "https://github.com/timharek/p-yr"
+    },
+    {
+      "date": "2020-04-27",
+      "description": "Weather app for a local ZIP code in Norway, built with Vue.js.",
+      "link": "https://5545.no",
+      "logo": "img/projects/5545.svg",
+      "name": "5545.no",
+      "sourcecode": "https://github.com/timharek/5545.no"
+    },
+    {
+      "date": "2021-06-12",
+      "description": "Open source project for educating people about online privacy and security.",
+      "link": "https://everyday-privacy.com",
+      "logo": "img/projects/everyday-privacy.svg",
+      "name": "Everyday Privacy",
+      "sourcecode": "https://github.com/timharek/everyday-privacy"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   <p>{{ config.description }}</p>
 </section>
 
-{% set projects = load_data(path="content/projects.toml") %}
+{% set projects = load_data(path="content/projects.json") %}
 <h2>Recent projects</h2>
 <section class="projects">
   {% for project in projects.projects | sort(attribute="date") | reverse %}
