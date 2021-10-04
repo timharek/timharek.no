@@ -4,7 +4,7 @@
   "tldr": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
   "work": [
     {
-      "glyph": "img/resume/netlife.svg",
+      "glyph": "/cv/netlife.svg",
       "name": "Netlife Design (Bergen)",
       "role": [
         {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "glyph": "img/resume/vk.svg",
+      "glyph": "/cv/vk.svg",
       "name": "Vest Kontakt AS",
       "role": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "glyph": "img/resume/uib.svg",
+      "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
       "role": [
         {
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "glyph": "img/resume/infocare.svg",
+      "glyph": "/cv/infocare.svg",
       "name": "InfoCare Norge AS",
       "role": [
         {
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "glyph": "img/resume/appex.svg",
+      "glyph": "/cv/appex.svg",
       "name": "Appex",
       "role": [
         {
@@ -103,7 +103,7 @@
   ],
   "voluntary": [
     {
-      "glyph": "img/resume/srib.svg",
+      "glyph": "/cv/srib.svg",
       "name": "Studentradioen i Bergen",
       "role": [
         {
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "glyph": "img/resume/fribyte.svg",
+      "glyph": "/cv/fribyte.svg",
       "name": "friByte",
       "role": [
         {
@@ -142,7 +142,7 @@
   ],
   "education": [
     {
-      "glyph": "img/resume/uib.svg",
+      "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
       "role": [
         {
