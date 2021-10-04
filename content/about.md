@@ -17,18 +17,13 @@ I spend my free time learning about new technologies, automating my everyday and
 
 You can always reach me at [tim@harek.dev](mailto:tim@harek.dev) ([public key](/key)).
 
-### My projects
+## Colophon
 
-I usually host my project at [GitHub][github] or [Datatukler.no][datatukler].
-
-## My website
-
-I self-host my website using [1984Hosting][1984]. The website is built using [Zola][zola] with [Vim][vim].
+This website is built using [Zola][zola] by yours truly.
+Hosted on  [1984Hosting][1984].
 
 Source code is available on [GitHub][sourcecode].
 
-[github]: https://github.com/timharek
-[datatukler]: https://git.datatukler.no/timharek
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org
 [vim]: https://www.vim.org
