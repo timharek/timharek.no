@@ -34,14 +34,20 @@ article {
   hyphens: auto;
 
   .post-header {
+    .post-title {
+      hyphens: auto;
+      max-width: max-content;
+      border-bottom: 4px solid var(--color-primary);
+    }
     .post-meta {
+      font-size: .9rem;
       display: inline-flex;
-      gap: .5em;
-      margin-bottom: 1.5em;
+      gap: .25rem;
+      margin-bottom: .5rem;
 
       .author {
         font-weight: bold;
-        margin-right: 0.5em;
+        margin-right: 0.5rem;
         text-transform: uppercase;
       }
     }
