@@ -20,7 +20,7 @@
       <img class="project__logo" src="{{ get_url(path=project.logo) |
       default(value=get_url(path="img/error.svg")) }}" alt="{{ project.name }}
       logo">
-      <h1 class="project__name">{{ project.name }}</h1>
+      <h3 class="project__name">{{ project.name }}</h3>
     </div>
     <p class="project__description">{{ project.description }}</p>
     {% if project.link or project.sourcecode %}
