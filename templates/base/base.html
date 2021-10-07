@@ -47,9 +47,9 @@
     type="application/rss+xml" title="{{ config.title }}" />
   </head>
   <body>
-    <div class="wrapper">
+    <main class="wrapper">
       {% include "base/header.html" %} {% block content %} {% endblock content
       %} {% include "base/footer.html" %}
-    </div>
+    </main>
   </body>
 </html>
