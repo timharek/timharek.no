@@ -1,7 +1,8 @@
 +++
-date = 2021-02-18 
 title = "How to connect to UiB VPN without Cisco AnyConnect" 
 description = "Tutorial on how to setup OpenConnect to connect to University of Bergen's new VPN"
+date = 2021-02-18 
+updated = 2021-10-07
 tags = ["tutorial", "vpn"]
 +++
 If you are a student at the University of Bergen (UiB), you might have discovered that UiB now uses Cisco AnyConnect instead of their own, self-hosted alternative like before. Personally, I find the Cisco AnyConnect app to be very privacy invading, demaing all these different privileges... so I started looking for alternatives. Luckily, I found an open-source alternative, [OpenConnect](https://gitlab.com/openconnect/openconnect).
@@ -9,15 +10,24 @@ If you are a student at the University of Bergen (UiB), you might have discovere
 ## Step 1: Installation
 Firstly, you need to install _OpenConnect_.
 <details>
-    <summary>Linux</summary>
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
-sudo apt install openconnect
-</code></pre></div></div>
+  <summary>Linux</summary>
+
+  ```sh
+  sudo apt update && sudo apt install openconnect
+  ```
+
 </details>
 <details>
-    <summary>macOS</summary>
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install openconnect
-</code></pre></div></div>
+  <summary>macOS</summary>
+
+  ```sh
+  brew install openconnect
+  ```
+
+</details>
+<details>
+  <summary>Windows</summary>
+  🤷
 </details>
 
 ## Step 2: Getting your VPN certificate
