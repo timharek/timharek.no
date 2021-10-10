@@ -1,7 +1,7 @@
 +++
 title = "Migadu > ProtonMail"
 date = 2021-08-24
-updated = 2021-10-07
+updated = 2021-10-10
 description = "Why I decided against continuing using ProtonMail and migrate over to Migadu. Not a direct comparison nor a review of the services."
 tags = ["email", "migadu", "protonmail"] 
 +++
@@ -34,7 +34,7 @@ I have been so satisfied that I even had [friByte][fribyte] migrate over, instea
 
 I will have to make a proper review of Migadu by the end of the year, I promise!
 
-[^1]: https://protonmail.com/support/knowledge-base/reset-password/
+[^1]: [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/) (protonmail.com)
 
 [pm-bridge]: https://protonmail.com/bridge/
 [migadu]: https://migadu.com
