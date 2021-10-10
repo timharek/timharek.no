@@ -1,7 +1,7 @@
 +++
 title = "Launching Everyday Privacy"
 date = 2021-06-12
-updated = 2021-08-14
+updated = 2021-10-10
 description = "Launching a project I worked on my last semester, spring 2021, at the University of Bergen, helping educate everyday people about privacy and security."
 tags = ["privacy", "foss"] 
 +++
@@ -11,13 +11,13 @@ Today is an exciting day, I finally launched my first privacy-related project, [
 ## Backstory
 After everything I've learned during my bachelors degree in Computer Security and just by being curious and learning about privacy and security during my spare-time, I figured it was finally time to make something of it!
 
-There is a subject at the University of Bergen (UiB) called [Project in informatics INF219](https://www.uib.no/en/course/INF219), where you are sometimes able make a project yourself. I reached out to the person responsible for the course regarding an idea for a privacy and security project whose goal is to help educate people about their privacy and security online on various platforms and services. 
+There is a course at the University of Bergen (UiB) called [Project in informatics INF219](https://www.uib.no/en/course/INF219), where you are sometimes able make a project yourself. I reached out to the person responsible for the course regarding an idea for a privacy and security project whose goal is to help educate people about their privacy and security online on various platforms and services. 
 Unfortunately as this project didn't require much programming, it couldn't be considered as a informatics project for INF219. However, I was told that I might still be able to have it as a project, but if I found a mentor for my project myself who wanted to help me. And since you are reading this post, I was able to do just that!
 
 ## Motivation behind the project
 
-Ever since 2017/2018 I've been interested in finding alternatives to some of the very popular platforms and services, such as Facebook, Twitter, Google etc., and then I discovered [PrivacyTools](https://privacytools.io) and [PRISM-Break](https://prism-break.org).
-For myself, as a fairly technical person, I found both PrivacyTools and PRISM-break very informative and helpful in my search for privacy-respecting alternatives.
+Ever since 2017/2018 I've been interested in finding alternatives to some of the very popular platforms and services, such as Facebook, Twitter, Google etc., and then I discovered [Privacy Guides](https://privacyguides.org/) (formerly known as PrivacyTools.io) and [PRISM-Break](https://prism-break.org).
+For myself, as a fairly technical person, I found both Privacy Guides and PRISM-break very informative and helpful in my search for privacy-respecting alternatives.
 But whenever I tried to be informative to friends and family, I've been mostly unsuccessful in order to convince them to find alternatives as well.
 
 So with Everyday Privacy, I thought this should be my target audience, non-technical people. I want to help educate people in a clear and simple manner when it comes to privacy and security on various online services. A secondary goal with the project was to have it be free and open source, where everyone is welcome to contribute and share.
