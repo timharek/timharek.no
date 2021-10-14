@@ -27,7 +27,7 @@
     array=skill.list) }} {% endfor %}
   </div>
   <div class="resume__last-update">
-    Last update: {{ resume.last_update | date(format="%Y-%m-%d") }}
+    Updated {{ resume.last_update | date(format=config.extra.date_format) }}
   </div>
 </section>
 
