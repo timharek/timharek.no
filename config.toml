@@ -29,7 +29,7 @@ smart_punctuation = true
 primary_color = "0096F5"
 author = "Tim Hårek"
 email = "tim@harek.dev"
-
+date_format = "%B %e, %Y"
 
 nav = [
   { name = "About", path = "/about" },

@@ -10,7 +10,6 @@
 <ul class="blog">
   {% for post in section.pages %}
   <li class="blog__post">
-    <span class="post__date">{{ post.date | date(format="%Y-%m-%d") }}</span>
     <div class="post__summary">
       <a
         href="{% if post.extra.link %}{{ post.extra.link }}{% else %}{{ post.permalink | trim_start_matches(pat=config.base_url) }}{% endif %}"
@@ -18,6 +17,7 @@
       >
       <span> {{ post.description }} </span>
     </div>
+    <span class="post__date">{{ post.date | date(format=config.extra.date_format) }}</span>
   </li>
   {% endfor %}
 </ul>

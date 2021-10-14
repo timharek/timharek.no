@@ -28,7 +28,7 @@
         datetime="{{ page.date }}"
         itemprop="datePublished"
       >
-        {{ page.date | date(format="%Y-%m-%d") }}
+        {{ page.date | date(format=config.extra.date_format) }}
       </time>
       {% if page.updated %}
         <time
@@ -36,7 +36,7 @@
           datetime="{{ page.updated }}"
           itemprop="dateUpdated"
         >
-          (Updated {{ page.updated | date(format="%Y-%m-%d") }})
+          (Updated {{ page.updated | date(format=config.extra.date_format) }})
         </time>
       {% endif %}
     </span>
