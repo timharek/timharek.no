@@ -1,6 +1,7 @@
 +++
 title = "How to connect to UiB VPN without Cisco AnyConnect" 
-description = "Tutorial on how to setup OpenConnect to connect to University of Bergen's new VPN"
+description = """Tutorial on how to setup OpenConnect to connect to
+University of Bergen's new VPN."""
 date = 2021-02-18 
 updated = 2021-10-07
 tags = ["tutorial", "vpn"]

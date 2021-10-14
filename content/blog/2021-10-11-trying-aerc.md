@@ -1,7 +1,8 @@
 +++
 date = 2021-10-11
 title = "Trying out aerc"
-description = "After using Apple Mail for a while, I'm trying aerc as my new email client"
+description = """
+After using Apple Mail for a while, I'm trying aerc as my new email client."""
 tags = ["email", "tui"] 
 +++
 

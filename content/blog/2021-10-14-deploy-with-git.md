@@ -2,8 +2,7 @@
 date = 2021-10-14
 title = "Deploy a static site to production using git-hooks"
 description = """
-How to deploy a static site to production (any kind of Linux-server) with git, 
-using git-hooks"""
+How to deploy a static site to production (any kind of Linux-server)."""
 tags = ["git", "ssh", "deployment", "server"] 
 +++
 
