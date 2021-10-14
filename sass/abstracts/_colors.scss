@@ -14,6 +14,7 @@ $color-gray-dark: #3a3a3a;
   --color-border: #{$color-black};
   --color-font: #{$color-black};
   --color-link-border: var(--color-nav-accent);
+  --color-date: #{$color-gray-dark};
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +24,6 @@ $color-gray-dark: #3a3a3a;
     --color-nav-accent: #{$color-gray-dark};
     --color-border: #{$color-gray};
     --color-font: #{$color-white};
+    --color-date: #{$color-gray-light};
   }
 }

@@ -17,7 +17,7 @@
     .post__date {
       flex-shrink: 0;
       margin-right: 1em;
-      color: $color-gray-light;
+      color: var(--color-date);
     }
 
     .post__summary {
@@ -40,7 +40,7 @@ article {
       border-bottom: 4px solid var(--color-primary);
     }
     .post-meta {
-      color: $color-gray-light;
+      color: var(--color-date);
       display: inline-flex;
       gap: .25rem;
       margin-bottom: .5rem;
