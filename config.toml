@@ -27,7 +27,7 @@ smart_punctuation = true
 
 [extra]
 primary_color = "0096F5"
-author = "Tim Hårek"
+author = "Tim Hårek Andreassen"
 email = "tim@harek.dev"
 date_format = "%B %e, %Y"
 
