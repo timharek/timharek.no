@@ -33,8 +33,9 @@
     <link rel="apple-touch-icon" href="{{ logo | safe }}" />
     <link rel="mask-icon" href="{{ logo | safe }}" />
 
-    <link rel="preload" href="{{ get_url(path="main.css") | safe }}" as="style"
-    /> <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
+    <link rel="preload" href="{{ get_url(path="main.css") | safe }}" 
+      as="style"/> 
+    <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
 
     <script
       async
@@ -45,6 +46,10 @@
 
     <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed"
     type="application/rss+xml" title="{{ config.title }}" />
+    <link href="https://github.com/timharek" rel="me" />
+    <link href="https://snabelen.no/@tim" rel="me" />
+    <link href="mailto:tim@harek.dev" rel="me" />
+    <link href="/public-key.asc" rel="pgpkey authn" />
   </head>
   <body>
     <main class="wrapper">

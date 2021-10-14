@@ -15,7 +15,7 @@ I spend my free time learning about new technologies, automating my everyday and
 
 ## Contact
 
-You can always reach me at [tim@harek.dev](mailto:tim@harek.dev) ([public key](/key)).
+You can always reach me at <a href="mailto:tim@harek.dev" rel="me">tim@harek.dev</a> ([public key](/key)).
 
 ## Colophon
 

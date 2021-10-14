@@ -5,7 +5,7 @@ description = "Tim Hårek's public key PGP"
 
 Fingerprint: `18131862de62d969f02a14e834853dfd0b419a0d`
 
-You can download my key [here](/public-key.asc), you can also find it on [keys.openpgp.org](https://keys.openpgp.org/search?q=tim%40harek.dev).
+You can download my key <a href="/public-key.asc" rel="pgpkey authn">here</a>, you can also find it on [keys.openpgp.org](https://keys.openpgp.org/search?q=tim%40harek.dev).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
