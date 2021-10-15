@@ -38,6 +38,11 @@ article {
       hyphens: auto;
       max-width: max-content;
       border-bottom: 4px solid var(--color-primary);
+      a {
+        color: inherit;
+        border: 0;
+        font-weight: 600;
+      }
     }
     .post-meta {
       color: var(--color-date);

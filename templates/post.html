@@ -13,7 +13,9 @@
 >
   <div class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">
-      {{ page.title | safe }}
+      <a href="{{ page.permalink }}">
+        {{ page.title | safe }}
+      </a>
     </h1>
     <span class="post-meta">
       {%- if config.extra.author -%}
