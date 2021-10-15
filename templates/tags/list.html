@@ -1,0 +1,19 @@
+{% extends "base/base.html" %}
+{% block head %}
+  {% set title = taxonomy.name|capitalize %}
+  {% set title = title ~ " - " ~ config.title %}
+  {% set description = config.description %}
+{% endblock head %}
+
+{% block content %}
+
+<section class="page-content">
+  <h1 class="page-title">{{ taxonomy.name|capitalize }}</h1>
+  <ul>
+    {% for term in terms %}
+      <li><a href="{{ term.path }}">{{ term.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% endblock content %}

@@ -39,6 +39,15 @@
           (Updated {{ page.updated | date(format=config.extra.date_format) }})
         </time>
       {% endif %}
+      {% if page.taxonomies.tags %}
+        <ul class="tags">
+          {% for tag in page.taxonomies.tags %}
+            <li class="tags__tag">
+              <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag|lower }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
     </span>
   </div>
 
