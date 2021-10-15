@@ -19,6 +19,12 @@ a {
     opacity: 0.75;
     outline: 0;
   }
+
+  &.anchor {
+    border: 0;
+    padding-left: .5rem;
+  }
+
 }
 
 h1 {
