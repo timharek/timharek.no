@@ -3,7 +3,8 @@ title = "Launching Everyday Privacy"
 date = 2021-06-12
 updated = 2021-10-10
 description = "Launching a project I worked on my last semester, spring 2021, at the University of Bergen, helping educate everyday people about privacy and security."
-tags = ["privacy", "foss"] 
+[taxonomies]
+tags = ["Project", "Privacy", "FOSS"] 
 +++
 
 Today is an exciting day, I finally launched my first privacy-related project, [Everyday Privacy](https://everyday-privacy.com)!

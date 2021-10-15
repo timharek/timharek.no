@@ -4,7 +4,8 @@ description = """Tutorial on how to setup OpenConnect to connect to
 University of Bergen's new VPN."""
 date = 2021-02-18 
 updated = 2021-10-07
-tags = ["tutorial", "vpn"]
+[taxonomies]
+tags = ["Tutorial", "VPN"]
 +++
 If you are a student at the University of Bergen (UiB), you might have discovered that UiB now uses Cisco AnyConnect instead of their own, self-hosted alternative like before. Personally, I find the Cisco AnyConnect app to be very privacy invading, demaing all these different privileges... so I started looking for alternatives. Luckily, I found an open-source alternative, [OpenConnect](https://gitlab.com/openconnect/openconnect).
 

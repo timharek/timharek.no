@@ -3,7 +3,8 @@ title = "Migadu > ProtonMail"
 date = 2021-08-24
 updated = 2021-10-10
 description = "Why I decided against continuing using ProtonMail and migrate over to Migadu. Not a direct comparison nor a review of the services."
-tags = ["email", "migadu", "protonmail"] 
+[taxonomies]
+tags = ["Email", "Migadu", "ProtonMail"] 
 +++
 
 I have been a paying for ProtonMail (PM) since October 2018, where I paid for the _Professional_ tier with some additional domains. I was very satisfied with the service I paid for, even though I knew it was more expensive than the competitors, like Tutanota, Runbox, Gmail, Google Workspace etc.

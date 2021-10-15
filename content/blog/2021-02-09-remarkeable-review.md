@@ -2,7 +2,8 @@
 date = 2021-02-09 
 title = "reMarkable 2 reView (sort of)"
 description = "A small review from the past few weeks I have been using the tablet."
-tags = ["review"] 
+[taxonomies]
+tags = ["Preview"] 
 +++
 
 ## TL;DR
