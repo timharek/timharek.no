@@ -11,7 +11,7 @@
   <h1 class="page-title">{{ taxonomy.name|capitalize }}</h1>
   <ul>
     {% for term in terms %}
-      <li><a href="{{ term.path }}">{{ term.name }}</a></li>
+      <li><a href="{{ term.permalink }}">{{ term.name }}</a></li>
     {% endfor %}
   </ul>
 </section>
