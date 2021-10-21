@@ -6,7 +6,8 @@ aliases = ["/use"]
 updated = 2021-08-14
 +++
 
-This page contains lists of different technologies that I use, hardware, software and services.
+This page contains lists of different technologies that I use, hardware,
+software and services.
 
 ## Hardware
 
@@ -22,14 +23,13 @@ Custom built desktop PC:
 - **OS**: Arch Linux
 - **Case**: NZXT H1 Matte Black
 
-
-### Laptop 
+### Laptop
 
 M1 MacBook Pro 13":
+
 - **CPU** & **GPU**: M1 8-core
 - **RAM**: 16GB
 - **Storage**: 512GB
-
 
 ### Home lab
 
@@ -43,8 +43,9 @@ Everything that is accessable via the internet is passed through an Intel NUC:
 
 #### Self-hosted cloud storage
 
-From one of my previous jobs I managed to get a hold of three decommissioned fully working Lenovo ThinkCenter's. I use two of these for my personal cloud storage.
-
+From one of my previous jobs I managed to get a hold of three decommissioned
+fully working Lenovo ThinkCenter's. I use two of these for my personal cloud
+storage.
 
 #### Pi-Hole
 
@@ -52,7 +53,10 @@ I use a Raspberry Pi 4 model B for my network-wide Pi-Hole, it's simply amazing.
 
 ## Software
 
-I use a lot of different software, I'll try to list the ones I use daily, but you can look at my [dotfiles](https://github.com/timharek/dotfiles/blob/main/homebrew/casks) for my up to date list (on my work machine).
+I use a lot of different software, I'll try to list the ones I use daily, but
+you can look at my
+[dotfiles](https://github.com/timharek/dotfiles/blob/main/homebrew/casks) for
+my up to date list (on my work machine).
 
 ### Computer software
 
@@ -76,7 +80,8 @@ I use a lot of different software, I'll try to list the ones I use daily, but yo
 
 ### Mobile software
 
-I don't use my phone (iPhone 12 Mini) that much, but these are my most frequently used apps:
+I don't use my phone (iPhone 12 Mini) that much, but these are my most
+frequently used apps:
 
 - [NetNewsWire][netnewswire] (RSS reader)
 - [Signal][signal]
@@ -94,19 +99,18 @@ I use a few services on a regular basis:
 - [1984 Hosting][1984] (My VPS provider)
 - [Spotify][spotify]
 
-
 [neovim]: https://neovim.io/
 [vscode]: https://github.com/Microsoft/vscode
 [nextcloud]: https://nextcloud.com/
 [firefox]: https://firefox.com
 [bitwarden]: https://bitwarden.com
 [ublock]: https://ublockorigin.com/
-[containers]:https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+[containers]: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
 [netnewswire]: https://netnewswire.com/
 [slack]: https://slack.com
 [signal]: https://signal.org/
 [spotify]: https://spotify.com
-[iterm2]: https://iterm2.com/ 
+[iterm2]: https://iterm2.com/
 [affinity]: https://affinity.serif.com/en-us/designer/
 [yr]: https://www.yr.no
 [darkroom]: https://apps.apple.com/us/app/a-dark-room/id736683061

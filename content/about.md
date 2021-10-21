@@ -5,17 +5,22 @@ template = "page.html"
 aliases = ["/contact"]
 +++
 
-My name is Tim Hårek Andreassen. I'm a developer, designer, hiker and dog-person from the west coast of Norway.
-I care about creating solutions that respects people, in terms of privacy, security and user experience.
+My name is Tim Hårek Andreassen. I'm a developer, designer, hiker and 
+dog-person from the west coast of Norway. I care about creating solutions that
+respects people, in terms of privacy, security and user experience.
 
-I have a bachelor's degree in Informatics specializing in Computer Security from the [University of Bergen][uib].
-Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.
+I have a bachelor's degree in Informatics specializing in Computer Security 
+from the [University of Bergen][uib]. Presently I'm working as a technologist
+at Netlife Design, and I'm also an IT manager for an offshore-service
+company, Vest Kontakt.
 
-I spend my free time learning about new technologies, automating my everyday and going hiking with my dog, Ayla! 🐕
+I spend my free time learning about new technologies, automating my everyday 
+and going hiking with my dog, Ayla! 🐕
 
 ## Contact
 
-You can always reach me at <a href="mailto:tim@harek.dev" rel="me">tim@harek.dev</a> ([public key](/key)).
+You can always reach me at 
+<a href="mailto:tim@harek.dev" rel="me">tim@harek.dev</a> ([public key](/key)).
 
 ## Colophon
 
