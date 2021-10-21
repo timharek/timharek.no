@@ -22,6 +22,9 @@
 .experience {
   page-break-inside: avoid;
   margin-bottom: 1.25em;
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem 0;
 
   &__header {
     display: flex;
@@ -56,10 +59,8 @@
 
     &__description,
     &__list {
-      margin: 0.5em 0;
-      margin-bottom: 1em;
+      margin: 0;
     }
-
     &__list {
       padding-left: 1em;
     }

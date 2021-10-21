@@ -1,5 +1,5 @@
 {% macro section(title, array) %}
-<div class="experiences">
+<section class="experiences">
   <h2 class="experiences__title">{{ title }}</h2>
 
   {% for experience in array %}
@@ -33,10 +33,11 @@
     {% endfor %}
   </article>
   {% endfor %}
-</div>
-{% endmacro resume_section %} {% macro skill(title, array) %}
-<div class="skill__category">
+</section>
+{% endmacro section %} 
+{% macro skill(title, array) %}
+<section class="skill__category">
   <h3 class="skill__category-name">{{ title }}</h3>
   <span class="skill__list">{{ array | join(sep=", ") }}</span>
-</div>
+</section>
 {% endmacro skill %}
