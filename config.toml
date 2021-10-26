@@ -38,11 +38,10 @@ date_format = "%B %e, %Y"
 nav = [
   { name = "About", path = "/about" },
   { name = "Blog", path = "/blog" },
-  { name = "CV", path = "/cv" },
 ]
 
 footer = [
+  { name = "CV", path = "/cv" },
   { name = "Uses", path = "/uses" },
   { name = "Privacy", path = "/privacy" },
-  { name = "Photos", path = "https://photos.timharek.no" },
 ]
