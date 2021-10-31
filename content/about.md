@@ -29,11 +29,12 @@ Hosted on [1984Hosting][1984].
 
 Proud member of [1MB club][1mb] and [512kB club][512kb].
 
-Source code is available on [GitHub][sourcecode].
+Source code is available on [GitHub][github] and [Sourcehut][srht].
 
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org
 [1mb]: https://1mb.club
 [512kb]: https://512kb.club
-[sourcecode]: https://github.com/timharek/timharek.no
+[github]: https://github.com/timharek/timharek.no
+[srht]: https://git.sr.ht/~timharek/timharek.no
 [uib]: https://uib.no/en/ii
