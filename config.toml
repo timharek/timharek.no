@@ -36,8 +36,8 @@ email = "tim@harek.dev"
 date_format = "%B %e, %Y"
 
 nav = [
-  { name = "About", path = "/about" },
   { name = "Blog", path = "/blog" },
+  { name = "About", path = "/about" },
 ]
 
 footer = [
