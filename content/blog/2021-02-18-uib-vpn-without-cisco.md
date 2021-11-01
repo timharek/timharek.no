@@ -3,7 +3,7 @@ title = "How to connect to UiB VPN without Cisco AnyConnect"
 description = """Tutorial on how to setup OpenConnect to connect to
 University of Bergen's new VPN."""
 date = 2021-02-18 
-updated = 2021-10-07
+updated = 2021-11-01
 [taxonomies]
 tags = ["Tutorial", "VPN"]
 +++
@@ -29,15 +29,18 @@ Firstly, you need to install _OpenConnect_.
 </details>
 <details>
   <summary>Windows</summary>
-  🤷
+    ¯\_(ツ)_/¯
+
+  Mabye try to use git-bash or something, I really don't know.
 </details>
 
-## Step 2: Getting your VPN certificate
+## Step 2: Getting your VPN certificate (using Firefox)
 1. Login on [vpn3.uib.no](https://vpn3.uib.no), with your UiB credentials (_abc001_)
-2. Right-click anywhere and click `Show page info`
-3. There should be a "tab" named `Security`, click that
-4. Click `Show Certificate`
-5. In Firefox, under Miscellaneous,  you should be able to find a section that says "Download", choose `PEM (cert)` and save it to your downloads folder (`~/Downloads`)
+1. In the menu-bar click on **Tools**
+1. Click on **Page info**
+1. Select the **Security** tab
+1. Click the button **View certificate**
+1. In Firefox, under Miscellaneous,  you should be able to find a section that says "Download", choose **PEM (cert)** and save it to your downloads folder (`~/Downloads`)
 
 ## Step 3: Setting up the certificate
 Now that you have managed to retrieve your VPN certificate, you need to setup the certificate so that you will be able to use it.
