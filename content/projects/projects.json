@@ -2,14 +2,14 @@
   "projects": [
     {
       "date": "2021-05-16",
-      "description": "Re-design of friByte's website. Built with Jekyll.",
+      "description": "Redesign of friByte's website. Built with Jekyll.",
       "link": "https://fribyte.no",
       "logo": "/projects/fribyte.svg",
       "name": "fribyte.no"
     },
     {
       "date": "2021-02-13",
-      "description": "Re-design of Vest Kontakt AS's website.",
+      "description": "Redesign of Vest Kontakt AS's website. Built with Jekyll.",
       "link": "https://vestkontakt.no",
       "logo": "/projects/vk.svg",
       "name": "vestkontakt.no"
