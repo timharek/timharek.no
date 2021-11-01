@@ -1,5 +1,6 @@
 +++
 date = 2021-10-31
+updated = 2021-11-01
 title = "Goodbye Facebook"
 description = """
 Finally saying goodbye to Facebook, for good."""
@@ -16,7 +17,7 @@ Messenger either. I'm now ready to say goodbye, for good.
 
 ## Why
 
-Firstly I must say that I respect everyone that still uses Facebook. I
+Firstly, I must say that I respect everyone that still uses Facebook. I
 understand the value of the service, but I've come to terms that it's not
 useful for me anymore.
 
