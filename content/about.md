@@ -10,7 +10,7 @@ dog-person from the west coast of Norway. I care about creating solutions that
 respects people, in terms of privacy, security and user experience.
 
 I have a bachelor's degree in Informatics specializing in Computer Security 
-from the [University of Bergen][uib]. Presently I'm working as a technologist
+from the University of Bergen. Presently I'm working as a technologist
 at Netlife Design, and I'm also an IT manager for an offshore-service
 company, Vest Kontakt.
 
@@ -37,4 +37,3 @@ Source code is available on [GitHub][github] and [Sourcehut][srht].
 [512kb]: https://512kb.club
 [github]: https://github.com/timharek/timharek.no
 [srht]: https://git.sr.ht/~timharek/timharek.no
-[uib]: https://uib.no/en/ii
