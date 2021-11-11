@@ -9,6 +9,7 @@ $color-gray-dark: #3a3a3a;
 
 :root {
   --color-primary: #{$color-blue-dark};
+  --color-primary-inverse: #{$color-blue-light};
   --color-bg: #{$color-white};
   --color-nav-accent: #{$color-gray-light};
   --color-border: #{$color-black};
@@ -20,6 +21,7 @@ $color-gray-dark: #3a3a3a;
 @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #{$color-blue-light};
+    --color-primary-inverse: #{$color-blue-dark};
     --color-bg: #{$color-black};
     --color-nav-accent: #{$color-gray-dark};
     --color-border: #{$color-gray};
