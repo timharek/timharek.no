@@ -1,7 +1,15 @@
 <footer class="footer">
   <div class="footer__container">
     {% for footer_item in config.extra.footer %}
-      <a class="footer__link" href="{{ footer_item.path }}">{{ footer_item.name | safe }}</a>
+      {% set path = footer_item.path ~'/' %}
+
+      <a 
+        {% if current_path and current_path == path %}
+            class="footer__link footer__link--current"
+        {% else %}
+            class="footer__link"
+        {% endif %}
+        href="{{ footer_item.path }}">{{ footer_item.name | safe }}</a>
     {% endfor %}
 
   </div>
