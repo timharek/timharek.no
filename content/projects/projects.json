@@ -22,20 +22,19 @@
       "sourcecode": "https://github.com/timharek/p-yr"
     },
     {
-      "date": "2020-04-27",
-      "description": "Weather app for a local ZIP code in Norway, built with Vue.js.",
-      "link": "https://5545.no",
-      "logo": "/projects/5545.svg",
-      "name": "5545.no",
-      "sourcecode": "https://github.com/timharek/5545.no"
-    },
-    {
       "date": "2021-06-12",
       "description": "Open source project for educating people about online privacy and security.",
       "link": "https://everyday-privacy.com",
       "logo": "/projects/everyday-privacy.svg",
       "name": "Everyday Privacy",
       "sourcecode": "https://github.com/timharek/everyday-privacy"
+    },
+    {
+      "date": "2021-11-14",
+      "description": "Shell-script for accessing Sbanken via the command-line.",
+      "logo": "/projects/sbanken.svg",
+      "name": "sbanken.sh",
+      "sourcecode": "https://github.com/timharek/sbanken.sh"
     }
   ]
 }
