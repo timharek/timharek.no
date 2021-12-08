@@ -107,3 +107,13 @@ kbd {
 	background-color: rgb(247, 247, 247);
 	text-shadow: 0 1px 0 #fff;
 }
+
+blockquote {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-left: 0.5rem solid var(--color-border);
+
+  p {
+    margin: 0;
+  }
+}
