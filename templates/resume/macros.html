@@ -1,6 +1,10 @@
-{% macro section(title, array) %}
+{% macro section(title, array, ignore) %}
 <section class="experiences">
   <h2 class="experiences__title">{{ title }}</h2>
+
+  {% if ignore %}
+    {% set array = array | filter(attribute="relevant", value=true) %}
+  {% endif %}
 
   {% for experience in array %}
   <article class="experience">
@@ -12,8 +16,8 @@
       />
       <h3 class="experience__name">{{ experience.name }}</h3>
     </header>
-    {% set roles = experience.role %} {% for role in roles |
-    sort(attribute="start") | reverse %}
+    {% set roles = experience.role %}
+    {% for role in roles | sort(attribute="start") | reverse %}
     <div class="experience__role">
       <h4 class="role__name">
         {{ role.name }} - {{ role.start | date(format="%b %Y") }} - {% if

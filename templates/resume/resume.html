@@ -17,9 +17,9 @@
     <p>{{ resume.tldr }}</p>
   </div>
 
-  {{ macros::section(title="Work experiences", array=resume.work) }}
-  {{ macros::section(title="Education", array=resume.education) }} 
-  {{ macros::section(title="Voluntary experiences", array=resume.voluntary) }}
+  {{ macros::section(title="Work experiences", array=resume.work, ignore=section.extra.ignore) }}
+  {{ macros::section(title="Education", array=resume.education, ignore=section.extra.ignore) }} 
+  {{ macros::section(title="Voluntary experiences", array=resume.voluntary, ignore=section.extra.ignore) }}
 
   <div class="resume__skills">
     <h2>Skills</h2>
@@ -29,6 +29,11 @@
   <div class="resume__last-update">
     Updated {{ resume.last_update | date(format=config.extra.date_format) }}
   </div>
+  {% if section.extra.ignore %}
+    <span class="full-cv">
+      <a href="/full-cv">Full CV</a>
+    </span>
+  {% endif %}
 </section>
 
 {% endblock content %}

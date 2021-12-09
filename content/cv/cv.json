@@ -6,6 +6,7 @@
     {
       "glyph": "/cv/netlife.svg",
       "name": "Netlife Design (Bergen)",
+      "relevant": true,
       "role": [
         {
           "desc": [
@@ -21,6 +22,7 @@
     {
       "glyph": "/cv/vk.svg",
       "name": "Vest Kontakt AS",
+      "relevant": true,
       "role": [
         {
           "desc": [
@@ -38,6 +40,7 @@
     {
       "glyph": "img/symbol.svg",
       "name": "TH Andreassen (self-empolyed)",
+      "relevant": true,
       "role": [
         {
           "desc": [
@@ -55,6 +58,7 @@
     {
       "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
+      "relevant": false,
       "role": [
         {
           "desc": [
@@ -71,6 +75,7 @@
     {
       "glyph": "/cv/infocare.svg",
       "name": "InfoCare Norge AS",
+      "relevant": false,
       "role": [
         {
           "desc": [
@@ -87,6 +92,7 @@
     {
       "glyph": "/cv/appex.svg",
       "name": "Appex",
+      "relevant": true,
       "role": [
         {
           "desc": [
@@ -99,12 +105,46 @@
           "start": "2019-06-17"
         }
       ]
+    },
+    {
+      "glyph": "/cv/empty.svg",
+      "name": "PSS Securitas",
+      "relevant": false,
+      "role": [
+        {
+          "desc": [
+            "Part-time job as a bouncer beside my studies in Bergen."
+          ],
+          "end": "2018-11-10",
+          "name": "Security Guard",
+          "present": false,
+          "start": "2017-10-15"
+        }
+      ]
+    },
+    {
+      "glyph": "/cv/empty.svg",
+      "name": "Forsvaret - Norwegian Armed Forces",
+      "relevant": false,
+      "role": [
+        {
+          "desc": [
+            "Compulsory military service stationed at Ulsnes, Hundvåg, Stavanger.",
+            "Responsible for seven other soldiers."
+          ],
+          "end": "2015-09-21",
+          "name": "Guard Commander",
+          "present": false,
+          "start": "2016-09-23"
+        }
+      ]
     }
   ],
   "voluntary": [
     {
       "glyph": "/cv/srib.svg",
       "name": "Studentradioen i Bergen",
+      "relevant": true,
       "role": [
         {
           "desc": [
@@ -119,6 +159,7 @@
     {
       "glyph": "/cv/fribyte.svg",
       "name": "friByte",
+      "relevant": true,
       "role": [
         {
           "desc": [
@@ -145,6 +186,7 @@
     {
       "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
+      "relevant": true,
       "role": [
         {
           "desc": [
