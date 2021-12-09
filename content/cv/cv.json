@@ -1,5 +1,5 @@
 {
-  "last_update": "2021-10-19",
+  "last_update": "2021-12-09",
   "name": "Tim Hårek Andreassen",
   "tldr": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
   "work": [
@@ -9,7 +9,7 @@
       "role": [
         {
           "desc": [
-            "Full-stack development with Craft CMS & Sanity CMS.",
+            "Full-stack development with Craft CMS & Sanity CMS in Next.js.",
             "Front-end development with Vue.js v3."
           ],
           "name": "Technologist",
@@ -132,7 +132,8 @@
           "desc": [
             "Administrative tasks, convene meetings etc.",
             "Re-designed their website.",
-            "Currently restructuring their server-infrastructure."
+            "Currently restructuring their server-infrastructure.",
+            "Simplifying how the organization operates and responds to inquires."
           ],
           "name": "Leader",
           "start": "2021-01-23"
