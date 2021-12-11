@@ -1,7 +1,7 @@
 +++
 title = "Migadu > ProtonMail"
 date = 2021-08-24
-updated = 2021-10-10
+updated = 2021-12-12
 description = "Why I decided against continuing using ProtonMail and migrate over to Migadu. Not a direct comparison nor a review of the services."
 [taxonomies]
 tags = ["Email", "Migadu", "ProtonMail"] 
@@ -34,6 +34,8 @@ Their setup process is fairly simple and their step-by-step instructions are exc
 I have been so satisfied that I even had [friByte][fribyte] migrate over, instead of relying on self-hosting.
 
 I will have to make a proper review of Migadu by the end of the year, I promise!
+
+UPDATE: [My review](/blog/migadu-review)
 
 [^1]: [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/) (protonmail.com)
 
