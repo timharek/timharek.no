@@ -61,11 +61,7 @@
     </p>
     <ul class="software-list">
       {% for software in software.software | sort(attribute="name") %}
-        <li class="software"
-            {% if software.inactive %}
-            style="text-decoration:line-through"
-            {% endif %}
-          >
+        <li class="software">
           {% if software.url %}
             <a href="{{ software.url }}">{{ software.name }}</a>
           {% else %}

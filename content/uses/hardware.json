@@ -23,7 +23,7 @@
       }
     },
     {
-      "name": "'Psycho' NUC (home lab)",
+      "name": "Home lab",
       "description": "Intel NUC",
       "specs": {
         "CPU": "Intel Core i5-10210U",
