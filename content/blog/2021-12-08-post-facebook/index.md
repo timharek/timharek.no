@@ -1,7 +1,8 @@
 +++
 date = 2021-12-08
+updated = 2021-12-11
 title = "Post-Facebook"
-description = "Do I regret leaving Facebook?"
+description = "Do I regret leaving Facebook? What happens now?"
 [taxonomies]
 tags = ["Social Media"] 
 +++
@@ -29,7 +30,19 @@ for the foreseeable future. And I will continue to advocate for privacy and ask
 friends and family to use services like Signal, Matrix etc. for secure
 communications.
 
-I'm exicted for the future, to see if my personal relationships become stronger
+I'm excited for the future, to see if my personal relationships become stronger
 and if I reach out to friends and family anymore than before! Also to see if
 me being off mainstream social media will inspire anyone to start looking at 
 other alternatives, who knows? 🤷
+
+## UPDATE: 2021-12-11
+
+I tried to login to my Facebook account, and to my surprise my account hadn't 
+been deleted.
+
+{{ picture(url="blog/2021-12-08-post-facebook/screenshot.png", 
+  alt="Screenshot from Facebook after I initially deleted my account", 
+  caption="Facebook saying my account will be deleted after the 5th of December, while the current date is 11th of December.") }}
+
+I've reached out to the GDPR folks at Facebook to see if they can fix this.
+I'll post a new update as soon as I hear back from them.
