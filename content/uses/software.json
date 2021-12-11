@@ -86,13 +86,6 @@
       "description": "Window snap-manager for macOS"
     },
     {
-      "name": "Yabai",
-      "url": "https://github.com/koekeishiya/yabai",
-      "tags": ["Open Source", "Misc."],
-      "description": "Window manager for macOS, not working on M1",
-      "inactive": true
-    },
-    {
       "name": "Yr.no (iOS app)",
       "url": "https://yr.no",
       "tags": ["Proprietary", "Public API", "Weather"],
@@ -103,6 +96,30 @@
       "url": "https://apps.apple.com/us/app/a-dark-room/id736683061",
       "tags": ["Open Source", "Game"],
       "description": "Fun game to play when I travel"
+    },
+    {
+      "name": "Hammerspoon",
+      "url": "https://www.hammerspoon.org/",
+      "tags": ["Open Source", "Automation"],
+      "description": "Automate everything on macOS with Lua"
+    },
+    {
+      "name": "Numi",
+      "url": "https://numi.app/",
+      "tags": ["Open Source", "Math"],
+      "description": "Quick-access calculator"
+    },
+    {
+      "name": "Dozer",
+      "url": "https://github.com/Mortennn/Dozer",
+      "tags": ["Open Source"],
+      "description": "Hide icons from the menu bar on macOS"
+    },
+    {
+      "name": "Mattermost",
+      "url": "https://mattermost.com",
+      "tags": ["Open Source", "Communications"],
+      "description": ""
     },
     {
       "name": "Aerc",
@@ -117,6 +134,12 @@
       "url": "https://migadu.com",
       "tags": ["Open Source", "E-mail"],
       "description": "Amazing email provider"
+    },
+    {
+      "name": "Mullvad VPN",
+      "url": "https://mullvand.net",
+      "tags": ["Open Source", "VPN"],
+      "description": "Privacy focused VPN provider"
     },
     {
       "name": "1984 Hosting",
