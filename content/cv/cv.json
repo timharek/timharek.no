@@ -177,7 +177,12 @@
             "Simplifying how the organization operates and responds to inquires."
           ],
           "name": "Leader",
-          "start": "2021-01-23"
+          "start": "2021-01-23",
+          "end": "2021-12-31"
+        },
+        {
+          "name": "Member",
+          "start": "2022-01-01"
         }
       ]
     }

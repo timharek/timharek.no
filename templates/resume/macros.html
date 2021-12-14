@@ -24,14 +24,16 @@
         role.end %}{{ role.end | date(format="%b %Y") }}{% else %}present{%
         endif %}
       </h4>
-      {% if role.desc | length > 1 %}
-      <ul class="role__list">
-        {% for desc in role.desc %}
-        <li class="role__list-item">{{ desc }}</li>
-        {% endfor %}
-      </ul>
-      {% else %}
-      <p class="role__description">{{ role.desc | first }}</p>
+      {% if role.desc %}
+        {% if role.desc | length > 1 %}
+        <ul class="role__list">
+          {% for desc in role.desc %}
+          <li class="role__list-item">{{ desc }}</li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="role__description">{{ role.desc | first }}</p>
+        {% endif %}
       {% endif %}
     </div>
     {% endfor %}
