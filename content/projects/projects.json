@@ -2,7 +2,7 @@
   "projects": [
     {
       "date": "2021-05-16",
-      "description": "Redesign of friByte's website. Built with Jekyll.",
+      "description": "Redesign of friByte's website. Built with Zola.",
       "link": "https://fribyte.no",
       "logo": "/projects/fribyte.svg",
       "name": "fribyte.no"
