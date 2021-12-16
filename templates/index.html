@@ -16,13 +16,15 @@
 <section class="projects">
   {% for project in projects.projects | sort(attribute="date") | reverse %}
   <article class="project">
-    <div class="project__header">
-      <img class="project__logo" src="{{ get_url(path=project.logo) |
-      default(value=get_url(path="img/error.svg")) }}" alt="{{ project.name }}
-      logo">
-      <h3 class="project__name">{{ project.name }}</h3>
+    <div class="project__content">
+      <div class="project__header">
+        <img class="project__logo" src="{{ get_url(path=project.logo) |
+        default(value=get_url(path="img/error.svg")) }}" alt="{{ project.name }}
+        logo">
+        <h3 class="project__name">{{ project.name }}</h3>
+      </div>
+      <p class="project__description">{{ project.description }}</p>
     </div>
-    <p class="project__description">{{ project.description }}</p>
     {% if project.link or project.sourcecode %}
     <div class="project__metadata">
       {% if project.link %}

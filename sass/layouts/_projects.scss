@@ -13,6 +13,9 @@
   border-radius: 0.65rem;
   border: 0.15rem solid transparent;
   transition: background 500ms ease;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 
   &:nth-child(even) {
     background: 
