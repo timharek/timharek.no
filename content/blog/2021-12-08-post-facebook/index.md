@@ -46,3 +46,13 @@ been deleted.
 
 I've reached out to the GDPR folks at Facebook to see if they can fix this.
 I'll post a new update as soon as I hear back from them.
+
+## UPDATE: 2021-12-18
+
+Facebook's GDPR folks replied, but they didn't really read my e-mail.
+
+They said that I had to wait 30 days after my initial request for deletion, 
+which was exactly what I did, I actually waited longer.
+
+I replied back again asking them yet again if they could correct this, but I 
+haven't heard back from them yet. It seems my account isn't deleted, still.
