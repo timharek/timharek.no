@@ -77,6 +77,23 @@ article {
     }
   }
 
+  .gallery {
+    max-width: 100%;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 0.5rem;
+
+    a {
+      border: 0;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
   li {
     line-height: 2;
   }
