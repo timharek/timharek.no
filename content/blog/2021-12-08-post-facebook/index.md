@@ -40,7 +40,7 @@ other alternatives, who knows? 🤷
 I tried to login to my Facebook account, and to my surprise my account hadn't 
 been deleted.
 
-{{ picture(url="blog/2021-12-08-post-facebook/screenshot.png", 
+{{ picture(url="screenshot.png", 
   alt="Screenshot from Facebook after I initially deleted my account", 
   caption="Facebook saying my account will be deleted after the 5th of December, while the current date is December 11th.") }}
 
