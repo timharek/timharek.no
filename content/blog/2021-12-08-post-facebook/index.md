@@ -56,3 +56,7 @@ which was exactly what I did, I actually waited longer.
 
 I replied back again asking them yet again if they could correct this, but I 
 haven't heard back from them yet. It seems my account isn't deleted, still.
+
+## UPDATE: 2021-12-26
+
+It looks like my account has now been deleted, finally!
