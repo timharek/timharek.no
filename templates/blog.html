@@ -8,7 +8,7 @@
 {% block content %}
 <h1>{{ section.title }}</h1>
 <ul class="blog">
-  {% for post in section.pages %}
+  {% for post in paginator.pages %}
   <li class="blog__post">
     <div class="post__summary">
       <a
@@ -21,5 +21,14 @@
   </li>
   {% endfor %}
 </ul>
+
+<nav class="pagination">
+    {% if paginator.previous %}
+        <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
+    {% endif %}
+    {% if paginator.next %}
+        <a class="next" href="{{ paginator.next }}">Next ›</a>
+    {% endif %}
+</nav>
 
 {% endblock content %}
