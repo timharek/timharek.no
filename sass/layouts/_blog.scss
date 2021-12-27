@@ -102,4 +102,24 @@ article {
 nav.pagination {
   display: flex;
   gap: 1rem;
+
+  &.post {
+    border-top: 1px solid var(--color-border);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+    justify-content: space-between;
+
+    .newer,
+    .older {
+      border: 0;
+      max-width: 50%;
+      display: flex;
+      flex-flow: column;
+      gap: 0.5rem;
+    }
+    .older {
+      align-items: flex-end;
+    }
+  }
 }

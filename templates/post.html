@@ -57,6 +57,31 @@
     {{ page.content | safe }}
   </div>
 
+  {% set earlier = page.earlier %}
+  {% set later = page.later %}
+  <nav class="pagination post">
+      {% if later %}
+          <a class="newer" href="{{ later.permalink }}">
+            <span class="pagination__label">
+              ‹ Newer
+            </span>
+            <span class="pagination__title">
+              {{ later.title }}
+            </span>
+          </a>
+      {% endif %}
+      {% if earlier %}
+          <a class="older" href="{{ earlier.permalink }}">
+            <span class="pagination__label">
+              Older ›
+            </span>
+            <span class="pagination__title">
+              {{ earlier.title }}
+            </span>
+          </a>
+      {% endif %}
+  </nav>
+
   <a class="u-url" href="{{ page.permalink | safe }}" hidden></a>
 </article>
 
