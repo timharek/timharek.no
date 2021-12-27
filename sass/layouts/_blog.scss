@@ -117,6 +117,10 @@ nav.pagination {
       display: flex;
       flex-flow: column;
       gap: 0.5rem;
+
+      .pagination__label {
+        text-transform: uppercase;
+      }
     }
     .older {
       align-items: flex-end;
