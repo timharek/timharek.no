@@ -3,7 +3,7 @@ date = 2021-12-12
 title = "Migadu Review"
 description = "My thoughts on Migadu after using it for 8 months."
 [taxonomies]
-tags = ["Email", "Review"] 
+tags = ["Email", "Review", "Privacy"] 
 +++
 
 [Migadu](https://migadu.com) is an e-mail service provider that provide its service

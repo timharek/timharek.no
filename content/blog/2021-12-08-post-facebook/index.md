@@ -1,10 +1,10 @@
 +++
 date = 2021-12-08
-updated = 2021-12-26
+updated = 2021-12-27
 title = "Post-Facebook"
 description = "Do I regret leaving Facebook? What happens now?"
 [taxonomies]
-tags = ["Social Media"] 
+tags = ["Social Media", "Privacy"] 
 +++
 
 > Do you regret leaving Facebook?

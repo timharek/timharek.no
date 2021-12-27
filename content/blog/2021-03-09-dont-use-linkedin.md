@@ -3,7 +3,7 @@ date = 2021-03-09
 title = "Why I don't use LinkedIn"
 description = "How I used LinkedIn in the past, my interactions and why I deleted my account i 2020."
 [taxonomies]
-tags = ["Social Media"]
+tags = ["Social Media", "Privacy"]
 +++
 I created my LinkedIn-profile back in 2013-2014, back when I actually didn't have any job experience other than my part-time holiday job at Vest Kontakt (same place I'm the IT manager today). I cannot remember why I decided to join so early, but I guess it had to do with the FOMO, especially since I was 16-18 years old back then. 
 

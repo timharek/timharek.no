@@ -1,11 +1,11 @@
 +++
 date = 2021-10-31
-updated = 2021-11-01
+updated = 2021-12-27
 title = "Goodbye Facebook"
 description = """
 Finally saying goodbye to Facebook, for good."""
 [taxonomies]
-tags = ["Social Media"] 
+tags = ["Social Media", "Privacy"] 
 +++
 
 I decided to deactivate my Facebook profile this summer and I haven't looked
