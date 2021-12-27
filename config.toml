@@ -34,6 +34,7 @@ primary_color = "0096F5"
 author = "Tim Hårek Andreassen"
 email = "tim@harek.dev"
 date_format = "%B %e, %Y"
+date_format__updated = "%b %e, %Y"
 
 nav = [
   { name = "Blog", path = "/blog" },

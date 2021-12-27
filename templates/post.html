@@ -38,7 +38,7 @@
           datetime="{{ page.updated }}"
           itemprop="dateUpdated"
         >
-          (Updated {{ page.updated | date(format=config.extra.date_format) }})
+          (Updated {{ page.updated | date(format=config.extra.date_format__updated) }})
         </time>
       {% endif %}
       {% if page.taxonomies.tags %}
