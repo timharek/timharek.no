@@ -1,6 +1,6 @@
 +++
 date = 2021-12-08
-updated = 2021-12-11
+updated = 2021-12-26
 title = "Post-Facebook"
 description = "Do I regret leaving Facebook? What happens now?"
 [taxonomies]
