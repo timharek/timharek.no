@@ -120,6 +120,10 @@ nav.pagination {
     }
     .older {
       align-items: flex-end;
+
+      &:only-child {
+        margin-left: auto;
+      }
     }
   }
 }
