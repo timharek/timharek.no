@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="footer__container">
+  <nav class="footer__container">
     {% for footer_item in config.extra.footer %}
       {% set path = footer_item.path ~'/' %}
 
@@ -12,7 +12,7 @@
         href="{{ footer_item.path }}">{{ footer_item.name | safe }}</a>
     {% endfor %}
 
-  </div>
+  </nav>
 
   <div class="footer__container">
     <a class="footer__link" href="{{ get_url(path="rss.xml") }}">RSS</a>
