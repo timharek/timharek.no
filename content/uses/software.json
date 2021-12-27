@@ -126,6 +126,12 @@
       "url": "https://aerc-mail.org/",
       "tags": ["Open Source", "E-mail"],
       "description": "Terminal based e-mail client"
+    },
+    {
+      "name": "Wireguard",
+      "url": "https://www.wireguard.com/",
+      "tags": ["Open Source", "VPN"],
+      "description": "Connecting to my home network remotely"
     }
   ],
   "services": [
@@ -133,7 +139,8 @@
       "name": "Migadu",
       "url": "https://migadu.com",
       "tags": ["Open Source", "E-mail"],
-      "description": "Amazing email provider"
+      "description": "Amazing email provider",
+      "review": "/blog/migadu-review"
     },
     {
       "name": "Mullvad VPN",

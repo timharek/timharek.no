@@ -85,7 +85,7 @@
             {{ service.name }}
           {% endif %}
           {% if service.description %}
-            ({{ service.description }})
+          ({{ service.description }}{% if service.review %}<a href="{{service.review}}"> (Review)</a>{% endif %})
           {% endif %}
         </li>
       {% endfor %}
