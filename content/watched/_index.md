@@ -6,4 +6,6 @@ page_template = "watched_page.html"
 aliases = ["/watching"]
 +++
 
-Note: this is not everything that I've watched.
+Movies and TV shows that I've watched. Work in progress.
+
+---
