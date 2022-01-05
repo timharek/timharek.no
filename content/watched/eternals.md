@@ -1,5 +1,4 @@
 +++
-date = 2021-11-03
 title = "Eternals"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2021"]
 my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2021-11-03
 reviewed = false
 +++
 

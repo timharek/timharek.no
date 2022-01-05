@@ -1,5 +1,4 @@
 +++
-date = 2020-10-29
 title = "Love and Monsters"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2020"]
 my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2020-10-29
 reviewed = false
 +++
 

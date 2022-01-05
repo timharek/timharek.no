@@ -1,5 +1,4 @@
 +++
-date = 2021-07-07
 title = "Black Widow"
 description = ""
 [taxonomies]
@@ -10,5 +9,6 @@ my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
 reviewed = false
+date = 2021-07-07
 +++
 

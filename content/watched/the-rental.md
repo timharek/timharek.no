@@ -1,5 +1,4 @@
 +++
-date = 2020-07-30
 title = "The Rental"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2020"]
 my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2020-07-30
 reviewed = false
 +++
 

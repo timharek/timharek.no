@@ -1,5 +1,4 @@
 +++
-date = 2021-03-26
 title = "Deadly Illusions"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2021"]
 my_rating = ["1"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2021-03-26
 reviewed = false
 +++
 

@@ -1,5 +1,4 @@
 +++
-date = 2017-03-01
 title = "Logan"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2017"]
 my_rating = ["5"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2017-03-01
 reviewed = false
 +++
 

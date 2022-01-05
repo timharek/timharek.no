@@ -1,5 +1,4 @@
 +++
-date = 2019-07-04
 title = "Spider-Man: Far From Home"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2019"]
 my_rating = ["4"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2019-07-04
 reviewed = false
 +++
 

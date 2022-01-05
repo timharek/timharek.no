@@ -1,5 +1,4 @@
 +++
-date = 2021-12-19
 title = "Hawkeye S01"
 description = ""
 [taxonomies]
@@ -10,6 +9,7 @@ my_rating = ["4"]
 movie_or_tv = ["TV"]
 episode_count = ["6"]
 [extra]
+date = 2021-12-22
 reviewed = false
 +++
 

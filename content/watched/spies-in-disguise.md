@@ -1,5 +1,4 @@
 +++
-date = 2020-04-07
 title = "Spies in Disguise"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2019"]
 my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2020-04-07
 reviewed = false
 +++
 

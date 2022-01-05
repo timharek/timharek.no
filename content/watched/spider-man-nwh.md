@@ -1,5 +1,4 @@
 +++
-date = 2021-12-19
 title = "Spider-Man: No Way Home"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2021"]
 my_rating = ["5"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2021-12-19
 reviewed = false
 +++
 

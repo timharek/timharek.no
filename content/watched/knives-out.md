@@ -1,5 +1,4 @@
 +++
-date = 2019-12-06
 title = "Knives Out"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2019"]
 my_rating = ["5"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2019-12-06
 reviewed = false
 +++
 

@@ -1,5 +1,4 @@
 +++
-date = 2020-02-08
 title = "Birds of Prey"
 description = ""
 [taxonomies]
@@ -10,5 +9,6 @@ my_rating = ["2"]
 movie_or_tv = ["Movie"]
 [extra]
 reviewed = false
+date = 2020-02-08
 +++
 

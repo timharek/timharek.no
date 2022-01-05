@@ -1,5 +1,4 @@
 +++
-date = 2016-03-22
 title = "Batman v Superman: Dawn of Justice"
 description = ""
 [taxonomies]
@@ -10,5 +9,6 @@ my_rating = ["2"]
 movie_or_tv = ["Movie"]
 [extra]
 reviewed = false
+date = 2016-03-22
 +++
 

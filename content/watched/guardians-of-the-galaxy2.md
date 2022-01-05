@@ -1,5 +1,4 @@
 +++
-date = 2017-04-26
 title = "Guardians of the Galaxy Vol. 2"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2017"]
 my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2017-04-26
 reviewed = false
 +++
 

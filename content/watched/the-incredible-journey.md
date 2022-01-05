@@ -1,5 +1,4 @@
 +++
-date = 2020-09-20
 title = "The Incredible Journey"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["1963"]
 my_rating = ["3"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2020-09-20
 reviewed = false
 +++
 

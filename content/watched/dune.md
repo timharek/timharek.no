@@ -1,5 +1,4 @@
 +++
-date = 2021-10-11
 title = "Dune"
 description = ""
 [taxonomies]
@@ -9,6 +8,7 @@ release_year = ["2021"]
 my_rating = ["4"]
 movie_or_tv = ["Movie"]
 [extra]
+date = 2021-10-11
 reviewed = false
 +++
 
