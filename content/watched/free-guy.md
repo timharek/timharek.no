@@ -12,5 +12,3 @@ movie_or_tv = ["Movie"]
 reviewed = false
 +++
 
-
-
