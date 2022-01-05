@@ -1,0 +1,14 @@
++++
+date = 2020-08-26
+title = "Tenet"
+description = ""
+[taxonomies]
+director = ["Christofer Nolan"] 
+genres = ["Action", "Sci-Fi", "Thriller"]
+release_year = ["2020"]
+my_rating = ["4"]
+movie_or_tv = ["Movie"]
+[extra]
+reviewed = false
++++
+

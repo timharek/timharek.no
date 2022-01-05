@@ -28,7 +28,7 @@
       <th>Watched</th>
       <th>Rating</th>
     </tr>
-    {% for entry in section.pages %}
+    {% for entry in section.pages | sort(attribute="date") | reverse %}
       <tr>
         {% if entry.extra.reviewed %}
           <td>

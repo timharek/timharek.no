@@ -23,6 +23,7 @@ taxonomies = [
   { name = "release_year", feed = false },
   { name = "movie_or_tv", feed = false },
   { name = "season", feed = false },
+  { name = "episode_count", feed = false },
   { name = "my_rating", feed = false }
 ]
 
