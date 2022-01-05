@@ -23,25 +23,23 @@
   {% set section = get_section(path="watched/_index.md") %}
   <div class="entries">
   {% for entry in section.pages | sort(attribute="date") | reverse %}
-    <div class="entry">
-      {% if entry.extra.reviewed %}
-        <div aria-label="Entry title">
-          <a href="{{ entry.path }}">
-            {{ entry.title }}
-          </a>
-        </div>
-      {% else %}
-        <div aria-label="Entry title">{{ entry.title }}</div>
-      {% endif %}
-      <div aria-label="Entry director(s)">
-        {% for director in entry.taxonomies.director %}
-          {{ director }}{% if not loop.last %},{% endif %}
-        {% endfor %}
+    {% if entry.extra.reviewed %}
+      <div aria-label="Entry title">
+        <a href="{{ entry.path }}">
+          {{ entry.title }}
+        </a>
       </div>
-      <time aria-label="When entry was watched">{{ entry.date }}</time>
-      {% set rating = entry.taxonomies.my_rating[0] | int %}
-      <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}</div>
+    {% else %}
+      <div aria-label="Entry title">{{ entry.title }}</div>
+    {% endif %}
+    <div aria-label="Entry director(s)">
+      {% for director in entry.taxonomies.director %}
+        {{ director }}{% if not loop.last %},{% endif %}
+      {% endfor %}
     </div>
+    <time aria-label="When entry was watched">{{ entry.date }}</time>
+    {% set rating = entry.taxonomies.my_rating[0] | int %}
+    <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}</div>
   {% endfor %}
   </div>
 </section>

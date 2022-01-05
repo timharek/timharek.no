@@ -1,20 +1,18 @@
 .page-review {
   .entries {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    @media (min-width: $breakpoint-medium) {
-      gap: 0.5rem;
-    }
-  }
-
-  .entry {
     display: grid;
     @media (min-width: $breakpoint-medium) {
       grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
     }
+
     gap: 0.5rem 1rem;
     align-items: center;
     width: 100%;
+
+    @media (max-width: $breakpoint-medium) {
+      & div:nth-child(4n) {
+        margin-bottom: 1.5rem;
+      }
+    }
   }
 }
