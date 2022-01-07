@@ -8,7 +8,11 @@
 {% block content %}
 <h1>{{ section.title }}</h1>
 <ul class="blog">
-  {% for post in paginator.pages %}
+  {% set pages = section.pages %}
+  {% if paginator.pages %}
+    {% set pages = paginator.pages %}
+  {% endif %}
+  {% for post in pages %}
   <li class="blog__post">
     <div class="post__summary">
       <a
@@ -22,6 +26,7 @@
   {% endfor %}
 </ul>
 
+{% if paginator.pages %}
 <nav class="pagination">
     {% if paginator.previous %}
         <a class="previous" href="{{ paginator.previous }}">‹ Previous page</a>
@@ -30,5 +35,6 @@
         <a class="next" href="{{ paginator.next }}">Next page ›</a>
     {% endif %}
 </nav>
+{% endif %}
 
 {% endblock content %}
