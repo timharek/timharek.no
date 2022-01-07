@@ -6,6 +6,7 @@
 {% endblock head %}
 
 {% block content %}
+<section class="blog">
 <h1>{{ section.title }}</h1>
 <ul class="blog">
   {% set pages = section.pages %}
@@ -36,5 +37,6 @@
     {% endif %}
 </nav>
 {% endif %}
+</section>
 
 {% endblock content %}

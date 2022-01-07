@@ -12,8 +12,9 @@
 </section>
 
 {% set projects = load_data(path="content/projects/projects.json") %}
-<h2>Recent projects</h2>
 <section class="projects">
+  <h2>Recent projects</h2>
+  <div class="projects-wrapper">
   {% for project in projects.projects | sort(attribute="date") | reverse %}
   <article class="project">
     <div class="project__content">
@@ -38,6 +39,7 @@
     {% endif %}
   </article>
   {% endfor %}
+  </div>
 </section>
 
 {% endblock content %}
