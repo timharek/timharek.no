@@ -10,7 +10,7 @@ This is my corner on the interwebs, have a look around."""
 default_language = "en"
 
 compile_sass = true
-build_search_index = true
+build_search_index = false
 generate_feed = true
 feed_filename = "rss.xml"
 
