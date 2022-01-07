@@ -44,6 +44,9 @@
     <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
   {% endfor %}
   </div>
+  <div class="count">
+    Count: {{ section.pages|length }}
+  </div>
 </section>
 
 {% endblock content %}
