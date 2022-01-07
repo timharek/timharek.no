@@ -39,7 +39,9 @@
     </div>
     <time aria-label="When entry was watched">{% if entry.extra.date %}{{ entry.extra.date }}{% endif %}</time>
     {% set rating = entry.taxonomies.my_rating[0] | int %}
-    <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}</div>
+    {% set rating_total = 5 %}
+    {% set rating_diff = rating_total - rating %}
+    <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
   {% endfor %}
   </div>
 </section>
