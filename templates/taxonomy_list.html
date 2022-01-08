@@ -8,7 +8,7 @@
 {% block content %}
 
 <section class="page-content">
-  <h1 class="page-title">{{ taxonomy.name|capitalize }}</h1>
+  <h1 class="page-title">{{ taxonomy.name | capitalize | replace(from="_", to=" ") }}</h1>
   <ul>
     {% for term in terms %}
     <li><a href="{{ term.permalink }}">{{ term.name }} ({{ term.pages | length }})</a></li>

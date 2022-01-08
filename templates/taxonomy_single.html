@@ -1,7 +1,7 @@
 {% extends "base/base.html" %}
 
 {% block head %}
-  {% set taxonomy_name = taxonomy.name|capitalize %}
+  {% set taxonomy_name = taxonomy.name | capitalize | replace(from="_", to=" ") %}
   {% set title = taxonomy_name ~ ": " ~ term.name ~ " - " ~ config.title %}
   {% set description = config.description %}
 {% endblock head %}
@@ -9,13 +9,15 @@
 {% block content %}
 
 <section class="page-content">
-  <h1 class="page-title">{{ term.name }}</h1>
+  <h1 class="page-title">{{ taxonomy_name }}: {{ term.name }}</h1>
   <ul>
     {% for page in term.pages %}
       <li><a href="{{ page.path }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
-  See all <a href="/{{ taxonomy.name }}">{{ taxonomy.name }}</a>
+  {% set full_taxonomy = get_taxonomy(kind=taxonomy.name) %}
+  {% set taxonomy_url = full_taxonomy.permalink %}
+  See all <a href="{{ taxonomy_url }}">{{ taxonomy_name | lower }}</a>
 </section>
 
 {% endblock content %}
