@@ -7,6 +7,7 @@
 
 {% block content %}
 {% set release_year = page.taxonomies.release_year[0] %}
+{% set movie_or_tv = page.taxonomies.movie_or_tv[0] %}
 <article
   class="post h-entry"
   itemscope
@@ -76,6 +77,18 @@
           {% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}
         </a>
       </dd>
+      {% if movie_or_tv == "TV" %}
+        {% set season = page.taxonomies.season[0] %}
+        {% set episode_count = page.taxonomies.episode_count[0] %}
+        <dt>Season</dt>
+        <dd>
+          <a href="{{ get_taxonomy_url(kind="season", name=season) }}">{{ season }}</a>
+        </dd>
+        <dt>Episode count</dt>
+        <dd>
+          <a href="{{ get_taxonomy_url(kind="episode_count", name=episode_count) }}">{{ episode_count }}</a>
+        </dd>
+      {% endif %}
     </dl>
     {{ page.content | safe }}
   </div>

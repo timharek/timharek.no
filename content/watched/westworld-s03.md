@@ -8,6 +8,7 @@ release_year = ["2020"]
 my_rating = ["3"]
 movie_or_tv = ["TV"]
 episode_count = ["6"]
+season = ["3"]
 [extra]
 date = 2020-05-09
 reviewed = false
