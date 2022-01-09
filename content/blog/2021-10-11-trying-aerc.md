@@ -1,5 +1,6 @@
 +++
 date = 2021-10-11
+updated = 2022-01-09
 title = "Trying out aerc"
 description = """
 After using Apple Mail for a while, I'm trying aerc as my new email client."""
@@ -22,6 +23,13 @@ I setup my `aerc` for my personal emails to begin with, if I find it's not
 becoming an inconvenience after a few weeks of use I might try to add my work
 email as well. But I guess I have to configure it some more if I'm going to use 
 it for work, as I've already deleted some old emails by accident 😅.
+
+## UPDATE: 2022-01-09
+
+I used `aerc` for a month or two and decided to switch back to Apple Mail. It's
+missing some features that I rely on, like aliases. It also crashes when it has
+been open for a certain amount of time. I might check out `neomutt` in the 
+future.
 
 [aerc]: https://aerc-mail.org/
 [aerc-conf]: https://git.sr.ht/~timharek/dotfiles/tree/main/item/.config/aerc
