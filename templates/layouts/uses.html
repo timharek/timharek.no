@@ -70,6 +70,19 @@
           {% if software.description %}
             ({{ software.description }})
           {% endif %}
+          {% if software.extensions %}
+            <ul class="extenstion-list">
+            {% for ext in software.extensions %}
+            <li class="extension">
+              {% if ext.url %}
+                <a href="{{ ext.url }}">{{ ext.name }}</a>
+              {% else %}
+                {{ ext.name }}
+              {% endif %}
+            </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
