@@ -48,8 +48,13 @@ nav = [
   { name = "About", path = "/about" },
 ]
 
-footer = [
+footer_left = [
   { name = "CV", path = "/cv" },
   { name = "Uses", path = "/uses" },
   { name = "Privacy", path = "/privacy" },
+]
+
+footer_right = [
+  { name = "Photos", path = "/photos" },
+  { name = "RSS", path = "/rss.xml" }
 ]
