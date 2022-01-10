@@ -3,6 +3,16 @@
     {
       "name": "Neovim",
       "url": "https://neovim.io",
+      "extensions": [
+        {
+          "name": "telescope.nvim",
+          "url": "https://github.com/nvim-telescope/telescope.nvim"
+        },
+        {
+          "name": "emmet.vim",
+          "url": "https://github.com/mattn/emmet.vim"
+        }
+      ],
       "tags": ["Open Source", "Development"]
     },
     {
@@ -20,7 +30,7 @@
       "name": "Firefox",
       "url": "https://firefox.com",
       "tags": ["Open Source", "Browser"],
-      "sub": [
+      "extensions": [
         {
           "name": "Bitwarden",
           "url": "https://bitwarden.com",
