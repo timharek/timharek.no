@@ -1,7 +1,7 @@
 +++
 title = "Technology that I use"
 description = "Different technologies that Tim Hårek uses."
-template = "uses.html"
+template = "layouts/uses.html"
 aliases = ["/use"]
 [extra]
 updated = 2021-11-11

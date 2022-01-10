@@ -1,7 +1,7 @@
 +++
 title = "Privacy"
 description = "Tim Hårek's privacy policy. No personal data is collected."
-template = "page.html"
+template = "layouts/page.html"
 updated = 2021-10-21
 +++
 

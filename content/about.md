@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About Tim Hårek, a developer based in Norway."
-template = "page.html"
+template = "layouts/page.html"
 aliases = ["/contact"]
 +++
 
