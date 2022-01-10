@@ -7,8 +7,12 @@
 
 {% block content %}
 <section class="intro">
-  <h1>Hi, I'm Tim Hårek 👋</h1>
-  <p>{{ config.description }}</p>
+  {% if section.content %}
+    {{ section.content | safe }}
+  {% else %}
+    <h1>Hi, I'm Tim Hårek 👋</h1>
+    <p>{{ config.description }}</p>
+  {% endif %}
 </section>
 
 {% set projects = load_data(path="content/projects/projects.json") %}
