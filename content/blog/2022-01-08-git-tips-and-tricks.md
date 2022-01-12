@@ -1,5 +1,6 @@
 +++
 date = 2022-01-08
+updated = 2022-01-13
 title = "Git tips & tricks"
 description = "Useful tips and tricks I've picked up from using Git for a few years."
 [taxonomies]
@@ -131,12 +132,14 @@ line and so on is a more descriptive (can contain details etc.).
 An example could be like this (good);
 
 ```sh
-$ git commit -m 'Add delete function' -m 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
+$ git commit -m 'Add delete function' \
+  -m 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 ```
 
 And what not to do (bad);
 ```sh
-$ git commit -m 'Added delete function' -m 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
+$ git commit -m 'Added delete function' \
+  -m 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 ```
 
 ## Bonus: Useful aliases
