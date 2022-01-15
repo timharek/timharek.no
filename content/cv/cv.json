@@ -1,5 +1,5 @@
 {
-  "last_update": "2021-12-09",
+  "last_update": "2022-01-15",
   "name": "Tim Hårek Andreassen",
   "tldr": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
   "work": [
@@ -142,21 +142,6 @@
   ],
   "voluntary": [
     {
-      "glyph": "/cv/srib.svg",
-      "name": "Studentradioen i Bergen",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Contributed on the development of their new website, using modern technologies."
-          ],
-          "end": "2021-05-29",
-          "name": "Web developer",
-          "start": "2020-02-12"
-        }
-      ]
-    },
-    {
       "glyph": "/cv/fribyte.svg",
       "name": "friByte",
       "relevant": true,
@@ -185,6 +170,21 @@
           "start": "2022-01-01"
         }
       ]
+    },
+    {
+      "glyph": "/cv/srib.svg",
+      "name": "Studentradioen i Bergen",
+      "relevant": true,
+      "role": [
+        {
+          "desc": [
+            "Contributed on the development of their new website, using modern technologies."
+          ],
+          "end": "2021-05-29",
+          "name": "Web developer",
+          "start": "2020-02-12"
+        }
+      ]
     }
   ],
   "education": [
@@ -206,7 +206,7 @@
   ],
   "skills": [
     {
-      "list": ["Java", "C#", "Python", "HTML", "(S)CSS", "JS", "PHP"],
+      "list": ["Java", "C#", "Python", "HTML", "CSS", "JS", "PHP"],
       "name": "Programming languages"
     },
     {
@@ -223,7 +223,7 @@
       "name": "Libraries and frameworks"
     },
     {
-      "list": ["Git", "(Neo)Vim", "UNIX"],
+      "list": ["Git", "Vim", "UNIX"],
       "name": "Tools"
     },
     {

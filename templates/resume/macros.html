@@ -44,6 +44,6 @@
 {% macro skill(title, array) %}
 <section class="skill__category">
   <h3 class="skill__category-name">{{ title }}</h3>
-  <span class="skill__list">{{ array | join(sep=", ") }}</span>
+  <span class="skill__list">{{ array | sort | join(sep=", ") }}</span>
 </section>
 {% endmacro skill %}
