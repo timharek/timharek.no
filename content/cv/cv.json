@@ -174,7 +174,11 @@
         },
         {
           "name": "Member",
-          "start": "2022-01-01"
+          "start": "2022-01-01",
+          "desc": [
+            "Automate internal website deployment with git-hooks.",
+            "Initiate Ansible-workflow for maintaining servers."
+          ]
         }
       ]
     },
@@ -231,7 +235,7 @@
     },
     {
       "name": "Tools",
-      "list": ["Git", "Vim", "UNIX"]
+      "list": ["Git", "Vim", "UNIX", "Ansible"]
     },
     {
       "name": "Platforms",
