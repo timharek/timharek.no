@@ -1,0 +1,82 @@
+{% extends "base/base.html" %}
+
+{% block head %}
+  {% set title = section.title ~ " - " ~ config.title %}
+  {% set description = section.description | default(value=config.description) %}
+{% endblock head %}
+
+{% block content %}
+{% set cv = load_data(path="content/cv/cv.json") %}
+<section class="resume">
+  <h1 class="resume__name">{{ cv.name }}</h1>
+  <div class="resume__secret"></div>
+
+  <div class="resume__tldr">
+    <h2>TL;DR</h2>
+    <p>{{ cv.tldr }}</p>
+  </div>
+
+  {% for type, experiences in cv.experiences | group_by(attribute="type") %}
+    <section class="experiences">
+      <h2 class="experiences__title">{{ type }}</h2>
+
+      {% if section.extra.ignore %}
+        {% set experiences = experiences | filter(attribute="relevant", value=true) %}
+      {% endif %}
+
+      {% for experience in experiences %}
+        <article class="experience">
+          <header class="experience__header">
+            <img
+              class="experience__logo"
+              src="{{ get_url(path=experience.glyph) | safe }}"
+              alt="{{ experience.name }} logo"
+            />
+            <h3 class="experience__name">{{ experience.name }}</h3>
+          </header>
+          {% set roles = experience.role %}
+          {% for role in roles | sort(attribute="start") | reverse %}
+          <div class="experience__role">
+            <h4 class="role__name">
+              {{ role.name }} - {{ role.start | date(format="%b %Y") }} - {% if
+              role.end %}{{ role.end | date(format="%b %Y") }}{% else %}present{%
+              endif %}
+            </h4>
+            {% if role.desc %}
+              {% if role.desc | length > 1 %}
+              <ul class="role__list">
+                {% for desc in role.desc %}
+                <li class="role__list-item">{{ desc }}</li>
+                {% endfor %}
+              </ul>
+              {% else %}
+              <p class="role__description">{{ role.desc | first }}</p>
+              {% endif %}
+            {% endif %}
+          </div>
+          {% endfor %}
+        </article>
+      {% endfor %}
+    </section>
+  {% endfor %}
+
+  <div class="resume__skills">
+    <h2>Skills</h2>
+    {% for skills in cv.skills %}
+      <section class="skill__category">
+        <h3 class="skill__category-name">{{ skills.name }}</h3>
+        <span class="skill__list">{{ skills.list | sort | join(sep=", ") }}</span>
+      </section>
+    {% endfor %}
+  </div>
+  <div class="resume__last-update">
+    Updated {{ cv.last_update | date(format=config.extra.date_format) }}
+  </div>
+  {% if section.extra.ignore %}
+    <span class="full-cv">
+      <a href="/full-cv">Full CV</a>
+    </span>
+  {% endif %}
+</section>
+
+{% endblock content %}

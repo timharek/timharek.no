@@ -2,10 +2,11 @@
   "last_update": "2022-01-15",
   "name": "Tim Hårek Andreassen",
   "tldr": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
-  "work": [
+  "experiences": [
     {
       "glyph": "/cv/netlife.svg",
       "name": "Netlife Design (Bergen)",
+      "type": "Work",
       "relevant": true,
       "role": [
         {
@@ -22,6 +23,7 @@
     {
       "glyph": "/cv/vk.svg",
       "name": "Vest Kontakt AS",
+      "type": "Work",
       "relevant": true,
       "role": [
         {
@@ -40,6 +42,7 @@
     {
       "glyph": "img/symbol.svg",
       "name": "TH Andreassen (self-empolyed)",
+      "type": "Work",
       "relevant": true,
       "role": [
         {
@@ -58,6 +61,7 @@
     {
       "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
+      "type": "Work",
       "relevant": false,
       "role": [
         {
@@ -75,6 +79,7 @@
     {
       "glyph": "/cv/infocare.svg",
       "name": "InfoCare Norge AS",
+      "type": "Work",
       "relevant": false,
       "role": [
         {
@@ -92,6 +97,7 @@
     {
       "glyph": "/cv/appex.svg",
       "name": "Appex",
+      "type": "Work",
       "relevant": true,
       "role": [
         {
@@ -109,6 +115,7 @@
     {
       "glyph": "/cv/empty.svg",
       "name": "PSS Securitas",
+      "type": "Work",
       "relevant": false,
       "role": [
         {
@@ -125,6 +132,7 @@
     {
       "glyph": "/cv/empty.svg",
       "name": "Forsvaret - Norwegian Armed Forces",
+      "type": "Work",
       "relevant": false,
       "role": [
         {
@@ -138,12 +146,11 @@
           "start": "2016-09-23"
         }
       ]
-    }
-  ],
-  "voluntary": [
+    },
     {
       "glyph": "/cv/fribyte.svg",
       "name": "friByte",
+      "type": "Voluntary",
       "relevant": true,
       "role": [
         {
@@ -174,6 +181,7 @@
     {
       "glyph": "/cv/srib.svg",
       "name": "Studentradioen i Bergen",
+      "type": "Voluntary",
       "relevant": true,
       "role": [
         {
@@ -185,12 +193,11 @@
           "start": "2020-02-12"
         }
       ]
-    }
-  ],
-  "education": [
+    },
     {
       "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
+      "type": "Education",
       "relevant": true,
       "role": [
         {
@@ -206,10 +213,11 @@
   ],
   "skills": [
     {
-      "list": ["Java", "C#", "Python", "HTML", "CSS", "JS", "PHP"],
-      "name": "Programming languages"
+      "name": "Programming languages",
+      "list": ["Java", "C#", "Python", "HTML", "CSS", "JS", "PHP"]
     },
     {
+      "name": "Libraries and frameworks",
       "list": [
         "Node.js",
         "jQuery",
@@ -219,20 +227,19 @@
         "Jekyll",
         "Zola",
         "Tailwind"
-      ],
-      "name": "Libraries and frameworks"
+      ]
     },
     {
-      "list": ["Git", "Vim", "UNIX"],
-      "name": "Tools"
+      "name": "Tools",
+      "list": ["Git", "Vim", "UNIX"]
     },
     {
-      "list": ["Craft CMS", "Sanity CMS", "WordPress", "Joomla"],
-      "name": "Platforms"
+      "name": "Platforms",
+      "list": ["Craft CMS", "Sanity CMS", "WordPress", "Joomla"]
     },
     {
-      "list": ["Affinity Designer", "Adobe CC", "Sketch", "Figma"],
-      "name": "Design"
+      "name": "Design",
+      "list": ["Affinity Designer", "Adobe CC", "Sketch", "Figma"]
     }
   ]
 }
