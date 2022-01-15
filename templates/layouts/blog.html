@@ -13,17 +13,20 @@
   {% if paginator.pages %}
     {% set pages = paginator.pages %}
   {% endif %}
-  {% for post in pages %}
-  <li class="blog__post">
-    <div class="post__summary">
-      <a
-        href="{% if post.extra.link %}{{ post.extra.link }}{% else %}{{ post.permalink | trim_start_matches(pat=config.base_url) }}{% endif %}"
-        >{{ post.title }}</a
-      >
-      <span> {{ post.description }} </span>
-    </div>
-    <span class="post__date">{{ post.date | date(format=config.extra.date_format) }}</span>
-  </li>
+  {% for year, posts in pages | group_by(attribute="year") %}
+    <h2>{{ year }}</h2>
+    {% for post in posts %}
+    <li class="blog__post">
+      <div class="post__summary">
+        <a
+          href="{% if post.extra.link %}{{ post.extra.link }}{% else %}{{ post.permalink | trim_start_matches(pat=config.base_url) }}{% endif %}"
+          >{{ post.title }}</a
+        >
+        <span> {{ post.description }} </span>
+      </div>
+      <span class="post__date">{{ post.date | date(format=config.extra.date_format) }}</span>
+    </li>
+    {% endfor %}
   {% endfor %}
 </ul>
 
