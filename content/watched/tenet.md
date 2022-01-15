@@ -2,7 +2,7 @@
 title = "Tenet"
 description = ""
 [taxonomies]
-director = ["Christofer Nolan"] 
+director = ["Christopher Nolan"] 
 genres = ["Action", "Sci-Fi", "Thriller"]
 release_year = ["2020"]
 my_rating = ["4"]
