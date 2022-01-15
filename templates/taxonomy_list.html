@@ -10,7 +10,7 @@
 <section class="page-content">
   <h1 class="page-title">{{ taxonomy.name | capitalize | replace(from="_", to=" ") }}</h1>
   <ul>
-    {% for term in terms %}
+    {% for term in terms | sort(attribute="name") %}
     <li><a href="{{ term.permalink }}">{{ term.name }} ({{ term.pages | length }})</a></li>
     {% endfor %}
   </ul>

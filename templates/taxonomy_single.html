@@ -11,7 +11,7 @@
 <section class="page-content">
   <h1 class="page-title">{{ taxonomy_name }}: {{ term.name }}</h1>
   <ul>
-    {% for page in term.pages %}
+    {% for page in term.pages | sort(attribute="title") %}
       <li><a href="{{ page.path }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
