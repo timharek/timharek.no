@@ -1,20 +1,20 @@
 {% extends "base/base.html" %}
 
 {% block head %}
-  {% set title = section.title ~ " - " ~ config.title %}
-  {% set description = section.description | default(value=config.description) %}
-  {% if section.extra.updated %}
-    {% set updated = section.extra.updated | date(format=config.extra.date_format) %}
+  {% set title = page.title ~ " - " ~ config.title %}
+  {% set description = page.description | default(value=config.description) %}
+  {% if page.extra.updated %}
+    {% set updated = page.extra.updated | date(format=config.extra.date_format) %}
   {% endif %}
-  {% if section.content %}
-    {% set content = section.content %}
+  {% if page.content %}
+    {% set content = page.content %}
   {% endif %}
 {% endblock head %}
 
 {% block content %}
 
 <main class="page-content">
-  <h1 class="page-title">{{ section.title }}</h1>
+  <h1 class="page-title">{{ page.title }}</h1>
   {% if updated %}
     <span class="page-updated">
       Updated {{ updated }}
@@ -22,89 +22,6 @@
   {% endif %}
 
   {{ content | safe }}
-
-  <section class="hardware">
-    {% set hardware = load_data(path="content/uses/hardware.json") %}
-    <h2>Hardware</h2>
-    {% for hardware in hardware.hardware %}
-      <h3>{{ hardware.name }}</h3>
-      <p class="hardware description">{{ hardware.description }}</p>
-      {% if hardware.specs %}
-        <ul class="specs">
-          {% for key, spec in hardware.specs %}
-            {% if key == "storage" %}
-              <li class="specs__spec">
-                <b>{{ key }}:</b> 
-                {% set storageLength = spec | length %}
-                {% for storage in spec %}
-                  {{ storage }}{% if loop.index == storageLength - 1 %}{{ ', ' }}{% endif %}
-                {% endfor %}
-              </li>
-            {% else %}
-              <li class="specs__spec">
-                <b>{{ key }}:</b> {{ spec }}
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endif %}
-    {% endfor %}
-  </section>
-  <section class="software">
-    {% set software = load_data(path="content/uses/software.json") %}
-    <h2>Software</h2>
-    <p class="software description">
-      I use a lot of different software, I'll try to list the ones I use daily, 
-      but you can look at my 
-      <a href="https://github.com/timharek/dotfiles/blob/main/homebrew/casks">dotfiles</a> 
-      for my up to date list (on my work machine).
-    </p>
-    <ul class="software-list">
-      {% for software in software.software | sort(attribute="name") %}
-        <li class="software">
-          {% if software.url %}
-            <a href="{{ software.url }}">{{ software.name }}</a>
-          {% else %}
-            {{ software.name }}
-          {% endif %}
-          {% if software.description %}
-            ({{ software.description }})
-          {% endif %}
-          {% if software.extensions %}
-            <ul class="extenstion-list">
-            {% for ext in software.extensions %}
-            <li class="extension">
-              {% if ext.url %}
-                <a href="{{ ext.url }}">{{ ext.name }}</a>
-              {% else %}
-                {{ ext.name }}
-              {% endif %}
-            </li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-  <section class="services">
-    <h2>Services</h2>
-    <ul class="services-list">
-      {% for service in software.services | sort(attribute="name") %}
-        <li class="service">
-          {% if service.url %}
-            <a href="{{ service.url }}">{{ service.name }}</a>
-          {% else %}
-            {{ service.name }}
-          {% endif %}
-          {% if service.description %}
-          ({{ service.description }}{% if service.review %}<a href="{{service.review}}"> (Review)</a>{% endif %})
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-
 </main>
 
 {% endblock content %}
