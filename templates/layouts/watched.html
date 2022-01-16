@@ -32,11 +32,19 @@
     {% else %}
       <div aria-label="Entry title">{{ entry.title }}</div>
     {% endif %}
-    <div aria-label="Entry director(s)">
-      {% for director in entry.taxonomies.director %}
-        {{ director }}{% if not loop.last %},{% endif %}
-      {% endfor %}
-    </div>
+    {% if entry.taxonomies.tv_creator %}
+      <div aria-label="Entry creator(s)">
+        {% for creator in entry.taxonomies.tv_creator %}
+          {{ creator }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <div aria-label="Entry director(s)">
+        {% for director in entry.taxonomies.director %}
+          {{ director }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
     <time aria-label="When entry was watched">{% if entry.extra.date %}{{ entry.extra.date }}{% endif %}</time>
     {% set rating = entry.taxonomies.my_rating[0] | int %}
     {% set rating_total = 5 %}
