@@ -2,7 +2,6 @@
 title = "About"
 description = "About Tim Hårek, a developer based in Norway."
 template = "layouts/page.html"
-aliases = ["/contact"]
 +++
 
 My name is Tim Hårek Andreassen. I'm a developer, designer, hiker and 
