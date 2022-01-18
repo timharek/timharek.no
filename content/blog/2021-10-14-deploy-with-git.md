@@ -57,6 +57,7 @@ Back on our server we need to create a `post-receive`-hook in our
 `bare`-repository, `<path-to-bare-repository>.git/hooks/post-receive`.
 
 #### Adding the deployment script
+
 In our `post-receive`-hook we write the following;
 
 ```sh
@@ -69,6 +70,7 @@ cd /home/<username>/sites/<site-name>
 ```
 
 #### Make hook executable
+
 Now we need to make this `post-receive`-hook executable;
 
 ```sh
@@ -78,10 +80,11 @@ chmod +x <path-to-bare-repository>.git/hooks/post-receive
 ### 4. Symlinking our built site
 
 In order for our site to actually be served online we need to symlink our built
-static site from within our `sites`-directory to our "serve"-directory
-(usually `/var/www/<site-name>`);
+static site from within our `sites`-directory to our "serve"-directory (usually
+`/var/www/<site-name>`);
 
 #### Adding symlink
+
 ```sh
 ln -s <path-to-built-site> <path-to-serve-dir>
 ```
@@ -102,9 +105,8 @@ git push production
 ```
 
 And if everything is configured correctly, we shouldn't have any errors. And
-voila, we have setup a way to easily deploy to production without any scary 
+voila, we have setup a way to easily deploy to production without any scary
 scripts.
-
 
 ## TL;DR
 
@@ -113,9 +115,8 @@ scripts.
 1. Create a "sites"-directory to hold the static site.
 1. Create a `post-receive` file within the `bare`-repository.
 1. Add the [following](#adding-the-deployment-script) to the `post-receive`
-file.
+   file.
 1. Make `post-receive` [executable](#make-hook-executable).
-1. [Symlink](#adding-symlink) the built site to the path that is actually 
-serving it online.
+1. [Symlink](#adding-symlink) the built site to the path that is actually
+   serving it online.
 1. `git push production`.
-

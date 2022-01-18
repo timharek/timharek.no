@@ -11,5 +11,3 @@ movie_or_tv = ["Movie"]
 date = 2022-01-15
 reviewed = false
 +++
-
-

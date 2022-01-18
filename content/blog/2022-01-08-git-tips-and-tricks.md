@@ -42,8 +42,8 @@ In my config I have the following;
   path = <path-to-personal-config>
 ```
 
-So whenever I'm in my `<path-to-work-dir>` I'm using my work email instead of
-my personal email for my commits.
+So whenever I'm in my `<path-to-work-dir>` I'm using my work email instead of my
+personal email for my commits.
 
 ### Custom aliases for `git` commands
 
@@ -65,7 +65,8 @@ I'll show more examples later.
 ## Pushing to multiple remotes
 
 Up until recently I used an alias for pushing to multiple remotes at the same
-time, but I discovered in a [Lobsters thread](https://lobste.rs/s/dmkw4d/how_back_up_your_git_repositories#c_zfyjqu)
+time, but I discovered in a
+[Lobsters thread](https://lobste.rs/s/dmkw4d/how_back_up_your_git_repositories#c_zfyjqu)
 that you can specify more than one remote for the same origin.
 
 ```sh
@@ -115,19 +116,21 @@ Within your config;
   excludesfile = <path-to-ignore-file>
 ```
 
-If you've followed the previous tip, you could use the path `~/.config/git/ignore`.
+If you've followed the previous tip, you could use the path
+`~/.config/git/ignore`.
 
 ## Commit messages
 
 Good commit messages are vital for when newcomers join your project and whenever
 you need to look back at what you've previously done.
 
-You can think of a commit message like an email or message with a title and body.
+You can think of a commit message like an email or message with a title and
+body.
 
-The first line of a commit message should always be written in past tense, 
-never contain a period and not exceed 50 characters, the first line is like a 
-title to what the commit is about. The second line should be blank and the third
-line and so on is a more descriptive (can contain details etc.).
+The first line of a commit message should always be written in past tense, never
+contain a period and not exceed 50 characters, the first line is like a title to
+what the commit is about. The second line should be blank and the third line and
+so on is a more descriptive (can contain details etc.).
 
 An example could be like this (good);
 
@@ -137,6 +140,7 @@ $ git commit -m 'Add delete function' \
 ```
 
 And what not to do (bad);
+
 ```sh
 $ git commit -m 'Added delete function' \
   -m 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
@@ -145,6 +149,7 @@ $ git commit -m 'Added delete function' \
 ## Bonus: Useful aliases
 
 Here is some of my useful aliases that are not that straight forward;
+
 ```conf
 [alias]
   pnew = !git push --set-upstream origin $(git branch --show-current) # Pushes a newly created branch to the remote(s)
@@ -155,8 +160,8 @@ Here is some of my useful aliases that are not that straight forward;
   cleanupb = "!git branch -r --merged | grep  -v '\\*\\|main\\|master\\|develop\\|production' | xargs -n 1 git branch -r -d" # Deletes all merged remote branches
 ```
 
-I hope you learned something new! I want to write more about some of my 
+I hope you learned something new! I want to write more about some of my
 configurations from my dotfiles.
 
-If you have any questions or problems with these tips and tricks please let
-me know: [tim@harek.dev](mailto:tim@harek.dev) ([public key](/key))
+If you have any questions or problems with these tips and tricks please let me
+know: [tim@harek.dev](mailto:tim@harek.dev) ([public key](/key))
