@@ -1,6 +1,7 @@
 +++
 title = "Public key"
 description = "Tim Hårek's public key PGP"
+template = "layouts/page.html"
 +++
 
 Fingerprint: `18131862de62d969f02a14e834853dfd0b419a0d`
