@@ -18,21 +18,23 @@
   justify-content: space-between;
 
   &:nth-child(even) {
-    background: 
-      linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    background: linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
       linear-gradient(to right, #743ad5, #d53a9d) border-box;
   }
 
   &:nth-child(odd) {
-    background: 
-      linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    background: linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
       linear-gradient(to left, #743ad5, #d53a9d) border-box;
   }
 
   &:first-child {
-    background: 
-      linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
-      linear-gradient(to right, var(--color-primary), var(--color-primary-inverse)) border-box;
+    background: linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+      linear-gradient(
+          to right,
+          var(--color-primary),
+          var(--color-primary-inverse)
+        )
+        border-box;
     @media (min-width: $breakpoint-medium2) {
       grid-column: span 2;
     }

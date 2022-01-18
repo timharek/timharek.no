@@ -70,7 +70,7 @@
 .resume__skills {
   display: flex;
   flex-direction: column;
-  gap: .5em;
+  gap: 0.5em;
 
   .skill__category {
     display: flex;
@@ -87,9 +87,9 @@
     .skill__category-name {
       font-weight: 500;
       margin: 0;
-      flex-grow: 1
+      flex-grow: 1;
     }
-    
+
     .skill__list {
       flex-grow: 1;
       max-width: 50%;
