@@ -1,5 +1,6 @@
 +++
 date = 2021-10-14
+updated = 2022-01-19
 title = "Deploy a static site to production using git-hooks"
 description = """
 How to deploy a static site to production (any kind of Linux-server)."""
@@ -61,12 +62,15 @@ Back on our server we need to create a `post-receive`-hook in our
 In our `post-receive`-hook we write the following;
 
 ```sh
-#!/bin/sh
+#!/bin/bash
 
-GIT_WORK_TREE=/home/<username>/sites/<site-name>
+BARE_PATH=<path-to-bare-repo>.git
+REPO_PATH=<path-to-dest>
 
-cd /home/<username>/sites/<site-name>
-# Add your build script/commands
+cd $REPO_PATH
+git --git-dir=$BARE_PATH --work-tree=$REPO_PATH checkout -f main
+
+# Add your build scripts/commands below this line
 ```
 
 #### Make hook executable
@@ -120,3 +124,9 @@ scripts.
 1. [Symlink](#adding-symlink) the built site to the path that is actually
    serving it online.
 1. `git push production`.
+
+## UPDATE: 2022-01-19
+
+I recently created a shell-script to create a post-receive git-hook for you,
+check it out
+[github.com/timharek/git-hooks](https://github.com/timharek/git-hooks).
