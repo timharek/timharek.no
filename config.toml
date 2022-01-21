@@ -45,6 +45,7 @@ date_format__updated = "%b %e, %Y"
 
 nav = [
   { name = "Blog", path = "/blog" },
+  { name = "Connect", path = "/connect" },
   { name = "About", path = "/about" },
 ]
 
