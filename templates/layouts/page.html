@@ -31,6 +31,17 @@
       Updated {{ updated }}
     </span>
   {% endif %}
+  {% for translation in page.translations %}
+    {% if translation.lang == "no" and not lang == "no" %}
+      <a href="{{ translation.permalink }}">
+        🇳🇴
+      </a>
+    {% elif lang == "no" and translation.lang == "en" %}
+      <a href="{{ translation.permalink }}">
+        🇺🇸
+      </a>
+    {% endif %}
+  {% endfor %}
   {{ content | safe }}
 </section>
 
