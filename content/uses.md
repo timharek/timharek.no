@@ -4,7 +4,7 @@ description = "Different technologies that Tim Hårek uses."
 template = "layouts/uses.html"
 aliases = ["/use"]
 [extra]
-updated = 2022-01-15
+updated = 2022-01-22
 +++
 
 This page contains lists of different technologies that I use, hardware,
@@ -15,8 +15,10 @@ software and services.
 - **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
 - **iPhone 13 Pro**. Superb battery life and camera.
 - **Custom built computer**. Mostly used for gaming.
-- **Home lab: Intel NUC**. Small and powerful machine with Linux.
-- **Pi-hole**. Block ads on the network.
+- **Intel NUC**. Used as my home lab.
+- **Home Assistant (RPi 4B)**. Home automation without the need for multiple
+  bridges.
+- **Pi-hole (RPi 4B)**. Block ads on the network.
 - **reMarkable 2**. For all my note taking.
 
 ## Software
@@ -72,7 +74,8 @@ Software that I use on my devices.
 [firefox]: https://www.mozilla.org/en-US/firefox/new
 [bitwarden]: https://bitwarden.com
 [ublock]: https://ublockorigin.com
-[multia]: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
+[multia]:
+  https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
 [hammerspoon]: https://www.hammerspoon.org
 [mattermost]: https://mattermost.com
 [neovim]: https://neovim.io
