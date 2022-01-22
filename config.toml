@@ -27,6 +27,9 @@ taxonomies = [
   { name = "my_rating", feed = false }
 ]
 
+[languages.no]
+title = "Tim Hårek"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -53,6 +56,7 @@ footer_left = [
   { name = "CV", path = "/cv" },
   { name = "Uses", path = "/uses" },
   { name = "Privacy", path = "/privacy" },
+  { name = "Digital garden", path = "/garden" },
 ]
 
 footer_right = [
