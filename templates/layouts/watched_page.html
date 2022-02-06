@@ -32,7 +32,11 @@
         datetime="{{ page.date }}"
         itemprop="datePublished"
       >
+      {% if page.extra.rewatched %}
+        Last rewatched {{ page.extra.date | date(format=config.extra.date_format) }}
+      {% else %}
         Watched {{ page.extra.date | date(format=config.extra.date_format) }}
+      {% endif %}
       </time>
       {% if page.updated %}
         <time
@@ -57,6 +61,14 @@
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.extra.rewatched %}
+    <h2>Rewatched</h2>
+    <ul>
+      {% for date in page.extra.rewatched %}
+      <li>{{ date }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
     <dl>
       <dt>Release year</dt>
       <dd>

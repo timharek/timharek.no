@@ -23,6 +23,12 @@
   {% set section = get_section(path="watched/_index.md") %}
   <div class="entries">
   {% for entry in section.pages | sort(attribute="extra.date") | reverse %}
+    {% if entry.extra.rewatched %}
+      {% set date = entry.extra.rewatched | last %}
+      {% set rewatched = true %}
+    {% elif entry.extra.date %}
+      {% set date = entry.extra.date %}
+    {% endif %}
     {% if entry.extra.reviewed %}
       <div aria-label="Entry title">
         <a href="{{ entry.path }}">
@@ -45,7 +51,7 @@
         {% endfor %}
       </div>
     {% endif %}
-    <time aria-label="When entry was watched">{% if entry.extra.date %}{{ entry.extra.date }}{% endif %}</time>
+    <time aria-label="When entry was watched">{% if date %}{{ date }} {% if rewatched %}(R){% endif %}{% endif %}</time>
     {% set rating = entry.taxonomies.my_rating[0] | int %}
     {% set rating_total = 5 %}
     {% set rating_diff = rating_total - rating %}
