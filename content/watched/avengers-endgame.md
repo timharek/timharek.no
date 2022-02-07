@@ -6,7 +6,7 @@ director = ["Russo Brothers"]
 genres = ["Action", "Adventure", "Sci-Fi", "Comicbook", "Drama"]
 release_year = ["2019"]
 my_rating = ["5"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2019-04-24
 reviewed = false

@@ -6,7 +6,7 @@ director = ["David Kerr"]
 genres = ["Comedy", "Action", "Adventure"]
 release_year = ["2018"]
 my_rating = ["3"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2020-06-05
 reviewed = false

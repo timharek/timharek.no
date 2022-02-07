@@ -6,7 +6,7 @@
 {% endblock head %}
 
 {% block content %}
-{% set release_year = page.taxonomies.release_year[0] %}
+{% set publish_year = page.taxonomies.publish_year[0] %}
 {% set consumed_type = page.taxonomies.consumed_type[0] %}
 <article
   class="post h-entry"
@@ -16,7 +16,7 @@
   <div class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">
       <a href="{{ page.permalink }}">
-        {{ page.title | safe }} ({{ release_year }})
+        {{ page.title | safe }} ({{ publish_year }})
       </a>
     </h1>
     <span class="post-meta">
@@ -61,23 +61,23 @@
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {% if page.extra.rewatched %}
-    <h2>Rewatched</h2>
+    {% if page.extra.reread %}
+    <h2>reread</h2>
     <ul>
-      {% for date in page.extra.rewatched %}
-      <li>{{ date }}</li>
+      {% for date in page.extra.reread %}
+        <li>{{ date }}</li>
       {% endfor %}
     </ul>
     {% endif %}
     <dl>
-      <dt>Release year</dt>
+      <dt>Publish year</dt>
       <dd>
-        <a href="{{ get_taxonomy_url(kind="release_year", name=release_year) }}">{{ release_year }}</a>
+        <a href="{{ get_taxonomy_url(kind="publish_year", name=publish_year) }}">{{ publish_year }}</a>
       </dd>
-      <dt>Director</dt>
+      <dt>Author</dt>
       <dd>
-        {% for director in page.taxonomies.director %}
-          <a href="{{ get_taxonomy_url(kind="director", name=director) }}">{{ director }}</a>
+        {% for author in page.taxonomies.book_author %}
+          <a href="{{ get_taxonomy_url(kind="book_author", name=author) }}">{{ author }}</a>
         {% endfor %}
       </dd>
       <dt>My rating</dt>
@@ -89,18 +89,6 @@
           {% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}
         </a>
       </dd>
-      {% if consumed_type == "TV" %}
-        {% set season = page.taxonomies.season[0] %}
-        {% set episode_count = page.taxonomies.episode_count[0] %}
-        <dt>Season</dt>
-        <dd>
-          <a href="{{ get_taxonomy_url(kind="season", name=season) }}">{{ season }}</a>
-        </dd>
-        <dt>Episode count</dt>
-        <dd>
-          <a href="{{ get_taxonomy_url(kind="episode_count", name=episode_count) }}">{{ episode_count }}</a>
-        </dd>
-      {% endif %}
     </dl>
     {{ page.content | safe }}
   </div>

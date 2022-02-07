@@ -20,14 +20,14 @@
   {% if content %}
     {{ content | safe }}
   {% endif %}
-  {% set section = get_section(path="watched/_index.md") %}
   <div class="entries">
   {% for entry in section.pages | sort(attribute="extra.date") | reverse %}
-    {% if entry.extra.rewatched %}
-      {% set date = entry.extra.rewatched | last %}
-      {% set rewatched = true %}
-    {% elif entry.extra.date %}
-      {% set date = entry.extra.date %}
+    {% set date = entry.extra.date %}
+    {% if entry.taxonomies.consumed_type[0] == "movie" or entry.taxonomies.consumed_type[0] == "tv" %}
+      {% if entry.extra.rewatched %}
+        {% set date = entry.extra.rewatched | last %}
+        {% set rewatched = true %}
+      {% endif %}
     {% endif %}
     {% if entry.extra.reviewed %}
       <div aria-label="Entry title">
@@ -44,14 +44,20 @@
           {{ creator }}{% if not loop.last %},{% endif %}
         {% endfor %}
       </div>
-    {% else %}
+    {% elif entry.taxonomies.director %}
       <div aria-label="Entry director(s)">
         {% for director in entry.taxonomies.director %}
           {{ director }}{% if not loop.last %},{% endif %}
         {% endfor %}
       </div>
+    {% else %}
+      <div aria-label="Entry author">
+        {% for author in entry.taxonomies.book_author %}
+          {{ author }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      </div>
     {% endif %}
-    <time aria-label="When entry was watched">{% if date %}{{ date }} {% if rewatched %}(R){% endif %}{% endif %}</time>
+      <time aria-label="When entry was watched">{% if date %}{{ date }} {% if rewatched %}(R){% endif %}{% endif %}</time>
     {% set rating = entry.taxonomies.my_rating[0] | int %}
     {% set rating_total = 5 %}
     {% set rating_diff = rating_total - rating %}

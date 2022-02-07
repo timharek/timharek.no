@@ -6,7 +6,7 @@ director = ["Bryan Singer"]
 genres = ["Action", "Adventure", "Sci-Fi", "Comicbook"]
 release_year = ["2016"]
 my_rating = ["2"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2016-05-20
 reviewed = false

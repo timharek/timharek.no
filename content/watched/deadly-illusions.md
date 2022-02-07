@@ -6,7 +6,7 @@ director = ["Anna Elizabeth James"]
 genres = ["Drama", "Thriller"]
 release_year = ["2021"]
 my_rating = ["1"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2021-03-26
 reviewed = false

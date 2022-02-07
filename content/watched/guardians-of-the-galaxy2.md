@@ -6,7 +6,7 @@ director = ["James Gunn"]
 genres = ["Action", "Adventure", "Sci-Fi", "Comicbook", "Comedy"]
 release_year = ["2017"]
 my_rating = ["3"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2017-04-26
 reviewed = false

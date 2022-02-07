@@ -19,9 +19,12 @@ taxonomies = [
   { name = "tags", feed = false },
   { name = "director", feed = false },
   { name = "tv_creator", feed = false },
+  { name = "book_author", feed = false },
+  { name = "book_genres", feed = false },
   { name = "genres", feed = false },
   { name = "release_year", feed = false },
-  { name = "movie_or_tv", feed = false },
+  { name = "publish_year", feed = false },
+  { name = "consumed_type", feed = false },
   { name = "season", feed = false },
   { name = "episode_count", feed = false },
   { name = "my_rating", feed = false }

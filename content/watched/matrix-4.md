@@ -6,7 +6,7 @@ director = ["Lana Wachowski"]
 genres = ["Action", "Sci-Fi"]
 release_year = ["2021"]
 my_rating = ["2"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2022-01-15
 reviewed = false

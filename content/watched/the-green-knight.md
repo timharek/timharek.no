@@ -6,7 +6,7 @@ director = ["David Lowery"]
 genres = ["Adventure", "Drama", "Fantasy"]
 release_year = ["2021"]
 my_rating = ["3"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2022-01-09
 reviewed = false

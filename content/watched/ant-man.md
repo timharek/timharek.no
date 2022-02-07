@@ -6,7 +6,7 @@ director = ["Peyton Reed"]
 genres = ["Action", "Adventure", "Comedy", "Sci-Fi", "Comicbook"]
 release_year = ["2015"]
 my_rating = ["3"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 rewatched = ["2022-02-06"]
 date = 2022-02-06

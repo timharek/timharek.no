@@ -6,7 +6,7 @@ director = ["Benny Safdie", "Josh Safdie"]
 genres = ["Crime", "Drama", "Thriller"]
 release_year = ["2019"]
 my_rating = ["4"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2020-08-19
 reviewed = false

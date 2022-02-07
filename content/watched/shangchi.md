@@ -6,7 +6,7 @@ director = ["Destin Daniel Cretton"]
 genres = ["Action", "Adventure", "Sci-Fi", "Fantasy", "Comicbook"]
 release_year = ["2021"]
 my_rating = ["4"]
-movie_or_tv = ["Movie"]
+consumed_type = ["Movie"]
 [extra]
 date = 2021-09-01
 reviewed = false
