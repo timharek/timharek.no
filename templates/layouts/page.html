@@ -41,6 +41,17 @@
         🇺🇸
       </a>
     {% endif %}
+    {% if page.extra.subnav %}
+      <nav class="page-content__subnav" aria-label="Sub navigation">
+        <ul>
+          {% for item in page.extra.subnav %}
+            <li>
+              <a href="{{ item.path }}">{{ item.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
   {% endfor %}
   {{ content | safe }}
 </section>
