@@ -27,8 +27,9 @@ You can always reach me at
 
 ## Colophon
 
-This website is built using [Zola][zola] by yours truly. Hosted on [1984
-Hosting][1984].
+This website is built using [Zola][zola] by yours truly. I use my website to
+store my [reading](/reading)- and [watched](/watched)-log, you can read more
+about it [here](/blog/owning-my-own-logs).
 
 Proud member of [1MB club][1mb] and [512KB club][512kb].
 
