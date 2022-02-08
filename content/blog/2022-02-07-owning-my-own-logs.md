@@ -41,3 +41,4 @@ create new Markdown-files for all the entires in order to have taxonomies. I
 would much more prefer having everything live in a JSON-file or something
 similar, but I do have an easy way to add a review to an entry.
 
+Here you can check out my [watched](/watched)- and [reading](/reading)-logs.
