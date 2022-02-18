@@ -10,6 +10,8 @@ You can download my key <a href="/public-key.asc" rel="pgpkey authn">here</a>,
 you can also find it on
 [keys.openpgp.org](https://keys.openpgp.org/search?q=tim%40harek.dev).
 
+You can also use `curl -sL https://timharek.no/public-key.asc | gpg --import`
+
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 xsBNBF7JNmkBCADTB2i0ooegEh5LpSo56hvFaNNDn6r8GoyBLOQCNJkcuTje
