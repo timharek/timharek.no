@@ -49,7 +49,7 @@ Software that I use on my devices.
 - [Slack][slack]. Communication at work.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
 - [Spotify][spotify].
-- [Visual Studio Code][vscode]. For work.
+- [VSCodium][vscodium]. For work.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
 
 ### iPhone
@@ -91,7 +91,7 @@ Software that I use on my devices.
 [skhd]: https://github.com/koekeishiya/skhd
 [slack]: https://slack.com
 [spotify]: https://spotify.com
-[vscode]: https://github.com/Microsoft/vscode
+[vscodium]: https://github.com/VSCodium/vscodium
 [darkroom]: https://apps.apple.com/us/app/a-dark-room/id736683061
 [wireguard]: https://www.wireguard.com
 [yr]: https://apps.apple.com/jo/app/yr-no/id490989206
