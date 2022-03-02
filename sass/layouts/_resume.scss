@@ -1,5 +1,5 @@
 .resume {
-  font-size: 1rem;
+  font-size: $spacing;
 
   h2 {
     margin: 10px 0;
@@ -24,7 +24,7 @@
   margin-bottom: 1.25em;
   display: flex;
   flex-flow: column;
-  gap: 0.5rem 0;
+  gap: $spacingSmall 0;
 
   &__header {
     display: flex;
@@ -40,12 +40,12 @@
 
   &__logo {
     width: 50px;
-    margin-right: 1em;
+    margin-right: $spacing;
   }
 
   &__role {
     @media (min-width: $breakpoint-small) {
-      padding-left: calc(50px + 1em); // Indent, to be straight under the glyph
+      padding-left: calc(50px + #{$spacing}); // Indent, to be straight under the glyph
     }
   }
 
@@ -62,7 +62,7 @@
       margin: 0;
     }
     &__list {
-      padding-left: 1em;
+      padding-left: $spacing;
     }
   }
 }
@@ -70,7 +70,7 @@
 .resume__skills {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: $spacingSmall;
 
   .skill__category {
     display: flex;
@@ -80,7 +80,7 @@
     @media screen and (max-width: $breakpoint-medium) {
       display: block;
       &:not(:last-of-type) {
-        margin-bottom: 1.5em;
+        margin-bottom: $spacingLarge;
       }
     }
 
@@ -99,6 +99,6 @@
 
 .resume__last-update {
   color: var(--color-date);
-  margin: 2em 0;
-  font-size: 0.75em;
+  margin: 2rem 0;
+  font-size: 0.75rem;
 }

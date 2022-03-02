@@ -1,7 +1,7 @@
 .projects-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1em;
+  gap: $spacing;
 
   @media (max-width: $breakpoint-medium2) {
     grid-template-columns: 1fr;
@@ -9,7 +9,7 @@
 }
 
 .project {
-  padding: 1.5rem;
+  padding: $spacingLarge;
   border-radius: 0.65rem;
   border: 0.15rem solid transparent;
   transition: background 500ms ease;
@@ -44,7 +44,7 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0 1em;
+    gap: 0 $spacing;
   }
 
   .project__logo {
@@ -57,12 +57,12 @@
   }
 
   .project__description {
-    margin: 0.5em 0;
+    margin: $spacingSmall 0;
   }
 
   .project__metadata {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em 1em;
+    gap: $spacingSmall $spacing;
   }
 }

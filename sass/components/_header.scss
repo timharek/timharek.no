@@ -50,14 +50,14 @@ header.header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    gap: 0.5rem;
+    gap: $spacingSmall;
   }
 
   .nav__item {
     display: inline;
   }
   .nav__item--link {
-    padding: 0.5rem;
+    padding: $spacingSmall;
     border-radius: 5px;
     border-bottom: 0 !important;
 

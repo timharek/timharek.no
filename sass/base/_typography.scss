@@ -12,7 +12,7 @@ a {
 
   &:focus {
     outline: 2px solid var(--color-primary);
-    outline-offset: 5px;
+    outline-offset: $spacingSmall;
   }
 
   &:active {
@@ -22,7 +22,7 @@ a {
 
   &.anchor {
     border: 0;
-    padding-left: 0.5rem;
+    padding-left: $spacingSmall;
   }
 }
 
@@ -46,12 +46,12 @@ h4 {
 
 .footnote-definition {
   display: inline-flex;
-  gap: 0.5rem;
+  gap: $spacingSmall;
   font-size: 0.9rem;
 
   &:first-of-type {
-    margin-top: 1rem;
-    padding-top: 1rem;
+    margin-top: $spacing;
+    padding-top: $spacing;
     width: 100%;
     border-top: 1px solid var(--color-border);
   }
@@ -72,8 +72,8 @@ code {
 pre,
 code {
   background: $code-bg-dark !important;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: $spacingSmall $spacing;
+  border-radius: $spacingSmall;
 
   * {
     font-family: $font-family-mono;
@@ -85,7 +85,7 @@ pre {
 }
 
 code {
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem $spacingSmall;
   word-wrap: break-word;
 }
 
@@ -110,8 +110,8 @@ kbd {
 
 blockquote {
   margin: 0;
-  padding: 0.5rem 0 0.5rem 1rem;
-  border-left: 0.5rem solid var(--color-border);
+  padding: $spacingSmall 0 $spacingSmall $spacing;
+  border-left: $spacingSmall solid var(--color-border);
 
   p {
     margin: 0;
