@@ -17,7 +17,7 @@
   <h1 class="page-title">{{ page.title }}</h1>
   {% if updated %}
     <span class="page-updated">
-      Updated {{ updated }}
+      Updated <time datetime="{{ page.extra.updated }}">{{ updated }}</time>
     </span>
   {% endif %}
 

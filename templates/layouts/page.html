@@ -28,7 +28,7 @@
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if updated %}
     <span class="page-updated">
-      Updated {{ updated }}
+      Updated <time datetime="{{ page.updated }}">{{ updated }}</time>
     </span>
   {% endif %}
   {% for translation in page.translations %}

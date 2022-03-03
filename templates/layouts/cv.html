@@ -70,7 +70,7 @@
     {% endfor %}
   </div>
   <div class="resume__last-update">
-    Updated {{ cv.last_update | date(format=config.extra.date_format) }}
+    Updated <time datetime="{{ cv.last_update }}">{{ cv.last_update | date(format=config.extra.date_format) }}</time>
   </div>
   {% if section.extra.ignore %}
     <span class="full-cv">
