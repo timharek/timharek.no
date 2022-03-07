@@ -2,7 +2,7 @@
 title = "Euphoria S02"
 description = ""
 [taxonomies]
-director = ["    Sam Levinson"] 
+director = ["Sam Levinson"] 
 tv_creator = ["Sam Levinson"]
 genres = ["Drama"]
 release_year = ["2022"]
