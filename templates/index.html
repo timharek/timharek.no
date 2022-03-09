@@ -33,9 +33,11 @@
           </a>
         </div>
         <p class="repo__desc">{{ repo.description }}</p>
+        <p class="repo__last-commit">Last commit {{ repo.updated_at | date(format="%Y-%m-%d") }}</p>
       </li>
     {% endfor %}
   </ul>
+  <a href="https://github.com/timharek?tab=repositories">More projects</a>
 </section>
 
 <a class="h-card hidden" rel="me" href="https://timharek.no">
