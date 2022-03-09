@@ -1,0 +1,31 @@
+section.repos {
+  .repos-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .repo {
+    .repo__name {
+      margin: 0;
+    }
+
+    .repo__header {
+      margin: $spacing 0;
+      width: fit-content;
+      display: flex;
+      gap: $spacing;
+      align-items: center;
+    }
+
+    .repo__language {
+      font-size: 0.75rem;
+      border: 0;
+      background: var(--color-nav-accent);
+      border-radius: $spacingSmall;
+      padding: 0.2rem $spacingSmall;
+    }
+  }
+}

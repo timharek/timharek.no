@@ -15,36 +15,29 @@
   {% endif %}
 </section>
 
-{% set projects = load_data(path="content/projects/projects.json") %}
-<section class="projects">
-  <h2>Recent projects</h2>
-  <div class="projects-wrapper">
-  {% for project in projects.projects | sort(attribute="date") | reverse %}
-  <article class="project">
-    <div class="project__content">
-      <div class="project__header">
-        <img class="project__logo" src="{{ get_url(path=project.logo) |
-        default(value=get_url(path="img/error.svg")) }}" alt="{{ project.name }}
-        logo">
-        <h3 class="project__name">{{ project.name }}</h3>
-      </div>
-      <p class="project__description">{{ project.description }}</p>
-    </div>
-    {% if project.link or project.sourcecode %}
-    <div class="project__metadata">
-      {% if project.link %}
-      <a href="{{ project.link }}"
-        >Website</a
-      >
-      {% endif %} {% if project.sourcecode %}
-      <a href="{{ project.sourcecode }}">Source code</a>
-      {% endif %}
-    </div>
-    {% endif %}
-  </article>
-  {% endfor %}
-  </div>
+{% set repos = load_data(url="https://api.github.com/users/timharek/repos", format="json") %}
+
+<section class="repos">
+  <h2>Latest repos</h2>
+  <ul class="repos-list">
+    {% for repo in repos | sort(attribute="created_at") | reverse | slice(end=6) %}
+      <li class="repo">
+        <div class="repo__header">
+          <h3 class="repo__name">
+            <a class="repo__link" href="{{ repo.svn_url }}">
+              {{ repo.name }}
+            </a>
+          </h3>
+          <a class="repo__language {{ repo.language | slugify }}" href="https://github.com/search?q=user%3Atimharek+language%3A{{ repo.language | slugify }}+archived%3Afalse">
+            {{ repo.language }}
+          </a>
+        </div>
+        <p class="repo__desc">{{ repo.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
+
 <a class="h-card hidden" rel="me" href="https://timharek.no">
   <img class="u-photo hidden" src="{{ get_url(path="img/me.jpeg") }}" alt="Photo of Tim Hårek Andreassen">
   Tim Hårek Andreassen
