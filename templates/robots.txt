@@ -2,16 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /watched/
 Disallow: /reading/
-Disallow: /director/
-Disallow: /tv_creator/
-Disallow: /book_author/
-Disallow: /book_genres/
-Disallow: /genres/
-Disallow: /release_year/
-Disallow: /publish_year/
-Disallow: /consumed_type/
-Disallow: /season/
-Disallow: /episode_count/
-Disallow: /my_rating/
 
 Sitemap: {{ get_url(path="sitemap.xml") }}
