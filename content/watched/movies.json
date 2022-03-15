@@ -1,0 +1,1137 @@
+[
+    {
+        "title": "Batman v Superman: Dawn of Justice",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 2,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Zack Snyder"
+        ],
+        "type": "Movie",
+        "watched_date": "2016-03-22"
+    },
+    {
+        "title": "Captain America: Civil War",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Russo Brothers"
+        ],
+        "type": "Movie",
+        "watched_date": "2016-04-26"
+    },
+    {
+        "title": "X-Men: Apocalypse",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 2,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Bryan Singer"
+        ],
+        "type": "Movie",
+        "watched_date": "2016-05-20"
+    },
+    {
+        "title": "Warcraft",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 1,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "director": [
+            "Duncan Jones"
+        ],
+        "type": "Movie",
+        "watched_date": "2016-05-27"
+    },
+    {
+        "title": "War Dogs",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 3,
+        "genres": [
+            "Biography",
+            "Crime",
+            "Comedy",
+            "Drama",
+            "War"
+        ],
+        "director": [
+            "Todd Phillips"
+        ],
+        "type": "Movie",
+        "watched_date": "2016-08-19"
+    },
+    {
+        "title": "Doctor Strange",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Fantasy"
+        ],
+        "director": [
+            "Scott Derrickson"
+        ],
+        "type": "Movie",
+        "watched_date": "2016-11-04"
+    },
+    {
+        "title": "Logan",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Drama",
+            "Sci-Fi",
+            "Comicbook",
+            "Thriller"
+        ],
+        "director": [
+            "James Mangold"
+        ],
+        "type": "Movie",
+        "watched_date": "2017-03-01"
+    },
+    {
+        "title": "Guardians of the Galaxy Vol. 2",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Comedy"
+        ],
+        "director": [
+            "James Gunn"
+        ],
+        "type": "Movie",
+        "watched_date": "2017-04-26"
+    },
+    {
+        "title": "Spider-Man: Homecoming ",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Jon Watts"
+        ],
+        "type": "Movie",
+        "watched_date": "2017-07-07"
+    },
+    {
+        "title": "Thor: Ragnarok",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi",
+            "Comicbook",
+            "Comedy"
+        ],
+        "director": [
+            "Taika Watiti"
+        ],
+        "type": "Movie",
+        "watched_date": "2017-10-27"
+    },
+    {
+        "title": "Justice League",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 2,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Zack Snyder",
+            "Josh Whedon"
+        ],
+        "type": "Movie",
+        "watched_date": "2017-11-15"
+    },
+    {
+        "title": "Ant-Man and The Wasp",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Peyton Reed"
+        ],
+        "type": "Movie",
+        "watched_date": "2018-07-04"
+    },
+    {
+        "title": "Mission: Impossible - Fallout",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "director": [
+            "Christopher McQuarrie"
+        ],
+        "type": "Movie",
+        "watched_date": "2018-08-14"
+    },
+    {
+        "title": "Incredibles 2",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Family",
+            "Animation"
+        ],
+        "director": [
+            "Brad Bird"
+        ],
+        "type": "Movie",
+        "watched_date": "2018-08-24"
+    },
+    {
+        "title": "Spider-Man: Into The Spider-Verse",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Fantasy",
+            "Animation"
+        ],
+        "director": [
+            "Bob Persichetti",
+            "Peter Ramsey",
+            "Rodney Rothman"
+        ],
+        "type": "Movie",
+        "watched_date": "2018-12-17"
+    },
+    {
+        "title": "Avengers: Endgame",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Drama"
+        ],
+        "director": [
+            "Russo Brothers"
+        ],
+        "type": "Movie",
+        "watched_date": "2019-04-24"
+    },
+    {
+        "title": "Spider-Man: Far From Home",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Jon Watts"
+        ],
+        "type": "Movie",
+        "watched_date": "2019-07-04"
+    },
+    {
+        "title": "Joker",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "director": [
+            "Todd Phillips"
+        ],
+        "type": "Movie",
+        "watched_date": "2019-10-04"
+    },
+    {
+        "title": "Toys Story 4",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 3,
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Comedy",
+            "Family",
+            "Fantasy"
+        ],
+        "director": [
+            "Josh Cooley"
+        ],
+        "type": "Movie",
+        "watched_date": "2019-10-07"
+    },
+    {
+        "title": "Knives Out",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 5,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Mystery",
+            "Crime",
+            "Thriller"
+        ],
+        "director": [
+            "Rian Johnson"
+        ],
+        "type": "Movie",
+        "watched_date": "2019-12-06"
+    },
+    {
+        "title": "1917",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Drama",
+            "War"
+        ],
+        "director": [
+            "Sam Mendes"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-02-05"
+    },
+    {
+        "title": "Birds of Prey",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 2,
+        "genres": [
+            "Comedy",
+            "Action",
+            "Adventure",
+            "Crime",
+            "Comicbook"
+        ],
+        "director": [
+            "Cathy Yan"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-02-08"
+    },
+    {
+        "title": "Jojo Rabbit",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 5,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+        ],
+        "director": [
+            "Taika Watiti"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-03-04"
+    },
+    {
+        "title": "The Invisible Man",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 4,
+        "genres": [
+            "Drama",
+            "Horror",
+            "Thriller",
+            "Sci-Fi",
+            "Mystery"
+        ],
+        "director": [
+            "Leigh Whannell"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-03-30"
+    },
+    {
+        "title": "The Gentlemen",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "director": [
+            "Guy Ritchie"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-04-03"
+    },
+    {
+        "title": "Spies in Disguise",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Comedy",
+            "Adventure",
+            "Animation",
+            "Family",
+            "Fantasy",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "director": [
+            "Nick Bruno",
+            "Troy Quane"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-04-07"
+    },
+    {
+        "title": "Bad Boys For Life",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Comedy",
+            "Crime",
+            "Thriller"
+        ],
+        "director": [
+            "Adil El Arbi",
+            "Bilall Fallah"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-04-10"
+    },
+    {
+        "title": "The Big Sick",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "director": [
+            "Michael Showalter"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-04-17"
+    },
+    {
+        "title": "Johnny English Strikes Again",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 3,
+        "genres": [
+            "Comedy",
+            "Action",
+            "Adventure"
+        ],
+        "director": [
+            "David Kerr"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-06-05"
+    },
+    {
+        "title": "Minority Report",
+        "description": "",
+        "release_year": 2002,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Crime",
+            "Mystery",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "director": [
+            "Steven Spielberg"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-06-06"
+    },
+    {
+        "title": "Mean Girls",
+        "description": "",
+        "release_year": 2004,
+        "my_rating": 3,
+        "genres": [
+            "Comedy"
+        ],
+        "director": [
+            "Mark Waters"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-06-07"
+    },
+    {
+        "title": "The King of Staten Island",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "director": [
+            "Judd Apatow"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-06-15"
+    },
+    {
+        "title": "Extraction",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Thriller"
+        ],
+        "director": [
+            "Sam Hargrave"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-07-20"
+    },
+    {
+        "title": "Parasite",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "director": [
+            "Bong Joon Ho"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-07-30"
+    },
+    {
+        "title": "The Rental",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Drama",
+            "Horror",
+            "Thriller",
+            "Mystery"
+        ],
+        "director": [
+            "Dave Franco"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-07-30"
+    },
+    {
+        "title": "Uncut Gems",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "director": [
+            "Benny Safdie",
+            "Josh Safdie"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-08-19"
+    },
+    {
+        "title": "Room",
+        "description": "",
+        "release_year": 2015,
+        "my_rating": 4,
+        "genres": [
+            "Drama",
+            "Thriller"
+        ],
+        "director": [
+            "Lenny Abrahamson"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-08-23"
+    },
+    {
+        "title": "Tenet",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "director": [
+            "Christopher Nolan"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-08-26"
+    },
+    {
+        "title": "Onward",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Fantasy",
+            "Comedy",
+            "Family"
+        ],
+        "director": [
+            "Dan Scanlon"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-08-28"
+    },
+    {
+        "title": "The Incredible Journey",
+        "description": "",
+        "release_year": 1963,
+        "my_rating": 3,
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Family"
+        ],
+        "director": [
+            "Fletcher Markle"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-09-20"
+    },
+    {
+        "title": "Borat Subsequent Moviefilm",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 4,
+        "genres": [
+            "Comedy"
+        ],
+        "director": [
+            "Jason Woliner"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-10-23"
+    },
+    {
+        "title": "Love and Monsters",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "director": [
+            "Michael Matthews"
+        ],
+        "type": "Movie",
+        "watched_date": "2020-10-29"
+    },
+    {
+        "title": "Yesterday",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Music",
+            "Romance"
+        ],
+        "director": [
+            "Danny Boyle"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-02-19"
+    },
+    {
+        "title": "This is 40",
+        "description": "",
+        "release_year": 2012,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "director": [
+            "Judd Apatow"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-02-28"
+    },
+    {
+        "title": "Zack Snyder's Justice League",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Zack Snyder"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-03-18"
+    },
+    {
+        "title": "Deadly Illusions",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 1,
+        "genres": [
+            "Drama",
+            "Thriller"
+        ],
+        "director": [
+            "Anna Elizabeth James"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-03-26"
+    },
+    {
+        "title": "Bad Trip",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Comedy"
+        ],
+        "director": [
+            "Kitao Sakurai"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-03-28"
+    },
+    {
+        "title": "Stowaway",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Adventure",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "director": [
+            "Joe Penna"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-04-24"
+    },
+    {
+        "title": "Bo Burnham: Inside",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 5,
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Music"
+        ],
+        "director": [
+            "Bo Burnhamn"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-06-07"
+    },
+    {
+        "title": "A Quiet Place Part II",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 5,
+        "genres": [
+            "Drama",
+            "Sci-Fi",
+            "Horror",
+            "Thriller"
+        ],
+        "director": [
+            "John Krasinski"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-06-09"
+    },
+    {
+        "title": "Black Widow",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Cate Shortland"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-07-07"
+    },
+    {
+        "title": "The Suicide Squad",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "James Gunn"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-08-06"
+    },
+    {
+        "title": "Free Guy",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "director": [
+            "Shawn Levy"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-08-21"
+    },
+    {
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Fantasy",
+            "Comicbook"
+        ],
+        "director": [
+            "Destin Daniel Cretton"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-09-01"
+    },
+    {
+        "title": "Dune",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Drama"
+        ],
+        "director": [
+            "Denis Villeneuve"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-10-11"
+    },
+    {
+        "title": "Eternals",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Fantasy"
+        ],
+        "director": [
+            "Chloé Zhao"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-11-03"
+    },
+    {
+        "title": "Venom: Let There Be Carnage",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi",
+            "Comicbook",
+            "Thriller"
+        ],
+        "director": [
+            "Andy Serkis"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-11-13"
+    },
+    {
+        "title": "Love Hard",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "director": [
+            "Hernan Jimenez"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-11-27"
+    },
+    {
+        "title": "Atomic Blonde",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Thriller"
+        ],
+        "director": [
+            "David Leitch"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-12-17"
+    },
+    {
+        "title": "Spider-Man: No Way Home",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Comicbook"
+        ],
+        "director": [
+            "Jon Watts"
+        ],
+        "type": "Movie",
+        "watched_date": "2021-12-19"
+    },
+    {
+        "title": "The Green Knight",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "director": [
+            "David Lowery"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-01-09"
+    },
+    {
+        "title": "The Matrix Resurrections",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 2,
+        "genres": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "director": [
+            "Lana Wachowski"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-01-15"
+    },
+    {
+        "title": "Ant-Man",
+        "description": "",
+        "release_year": 2015,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "director": [
+            "Peyton Reed"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-02-06"
+    },
+    {
+        "title": "Chicken Run",
+        "description": "",
+        "release_year": 2000,
+        "my_rating": 4,
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Family"
+        ],
+        "director": [
+            "Peter Lord",
+            "Nick Park"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-02-06"
+    },
+    {
+        "title": "The Tinder Swindler",
+        "description": "The retelling of the viral story posted by VG.",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+            "Documentary",
+            "Crime"
+        ],
+        "director": [
+            "Felicity Morris"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-02-07"
+    },
+    {
+        "title": "Red Notice",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Comedy",
+            "Thriller"
+        ],
+        "director": [
+            "Rawson Marshall Thurber"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-02-19"
+    },
+    {
+        "title": "The Batman",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Comicbook"
+        ],
+        "director": [
+            "Matt Reeves"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-03-06"
+    }
+]

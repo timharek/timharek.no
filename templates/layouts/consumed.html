@@ -15,57 +15,47 @@
 
 {% block content %}
 
+{% set files = section.extra.json_files %}
+{% set person_field = section.extra.person_field %}
+{% set date_field = section.extra.date_field %}
+{% set is_date_field_array = section.extra.date_field_is_array %}
+
 <section class="page-content page-review">
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if content %}
     {{ content | safe }}
   {% endif %}
+  {% if files|length > 1 %}
+    {% set_global array = [] %}
+    {% for file in files %}
+      {% set loaded_file = load_data(path=file) %}
+      {% set_global array = array | concat(with=loaded_file) %}
+    {% endfor %}
+  {% else %}
+    {% set array = load_data(path=files[0]) %}
+  {% endif %}
   <div class="entries">
-  {% for entry in section.pages | sort(attribute="extra.date") | reverse %}
-    {% set date = entry.extra.date %}
-    {% if entry.taxonomies.consumed_type[0] == "movie" or entry.taxonomies.consumed_type[0] == "tv" %}
-      {% if entry.extra.rewatched %}
-        {% set date = entry.extra.rewatched | last %}
-        {% set rewatched = true %}
+  {% for entry in array | sort(attribute=date_field) | reverse %}
+    {% set date = entry[date_field] %}
+    <div aria-label="Entry title">{{ entry.title }}</div>
+    {% for field in person_field %}
+      {% if entry[field] %}
+        <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
+          {% for person in entry[field] %}
+            {{ person }}{% if not loop.last %},{% endif %}
+          {% endfor %}
+        </div>
       {% endif %}
-    {% endif %}
-    {% if entry.extra.reviewed %}
-      <div aria-label="Entry title">
-        <a href="{{ entry.path }}">
-          {{ entry.title }}
-        </a>
-      </div>
-    {% else %}
-      <div aria-label="Entry title">{{ entry.title }}</div>
-    {% endif %}
-    {% if entry.taxonomies.tv_creator %}
-      <div aria-label="Entry creator(s)">
-        {% for creator in entry.taxonomies.tv_creator %}
-          {{ creator }}{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </div>
-    {% elif entry.taxonomies.director %}
-      <div aria-label="Entry director(s)">
-        {% for director in entry.taxonomies.director %}
-          {{ director }}{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </div>
-    {% else %}
-      <div aria-label="Entry author">
-        {% for author in entry.taxonomies.book_author %}
-          {{ author }}{% if not loop.last %},{% endif %}
-        {% endfor %}
-      </div>
-    {% endif %}
-      <time aria-label="When entry was watched">{% if date %}{{ date }} {% if rewatched %}(R){% endif %}{% endif %}</time>
-    {% set rating = entry.taxonomies.my_rating[0] | int %}
+    {% endfor %}
+    <time aria-label="When entry was watched">{% if date %}{{ date }}{% endif %}</time>
+    {% set rating = entry.my_rating | int %}
     {% set rating_total = 5 %}
     {% set rating_diff = rating_total - rating %}
     <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
   {% endfor %}
   </div>
   <div class="count">
-    Count: {{ section.pages|length }}
+    Count: {{ array|length }}
   </div>
 </section>
 

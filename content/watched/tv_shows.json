@@ -1,0 +1,502 @@
+[
+    {
+        "title": "Daredevil S01",
+        "description": "",
+        "release_year": 2015,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "directors": [
+            "Phil Abraham",
+            "Adam Kane",
+            "Ken Girotti",
+            "Farren Blackburn",
+            "Guy Ferland",
+            "Brad Turner",
+            "Stephen Surjik",
+            "Nelson McCormick",
+            "Nick Gomez",
+            "Euros Lyn",
+            "Steven S. DeKnight"
+        ],
+        "type": "TV",
+        "watched_date": "2015-04-11",
+        "creator": [
+            "Drew Goddard"
+        ],
+        "episode_count": 13,
+        "season": 1
+    },
+    {
+        "title": "Daredevil S02",
+        "description": "",
+        "release_year": 2016,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "directors": [
+            "Phil Abraham",
+            "Marc Jobst",
+            "Peter Hoar",
+            "Floria Sigismondi",
+            "Andy Goddard",
+            "Ken Girotti",
+            "Michael Uppendahl",
+            "Stephen Surjik",
+            "Euros Lyn"
+        ],
+        "type": "TV",
+        "watched_date": "2016-03-19",
+        "creator": [
+            "Drew Goddard"
+        ],
+        "episode_count": 13,
+        "season": 2
+    },
+    {
+        "title": "Atypical S01",
+        "description": "",
+        "release_year": 2017,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "directors": [
+            "Seth Gordon",
+            "Michael Patrick Jann",
+            "Joe Kessler"
+        ],
+        "type": "TV",
+        "watched_date": "2017-08-17",
+        "creator": [
+            "Robia Rashid"
+        ],
+        "episode_count": 8,
+        "season": 1
+    },
+    {
+        "title": "Atypical S02",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "directors": [
+            "Joe Kessler",
+            "Ryan Case",
+            "Silver Tree",
+            "Geeta V. Patel",
+            "Wendey Stanzler",
+            "Pam Thomas",
+            "Pete Chatmon",
+            "Ken Whittingham"
+        ],
+        "type": "TV",
+        "watched_date": "2018-10-07",
+        "creator": [
+            "Robia Rashid"
+        ],
+        "episode_count": 10,
+        "season": 2
+    },
+    {
+        "title": "Daredevil S03",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "directors": [
+            "Marc Jobst",
+            "Lukas Ettlin",
+            "Jennifer Getzinger",
+            "Alex Garcia Lopez",
+            "Julian Holmes",
+            "Stephen Surjik",
+            "Toa Fraser",
+            "Alex Zakrzewski",
+            "Jennifer Lynch",
+            "Jet Wilkinson",
+            "Phil Abraham",
+            "Sam Miller"
+        ],
+        "type": "TV",
+        "watched_date": "2018-10-29",
+        "creator": [
+            "Drew Goddard"
+        ],
+        "episode_count": 13,
+        "season": 3
+    },
+    {
+        "title": "Bodyguard S01",
+        "description": "",
+        "release_year": 2018,
+        "my_rating": 5,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "directors": [
+            "Thomas Vincent",
+            "John Strickland"
+        ],
+        "type": "TV",
+        "watched_date": "2018-11-08",
+        "creator": [
+            "Jed Mercurio"
+        ],
+        "episode_count": 6,
+        "season": 1
+    },
+    {
+        "title": "Atypical S03",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "directors": [
+            "Ryan Case",
+            "Rebecca Asher",
+            "Victor Nelli Jr.",
+            "Wendey Stanzler",
+            "Michael Medico",
+            "Annabel Oakes",
+            "Ken Whittingham",
+            "Robia Rashid"
+        ],
+        "type": "TV",
+        "watched_date": "2019-11-03",
+        "creator": [
+            "Robia Rashid"
+        ],
+        "episode_count": 10,
+        "season": 3
+    },
+    {
+        "title": "The Witcher S01",
+        "description": "",
+        "release_year": 2019,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Mystery",
+            "Fantasy"
+        ],
+        "directors": [
+            "Alik Sakharov",
+            "Alex Garcia Lopez",
+            "Charlotte Brändström",
+            "Marc Jobst"
+        ],
+        "type": "TV",
+        "watched_date": "2019-12-25",
+        "creator": [
+            "Lauren Schmidt"
+        ],
+        "episode_count": 8,
+        "season": 1
+    },
+    {
+        "title": "Westworld S03",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "directors": [
+            "Jonathan Nolan",
+            "Richard J. Lewis",
+            "Amanda Marsalis"
+        ],
+        "type": "TV",
+        "watched_date": "2020-05-09",
+        "creator": ["Jonathan Nolan","Lisa Joy"],
+        "episode_count": 6,
+        "season": 3
+    },
+    {
+        "title": "Space Force S01",
+        "description": "",
+        "release_year": 2020,
+        "my_rating": 3,
+        "genres": [
+            "Comedy"
+        ],
+        "directors": [
+            "Paul King",
+            "Tom Marshall"
+        ],
+        "type": "TV",
+        "watched_date": "2020-06-03",
+        "creator": ["Steve Carell", "Greg Daniels"],
+        "episode_count": 10,
+        "season": 1
+    },
+    {
+        "title": "Atypical S04",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 3,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "directors": [
+            "Tom Magill",
+            "Michael Medico",
+            "Rebecca Asher",
+            "Angela C. Tortu",
+            "Heather Jack",
+            "Jennifer Arnold",
+            "Fernando Sariñana",
+            "Robia Rashid",
+            "Kevin Rodney Sullivan"
+        ],
+        "type": "TV",
+        "watched_date": "2021-07-20",
+        "creator": [
+            "Robia Rashid"
+        ],
+        "episode_count": 10,
+        "season": 4
+    },
+    {
+        "title": "Rick and Morty S05",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi",
+            "Cartoon"
+        ],
+        "directors": [
+            "Wesley Archer"
+        ],
+        "type": "TV",
+        "watched_date": "2021-08-09",
+        "creator": ["Justin Roiland", "Dan Harmon"],
+        "episode_count": 10,
+        "season": 5
+    },
+    {
+        "title": "Sex Education S03",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Comedy",
+            "Drama"
+        ],
+        "directors": [
+            "Ben Taylor",
+            "Runyararo Mapfumo"
+        ],
+        "type": "TV",
+        "watched_date": "2021-10-13",
+        "creator": ["Laurie Nunn"],
+        "episode_count": 8,
+        "season": 3
+    },
+    {
+        "title": "Hawkeye S01",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Comicbook"
+        ],
+        "directors": [
+            "Rhys Thomas",
+            "Bert",
+            "Bertie"
+        ],
+        "type": "TV",
+        "watched_date": "2021-12-22",
+        "creator": ["Jonathan Igla"],
+        "episode_count": 6,
+        "season": 1
+    },
+    {
+        "title": "The Witcher S02",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Mystery",
+            "Fantasy"
+        ],
+        "directors": [
+            "Stephen Surjik",
+            "Sarah O'Gorman",
+            "Edward Bazalgette",
+            "Louise Hooper"
+        ],
+        "type": "TV",
+        "watched_date": "2022-01-09",
+        "creator": [
+            "Lauren Schmidt"
+        ],
+        "episode_count": 8,
+        "season": 2
+    },
+    {
+        "title": "Dexter: New Blood",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "directors": [
+            "Marcos Siega",
+            "Sanford Bookstaver"
+        ],
+        "type": "TV",
+        "watched_date": "2022-01-11",
+        "creator": ["Clyde Phillips"],
+        "episode_count": 10,
+        "season": 1
+    },
+    {
+        "title": "The Book of Boba Fett S01",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "directors": [
+            "Robert Rodriguez",
+            "Steph Green",
+            "Kevin Tancharoen",
+            "Bryce Dallas Howard",
+            "Dave Filoni"
+        ],
+        "type": "TV",
+        "watched_date": "2022-02-11",
+        "creator": [
+            "Jon Favreau"
+        ],
+        "episode_count": 7,
+        "season": 1
+    },
+    {
+        "title": "Peacemaker S01",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Crime",
+            "Fantasy",
+            "Sci-Fi",
+            "Comicbook"
+        ],
+        "directors": [
+            "James Gunn",
+            "Jody Hill",
+            "Rosemary Rodriguez",
+            "Brad Anderson"
+        ],
+        "type": "TV",
+        "watched_date": "2022-02-18",
+        "creator": [
+            "James Gunn"
+        ],
+        "episode_count": 8,
+        "season": 1
+    },
+    {
+        "title": "Euphoria S02",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 5,
+        "genres": [
+            "Drama"
+        ],
+        "directors": [
+            "Sam Levinson"
+        ],
+        "type": "TV",
+        "watched_date": "2022-03-02",
+        "creator": [
+            "Sam Levinson"
+        ],
+        "episode_count": 8,
+        "season": 2
+    },
+    {
+        "title": "Reacher S01",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "directors": [
+            "Thomas Vincent",
+            "Sam Hill",
+            "Stephen Surjik",
+            "Christine Moore",
+            "Noberto Barba",
+            "Omar Madha",
+            "Lin Oeding",
+            "M.J. Bassett"
+        ],
+        "type": "TV",
+        "watched_date": "2022-03-03",
+        "creator": [
+            "Nick Santora"
+        ],
+        "episode_count": 8,
+        "season": 1
+    }
+]
