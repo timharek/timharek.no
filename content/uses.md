@@ -51,6 +51,7 @@ Software that I use on my devices.
 - [Spotify][spotify].
 - [VSCodium][vscodium]. For work.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
+- [yabai][yabai]. Tiling window manager for macOS.
 
 ### iPhone
 
@@ -98,3 +99,4 @@ Software that I use on my devices.
 [1984]: https://1984hosting.com
 [migadu]: https://migadu.com
 [mullvad]: https://mullvad.net/en/
+[yabai]: https://github.com/koekeishiya/yabai
