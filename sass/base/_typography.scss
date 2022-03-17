@@ -39,6 +39,11 @@ h4 {
   font-weight: 600;
 }
 
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+
 ::selection {
   background: var(--color-primary);
   color: $color-white;
