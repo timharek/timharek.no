@@ -4,7 +4,7 @@ description = "Different technologies that Tim Hårek uses."
 template = "layouts/uses.html"
 aliases = ["/use"]
 [extra]
-updated = 2022-01-22
+updated = 2022-03-17
 +++
 
 This page contains lists of different technologies that I use, hardware,
@@ -34,23 +34,22 @@ Software that I use on my devices.
   - [Bitwarden][bitwarden]. Open source password manager.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
-- [Hammerspoon][hammerspoon]. Automate everything on macOS with Lua.
-- [Mattermost][mattermost]. A great open source alternative to Slack.
+- [NetNewsWire][netnewswire]. RSS Reader.
+- [Nextcloud][nextcloud]. My self-hosted cloud.
+- [Numi][numi]. Quick-access calculator
+- [Spotify][spotify].
+- [Wireguard][wireguard]. Connecting to my home network remotely.
 - [Neovim][neovim]. My favorite text-editor.
   - [telescope.nvim][telescope]. File browser and much more.
   - [emmet.vim][emmet]. A must-have for webdev.
-- [NetNewsWire][netnewswire]. RSS Reader.
-- [Dozer][dozer]. Hide icons from the menu bar on macOS.
-- [Nextcloud][nextcloud]. My self-hosted cloud.
-- [Numi][numi]. Quick-access calculator
-- [Rectangle][rectangle]. Window snap-manager for macOS.
-- [iTerm2][iterm]. Fast native terminal for macOS.
+- [VSCodium][vscodium]. For work.
+- [iTerm2][iterm]. Fast, native terminal for macOS.
 - [Signal][signal]. Favorite messaging application.
 - [Slack][slack]. Communication at work.
+- [Mattermost][mattermost]. A great open source alternative to Slack.
+- [Dozer][dozer]. Hide icons from the menu bar on macOS.
+- [Hammerspoon][hammerspoon]. Automate everything on macOS with Lua.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
-- [Spotify][spotify].
-- [VSCodium][vscodium]. For work.
-- [Wireguard][wireguard]. Connecting to my home network remotely.
 - [yabai][yabai]. Tiling window manager for macOS.
 
 ### iPhone
