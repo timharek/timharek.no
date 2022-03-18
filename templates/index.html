@@ -16,7 +16,6 @@
 </section>
 
 {% set repos = load_data(url="https://api.github.com/users/timharek/repos", format="json") %}
-{% set repos = repos | filter(attribute="archive", value="true") %}
 
 <section class="repos">
   <h2>Latest repos</h2>
