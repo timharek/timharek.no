@@ -1133,5 +1133,22 @@
         ],
         "type": "Movie",
         "watched_date": "2022-03-06"
+    },
+    {
+        "title": "The Adam Project",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 3,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "director": [
+            "Shawn Levy"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-03-18"
     }
 ]
