@@ -1,5 +1,5 @@
 {
-  "last_update": "2022-03-15",
+  "last_update": "2022-03-18",
   "name": "Tim Hårek Andreassen",
   "tldr": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
   "experiences": [
@@ -177,7 +177,9 @@
           "name": "Member",
           "start": "2022-01-01",
           "desc": [
-            "Automate internal website deployment with git-hooks.",
+            "Setup of different services for automatic deployment of other services.",
+            "Configuring a easy to maintain script for checking server availability.",
+            "Setup of Mattermost, moderating channels and maintaining channel workflows.",
             "Initiate Ansible-workflow for maintaining servers."
           ]
         }
@@ -191,7 +193,7 @@
       "role": [
         {
           "desc": [
-            "Contributed on the development of their new website, using modern technologies."
+            "Contributed on the development of their new website."
           ],
           "end": "2021-05-29",
           "name": "Web developer",
