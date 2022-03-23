@@ -49,6 +49,8 @@ Software that I use on my devices.
 - [Mattermost][mattermost]. A great open source alternative to Slack.
 - [Dozer][dozer]. Hide icons from the menu bar on macOS.
 - [Hammerspoon][hammerspoon]. Automate everything on macOS with Lua.
+- [Lulu][lulu]. Network monitor for macOS.
+- [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
 - [yabai][yabai]. Tiling window manager for macOS.
 
@@ -99,3 +101,5 @@ Software that I use on my devices.
 [migadu]: https://migadu.com
 [mullvad]: https://mullvad.net/en/
 [yabai]: https://github.com/koekeishiya/yabai
+[lulu]: https://objective-see.com/products/lulu.html
+[appcleaner]: https://freemacsoft.net/appcleaner/
