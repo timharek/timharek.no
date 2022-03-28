@@ -24,7 +24,7 @@
         >
         <span> {{ post.description }} </span>
       </div>
-      <span class="post__date">{{ post.date | date(format=config.extra.date_format) }}</span>
+      <span class="post__date"><time datetime="{{ post.date | date(format="%Y-%m-%d") }}">{{ post.date | date(format=config.extra.date_format) }}</time></span>
     </li>
     {% endfor %}
   {% endfor %}
