@@ -5,7 +5,8 @@ template = "layouts/page.html"
 [extra]
 subnav = [
   { name = "CV", path = "/cv" },
-  { name = "Uses", path = "/uses" }
+  { name = "Uses", path = "/uses" },
+  { name = "Digital garden", path = "/garden" }
 ]
 +++
 

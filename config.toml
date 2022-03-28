@@ -43,12 +43,8 @@ nav = [
   { name = "About", path = "/about" },
 ]
 
-footer_left = [
+footer_nav = [
   { name = "Privacy", path = "/privacy" },
-  { name = "Digital garden", path = "/garden" },
-]
-
-footer_right = [
-  { name = "Photos", path = "/photos" },
   { name = "RSS", path = "/rss.xml" }
 ]
+

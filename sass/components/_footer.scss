@@ -4,6 +4,7 @@ footer.footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: $spacing;
   font-size: 16px;
 
   @media screen and (max-width: $breakpoint-xtra-small) {
