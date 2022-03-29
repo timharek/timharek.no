@@ -25,38 +25,35 @@
   {% if content %}
     {{ content | safe }}
   {% endif %}
-  {% if files|length > 1 %}
-    {% set_global array = [] %}
-    {% for file in files %}
-      {% set loaded_file = load_data(path=file) %}
-      {% set_global array = array | concat(with=loaded_file) %}
+  {% for file in files %}
+    {% set array = load_data(path=file) %}
+    {% if array[0].type %}
+      <h2>{{ array[0].type }}</h2>
+    {% endif %}
+    <div class="entries">
+    {% for entry in array | sort(attribute=date_field) | reverse %}
+      {% set date = entry[date_field] %}
+      <div aria-label="Entry title">{{ entry.title }}</div>
+      {% for field in person_field %}
+        {% if entry[field] %}
+          <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
+            {% for person in entry[field] %}
+              {{ person }}{% if not loop.last %},{% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      <time aria-label="When entry was watched">{% if date %}{{ date }}{% endif %}</time>
+      {% set rating = entry.my_rating | int %}
+      {% set rating_total = 5 %}
+      {% set rating_diff = rating_total - rating %}
+      <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
     {% endfor %}
-  {% else %}
-    {% set array = load_data(path=files[0]) %}
-  {% endif %}
-  <div class="entries">
-  {% for entry in array | sort(attribute=date_field) | reverse %}
-    {% set date = entry[date_field] %}
-    <div aria-label="Entry title">{{ entry.title }}</div>
-    {% for field in person_field %}
-      {% if entry[field] %}
-        <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
-          {% for person in entry[field] %}
-            {{ person }}{% if not loop.last %},{% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    {% endfor %}
-    <time aria-label="When entry was watched">{% if date %}{{ date }}{% endif %}</time>
-    {% set rating = entry.my_rating | int %}
-    {% set rating_total = 5 %}
-    {% set rating_diff = rating_total - rating %}
-    <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
-  {% endfor %}
-  </div>
+    </div>
   <div class="count">
     Count: {{ array|length }}
   </div>
+  {% endfor %}
 </section>
 
 {% endblock content %}
