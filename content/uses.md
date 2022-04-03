@@ -51,6 +51,7 @@ Software that I use on my devices.
 - [Hammerspoon][hammerspoon]. Automate everything on macOS with Lua.
 - [Lulu][lulu]. Network monitor for macOS.
 - [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
+- [MacUpdater][macupdater]. Keeping my Mac up to date.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
 - [yabai][yabai]. Tiling window manager for macOS.
 
@@ -103,3 +104,4 @@ Software that I use on my devices.
 [yabai]: https://github.com/koekeishiya/yabai
 [lulu]: https://objective-see.com/products/lulu.html
 [appcleaner]: https://freemacsoft.net/appcleaner/
+[macupdater]: https://www.corecode.io/macupdater/
