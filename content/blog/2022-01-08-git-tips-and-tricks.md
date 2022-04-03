@@ -7,6 +7,10 @@ description = "Useful tips and tricks I've picked up from using Git for a few ye
 tags = ["Tutorial", "Git", "Dotfiles"]
 +++
 
+## UPDATE: 2022-04-03
+
+I've added a seperate page which I will update whenever I discover something new about Git in my [digital garden (Git)](/garden/git)
+
 [Git](https://git-scm.com) is an extremely useful tool that I use almost every
 day. I'm very thankful that it exists and work as well as it does.
 
@@ -127,7 +131,7 @@ you need to look back at what you've previously done.
 You can think of a commit message like an email or message with a title and
 body.
 
-The first line of a commit message should always be written in past tense, never
+The first line of a commit message should always be written in present-tense, never
 contain a period and not exceed 50 characters, the first line is like a title to
 what the commit is about. The second line should be blank and the third line and
 so on is a more descriptive (can contain details etc.).
