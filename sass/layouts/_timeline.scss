@@ -1,0 +1,42 @@
+section.timeline {
+}
+
+.timeline-wrapper {
+  .entry {
+    position: relative;
+    padding-bottom: $spacing;
+    padding-left: 2rem;
+
+    & > p:not(:last-of-type) {
+      padding: $spacingSmall 0;
+    }
+
+    // Line
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: calc(#{$spacingLarge}/3);
+      background-color: var(--color-primary);
+      width: $spacingSmall;
+    }
+
+    // Dot
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: var(--color-primary);
+      width: $spacingLarge;
+      height: $spacingLarge;
+      border-radius: 999px;
+    }
+
+    h3, p {
+      margin: 0;
+    }
+  }
+}
