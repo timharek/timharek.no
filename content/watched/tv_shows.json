@@ -498,5 +498,29 @@
         ],
         "episode_count": 8,
         "season": 1
+    },
+    {
+        "title": "Dopesick S01",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 5,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "directors": [
+            "Barry Levinson",
+            "Michael Cuesta",
+            "Patricia Riggen",
+            "Danny Strong"
+        ],
+        "type": "TV",
+        "watched_date": "2022-04-10",
+        "creator": [
+            "Danny Strong"
+        ],
+        "episode_count": 8,
+        "season": 1
     }
 ]
