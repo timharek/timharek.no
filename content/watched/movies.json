@@ -1150,5 +1150,42 @@
         ],
         "type": "Movie",
         "watched_date": "2022-03-18"
+    },
+    {
+        "title": "Trollhunter",
+        "description": "",
+        "release_year": 2010,
+        "my_rating": 3,
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "director": [
+            "André Øvredal"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-04-13"
+    },
+    {
+        "title": "The Northman",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "History",
+          "Thriller"
+        ],
+        "director": [
+            "Robert Eggers"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-04-15"
     }
 ]
