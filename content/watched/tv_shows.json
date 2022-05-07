@@ -522,5 +522,28 @@
         ],
         "episode_count": 8,
         "season": 1
+    },
+    {
+        "title": "Moon Knight S01",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "directors": [
+            "Mohamed Diab",
+            "Justin Benson",
+            "Aaron Moorhead"
+        ],
+        "type": "TV",
+        "watched_date": "2022-05-04",
+        "creator": [
+            "Doug Moench"
+        ],
+        "episode_count": 6,
+        "season": 1
     }
 ]
