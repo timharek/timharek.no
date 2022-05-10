@@ -531,7 +531,8 @@
         "genres": [
             "Action",
             "Crime",
-            "Drama"
+            "Drama",
+            "Comicbook"
         ],
         "directors": [
             "Mohamed Diab",
@@ -544,6 +545,29 @@
             "Doug Moench"
         ],
         "episode_count": 6,
+        "season": 1
+    },
+    {
+        "title": "Maid S01",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 5,
+        "genres": [
+            "Drama"
+        ],
+        "directors": [
+            "John Wells",
+            "Nzingha Stewart",
+            "Lila Neugebauer",
+            "Helen Shaver",
+            "Quyen Tran"
+        ],
+        "type": "TV",
+        "watched_date": "2022-05-09",
+        "creator": [
+            "Molly Smith Metzler"
+        ],
+        "episode_count": 10,
         "season": 1
     }
 ]
