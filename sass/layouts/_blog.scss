@@ -3,12 +3,14 @@
   padding: 0;
 
   &__post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 1.5em;
     list-style: none;
 
     @media (max-width: $breakpoint-medium2) {
-      display: block;
-
+    flex-wrap: wrap-reverse;
       .post__summary span {
         margin-top: $spacingSmall;
       }
