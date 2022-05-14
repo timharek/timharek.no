@@ -1,0 +1,13 @@
+{% macro bloglisting_item(post) %}
+  <li class="blog__post">
+    <div class="post__summary">
+      <a
+        href="{% if post.extra.link %}{{ post.extra.link }}{% else %}{{ post.permalink | trim_start_matches(pat=config.base_url) }}{% endif %}"
+        >{{ post.title }}</a
+      >
+      <span> {{ post.description }} </span>
+    </div>
+    <span class="post__date"><time datetime="{{ post.date | date(format="%Y-%m-%d") }}">{{ post.date | date(format="%Y-%m-%d") }}</time></span>
+  </li>
+{% endmacro %}
+

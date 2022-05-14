@@ -24,6 +24,9 @@
 
     .post__summary {
       hyphens: auto;
+      @media (min-width: $breakpoint-medium2) {
+        max-width: 80%;
+      }
 
       span {
         display: block;

@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block head %}
   {% set title = config.title %}
@@ -15,27 +16,16 @@
   {% endif %}
 </section>
 
-{% set repos = load_data(url="https://api.github.com/users/timharek/repos", format="json") %}
-
 <section class="repos">
-  <h2>Latest repos</h2>
-  <ul class="repos-list">
-    {% for repo in repos | sort(attribute="created_at") | reverse | slice(end=6) %}
-      <li class="repo">
-        <div class="repo__header">
-          <h3 class="repo__name">
-            <a class="repo__link" href="{{ repo.svn_url }}">
-              {{ repo.name }}
-            </a>
-          </h3>
-          <a class="repo__language {{ repo.language | slugify }}" href="https://github.com/search?q=user%3Atimharek+language%3A{{ repo.language | slugify }}+archived%3Afalse">
-            {{ repo.language }}
-          </a>
-        </div>
-        <p class="repo__desc">{{ repo.description }}</p>
-      </li>
+  <h2>Latest posts</h2>
+  <ul class="blog">
+    {% set section = get_section(path="blog/_index.md") %}
+    {% set pages = section.pages | slice(end=5) %}
+    {% for post in pages %}
+      {{ macros::bloglisting_item(post=post) }}
     {% endfor %}
   </ul>
+  <a href="/blog">View all</a>
 </section>
 
 <a class="h-card hidden" rel="me" href="https://timharek.no">
