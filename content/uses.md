@@ -4,7 +4,7 @@ description = "Different technologies that Tim Hårek uses."
 template = "layouts/uses.html"
 aliases = ["/use"]
 [extra]
-updated = 2022-03-17
+updated = 2022-05-16
 +++
 
 This page contains lists of different technologies that I use, hardware,
@@ -15,11 +15,10 @@ software and services.
 - **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
 - **iPhone 13 Pro**. Superb battery life and camera.
 - **Custom built computer**. Mostly used for gaming.
-- **Intel NUC**. Used as my home lab.
+- **Intel NUC**. For my home lab.
 - **Home Assistant (RPi 4B)**. Home automation without the need for multiple
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
-- **reMarkable 2**. For all my note taking.
 
 ## Software
 
@@ -36,8 +35,8 @@ Software that I use on my devices.
   - [Multi-Account containers][multia]
 - [NetNewsWire][netnewswire]. RSS Reader.
 - [Nextcloud][nextcloud]. My self-hosted cloud.
-- [Numi][numi]. Quick-access calculator
-- [Spotify][spotify].
+- [Numi][numi]. Quick-access calculator.
+- [Spotify][spotify]. Current music service of choice.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
 - [Neovim][neovim]. My favorite text-editor.
   - [telescope.nvim][telescope]. File browser and much more.
@@ -57,13 +56,13 @@ Software that I use on my devices.
 
 ### iPhone
 
-- [A Dark Room][darkroom]. Fun game to play when I travel.
 - Apple Podcasts. Simple podcast app.
 - [Bitwarden][bitwarden]. Open source password manager.
 - [NetNewsWire][netnewswire]. RSS Reader.
 - [Signal][signal]. Favorite messaging application.
 - [Slack][slack]. Communication at work.
-- [Spotify][spotify].
+- [Mattermost][mattermost]. A great open source alternative to Slack.
+- [Spotify][spotify]. Current music service of choice.
 - [Yr.no][yr]. Simple weather app.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
 

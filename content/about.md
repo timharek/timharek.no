@@ -14,9 +14,8 @@ My name is Tim Hårek Andreassen. I'm a developer, designer, hiker and dog-perso
 from the west coast of Norway. I care about creating solutions that respects
 people, in terms of privacy, security and user experience.
 
-I work as a technologist at Netlife Design in Bergen, where I mostly work with
-full stack development, accessibility and some UX. I also have a "side-gig" as
-an IT manager for a company I've worked for for the last 9 years, Vest Kontakt.
+I work as a technologist at Netlife Bergen, where I mostly work with
+full stack development, accessibility and some UX. 
 
 I spend my free time learning about new technologies, automating my everyday and
 going hiking with my dog, Ayla! 🐕
