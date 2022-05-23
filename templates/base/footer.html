@@ -9,13 +9,13 @@
       {% set path = footer_item.path ~'/' %}
 
       <li class="nav__item">
-      <a 
         {% if current_path and current_path == path %}
-            class="footer__link footer__link--current"
+          {{ footer_item.name | safe }}
         {% else %}
-            class="footer__link"
+          <a class="footer__link" href="{{ footer_item.path }}">
+            {{ footer_item.name | safe }}
+          </a>
         {% endif %}
-        href="{{ footer_item.path }}">{{ footer_item.name | safe }}</a>
       </li>
     {% endfor %}
     </ul>

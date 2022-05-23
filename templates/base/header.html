@@ -10,13 +10,13 @@
         <li class="nav__item">
           {% set path = menu_item.path ~'/' %}
           
-          <a 
-          {% if current_path and current_path is containing(path) %}
-              class="nav__item--link nav__item--link--current"
+          {% if current_path and current_path == path %}
+            {{ menu_item.name | safe }}
           {% else %}
-              class="nav__item--link"
+          <a class="nav__item--link" href="{{ menu_item.path }}">
+            {{ menu_item.name | safe }}
+          </a>
           {% endif %}
-          href="{{ menu_item.path }}">{{ menu_item.name | safe }}</a>
 
         </li>
       {% endfor %}
