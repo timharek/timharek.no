@@ -1206,5 +1206,23 @@
         ],
         "type": "Movie",
         "watched_date": "2022-05-04"
+    },
+    {
+        "title": "Chip 'n Dale: Rescue Rangers",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 3,
+        "genres": [
+          "Animation",
+          "Adventure",
+          "Comedy",
+          "Family",
+          "Mystery"
+        ],
+        "director": [
+            "Akiva Schaffer"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-05-21"
     }
 ]
