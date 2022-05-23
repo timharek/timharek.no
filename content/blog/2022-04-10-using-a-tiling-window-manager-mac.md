@@ -5,7 +5,7 @@ description = """
 For the last few months I've been using Yabai as a tiling window manager on my MacBook.
 """
 [taxonomies]
-tags = ["Software"]
+tags = ["Software", "Tools"]
 +++
 
 Before I started working at Netlife I had my own MacBook Pro from when I was a

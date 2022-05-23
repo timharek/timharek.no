@@ -6,7 +6,7 @@ I've been using an Apple Watch exclusively for the last three years. Now I'm
 going to switch things up.
 """
 [taxonomies]
-tags = ["Apple Watch", "Apple"]
+tags = ["Apple Watch", "Apple", "Hardware"]
 +++
 
 For the last three years I’ve been using an Apple Watch exclusively as my watch,

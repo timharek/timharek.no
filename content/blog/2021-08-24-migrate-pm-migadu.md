@@ -78,13 +78,10 @@ I will have to make a proper review of Migadu by the end of the year, I promise!
 
 UPDATE: [My review](/blog/migadu-review)
 
-[^1]:
-    [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/)
-    (protonmail.com)
+[^1]: [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/) (protonmail.com)
 
 [pm-bridge]: https://protonmail.com/bridge/
 [migadu]: https://migadu.com
 [pgp]: https://en.wikipedia.org/wiki/Pretty_Good_Privacy
 [imap-guide]: https://www.migadu.com/guides/imapsync/
-[fribyte]: https://fribyte.no
 [fribyte]: https://fribyte.no
