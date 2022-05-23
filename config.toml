@@ -34,8 +34,8 @@ smart_punctuation = true
 [extra]
 author = "Tim Hårek Andreassen"
 email = "tim@harek.dev"
-date_format = "%B %e, %Y"
-date_format__updated = "%b %e, %Y"
+date_format = "%Y-%m-%d"
+date_format__updated = "%Y-%m-%d"
 
 nav = [
   { name = "Blog", path = "/blog" },
