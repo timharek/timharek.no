@@ -5,9 +5,13 @@
         href="{% if post.extra.link %}{{ post.extra.link }}{% else %}{{ post.permalink | trim_start_matches(pat=config.base_url) }}{% endif %}"
         >{{ post.title }}</a
       >
-      <span> {{ post.description }} </span>
+      <p> {{ post.description }} </p>
     </div>
-    <span class="post__date"><time datetime="{{ post.date | date(format="%Y-%m-%d") }}">{{ post.date | date(format="%Y-%m-%d") }}</time></span>
+    <div class="post__date">
+      <time datetime="{{ post.date | date(format="%Y-%m-%d") }}">
+        {{ post.date | date(format="%Y-%m-%d") }}
+      </time>
+    </div>
   </li>
 {% endmacro %}
 

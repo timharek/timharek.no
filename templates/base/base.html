@@ -33,6 +33,7 @@
     <link rel="preload" href="{{ get_url(path="main.css") | safe }}" 
       as="style"/> 
     <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
+    <meta name="color-scheme" content="dark light">
 
     <script
       async
@@ -49,9 +50,11 @@
     <link href="/public-key.asc" rel="pgpkey authn" />
   </head>
   <body>
+    {% include "base/header.html" %}
     <main class="wrapper">
-      {% include "base/header.html" %} {% block content %} {% endblock content
-      %} {% include "base/footer.html" %}
+      {% block content %} 
+      {% endblock content %} 
     </main>
+    {% include "base/footer.html" %}
   </body>
 </html>

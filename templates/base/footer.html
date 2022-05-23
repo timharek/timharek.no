@@ -3,10 +3,12 @@
     Last deploy: <time datetime="{{ now() | date(format="%Y-%m-%d %H:%M") }}">{{ now() | date(format="%Y-%m-%d %H:%M") }} UTC</time>
   </div>
 
-  <nav class="footer__container">
+  <nav class="footer__nav">
+    <ul class="nav__list">
     {% for footer_item in config.extra.footer_nav %}
       {% set path = footer_item.path ~'/' %}
 
+      <li class="nav__item">
       <a 
         {% if current_path and current_path == path %}
             class="footer__link footer__link--current"
@@ -14,8 +16,9 @@
             class="footer__link"
         {% endif %}
         href="{{ footer_item.path }}">{{ footer_item.name | safe }}</a>
+      </li>
     {% endfor %}
-
+    </ul>
   </nav>
 
 </footer>

@@ -1,4 +1,149 @@
-@import "abstracts";
-@import "base";
-@import "layouts";
-@import "components";
+$font-family-sans: -apple-system, BlinkMacSystemFont, Segoe UI, avenir next,
+  avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+$font-family-mono: FMono-Regular, Consolas, DejaVu Sans Mono, Liberation Mono,
+  Menlo, monospace;
+$font-family-serif: Iowan Old Style, Apple Garamond, Baskerville, Georgia,
+  Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+  Apple Color Emoji;
+
+$spacingSmall: 0.5rem;
+$spacing: 1rem;
+$spacingLarge: 1.5rem;
+$b-sm: 640px;
+$b-md: 768px;
+
+:root {
+  --wrapper: 760px;
+  --color-primary: #0096f5;
+  --color-background: #212121;
+  --color-default-text: #fefefe;
+  font-family: $font-family-sans;
+  font-size: clamp($spacing, 2vw, 18px);
+  background-color: var(--color-background);
+  color: var(--color-default-text);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-primary: #0d47a1;
+    --color-background: #eeeeee;
+    --color-default-text: #212121;
+  }
+}
+
+@mixin wrapper() {
+  max-width: var(--wrapper);
+  margin-inline: auto;
+  padding-inline: $spacingSmall;
+}
+
+@mixin flex($justify: flex-start, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin list($style: none, $display: flex, $gap: $spacing) {
+  list-style: $style;
+  display: $display;
+  gap: $gap;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  --color-text: var(--color-primary);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all ease 150ms;
+
+  &:hover {
+    background: var(--color-text);
+    color: var(--color-background);
+  }
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+
+p {
+  hyphens: auto;
+  max-width: 65ch;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+
+header.header {
+  @include wrapper();
+  @include flex(space-between);
+
+  .header__logo {
+    svg {
+      max-width: 5.5rem;
+    }
+  }
+
+  .nav__list {
+    @include list();
+  }
+}
+
+footer.footer {
+  @include wrapper();
+  @include flex(space-between);
+  gap: $spacingSmall;
+  margin-block: $spacing;
+
+  @media (max-width: $b-sm) {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .nav__list {
+    @include list();
+  }
+}
+
+.wrapper {
+  @include wrapper();
+}
+
+.blog {
+  @include list(none, block);
+  margin-block-end: $spacing;
+
+  & > *:not(:last-of-type) {
+    margin-block: $spacing;
+  }
+
+  .blog__post {
+    @include flex(space-between, flex-start);
+    gap: $spacingSmall;
+
+    @media (max-width: $b-sm) {
+      flex-wrap: wrap-reverse;
+    }
+
+    p {
+      margin-block-start: $spacingSmall;
+      margin-block-end: 0;
+    }
+  }
+}
