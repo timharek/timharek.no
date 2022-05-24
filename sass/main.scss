@@ -129,7 +129,7 @@ header.header {
 
   .header__logo {
     svg {
-      max-width: 5.5rem;
+      max-width: 4rem;
     }
   }
 
@@ -142,7 +142,7 @@ footer.footer {
   @include wrapper();
   @include flex(space-between);
   gap: $spacingSmall;
-  margin-block: $spacing;
+  margin-block: $spacingLarge;
 
   @media (max-width: $b-sm) {
     justify-content: flex-start;

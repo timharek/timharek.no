@@ -26,6 +26,13 @@
       {% endif %}
 
       {% for experience in experiences %}
+        <details>
+          <summary>
+            {{ experience.name }}
+          </summary>
+        </details>
+      {% endfor %}
+      {% for experience in experiences %}
         <article class="experience">
           <header class="experience__header">
             <img
