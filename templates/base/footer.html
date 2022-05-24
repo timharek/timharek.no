@@ -3,7 +3,7 @@
     Last deploy: <time datetime="{{ now() | date(format="%Y-%m-%d %H:%M") }}">{{ now() | date(format="%Y-%m-%d %H:%M") }} UTC</time>
   </div>
 
-  <nav class="footer__nav">
+  <nav class="footer__nav" aria-label="Secondary navigation">
     <ul class="nav__list">
     {% for footer_item in config.extra.footer_nav %}
       {% set path = footer_item.path ~'/' %}
