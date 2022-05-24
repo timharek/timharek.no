@@ -200,3 +200,56 @@ article.post {
     @include list();
   }
 }
+
+section.resume h2 {
+  margin-block-end: $spacing;
+}
+
+.experience {
+  //@include flex();
+
+  &__header {
+    @include flex();
+    gap: $spacing;
+  }
+
+  &__logo {
+    max-width: 3.5rem;
+  }
+
+  &__role {
+    margin-block: $spacingSmall $spacing;
+  }
+
+  .role__name {
+    margin: 0;
+    margin-block-end: $spacing;
+  }
+
+  .role__list {
+    padding-left: $spacing;
+    max-width: 65ch;
+
+    & > *:not(:last-of-type) {
+      margin-block-end: $spacingSmall;
+    }
+  }
+}
+
+.skill__category {
+  margin-block-end: $spacing;
+  @media (min-width: $b-sm) {
+    @include flex($justify: space-between);
+    flex-wrap: nowrap;
+    & > * {
+      width: 50%;
+    }
+  }
+
+}
+
+@media print {
+  header.header, footer.footer, .full-cv {
+    display: none;
+  }
+}

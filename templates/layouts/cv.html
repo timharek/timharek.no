@@ -8,8 +8,9 @@
 {% block content %}
 {% set cv = load_data(path="content/cv/cv.json") %}
 <section class="resume">
+  <div class="resume__last-update">
+    Updated <time datetime="{{ cv.last_update }}">{{ cv.last_update | date(format=config.extra.date_format) }}</time>
   <h1 class="resume__name">{{ cv.name }}</h1>
-  <div class="resume__secret"></div>
 
   <div class="resume__tldr">
     <h2>TL;DR</h2>
@@ -69,8 +70,6 @@
       </section>
     {% endfor %}
   </div>
-  <div class="resume__last-update">
-    Updated <time datetime="{{ cv.last_update }}">{{ cv.last_update | date(format=config.extra.date_format) }}</time>
   </div>
   {% if section.extra.ignore %}
     <span class="full-cv">
