@@ -161,8 +161,12 @@ header.header {
   margin-block-end: $spacing;
 
   .header__logo {
+    border-radius: 999px;
+    max-width: 4rem;
+    max-height: 4rem;
     svg {
-      max-width: 4rem;
+      width: 100%;
+      height: 100%;
     }
   }
 
