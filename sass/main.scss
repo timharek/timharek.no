@@ -100,6 +100,39 @@ strong {
   font-weight: 600;
 }
 
+/*
+    Syntax highlighting
+*/
+$code-bg-dark: #151515;
+
+code {
+  color: #abb2bf;
+}
+pre,
+code {
+  background: $code-bg-dark !important;
+  padding: $spacingSmall $spacing;
+  border-radius: $spacingSmall;
+  line-height: 1.5;
+
+  * {
+    font-family: $font-family-mono;
+  }
+}
+
+pre {
+  overflow-x: auto;
+}
+
+code {
+  padding: 0.25rem $spacingSmall;
+  word-wrap: break-word;
+}
+
+pre code {
+  padding: 0;
+}
+
 picture {
   img {
     max-width: 100%;
@@ -192,6 +225,11 @@ article.post {
 
   .post__tags {
     @include list($gap: $spacingSmall);
+  }
+
+  ul, ol {
+    padding-left: $spacingLarge;
+    line-height: 1.5;
   }
 }
 
