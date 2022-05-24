@@ -11,7 +11,7 @@ tags = ["Tutorial", "Git", "Software", "Server"]
 From Charm's own git-repo:
 
 > A tasty, self-hostable Git server for the command line🍦"Tutorial", "Git",
-> "Software", "Server"
+> "Software", "Server". ([source][soft_serve])
 
 In other words, it's a text-only based way of viewing your git-repos either
 locally or remotely. You could think of it as your own GitHub, but in the
@@ -35,7 +35,8 @@ On your machine (or server):
 1. Navigate to your systemd-directory: `cd /etc/systemd/system`
 1. Create a new file: `nano softserved.service`
 1. Use this as a template or paste it (remember to verify that you understand what this does):
-```
+
+```conf
 [Unit]
 Description=soft-serve service # Write whatever you'd like
 Wants=network.target
@@ -66,7 +67,7 @@ Run `sudo useradd -m soft`
 ### 5. Access soft-serve
 
 Depending on where you setup your service, you can now access it by running:
-```
+```bash
 ssh <hostname> -p 23231
 ```
 
@@ -80,7 +81,7 @@ instructions in order to configure it correctly. [Repo-link][soft_serve].
 
 ## Checkout my open soft-serve server
 
-```
+```bash
 ssh git.wyd.no -p 23231
 ```
 
