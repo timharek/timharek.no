@@ -1224,5 +1224,24 @@
         ],
         "type": "Movie",
         "watched_date": "2022-05-21"
+    },
+    {
+        "title": "Everything Everywhere All At Once",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "director": [
+            "Dan Kwan",
+            "Daniel Scheinert"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-05-25"
     }
 ]
