@@ -295,3 +295,26 @@ section.resume h2 {
     display: none;
   }
 }
+
+.page-review {
+  .entries {
+    display: grid;
+    @media (min-width: $b-md) {
+      grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
+    }
+
+    gap: $spacingLarge $spacing;
+    align-items: center;
+    width: 100%;
+
+    @media (max-width: $b-md) {
+      & div:nth-child(4n) {
+        margin-bottom: $spacingLarge;
+      }
+    }
+  }
+  .count {
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+  }
+}
