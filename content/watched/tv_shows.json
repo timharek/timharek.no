@@ -592,5 +592,29 @@
         ],
         "episode_count": 9,
         "season": 1
+    },
+    {
+        "title": "Clark S01",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+            "Drama",
+            "Comedy",
+            "Action",
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "directors": [
+            "Jonas Åkerlund"
+        ],
+        "type": "TV",
+        "watched_date": "2022-05-28",
+        "creator": [
+            "Jonas Åkerlund"
+        ],
+        "episode_count": 6,
+        "season": 1
     }
 ]
