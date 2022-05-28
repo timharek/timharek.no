@@ -172,6 +172,7 @@ header.header {
 
   .nav__list {
     @include list();
+    font-weight: 600;
   }
 }
 
