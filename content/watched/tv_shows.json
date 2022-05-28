@@ -569,5 +569,28 @@
         ],
         "episode_count": 10,
         "season": 1
+    },
+    {
+        "title": "Severance S01",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 5,
+        "genres": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "directors": [
+            "Ben Stiller",
+            "Aoife McArdle"
+        ],
+        "type": "TV",
+        "watched_date": "2022-05-28",
+        "creator": [
+            "Dan Erickson"
+        ],
+        "episode_count": 9,
+        "season": 1
     }
 ]
