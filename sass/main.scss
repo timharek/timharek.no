@@ -331,3 +331,9 @@ section.resume h2 {
     margin-bottom: $spacing;
   }
 }
+
+.tags-list {
+  @media (min-width: $b-md) {
+    column-count: 2;
+  }
+}
