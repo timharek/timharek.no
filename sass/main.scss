@@ -54,7 +54,7 @@ $b-md: 768px;
 a {
   --color-text: var(--color-primary);
   color: var(--color-text);
-  text-decoration: none;
+  text-decoration-color: var(--color-primary);
   font-weight: 600;
   transition: all ease 150ms;
 
@@ -149,6 +149,7 @@ picture {
 
 .anchor {
   padding-left: $spacingSmall;
+  text-decoration: none;
 }
 
 .hidden {
@@ -173,6 +174,10 @@ header.header {
   .nav__list {
     @include list();
     font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 
@@ -230,6 +235,9 @@ article.post {
 
   .post__tags {
     @include list($gap: $spacingSmall);
+    * {
+      text-decoration: none;
+    }
   }
 
   ul, ol {
