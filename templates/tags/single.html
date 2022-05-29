@@ -1,3 +1,4 @@
+{% import "macros.html" as macros %}
 {% extends "base/base.html" %}
 
 {% block head %}
@@ -10,9 +11,9 @@
 
 <section class="page-content">
   <h1 class="page-title">{{ term.name }}</h1>
-  <ul>
-    {% for page in term.pages %}
-      <li><a href="{{ page.path }}">{{ page.title }}</a></li>
+  <ul class="blog">
+    {% for post in term.pages %}
+      {{ macros::bloglisting_item(post=post, showDescription=false) }}
     {% endfor %}
   </ul>
   See all <a href="/{{ taxonomy.name }}">{{ taxonomy.name }}</a>
