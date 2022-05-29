@@ -70,6 +70,7 @@ Software that I use on my devices.
 - [1984 Hosting][1984]. Privacy-first VPS service.
 - [Migadu][migadu]. Amazing email provider. My review.
 - [Mullvad VPN][mullvad]. Privacy focused VPN provider.
+- [Plausible][plausible]. Privacy-first analytics.
 
 [affinity]: https://affinity.serif.com/en-us/designer
 [firefox]: https://www.mozilla.org/en-US/firefox/new
@@ -103,3 +104,4 @@ Software that I use on my devices.
 [lulu]: https://objective-see.com/products/lulu.html
 [appcleaner]: https://freemacsoft.net/appcleaner/
 [macupdater]: https://www.corecode.io/macupdater/
+[plausible]: https://plausible.io
