@@ -60,6 +60,12 @@
     {{ page.content | safe }}
   </div>
 
+  <aside>
+    <p>
+      &lt;/&gt; Relpy via <a href="mailto:{{ config.extra.email }}?subject=RE: {{ page.title }}">e-mail</a>. 
+    </p>
+  </aside>
+
   <a class="u-url" href="{{ page.permalink | safe }}" hidden></a>
 </article>
 

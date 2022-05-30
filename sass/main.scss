@@ -248,6 +248,15 @@ article.post {
     padding-left: $spacingLarge;
     line-height: 1.5;
   }
+
+  aside {
+    --text-color: #abb2bf;
+    --bg: #151515;
+    background-color: var(--bg);
+    border: 3px solid var(--text-color);
+    border-radius: $spacingSmall;
+    padding: $spacingSmall $spacing;
+  }
 }
 
 .page-content {
