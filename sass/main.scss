@@ -253,6 +253,7 @@ article.post {
 .page-content {
   .page__subnav ul {
     @include list();
+    flex-wrap: wrap;
   }
 }
 
