@@ -37,7 +37,7 @@
       {%- if config.extra.author -%}
       <span class="hidden author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span class="p-author h-card" itemprop="name">
-          <img class="u-photo hidden" src="{{ get_url(path="img/me.jpeg") }}" alt="Photo of Tim Hårek Andreassen">
+          <img class="u-photo hidden" src="{{ get_url(path=config.extra.author_img) }}" alt="Photo of Tim Hårek Andreassen">
           {{ config.extra.author }}
         </span>
       </span
