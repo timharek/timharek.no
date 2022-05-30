@@ -3,7 +3,7 @@ title = "Technology that I use"
 description = "Different technologies that Tim Hårek uses."
 template = "layouts/page.html"
 aliases = ["/use"]
-updated = 2022-05-16
+updated = 2022-05-30
 +++
 
 This page contains lists of different technologies that I use, hardware,
@@ -13,15 +13,22 @@ software and services.
 
 - **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
 - **iPhone 13 Pro**. Superb battery life and camera.
+- **Casio G-SHOCK GMW-B5000GDLTD-1ER**. A dumb watch for the day-to-day.
+- **Apple Watch Series 5**. For running and strength training.
+
+### Homelab
+
 - **Custom built computer**. Mostly used for gaming.
-- **Intel NUC**. For my home lab.
+- **Intel NUC**. For my homelab.
 - **Home Assistant (RPi 4B)**. Home automation without the need for multiple
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
 
 ## Software
 
-Software that I use on my devices.
+For a more frequently updated overview you can checkout my [dotfiles][dotfiles].
+
+This is software that I use on my devices.
 
 ### MacBook
 
@@ -68,9 +75,10 @@ Software that I use on my devices.
 ## Services
 
 - [1984 Hosting][1984]. Privacy-first VPS service.
-- [Migadu][migadu]. Amazing email provider. My review.
+- [Migadu][migadu]. Amazing email provider ([review][migadu_review]).
 - [Mullvad VPN][mullvad]. Privacy focused VPN provider.
 - [Plausible][plausible]. Privacy-first analytics.
+- [Pinboard][pinboard]. Social bookmarking, I like it.
 
 [affinity]: https://affinity.serif.com/en-us/designer
 [firefox]: https://www.mozilla.org/en-US/firefox/new
@@ -99,9 +107,12 @@ Software that I use on my devices.
 [yr]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
 [migadu]: https://migadu.com
+[migadu_review]: /blog/migadu-review
 [mullvad]: https://mullvad.net/en/
 [yabai]: https://github.com/koekeishiya/yabai
 [lulu]: https://objective-see.com/products/lulu.html
 [appcleaner]: https://freemacsoft.net/appcleaner/
 [macupdater]: https://www.corecode.io/macupdater/
 [plausible]: https://plausible.io
+[dotfiles]: https://github.com/timharek/dotfiles
+[pinboard]: https://pinboard.in
