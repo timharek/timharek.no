@@ -1,10 +1,17 @@
 +++
 date = 2022-05-30
+updated = 2022-06-07
 title = "Vipps should allow usernames"
 description = "Today Vipps doesn't allow usernames for individuals, and that could be concerning for some people."
 [taxonomies]
 tags = ["Privacy"]
 +++
+
+<aside>
+  <p>
+    2022-06-07: This post also appeared on <a href="https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055" target="_blank">Kode24</a> in Norwegian.
+  </p>
+</aside>
 
 In Norway we have a service (mobile app) called [Vipps][vipps] that we use for
 quick money transfers between individuals, we can also use it to pay in some
