@@ -616,5 +616,27 @@
         ],
         "episode_count": 6,
         "season": 1
+    },
+    {
+        "title": "The Dropout S01",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+            "Drama",
+            "Biography"
+        ],
+        "directors": [
+            "Michael Showalter",
+            "Francesca Gregorini",
+            "Erica Watson"
+        ],
+        "type": "TV",
+        "watched_date": "2022-05-28",
+        "creator": [
+            "Elizabeth Meriwether"
+        ],
+        "episode_count": 8,
+        "season": 1
     }
 ]
