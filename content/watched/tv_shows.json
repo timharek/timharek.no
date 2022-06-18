@@ -638,5 +638,27 @@
         ],
         "episode_count": 8,
         "season": 1
+    },
+    {
+        "title": "Atlanta S03",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 5,
+        "genres": [
+            "Drama",
+            "Biography"
+        ],
+        "directors": [
+            "Hiro Murai",
+            "Ibra Ake",
+            "Donald Glover"
+        ],
+        "type": "TV",
+        "watched_date": "2022-06-17",
+        "creator": [
+            "Donald Glover"
+        ],
+        "episode_count": 8,
+        "season": 3
     }
 ]

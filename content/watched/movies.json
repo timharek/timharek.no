@@ -1243,5 +1243,19 @@
         ],
         "type": "Movie",
         "watched_date": "2022-05-25"
+    },
+    {
+        "title": "Pleasure",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+          "Drama"
+        ],
+        "director": [
+            "Ninja Thyberg"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-06-16"
     }
 ]
