@@ -646,7 +646,8 @@
         "my_rating": 5,
         "genres": [
             "Drama",
-            "Biography"
+            "Comedy",
+            "Music"
         ],
         "directors": [
             "Hiro Murai",
@@ -660,5 +661,26 @@
         ],
         "episode_count": 8,
         "season": 3
+    },
+    {
+        "title": "Kärleik och anarki S02",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 3,
+        "genres": [
+            "Drama",
+            "Comedy",
+            "Romance"
+        ],
+        "directors": [
+            "Lisa Langseth"
+        ],
+        "type": "TV",
+        "watched_date": "2022-06-17",
+        "creator": [
+            "Lisa Langseth"
+        ],
+        "episode_count": 8,
+        "season": 2
     }
 ]
