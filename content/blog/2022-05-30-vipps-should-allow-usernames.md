@@ -1,6 +1,6 @@
 +++
 date = 2022-05-30
-updated = 2022-06-07
+updated = 2022-06-19
 title = "Vipps should allow usernames"
 description = "Today Vipps doesn't allow usernames for individuals, and that could be concerning for some people."
 [taxonomies]
@@ -9,7 +9,10 @@ tags = ["Privacy"]
 
 <aside>
   <p>
-    2022-06-07: This post also appeared on <a href="https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055" target="_blank">Kode24</a> in Norwegian.
+    2022-06-07: This post also appeared on <a href="https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055" target="_blank">Kode24</a> (Norwegian).
+  </p>
+  <p>
+    2022-06-08: Vipps replied on <a href="https://www.kode24.no/artikkel/vipps-jobber-med-losninger-for-anonyme-brukere-vi-har-ikke-knekt-koden-enna/76289259" target="_blank">Kode24</a> (Norwegian).
   </p>
 </aside>
 
