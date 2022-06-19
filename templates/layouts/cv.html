@@ -10,6 +10,7 @@
 <section class="resume">
   <div class="resume__last-update">
     Updated <time datetime="{{ cv.last_update }}">{{ cv.last_update | date(format=config.extra.date_format) }}</time>
+  </div>
   <h1 class="resume__name">{{ cv.name }}</h1>
 
   <div class="resume__tldr">
@@ -70,7 +71,7 @@
       </section>
     {% endfor %}
   </div>
-  </div>
+  <button class="print-hidden" onclick="window.print()">Print</button>
   {% if section.extra.ignore %}
     <span class="full-cv">
       <a href="/cv/full">Full CV</a>
