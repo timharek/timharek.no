@@ -1,6 +1,6 @@
 +++
 date = 2022-01-08
-updated = 2022-01-13
+updated = 2022-06-19
 title = "Git tips & tricks"
 description = "Useful tips and tricks I've picked up from using Git for a few years."
 [taxonomies]
@@ -9,7 +9,8 @@ tags = ["Tutorial", "Git", "Dotfiles"]
 
 ## UPDATE: 2022-04-03
 
-I've added a seperate page which I will update whenever I discover something new about Git in my [digital garden (Git)](/garden/git)
+I've added a seperate page which I will update whenever I discover something new
+about Git in my [digital garden (Git)](@/garden/git.md)
 
 [Git](https://git-scm.com) is an extremely useful tool that I use almost every
 day. I'm very thankful that it exists and work as well as it does.
@@ -131,10 +132,10 @@ you need to look back at what you've previously done.
 You can think of a commit message like an email or message with a title and
 body.
 
-The first line of a commit message should always be written in present-tense, never
-contain a period and not exceed 50 characters, the first line is like a title to
-what the commit is about. The second line should be blank and the third line and
-so on is a more descriptive (can contain details etc.).
+The first line of a commit message should always be written in present-tense,
+never contain a period and not exceed 50 characters, the first line is like a
+title to what the commit is about. The second line should be blank and the third
+line and so on is a more descriptive (can contain details etc.).
 
 An example could be like this (good);
 
@@ -166,6 +167,3 @@ Here is some of my useful aliases that are not that straight forward;
 
 I hope you learned something new! I want to write more about some of my
 configurations from my dotfiles.
-
-If you have any questions or problems with these tips and tricks please let me
-know: [tim@harek.no](mailto:tim@harek.no) ([public key](/key))

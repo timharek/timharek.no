@@ -25,7 +25,7 @@ going hiking with my dog, Ayla! 🐕
 ## Contact
 
 You can always reach me at
-<a href="mailto:tim@harek.no" rel="me">tim@harek.no</a> ([public key](/key)).
+<a href="mailto:tim@harek.no" rel="me">tim@harek.no</a> ([public key](@/key.md)).
 
 ## Colophon
 

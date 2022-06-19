@@ -54,6 +54,4 @@ I'm really looking forward to see how this turns out. Will I become harder to
 get a hold of? Will I spend less time on my phone responding to messages? Time
 will tell (pun intended).
 
-Hopefully I’ll write a follow up to this within a year. If you have any
-suggestions or comments, please feel free to shoot me an
-[e-mail](mailto:tim@harek.no) ([public key](/key)).
+Hopefully I’ll write a follow up to this within a year! 
