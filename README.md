@@ -8,7 +8,6 @@ It's pretty much tailored to my liking, but feel free to clone/fork this repo.
 
 - Blog
 - [CV](#cv) (Resume)
-- Projects (portfolio) structure on frontpage
 - "Uses"-page
 
 ### CV
