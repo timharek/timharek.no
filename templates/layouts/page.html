@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block head %}
   {% if section %}
@@ -54,6 +55,11 @@
     {% endif %}
   {% endfor %}
   {{ content | safe }}
+  {% if page %}
+    {{ macros::backlinks(page=page, title="page") }}
+  {% else %}
+    {{ macros::backlinks(page=section, title="page") }}
+  {% endif %}
 </section>
 
 {% endblock content %}

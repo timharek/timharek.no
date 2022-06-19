@@ -1,0 +1,10 @@
+{% if page.backlinks %}
+  {% for link in page.backlinks %}
+    <a href="{{ link.permalink }}">{{ link.title }}</a>
+  {% endfor %}
+{% endif %}
+{% if section.backlinks %}
+  {% for link in section.backlinks %}
+    <a href="{{ link.permalink }}">{{ link.title }}</a>
+  {% endfor %}
+{% endif %}

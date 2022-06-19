@@ -17,3 +17,19 @@
   </li>
 {% endmacro %}
 
+{% macro backlinks(page, title="page") %}
+  {% if page.backlinks %}
+    <div class="backlinks">
+      <h2>Other link{{ page.backlinks | length | pluralize }} to this {{ title }}</h2>
+      <ul class="backlinks__list">
+        {% for backlink in page.backlinks %}
+        <li>
+          <a href="{{ backlink.permalink }}">
+            {{ backlink.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endmacro %}

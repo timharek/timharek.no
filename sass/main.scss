@@ -51,7 +51,7 @@ $b-md: 768px;
   list-style: $style;
   display: $display;
   gap: $gap;
-  padding: 0;
+  padding: 0 !important;
   margin: 0;
 }
 
@@ -331,6 +331,22 @@ article.post {
         margin-block-start: $spacingSmall;
       }
     }
+  }
+}
+
+.backlinks {
+  --bg: #262626;
+  margin-block-start: 1rem;
+  background-color: var(--bg);
+  border-radius: $spacingSmall;
+  padding: $spacing;
+
+  h2 {
+    margin-block-start: 0;
+  }
+  
+  &__list {
+    @include list();
   }
 }
 

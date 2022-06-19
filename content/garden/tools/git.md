@@ -183,6 +183,8 @@ Bonus: Add an alias for always commit with a signature:
 
 And now you can commit with with `git c -m <your-message>`!
 
+{{ backlinks() }}
+
 [lobsters_thread]:
   https://lobste.rs/s/dmkw4d/how_back_up_your_git_repositories#c_zfyjqu
 [git_scm]: https://git-scm.com/

@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block head %}
   {% set title = page.title ~ " - " ~ config.title %}
@@ -75,6 +76,8 @@
       {{ load_data(path="static/img/icons/email.svg") | safe }} Reply via e-mail
     </a>
   </div>
+
+  {{ macros::backlinks(page=page, title="post") }}
 
   <a class="u-url" href="{{ page.permalink | safe }}" hidden></a>
 </article>
