@@ -34,7 +34,7 @@ smart_punctuation = true
 [extra]
 author = "Tim Hårek Andreassen"
 author_img = "img/me.jpeg"
-email = "tim@harek.dev"
+email = "tim@harek.no"
 date_format = "%Y-%m-%d"
 date_format__updated = "%Y-%m-%d"
 logo = "img/logo.svg"

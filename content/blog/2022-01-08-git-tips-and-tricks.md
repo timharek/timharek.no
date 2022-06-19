@@ -168,4 +168,4 @@ I hope you learned something new! I want to write more about some of my
 configurations from my dotfiles.
 
 If you have any questions or problems with these tips and tricks please let me
-know: [tim@harek.dev](mailto:tim@harek.dev) ([public key](/key))
+know: [tim@harek.no](mailto:tim@harek.no) ([public key](/key))

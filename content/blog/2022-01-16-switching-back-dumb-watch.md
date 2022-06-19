@@ -56,4 +56,4 @@ will tell (pun intended).
 
 Hopefully I’ll write a follow up to this within a year. If you have any
 suggestions or comments, please feel free to shoot me an
-[e-mail](mailto:tim@harek.dev) ([public key](/key)).
+[e-mail](mailto:tim@harek.no) ([public key](/key)).

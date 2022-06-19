@@ -6,7 +6,7 @@ aliases = ["contact"]
 +++
 
 My e-mail is open! Introduce yourself, tell me I’m wrong, share content, give
-feedback, you do you! You can reach me at [tim@harek.dev](mailto:tim@harek.dev),
+feedback, you do you! You can reach me at [tim@harek.no](mailto:tim@harek.no),
 you can even use PGP to get ahold of me, my [public key](/key).
 
 ## Keep up to date

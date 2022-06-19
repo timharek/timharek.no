@@ -152,7 +152,7 @@ As for now, I think I will stick to my self-hosted solution using git-hooks
 using Pushover for notifications.
 
 I'm open for suggestions and tips you have any, please don't hesitate to reach
-out [tim@harek.dev](mailto:tim@harek.dev) ([public key](/key)).
+out [tim@harek.no](mailto:tim@harek.no) ([public key](/key)).
 
 [^1]: Subjective opinion, because of their massive user base.
 

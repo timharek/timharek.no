@@ -74,4 +74,4 @@ Also really looking forward to their new CalDav-thingy that they've told me
 has an ETA in January. Hopefully that can help me get away from using iCloud
 for my personal calendar - who knows!
 
-Missing anything or do you have any questions? Please free to shoot me an [e-mail](mailto:tim@harek.dev)!
+Missing anything or do you have any questions? Please free to shoot me an [e-mail](mailto:tim@harek.no)!
