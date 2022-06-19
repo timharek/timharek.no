@@ -267,12 +267,19 @@ article.post {
   }
 }
 
-section.resume h2 {
-  margin-block-end: $spacing;
-}
+// section.resume h2 {
+//   margin-block-end: $spacing;
+// }
 
 .experience {
-  //@include flex();
+  padding-block: $spacing;
+
+  &:not(:first-of-type) {
+    border-top: 2px solid gray;
+  }
+  &:not(:last-of-type) {
+    border-bottom: 2px solid gray;
+  }
 
   &__header {
     @include flex();
@@ -284,7 +291,7 @@ section.resume h2 {
   }
 
   &__role {
-    margin-block: $spacingSmall $spacing;
+    margin-block-start: $spacingSmall;
   }
 
   .role__name {
@@ -292,7 +299,13 @@ section.resume h2 {
     margin-block-end: $spacing;
   }
 
+  .role__description {
+    margin: 0;
+    margin-block-start: $spacingSmall;
+  }
+
   .role__list {
+    margin: 0;
     padding-left: $spacing;
     max-width: 65ch;
 
@@ -319,6 +332,10 @@ section.resume h2 {
   .full-cv,
   .print-hidden {
     display: none;
+  }
+
+  .experience {
+    border: none !important;
   }
 }
 
