@@ -16,6 +16,8 @@ $b-md: 768px;
   --wrapper: 760px;
   --color-primary: #0096f5;
   --color-background: #212121;
+  --color-background-aside: #151515;
+  --color-border-aside: #abb2bf;
   --color-default-text: #fefefe;
   font-family: $font-family-sans;
   font-size: clamp($spacing, 2vw, 18px);
@@ -27,6 +29,8 @@ $b-md: 768px;
   :root {
     --color-primary: #0d47a1;
     --color-background: #eeeeee;
+    --color-background-aside: #ececec;
+    --color-border-aside: #e1e1e1;
     --color-default-text: #212121;
   }
 }
@@ -251,10 +255,10 @@ article.post {
   }
 
   aside {
-    --text-color: #abb2bf;
-    --bg: #151515;
+    --border-color: var(--color-border-aside);
+    --bg: var(--color-background-aside);
     background-color: var(--bg);
-    border: 3px solid var(--text-color);
+    border: 3px solid var(--border-color);
     border-radius: $spacingSmall;
     padding: $spacingSmall $spacing;
   }
