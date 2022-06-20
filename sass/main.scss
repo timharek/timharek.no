@@ -16,6 +16,7 @@ $b-md: 768px;
   --wrapper: 760px;
   --color-primary: #0096f5;
   --color-background: #212121;
+  --color-background-secondary: #262626;
   --color-background-aside: #151515;
   --color-border-aside: #abb2bf;
   --color-default-text: #fefefe;
@@ -29,6 +30,7 @@ $b-md: 768px;
   :root {
     --color-primary: #0d47a1;
     --color-background: #eeeeee;
+    --color-background-secondary: #eaeaea;
     --color-background-aside: #ececec;
     --color-border-aside: #e1e1e1;
     --color-default-text: #212121;
@@ -335,7 +337,7 @@ article.post {
 }
 
 .backlinks {
-  --bg: #262626;
+  --bg: var(--color-background-secondary);
   margin-block-start: 1rem;
   background-color: var(--bg);
   border-radius: $spacingSmall;
