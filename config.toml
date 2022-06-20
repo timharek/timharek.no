@@ -23,8 +23,6 @@ taxonomies = [
 title = "Tim Hårek"
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 highlight_theme = "one-dark"
 external_links_target_blank = true
@@ -41,13 +39,13 @@ logo = "img/logo.svg"
 cover = "img/cover.png"
 
 nav = [
-  { name = "Blog", path = "/blog" },
-  { name = "Connect", path = "/connect" },
-  { name = "About", path = "/about" },
+  { name = "Blog", path = "@/blog/_index.md" },
+  { name = "Connect", path = "@/connect.md" },
+  { name = "About", path = "@/about.md" },
 ]
 
 footer_nav = [
-  { name = "Privacy", path = "/privacy" },
+  { name = "Privacy", path = "@/privacy.md" },
   { name = "RSS", path = "/rss.xml" }
 ]
 

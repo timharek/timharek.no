@@ -4,11 +4,11 @@ description = "About Tim Hårek, a developer based in Norway."
 template = "layouts/page.html"
 [extra]
 subnav = [
-  { name = "CV", path = "/cv" },
-  { name = "Uses", path = "/uses" },
-  { name = "Digital garden", path = "/garden" },
-  { name = "Watched", path = "/watched" },
-  { name = "Reading", path = "/reading" }
+  { name = "CV", path = "@/cv/_index.md" },
+  { name = "Uses", path = "@/uses.md" },
+  { name = "Digital garden", path = "@/garden/_index.md" },
+  { name = "Watched", path = "@/watched/_index.md" },
+  { name = "Reading", path = "@/reading/_index.md" }
 ]
 +++
 

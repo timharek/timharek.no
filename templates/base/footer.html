@@ -12,7 +12,7 @@
         {% if current_path and current_path == path %}
           {{ footer_item.name | safe }}
         {% else %}
-          <a class="footer__link" href="{{ footer_item.path }}">
+          <a class="footer__link" href="{{ get_url(path=footer_item.path) }}">
             {{ footer_item.name | safe }}
           </a>
         {% endif %}

@@ -74,7 +74,7 @@
   <button class="print-hidden" onclick="window.print()">Print</button>
   {% if section.extra.ignore %}
     <span class="full-cv">
-      <a href="/cv/full">Full CV</a>
+      <a href="{{ get_url(path="@/cv/full/_index.md") }}">Full CV</a>
     </span>
   {% endif %}
 </section>

@@ -46,7 +46,7 @@
         <ul>
           {% for item in page.extra.subnav %}
             <li>
-              <a href="{{ item.path }}">{{ item.name }}</a>
+              <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
             </li>
           {% endfor %}
         </ul>

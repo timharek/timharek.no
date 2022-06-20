@@ -13,7 +13,7 @@
           {% if current_path and current_path == path %}
             {{ menu_item.name | safe }}
           {% else %}
-          <a class="nav__item--link" href="{{ menu_item.path }}">
+          <a class="nav__item--link" href="{{ get_url(path=menu_item.path) }}">
             {{ menu_item.name | safe }}
           </a>
           {% endif %}
