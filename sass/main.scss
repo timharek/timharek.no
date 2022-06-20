@@ -348,7 +348,7 @@ article.post {
   }
 
   &__list {
-    @include list();
+    @include list($display: block);
   }
 }
 
