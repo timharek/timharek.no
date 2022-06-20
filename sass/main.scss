@@ -345,22 +345,32 @@ article.post {
 
 .page-review {
   .entries {
+    & > * {
+      padding-block: $spacing;
+
+      &:not(:last-of-type) {
+        border-bottom: 1px solid gray;
+      }
+    }
+  }
+  .entry {
     display: grid;
+    gap: $spacingLarge $spacing;
+    align-items: center;
+    width: 100%;
+    padding-inline: $spacingSmall;
+
+    &:hover {
+      background-color: var(--color-background-aside);
+    }
+
     @media (min-width: $b-md) {
       grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
     }
 
-    gap: $spacingLarge $spacing;
-    align-items: center;
-    width: 100%;
-
-    @media (max-width: $b-md) {
-      & div:nth-child(4n) {
-        margin-bottom: $spacingLarge;
-      }
-    }
   }
   .count {
+    text-align: right;
     margin-top: $spacing;
     margin-bottom: $spacing;
   }
