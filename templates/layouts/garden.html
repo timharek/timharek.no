@@ -13,14 +13,14 @@
   {% endif %}
   {% if section.subsections %}
     <ul class="sections__list">
-    {% for sub_section in section.subsections %}
+    {% for sub_section in section.subsections | sort %}
       {% set subsection = get_section(path=sub_section) %}
       <li class="list__item">
         <a href="{{ subsection.permalink }}">
           {{ subsection.title }}
         </a>
         <ul class="pages__list">
-          {% for page in subsection.pages %}
+          {% for page in subsection.pages | sort(attribute="title") %}
             <li class="list__item">
                 <a href="{{ page.permalink }}">
                   {{ page.title }}
