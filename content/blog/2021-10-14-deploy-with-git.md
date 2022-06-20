@@ -125,6 +125,8 @@ scripts.
    serving it online.
 1. `git push production`.
 
+[More Git-tricks](@/garden/tools/git.md).
+
 ## UPDATE: 2022-01-19
 
 I recently created a shell-script to create a post-receive git-hook for you,
