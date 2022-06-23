@@ -682,5 +682,24 @@
         ],
         "episode_count": 8,
         "season": 2
+    },
+    {
+        "title": "Obi-Wan Kenobi",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 4,
+        "genres": [
+          "Action", "Adventure", "Sci-Fi"
+        ],
+        "directors": [
+            "Deborah Chow"
+        ],
+        "type": "TV",
+        "watched_date": "2022-06-22",
+        "creator": [
+            "George Lucas"
+        ],
+        "episode_count": 6,
+        "season": 1
     }
 ]
