@@ -5,7 +5,7 @@ template = "layouts/consumed.html"
 page_template = "layouts/watched_page.html"
 aliases = ["/watching"]
 [extra]
-json_files = ["content/watched/movies.json", "content/watched/tv_shows.json"]
+json_files = ["static/api/movies.json", "static/api/tv_shows.json"]
 person_field = ["director", "creator"]
 date_field = "watched_date"
 date_field_is_array = true
