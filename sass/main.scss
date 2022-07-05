@@ -367,7 +367,6 @@ article.post {
     @media (min-width: $b-md) {
       grid-template-columns: 1.5fr 1fr 1fr 0.5fr;
     }
-
   }
   .count {
     text-align: right;
@@ -379,5 +378,23 @@ article.post {
 .tags-list {
   @media (min-width: $b-md) {
     column-count: 2;
+  }
+}
+
+.blogroll {
+  @media (min-width: $b-md) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $spacingLarge;
+  }
+
+  .blog {
+    ul.blog__tags {
+      @include list();
+      font-style: italic;
+    }
+    ul.blog__urls {
+      @include list();
+    }
   }
 }
