@@ -45,6 +45,7 @@ nav = [
 ]
 
 footer_nav = [
+  { name = "Stats", path = "@/stats.md" },
   { name = "Privacy", path = "@/privacy.md" },
   { name = "RSS", path = "/rss.xml" }
 ]

@@ -1,0 +1,94 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+
+<section class="page-content page-stats">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.content %}
+    {{ page.content | safe }}
+  {% endif %}
+
+  {% set section = get_section(path="blog/_index.md") %}
+
+  {% set pages = section.pages | sort(attribute="date") %}
+  {% set total_pages_length = pages | length %}
+
+  {% set first_post = pages | first %}
+  {% set last_post = pages | last %}
+
+  {% set pages_by_longest = pages | sort(attribute="word_count") | reverse %}
+
+  {% set_global total_word_count = 0 %}
+  {% set word_count_array = pages | map(attribute="word_count") %}
+
+  {% for count in word_count_array %}
+    {% set_global total_word_count = total_word_count + count %}
+  {% endfor %}
+
+  {% set average_word_count = total_word_count / total_pages_length | round %}
+
+  <table class="stats">
+    <tr>
+      <th scope="row">Total words written</th>
+      <td>{{ total_word_count | num_format }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Total posts published</th>
+      <td>{{ total_pages_length | num_format }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Average word per post</th>
+      <td>{{ average_word_count | int | num_format }}</td>
+    </tr>
+    <tr>
+      <th scope="row">First post</th>
+      <td>
+        <a href="{{ first_post.permalink }}">
+          {{ first_post.title }}
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Longest post</th>
+      <td>
+        <a href="{{ pages_by_longest[0].permalink }}">
+          {{ pages_by_longest[0].title }}
+        </a> with {{ pages_by_longest[0].word_count | num_format }} words
+      </td>
+    </tr>
+  </table>
+
+  <h2>Post per year</h2>
+  <table class="stats">
+    {% for year, page in pages | group_by(attribute="year") %}
+      {% set year = year | int %}
+      {% set year_posts = pages | filter(attribute="year", value=year) %}
+      <tr>
+        <th scope="row">{{ year }}</th>
+        <td>{{ year_posts|length }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+
+  <h2>Tags by post count</h2>
+  {% set tags = get_taxonomy(kind="tags") %}
+  {% set fontSizeMax = 2 %}
+  {% set fontSizeMin = 1 %}
+
+  <div class="tags-cloud">
+    {% for tag in tags.items | sort(attribute="pages") | reverse %}
+      {% set tagCount = tag.pages | length %}
+      {% set fontSize = fontSizeMax - fontSizeMin %}
+      {% set fontSize = fontSizeMin * fontSize %}
+      {% set fontSize = fontSizeMin + tagCount %}
+      <a href="{{ tag.permalink }}" class="tag__name" style="font-size: {{ ( tagCount / fontSize ) * 2 }}rem">
+        {{ tag.name }}
+        <sup class="tag__count">{{ tagCount }}</sup>
+      </a>
+    {% endfor %}
+  </div>
+
+</section>
+
+{% endblock content %}
+
