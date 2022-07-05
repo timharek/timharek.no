@@ -23,7 +23,7 @@
     },
     {
       "name": "Christian Engelsen",
-      "description": "A friend of mine that writes about technology, devops machine lairing and other shenanigans regarding technology.",
+      "description": "A friend of mine that writes about technology, devops, machine learning and other shenanigans regarding technology.",
       "tags": ["Technology", "DevOps", "AI / ML"],
       "url": "https://cengelsen.no/",
       "rss": "https://cengelsen.no/index.xml"
@@ -58,7 +58,7 @@
     },
     {
       "name": "Mathias Haugsbø",
-      "description": "A friend of mine that writes about technology, finance, mapping etc.",
+      "description": "A friend of mine that writes about technology, finance, mapping and button UX.",
       "tags": ["Technology", "Finance", "Maps"],
       "url": "https://mathiash98.github.io/",
       "rss": "https://mathiash98.github.io/posts/index.xml"
