@@ -239,6 +239,24 @@ footer.footer {
   }
 }
 
+.footnote-definition {
+  @include flex();
+  gap: $spacing;
+
+  &:first-of-type {
+    padding-block-start: $spacingSmall;
+    border-top: 1px solid gray;
+  }
+
+  &:last-of-type {
+    margin-block-end: $spacing;
+  }
+  
+  p {
+    margin-block: $spacingSmall;
+  }
+}
+
 article.post {
   .post-header {
     margin-block-end: $spacing;
