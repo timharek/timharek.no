@@ -3,7 +3,7 @@ title = "How to connect to UiB VPN without Cisco AnyConnect"
 description = """Tutorial on how to setup OpenConnect to connect to
 University of Bergen's new VPN."""
 date = 2021-02-18 
-updated = 2021-11-01
+updated = 2022-07-07
 [taxonomies]
 tags = ["Tutorial", "VPN"]
 +++
@@ -14,6 +14,12 @@ alternative like before. Personally, I find the Cisco AnyConnect app to be very
 privacy invading, demaing all these different privileges... so I started looking
 for alternatives. Luckily, I found an open-source alternative,
 [OpenConnect](https://gitlab.com/openconnect/openconnect).
+
+<aside>
+  <p>
+    2022-07-07: I've removed steps regarding downloading your own certificate, as I've been told it's no longer neccessary to have.
+  </p>
+</aside>
 
 ## Step 1: Installation
 
@@ -43,37 +49,7 @@ Mabye try to use git-bash or something, I really don't know.
 
 </details>
 
-## Step 2: Getting your VPN certificate (using Firefox)
-
-1. Login on [vpn3.uib.no](https://vpn3.uib.no), with your UiB credentials
-   (_abc001_)
-1. In the menu-bar click on **Tools**
-1. Click on **Page info**
-1. Select the **Security** tab
-1. Click the button **View certificate**
-1. In Firefox, under Miscellaneous, you should be able to find a section that
-   says "Download", choose **PEM (cert)** and save it to your downloads folder
-   (`~/Downloads`)
-
-## Step 3: Setting up the certificate
-
-Now that you have managed to retrieve your VPN certificate, you need to setup
-the certificate so that you will be able to use it.
-
-I created a folder in my home directory (`~/`) called `.cert`, so that it is
-hidden whenever I navigate my files via the File Explorer/Browser.
-
-You can also do that, just do the following:
-
-```sh
-cd ~/
-mkdir .cert
-mv Downloads/vpn3-uib-no.pem .cert/
-```
-
-Now the certificate is ready to be used when we connect with _OpenConnect_
-
-## Step 4: Creating an `alias` (shortcut)
+## Step 2: Creating an `alias` (shortcut)
 
 To save yourself from writing a long command everytime you need to use the VPN,
 we can create an alias.
@@ -85,14 +61,14 @@ This will depend of which shell you are using, I am using
 1. `nano ~/.zshrc`
    - `.bashrc` if you are using BASH
 2. Paste this at the end of the file, and change the username:
-   - `alias vpn="sudo openconnect --user=abc001 --cafile=~/.cert/vpn3-uib-no.pem vpn3.uib.no"`
+   - `alias vpn="sudo openconnect --user=abc001 vpn3.uib.no"`
 3. To save and exit out of `nano`, press <kbd>CTRL</kbd>+<kbd>X</kbd> and then
    <kbd>Y</kbd> (for yes) and then <kbd>Enter</kbd> to write the changes.
 4. Run `source .zshrc`
 
 You should now be able to run the command `vpn` to connect to UiB VPN.
 
-## Step 5: How to use
+## Step 3: How to use
 
 1. Run `vpn`
 2. Input your computer-password
