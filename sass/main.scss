@@ -217,6 +217,13 @@ footer.footer {
     margin-block: $spacing;
   }
 
+  h2 {
+    top: 0;
+    position: sticky;
+    padding-block: $spacingSmall;
+    background-color: var(--color-background);
+  }
+
   .blog__post {
     @include flex(space-between, flex-start);
     gap: $spacingSmall;

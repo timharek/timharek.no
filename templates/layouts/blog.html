@@ -9,18 +9,18 @@
 {% block content %}
 <section class="blog">
 <h1>{{ section.title }}</h1>
-<ul class="blog">
   {% set pages = section.pages %}
   {% if paginator.pages %}
     {% set pages = paginator.pages %}
   {% endif %}
   {% for year, posts in pages | group_by(attribute="year") %}
     <h2>{{ year }}</h2>
-    {% for post in posts %}
-      {{ macros::bloglisting_item(post=post) }}
-    {% endfor %}
+    <ul class="blog">
+      {% for post in posts %}
+        {{ macros::bloglisting_item(post=post) }}
+      {% endfor %}
+    </ul>
   {% endfor %}
-</ul>
 
 {% if paginator.pages %}
 <nav class="pagination">
