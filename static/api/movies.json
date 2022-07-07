@@ -1257,5 +1257,22 @@
         ],
         "type": "Movie",
         "watched_date": "2022-06-16"
+    },
+    {
+        "title": "Thor: Love and Thunder",
+        "description": "",
+        "release_year": 2022,
+        "my_rating": 3,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Comicbook"
+        ],
+        "director": [
+            "Taika Watiti"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-07-07"
     }
 ]
