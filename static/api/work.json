@@ -1,0 +1,194 @@
+{
+  "updated": "2022-07-17",
+  "list": [
+    {
+      "title": "ypper.no",
+      "client": "Ypper",
+      "role": "Tech lead and developer",
+      "description": "Developed a new webiste with Ghost CMS with memberships and payment model.",
+      "extra": {
+        "date": "2022-04-21",
+        "tags": ["Website", "Ghost CMS", "Tailwind", "Netlife"]
+      },
+      "url": "https://ypper.no"
+    },
+    {
+      "title": "Upgrade kolibricarf.no",
+      "client": "Kolibri CARF",
+      "role": "Developer",
+      "description": "Upgrade website from Craft CMS 2 to Craft CMS 3 including migration of plugins and new setup for donations.",
+      "extra": {
+        "date": "2022-07-08",
+        "tags": ["Website", "Craft CMS", "Upgrade", "Netlife"]
+      },
+      "url": "https://kolibricarf.no/"
+    },
+    {
+      "title": "viljareiser.no",
+      "client": "Vilja",
+      "role": "Tech lead, developer and UX",
+      "description": "Developed a new website for a traveling agency with API-integration to their exisiting booking system. Built with Craft CMS 3.",
+      "extra": {
+        "date": "2022-06-26",
+        "tags": ["Website", "Craft CMS", "Tailwind", "API", "Netlife"]
+      },
+      "url": "https://viljareiser.no/"
+    },
+    {
+      "title": "Frontend and UX assistance",
+      "client": "Ambita",
+      "role": "Tech lead and developer",
+      "description": "Assiting the client with developing a new frontend using Vue3 and other modern frontend-frameworks.",
+      "extra": {
+        "date": "2022-09-01",
+        "tags": ["Vue", "Netlife"]
+      }
+    },
+    {
+      "title": "oneoceanexpedition.com",
+      "client": "Statsraad Lehmkuhl",
+      "role": "Developer",
+      "description": "A website built with Next.js using API from Havforskningsinstituttet with live-data coming from a sea vessal.",
+      "extra": {
+        "date": "2021-09-22",
+        "tags": [
+          "Website",
+          "Sanity",
+          "Tailwind",
+          "Mapbox",
+          "Next.js",
+          "API",
+          "Netlife"
+        ]
+      },
+      "url": "https://oneoceanexpedition.com/"
+    },
+    {
+      "title": "Optimze handelensmiljofond.no",
+      "client": "Handelens Miljøfond",
+      "role": "Developer",
+      "description": "Optimize website, reduced page-size from ~18 MB down to ~1.2 MB.",
+      "extra": {
+        "date": "2021-10-21",
+        "tags": ["Website", "Craft CMS", "Optimze", "Netlife"]
+      },
+      "url": "https://handelensmiljofond.no/"
+    },
+    {
+      "title": "verdighetsenteret.no",
+      "client": "Verdighetsenteret",
+      "role": "Developer",
+      "description": "Assisted other developers with development of new webiste.",
+      "extra": {
+        "date": "2021-09-14",
+        "tags": ["Website", "Craft CMS", "Tailwind", "Netlife"]
+      },
+      "url": "https://verdighetsenteret.no/"
+    },
+    {
+      "title": "Upgrade vff.no",
+      "client": "Verdipapirfondenes forening",
+      "role": "Developer",
+      "description": "Together with another developer we upgraded from Craft CMS 2 to Craft CMS 3. We also created two custom Craft CMS modules in order to get data from official fond-register.",
+      "extra": {
+        "date": "2021-07-14",
+        "tags": ["Website", "Craft CMS", "Upgrade", "Netlife"]
+      },
+      "url": "https://vff.no/"
+    },
+    {
+      "title": "khdele.no",
+      "client": "Høgskulen i Volda",
+      "role": "Developer",
+      "description": "My first project at Netlife Bergen. We developed a new website for Arts and Crafts for teach-students.",
+      "extra": {
+        "date": "2021-06-14",
+        "tags": ["Website", "Craft CMS", "Tailwind", "Netlife"]
+      },
+      "url": "https://verdighetsenteret.no/"
+    },
+    {
+      "title": "wcarbon",
+      "description": "CLI tool using Website Carbon's API.",
+      "extra": {
+        "date": "2022-06-26",
+        "tags": ["Tool", "CLI", "Deno", "API", "Personal"]
+      },
+      "url": "https://github.com/timharek/wcarbon",
+      "sources": ["https://github.com/timharek/wcarbon"]
+    },
+    {
+      "title": "d-yr",
+      "description": "Gather weatherdata from Yr.no with built using Deno with TS.",
+      "extra": {
+        "date": "2022-03-07",
+        "tags": ["Tool", "CLI", "Deno", "API", "Personal"]
+      },
+      "url": "https://github.com/timharek/d-yr",
+      "sources": ["https://github.com/timharek/d-yr"]
+    },
+    {
+      "title": "deno-omdb",
+      "description": "CLI tool using OMDb API.",
+      "extra": {
+        "date": "2022-03-07",
+        "tags": ["Tool", "CLI", "Deno", "API", "Personal"]
+      },
+      "url": "https://github.com/timharek/deno-omdb",
+      "sources": ["https://github.com/timharek/deno-omdb"]
+    },
+    {
+      "title": "everyday-privacy.com",
+      "description": "Educate people about privacy and security with an interactive static-site.",
+      "extra": {
+        "date": "2021-02-11",
+        "tags": ["Website", "Privacy", "Personal"]
+      },
+      "url": "https://everyday-privacy.com",
+      "sources": ["https://github.com/timharek/everyday-privacy"]
+    },
+    {
+      "title": "5545.no",
+      "description": "Weather website for a local zip-code in Norway, built with Svelte using Yr's API. ",
+      "extra": {
+        "date": "2021-05-03",
+        "tags": ["Website", "API", "Svelte", "Personal", "Tailwind"]
+      },
+      "url": "https://5545.no",
+      "sources": ["https://github.com/timharek/5545.no-svelte"]
+    },
+    {
+      "title": "sbanken.sh",
+      "description": "Shell-script with options to access Sbanken and see your banking details.",
+      "extra": {
+        "date": "2021-11-15",
+        "tags": ["API", "Shell", "Personal"]
+      },
+      "sources": ["https://github.com/timharek/sbanken.sh"]
+    },
+    {
+      "title": "fribyte.no",
+      "client": "friByte",
+      "icon": "content/cv/fribyte.svg",
+      "description": "Static generated website made with Zola.",
+      "extra": {
+        "date": "2021-04-06",
+        "tags": ["Website", "Zola"]
+      },
+      "url": "https://fribyte.no",
+      "sources": ["https://github.com/fribyte-code/fribyte.no"]
+    },
+    {
+      "title": "vestkontakt.no",
+      "client": "Vest Kontakt",
+      "role": "Developer",
+      "icon": "content/cv/vk.svg",
+      "description": "Static generated website made with Jekyll.",
+      "extra": {
+        "date": "2020-01-07",
+        "tags": ["Website", "Jekyll"]
+      },
+      "url": "https://vestkontakt.no"
+    }
+  ]
+}

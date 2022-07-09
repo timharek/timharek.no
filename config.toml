@@ -39,6 +39,7 @@ cover = "img/cover.png"
 
 nav = [
   { name = "Blog", path = "@/blog/_index.md" },
+  { name = "Work", path = "@/work/_index.md" },
   { name = "Connect", path = "@/connect.md" },
   { name = "About", path = "@/about.md" },
 ]

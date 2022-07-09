@@ -1,0 +1,110 @@
+{% extends "base/base.html" %}
+
+{% block head %}
+  {% set title = section.title ~ " - " ~ config.title %}
+  {% set description = section.description | default(value=config.description) %}
+  {% if section.updated %}
+    {% set updated = section.updated | date(format=config.extra.date_format) %}
+  {% endif %}
+  {% if section.content %}
+    {% set content = section.content %}
+  {% endif %}
+{% endblock head %}
+
+{% block content %}
+
+
+{% set work_data = load_data(path="static/api/work.json") %}
+
+<section class="page-content">
+  <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
+  {% if work_data.updated %}
+    <span class="page-updated">
+      Last updated <time datetime="{{ work_data.updated }}">{{ work_data.updated }}</time>
+    </span>
+  {% endif %}
+  {% if page.extra.subnav %}
+    <nav class="page__subnav" aria-label="Sub navigation">
+      <ul>
+        {% for item in page.extra.subnav %}
+          <li>
+            <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+  {{ content | safe }}
+
+  {% set_global all_tags = [] %}
+  {% for work in work_data.list %}
+    {% if work.extra.tags %}
+      {% set_global all_tags = all_tags | concat(with=work.extra.tags) %}
+    {% endif %}
+  {% endfor %}
+  {% set all_tags_unique = all_tags | unique %}
+
+  <div class="work-filter">
+    <label for="filter">Filter tags
+      <select name="filter" id="filter" onchange="updateWorkGrid()" class="">
+          <option value="all">Show all</option>
+          {% for tag in all_tags_unique | sort %}
+            <option value="{{ tag | slugify }}">{{ tag }}</option>
+          {% endfor %}
+      </select>
+    </label>
+  </div>
+
+  <div class="work-grid">
+    {% for work in work_data.list | sort(attribute="extra.date") | reverse %}
+      <div class="work-grid__item">
+        <div class="item__header">
+          <div class="item__header__wrapper">
+            {% if work.icon %}
+              {{ load_data(path=work.icon) | safe }}
+            {% endif %}
+            <h2>
+              {% if work.extra and work.extra.tags %}
+                {% if work.extra.tags is containing("website") and not work.icon %}
+                  🌐
+                {% endif %}
+              {% endif %}
+              {{ work.title }}
+            </h2>
+          </div>
+          {% if work.client %}
+            <h3>
+                {{ work.client }}
+            </h3>
+          {% endif %}
+        </div>
+        {% if work.extra.tags %}
+          <ul class="item__tags">
+            {% for tag in work.extra.tags | sort %}
+              <li data-tag="{{ tag | slugify }}">{{ tag | lower }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        <p class="work__description">
+          {{ work.description }}
+        </p>
+        <ul class="item__links">
+          {% if work.sources and work.sources|length == 1 %}
+            <li>
+              <a href="{{ work.sources[0] }}" target="_blank">Source</a>
+            </li>
+          {% endif %}
+          {% if work.url %}
+            <li>
+              <a href="{{ work.url }}" target="_blank">Link</a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<script src="/js/work_filter.js" defer></script>
+
+{% endblock content %}
