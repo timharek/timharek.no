@@ -60,11 +60,21 @@
     {{ page.content | safe }}
   </div>
 
-  <aside>
-    <p>
-      &lt;/&gt; Relpy via <a href="mailto:{{ config.extra.email }}?subject=RE: {{ page.title }}">e-mail</a> (<a href="/key">public key</a>). 
-    </p>
-  </aside>
+  <div class="post__footer">
+    <div class="footer__metadata">
+      {% if page.taxonomies.tags %}
+        <div>
+          {{ load_data(path="static/img/icons/tag.svg") | safe }} Tagged with {% for tag in page.taxonomies.tags %}<a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag|lower }}</a> {% endfor %}
+        </div>
+      {% endif %}
+      <div>
+        {{ load_data(path="static/img/icons/document.svg") | safe }} {{ page.word_count | num_format }} words
+      </div>
+    </div>
+    <a class="btn" href="mailto:{{ config.extra.email }}?subject=RE: {{ page.title }}">
+      {{ load_data(path="static/img/icons/email.svg") | safe }} Reply via e-mail
+    </a>
+  </div>
 
   <a class="u-url" href="{{ page.permalink | safe }}" hidden></a>
 </article>

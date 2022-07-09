@@ -68,6 +68,28 @@ a {
   }
 }
 
+.btn {
+  --color-text: var(--color-primary);
+  color: var(--color-text);
+  border: 1px solid var(--color-primary);
+  border-radius: $spacingSmall;
+  text-decoration: none;
+  padding: $spacingSmall;
+  @include flex(flex-start, center);
+  gap: $spacingSmall;
+  width: max-content;
+  height: max-content;
+
+  &:hover {
+    background: var(--color-text);
+    color: var(--color-background);
+  }
+
+  svg {
+    width: 1.25rem;
+  }
+}
+
 h1 {
   font-size: 1.75rem;
 }
@@ -286,6 +308,29 @@ article.post {
     border: 3px solid var(--border-color);
     border-radius: $spacingSmall;
     padding: $spacingSmall $spacing;
+  }
+
+  .post__footer {
+    @include flex(space-between, center);
+    flex-wrap: wrap;
+    gap: $spacing;
+    border-top: 1px solid var(--color-border-aside);
+    border-bottom: 1px solid var(--color-border-aside);
+    padding-block: $spacingLarge;
+    margin-block: $spacing;
+
+    .footer__metadata > div {
+      @include flex(flex-start, center);
+      gap: $spacingSmall;
+
+      svg {
+        width: 1.25rem;
+      }
+
+      &:last-of-type {
+        margin-block-start: $spacingSmall;
+      }
+    }
   }
 }
 
