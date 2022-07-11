@@ -422,6 +422,12 @@ article.post {
   h2 {
     @include stickyHeading();
   }
+  .review__rating {
+    dt {
+      float: left;
+      margin-inline-end: $spacingSmall;
+    }
+  }
   .entries {
     & > * {
       padding-block: $spacing;
