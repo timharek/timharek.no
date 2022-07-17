@@ -353,7 +353,8 @@ article.post {
   }
 
   &__list {
-    @include list($display: block);
+    @include list($style: disc, $display: block);
+    margin-inline-start: $spacing;
   }
 }
 
