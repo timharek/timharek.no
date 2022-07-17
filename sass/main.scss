@@ -57,6 +57,14 @@ $b-md: 768px;
   margin: 0;
 }
 
+@mixin stickyHeading() {
+  width: 100%;
+  top: 0;
+  position: sticky;
+  padding-block: $spacingSmall;
+  background-color: var(--color-background);
+}
+
 a {
   --color-text: var(--color-primary);
   color: var(--color-text);
@@ -242,10 +250,7 @@ footer.footer {
   }
 
   h2 {
-    top: 0;
-    position: sticky;
-    padding-block: $spacingSmall;
-    background-color: var(--color-background);
+    @include stickyHeading();
   }
 
   .blog__post {
@@ -432,6 +437,15 @@ article.post {
 }
 
 .page-review {
+  h2 {
+    @include stickyHeading();
+  }
+  .review__rating {
+    dt {
+      float: left;
+      margin-inline-end: $spacingSmall;
+    }
+  }
   .entries {
     & > * {
       padding-block: $spacing;
@@ -445,7 +459,6 @@ article.post {
     display: grid;
     gap: $spacingLarge $spacing;
     align-items: center;
-    width: 100%;
     padding-inline: $spacingSmall;
 
     &:hover {

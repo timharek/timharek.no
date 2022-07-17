@@ -701,5 +701,25 @@
         ],
         "episode_count": 6,
         "season": 1
+    },
+    {
+        "title": "Ms. Marvel",
+        "description": "",
+        "review": "It felt like I was watching a childern's show. The acting was super strange, it seemed like the actors thought everything was either funny or a joke. I do not recommend.",
+        "release_year": 2022,
+        "my_rating": 1,
+        "genres": [
+          "Action", "Adventure", "Comedy", "Comicbook"
+        ],
+        "directors": [
+            "Deborah Chow"
+        ],
+        "type": "TV",
+        "watched_date": "2022-07-14",
+        "creator": [
+            "Bisha K. Ali"
+        ],
+        "episode_count": 6,
+        "season": 1
     }
 ]
