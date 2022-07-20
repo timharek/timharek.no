@@ -176,6 +176,15 @@ pre code {
 picture {
   img {
     max-width: 100%;
+
+    &.small {
+      @media (min-width: $b-sm) {
+        display: block;
+        max-width: 50%;
+        max-height: 80rem;
+        margin-inline: auto;
+      }
+    }
   }
   figcaption {
     color: var(--color-default-text);

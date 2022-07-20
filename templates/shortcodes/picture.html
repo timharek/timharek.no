@@ -2,7 +2,7 @@
 {% set image_sec = resize_image(path=url, width=500, op="fit_width") %}
 {% set image_third = resize_image(path=url, width=300, op="fit_width") %}
 <picture>
-  <img src="{{ image_main.url }}" 
+  <img {% if isSmall %}class="small"{% endif %} src="{{ image_main.url }}" 
        srcset="{{ image_main.url }} 760w, {{ image_sec.url }} 500w, {{ image_third.url }} 300w"
     alt="{{ alt }}"
     >
