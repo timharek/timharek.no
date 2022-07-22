@@ -177,5 +177,21 @@
     ],
     "my_rating": 4,
     "read_date": "2022-03-22"
+  },
+  {
+    "title": "Ruined by Design",
+    "description": "The world is working exactly as designed.",
+    "publish_year": 2019,
+    "author": ["Mike Monteiro"],
+    "genres": [
+      "Nonfiction",
+      "Design",
+      "Politics",
+      "Technology",
+      "Programming",
+      "Science"
+    ],
+    "my_rating": 5,
+    "read_date": "2022-07-22"
   }
 ]
