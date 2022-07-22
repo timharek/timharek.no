@@ -721,5 +721,31 @@
         ],
         "episode_count": 6,
         "season": 1
+    },
+    {
+        "title": "The Boys S02",
+        "description": "",
+        "release_year": 2021,
+        "my_rating": 4,
+        "genres": [
+          "Action", "Crime", "Comedy", "Comicbook", "Drama"
+        ],
+        "directors": [
+            "Philip Sgriccia",
+            "Liz Friedlander",
+            "Steve Boyum",
+            "Frederick E.O. Toye",
+            "Batan Silva",
+            "Sarah Boyd",
+            "Stefan Schwartz",
+            "Alex Graves"
+        ],
+        "type": "TV",
+        "watched_date": "2022-07-22",
+        "creator": [
+            "Eric Kripke"
+        ],
+        "episode_count": 8,
+        "season": 2
     }
 ]
