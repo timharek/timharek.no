@@ -1274,5 +1274,20 @@
         ],
         "type": "Movie",
         "watched_date": "2022-07-07"
+    },
+    {
+        "title": "American History X",
+        "description": "",
+        "release_year": 1998,
+        "my_rating": 5,
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "director": [
+            "Tony Kaye"
+        ],
+        "type": "Movie",
+        "watched_date": "2022-07-23"
     }
 ]
