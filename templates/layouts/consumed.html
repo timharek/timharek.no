@@ -17,7 +17,6 @@
 
 {% set files = section.extra.json_files %}
 {% set person_field = section.extra.person_field %}
-{% set date_field = section.extra.date_field %}
 {% set is_date_field_array = section.extra.date_field_is_array %}
 
 <section class="page-content page-review">
@@ -31,9 +30,8 @@
       <h2>{{ array[0].type }}</h2>
     {% endif %}
     <div class="entries">
-    {% for entry in array | sort(attribute=date_field) | reverse %}
+    {% for entry in array | sort(attribute="date.0") | reverse %}
       <div class="entry">
-        {% set date = entry[date_field] %}
         <div aria-label="Entry title">{{ entry.title }}</div>
         {% for field in person_field %}
           {% if entry[field] %}
@@ -44,7 +42,8 @@
             </div>
           {% endif %}
         {% endfor %}
-        <time aria-label="When entry was watched">{% if date %}{{ date }}{% endif %}</time>
+        {% set date = entry.date %}
+        <time aria-label="When entry was watched">{% if date %}{{ date | reverse | join(sep=", ") }}{% endif %}</time>
         {% set rating = entry.my_rating | int %}
         {% set rating_total = 5 %}
         {% set rating_diff = rating_total - rating %}
