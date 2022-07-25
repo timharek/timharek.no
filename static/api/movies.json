@@ -802,5 +802,15 @@
     "director": ["Tony Kaye"],
     "type": "Movie",
     "date": ["2022-07-23", "2013-10-01"]
+  },
+  {
+    "title": "The Witches (2020)",
+    "description": "",
+    "release_year": 2020,
+    "my_rating": 3,
+    "genres": ["Adventure", "Comedy", "Family", "Fantasy", "Horror", "Mystery"],
+    "director": ["Robert Zemeckis"],
+    "type": "Movie",
+    "date": ["2022-07-25"]
   }
 ]
