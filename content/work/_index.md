@@ -4,5 +4,5 @@ description = "Tim Hårek's work"
 template = "layouts/work.html"
 +++
 
-This is a selection of my work, have a look around.
+A selection of my work, both professionally and personal.
 

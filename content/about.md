@@ -13,15 +13,15 @@ subnav = [
 ]
 +++
 
-My name is Tim Hårek Andreassen. I'm a developer, designer, hiker and dog-person
+I'm Tim Hårek Andreassen, a developer, UX designer, hiker and dog-person
 from the west coast of Norway. I care about creating solutions that respects
 people, in terms of privacy, security and user experience.
 
-I work as a technologist at Netlife Bergen, where I mostly work with full stack
-development, accessibility and some UX.
+I work as a technologist at Netlife Bergen where I mostly dabble with full stack
+development, accessibility and UX design.
 
 I spend my free time learning about new technologies, automating my everyday and
-going hiking with my dog, Ayla! 🐕
+hiking with my dog, Ayla! 🐕
 
 ## Contact
 

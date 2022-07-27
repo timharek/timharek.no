@@ -1,7 +1,7 @@
 +++
 date = 2022-07-14
 updated = 2022-07-22
-title = "I don't have notifications for everything"
+title = "I don't use notifications for everything"
 description = "Notifications, why I don't use them as much as once did. JOMO > FOMO."
 [taxonomies]
 tags = ["Productivity"]
