@@ -179,6 +179,20 @@
     "date": ["2022-03-22"]
   },
   {
+    "title": "Thor: The God of Thunder #1 - #11",
+    "description": "The Saga of Gorr the God Butcher",
+    "publish_year": 2013,
+    "author": ["Esad Ribic", "Jason Aaron"],
+    "genres": [
+      "Comicbook",
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "my_rating": 5,
+    "date": ["2022-07-06"]
+  },
+  {
     "title": "Ruined by Design",
     "description": "The world is working exactly as designed.",
     "publish_year": 2019,
