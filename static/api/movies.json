@@ -812,5 +812,15 @@
     "director": ["Robert Zemeckis"],
     "type": "Movie",
     "date": ["2022-07-25"]
+  },
+  {
+    "title": "Jumper",
+    "description": "",
+    "release_year": 2008,
+    "my_rating": 3,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "director": ["Doug Liman"],
+    "type": "Movie",
+    "date": ["2022-07-31"]
   }
 ]

@@ -523,5 +523,23 @@
     "creator": ["Eric Kripke"],
     "episode_count": 8,
     "season": 2
+  },
+  {
+    "title": "The Boys S03",
+    "description": "",
+    "release_year": 2022,
+    "my_rating": 4,
+    "genres": ["Action", "Crime", "Comedy", "Comicbook", "Drama"],
+    "directors": [
+      "Philip Sgriccia",
+      "Julian Holmes",
+      "Nelson Cragg",
+      "Sarah Boyd"
+    ],
+    "type": "TV",
+    "date": ["2022-07-31"],
+    "creator": ["Eric Kripke"],
+    "episode_count": 8,
+    "season": 3
   }
 ]
