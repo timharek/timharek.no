@@ -1,231 +1,188 @@
 {
   "last_update": "2022-03-18",
-  "name": "Tim Hårek Andreassen",
-  "tldr": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
-  "experiences": [
+  "basics": {
+    "name": "Tim Hårek Andreassen",
+    "label": "Full-stack developer",
+    "image": "",
+    "email": "tim@harek.no",
+    "phone": "+47 400 43 672",
+    "url": "https://timharek.no",
+    "summary": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
+    "location": {
+      "city": "Bergen",
+      "countryCode": "NO"
+    },
+    "profiles": []
+  },
+  "work": [
     {
-      "glyph": "/cv/netlife.svg",
       "name": "Netlife Bergen",
-      "type": "Work",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Tech lead on a Craft CMS-project with 3 other developers.",
-            "Full-stack development with Craft CMS & Sanity in Next.js.",
-            "Front-end development with Vue.js v3."
-          ],
-          "name": "Technologist",
-          "present": true,
-          "start": "2021-08-02"
-        }
+      "position": "Technologist",
+      "url": "https://netlife.com",
+      "startDate": "2021-08-02",
+      "endDate": null,
+      "logo": "/cv/netlife.svg",
+      "summary": null,
+      "highlights": [
+        "Tech lead on a Craft CMS-project with 3 other developers.",
+        "Full-stack development with Craft CMS & Sanity in Next.js.",
+        "Front-endDate development with Vue.js v3."
       ]
     },
     {
-      "glyph": "/cv/vk.svg",
       "name": "Vest Kontakt AS",
-      "type": "Work",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Setup and maintenance of IT systems, i.e. CRM, accounting software, etc.",
-            "IT support for employees, both remote and on-site.",
-            "Re-designed their website, with modern technologies.",
-            "Created a more efficient system for their annual inventory."
-          ],
-          "name": "IT Manager",
-          "present": true,
-          "start": "2012-12-24"
-        }
+      "url": "https://vestkontakt.no",
+      "startDate": "2012-12-24",
+      "endDate": null,
+      "position": "IT Manager",
+      "logo": "/cv/vk.svg",
+      "summary": null,
+      "highlights": [
+        "Setup and maintenance of IT systems, i.e. CRM, accounting software, etc.",
+        "IT support for employees, both remote and on-site.",
+        "Re-designed their website, with modern technologies.",
+        "Created a more efficient system for their annual inventory."
       ]
     },
     {
-      "glyph": "img/logo.svg",
-      "name": "TH Andreassen (self-empolyed)",
-      "type": "Work",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Working for Netlife Design Bergen.",
-            "Development of KHdele's new website.",
-            "Development of One Ocean Expedtion's new website."
-          ],
-          "end": "2021-07-16",
-          "name": "Freelance developer",
-          "present": true,
-          "start": "2021-04-19"
-        }
+      "name": "Freelance",
+      "url": null,
+      "startDate": "2021-04-19",
+      "endDate": "2021-07-16",
+      "position": "Full-stack developer",
+      "logo": "/img/logo.svg",
+      "summary": null,
+      "highlights": [
+        "Working for Netlife Design Bergen.",
+        "Development of KHdele's new website.",
+        "Development of One Ocean Expedtion's new website."
       ]
     },
     {
-      "glyph": "/cv/uib.svg",
       "name": "University of Bergen",
-      "type": "Work",
-      "relevant": false,
-      "role": [
-        {
-          "desc": [
-            "Technical support for students and lectures.",
-            "Part-time job beside my bachelors-degree."
-          ],
-          "end": "2021-06-30",
-          "name": "IT assistent",
-          "present": false,
-          "start": "2018-08-12"
-        }
+      "startDate": "2018-08-12",
+      "endDate": "2021-06-30",
+      "position": "IT assistent",
+      "logo": "/cv/uib.svg",
+      "summary": null,
+      "highlights": [
+        "Technical support for students and lectures.",
+        "Part-time job beside my bachelors-degree."
       ]
     },
     {
-      "glyph": "/cv/infocare.svg",
       "name": "InfoCare Norge AS",
-      "type": "Work",
-      "relevant": false,
-      "role": [
-        {
-          "desc": [
-            "Computer-repair of Dell and Lenovo computers, both laptops and desktops.",
-            "IT support at ABB Bergen Kokstad."
-          ],
-          "end": "2020-08-03",
-          "name": "Technician (Summer job)",
-          "present": false,
-          "start": "2020-06-18"
-        }
+      "url": "https://infocare.com",
+      "startDate": "2020-06-18",
+      "endDate": "2020-08-03",
+      "position": "Technician (Summer job)",
+      "logo": "/cv/infocare.svg",
+      "summary": null,
+      "highlights": [
+        "Computer-repair of Dell and Lenovo computers, both laptops and desktops.",
+        "IT support at ABB Bergen Kokstad."
       ]
     },
     {
-      "glyph": "/cv/appex.svg",
       "name": "Appex",
-      "type": "Work",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Pilot project Sildikon Valley 2019 in Haugesund.",
-            "Developed a cross-platform AR-app for a local real-estate company."
-          ],
-          "end": "2019-08-05",
-          "name": "Developer (Summer intern)",
-          "present": false,
-          "start": "2019-06-17"
-        }
+      "url": "https://appex.no",
+      "startDate": "2019-06-17",
+      "endDate": "2019-08-05",
+      "position": "Developer (Summer intern)",
+      "logo": "/cv/appex.svg",
+      "highlights": [
+        "Pilot project Sildikon Valley 2019 in Haugesund.",
+        "Developed a cross-platform AR-app for a local real-estate company."
       ]
     },
     {
-      "glyph": "/cv/empty.svg",
       "name": "PSS Securitas",
-      "type": "Work",
-      "relevant": false,
-      "role": [
-        {
-          "desc": [
-            "Part-time job as a bouncer beside my studies in Bergen."
-          ],
-          "end": "2018-11-10",
-          "name": "Security Guard",
-          "present": false,
-          "start": "2017-10-15"
-        }
-      ]
+      "startDate": "2017-10-15",
+      "endDate": "2018-11-10",
+      "position": "Security Guard",
+      "logo": null,
+      "summary": null,
+      "highlights": ["Part-time job as a bouncer beside my studies in Bergen."]
     },
     {
-      "glyph": "/cv/empty.svg",
       "name": "Forsvaret - Norwegian Armed Forces",
-      "type": "Work",
-      "relevant": false,
-      "role": [
-        {
-          "desc": [
-            "Compulsory military service stationed at Ulsnes, Hundvåg, Stavanger.",
-            "Responsible for seven other soldiers."
-          ],
-          "end": "2015-09-21",
-          "name": "Guard Commander",
-          "present": false,
-          "start": "2016-09-23"
-        }
-      ]
-    },
-    {
-      "glyph": "/cv/fribyte.svg",
-      "name": "friByte",
-      "type": "Voluntary",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Maintenance and operation of IT systems for student organizations in Bergen."
-          ],
-          "end": "2021-01-23",
-          "name": "Member",
-          "start": "2020-09-08"
-        },
-        {
-          "desc": [
-            "Administrative tasks, convene meetings etc.",
-            "Re-designed their website.",
-            "Currently restructuring their server-infrastructure.",
-            "Simplifying how the organization operates and responds to inquires."
-          ],
-          "name": "Leader",
-          "start": "2021-01-23",
-          "end": "2021-12-31"
-        },
-        {
-          "name": "Member",
-          "start": "2022-01-01",
-          "desc": [
-            "Setup of different services for automatic deployment of other services.",
-            "Configuring a easy to maintain script for checking server availability.",
-            "Setup of Mattermost, moderating channels and maintaining channel workflows.",
-            "Initiate Ansible-workflow for maintaining servers."
-          ]
-        }
-      ]
-    },
-    {
-      "glyph": "/cv/srib.svg",
-      "name": "Studentradioen i Bergen",
-      "type": "Voluntary",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "Contributed on the development of their new website."
-          ],
-          "end": "2021-05-29",
-          "name": "Web developer",
-          "start": "2020-02-12"
-        }
-      ]
-    },
-    {
-      "glyph": "/cv/uib.svg",
-      "name": "University of Bergen",
-      "type": "Education",
-      "relevant": true,
-      "role": [
-        {
-          "desc": [
-            "A bachelors degree in Computer Science with an extra emphasis on security."
-          ],
-          "end": "2021-06-07",
-          "name": "Bachelor in Computer Security",
-          "start": "2017-08-14"
-        }
+      "startDate": "2016-09-23",
+      "endDate": "2015-09-21",
+      "position": "Guard Commander",
+      "logo": null,
+      "summary": null,
+      "highlights": [
+        "Compulsory military service stationed at Ulsnes, Hundvåg, Stavanger.",
+        "Responsible for seven other soldiers."
       ]
     }
   ],
+  "volunteer": [
+    {
+      "name": "friByte",
+      "startDate": "2020-09-08",
+      "endDate": null,
+      "position": "Member",
+      "url": "https://fribyte.no",
+      "logo": "/cv/fribyte.svg",
+      "highlights": [
+        "Maintenance and operation of IT systems for student organizations in Bergen.",
+        "Setup of different services for automatic deployment of other services.",
+        "Configuring a easy to maintain script for checking server availability.",
+        "Setup of Mattermost, moderating channels and maintaining channel workflows.",
+        "Initiate Ansible-workflow for maintaining servers."
+      ]
+    },
+    {
+      "name": "friByte",
+      "startDate": "2021-01-23",
+      "endDate": "2021-12-31",
+      "position": "Leader",
+      "url": "https://fribyte.no",
+      "logo": "/cv/fribyte.svg",
+      "highlights": [
+        "Administrative tasks, convene meetings etc.",
+        "Re-designed their website.",
+        "Currently restructuring their server-infrastructure.",
+        "Simplifying how the organization operates and responds to inquires."
+      ]
+    },
+    {
+      "name": "Studentradioen i Bergen",
+      "startDate": "2020-02-12",
+      "endDate": "2021-05-29",
+      "position": "Web developer",
+      "url": "https://srib.no",
+      "logo": "/cv/srib.svg",
+      "highlights": ["Contributed on the development of their new website."]
+    }
+  ],
+  "education": [
+    {
+      "insitution": "University of Bergen",
+      "url": "https://uib.no",
+      "area": "Computer Security",
+      "studyType": "Bachelor",
+      "startDate": "2017-08-14",
+      "endDate": "2021-06-07",
+      "logo": "/cv/uib.svg",
+      "courses": [],
+      "summary": "A bachelors degree in Computer Science with an extra emphasis on security."
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "name": "Programming languages",
-      "list": ["Java", "C#", "Python", "HTML", "CSS", "JS", "PHP"]
+      "level": null,
+      "keywords": ["Java", "C#", "Python", "HTML", "CSS", "JS", "PHP"]
     },
     {
       "name": "Libraries and frameworks",
-      "list": [
+      "level": null,
+      "keywords": [
         "Node.js",
         "jQuery",
         "React.js",
@@ -239,15 +196,28 @@
     },
     {
       "name": "Tools",
-      "list": ["Git", "Vim", "UNIX", "Ansible"]
+      "level": null,
+      "keywords": ["Git", "Vim", "UNIX", "Ansible"]
     },
     {
       "name": "Platforms",
-      "list": ["Craft CMS", "Sanity", "WordPress", "Joomla"]
+      "level": null,
+      "keywords": ["Craft CMS", "Sanity", "WordPress", "Joomla"]
     },
     {
       "name": "Design",
-      "list": ["Affinity Designer", "Adobe CC", "Sketch", "Figma"]
+      "level": null,
+      "keywords": ["Affinity Designer", "Adobe CC", "Sketch", "Figma"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Norwegian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
     }
   ]
 }
