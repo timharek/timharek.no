@@ -166,7 +166,9 @@
       "startDate": "2017-08-14",
       "endDate": "2021-06-07",
       "logo": "/cv/uib.svg",
-      "courses": [],
+      "courses": [
+        "INF100 - Introduction to programming"
+      ],
       "summary": "A bachelors degree in Computer Science with an extra emphasis on security."
     }
   ],
