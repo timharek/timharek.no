@@ -1,5 +1,4 @@
 +++
-date = 2021-10-31
 updated = 2022-07-17
 title = "Goodbye Facebook"
 description = """

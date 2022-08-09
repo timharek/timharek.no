@@ -1,5 +1,4 @@
 +++
-date = 2021-10-11
 updated = 2022-01-09
 title = "Trying out aerc"
 description = """

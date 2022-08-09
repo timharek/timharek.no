@@ -1,5 +1,4 @@
 +++
-date = 2021-10-14
 updated = 2022-01-19
 title = "Deploy a static site to production using git-hooks"
 description = """

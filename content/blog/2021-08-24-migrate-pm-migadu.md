@@ -1,6 +1,5 @@
 +++
 title = "Migadu > ProtonMail"
-date = 2021-08-24
 updated = 2021-12-12
 description = "Why I decided against continuing using ProtonMail and migrate over to Migadu. Not a direct comparison nor a review of the services."
 [taxonomies]

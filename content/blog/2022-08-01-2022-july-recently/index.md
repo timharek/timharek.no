@@ -1,5 +1,4 @@
 +++
-date = "2022-08-01T17:50:00Z"
 title = "July 2022"
 description = "What I've been up to in July."
 [taxonomies]

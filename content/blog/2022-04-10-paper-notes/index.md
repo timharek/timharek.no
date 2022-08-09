@@ -1,5 +1,4 @@
 +++
-date = 2022-04-10
 title = "Paper notes"
 description = "On going back to paper notes, instead of digital means and not trying remember everything."
 [taxonomies]

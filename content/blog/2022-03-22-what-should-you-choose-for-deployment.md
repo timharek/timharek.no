@@ -1,5 +1,4 @@
 +++
-date = 2022-03-22
 title = "What should you choose for depolying your static websites?"
 description = """
 Should you use GitHub Pages/Actions, `scp/rsync`, Sourcehut, GitLab?

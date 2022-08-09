@@ -1,5 +1,4 @@
 +++
-date = 2021-12-12
 updated = 2022-06-19
 title = "Migadu Review"
 description = "My thoughts on Migadu after using it for 8 months."

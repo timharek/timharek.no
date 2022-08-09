@@ -1,5 +1,4 @@
 +++
-date = 2022-04-10
 title = "Using a tiling window manager on macOS"
 description = """
 For the last few months I've been using Yabai as a tiling window manager on my MacBook.

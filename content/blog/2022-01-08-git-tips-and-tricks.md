@@ -1,5 +1,4 @@
 +++
-date = 2022-01-08
 updated = 2022-06-19
 title = "Git tips & tricks"
 description = "Useful tips and tricks I've picked up from using Git for a few years."

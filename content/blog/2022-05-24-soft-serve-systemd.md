@@ -1,5 +1,4 @@
 +++
-date = 2022-05-24
 title = "How to setup soft-serve as a systemd-service"
 description = "Setting up and using soft-serve from charm.sh as a Git-server."
 [taxonomies]

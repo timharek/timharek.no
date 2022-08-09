@@ -1,5 +1,4 @@
 +++
-date = 2022-01-16
 title = "Switching back to a dumb watch"
 description = """
 I've been using an Apple Watch exclusively for the last three years. Now I'm

@@ -1,5 +1,4 @@
 +++
-date = 2021-03-09
 title = "Why I don't use LinkedIn"
 description = "How I used LinkedIn in the past, my interactions and why I deleted my account i 2020."
 [taxonomies]

@@ -1,5 +1,4 @@
 +++
-date = 2022-02-07
 title = "Owning my own logs"
 description = """
 Not having someone else own your logs is very nice, especially when you can organize them with "magic".

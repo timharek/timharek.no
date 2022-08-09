@@ -1,5 +1,4 @@
 +++
-date = 2021-12-08
 updated = 2022-06-19
 title = "Post-Facebook"
 description = "Do I regret leaving Facebook? What happens now?"
