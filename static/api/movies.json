@@ -822,5 +822,25 @@
     "director": ["Doug Liman"],
     "type": "Movie",
     "date": ["2022-07-31"]
+  },
+  {
+    "title": "The Last Duel",
+    "description": "",
+    "release_year": 2021,
+    "my_rating": 4,
+    "genres": ["Action", "Drama", "History"],
+    "director": ["Ridley Scott"],
+    "type": "Movie",
+    "date": ["2022-08-13"]
+  },
+  {
+    "title": "C'mon C'mon",
+    "description": "",
+    "release_year": 2021,
+    "my_rating": 4,
+    "genres": ["Drama"],
+    "director": ["Mike Mills"],
+    "type": "Movie",
+    "date": ["2022-08-13"]
   }
 ]

@@ -541,5 +541,28 @@
     "creator": ["Eric Kripke"],
     "episode_count": 8,
     "season": 3
+  },
+  {
+    "title": "Better Call Saul S06",
+    "description": "",
+    "release_year": 2022,
+    "my_rating": 5,
+    "genres": ["Crime", "Drama"],
+    "directors": [
+      "Michael Morris",
+      "Vince Gilligan",
+      "Gordon Smith",
+      "Rhea Seehorn",
+      "Melissa Bernstein",
+      "Giancarlo Esposito",
+      "Thomas Schnauz",
+      "Michelle MacLaren",
+      "Peter Gould"
+    ],
+    "type": "TV",
+    "date": ["2022-08-18"],
+    "creator": ["Vince Gilligan"],
+    "episode_count": 13,
+    "season": 6
   }
 ]
