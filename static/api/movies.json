@@ -842,5 +842,15 @@
     "director": ["Mike Mills"],
     "type": "Movie",
     "date": ["2022-08-13"]
+  },
+  {
+    "title": "Ghostbusters: Afterlife",
+    "description": "",
+    "release_year": 2021,
+    "my_rating": 3,
+    "genres": ["Adventure", "Comedy", "Fantasy"],
+    "director": ["Jason Reitman"],
+    "type": "Movie",
+    "date": ["2022-08-20"]
   }
 ]
