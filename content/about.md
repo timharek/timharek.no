@@ -8,8 +8,7 @@ subnav = [
   { name = "Uses", path = "@/uses.md" },
   { name = "Digital garden", path = "@/garden/_index.md" },
   { name = "Blogroll", path = "@/blogroll.md" },
-  { name = "Watched", path = "@/watched/_index.md" },
-  { name = "Reading", path = "@/reading/_index.md" }
+  { name = "Logs", path = "@/logs/_index.md" },
 ]
 +++
 

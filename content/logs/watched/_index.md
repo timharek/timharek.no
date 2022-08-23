@@ -3,7 +3,7 @@ title = "Watched"
 description = "What I've watched, mostly recorded here."
 template = "layouts/log.html"
 page_template = "layouts/watched_page.html"
-aliases = ["/watching"]
+aliases = ["/watching", "/watched"]
 [extra]
 json_files = ["static/api/movies.json", "static/api/tv_shows.json"]
 person_field = ["director", "creator"]

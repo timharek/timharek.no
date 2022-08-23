@@ -3,7 +3,7 @@ title = "Reading"
 description = "Books that I've read."
 template = "layouts/log.html"
 page_template = "layouts/book_page.html"
-aliases = ["/read"]
+aliases = ["/read", "/reading"]
 [extra]
 json_files = ["static/api/books.json"]
 person_field = ["author"]
