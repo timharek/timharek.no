@@ -1,7 +1,7 @@
 +++
 title = "Watched"
 description = "What I've watched, mostly recorded here."
-template = "layouts/consumed.html"
+template = "layouts/log.html"
 page_template = "layouts/watched_page.html"
 aliases = ["/watching"]
 [extra]

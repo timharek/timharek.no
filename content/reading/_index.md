@@ -1,7 +1,7 @@
 +++
 title = "Reading"
 description = "Books that I've read."
-template = "layouts/consumed.html"
+template = "layouts/log.html"
 page_template = "layouts/book_page.html"
 aliases = ["/read"]
 [extra]
