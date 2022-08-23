@@ -7,7 +7,7 @@
 {% endblock head %}
 
 {% block content %}
-{% set cv = load_data(path="content/cv/cv.json") %}
+{% set cv = load_data(path="static/api/cv.json") %}
 <section class="resume">
   <div class="resume__last-update">
     Updated <time datetime="{{ cv.last_update }}">{{ cv.last_update | date(format=config.extra.date_format) }}</time>

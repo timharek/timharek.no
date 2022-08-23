@@ -12,7 +12,7 @@ It's pretty much tailored to my liking, but feel free to clone/fork this repo.
 
 ### CV
 
-The CV is generated from a simple JSON-file, `content/cv/cv.json`, it's loosely
+The CV-page is generated from a simple JSON-file, `static/api/cv.json`, it's loosely
 based on [JSON Resume schema](https://jsonresume.org/schema/).
 
 Here you can specify your experiences (work, education, voluntary etc.) and 
