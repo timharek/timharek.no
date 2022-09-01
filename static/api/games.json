@@ -104,6 +104,30 @@
     "date": ["2017-10-01"]
   },
   {
+    "title": "The Last of Us: Part 2",
+    "release_year": 2020,
+    "my_rating": 5,
+    "genres": ["Action", "Adventure", "Survival"],
+    "platform": ["PS4"],
+    "date": ["2020-06-21"]
+  },
+  {
+    "title": "Ori and the Blind Forest",
+    "release_year": 2015,
+    "my_rating": 5,
+    "genres": ["Action", "Platformer"],
+    "platform": ["PC"],
+    "date": ["2020-10-02"]
+  },
+  {
+    "title": "Ori and the Will of The Wisp",
+    "release_year": 2020,
+    "my_rating": 5,
+    "genres": ["Action", "Platformer"],
+    "platform": ["PC"],
+    "date": ["2020-10-06"]
+  },
+  {
     "title": "Return of the Obra Dinn",
     "release_year": 2018,
     "my_rating": 5,

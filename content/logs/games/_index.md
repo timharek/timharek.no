@@ -9,7 +9,7 @@ person_field = ["platform"]
 date_field_is_array = false
 +++
 
-Video games I've finished. Not a complete list, currently a work in progress 🚧.
+Video games I've finished. Not a complete list.
 
 <dl class="review__rating">
   <dt aria-label="1 out of 5 stars">★☆☆☆☆</dt>
