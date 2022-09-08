@@ -58,14 +58,24 @@
     </tr>
   </table>
 
-  <h2>Post per year</h2>
+  <h2>Posts/words per year</h2>
   <table class="stats">
     {% for year, page in pages | group_by(attribute="year") %}
       {% set year = year | int %}
       {% set year_posts = pages | filter(attribute="year", value=year) %}
+      {% set year_posts_length = year_posts | length %}
+
+      {% set_global word_count_by_year = 0 %}
+      {% set word_count_by_year_array = year_posts | map(attribute="word_count") %}
+      {% for count in word_count_by_year_array %}
+        {% set_global word_count_by_year = word_count_by_year + count %}
+      {% endfor %}
+      {% set average_word_count = word_count_by_year / year_posts_length | round %}
+
       <tr>
         <th scope="row">{{ year }}</th>
         <td>{{ year_posts|length }}</td>
+        <td>{{ word_count_by_year | num_format }} (~{{ average_word_count | int | num_format }})</td>
       </tr>
     {% endfor %}
   </table>
