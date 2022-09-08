@@ -80,23 +80,22 @@
     {% endfor %}
   </table>
 
-  <h2>Tags by post count</h2>
+  <h2>Top tags</h2>
+  <a href="/tags">View all</a>
   {% set tags = get_taxonomy(kind="tags") %}
-  {% set fontSizeMax = 2 %}
-  {% set fontSizeMin = 1 %}
-
-  <div class="tags-cloud">
-    {% for tag in tags.items | sort(attribute="pages") | reverse %}
+  <ol class="tags-cloud">
+    {% for tag in tags.items | sort(attribute="pages") | reverse | slice(end=10) %}
       {% set tagCount = tag.pages | length %}
-      {% set fontSize = fontSizeMax - fontSizeMin %}
-      {% set fontSize = fontSizeMin * fontSize %}
-      {% set fontSize = fontSizeMin + tagCount %}
-      <a href="{{ tag.permalink }}" class="tag__name" style="font-size: {{ ( tagCount / fontSize ) * 2 }}rem">
-        {{ tag.name }}
-        <sup class="tag__count">{{ tagCount }}</sup>
-      </a>
+      <li>
+        <a href="{{ tag.permalink }}" class="tag__name">
+          {{ tag.name }}
+        </a>
+        <span class="tag__count">
+          {{ tagCount }} posts
+        </span>
+      </li>
     {% endfor %}
-  </div>
+  </ol>
 
 </section>
 
