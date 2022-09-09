@@ -55,51 +55,49 @@
     </label>
   </div>
 
-  <div class="work-grid">
+  <div class="work">
     {% for work in work_data.list | sort(attribute="extra.date") | reverse %}
-      <div class="work-grid__item">
-        <div class="item__header">
-          <div class="item__header__wrapper">
-            {% if work.icon %}
-              {{ load_data(path=work.icon) | safe }}
-            {% endif %}
-            <h2>
-              {% if work.extra and work.extra.tags %}
-                {% if work.extra.tags is containing("website") and not work.icon %}
-                  🌐
-                {% endif %}
-              {% endif %}
+      <div class="work__item">
+        {% if work.color %}
+        <div class="work__item__header" style="background-color: {{ work.color.bg }}; color: {{ work.color.text }}">
+          {% else %}
+        <div class="work__item__header">
+          {% endif %}
+          <h2>
+            {% if work.client %}
+              {{ work.client }}
+            {% else %}
               {{ work.title }}
-            </h2>
-          </div>
-          {% if work.client %}
-            <h3>
-                {{ work.client }}
-            </h3>
-          {% endif %}
+            {% endif %}
+          </h2>
         </div>
-        {% if work.extra.tags %}
-          <ul class="item__tags">
-            {% for tag in work.extra.tags | sort %}
-              <li data-tag="{{ tag | slugify }}">{{ tag | lower }}</li>
-            {% endfor %}
+        <div class="work__item__body">
+            {% if work.client %}
+              <h3>{{ work.title }}</h3>
+            {% endif %}
+          <p>
+            {{ work.description }}
+          </p>
+          {% if work.extra.tags %}
+            <ul class="work__item__body__tags">
+              {% for tag in work.extra.tags | sort %}
+                <li data-tag="{{ tag | slugify }}">{{ tag | lower }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <ul class="work__item__body__urls">
+            {% if work.sources and work.sources|length == 1 %}
+              <li>
+                <a href="{{ work.sources[0] }}" target="_blank">Source</a>
+              </li>
+            {% endif %}
+            {% if work.url %}
+              <li>
+                <a href="{{ work.url }}" target="_blank">Link</a>
+              </li>
+            {% endif %}
           </ul>
-        {% endif %}
-        <p class="work__description">
-          {{ work.description }}
-        </p>
-        <ul class="item__links">
-          {% if work.sources and work.sources|length == 1 %}
-            <li>
-              <a href="{{ work.sources[0] }}" target="_blank">Source</a>
-            </li>
-          {% endif %}
-          {% if work.url %}
-            <li>
-              <a href="{{ work.url }}" target="_blank">Link</a>
-            </li>
-          {% endif %}
-        </ul>
+        </div>
       </div>
     {% endfor %}
   </div>

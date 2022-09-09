@@ -10,7 +10,11 @@
         "date": "2022-04-21",
         "tags": ["Website", "Ghost CMS", "Tailwind", "Netlife"]
       },
-      "url": "https://ypper.no"
+      "url": "https://ypper.no",
+      "color": {
+        "bg": "#d8b895",
+        "text": "black"
+      }
     },
     {
       "title": "Upgrade kolibricarf.no",
@@ -21,7 +25,11 @@
         "date": "2022-07-08",
         "tags": ["Website", "Craft CMS", "Upgrade", "Netlife"]
       },
-      "url": "https://kolibricarf.no/"
+      "url": "https://kolibricarf.no/",
+      "color": {
+        "bg": "#f6c944",
+        "text": "black"
+      }
     },
     {
       "title": "viljareiser.no",
@@ -32,7 +40,11 @@
         "date": "2022-06-26",
         "tags": ["Website", "Craft CMS", "Tailwind", "API", "Netlife"]
       },
-      "url": "https://viljareiser.no/"
+      "url": "https://viljareiser.no/",
+      "color": {
+        "bg": "#d1356d",
+        "text": "white"
+      }
     },
     {
       "title": "Frontend and UX assistance",
@@ -42,6 +54,10 @@
       "extra": {
         "date": "2022-09-01",
         "tags": ["Vue", "Netlife"]
+      },
+      "color": {
+        "bg": "#310471",
+        "text": "white"
       }
     },
     {
@@ -61,7 +77,11 @@
           "Netlife"
         ]
       },
-      "url": "https://oneoceanexpedition.com/"
+      "url": "https://oneoceanexpedition.com/",
+      "color": {
+        "bg": "#173464",
+        "text": "white"
+      }
     },
     {
       "title": "Optimze handelensmiljofond.no",
@@ -72,7 +92,11 @@
         "date": "2021-10-21",
         "tags": ["Website", "Craft CMS", "Optimze", "Netlife"]
       },
-      "url": "https://handelensmiljofond.no/"
+      "url": "https://handelensmiljofond.no/",
+      "color": {
+        "bg": "#14361d",
+        "text": "white"
+      }
     },
     {
       "title": "verdighetsenteret.no",
@@ -83,7 +107,11 @@
         "date": "2021-09-14",
         "tags": ["Website", "Craft CMS", "Tailwind", "Netlife"]
       },
-      "url": "https://verdighetsenteret.no/"
+      "url": "https://verdighetsenteret.no/",
+      "color": {
+        "bg": "#f7ebdf",
+        "text": "black"
+      }
     },
     {
       "title": "Upgrade vff.no",
@@ -94,7 +122,11 @@
         "date": "2021-07-14",
         "tags": ["Website", "Craft CMS", "Upgrade", "Netlife"]
       },
-      "url": "https://vff.no/"
+      "url": "https://vff.no/",
+      "color": {
+        "bg": "#285fab",
+        "text": "white"
+      }
     },
     {
       "title": "khdele.no",
@@ -105,7 +137,11 @@
         "date": "2021-06-14",
         "tags": ["Website", "Craft CMS", "Tailwind", "Netlife"]
       },
-      "url": "https://verdighetsenteret.no/"
+      "url": "https://khdele.no/",
+      "color": {
+        "bg": "#1a4329",
+        "text": "white"
+      }
     },
     {
       "title": "wcarbon",
@@ -176,7 +212,11 @@
         "tags": ["Website", "Zola"]
       },
       "url": "https://fribyte.no",
-      "sources": ["https://github.com/fribyte-code/fribyte.no"]
+      "sources": ["https://github.com/fribyte-code/fribyte.no"],
+      "color": {
+        "bg": "#800000",
+        "text": "white"
+      }
     },
     {
       "title": "vestkontakt.no",
@@ -188,7 +228,11 @@
         "date": "2020-01-07",
         "tags": ["Website", "Jekyll"]
       },
-      "url": "https://vestkontakt.no"
+      "url": "https://vestkontakt.no",
+      "color": {
+        "bg": "#4eace9",
+        "text": "black"
+      }
     }
   ]
 }

@@ -13,13 +13,13 @@
 
   <div class="blogroll">
     {% for blog in roll %}
-      <div class="blogroll--item">
-        <div class="blogroll--item--header">
+      <div class="blogroll__item">
+        <div class="blogroll__item__header">
           <h2>{{ blog.name }}</h2>
         </div>
-        <div class="blogroll--item--body">
+        <div class="blogroll__item__body">
           <p>{{ blog.description }}</p>
-          <ul class="blogroll--item--body--urls">
+          <ul class="blogroll__item__body__urls">
             <li><a href="{{ blog.url }}" target="_blank">Website</a></li>
             <li><a href="{{ blog.rss }}" target="_blank">RSS</a></li>
           </ul>

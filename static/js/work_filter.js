@@ -22,7 +22,7 @@ function updateWorkGrid() {
   history.replaceState(null, null, `?${queryParams.toString()}`)
   if (selectElement.value === "all") {
     ;[...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
-      item.parentNode.parentNode.classList.remove("hidden")
+      item.parentNode.parentNode.parentNode.classList.remove("hidden")
     )
     console.log("Showing all")
   } else {
@@ -34,17 +34,17 @@ function updateWorkGrid() {
       }
       if (option.value != selectElement.value) {
         ;[...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
-          item.parentNode.parentNode.classList.add("hidden")
+          item.parentNode.parentNode.parentNode.classList.add("hidden")
         )
         array.forEach((item) =>
-          item.parentNode.parentNode.classList.remove("hidden")
+          item.parentNode.parentNode.parentNode.classList.remove("hidden")
         )
       } else {
         ;[...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
-          item.parentNode.parentNode.classList.remove("hidden")
+          item.parentNode.parentNode.parentNode.classList.remove("hidden")
         )
         array.forEach((item) =>
-          item.parentNode.parentNode.classList.remove("hidden")
+          item.parentNode.parentNode.parentNode.classList.remove("hidden")
         )
       }
     }

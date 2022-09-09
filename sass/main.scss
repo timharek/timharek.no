@@ -65,18 +65,18 @@ $b-md: 768px;
   background-color: var(--color-background);
 }
 
-@mixin gridDouble() {
+@mixin gridDouble($column-count: 1) {
   @media (min-width: $b-md) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: $spacingLarge;
   }
 
-  &--item {
+  &__item {
     background-color: var(--color-background-secondary);
     border-radius: $spacingSmall;
 
-    &--header {
+    &__header {
       border-radius: $spacingSmall $spacingSmall 0 0;
       background-color: var(--color-primary);
       color: white;
@@ -86,10 +86,19 @@ $b-md: 768px;
 
     }
 
-    &--body {
+    &__body {
       padding: $spacing;
 
-      &--urls {
+      p {
+        margin-block: 0;
+      }
+
+      &__tags {
+        padding-left: $spacing;
+        column-count: $column-count;
+      }
+
+      &__urls {
         list-style: none;
         padding: 0;
         @include flex();
@@ -568,6 +577,10 @@ table.stats {
 
 .work-filter {
   margin-block-end: $spacing;
+}
+
+.work {
+  @include gridDouble($column-count: 2);
 }
 
 .work-grid {
