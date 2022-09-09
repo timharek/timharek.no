@@ -66,10 +66,11 @@ $b-md: 768px;
 }
 
 @mixin gridDouble($column-count: 1) {
+  display: grid;
+  gap: $spacingLarge;
+
   @media (min-width: $b-md) {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: $spacingLarge;
   }
 
   &__item {
