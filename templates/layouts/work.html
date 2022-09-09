@@ -23,17 +23,6 @@
       Last updated <time datetime="{{ work_data.updated }}">{{ work_data.updated }}</time>
     </span>
   {% endif %}
-  {% if page.extra.subnav %}
-    <nav class="page__subnav" aria-label="Sub navigation">
-      <ul>
-        {% for item in page.extra.subnav %}
-          <li>
-            <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  {% endif %}
   {{ content | safe }}
 
   {% set_global all_tags = [] %}
@@ -49,7 +38,13 @@
       <select name="filter" id="filter" onchange="updateWorkGrid()" class="">
           <option value="all">Show all</option>
           {% for tag in all_tags_unique | sort %}
-            <option value="{{ tag | slugify }}">{{ tag }}</option>
+            {% set_global tag_count = 0 %}
+            {% for item in work_data.list %}
+              {% if tag in item.extra.tags %}
+                {% set_global tag_count = tag_count + 1 %}
+              {% endif %}
+            {% endfor %}
+            <option value="{{ tag | slugify }}">{{ tag }} ({{ tag_count }})</option>
           {% endfor %}
       </select>
     </label>
