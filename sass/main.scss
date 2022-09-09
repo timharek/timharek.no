@@ -65,6 +65,40 @@ $b-md: 768px;
   background-color: var(--color-background);
 }
 
+@mixin gridDouble() {
+  @media (min-width: $b-md) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $spacingLarge;
+  }
+
+  &--item {
+    background-color: var(--color-background-secondary);
+    border-radius: $spacingSmall;
+
+    &--header {
+      border-radius: $spacingSmall $spacingSmall 0 0;
+      background-color: var(--color-primary);
+      color: white;
+      max-width: 100%;
+      height: 8rem;
+      @include flex(center, center);
+
+    }
+
+    &--body {
+      padding: $spacing;
+
+      &--urls {
+        list-style: none;
+        padding: 0;
+        @include flex();
+        gap: $spacing;
+      }
+    }
+  }
+}
+
 a {
   --color-text: var(--color-primary);
   color: var(--color-text);
@@ -493,21 +527,7 @@ article.post {
 }
 
 .blogroll {
-  @media (min-width: $b-md) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: $spacingLarge;
-  }
-
-  .blog {
-    ul.blog__tags {
-      @include list();
-      font-style: italic;
-    }
-    ul.blog__urls {
-      @include list();
-    }
-  }
+  @include gridDouble();
 }
 
 .page-content.page-stats {

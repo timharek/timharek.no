@@ -13,22 +13,17 @@
 
   <div class="blogroll">
     {% for blog in roll %}
-      <div class="blog">
-        <h2>{{ blog.name }}</h2>
-        {% if blog.tags %}
-        <ul class="blog__tags">
-          {% for tag in blog.tags %}
-            <li>{{ tag }}</li>
-          {% endfor %}
-        </ul>
-        {% else %}
-          {{ throw(message="You need to provide tags for the blog") }}
-        {% endif %}
-        <p>{{ blog.description }}</p>
-        <ul class="blog__urls">
-          <li><a href="{{ blog.url }}" target="_blank">Website</a></li>
-          <li><a href="{{ blog.rss }}" target="_blank">RSS</a></li>
-        </ul>
+      <div class="blogroll--item">
+        <div class="blogroll--item--header">
+          <h2>{{ blog.name }}</h2>
+        </div>
+        <div class="blogroll--item--body">
+          <p>{{ blog.description }}</p>
+          <ul class="blogroll--item--body--urls">
+            <li><a href="{{ blog.url }}" target="_blank">Website</a></li>
+            <li><a href="{{ blog.rss }}" target="_blank">RSS</a></li>
+          </ul>
+        </div>
       </div>
     {% endfor %}
   </div>
