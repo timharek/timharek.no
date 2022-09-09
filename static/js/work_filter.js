@@ -21,10 +21,9 @@ function updateWorkGrid() {
 
   history.replaceState(null, null, `?${queryParams.toString()}`)
   if (selectElement.value === "all") {
-    ;[...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
+    [...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
       item.parentNode.parentNode.parentNode.classList.remove("hidden")
     )
-    console.log("Showing all")
   } else {
     const array = findParentWithTag(selectElement.value)
 
@@ -33,14 +32,14 @@ function updateWorkGrid() {
         continue
       }
       if (option.value != selectElement.value) {
-        ;[...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
+        [...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
           item.parentNode.parentNode.parentNode.classList.add("hidden")
         )
         array.forEach((item) =>
           item.parentNode.parentNode.parentNode.classList.remove("hidden")
         )
       } else {
-        ;[...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
+        [...ALL_TAG_LIST_ELEMENTS].forEach((item) =>
           item.parentNode.parentNode.parentNode.classList.remove("hidden")
         )
         array.forEach((item) =>
@@ -52,7 +51,5 @@ function updateWorkGrid() {
 }
 
 function findParentWithTag(tag) {
-  const result = document.querySelectorAll(`[data-tag=${tag}]`)
-
-  return result
+  return document.querySelectorAll(`[data-tag=${tag}]`)
 }
