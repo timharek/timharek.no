@@ -26,7 +26,7 @@ Nextcloud-app.
 {{ picture(url="content/blog/2022-09-05-why-you-shoud-stop-taking-photos-of-documents/files-scan.jpeg", alt="Screenshots from iOS scanning a document" caption="How you can scan documents on iOS with the Files-app.") }}
 
 (I don't have an Android phone available to test, but it seems it's possible to
-scan documents straight from [the camera app](android), please do that instead
+scan documents straight from [the camera app][android], please do that instead
 of taking a 5 MB photo.)
 
 From the example above, a photo of my notebook took about 6.7 MB vs the scan
