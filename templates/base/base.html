@@ -45,9 +45,10 @@
     <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed"
     type="application/rss+xml" title="{{ config.title }}" />
     <link href="https://github.com/timharek" rel="me" />
-    <link href="https://snabelen.no/@tim" rel="me" />
+    <link href="https://sr.ht/~timharek/" rel="me" />
+    <link href="https://codeberg.org/timharek" rel="me" />
     <link href="mailto:tim@harek.no" rel="me" />
-    <link href="/public-key.asc" rel="pgpkey authn" />
+    <link href="{{ get_url(path="public-key.asc") }}" rel="pgpkey authn" />
   </head>
   <body>
     {% include "base/header.html" %}
