@@ -33,11 +33,11 @@ This website is built using [Zola][zola] by yours truly.
 
 Proud member of [1MB club][1mb] and [512KB club][512kb].
 
-Source code is available on [GitHub][github] and `git.wyd.no`
-(`ssh git.wyd.no -p 23231`).
+Source code is available on [Codeberg][codeberg] and [SourceHut][sourcehut].
 
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org
 [1mb]: https://1mb.club
 [512kb]: https://512kb.club
-[github]: https://github.com/timharek/timharek.no
+[codeberg]: https://codeberg.org/timharek/timharek.no
+[sourcehut]: https://git.sr.ht/~timharek/timharek.no
