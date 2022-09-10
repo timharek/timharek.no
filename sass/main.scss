@@ -578,6 +578,10 @@ table.stats {
 
 .work-filter {
   margin-block-end: $spacing;
+
+  select {
+    font-size: $spacing;
+  }
 }
 
 .work {

@@ -35,7 +35,7 @@
 
   <div class="work-filter">
     <label for="filter">Filter tags
-      <select name="filter" id="filter" onchange="updateWorkGrid()" class="">
+      <select name="filter" id="filter" onchange="updateWorkGrid()">
           <option value="all">Show all</option>
           {% for tag in all_tags_unique | sort %}
             {% set_global tag_count = 0 %}
