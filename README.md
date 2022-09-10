@@ -1,22 +1,15 @@
 # [timharek.no](https://timharek.no)
 
-This is my personal website, made with [Zola](https://getzola.org).
-
-It's pretty much tailored to my liking, but feel free to clone/fork this repo.
+My personal website, made with [Zola](https://getzola.org).
 
 ## Features
 
 - Blog
-- [CV](#cv) (Resume)
-- "Uses"-page
+- CV
+- ++
 
-### CV
-
-The CV-page is generated from a simple JSON-file, `static/api/cv.json`, it's loosely
-based on [JSON Resume schema](https://jsonresume.org/schema/).
-
-Here you can specify your experiences (work, education, voluntary etc.) and 
-skills.
+The CV-page is generated from a simple JSON-file, `static/api/cv.json`, it's
+loosely based on [JSON Resume schema](https://jsonresume.org/schema/).
 
 ## License
 
