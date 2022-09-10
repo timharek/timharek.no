@@ -2,7 +2,7 @@
   "blogs": [
     {
       "name": "Arne Bahlo",
-      "description": "A software engineer that writes about technology.",
+      "description": "A software engineer that writes about technology. Also has a newsletter with lots of cool links.",
       "tags": ["Technology"],
       "url": "https://arne.me/",
       "rss": "https://arne.me/atom.xml"
@@ -69,6 +69,13 @@
       "tags": ["Technology", "Webdev", "Ethics", "Privacy"],
       "url": "https://nilsnh.no/",
       "rss": "https://nilsnh.no/index.xml"
+    },
+    {
+      "name": "Nils Norman Haukås",
+      "description": "Posts about technology, webdev, web design and more.",
+      "tags": ["Technology", "Webdev"],
+      "url": "https://www.lkhrs.com/",
+      "rss": "https://www.lkhrs.com/blog/index.xml"
     }
   ]
 }
