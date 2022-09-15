@@ -3,7 +3,7 @@ title = "Technology that I use"
 description = "Different technologies that Tim Hårek uses."
 template = "layouts/page.html"
 aliases = ["/use"]
-updated = 2022-05-30
+updated = 2022-09-15
 +++
 
 This page contains lists of different technologies that I use, hardware,
@@ -53,7 +53,6 @@ This is software that I use on my devices.
 - [Slack][slack]. Communication at work.
 - [Mattermost][mattermost]. A great open source alternative to Slack.
 - [Dozer][dozer]. Hide icons from the menu bar on macOS.
-- [Hammerspoon][hammerspoon]. Automate everything on macOS with Lua.
 - [Lulu][lulu]. Network monitor for macOS.
 - [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
 - [MacUpdater][macupdater]. Keeping my Mac up to date.
@@ -84,9 +83,7 @@ This is software that I use on my devices.
 [firefox]: https://www.mozilla.org/en-US/firefox/new
 [bitwarden]: https://bitwarden.com
 [ublock]: https://ublockorigin.com
-[multia]:
-  https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
-[hammerspoon]: https://www.hammerspoon.org
+[multia]: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
 [mattermost]: https://mattermost.com
 [neovim]: https://neovim.io
 [telescope]: https://github.com/nvim-telescope/telescope.nvim
