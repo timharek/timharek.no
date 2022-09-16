@@ -3,7 +3,7 @@ title = "Owning my own logs"
 description = """
 Not having someone else own your logs is very nice, especially when you can organize them with "magic".
 """
-updated = 2022-08-23
+updated = 2022-09-16
 [taxonomies]
 tags = ["Privacy", "IndieWeb"]
 +++
@@ -21,7 +21,7 @@ forgetting about its existence.
 A couple of months ago I came of Tom MacWright's [blog](https://macwright.com/),
 and I was very intrigued by how the website worked. While lurking around I found
 an interesting
-[blog-post](https://macwright.com/2017/12/11/indieweb-reading.html) about owning
+[blogpost](https://macwright.com/2017/12/11/indieweb-reading.html) about owning
 your own reading log. I was then inspired to create something similar for
 myself, not only for books but also for movies and TV shows.
 
@@ -32,9 +32,9 @@ suits me better in terms of searchability and categorizations. Since I use
 [Zola](https://getzola.org) as my SSG, I can create and maintain multiple
 taxonomies for all my movies and TV shows.
 
-For example, I can see all the movies and TV shows that's in the _genre_
+~~For example, I can see all the movies and TV shows that's in the _genre_
 [**Action**](/genres/action) or movies with the _director_
-[**Jon Watts**](/director/jon-watts/).
+[**Jon Watts**](/director/jon-watts/).~~
 
 It's really cool! The only downside, in my honest opinion, is that I have to
 create new Markdown-files for all the entires in order to have taxonomies. I
