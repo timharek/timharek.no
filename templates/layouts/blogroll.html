@@ -14,7 +14,11 @@
   <div class="blogroll">
     {% for blog in roll %}
       <div class="blogroll__item">
-        <div class="blogroll__item__header">
+        {% if blog.color %}
+          <div class="blogroll__item__header" style="background-color: {{ blog.color.bg }}; color: {{ blog.color.text }}">
+        {% else %}
+          <div class="blogroll__item__header">
+        {% endif %}
           <h2>{{ blog.name }}</h2>
         </div>
         <div class="blogroll__item__body">
