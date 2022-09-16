@@ -8,11 +8,11 @@
     {{ page.content | safe }}
   {% endif %}
 
-  {% set roll = load_data(path="static/api/blogroll.json") %}
-  {% set roll = roll.blogs | sort(attribute="name") %}
+  {% set blogs = load_data(path="static/api/blogroll.json") %}
+  {% set blogs = blogs | sort(attribute="name") %}
 
   <div class="blogroll">
-    {% for blog in roll %}
+    {% for blog in blogs %}
       <div class="blogroll__item">
         {% if blog.color %}
           <div class="blogroll__item__header" style="background-color: {{ blog.color.bg }}; color: {{ blog.color.text }}">

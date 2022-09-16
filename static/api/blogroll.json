@@ -1,117 +1,115 @@
-{
-  "blogs": [
-    {
-      "name": "Arne Bahlo",
-      "description": "A software engineer that writes about technology. Also has a newsletter with lots of cool links.",
-      "tags": ["Technology"],
-      "url": "https://arne.me/",
-      "rss": "https://arne.me/atom.xml",
-      "color": {
-        "bg": "#76b7ba",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Bjørn Stærk",
-      "description": "A fellow Norwegian technologist that's also a book author, he some times does deep dives into the rabbit-hole of technology.",
-      "tags": ["Technology", "Author"],
-      "url": "https://bearstrong.net/",
-      "rss": "https://bearstrong.net/index.xml"
-    },
-    {
-      "name": "Brian Lovin",
-      "description": "A designer that writes about web development, technology and gives design critiques to those who want it.",
-      "tags": ["Web design", "Webdev", "Technology"],
-      "url": "https://brianlovin.com/",
-      "rss": "https://brianlovin.com/writing/rss",
-      "color": {
-        "bg": "#4d81ef",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Christian Engelsen",
-      "description": "A friend of mine that writes about technology, devops, machine learning and other shenanigans regarding technology.",
-      "tags": ["Technology", "DevOps", "AI / ML"],
-      "url": "https://cengelsen.no/",
-      "rss": "https://cengelsen.no/index.xml",
-      "color": {
-        "bg": "#f5c443",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Erik Johannes",
-      "description": "Well written tech-person that writes about everything from plaintext to machine learning to reviewing running shoes.",
-      "tags": ["Technology", "ML", "Outdoors"],
-      "url": "https://erikjohannes.no/",
-      "rss": "https://erikjohannes.no/index.xml",
-      "color": {
-        "bg": "#f5f5f6",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Jim Nielsen",
-      "description": "Frequent writer, writes about web technologies, everything from very specific CSS-properties to whole web-frameworks.",
-      "tags": ["Technology", "Webdev", "Web design"],
-      "url": "https://blog.jim-nielsen.com/",
-      "rss": "https://blog.jim-nielsen.com/feed.json",
-      "color": {
-        "bg": "#ea4025",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Tom MacWright",
-      "description": "Writes about geo-specific stuff, cool gadgets and other cool tidbits.",
-      "tags": ["Technology", "Webdev", "Web design"],
-      "url": "https://macwright.com/",
-      "rss": "https://macwright.com/rss.xml",
-      "color": {
-        "bg": "#f4ddfd",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Personvernsbloggen",
-      "description": "A Norwegian blog about privacy, by a government-department, very interesting takes on social media and their responsibilities.",
-      "tags": ["Technology", "Privacy", "Social"],
-      "url": "https://www.personvernbloggen.no/",
-      "rss": "https://www.personvernbloggen.no/feed/",
-      "color": {
-        "bg": "#8b9e92",
-        "text": "black"
-      }
-    },
-    {
-      "name": "Mathias Haugsbø",
-      "description": "A friend of mine that writes about technology, finance, mapping and button UX.",
-      "tags": ["Technology", "Finance", "Maps"],
-      "url": "https://mathiash98.github.io/",
-      "rss": "https://mathiash98.github.io/posts/index.xml",
-      "color": {
-        "bg": "#1d1e20",
-        "text": "white"
-      }
-    },
-    {
-      "name": "Nils Norman Haukås",
-      "description": "A colleague of mine that writes about web development, ethics and much more.",
-      "tags": ["Technology", "Webdev", "Ethics", "Privacy"],
-      "url": "https://nilsnh.no/",
-      "rss": "https://nilsnh.no/index.xml"
-    },
-    {
-      "name": "Luke Harris",
-      "description": "Posts about technology, webdev, web design and more.",
-      "tags": ["Technology", "Webdev"],
-      "url": "https://www.lkhrs.com/",
-      "rss": "https://www.lkhrs.com/blog/index.xml",
-      "color": {
-        "bg": "#4a7e41",
-        "text": "white"
-      }
+[
+  {
+    "name": "Arne Bahlo",
+    "description": "A software engineer that writes about technology. Also has a newsletter with lots of cool links.",
+    "tags": ["Technology"],
+    "url": "https://arne.me/",
+    "rss": "https://arne.me/atom.xml",
+    "color": {
+      "bg": "#76b7ba",
+      "text": "black"
     }
-  ]
-}
+  },
+  {
+    "name": "Bjørn Stærk",
+    "description": "A fellow Norwegian technologist that's also a book author, he some times does deep dives into the rabbit-hole of technology.",
+    "tags": ["Technology", "Author"],
+    "url": "https://bearstrong.net/",
+    "rss": "https://bearstrong.net/index.xml"
+  },
+  {
+    "name": "Brian Lovin",
+    "description": "A designer that writes about web development, technology and gives design critiques to those who want it.",
+    "tags": ["Web design", "Webdev", "Technology"],
+    "url": "https://brianlovin.com/",
+    "rss": "https://brianlovin.com/writing/rss",
+    "color": {
+      "bg": "#4d81ef",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Christian Engelsen",
+    "description": "A friend of mine that writes about technology, devops, machine learning and other shenanigans regarding technology.",
+    "tags": ["Technology", "DevOps", "AI / ML"],
+    "url": "https://cengelsen.no/",
+    "rss": "https://cengelsen.no/index.xml",
+    "color": {
+      "bg": "#f5c443",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Erik Johannes",
+    "description": "Well written tech-person that writes about everything from plaintext to machine learning to reviewing running shoes.",
+    "tags": ["Technology", "ML", "Outdoors"],
+    "url": "https://erikjohannes.no/",
+    "rss": "https://erikjohannes.no/index.xml",
+    "color": {
+      "bg": "#f5f5f6",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Jim Nielsen",
+    "description": "Frequent writer, writes about web technologies, everything from very specific CSS-properties to whole web-frameworks.",
+    "tags": ["Technology", "Webdev", "Web design"],
+    "url": "https://blog.jim-nielsen.com/",
+    "rss": "https://blog.jim-nielsen.com/feed.json",
+    "color": {
+      "bg": "#ea4025",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Tom MacWright",
+    "description": "Writes about geo-specific stuff, cool gadgets and other cool tidbits.",
+    "tags": ["Technology", "Webdev", "Web design"],
+    "url": "https://macwright.com/",
+    "rss": "https://macwright.com/rss.xml",
+    "color": {
+      "bg": "#f4ddfd",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Personvernsbloggen",
+    "description": "A Norwegian blog about privacy, by a government-department, very interesting takes on social media and their responsibilities.",
+    "tags": ["Technology", "Privacy", "Social"],
+    "url": "https://www.personvernbloggen.no/",
+    "rss": "https://www.personvernbloggen.no/feed/",
+    "color": {
+      "bg": "#8b9e92",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Mathias Haugsbø",
+    "description": "A friend of mine that writes about technology, finance, mapping and button UX.",
+    "tags": ["Technology", "Finance", "Maps"],
+    "url": "https://mathiash98.github.io/",
+    "rss": "https://mathiash98.github.io/posts/index.xml",
+    "color": {
+      "bg": "#1d1e20",
+      "text": "white"
+    }
+  },
+  {
+    "name": "Nils Norman Haukås",
+    "description": "A colleague of mine that writes about web development, ethics and much more.",
+    "tags": ["Technology", "Webdev", "Ethics", "Privacy"],
+    "url": "https://nilsnh.no/",
+    "rss": "https://nilsnh.no/index.xml"
+  },
+  {
+    "name": "Luke Harris",
+    "description": "Posts about technology, webdev, web design and more.",
+    "tags": ["Technology", "Webdev"],
+    "url": "https://www.lkhrs.com/",
+    "rss": "https://www.lkhrs.com/blog/index.xml",
+    "color": {
+      "bg": "#4a7e41",
+      "text": "white"
+    }
+  }
+]

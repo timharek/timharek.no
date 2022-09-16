@@ -20,7 +20,7 @@ I work as a technologist at Netlife Bergen where I mostly dabble with full stack
 development, accessibility and UX design.
 
 I spend my free time learning about new technologies, automating my everyday and
-hiking with my dog, Ayla! 🐕
+hiking with my dog! 🐕
 
 ## Contact
 
