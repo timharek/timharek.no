@@ -134,5 +134,13 @@
     "genres": ["Action", "Adventure", "Indie", "Puzzle"],
     "platform": ["PC"],
     "date": ["2022-08-22"]
+  },
+  {
+    "title": "Detroit: Become Human",
+    "release_year": 2020,
+    "my_rating": 3,
+    "genres": ["Action", "Adventure"],
+    "platform": ["PS5"],
+    "date": ["2022-09-17"]
   }
 ]
