@@ -861,5 +861,14 @@
     "director": ["David Leitch"],
     "type": "Movie",
     "date": ["2022-08-23"]
+  },
+  {
+    "title": "Bodies Bodies Bodies",
+    "release_year": 2022,
+    "my_rating": ,
+    "genres": ["Horror", "Comedy", "Thriller"],
+    "director": ["Halina Reijn"],
+    "type": "Movie",
+    "date": ["2022-09-24"]
   }
 ]
