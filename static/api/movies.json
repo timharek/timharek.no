@@ -865,10 +865,19 @@
   {
     "title": "Bodies Bodies Bodies",
     "release_year": 2022,
-    "my_rating": ,
+    "my_rating": 3,
     "genres": ["Horror", "Comedy", "Thriller"],
     "director": ["Halina Reijn"],
     "type": "Movie",
     "date": ["2022-09-24"]
+  },
+  {
+    "title": "Nope",
+    "release_year": 2022,
+    "my_rating": 4,
+    "genres": ["Horror", "Mystery", "Sci-Fi"],
+    "director": ["Jordan Peele"],
+    "type": "Movie",
+    "date": ["2022-09-25"]
   }
 ]
