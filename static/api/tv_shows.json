@@ -564,5 +564,21 @@
     "creator": ["Vince Gilligan"],
     "episode_count": 13,
     "season": 6
+  },
+  {
+    "title": "The Bear",
+    "description": "",
+    "release_year": 2022,
+    "my_rating": 5,
+    "genres": ["Drama"],
+    "directors": [
+      "Christopher Storer",
+      "Joanna Calo"
+    ],
+    "type": "TV",
+    "date": ["2022-09-27"],
+    "creator": ["Christopher Storer"],
+    "episode_count": 8,
+    "season": 1
   }
 ]
