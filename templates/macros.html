@@ -39,27 +39,25 @@
   {% for experience in array %}
     <article class="experience">
       <header class="experience__header">
-        {% if experience.logo %}
-          <img
-            class="experience__logo"
-            src="{{ get_url(path=experience.logo) | safe }}"
-            alt="{{ experience.name }} logo"
-          />
-        {% else %}
-          <img
-            class="experience__logo"
-            src="{{ get_url(path="/cv/empty.svg") | safe }}"
-            alt="No logo"
-          />
-        {% endif %}
-        <h3 class="experience__name">{{ experience.name }}</h3>
+        <h3 class="experience__name">
+          {{ experience.position }} 
+        </h3>
+        <div class="role__name">
+          {% if experience.url %}
+            <a href="{{ experience.url }}" target="_blank">
+              {{ experience.name }}
+            </a>
+          {% else %}
+            {{ experience.name }}
+          {% endif %}
+          <span>
+            {{ experience.startDate | date(format="%b %Y") }} - {% if
+            experience.endDate %}{{ experience.endDate | date(format="%b %Y") }}{% else %}present{%
+            endif %}
+          </span>
+        </div>
       </header>
       <div class="experience__role">
-        <h4 class="role__name">
-          {{ experience.position }} - {{ experience.startDate | date(format="%b %Y") }} - {% if
-          experience.endDate %}{{ experience.endDate | date(format="%b %Y") }}{% else %}present{%
-          endif %}
-        </h4>
         {% if experience.highlights %}
           {% if experience.highlights | length > 1 %}
           <ul class="role__list">
@@ -84,27 +82,25 @@
   {% for experience in array %}
     <article class="experience">
       <header class="experience__header">
-        {% if experience.logo %}
-          <img
-            class="experience__logo"
-            src="{{ get_url(path=experience.logo) | safe }}"
-            alt="{{ experience.insitution }} logo"
-          />
-        {% else %}
-          <img
-            class="experience__logo"
-            src="{{ get_url(path="/cv/empty.svg") | safe }}"
-            alt="No logo"
-          />
-        {% endif %}
-        <h3 class="experience__name">{{ experience.insitution }}</h3>
+        <h3 class="experience__name">
+          {{ experience.studyType }} in {{ experience.area }}
+        </h3>
+        <div class="role__name">
+          {% if experience.url %}
+            <a href="{{ experience.url }}" target="_blank">
+              {{ experience.insitution }}
+            </a>
+          {% else %}
+            {{ experience.instituion }}
+          {% endif %}
+          <span>
+            {{ experience.startDate | date(format="%b %Y") }} - {% if
+            experience.endDate %}{{ experience.endDate | date(format="%b %Y") }}{% else %}present{%
+            endif %}
+          </span>
+        </div>
       </header>
       <div class="experience__role">
-        <h4 class="role__name">
-          {{ experience.studyType }} in {{ experience.area }} - {{ experience.startDate | date(format="%b %Y") }} - {% if
-          experience.endDate %}{{ experience.endDate | date(format="%b %Y") }}{% else %}present{%
-          endif %}
-        </h4>
         <p class="role__description">{{ experience.summary }}</p>
       </div>
     </article>

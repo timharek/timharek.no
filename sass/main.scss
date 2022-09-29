@@ -425,16 +425,10 @@ article.post {
 .experience {
   padding-block: $spacing;
 
-  &:not(:first-of-type) {
-    border-top: 2px solid gray;
-  }
-  &:not(:last-of-type) {
-    border-bottom: 2px solid gray;
-  }
-
   &__header {
     @include flex();
-    gap: $spacing;
+    column-gap: $spacing;
+    flex-wrap: wrap;
   }
 
   &__logo {
@@ -447,7 +441,13 @@ article.post {
 
   .role__name {
     margin: 0;
-    margin-block-end: $spacing;
+    width: auto;
+    flex-grow: 2;
+    @include flex(space-between);
+
+    span {
+      color: var(--color-border-aside)
+    }
   }
 
   .role__description {
