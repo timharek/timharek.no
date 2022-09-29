@@ -13,8 +13,7 @@ software and services.
 
 - **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
 - **iPhone 13 Pro**. Superb battery life and camera.
-- **Casio G-SHOCK GMW-B5000GDLTD-1ER**. A dumb watch for the day-to-day.
-- **Apple Watch Series 5**. For running and strength training.
+- **Apple Watch Ultra**. Overkill watch for everyday exercise.
 
 ### Homelab
 
