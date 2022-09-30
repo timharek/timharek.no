@@ -2,6 +2,20 @@
   "updated": "2022-07-17",
   "list": [
     {
+      "title": "ren.no",
+      "client": "REN",
+      "role": "UX-designer",
+      "description": "Designed components for their internal datasheet creation",
+      "extra": {
+        "date": "2022-09-30",
+        "tags": ["Website", "Figma", "UX", "Netlife"]
+      },
+      "color": {
+        "bg": "#69dd74",
+        "text": "black"
+      }
+    },
+    {
       "title": "ypper.no",
       "client": "Ypper",
       "role": "Tech lead and developer",
