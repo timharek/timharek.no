@@ -217,6 +217,10 @@ pre code {
   padding: 0;
 }
 
+button, select {
+  font-size: $spacing;
+}
+
 picture {
   img {
     max-width: 100%;
@@ -578,10 +582,6 @@ table.stats {
 
 .work-filter {
   margin-block-end: $spacing;
-
-  select {
-    font-size: $spacing;
-  }
 }
 
 .work {
