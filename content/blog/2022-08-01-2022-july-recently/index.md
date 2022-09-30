@@ -104,4 +104,4 @@ I'm not setting any goals this time,
 [zola-release]: https://github.com/getzola/zola/releases/tag/v0.16.0
 [work]: @/work/_index.md
 [jsonresume]: https://jsonresume.org/schema/
-[cv]: @/cv/_index.md
+[cv]: @/cv.md
