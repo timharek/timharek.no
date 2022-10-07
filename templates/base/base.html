@@ -7,11 +7,12 @@
     {% set description = page.description | default(value=config.description) %}
   {% endblock head %}
   <head>
-    <title>{{ title }}</title>
-
     <meta charset="UTF-8" />
+    <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    {# SEO #}
     <meta name="description" content="{{ description }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ title }}" />
@@ -20,18 +21,16 @@
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ description }}" />
-    <meta
-      property="og:url"
-      content="{% if current_url %}{{ current_url | safe }}{% else %}{{ config.title }}{% endif %}"
-    />
+    <meta property="og:url" content="{{ current_url | default(value=config.base_url) | safe }}" />
     <meta property="og:image" content="{{ cover | safe }}" />
 
+    {# Favicon #}
     <link rel="shortcut icon" sizes="192x192" href="{{ logo | safe }}" />
     <link rel="apple-touch-icon" href="{{ logo | safe }}" />
     <link rel="mask-icon" href="{{ logo | safe }}" />
 
-    <link rel="preload" href="{{ get_url(path="main.css") | safe }}" 
-      as="style"/> 
+    {# Styles #}
+    <link rel="preload" href="{{ get_url(path="main.css") | safe }}" as="style"/> 
     <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
     <meta name="color-scheme" content="dark light">
 
@@ -53,8 +52,7 @@
   <body>
     {% include "base/header.html" %}
     <main class="wrapper">
-      {% block content %} 
-      {% endblock content %} 
+      {% block content %}{% endblock content %} 
     </main>
     {% include "base/footer.html" %}
   </body>
