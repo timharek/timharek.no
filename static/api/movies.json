@@ -879,5 +879,14 @@
     "director": ["Jordan Peele"],
     "type": "Movie",
     "date": ["2022-09-25"]
+  },
+  {
+    "title": "Werewolf by Night",
+    "release_year": 2022,
+    "my_rating": 4,
+    "genres": ["Action", "Adventure", "Comedy"],
+    "director": ["Michael Giacchino"],
+    "type": "Movie",
+    "date": ["2022-10-08"]
   }
 ]
