@@ -60,6 +60,15 @@
 
   <h2>Posts/words per year</h2>
   <table class="stats">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>No. of posts</th>
+        <th>Words</th>
+        <th>Avg. words</th>
+      </tr>
+    </thead>
+    <tbody>
     {% for year, page in pages | group_by(attribute="year") %}
       {% set year = year | int %}
       {% set year_posts = pages | filter(attribute="year", value=year) %}
@@ -72,12 +81,14 @@
       {% endfor %}
       {% set average_word_count = word_count_by_year / year_posts_length | round %}
 
-      <tr>
-        <th scope="row">{{ year }}</th>
-        <td>{{ year_posts|length }}</td>
-        <td>{{ word_count_by_year | num_format }} (~{{ average_word_count | int | num_format }})</td>
-      </tr>
+        <tr>
+          <th scope="row">{{ year }}</th>
+          <td>{{ year_posts|length }}</td>
+          <td>{{ word_count_by_year | num_format }}</td>
+          <td>~{{ average_word_count | int | num_format }}</td>
+        </tr>
     {% endfor %}
+    </tbody>
   </table>
 
   <h2>Top tags</h2>

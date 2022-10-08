@@ -548,6 +548,7 @@ table.stats {
   width: 100%;
   border-collapse: collapse;
   margin-block-end: $spacingLarge;
+  table-layout: auto;
 
   th {
     text-align: left;
