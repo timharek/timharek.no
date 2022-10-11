@@ -23,6 +23,9 @@
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:url" content="{{ current_url | default(value=config.base_url) | safe }}" />
     <meta property="og:image" content="{{ cover | safe }}" />
+    {% if page and page.extra.no_index or section and section.extra.no_index %}
+    <meta name="robots" content="noindex,nofollow" />
+    {% endif %}
 
     {# Favicon #}
     <link rel="shortcut icon" sizes="192x192" href="{{ logo | safe }}" />
