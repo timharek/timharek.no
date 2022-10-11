@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /watched/
 Disallow: /reading/
+Disallow: /no/wishlist/
 
 Sitemap: {{ get_url(path="sitemap.xml") }}
