@@ -13,3 +13,5 @@ no_index = true
 - Skinnforkle
 - [Raspberry Pi 4 Model B 8GB](https://prisguiden.no/produkt/raspberry-pi-4-model-b-8gb-448032)
 - [Myk/fleksibel plast (til 3D-printer)](https://prisguiden.no/produkt/v/A7lvW3JDb7U)
+- [Vivobarefoot Tracker II FG](https://www.vivobarefoot.com/rw/tracker-ii-fg-mens), størrelse 46 EU, farge Obsidian
+- [Vivobarefoot Primus Asana Mens](https://www.vivobarefoot.com/rw/primus-asana-mens?colour=Obsidian), størrelse 45 EU, farge Obsidian
