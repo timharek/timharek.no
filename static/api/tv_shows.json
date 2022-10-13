@@ -580,5 +580,21 @@
     "creator": ["Christopher Storer"],
     "episode_count": 8,
     "season": 1
+  },
+  {
+    "title": "She-Hulk: Attorney at Law",
+    "description": "",
+    "release_year": 2022,
+    "my_rating": 2,
+    "genres": ["Action", "Adventure", "Comedy", "Comicbook"],
+    "directors": [
+      "Kat Coiro",
+      "Anu Valia"
+    ],
+    "type": "TV",
+    "date": ["2022-10-13"],
+    "creator": ["Jessica Gao"],
+    "episode_count": 9,
+    "season": 1
   }
 ]
