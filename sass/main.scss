@@ -318,6 +318,10 @@ footer.footer {
       flex-wrap: wrap-reverse;
     }
 
+    .post__date {
+      font-family: $font-family-mono;
+    }
+
     p {
       margin-block-start: $spacingSmall;
       margin-block-end: 0;
