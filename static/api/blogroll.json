@@ -111,5 +111,36 @@
       "bg": "#4a7e41",
       "text": "white"
     }
+  },
+  {
+    "name": "Changelog",
+    "description": "News and podcasts for developers.",
+    "tags": ["Technology", "Development"],
+    "url": "https://changelog.com/",
+    "rss": "https://changelog.com/feed",
+    "color": {
+      "bg": "#7cc097",
+      "text": "black"
+    }
+  },
+  {
+    "name": "Self-Hosted",
+    "description": "Software and hardware around self-hosting.",
+    "tags": ["Technology", "Development", "Self-hosting"],
+    "url": "https://selfhosted.show/",
+    "rss": "https://selfhosted.show/rss",
+    "color": {
+      "bg": "#dd793c",
+      "text": "black"
+    }
+  },
+  {
+    "name": "WAN Show",
+    "description": "Every week Linus and Luke discuss the most current happenings in the technology universe.",
+    "tags": ["Technology"],
+    "color": {
+      "bg": "#e15a29",
+      "text": "black"
+    }
   }
 ]

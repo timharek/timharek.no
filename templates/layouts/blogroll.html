@@ -23,10 +23,16 @@
         </div>
         <div class="blogroll__item__body">
           <p>{{ blog.description }}</p>
-          <ul class="blogroll__item__body__urls">
-            <li><a href="{{ blog.url }}" target="_blank">Website</a></li>
-            <li><a href="{{ blog.rss }}" target="_blank">RSS</a></li>
-          </ul>
+          {% if blog.url or blog.rss %}
+            <ul class="blogroll__item__body__urls">
+              {% if blog.url %}
+                <li><a href="{{ blog.url }}" target="_blank">Website</a></li>
+              {% endif %}
+              {% if blog.rss %}
+                <li><a href="{{ blog.rss }}" target="_blank">RSS</a></li>
+              {% endif %}
+            </ul>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
