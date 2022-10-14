@@ -7,9 +7,9 @@
     <ul class="nav__list">
 
       {% for menu_item in config.extra.nav %}
-        <li class="nav__item">
-          {% set url = get_url(path=menu_item.path) %}
-          
+        {% set url = get_url(path=menu_item.path) %}
+        <li class="nav__item" {% if current_url and current_url == url %}aria-current="true"{% endif %}>
+
           {% if current_url and current_url == url %}
             {{ menu_item.name | safe }}
           {% else %}

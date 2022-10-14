@@ -6,10 +6,10 @@
   <nav class="footer__nav" aria-label="Secondary navigation">
     <ul class="nav__list">
     {% for footer_item in config.extra.footer_nav %}
-      {% set path = footer_item.path ~'/' %}
+      {% set url = get_url(path=footer_item.path) %}
 
-      <li class="nav__item">
-        {% if current_path and current_path == path %}
+        <li class="nav__item" {% if current_url and current_url == url %}aria-current="true"{% endif %}>
+        {% if current_url and current_url == url %}
           {{ footer_item.name | safe }}
         {% else %}
           <a class="footer__link" href="{{ get_url(path=footer_item.path) }}">
