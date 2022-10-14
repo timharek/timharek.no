@@ -14,6 +14,9 @@
 >
   <div class="post-header">
     <div class="header__wrapper">
+      <h1 class="post-title p-name" itemprop="name headline">
+        {{ page.title | safe }}
+      </h1>
       <time
         class="dt-published"
         datetime="{{ page.date }}"
@@ -30,9 +33,6 @@
           - updated {{ page.updated | date(format=config.extra.date_format__updated) }}
         </time>
       {% endif %}
-      <h1 class="post-title p-name" itemprop="name headline">
-        {{ page.title | safe }}
-      </h1>
     </div>
     <span class="post-meta">
       {%- if config.extra.author -%}
