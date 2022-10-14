@@ -216,6 +216,10 @@ pre code {
   padding: 0;
 }
 
+time {
+  font-family: $font-family-mono;
+}
+
 button,
 select {
   font-size: $spacing;
