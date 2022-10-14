@@ -6,7 +6,7 @@ description = "Today Vipps doesn't allow usernames for individuals, and that cou
 tags = ["Privacy", "Thoughts"]
 +++
 
-<aside>
+<aside class="notice note">
   <p>
     2022-06-07: This post also appeared on <a href="https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055" target="_blank">Kode24</a> (Norwegian).
   </p>
