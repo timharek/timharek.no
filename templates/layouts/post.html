@@ -45,14 +45,16 @@
       >
       {%- endif -%}
       {% if page.taxonomies.tags %}
-        <ul class="post__tags">
-          {% set tags = page.taxonomies.tags | sort %}
-          {% for tag in tags %}
-            <li class="tags__tag">
-              <a class="p-category" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag|lower }}</a>
-            </li>
-        {% endfor %}
-        </ul>
+        <nav aria-label="post tags">
+          <ul class="post__tags">
+            {% set tags = page.taxonomies.tags | sort %}
+            {% for tag in tags %}
+              <li class="tags__tag">
+                <a class="p-category" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag|lower }}</a>
+              </li>
+          {% endfor %}
+          </ul>
+        </nav>
       {% endif %}
     </span>
   </div>
