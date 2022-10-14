@@ -3,6 +3,9 @@ title = "Git"
 description = "Useful tips I've picked up from Git by using it for a few years. Updates reguarly."
 updated = 2022-04-03
 template = "layouts/page.html"
+[extra]
+toc_enable = true
+toc_level = 2
 +++
 
 [Git][git_scm] is a free and open source distributed version control system
@@ -15,7 +18,7 @@ The Git configuration-file is usually located in `$HOME`,
 `/home/<username>/.gitconfig`, or in `$XDG_CONFIG_HOME`[^1],
 `/home/<username>/.config/git/config`.
 
-### Inital setup
+### Initial setup
 
 ```sh
 $ git config --global user.email user@example.com
@@ -171,7 +174,7 @@ to use:
 ```
 
 In order to commit with your signature you need to use `-s` to add the
-`Signed-off-by` and `-S` to get the appropritate GPG-keyid (this is why we added
+`Signed-off-by` and `-S` to get the appropriate GPG-keyid (this is why we added
 the fingerprint in the configuration.).
 
 Bonus: Add an alias for always commit with a signature:
@@ -183,7 +186,11 @@ Bonus: Add an alias for always commit with a signature:
 
 And now you can commit with with `git c -m <your-message>`!
 
-{{ backlinks() }}
+## See contributors (with count)
+
+```bash
+git shortlog -sne
+```
 
 [lobsters_thread]:
   https://lobste.rs/s/dmkw4d/how_back_up_your_git_repositories#c_zfyjqu
