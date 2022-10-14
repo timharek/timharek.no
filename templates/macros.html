@@ -107,3 +107,32 @@
   {% endfor %}
 </section>
 {% endmacro %}
+
+{% macro toc(toc, level=2) %}
+<h2>Table of contents</h2>
+<ul>
+  {% for item in toc %}
+    <li>
+      <a href="{{ item.permalink }}">{{ item.title }}</a>
+      {% if level > 1 and item.children %}
+        <ul>
+          {% for child in item.children %}
+            <li>
+              <a href="{{ child.permalink }}">{{ child.title }}</a>
+              {% if child.children %}
+                <ul>
+                  {% for grand_child in child.children %}
+                    <li>
+                      <a href="{{ grand_child.permalink }}">{{ grand_child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endmacro %}

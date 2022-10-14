@@ -58,6 +58,10 @@
       </nav>
     {% endif %}
   {% endfor %}
+  {% if page.extra.toc_enable %}
+    {% set toc_level = page.extra.toc_level | default(value=1) %}
+    {{ macros::toc(toc=page.toc, level=toc_level) }}
+  {% endif %}
   {{ content | safe }}
   {% if page %}
     {{ macros::backlinks(page=page, title="page") }}
