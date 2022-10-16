@@ -29,30 +29,40 @@
     {% if array[0].type %}
       <h2>{{ array[0].type }}</h2>
     {% endif %}
-    <div class="entries">
-    {% for entry in array | sort(attribute="date.0") | reverse %}
-      <div class="entry">
-        <div aria-label="Entry title">{{ entry.title }}</div>
-        {% for field in person_field %}
-          {% if entry[field] %}
-            <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
-              {% for person in entry[field] %}
-                {{ person }}{% if not loop.last %},{% endif %}
+    {% for year, entries in array | reverse | group_by(attribute="date.0.year") %}
+      <div class="review__year-header">
+        <h3>{{ year }}</h3>
+        <p>Count: {{ entries | length }}</p>
+      </div>
+      <div class="entries">
+        {% for entry in entries %}
+          <div class="entry">
+            <div aria-label="Entry title">{{ entry.title }}</div>
+            {% for field in person_field %}
+              {% if entry[field] %}
+                <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
+                  {% for person in entry[field] %}
+                    {{ person }}{% if not loop.last %},{% endif %}
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% endfor %}
+            {% set dateArray = entry.date | sort(attribute="year") | reverse %}
+            <time aria-label="When entry was watched">
+              {% for date in dateArray %}
+                {% if loop.index0 > 0 %}, {% endif %}{{ date.string }}
               {% endfor %}
-            </div>
-          {% endif %}
+            </time>
+            {% set rating = entry.my_rating | int %}
+            {% set rating_total = 5 %}
+            {% set rating_diff = rating_total - rating %}
+            <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
+          </div>
         {% endfor %}
-        {% set date = entry.date %}
-        <time aria-label="When entry was watched">{% if date %}{{ date | reverse | join(sep=", ") }}{% endif %}</time>
-        {% set rating = entry.my_rating | int %}
-        {% set rating_total = 5 %}
-        {% set rating_diff = rating_total - rating %}
-        <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
       </div>
     {% endfor %}
-    </div>
   <div class="count">
-    Count: {{ array|length }}
+    Total count: {{ array | length }}
   </div>
   {% endfor %}
 </section>

@@ -57,9 +57,9 @@ $b-md: 768px;
   margin: 0;
 }
 
-@mixin stickyHeading() {
+@mixin stickyHeading($level: 0) {
   width: 100%;
-  top: 0;
+  top: $level;
   position: sticky;
   padding-block: $spacingSmall;
   background-color: var(--color-background);
@@ -535,6 +535,13 @@ article.post {
   h2 {
     @include stickyHeading();
   }
+
+  .review__year-header {
+    @include stickyHeading($level: 2rem);
+    @include flex();
+    gap: $spacing;
+  }
+
   .review__rating {
     dt {
       float: left;

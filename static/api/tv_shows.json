@@ -19,7 +19,14 @@
       "Steven S. DeKnight"
     ],
     "type": "TV",
-    "date": ["2015-04-11"],
+    "date": [
+      {
+        "year": "2015",
+        "month": "04",
+        "day": "11",
+        "string": "2015-04-11"
+      }
+    ],
     "creator": ["Drew Goddard"],
     "episode_count": 13,
     "season": 1
@@ -42,7 +49,14 @@
       "Euros Lyn"
     ],
     "type": "TV",
-    "date": ["2016-03-19"],
+    "date": [
+      {
+        "year": "2016",
+        "month": "03",
+        "day": "19",
+        "string": "2016-03-19"
+      }
+    ],
     "creator": ["Drew Goddard"],
     "episode_count": 13,
     "season": 2
@@ -55,7 +69,14 @@
     "genres": ["Comedy", "Drama"],
     "directors": ["Seth Gordon", "Michael Patrick Jann", "Joe Kessler"],
     "type": "TV",
-    "date": ["2017-08-17"],
+    "date": [
+      {
+        "year": "2017",
+        "month": "08",
+        "day": "17",
+        "string": "2017-08-17"
+      }
+    ],
     "creator": ["Robia Rashid"],
     "episode_count": 8,
     "season": 1
@@ -77,7 +98,14 @@
       "Ken Whittingham"
     ],
     "type": "TV",
-    "date": ["2018-10-07"],
+    "date": [
+      {
+        "year": "2018",
+        "month": "10",
+        "day": "07",
+        "string": "2018-10-07"
+      }
+    ],
     "creator": ["Robia Rashid"],
     "episode_count": 10,
     "season": 2
@@ -103,7 +131,14 @@
       "Sam Miller"
     ],
     "type": "TV",
-    "date": ["2018-10-29"],
+    "date": [
+      {
+        "year": "2018",
+        "month": "10",
+        "day": "29",
+        "string": "2018-10-29"
+      }
+    ],
     "creator": ["Drew Goddard"],
     "episode_count": 13,
     "season": 3
@@ -116,7 +151,14 @@
     "genres": ["Crime", "Drama", "Thriller"],
     "directors": ["Thomas Vincent", "John Strickland"],
     "type": "TV",
-    "date": ["2018-11-08"],
+    "date": [
+      {
+        "year": "2018",
+        "month": "11",
+        "day": "08",
+        "string": "2018-11-08"
+      }
+    ],
     "creator": ["Jed Mercurio"],
     "episode_count": 6,
     "season": 1
@@ -138,7 +180,14 @@
       "Robia Rashid"
     ],
     "type": "TV",
-    "date": ["2019-11-03"],
+    "date": [
+      {
+        "year": "2019",
+        "month": "11",
+        "day": "03",
+        "string": "2019-11-03"
+      }
+    ],
     "creator": ["Robia Rashid"],
     "episode_count": 10,
     "season": 3
@@ -156,7 +205,14 @@
       "Marc Jobst"
     ],
     "type": "TV",
-    "date": ["2019-12-25"],
+    "date": [
+      {
+        "year": "2019",
+        "month": "12",
+        "day": "25",
+        "string": "2019-12-25"
+      }
+    ],
     "creator": ["Lauren Schmidt"],
     "episode_count": 8,
     "season": 1
@@ -169,7 +225,14 @@
     "genres": ["Drama", "Mystery", "Sci-Fi"],
     "directors": ["Jonathan Nolan", "Richard J. Lewis", "Amanda Marsalis"],
     "type": "TV",
-    "date": ["2020-05-09"],
+    "date": [
+      {
+        "year": "2020",
+        "month": "05",
+        "day": "09",
+        "string": "2020-05-09"
+      }
+    ],
     "creator": ["Jonathan Nolan", "Lisa Joy"],
     "episode_count": 6,
     "season": 3
@@ -182,7 +245,14 @@
     "genres": ["Comedy"],
     "directors": ["Paul King", "Tom Marshall"],
     "type": "TV",
-    "date": ["2020-06-03"],
+    "date": [
+      {
+        "year": "2020",
+        "month": "06",
+        "day": "03",
+        "string": "2020-06-03"
+      }
+    ],
     "creator": ["Steve Carell", "Greg Daniels"],
     "episode_count": 10,
     "season": 1
@@ -205,7 +275,14 @@
       "Kevin Rodney Sullivan"
     ],
     "type": "TV",
-    "date": ["2021-07-20"],
+    "date": [
+      {
+        "year": "2021",
+        "month": "07",
+        "day": "20",
+        "string": "2021-07-20"
+      }
+    ],
     "creator": ["Robia Rashid"],
     "episode_count": 10,
     "season": 4
@@ -218,7 +295,14 @@
     "genres": ["Action", "Adventure", "Comedy", "Sci-Fi", "Cartoon"],
     "directors": ["Wesley Archer"],
     "type": "TV",
-    "date": ["2021-08-09"],
+    "date": [
+      {
+        "year": "2021",
+        "month": "08",
+        "day": "09",
+        "string": "2021-08-09"
+      }
+    ],
     "creator": ["Justin Roiland", "Dan Harmon"],
     "episode_count": 10,
     "season": 5
@@ -231,7 +315,14 @@
     "genres": ["Comedy", "Drama"],
     "directors": ["Ben Taylor", "Runyararo Mapfumo"],
     "type": "TV",
-    "date": ["2021-10-13"],
+    "date": [
+      {
+        "year": "2021",
+        "month": "10",
+        "day": "13",
+        "string": "2021-10-13"
+      }
+    ],
     "creator": ["Laurie Nunn"],
     "episode_count": 8,
     "season": 3
@@ -244,7 +335,14 @@
     "genres": ["Action", "Adventure", "Drama", "Comicbook"],
     "directors": ["Rhys Thomas", "Bert", "Bertie"],
     "type": "TV",
-    "date": ["2021-12-22"],
+    "date": [
+      {
+        "year": "2021",
+        "month": "12",
+        "day": "22",
+        "string": "2021-12-22"
+      }
+    ],
     "creator": ["Jonathan Igla"],
     "episode_count": 6,
     "season": 1
@@ -262,7 +360,14 @@
       "Louise Hooper"
     ],
     "type": "TV",
-    "date": ["2022-01-09"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "01",
+        "day": "09",
+        "string": "2022-01-09"
+      }
+    ],
     "creator": ["Lauren Schmidt"],
     "episode_count": 8,
     "season": 2
@@ -275,7 +380,14 @@
     "genres": ["Crime", "Drama", "Mystery"],
     "directors": ["Marcos Siega", "Sanford Bookstaver"],
     "type": "TV",
-    "date": ["2022-01-11"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "01",
+        "day": "11",
+        "string": "2022-01-11"
+      }
+    ],
     "creator": ["Clyde Phillips"],
     "episode_count": 10,
     "season": 1
@@ -294,7 +406,14 @@
       "Dave Filoni"
     ],
     "type": "TV",
-    "date": ["2022-02-11"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "02",
+        "day": "11",
+        "string": "2022-02-11"
+      }
+    ],
     "creator": ["Jon Favreau"],
     "episode_count": 7,
     "season": 1
@@ -320,7 +439,14 @@
       "Brad Anderson"
     ],
     "type": "TV",
-    "date": ["2022-02-18"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "02",
+        "day": "18",
+        "string": "2022-02-18"
+      }
+    ],
     "creator": ["James Gunn"],
     "episode_count": 8,
     "season": 1
@@ -333,7 +459,14 @@
     "genres": ["Drama"],
     "directors": ["Sam Levinson"],
     "type": "TV",
-    "date": ["2022-03-02"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "03",
+        "day": "02",
+        "string": "2022-03-02"
+      }
+    ],
     "creator": ["Sam Levinson"],
     "episode_count": 8,
     "season": 2
@@ -355,7 +488,14 @@
       "M.J. Bassett"
     ],
     "type": "TV",
-    "date": ["2022-03-03"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "03",
+        "day": "03",
+        "string": "2022-03-03"
+      }
+    ],
     "creator": ["Nick Santora"],
     "episode_count": 8,
     "season": 1
@@ -373,7 +513,14 @@
       "Danny Strong"
     ],
     "type": "TV",
-    "date": ["2022-04-10"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "04",
+        "day": "10",
+        "string": "2022-04-10"
+      }
+    ],
     "creator": ["Danny Strong"],
     "episode_count": 8,
     "season": 1
@@ -386,7 +533,14 @@
     "genres": ["Action", "Crime", "Drama", "Comicbook"],
     "directors": ["Mohamed Diab", "Justin Benson", "Aaron Moorhead"],
     "type": "TV",
-    "date": ["2022-05-04"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "04",
+        "string": "2022-05-04"
+      }
+    ],
     "creator": ["Doug Moench"],
     "episode_count": 6,
     "season": 1
@@ -405,7 +559,14 @@
       "Quyen Tran"
     ],
     "type": "TV",
-    "date": ["2022-05-09"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "09",
+        "string": "2022-05-09"
+      }
+    ],
     "creator": ["Molly Smith Metzler"],
     "episode_count": 10,
     "season": 1
@@ -418,7 +579,14 @@
     "genres": ["Drama", "Mystery", "Sci-Fi", "Thriller"],
     "directors": ["Ben Stiller", "Aoife McArdle"],
     "type": "TV",
-    "date": ["2022-05-28"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "28",
+        "string": "2022-05-28"
+      }
+    ],
     "creator": ["Dan Erickson"],
     "episode_count": 9,
     "season": 1
@@ -431,7 +599,14 @@
     "genres": ["Drama", "Comedy", "Action", "Crime", "Mystery", "Thriller"],
     "directors": ["Jonas Åkerlund"],
     "type": "TV",
-    "date": ["2022-05-28"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "28",
+        "string": "2022-05-28"
+      }
+    ],
     "creator": ["Jonas Åkerlund"],
     "episode_count": 6,
     "season": 1
@@ -444,7 +619,14 @@
     "genres": ["Drama", "Biography"],
     "directors": ["Michael Showalter", "Francesca Gregorini", "Erica Watson"],
     "type": "TV",
-    "date": ["2022-05-28"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "28",
+        "string": "2022-05-28"
+      }
+    ],
     "creator": ["Elizabeth Meriwether"],
     "episode_count": 8,
     "season": 1
@@ -457,7 +639,14 @@
     "genres": ["Drama", "Comedy", "Music"],
     "directors": ["Hiro Murai", "Ibra Ake", "Donald Glover"],
     "type": "TV",
-    "date": ["2022-06-17"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "06",
+        "day": "17",
+        "string": "2022-06-17"
+      }
+    ],
     "creator": ["Donald Glover"],
     "episode_count": 8,
     "season": 3
@@ -470,7 +659,14 @@
     "genres": ["Drama", "Comedy", "Romance"],
     "directors": ["Lisa Langseth"],
     "type": "TV",
-    "date": ["2022-06-17"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "06",
+        "day": "17",
+        "string": "2022-06-17"
+      }
+    ],
     "creator": ["Lisa Langseth"],
     "episode_count": 8,
     "season": 2
@@ -483,7 +679,14 @@
     "genres": ["Action", "Adventure", "Sci-Fi"],
     "directors": ["Deborah Chow"],
     "type": "TV",
-    "date": ["2022-06-22"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "06",
+        "day": "22",
+        "string": "2022-06-22"
+      }
+    ],
     "creator": ["George Lucas"],
     "episode_count": 6,
     "season": 1
@@ -497,7 +700,14 @@
     "genres": ["Action", "Adventure", "Comedy", "Comicbook"],
     "directors": ["Deborah Chow"],
     "type": "TV",
-    "date": ["2022-07-14"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "07",
+        "day": "14",
+        "string": "2022-07-14"
+      }
+    ],
     "creator": ["Bisha K. Ali"],
     "episode_count": 6,
     "season": 1
@@ -519,7 +729,14 @@
       "Alex Graves"
     ],
     "type": "TV",
-    "date": ["2022-07-22"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "07",
+        "day": "22",
+        "string": "2022-07-22"
+      }
+    ],
     "creator": ["Eric Kripke"],
     "episode_count": 8,
     "season": 2
@@ -537,7 +754,14 @@
       "Sarah Boyd"
     ],
     "type": "TV",
-    "date": ["2022-07-31"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "07",
+        "day": "31",
+        "string": "2022-07-31"
+      }
+    ],
     "creator": ["Eric Kripke"],
     "episode_count": 8,
     "season": 3
@@ -560,7 +784,14 @@
       "Peter Gould"
     ],
     "type": "TV",
-    "date": ["2022-08-18"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "08",
+        "day": "18",
+        "string": "2022-08-18"
+      }
+    ],
     "creator": ["Vince Gilligan"],
     "episode_count": 13,
     "season": 6
@@ -571,12 +802,16 @@
     "release_year": 2022,
     "my_rating": 5,
     "genres": ["Drama"],
-    "directors": [
-      "Christopher Storer",
-      "Joanna Calo"
-    ],
+    "directors": ["Christopher Storer", "Joanna Calo"],
     "type": "TV",
-    "date": ["2022-09-27"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "09",
+        "day": "27",
+        "string": "2022-09-27"
+      }
+    ],
     "creator": ["Christopher Storer"],
     "episode_count": 8,
     "season": 1
@@ -587,12 +822,16 @@
     "release_year": 2022,
     "my_rating": 2,
     "genres": ["Action", "Adventure", "Comedy", "Comicbook"],
-    "directors": [
-      "Kat Coiro",
-      "Anu Valia"
-    ],
+    "directors": ["Kat Coiro", "Anu Valia"],
     "type": "TV",
-    "date": ["2022-10-13"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "10",
+        "day": "13",
+        "string": "2022-10-13"
+      }
+    ],
     "creator": ["Jessica Gao"],
     "episode_count": 9,
     "season": 1
@@ -611,8 +850,15 @@
       "Gregg Araki"
     ],
     "type": "TV",
-    "date": ["2022-10-15"],
-    "creator": ["Ian Brennan" ,"Ryan Murphy"],
+    "date": [
+      {
+        "year": "2022",
+        "month": "10",
+        "day": "15",
+        "string": "2022-10-15"
+      }
+    ],
+    "creator": ["Ian Brennan", "Ryan Murphy"],
     "episode_count": 10,
     "season": 1
   }
