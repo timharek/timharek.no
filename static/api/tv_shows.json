@@ -596,5 +596,24 @@
     "creator": ["Jessica Gao"],
     "episode_count": 9,
     "season": 1
+  },
+  {
+    "title": "Dahmer - Monster: The Jeffrey Dahmer Story",
+    "description": "",
+    "release_year": 2022,
+    "my_rating": 4,
+    "genres": ["Biography", "Crime", "Drama"],
+    "directors": [
+      "Carl Franklin",
+      "Clement Virgo",
+      "Jennifer Lynch",
+      "Paris Barclay",
+      "Gregg Araki"
+    ],
+    "type": "TV",
+    "date": ["2022-10-15"],
+    "creator": ["Ian Brennan" ,"Ryan Murphy"],
+    "episode_count": 10,
+    "season": 1
   }
 ]
