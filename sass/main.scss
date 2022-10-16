@@ -536,10 +536,16 @@ article.post {
     @include stickyHeading();
   }
 
-  .review__year-header {
+  .review__year__header {
     @include stickyHeading($level: 2rem);
     @include flex();
     gap: $spacing;
+    border-block-end: 2px solid var(--color-primary);
+
+    h3,
+    p {
+      margin: 0;
+    }
   }
 
   .review__rating {
