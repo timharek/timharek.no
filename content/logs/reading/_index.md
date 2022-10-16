@@ -13,4 +13,3 @@ date_field_is_array = false
 
 Books that I've read.
 
----
