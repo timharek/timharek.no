@@ -68,6 +68,8 @@ $b-md: 768px;
 @mixin gridDouble($column-count: 1) {
   display: grid;
   gap: $spacingLarge;
+  --header-bg: var(--color-primary);
+  --header-text: white;
 
   @media (min-width: $b-md) {
     grid-template-columns: repeat(2, 1fr);
@@ -76,11 +78,11 @@ $b-md: 768px;
   &__item {
     background-color: var(--color-background-secondary);
     border-radius: $spacingSmall;
+    overflow: hidden;
 
     &__header {
-      border-radius: $spacingSmall $spacingSmall 0 0;
-      background-color: var(--color-primary);
-      color: white;
+      background-color: var(--header-bg);
+      color: var(--header-text);
       max-width: 100%;
       height: 8rem;
       @include flex(center, center);

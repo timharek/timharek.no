@@ -52,12 +52,13 @@
 
   <div class="work">
     {% for work in work_data.list | sort(attribute="extra.date") | reverse %}
-      <div class="work__item">
+      <div class="work__item"
         {% if work.color %}
-        <div class="work__item__header" style="background-color: {{ work.color.bg }}; color: {{ work.color.text }}">
-          {% else %}
+          style="
+          --header-bg: {{ work.color.bg }};
+          --header-text: {{ work.color.text }};"
+        {% endif %}>
         <div class="work__item__header">
-          {% endif %}
           <h2>
             {% if work.client %}
               {{ work.client }}
@@ -67,9 +68,9 @@
           </h2>
         </div>
         <div class="work__item__body">
-            {% if work.client %}
-              <h3>{{ work.title }}</h3>
-            {% endif %}
+          {% if work.client %}
+            <h3>{{ work.title }}</h3>
+          {% endif %}
           <p>
             {{ work.description }}
           </p>
