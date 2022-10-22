@@ -1489,5 +1489,21 @@
         "string": "2022-10-08"
       }
     ]
+  },
+  {
+    "title": "The Naked Gun: From the Files of Police Squad!",
+    "release_year": 1988,
+    "my_rating": 4,
+    "genres": ["Comedy", "Crime"],
+    "director": ["David Zucker"],
+    "type": "Movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "10",
+        "day": "22",
+        "string": "2022-10-22"
+      }
+    ]
   }
 ]
