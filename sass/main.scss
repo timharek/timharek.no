@@ -324,6 +324,10 @@ footer.footer {
 
     @media (max-width: $b-sm) {
       flex-wrap: wrap-reverse;
+
+      .post__summary {
+        width: 100%;
+      }
     }
 
     .post__date {
