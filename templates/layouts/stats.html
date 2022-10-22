@@ -92,7 +92,7 @@
   </table>
 
   <h2>Top tags</h2>
-  <a href="/tags">View all</a>
+  <a href="/tags">View all ➞</a>
   {% set tags = get_taxonomy(kind="tags") %}
   <ol class="tags-cloud">
     {% for tag in tags.items | sort(attribute="pages") | reverse | slice(end=10) %}
