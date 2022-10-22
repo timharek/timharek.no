@@ -319,6 +319,8 @@ footer.footer {
   .blog__post {
     @include flex(space-between, flex-start);
     gap: $spacingSmall;
+    border-left: 5px solid var(--color-primary);
+    padding-left: $spacingSmall;
 
     @media (max-width: $b-sm) {
       flex-wrap: wrap-reverse;
