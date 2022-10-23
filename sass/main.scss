@@ -539,24 +539,26 @@ article.post {
   }
 }
 
-.page-review {
+.page-log {
   h2 {
     @include stickyHeading();
   }
 
-  .review__year__header {
+  .log__year__header {
     @include stickyHeading($level: 2rem);
     @include flex();
     gap: $spacing;
     border-block-end: 2px solid var(--color-primary);
 
+    h2,
     h3,
     p {
+      width: auto;
       margin: 0;
     }
   }
 
-  .review__rating {
+  .log__rating {
     dt {
       float: left;
       margin-inline-end: $spacingSmall;

@@ -16,8 +16,6 @@
 {% block content %}
 
 {% set files = section.extra.json_files %}
-{% set person_field = section.extra.person_field %}
-{% set is_date_field_array = section.extra.date_field_is_array %}
 
 <section class="page-content page-log">
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
@@ -29,35 +27,32 @@
     {% if array[0].type %}
       <h2>{{ array[0].type }}</h2>
     {% endif %}
-    {% for year, entries in array | reverse | group_by(attribute="date.0.year") %}
+    {% for year, entries in array | reverse | group_by(attribute="date.from.year") %}
       <div class="log__year">
         <div class="log__year__header">
-          <h3>{{ year }}</h3>
+          <h2>{{ year }}</h2>
           <p>Count: {{ entries | length }}</p>
         </div>
         <div class="entries">
           {% for entry in entries %}
             <div class="entry">
-              <div aria-label="Entry title">{{ entry.title }}</div>
-              {% for field in person_field %}
-                {% if entry[field] %}
-                  <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
-                    {% for person in entry[field] %}
-                      {{ person }}{% if not loop.last %},{% endif %}
-                    {% endfor %}
-                  </div>
+              <div aria-label="Entry title">
+                {% if entry.location.cities|length == 1 %}
+                  {{ entry.title }}
+                {% else %}
+                  {{ entry.title }} in {{ entry.location.country }}
                 {% endif %}
-              {% endfor %}
-              {% set dateArray = entry.date | sort(attribute="year") | reverse %}
-              <time aria-label="When entry was watched">
-                {% for date in dateArray %}
-                  {% if loop.index0 > 0 %}, {% endif %}{{ date.string }}
-                {% endfor %}
-              </time>
-              {% set rating = entry.my_rating | int %}
-              {% set rating_total = 5 %}
-              {% set rating_diff = rating_total - rating %}
-              <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
+              </div>
+              <div aria-label="Entry location">
+                {% if entry.location.cities|length == 1 %}
+                  {{ entry.location.cities[0] }}, {{ entry.location.country }}
+                {% else %}
+                  {{ entry.location.cities|join(sep=", ") }}
+                {% endif %}
+              </div>
+              {% set date = entry.date %}
+              <time datetime="{{ date.from.string }}" aria-label="Entry from date">{{ date.from.string }}</time>
+              <time datetime="{{ date.to.string }}" aria-label="Entry to date">{{ date.to.string }}</time>
             </div>
           {% endfor %}
         </div>
