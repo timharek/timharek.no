@@ -861,5 +861,31 @@
     "creator": ["Ian Brennan", "Ryan Murphy"],
     "episode_count": 10,
     "season": 1
+  },
+  {
+    "title": "House of the Dragon",
+    "description": "",
+    "release_year": 2022,
+    "my_rating": 5,
+    "genres": ["Action", "Adventure", "Drama"],
+    "directors": [
+      "Miguel Sapochnik",
+      "Greg Yaitanes",
+      "Clare Kilner",
+      "Geeta Vasant Patel",
+      "Gregg Araki"
+    ],
+    "type": "TV",
+    "date": [
+      {
+        "year": "2022",
+        "month": "10",
+        "day": "24",
+        "string": "2022-10-24"
+      }
+    ],
+    "creator": ["Ryan J. Condal", "George R.R. Martin"],
+    "episode_count": 10,
+    "season": 1
   }
 ]
