@@ -3,7 +3,7 @@ title = "Technology that I use"
 description = "Different technologies that Tim Hårek uses."
 template = "layouts/page.html"
 aliases = ["/use"]
-updated = 2022-09-15
+updated = 2022-10-24
 +++
 
 This page contains lists of different technologies that I use, hardware,
@@ -14,6 +14,7 @@ software and services.
 - **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
 - **iPhone 13 Pro**. Superb battery life and camera.
 - **Apple Watch Ultra**. Overkill watch for everyday exercise.
+- [ZSA Moonlander Mark I][moonlander]. Ergonomic split keyboard.
 
 ### Homelab
 
@@ -22,6 +23,7 @@ software and services.
 - **Home Assistant (RPi 4B)**. Home automation without the need for multiple
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
+- **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
 
 ## Software
 
@@ -31,7 +33,7 @@ This is software that I use on my devices.
 
 ### MacBook
 
-- Apple Mail. E-mail client of choice (until something better comes along).
+- Apple Mail. E-mail client of choice.
 - [Affinity Designer][affinity]. My vector editor.
 - [Bitwarden][bitwarden]. Open source password manager.
 - [Firefox][firefox]. Highly customizable browser.
@@ -112,3 +114,4 @@ This is software that I use on my devices.
 [plausible]: https://plausible.io
 [dotfiles]: https://github.com/timharek/dotfiles
 [pinboard]: https://pinboard.in
+[moonlander]: https://www.zsa.io/moonlander/
