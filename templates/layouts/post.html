@@ -17,21 +17,29 @@
       <h1 class="post-title p-name" itemprop="name headline">
         {{ page.title | safe }}
       </h1>
-      <time
-        class="dt-published"
-        datetime="{{ page.date }}"
-        itemprop="datePublished"
-      >
-        {{ page.date | date(format=config.extra.date_format) }}
-      </time>
-      {% if page.updated %}
+      <div class="header__time">
+      </div>
+      <div class="header__time__wrapper">
+        Published:
         <time
-          class="dt-updated"
-          datetime="{{ page.updated }}"
-          itemprop="dateUpdated"
+          class="dt-published"
+          datetime="{{ page.date }}"
+          itemprop="datePublished"
         >
-          - updated {{ page.updated | date(format=config.extra.date_format__updated) }}
+          {{ page.date | date(format=config.extra.date_format) }}
         </time>
+      </div>
+      {% if page.updated %}
+        <div class="header__time__wrapper">
+            Updated:
+            <time
+              class="dt-updated"
+              datetime="{{ page.updated }}"
+              itemprop="dateUpdated"
+            >
+              {{ page.updated | date(format=config.extra.date_format__updated) }}
+            </time>
+        </div>
       {% endif %}
     </div>
     <span class="post-meta">
@@ -44,18 +52,6 @@
       </span
       >
       {%- endif -%}
-      {% if page.taxonomies.tags %}
-        <nav aria-label="post tags">
-          <ul class="post__tags">
-            {% set tags = page.taxonomies.tags | sort %}
-            {% for tag in tags %}
-              <li class="tags__tag">
-                <a class="p-category" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag|lower }}</a>
-              </li>
-          {% endfor %}
-          </ul>
-        </nav>
-      {% endif %}
     </span>
   </div>
 

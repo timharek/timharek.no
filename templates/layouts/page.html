@@ -30,9 +30,9 @@
   {% if updated %}
     <span class="page-updated">
     {% if lang == "no" %}
-      Sist oppdatert <time datetime="{{ page.updated }}">{{ updated }}</time>
+      Sist oppdatert: <time datetime="{{ page.updated }}">{{ updated }}</time>
     {% elif lang == "en" %}
-      Updated <time datetime="{{ page.updated }}">{{ updated }}</time>
+      Updated: <time datetime="{{ page.updated }}">{{ updated }}</time>
     {% endif %}
     </span>
   {% endif %}
