@@ -37,28 +37,30 @@
     {% endif %}
     </span>
   {% endif %}
-  {% for translation in page.translations %}
-    {% if translation.lang == "no" and not lang == "no" %}
-      <a href="{{ translation.permalink }}">
-        🇳🇴
-      </a>
-    {% elif lang == "no" and translation.lang == "en" %}
-      <a href="{{ translation.permalink }}">
-        🇺🇸
-      </a>
-    {% endif %}
-    {% if page.extra.subnav %}
-      <nav class="page__subnav" aria-label="Sub navigation">
-        <ul>
-          {% for item in page.extra.subnav %}
-            <li>
-              <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    {% endif %}
-  {% endfor %}
+  {% if page.translations %}
+    {% for translation in page.translations %}
+      {% if translation.lang == "no" and not lang == "no" %}
+        <a href="{{ translation.permalink }}">
+          🇳🇴
+        </a>
+      {% elif lang == "no" and translation.lang == "en" %}
+        <a href="{{ translation.permalink }}">
+          🇺🇸
+        </a>
+      {% endif %}
+      {% if page.extra.subnav %}
+        <nav class="page__subnav" aria-label="Sub navigation">
+          <ul>
+            {% for item in page.extra.subnav %}
+              <li>
+                <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
   {% if page.extra.toc_enable %}
     {% set toc_level = page.extra.toc_level | default(value=1) %}
     {{ macros::toc(toc=page.toc, level=toc_level) }}

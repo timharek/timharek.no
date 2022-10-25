@@ -7,7 +7,7 @@ aliases = ["contact"]
 
 My e-mail is open! Introduce yourself, tell me I’m wrong, share content, give
 feedback, you do you! You can reach me at [tim@harek.no](mailto:tim@harek.no),
-my [public key](@/key.md).
+my [public key](@/connect/key.md).
 
 ## Keep up to date
 
