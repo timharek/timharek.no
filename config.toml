@@ -41,7 +41,7 @@ nav = [
   { name = "Blog", path = "@/blog/_index.md" },
   { name = "Work", path = "@/work/_index.md" },
   { name = "Connect", path = "@/connect/_index.md" },
-  { name = "About", path = "@/about.md" },
+  { name = "About", path = "@/about/_index.md" },
 ]
 
 footer_nav = [

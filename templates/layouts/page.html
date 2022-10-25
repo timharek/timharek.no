@@ -48,18 +48,19 @@
           🇺🇸
         </a>
       {% endif %}
-      {% if page.extra.subnav %}
-        <nav class="page__subnav" aria-label="Sub navigation">
-          <ul>
-            {% for item in page.extra.subnav %}
-              <li>
-                <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
-      {% endif %}
     {% endfor %}
+  {% endif %}
+  {% if page and page.extra.subnav or section and section.extra.subnav %}
+    {% set subnav = page.extra.subnav | default(value=section.extra.subnav) %}
+    <nav class="page__subnav" aria-label="Sub navigation">
+      <ul>
+        {% for item in subnav %}
+          <li>
+            <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
   {% endif %}
   {% if page.extra.toc_enable %}
     {% set toc_level = page.extra.toc_level | default(value=1) %}
