@@ -8,6 +8,7 @@
 
 {% block content %}
 <section class="garden">
+  {{ macros::breadcrumbs() }}
   <h1>{{ section.title }}</h1>
   {% if section.content %}
     {{ section.content | safe }}

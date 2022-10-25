@@ -175,17 +175,6 @@
       </ul>
     {% endif %}
   {% else %}
-    {% set parent = get_section(path=section.ancestors[1]) %}
-    <nav aria-label="Breadcrumbs">
-      <ul class="breadcrumbs-list">
-        <li class="breadcrumbs-list__item">
-          <a href="{{ parent.permalink }}">{{ parent.title }}</a>
-        </li>
-        <li class="breadcrumbs-list__item">
-          {{ section.title }}
-        </li>
-      </ul>
-    </nav>
     <nav aria-label="Subpages">
       <ul class="pages__list">
         {% for page in section.pages %}
