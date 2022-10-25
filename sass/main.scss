@@ -461,6 +461,10 @@ article.post {
 }
 
 .breadcrumbs-list {
+  @media print {
+    display: none;
+  }
+
   @include list($gap: 0);
 
   &__item:not(:last-child)::after {
