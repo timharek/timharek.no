@@ -8,7 +8,8 @@
 
 {% block content %}
 <section class="blog">
-<h1>{{ section.title }}</h1>
+  {{ macros::breadcrumbs() }}
+  <h1>{{ section.title }}</h1>
   {% set pages = section.pages %}
   {% if paginator.pages %}
     {% set pages = paginator.pages %}

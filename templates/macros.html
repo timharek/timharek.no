@@ -136,3 +136,86 @@
   {% endfor %}
 </ul>
 {% endmacro %}
+
+{% macro subpages() %}
+  {% if section.subsections %}
+    <ul class="sections__list">
+    {% for sub_section in section.subsections | sort %}
+      {% set subsection = get_section(path=sub_section) %}
+      <li class="list__item">
+        <a href="{{ subsection.permalink }}">
+          {{ subsection.title }}
+        </a>
+        <ul class="pages__list">
+          {% for page in subsection.pages | sort(attribute="title") %}
+            <li class="list__item">
+                <a href="{{ page.permalink }}">
+                  {{ page.title }}
+                </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if section.pages %}
+      <ul class="list">
+        <li class="list__item">
+          Other
+          <ul class="pages__list">
+            {% for page in section.pages %}
+              <li class="list__item">
+                  <a href="{{ page.permalink }}">
+                    {{ page.title }}
+                  </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    {% endif %}
+  {% else %}
+    {% set parent = get_section(path=section.ancestors[1]) %}
+    <nav aria-label="Breadcrumbs">
+      <ul class="breadcrumbs-list">
+        <li class="breadcrumbs-list__item">
+          <a href="{{ parent.permalink }}">{{ parent.title }}</a>
+        </li>
+        <li class="breadcrumbs-list__item">
+          {{ section.title }}
+        </li>
+      </ul>
+    </nav>
+    <nav aria-label="Subpages">
+      <ul class="pages__list">
+        {% for page in section.pages %}
+          <li class="list__item">
+              <a href="{{ page.permalink }}">
+                {{ page.title }}
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+{% endmacro %}
+
+{% macro breadcrumbs() %}
+  {% set_global ancestors = section.ancestors | default(value=page.ancestors) %}
+
+  {% if ancestors | length > 0 %}
+    <nav aria-label="Breadcrumbs">
+      <ul class="breadcrumbs-list">
+        {% for ancestor_raw in ancestors %}
+          {% set ancestor = get_section(path=ancestor_raw) %}
+          <li class="breadcrumbs-list__item">
+            <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value="Index") }}</a>
+          </li>
+        {% endfor %}
+        <li class="breadcrumbs-list__item">
+          {{ section.title | default(value=page.title) }}
+        </li>
+      </ul>
+    </nav>
+  {% endif %}
+{% endmacro %}

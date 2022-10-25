@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block head %}
   {% set title = section.title ~ " - " ~ config.title %}
@@ -17,6 +18,7 @@
 {% set work_data = load_data(path="static/api/work.json") %}
 
 <section class="page-content">
+  {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if work_data.updated %}
     <span class="page-updated">

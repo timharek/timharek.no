@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block head %}
   {% if section %}
@@ -18,6 +19,7 @@
 {% set files = section.extra.json_files %}
 
 <section class="page-content page-log">
+  {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if content %}
     {{ content | safe }}

@@ -1,4 +1,5 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block head %}
   {% if section %}
@@ -20,6 +21,7 @@
 {% set is_date_field_array = section.extra.date_field_is_array %}
 
 <section class="page-content page-log">
+  {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if content %}
     {{ content | safe }}

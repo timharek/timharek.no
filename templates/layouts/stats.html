@@ -1,8 +1,10 @@
 {% extends "base/base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
 
 <section class="page">
+  {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ page.title }}</h1>
   {% if page.content %}
     {{ page.content | safe }}

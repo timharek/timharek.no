@@ -460,16 +460,21 @@ article.post {
   }
 }
 
+.breadcrumbs-list {
+  @include list($gap: 0);
+
+  &__item:not(:last-child)::after {
+    content: '>';
+    margin-inline: $spacingSmall;
+  }
+}
+
 .page-content {
   .page__subnav ul {
     @include list();
     flex-wrap: wrap;
   }
 }
-
-// section.resume h2 {
-//   margin-block-end: $spacing;
-// }
 
 .experience {
   padding-block: $spacing;
