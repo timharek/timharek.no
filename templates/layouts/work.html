@@ -22,7 +22,7 @@
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if work_data.updated %}
     <span class="page-updated">
-      Last updated <time datetime="{{ work_data.updated }}">{{ work_data.updated }}</time>
+      {{ trans(key="updated", lang=lang) }}: <time datetime="{{ work_data.updated }}">{{ work_data.updated }}</time>
     </span>
   {% endif %}
   {{ content | safe }}
@@ -38,7 +38,7 @@
   <div class="work-filter">
     <label for="filter">Filter tags
       <select name="filter" id="filter" onchange="updateWorkGrid()">
-          <option value="all">Show all</option>
+          <option value="all">{{ trans(key="show_all", lang=lang) }}</option>
           {% for tag in all_tags_unique | sort %}
             {% set_global tag_count = 0 %}
             {% for item in work_data.list %}
@@ -86,12 +86,12 @@
           <ul class="work__item__body__urls">
             {% if work.sources and work.sources|length == 1 %}
               <li>
-                <a href="{{ work.sources[0] }}" target="_blank">Source</a>
+                <a href="{{ work.sources[0] }}" target="_blank">{{ trans(key="source", lang=lang) }}</a>
               </li>
             {% endif %}
             {% if work.url %}
               <li>
-                <a href="{{ work.url }}" target="_blank">Link</a>
+                <a href="{{ work.url }}" target="_blank">{{ trans(key="link", lang=lang) }}</a>
               </li>
             {% endif %}
           </ul>
