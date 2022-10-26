@@ -19,9 +19,10 @@
 <section class="repos">
   <h2>{{ trans(key="latest_posts", lang=lang) }}</h2>
   <ul class="blog">
-    {% set section = get_section(path="blog/_index.md") %}
-    {% set pages = section.pages | slice(end=5) %}
-    {% for post in pages %}
+    {% set blog_posts_en = get_section(path="blog/_index.md") %}
+    {% set blog_posts_no = get_section(path="blog/_index.no.md") %}
+    {% set blog_posts = blog_posts_en.pages | concat(with=blog_posts_no.pages) %}
+    {% for post in blog_posts | sort(attribute="date") | reverse | slice(end=5) %}
       {{ macros::bloglisting_item(post=post) }}
     {% endfor %}
   </ul>
