@@ -364,10 +364,6 @@ article.post {
     margin-block-end: $spacing;
   }
 
-  h1 {
-    margin-block: 0 $spacingSmall;
-  }
-
   .post__tags {
     @include list($gap: $spacingSmall);
     * {
