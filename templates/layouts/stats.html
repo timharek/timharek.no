@@ -31,19 +31,19 @@
 
   <table class="stats">
     <tr>
-      <th scope="row">Total words written</th>
+      <th scope="row">{{ trans(key="total_words_written", lang=lang) }}</th>
       <td>{{ total_word_count | num_format }}</td>
     </tr>
     <tr>
-      <th scope="row">Total posts published</th>
+      <th scope="row">{{ trans(key="total_post_published", lang=lang) }}</th>
       <td>{{ total_pages_length | num_format }}</td>
     </tr>
     <tr>
-      <th scope="row">Average word per post</th>
+      <th scope="row">{{ trans(key="average_word_post", lang=lang) }}</th>
       <td>{{ average_word_count | int | num_format }}</td>
     </tr>
     <tr>
-      <th scope="row">First post</th>
+      <th scope="row">{{ trans(key="first_post", lang=lang) }}</th>
       <td>
         <a href="{{ first_post.permalink }}">
           {{ first_post.title }}
@@ -51,23 +51,23 @@
       </td>
     </tr>
     <tr>
-      <th scope="row">Longest post</th>
+      <th scope="row">{{ trans(key="longest_post", lang=lang) }}</th>
       <td>
         <a href="{{ pages_by_longest[0].permalink }}">
           {{ pages_by_longest[0].title }}
-        </a> with {{ pages_by_longest[0].word_count | num_format }} words
+        </a> {{ trans(key="with", lang=lang) }} {{ pages_by_longest[0].word_count | num_format }} {{ trans(key="words", lang=lang) }}
       </td>
     </tr>
   </table>
 
-  <h2>Posts/words per year</h2>
+  <h2>{{ trans(key="posts_words_per_year", lang=lang) }}</h2>
   <table class="stats">
     <thead>
       <tr>
-        <th>Year</th>
-        <th>No. of posts</th>
-        <th>Words</th>
-        <th>Avg. words</th>
+        <th>{{ trans(key="year", lang=lang) }}</th>
+        <th>{{ trans(key="no_post", lang=lang) }}</th>
+        <th>{{ trans(key="words", lang=lang) | capitalize }}</th>
+        <th>{{ trans(key="average_word", lang=lang) }}</th>
       </tr>
     </thead>
     <tbody>
@@ -93,8 +93,8 @@
     </tbody>
   </table>
 
-  <h2>Top tags</h2>
-  <a href="/tags">View all ➞</a>
+  <h2>{{ trans(key="top_tags", lang=lang) }}</h2>
+  <a href="/tags">{{ trans(key="view_all", lang=lang)  }} ➞</a>
   {% set tags = get_taxonomy(kind="tags") %}
   <ol class="tags-cloud">
     {% for tag in tags.items | sort(attribute="pages") | reverse | slice(end=10) %}
@@ -104,7 +104,7 @@
           {{ tag.name }}
         </a>
         <span class="tag__count">
-          {{ tagCount }} posts
+          {{ tagCount }} {{ trans(key="posts", lang=lang) | lower }}
         </span>
       </li>
     {% endfor %}

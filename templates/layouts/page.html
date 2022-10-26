@@ -30,11 +30,7 @@
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
   {% if updated %}
     <span class="page-updated">
-    {% if lang == "no" %}
-      Sist oppdatert: <time datetime="{{ page.updated }}">{{ updated }}</time>
-    {% elif lang == "en" %}
-      Updated: <time datetime="{{ page.updated }}">{{ updated }}</time>
-    {% endif %}
+      {{ trans(key="updated", lang=lang) }}: <time datetime="{{ page.updated }}">{{ updated }}</time>
     </span>
   {% endif %}
   {% if page.translations %}

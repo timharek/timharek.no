@@ -18,8 +18,63 @@ taxonomies = [
   { name = "tags", feed = false },
 ]
 
+[translations]
+latest_posts = "Latest posts"
+view_all = "View all"
+published = "Published"
+updated = "Updated"
+show_all = "Show all"
+source = "Source"
+link = "Link"
+last_deploy = "Last deploy"
+toc = "Table of contents"
+reply_via_email = "Reply via e-mail"
+total_words_written = "Total words written"
+total_post_published = "Total posts published"
+average_word_post = "Average word per post"
+first_post = "First post"
+longest_post = "Longest post"
+with = "with"
+words = "words"
+posts_words_per_year = "Posts/words per year"
+year = "Year"
+no_post = "No. of posts"
+average_word = "Avg. words"
+top_tags = "Top tags"
+posts = "Posts"
+tagged_with = "Tagged with"
+
 [languages.no]
 title = "Tim Hårek"
+taxonomies = [
+  { name = "tags", feed = false },
+]
+
+[languages.no.translations]
+latest_posts = "Siste innlegg"
+view_all = "Se alle"
+published = "Publisert"
+updated = "Sist oppdatert"
+show_all = "Vis alle"
+source = "Kilde"
+link = "Lenke"
+last_deploy = "Siste bygging"
+toc = "Innholdsfortegnelse"
+reply_via_email = "Svar via e-post"
+total_words_written = "Antall skrevne ord"
+total_post_published = "Antall publiserte innlegg"
+average_word_post = "Gjennomsnittlig antall ord"
+first_post = "Første innlegg"
+longest_post = "Lengste innlegg"
+with = "med"
+words = "ord"
+posts_words_per_year = "Innlegg/ord per år"
+year = "År"
+no_post = "Antall innlegg"
+average_word = "Gjennomsnittlig antall ord"
+top_tags = "Topp tags"
+posts = "Innlegg"
+tagged_with = "Tagget med"
 
 [markdown]
 highlight_code = true
@@ -38,15 +93,14 @@ logo = "img/logo.svg"
 cover = "img/cover.png"
 
 nav = [
-  { name = "Blog", path = "@/blog/_index.md" },
-  { name = "Work", path = "@/work/_index.md" },
-  { name = "Connect", path = "@/connect/_index.md" },
-  { name = "About", path = "@/about/_index.md" },
+  { path = "@/blog/_index.md" },
+  { path = "@/work/_index.md" },
+  { path = "@/connect/_index.md" },
+  { path = "@/about/_index.md" }
 ]
 
 footer_nav = [
-  { name = "Stats", path = "@/stats.md" },
-  { name = "Privacy", path = "@/privacy.md" },
-  { name = "RSS", path = "/rss.xml" }
+  { path = "@/stats.md" },
+  { path = "@/privacy.md" }
 ]
 

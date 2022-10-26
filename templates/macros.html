@@ -109,7 +109,7 @@
 {% endmacro %}
 
 {% macro toc(toc, level=2) %}
-<h2>Table of contents</h2>
+<h2>{{ trans(key="toc", lang=lang) }}</h2>
 <ul>
   {% for item in toc %}
     <li>
@@ -198,7 +198,11 @@
         {% for ancestor_raw in ancestors %}
           {% set ancestor = get_section(path=ancestor_raw) %}
           <li class="breadcrumbs-list__item">
-            <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value="Index") }}</a>
+            {% set_global defaultIndex = "Index" %}
+            {% if lang == "no" %}
+              {% set_global defaultIndex = "Hjem" %}
+            {% endif %}
+            <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value=defaultIndex) }}</a>
           </li>
         {% endfor %}
         <li class="breadcrumbs-list__item">

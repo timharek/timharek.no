@@ -21,7 +21,7 @@
       <div class="header__time">
       </div>
       <div class="header__time__wrapper">
-        Published:
+        {{ trans(key="published", lang=lang) }}:
         <time
           class="dt-published"
           datetime="{{ page.date }}"
@@ -32,7 +32,7 @@
       </div>
       {% if page.updated %}
         <div class="header__time__wrapper">
-            Updated:
+        {{ trans(key="updated", lang=lang) }}:
             <time
               class="dt-updated"
               datetime="{{ page.updated }}"
@@ -64,15 +64,15 @@
     <div class="footer__metadata">
       {% if page.taxonomies.tags %}
         <div>
-          {{ load_data(path="static/img/icons/tag.svg") | safe }} Tagged with {% for tag in page.taxonomies.tags %}<a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag|lower }}</a> {% endfor %}
+          {{ load_data(path="static/img/icons/tag.svg") | safe }} {{ trans(key="tagged_with", lang=lang) }} {% for tag in page.taxonomies.tags %}<a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag|lower }}</a> {% endfor %}
         </div>
       {% endif %}
       <div>
-        {{ load_data(path="static/img/icons/document.svg") | safe }} {{ page.word_count | num_format }} words
+        {{ load_data(path="static/img/icons/document.svg") | safe }} {{ page.word_count | num_format }} {{ trans(key="words", lang=lang) | lower }}
       </div>
     </div>
     <a class="btn" href="mailto:{{ config.extra.email }}?subject=RE: {{ page.title }}">
-      {{ load_data(path="static/img/icons/email.svg") | safe }} Reply via e-mail
+      {{ load_data(path="static/img/icons/email.svg") | safe }} {{ trans(key="reply_via_email", lang=lang) }}
     </a>
   </div>
 
