@@ -10,9 +10,11 @@
     {{ page.content | safe }}
   {% endif %}
 
-  {% set section = get_section(path="blog/_index.md") %}
+  {% set blog_en = get_section(path="blog/_index.md") %}
+  {% set blog_no = get_section(path="blog/_index.no.md") %}
+  {% set pages = blog_en.pages | concat(with=blog_no.pages) %}
 
-  {% set pages = section.pages | sort(attribute="date") %}
+  {% set pages = pages | sort(attribute="date") %}
   {% set total_pages_length = pages | length %}
 
   {% set first_post = pages | first %}
