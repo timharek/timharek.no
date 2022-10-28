@@ -262,6 +262,7 @@ picture {
 header.header {
   @include wrapper();
   @include flex(space-between);
+  flex-wrap: wrap;
   margin-block-end: $spacing;
 
   .header__logo {
