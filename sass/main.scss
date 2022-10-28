@@ -464,7 +464,7 @@ article.post {
   @include list($gap: 0);
 
   &__item:not(:last-child)::after {
-    content: '>';
+    content: '/';
     margin-inline: $spacingSmall;
   }
 }
