@@ -110,6 +110,10 @@ $b-md: 768px;
   }
 }
 
+.font-mono {
+  font-family: $font-family-mono;
+}
+
 a {
   --color-text: var(--color-primary);
   color: var(--color-text);
@@ -216,10 +220,6 @@ code {
 
 pre code {
   padding: 0;
-}
-
-time {
-  font-family: $font-family-mono;
 }
 
 button,
@@ -465,7 +465,7 @@ article.post {
   @include list($gap: 0);
 
   &__item:not(:last-child)::after {
-    content: '/';
+    content: "/";
     margin-inline: $spacingSmall;
   }
 }
