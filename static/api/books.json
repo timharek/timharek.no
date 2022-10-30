@@ -314,5 +314,28 @@
         "string": "2022-07-22"
       }
     ]
+  },
+  {
+    "title": "The Phoenix Project",
+    "description": "The world is working exactly as designed.",
+    "publish_year": 2013,
+    "author": ["Gene Kim", "Kevin Behr", "George Spafford"],
+    "genres": [
+      "Fiction",
+      "Technology",
+      "Programming",
+      "Business",
+      "Leadership",
+      "Management"
+    ],
+    "my_rating": 5,
+    "date": [
+      {
+        "year": "2022",
+        "month": "10",
+        "day": "30",
+        "string": "2022-10-30"
+      }
+    ]
   }
 ]
