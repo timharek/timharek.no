@@ -24,6 +24,7 @@ software and services.
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
+- **Ender 3 S1**. 3D-printer.
 
 ## Software
 
@@ -58,6 +59,7 @@ This is software that I use on my devices.
 - [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
 - [MacUpdater][macupdater]. Keeping my Mac up to date.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
+- [Spaceman][spaceman]. Menu bar utility for spaces.
 - [yabai][yabai]. Tiling window manager for macOS.
 
 ### iPhone
@@ -105,7 +107,7 @@ This is software that I use on my devices.
 [yr]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
 [migadu]: https://migadu.com
-[migadu_review]: /blog/migadu-review
+[migadu_review]: @/blog/2021-12-12-migadu-review/index.md
 [mullvad]: https://mullvad.net/en/
 [yabai]: https://github.com/koekeishiya/yabai
 [lulu]: https://objective-see.com/products/lulu.html
@@ -115,3 +117,4 @@ This is software that I use on my devices.
 [dotfiles]: https://github.com/timharek/dotfiles
 [pinboard]: https://pinboard.in
 [moonlander]: https://www.zsa.io/moonlander/
+[spaceman]: https://github.com/Jaysce/Spaceman
