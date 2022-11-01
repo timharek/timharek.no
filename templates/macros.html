@@ -18,7 +18,7 @@
 {% macro backlinks(page, title="page") %}
   {% if page.backlinks %}
     <div class="backlinks">
-      <h2>Mention{{ page.backlinks | length | pluralize }} of this {{ title }}</h2>
+      <h2>{{ trans(key="also_mentioned_in", lang=lang) }}</h2>
       <ul class="backlinks__list">
         {% for backlink in page.backlinks %}
         <li>

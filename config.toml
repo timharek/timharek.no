@@ -43,6 +43,7 @@ average_word = "Avg. words"
 top_tags = "Top tags"
 posts = "Posts"
 tagged_with = "Tagged with"
+also_mentioned_in = "Also mentioned in"
 
 [languages.no]
 title = "Tim Hårek"
@@ -75,6 +76,7 @@ average_word = "Gjennomsnittlig antall ord"
 top_tags = "Topp tags"
 posts = "Innlegg"
 tagged_with = "Tagget med"
+also_mentioned_in = "Også nevnt i"
 
 [markdown]
 highlight_code = true
