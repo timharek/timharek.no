@@ -19,14 +19,14 @@ library of more than 200 games and can't fathom what to play. And I can't find
 the motivation to setup all the stuff that goes along with the VR-stuff, it's
 fun for a weekend, but not any longer.
 
-I even got a Steam Deck before the summer in preparation for my trip to
-Thailand, which actually worked. I played a fantastic game called Return of the
-Obra Dinn. But I haven't had any luck since.
+I even got a Steam Deck before the summer in preparation for a trip to Thailand,
+which actually worked. I played a fantastic game called Return of the Obra Dinn.
+But I haven't had any luck since.
 
 Just the other day I wanted to checkout Overwatch 2, but after two rounds I was
-super bored. I also tried to play Cyberpunk 2077 after that, but man was it
-tedious to get back on a saved-game I haven't really touched since I finished
-the game in 2020.
+super bored. I also tried to play Cyberpunk 2077 after that, but it was tedious
+to get back on a saved-game I haven't really touched since I finished the game
+in 2020.
 
 A theory as to why this is happening is that I no longer have a need to
 procrastinate my "personal time". When I was younger I used to play video-games
@@ -50,5 +50,5 @@ We'll have to see. I've pre-ordered the new God of War: Ragnarok on the PS5, and
 hopefully finish it instead of playing for one day and forgetting about it.
 
 And yes, I know this is a great example of a first-world problem. I needed to
-air out my "frustrations". Maybe someone has experienced the same, please let me
-know!
+air out my "frustrations". Maybe someone has experienced the same or something
+similar, please let me know!
