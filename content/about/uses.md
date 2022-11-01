@@ -1,13 +1,21 @@
 +++
-title = "Technology that I use"
-description = "Different technologies that Tim Hårek uses."
+title = "Uses"
+description = "What I use on a day-to-day basis."
 template = "layouts/page.html"
 aliases = ["/use"]
-updated = 2022-10-24
+updated = 2022-11-01
 +++
+
+Inspired by what other people uses from [Uses This][usesthis], I like to read 
+about what tools others use to get through their day to day.
 
 This page contains lists of different technologies that I use, hardware,
 software and services.
+
+I don't really arrange my desk to well, I only do that occasionally. Here is 
+some snapshots of my current workspace.
+
+{{ picture(url="content/about/setup.webp", alt="My desk setup. Photo" caption="My current desk setup.") }}
 
 ## Hardware
 
@@ -15,6 +23,8 @@ software and services.
 - **iPhone 13 Pro**. Superb battery life and camera.
 - **Apple Watch Ultra**. Overkill watch for everyday exercise.
 - [ZSA Moonlander Mark I][moonlander]. Ergonomic split keyboard.
+
+{{ picture(url="content/about/hardware.webp", alt="My MacBook, iPhone and Apple Watch. Photo" caption="My MacBook, iPhone and Apple Watch. (Yes, I watch Kurzgesagt)") }}
 
 ### Homelab
 
@@ -25,6 +35,8 @@ software and services.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
 - **Ender 3 S1**. 3D-printer.
+
+{{ picture(url="content/about/3d-pegboard.webp", alt="Server-cabinet and 3D-printer setup with filaments. Photo" caption="Server-cabinet and 3D-printer setup with filaments.") }}
 
 ## Software
 
@@ -118,3 +130,4 @@ This is software that I use on my devices.
 [pinboard]: https://pinboard.in
 [moonlander]: https://www.zsa.io/moonlander/
 [spaceman]: https://github.com/Jaysce/Spaceman
+[usesthis]: https://usesthis.com/
