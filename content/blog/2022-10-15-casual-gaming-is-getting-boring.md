@@ -1,9 +1,9 @@
 +++
 title = "Casual gaming is getting boring"
 description = "For the last 22-23 years I've played video-games regularly, but now it's getting boring..."
-updated = 2022-10-30
+updated = 2022-11-01
 [taxonomies]
-tags = ["Thoughts"] 
+tags = ["Thoughts", "Gaming"] 
 +++
 
 Ever since I started working full-time last year, gaming has never been the
