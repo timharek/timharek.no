@@ -396,7 +396,7 @@
     }
   },
   {
-    "title": "Skiing",
+    "title": "Ski trip",
     "occasion": ["pleasure"],
     "location": {
       "country": "Norway",
@@ -458,6 +458,28 @@
         "month": "10",
         "day": "21",
         "string": "2022-10-21"
+      }
+    }
+  },
+  {
+    "title": "Meetings",
+    "occasion": ["work"],
+    "location": {
+      "country": "Norway",
+      "cities": ["Trondheim"]
+    },
+    "date": {
+      "from": {
+        "year": "2022",
+        "month": "11",
+        "day": "03",
+        "string": "2022-11-03"
+      },
+      "to": {
+        "year": "2022",
+        "month": "11",
+        "day": "04",
+        "string": "2022-11-04"
       }
     }
   }
