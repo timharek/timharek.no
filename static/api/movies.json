@@ -1505,5 +1505,21 @@
         "string": "2022-10-22"
       }
     ]
+  },
+  {
+    "title": "Barbarian",
+    "release_year": 2022,
+    "my_rating": 4,
+    "genres": ["Horror", "Thriller"],
+    "director": ["Zach Cregger"],
+    "type": "Movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "11",
+        "day": "04",
+        "string": "2022-11-04"
+      }
+    ]
   }
 ]
