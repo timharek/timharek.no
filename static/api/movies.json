@@ -1521,5 +1521,21 @@
         "string": "2022-11-04"
       }
     ]
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "release_year": 2022,
+    "my_rating": 3,
+    "genres": ["Action", "Adventure", "Drama"],
+    "director": ["Ryan Coggler"],
+    "type": "Movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "11",
+        "day": "09",
+        "string": "2022-11-09"
+      }
+    ]
   }
 ]
