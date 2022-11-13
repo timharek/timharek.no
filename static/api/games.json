@@ -268,5 +268,21 @@
         "string": "2022-09-17"
       }
     ]
+  },
+  {
+    "title": "God of War: Ragnarök",
+    "release_year": 2022,
+    "my_rating": 5,
+    "genres": ["Action", "Adventure", "Single-Player"],
+    "platform": ["PS5"],
+    "playtime": "29:05",
+    "date": [
+      {
+        "year": "2022",
+        "month": "11",
+        "day": "13",
+        "string": "2022-11-13"
+      }
+    ]
   }
 ]
