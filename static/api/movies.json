@@ -327,7 +327,7 @@
     ]
   },
   {
-    "title": "Toys Story 4",
+    "title": "Toy Story 4",
     "description": "",
     "release_year": 2019,
     "my_rating": 3,
@@ -1535,6 +1535,22 @@
         "month": "11",
         "day": "09",
         "string": "2022-11-09"
+      }
+    ]
+  },
+  {
+    "title": "Krigsseileren",
+    "release_year": 2022,
+    "my_rating": 5,
+    "genres": ["Drama", "War"],
+    "director": ["Gunnar Vikene"],
+    "type": "Movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "11",
+        "day": "19",
+        "string": "2022-11-19"
       }
     ]
   }
