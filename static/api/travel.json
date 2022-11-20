@@ -482,5 +482,27 @@
         "string": "2022-11-04"
       }
     }
+  },
+  {
+    "title": "Meetings",
+    "occasion": ["work"],
+    "location": {
+      "country": "Norway",
+      "cities": ["Trondheim"]
+    },
+    "date": {
+      "from": {
+        "year": "2022",
+        "month": "11",
+        "day": "15",
+        "string": "2022-11-15"
+      },
+      "to": {
+        "year": "2022",
+        "month": "11",
+        "day": "17",
+        "string": "2022-11-17"
+      }
+    }
   }
 ]
