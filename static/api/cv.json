@@ -12,7 +12,13 @@
       "city": "Bergen",
       "countryCode": "NO"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "timharek",
+        "url": "https://github.com/timharek"
+      }
+    ]
   },
   "work": [
     {
