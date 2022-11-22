@@ -4,9 +4,6 @@
 {% block head %}
   {% set title = section.title ~ " - " ~ config.title %}
   {% set description = section.description | default(value=config.description) %}
-  {% if section.updated %}
-    {% set updated = section.updated | date(format=config.extra.date_format) %}
-  {% endif %}
   {% if section.content %}
     {% set content = section.content %}
   {% endif %}
@@ -14,35 +11,34 @@
 
 {% block content %}
 
-
 {% set work_data = load_data(path="static/api/work.json") %}
+{% set work_data = work_data.list | sort(attribute="endDate") | reverse %}
 
 <section class="page-content">
   {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
-  {% if work_data.updated %}
-    <span class="page-updated">
-      {{ trans(key="updated", lang=lang) }}: <time datetime="{{ work_data.updated }}">{{ work_data.updated }}</time>
-    </span>
-  {% endif %}
+  <span class="page-updated">
+    {% set updated = work_data[0].endDate %}
+    {{ trans(key="updated", lang=lang) }}: <time datetime="{{ updated }}">{{ updated }}</time>
+  </span>
   {{ content | safe }}
 
   {% set_global all_tags = [] %}
-  {% for work in work_data.list %}
-    {% if work.extra.tags %}
-      {% set_global all_tags = all_tags | concat(with=work.extra.tags) %}
+  {% for work in work_data %}
+    {% if work.keywords %}
+      {% set_global all_tags = all_tags | concat(with=work.keywords) %}
     {% endif %}
   {% endfor %}
   {% set all_tags_unique = all_tags | unique %}
 
   <div class="work-filter">
-    <label for="filter">Filter tags
+    <label for="filter">Filter keywords
       <select name="filter" id="filter" onchange="updateWorkGrid()">
           <option value="all">{{ trans(key="show_all", lang=lang) }}</option>
           {% for tag in all_tags_unique | sort %}
             {% set_global tag_count = 0 %}
-            {% for item in work_data.list %}
-              {% if tag in item.extra.tags %}
+            {% for item in work_data %}
+              {% if tag in item.keywords %}
                 {% set_global tag_count = tag_count + 1 %}
               {% endif %}
             {% endfor %}
@@ -53,7 +49,7 @@
   </div>
 
   <div class="work">
-    {% for work in work_data.list | sort(attribute="extra.date") | reverse %}
+    {% for work in work_data %}
       <div class="work__item"
         {% if work.color %}
           style="
@@ -65,21 +61,21 @@
             {% if work.client %}
               {{ work.client }}
             {% else %}
-              {{ work.title }}
+              {{ work.name }}
             {% endif %}
           </h2>
         </div>
         <div class="work__item__body">
           {% if work.client %}
-            <h3>{{ work.title }}</h3>
+            <h3>{{ work.name }}</h3>
           {% endif %}
           <p>
             {{ work.description }}
           </p>
-          {% if work.extra.tags %}
+          {% if work.keywords %}
             <ul class="work__item__body__tags">
-              {% for tag in work.extra.tags | sort %}
-                <li data-tag="{{ tag | slugify }}">{{ tag | lower }}</li>
+              {% for keyword in work.keywords | sort %}
+                <li data-tag="{{ keyword | slugify }}">{{ keyword | lower }}</li>
               {% endfor %}
             </ul>
           {% endif %}
