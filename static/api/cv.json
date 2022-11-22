@@ -179,7 +179,17 @@
     }
   ],
   "awards": [],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "Relasjonskompetanse for rådgivere og ledere",
+      "date": "2022-11-22",
+      "issuer": {
+        "company": "Prosessarbeid AS",
+        "person": "Målfrid J. Ågotnes"
+      },
+      "url": null
+    }
+  ],
   "publications": [],
   "skills": [
     {
