@@ -125,6 +125,15 @@ a {
     background: var(--color-text);
     color: var(--color-background);
   }
+
+  &[target="_blank"]::after {
+    display: inline-block;
+    content: "↗";
+    width: 0.67rem;
+    height: 0.67rem;
+    margin-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
 }
 
 .btn {
