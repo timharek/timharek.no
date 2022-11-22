@@ -243,5 +243,19 @@
       "language": "English",
       "fluency": "Fluent"
     }
+  ],
+  "interests": [
+    {
+      "name": "Hiking",
+      "keywords": ["mountains"]
+    },
+    {
+      "name": "3D-printing",
+      "keywords": ["DIY", "Tool-making"]
+    },
+    {
+      "name": "Home Automation",
+      "keywords": ["Home Assistant", "Zigbee", "Raspberry Pi"]
+    }
   ]
 }
