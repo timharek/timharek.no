@@ -11,8 +11,8 @@
 
 {% block content %}
 
-{% set work_data = load_data(path="static/api/work.json") %}
-{% set work_data = work_data.list | sort(attribute="endDate") | reverse %}
+{% set work_data = load_data(path="static/api/cv.json") %}
+{% set work_data = work_data.projects | sort(attribute="endDate") | reverse %}
 
 <section class="page-content">
   {{ macros::breadcrumbs() }}
