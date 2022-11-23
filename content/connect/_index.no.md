@@ -14,3 +14,9 @@ Hvis du vil holde deg oppdatert med nettsiden min er RSS veien å gå! Jeg har e
 [RSS-feed her](/rss.xml). Personlig bruker jeg
 [NetNewsWire](https://netnewswire.com) for alle mine RSS-behov, men det er mange
 [andre alternativer](https://alternativeto.net/software/netnewswire/) der ute.
+
+## Andre steder på internett
+
+- [SourceHut](https://sr.ht/~timharek)
+- [Codeberg](https://codeberg.org/timharek)
+- [GitHub](https://github.com/timharek)
