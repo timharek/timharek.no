@@ -44,55 +44,42 @@ For a more frequently updated overview you can checkout my [dotfiles][dotfiles].
 
 This is software that I use on my devices.
 
-### MacBook
-
-- Apple Mail. E-mail client of choice.
 - [Affinity Designer][affinity]. My vector editor.
-- [Bitwarden][bitwarden]. Open source password manager.
+- [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
+- Apple Mail. E-mail client of choice.
+- Apple Podcasts. Simple podcast app.
+- [Dozer][dozer]. Hide icons from the menu bar on macOS.
 - [Firefox][firefox]. Highly customizable browser.
   - [Bitwarden][bitwarden]. Open source password manager.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
+- [iTerm2][iterm]. Fast, native terminal for macOS.
+- [Lulu][lulu]. Network monitor for macOS.
+- [MacUpdater][macupdater]. Keeping my Mac up to date.
+- [Mattermost][mattermost]. A great open source alternative to Slack.
 - [NetNewsWire][netnewswire]. RSS Reader.
-- [Nextcloud][nextcloud]. My self-hosted cloud.
 - [Numi][numi]. Quick-access calculator.
-- [Spotify][spotify]. Current music service of choice.
-- [Wireguard][wireguard]. Connecting to my home network remotely.
 - [Neovim][neovim]. My favorite text-editor.
   - [telescope.nvim][telescope]. File browser and much more.
   - [emmet.vim][emmet]. A must-have for webdev.
 - [VSCodium][vscodium]. For work.
-- [iTerm2][iterm]. Fast, native terminal for macOS.
 - [Signal][signal]. Favorite messaging application.
 - [Slack][slack]. Communication at work.
-- [Mattermost][mattermost]. A great open source alternative to Slack.
-- [Dozer][dozer]. Hide icons from the menu bar on macOS.
-- [Lulu][lulu]. Network monitor for macOS.
-- [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
-- [MacUpdater][macupdater]. Keeping my Mac up to date.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
-- [Spaceman][spaceman]. Menu bar utility for spaces.
 - [yabai][yabai]. Tiling window manager for macOS.
-
-### iPhone
-
-- Apple Podcasts. Simple podcast app.
-- [Bitwarden][bitwarden]. Open source password manager.
-- [NetNewsWire][netnewswire]. RSS Reader.
-- [Signal][signal]. Favorite messaging application.
-- [Slack][slack]. Communication at work.
-- [Mattermost][mattermost]. A great open source alternative to Slack.
-- [Spotify][spotify]. Current music service of choice.
 - [Yr.no][yr]. Simple weather app.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
 
 ## Services
 
 - [1984 Hosting][1984]. Privacy-first VPS service.
-- [Migadu][migadu]. Amazing email provider ([review][migadu_review]).
+- [Bitwarden][bitwarden]. Open source password manager.
+- [Migadu][migadu]. Amazing email provider ([my review][migadu_review]).
 - [Mullvad VPN][mullvad]. Privacy focused VPN provider.
+- [Nextcloud][nextcloud]. My self-hosted cloud.
 - [Plausible][plausible]. Privacy-first analytics.
 - [Pinboard][pinboard]. Social bookmarking, I like it.
+- [Spotify][spotify]. Current music-service of choice.
 
 [affinity]: https://affinity.serif.com/en-us/designer
 [firefox]: https://www.mozilla.org/en-US/firefox/new
