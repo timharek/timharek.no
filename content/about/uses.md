@@ -53,6 +53,7 @@ This is software that I use on my devices.
   - [Bitwarden][bitwarden]. Open source password manager.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
+- [Insomnia][insomnia]. Open source API-client.
 - [iTerm2][iterm]. Fast, native terminal for macOS.
 - [Lulu][lulu]. Network monitor for macOS.
 - [MacUpdater][macupdater]. Keeping my Mac up to date.
@@ -118,3 +119,4 @@ This is software that I use on my devices.
 [moonlander]: https://www.zsa.io/moonlander/
 [spaceman]: https://github.com/Jaysce/Spaceman
 [usesthis]: https://usesthis.com/
+[insomnia]: https://insomnia.rest/
