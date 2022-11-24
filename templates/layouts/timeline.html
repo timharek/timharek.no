@@ -39,15 +39,17 @@
                 {{ item.details.custom_prefix }}
               {% else %}
                 {% if item.type == "movie" or item.type == "tv" %}
-                  Watched
+                  🍿 Watched
                 {% elif item.type == "book" %}
-                  Read
+                  📚 Read
                 {% elif item.type == "game" %}
-                  Completed
+                  🎮 Completed
+                {% elif item.type == "life" %}
+                  🍀 Life
                 {% elif item.type == "travel" and item.details.occasion == "business" %}
-                  Business trip
+                  ✈️ Business trip
                 {% elif item.type == "travel" and item.details.occasion == "pleasure" %}
-                  Travel
+                  ✈️ Travel
                 {% endif %}
               {% endif %}
             </div>
