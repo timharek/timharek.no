@@ -2,16 +2,7 @@
   {
     "title": "Essentialism: The Disciplined Pursuit of Less",
     "description": "",
-    "publish_year": 2014,
-    "author": ["Greg McKeown"],
-    "genres": [
-      "Nonfiction",
-      "Self Help",
-      "Psychology",
-      "Productivity",
-      "Business"
-    ],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2018",
@@ -19,23 +10,23 @@
         "day": "14",
         "string": "2018-12-14"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2014,
+      "my_rating": 4,
+      "genres": [
+        "Nonfiction",
+        "Self Help",
+        "Psychology",
+        "Productivity",
+        "Business"
+      ]
+    }
   },
   {
     "title": "How To Win Friends And Influence People",
     "description": "",
-    "publish_year": 1936,
-    "author": ["Dale Carnegie"],
-    "genres": [
-      "Nonfiction",
-      "Self Help",
-      "Psychology",
-      "Productivity",
-      "Business",
-      "Leadership",
-      "Relationships"
-    ],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2019",
@@ -43,15 +34,25 @@
         "day": "06",
         "string": "2019-08-06"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 1936,
+      "my_rating": 4,
+      "genres": [
+        "Nonfiction",
+        "Self Help",
+        "Psychology",
+        "Productivity",
+        "Business",
+        "Leadership",
+        "Relationships"
+      ]
+    }
   },
   {
     "title": "Sapiens: A Brief History of Humankind",
     "description": "",
-    "publish_year": 2011,
-    "author": ["Yuval Noah Harari"],
-    "genres": ["Nonfiction", "Science", "History", "Anthropology", "Sociology"],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2019",
@@ -59,15 +60,23 @@
         "day": "08",
         "string": "2019-08-08"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2011,
+      "my_rating": 5,
+      "genres": [
+        "Nonfiction",
+        "Science",
+        "History",
+        "Anthropology",
+        "Sociology"
+      ]
+    }
   },
   {
     "title": "Homo Deus: A Breif History of Tomorrow",
     "description": "",
-    "publish_year": 2015,
-    "author": ["Yuval Noah Harari"],
-    "genres": ["Nonfiction", "Science", "History", "Anthropology", "Sociology"],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2019",
@@ -75,15 +84,23 @@
         "day": "22",
         "string": "2019-09-22"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2015,
+      "my_rating": 5,
+      "genres": [
+        "Nonfiction",
+        "Science",
+        "History",
+        "Anthropology",
+        "Sociology"
+      ]
+    }
   },
   {
     "title": "Norse Mythology",
     "description": "",
-    "publish_year": 2017,
-    "author": ["Neil Gaiman"],
-    "genres": ["Fantasy", "Fiction", "Mythology", "Adult", "Short Stories"],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2019",
@@ -91,15 +108,23 @@
         "day": "22",
         "string": "2019-09-22"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2017,
+      "my_rating": 4,
+      "genres": [
+        "Fantasy",
+        "Fiction",
+        "Mythology",
+        "Adult",
+        "Short Stories"
+      ]
+    }
   },
   {
     "title": "21 Lessons for the 21st Century",
     "description": "",
-    "publish_year": 2018,
-    "author": ["Yuval Noah Harari"],
-    "genres": ["Nonfiction", "Science", "History", "Anthropology", "Sociology"],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2019",
@@ -107,22 +132,23 @@
         "day": "19",
         "string": "2019-11-19"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2018,
+      "my_rating": 4,
+      "genres": [
+        "Nonfiction",
+        "Science",
+        "History",
+        "Anthropology",
+        "Sociology"
+      ]
+    }
   },
   {
     "title": "Digital Minimalism",
     "description": "",
-    "publish_year": 2019,
-    "author": ["Cal Newport"],
-    "genres": [
-      "Nonfiction",
-      "Self Help",
-      "Psychology",
-      "Productivity",
-      "Science",
-      "Technology"
-    ],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2019",
@@ -130,21 +156,24 @@
         "day": "08",
         "string": "2019-12-08"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2019,
+      "my_rating": 4,
+      "genres": [
+        "Nonfiction",
+        "Self Help",
+        "Psychology",
+        "Productivity",
+        "Science",
+        "Technology"
+      ]
+    }
   },
   {
     "title": "Permanent Record",
     "description": "",
-    "publish_year": 2019,
-    "author": ["Edward Snowden"],
-    "genres": [
-      "Nonfiction",
-      "Biography",
-      "Politics",
-      "Autobiography",
-      "Technology"
-    ],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2020",
@@ -152,15 +181,23 @@
         "day": "14",
         "string": "2020-01-14"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2019,
+      "my_rating": 5,
+      "genres": [
+        "Nonfiction",
+        "Biography",
+        "Politics",
+        "Autobiography",
+        "Technology"
+      ]
+    }
   },
   {
     "title": "1984",
     "description": "",
-    "publish_year": 1949,
-    "author": ["George Orwell"],
-    "genres": ["Fiction", "Science Fiction", "Politics"],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2021",
@@ -168,21 +205,21 @@
         "day": "03",
         "string": "2021-04-03"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 1949,
+      "my_rating": 5,
+      "genres": [
+        "Fiction",
+        "Science Fiction",
+        "Politics"
+      ]
+    }
   },
   {
     "title": "The Subtle Art of Not Giving a Fuck: A Counterintuitive Approach to Living a Good Life",
     "description": "",
-    "publish_year": 2016,
-    "author": ["Mark Manson"],
-    "genres": [
-      "Nonfiction",
-      "Self Help",
-      "Psychology",
-      "Productivity",
-      "Business"
-    ],
-    "my_rating": 3,
+    "type": "book",
     "date": [
       {
         "year": "2021",
@@ -190,21 +227,23 @@
         "day": "27",
         "string": "2021-04-27"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2016,
+      "my_rating": 3,
+      "genres": [
+        "Nonfiction",
+        "Self Help",
+        "Psychology",
+        "Productivity",
+        "Business"
+      ]
+    }
   },
   {
     "title": "Talk Like TED",
     "description": "",
-    "publish_year": 2017,
-    "author": ["Carmine Gallo"],
-    "genres": [
-      "Nonfiction",
-      "Self Help",
-      "Psychology",
-      "Productivity",
-      "Business"
-    ],
-    "my_rating": 3,
+    "type": "book",
     "date": [
       {
         "year": "2021",
@@ -212,15 +251,23 @@
         "day": "30",
         "string": "2021-05-30"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2017,
+      "my_rating": 3,
+      "genres": [
+        "Nonfiction",
+        "Self Help",
+        "Psychology",
+        "Productivity",
+        "Business"
+      ]
+    }
   },
   {
     "title": "Atomic Habits",
     "description": "",
-    "publish_year": 2018,
-    "author": ["James Clear"],
-    "genres": ["Nonfiction", "Self Help", "Psychology", "Productivity"],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2021",
@@ -228,22 +275,22 @@
         "day": "18",
         "string": "2021-12-18"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2018,
+      "my_rating": 5,
+      "genres": [
+        "Nonfiction",
+        "Self Help",
+        "Psychology",
+        "Productivity"
+      ]
+    }
   },
   {
     "title": "New Dark Age",
     "description": "",
-    "publish_year": 2018,
-    "author": ["James Bridle"],
-    "genres": [
-      "Nonfiction",
-      "Science",
-      "Technology",
-      "Philosophy",
-      "Sociology",
-      "Futurism"
-    ],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2022",
@@ -251,22 +298,24 @@
         "day": "10",
         "string": "2022-03-10"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2018,
+      "my_rating": 4,
+      "genres": [
+        "Nonfiction",
+        "Science",
+        "Technology",
+        "Philosophy",
+        "Sociology",
+        "Futurism"
+      ]
+    }
   },
   {
     "title": "Lost Connections",
     "description": "Uncovering the Real Causes of Depression - and the Unexpected Solutions",
-    "publish_year": 2018,
-    "author": ["Johann Hari"],
-    "genres": [
-      "Nonfiction",
-      "Science",
-      "Psychology",
-      "Sociology",
-      "Health",
-      "Self Help"
-    ],
-    "my_rating": 4,
+    "type": "book",
     "date": [
       {
         "year": "2022",
@@ -274,15 +323,24 @@
         "day": "22",
         "string": "2022-03-22"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2018,
+      "my_rating": 4,
+      "genres": [
+        "Nonfiction",
+        "Science",
+        "Psychology",
+        "Sociology",
+        "Health",
+        "Self Help"
+      ]
+    }
   },
   {
     "title": "Thor: The God of Thunder #1 - #11",
     "description": "The Saga of Gorr the God Butcher",
-    "publish_year": 2013,
-    "author": ["Esad Ribic", "Jason Aaron"],
-    "genres": ["Comicbook", "Adventure", "Fantasy", "Action"],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2022",
@@ -290,22 +348,22 @@
         "day": "06",
         "string": "2022-07-06"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2013,
+      "my_rating": 5,
+      "genres": [
+        "Comicbook",
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ]
+    }
   },
   {
     "title": "Ruined by Design",
     "description": "The world is working exactly as designed.",
-    "publish_year": 2019,
-    "author": ["Mike Monteiro"],
-    "genres": [
-      "Nonfiction",
-      "Design",
-      "Politics",
-      "Technology",
-      "Programming",
-      "Science"
-    ],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2022",
@@ -313,22 +371,24 @@
         "day": "22",
         "string": "2022-07-22"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2019,
+      "my_rating": 5,
+      "genres": [
+        "Nonfiction",
+        "Design",
+        "Politics",
+        "Technology",
+        "Programming",
+        "Science"
+      ]
+    }
   },
   {
     "title": "The Phoenix Project",
     "description": "The world is working exactly as designed.",
-    "publish_year": 2013,
-    "author": ["Gene Kim", "Kevin Behr", "George Spafford"],
-    "genres": [
-      "Fiction",
-      "Technology",
-      "Programming",
-      "Business",
-      "Leadership",
-      "Management"
-    ],
-    "my_rating": 5,
+    "type": "book",
     "date": [
       {
         "year": "2022",
@@ -336,6 +396,18 @@
         "day": "30",
         "string": "2022-10-30"
       }
-    ]
+    ],
+    "details": {
+      "publish_year": 2013,
+      "my_rating": 5,
+      "genres": [
+        "Fiction",
+        "Technology",
+        "Programming",
+        "Business",
+        "Leadership",
+        "Management"
+      ]
+    }
   }
 ]

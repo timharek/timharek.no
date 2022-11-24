@@ -29,7 +29,7 @@
   {% for file in files %}
     {% set array = load_data(path=file) %}
     {% if array[0].type %}
-      <h2>{{ array[0].type }}</h2>
+      <h2>{{ array[0].type | capitalize }}s</h2>
     {% endif %}
     {% for year, entries in array | reverse | group_by(attribute="date.0.year") %}
       <div class="log__year">
@@ -42,9 +42,9 @@
             <div class="entry">
               <div aria-label="Entry title">{{ entry.title }}</div>
               {% for field in person_field %}
-                {% if entry[field] %}
-                  <div aria-label="Entry {{ field }}{{ entry[field]|length | pluralize }}">
-                    {% for person in entry[field] %}
+                {% if entry.details[field] %}
+                  <div aria-label="Entry {{ field }}{{ entry.details[field]|length | pluralize }}">
+                    {% for person in entry.details[field] %}
                       {{ person }}{% if not loop.last %},{% endif %}
                     {% endfor %}
                   </div>
@@ -56,7 +56,7 @@
                   {% if loop.index0 > 0 %}, {% endif %}{{ date.string }}
                 {% endfor %}
               </time>
-              {% set rating = entry.my_rating | int %}
+              {% set rating = entry.details.my_rating | int %}
               {% set rating_total = 5 %}
               {% set rating_diff = rating_total - rating %}
               <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>

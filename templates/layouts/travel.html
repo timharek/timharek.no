@@ -26,10 +26,7 @@
   {% endif %}
   {% for file in files %}
     {% set array = load_data(path=file) %}
-    {% if array[0].type %}
-      <h2>{{ array[0].type }}</h2>
-    {% endif %}
-    {% for year, entries in array | reverse | group_by(attribute="date.from.year") %}
+    {% for year, entries in array | reverse | group_by(attribute="date.0.year") %}
       <div class="log__year">
         <div class="log__year__header">
           <h2>{{ year }}</h2>
@@ -39,22 +36,22 @@
           {% for entry in entries %}
             <div class="entry">
               <div aria-label="Entry title">
-                {% if entry.location.cities|length == 1 %}
+                {% if entry.details.location.cities|length == 1 %}
                   {{ entry.title }}
                 {% else %}
-                  {{ entry.title }} in {{ entry.location.country }}
+                  {{ entry.title }} in {{ entry.details.location.country }}
                 {% endif %}
               </div>
               <div aria-label="Entry location">
-                {% if entry.location.cities|length == 1 %}
-                  {{ entry.location.cities[0] }}, {{ entry.location.country }}
+                {% if entry.details.location.cities|length == 1 %}
+                  {{ entry.details.location.cities[0] }}, {{ entry.details.location.country }}
                 {% else %}
-                  {{ entry.location.cities|join(sep=", ") }}
+                  {{ entry.details.location.cities|join(sep=", ") }}
                 {% endif %}
               </div>
               {% set date = entry.date %}
-              <time datetime="{{ date.from.string }}" aria-label="Entry from date">{{ date.from.string }}</time>
-              <time datetime="{{ date.to.string }}" aria-label="Entry to date">{{ date.to.string }}</time>
+              <time datetime="{{ date[0].string }}" aria-label="Entry from date">{{ date[0].string }}</time>
+              <time datetime="{{ date[1].string }}" aria-label="Entry to date">{{ date[1].string }}</time>
             </div>
           {% endfor %}
         </div>
