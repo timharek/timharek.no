@@ -21,6 +21,8 @@
   {% set_global array = array | concat(with=data) %}
 {% endfor %}
 
+{% set_global array = array | sort(attribute="date.0.string") | reverse %}
+
 <section class="page-content page-timeline">
   {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ page.title }}</h1>
@@ -29,44 +31,46 @@
   {% endif %}
 
   <div class="timeline-grid">
-    {% for item in array | sort(attribute="date.0.string") | reverse %}
+    {% for date, items in array | group_by(attribute="date.0.string") %}
       <div class="timeline__item">
-        <time class="font-mono" datetime="{{ item.date[0].string }}">{{ item.date[0].string }}</time>
-        <div class="timeline__item__wrapper">
-          <h2>
-            <div class="type">
-              {% if item.details.custom_prefix %}
-                {{ item.details.custom_prefix }}
+        <time class="font-mono" datetime="{{ date }}">{{ date }}</time>
+        {% for item in items %}
+          <div class="timeline__item__wrapper">
+            <h2>
+              <div class="type">
+                {% if item.details.custom_prefix %}
+                  {{ item.details.custom_prefix }}
+                {% else %}
+                  {% if item.type == "movie" or item.type == "tv" %}
+                    🍿 Watched
+                  {% elif item.type == "book" %}
+                    📚 Read
+                  {% elif item.type == "game" %}
+                    🎮 Completed
+                  {% elif item.type == "life" %}
+                    🍀 Life
+                  {% elif item.type == "travel" and item.details.occasion == "business" %}
+                    ✈️ Business trip
+                  {% elif item.type == "travel" and item.details.occasion == "pleasure" %}
+                    ✈️ Travel
+                  {% endif %}
+                {% endif %}
+              </div>
+              {% if not item.type == "travel" %}
+                {{ item.title }}
               {% else %}
-                {% if item.type == "movie" or item.type == "tv" %}
-                  🍿 Watched
-                {% elif item.type == "book" %}
-                  📚 Read
-                {% elif item.type == "game" %}
-                  🎮 Completed
-                {% elif item.type == "life" %}
-                  🍀 Life
-                {% elif item.type == "travel" and item.details.occasion == "business" %}
-                  ✈️ Business trip
-                {% elif item.type == "travel" and item.details.occasion == "pleasure" %}
-                  ✈️ Travel
+                {% if item.details.occasion == "business" %}
+                  {{ item.details.location.cities[0] }}
+                {% else %}
+                  {{ item.details.location.country }} - {{ item.details.location.cities | join(sep=", ") }}
                 {% endif %}
               {% endif %}
-            </div>
-            {% if not item.type == "travel" %}
-              {{ item.title }}
-            {% else %}
-              {% if item.details.occasion == "business" %}
-                {{ item.details.location.cities[0] }}
-              {% else %}
-                {{ item.details.location.country }} - {{ item.details.location.cities | join(sep=", ") }}
-              {% endif %}
+            </h2>
+            {% if item.description %}
+              <p>{{ item.description }}</p>
             {% endif %}
-          </h2>
-          {% if item.description %}
-            <p>{{ item.description }}</p>
-          {% endif %}
-        </div>
+          </div>
+        {% endfor %}
       </div>
     {% endfor %}
   </div>
