@@ -1,0 +1,114 @@
+[
+  {
+    "title": "New apartment",
+    "description": "Got my first apartment",
+    "type": "life",
+    "date": [
+      {
+        "year": "2016",
+        "month": "08",
+        "day": "08",
+        "string": "2016-08-08"
+      }
+    ],
+    "details": {
+      "custom_prefix": null
+    }
+  },
+  {
+    "title": "Finished military service",
+    "description": "",
+    "type": "life",
+    "date": [
+      {
+        "year": "2016",
+        "month": "09",
+        "day": "21",
+        "string": "2016-09-21"
+      }
+    ],
+    "details": {
+      "custom_prefix": null
+    }
+  },
+  {
+    "title": "Moved to Bergen",
+    "description": "To study Computer Security.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2017",
+        "month": "07",
+        "day": "31",
+        "string": "2017-07-31"
+      }
+    ],
+    "details": {
+      "custom_prefix": null
+    }
+  },
+  {
+    "title": "Started my Bachelor's degree",
+    "description": "In Computer Security.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2017",
+        "month": "08",
+        "day": "17",
+        "string": "2017-08-17"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🏛️ Education"
+    }
+  },
+  {
+    "title": "Got a dog 🐶",
+    "description": "Picked up Ayla.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2017",
+        "month": "01",
+        "day": "01",
+        "string": "2017-01-01"
+      }
+    ],
+    "details": {
+      "custom_prefix": null
+    }
+  },
+  {
+    "title": "Finished my Bachelor's degree",
+    "description": "In Computer Security.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2021",
+        "month": "06",
+        "day": "07",
+        "string": "2021-06-07"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🏛️ Education"
+    }
+  },
+  {
+    "title": "New job at Netlife Bergen",
+    "description": "First job after Univeristy.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2021",
+        "month": "08",
+        "day": "02",
+        "string": "2021-08-02"
+      }
+    ],
+    "details": {
+      "custom_prefix": "💼 Career"
+    }
+  }
+]
