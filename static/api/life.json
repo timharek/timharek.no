@@ -80,6 +80,22 @@
     }
   },
   {
+    "title": "New website",
+    "description": "",
+    "type": "life",
+    "date": [
+      {
+        "year": "2021",
+        "month": "01",
+        "day": "28",
+        "string": "2021-01-28"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🌐 Internet"
+    }
+  },
+  {
     "title": "Finished my Bachelor's degree",
     "description": "In Computer Security.",
     "type": "life",
@@ -109,6 +125,54 @@
     ],
     "details": {
       "custom_prefix": "💼 Career"
+    }
+  },
+  {
+    "title": "Deleted my Facebook-account",
+    "description": "",
+    "type": "life",
+    "date": [
+      {
+        "year": "2021",
+        "month": "10",
+        "day": "31",
+        "string": "2021-10-31"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🌐 Internet"
+    }
+  },
+  {
+    "title": "First opinion piece",
+    "description": "On a Norwegian tech site.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2022",
+        "month": "06",
+        "day": "07",
+        "string": "2022-06-07"
+      }
+    ],
+    "details": {
+      "custom_prefix": "✍️ Writing"
+    }
+  },
+  {
+    "title": "Got my first 3D-printer",
+    "description": "",
+    "type": "life",
+    "date": [
+      {
+        "year": "2022",
+        "month": "07",
+        "day": "13",
+        "string": "2022-07-13"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🖲️ Hobby"
     }
   }
 ]
