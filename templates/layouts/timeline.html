@@ -35,16 +35,20 @@
         <div class="timeline__item__wrapper">
           <h2>
             <div class="type">
-              {% if item.type == "movie" or item.type == "tv" %}
-                Watched
-              {% elif item.type == "book" %}
-                Read
-              {% elif item.type == "game" %}
-                Completed
-              {% elif item.type == "travel" and item.details.occasion == "business" %}
-                Business trip
-              {% elif item.type == "travel" and item.details.occasion == "pleasure" %}
-                Travel
+              {% if item.details.custom_prefix %}
+                {{ item.details.custom_prefix }}
+              {% else %}
+                {% if item.type == "movie" or item.type == "tv" %}
+                  Watched
+                {% elif item.type == "book" %}
+                  Read
+                {% elif item.type == "game" %}
+                  Completed
+                {% elif item.type == "travel" and item.details.occasion == "business" %}
+                  Business trip
+                {% elif item.type == "travel" and item.details.occasion == "pleasure" %}
+                  Travel
+                {% endif %}
               {% endif %}
             </div>
             {% if not item.type == "travel" %}
