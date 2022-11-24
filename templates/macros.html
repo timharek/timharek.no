@@ -205,3 +205,13 @@
     </nav>
   {% endif %}
 {% endmacro %}
+
+{% macro rating(max=5, rating) %}
+  {% set rating = rating | int %}
+  {% set diff = max - rating %}
+  {% set desc = "Rating: " ~ rating ~ " out of " ~  max ~ " stars" %}
+
+  <span aria-label="{{ desc }}" title="{{ desc }}">
+    {% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=diff) %}☆{% endfor %}
+  </span>
+{% endmacro %}

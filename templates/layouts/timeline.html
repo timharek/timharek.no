@@ -66,6 +66,9 @@
                 {% endif %}
               {% endif %}
             </h2>
+            {% if item.details.my_rating %}
+              <p>{{ macros::rating(rating=item.details.my_rating) }}</p>
+            {% endif %}
             {% if item.description %}
               <p>{{ item.description }}</p>
             {% endif %}

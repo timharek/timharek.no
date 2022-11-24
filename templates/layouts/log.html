@@ -56,10 +56,7 @@
                   {% if loop.index0 > 0 %}, {% endif %}{{ date.string }}
                 {% endfor %}
               </time>
-              {% set rating = entry.details.my_rating | int %}
-              {% set rating_total = 5 %}
-              {% set rating_diff = rating_total - rating %}
-              <div aria-label="Entry rating">{% for star in range(end=rating) %}★{% endfor %}{% for star in range(end=rating_diff) %}☆{% endfor %}</div>
+              <div aria-label="Entry rating">{{ macros::rating(max=5, rating=entry.details.my_rating) }}</div>
             </div>
           {% endfor %}
         </div>
