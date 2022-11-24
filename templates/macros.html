@@ -157,23 +157,16 @@
         </ul>
       </li>
       {% endfor %}
+      {% if section.pages %}
+        {% for page in section.pages %}
+          <li class="list__item">
+              <a href="{{ page.permalink }}">
+                {{ page.title }}
+              </a>
+          </li>
+        {% endfor %}
+      {% endif %}
     </ul>
-    {% if section.pages %}
-      <ul class="list">
-        <li class="list__item">
-          Other
-          <ul class="pages__list">
-            {% for page in section.pages %}
-              <li class="list__item">
-                  <a href="{{ page.permalink }}">
-                    {{ page.title }}
-                  </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
-      </ul>
-    {% endif %}
   {% else %}
     <nav aria-label="Subpages">
       <ul class="pages__list">
