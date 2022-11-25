@@ -2294,5 +2294,32 @@
         "Gunnar Vikene"
       ]
     }
+  },
+  {
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "type": "movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "11",
+        "day": "25",
+        "string": "2022-11-25"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 4,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Sci-Fi",
+        "Comicbook"
+      ],
+      "director": [
+        "James Gunn"
+      ]
+    }
   }
 ]
