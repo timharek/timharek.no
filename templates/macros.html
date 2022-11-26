@@ -233,7 +233,7 @@
 {% endmacro %}
 
 {% macro timeline_item(item) %}
-  <div class="timeline__item__wrapper">
+<div class="timeline__item__wrapper" data-tag="{{ item.type | slugify }}">
     <h2>
       <div class="type">
         {% if item.details.custom_prefix %}

@@ -32,7 +32,31 @@
     </p>
   {% endif %}
 
+  {% set_global all_types = [] %}
+  {% for item in array %}
+    {% if item.type %}
+      {% set_global all_types = all_types | concat(with=item.type) %}
+    {% endif %}
+  {% endfor %}
+  {% set all_types_unique = all_types | unique %}
+  <div class="filter">
+    <label for="filter">Filter by type of event
+      <select name="filter" id="filter" onchange="update('.timeline__item')">
+          <option value="all">{{ trans(key="show_all", lang=lang) }}</option>
+          {% for type in all_types_unique | sort %}
+            {% set_global type_count = 0 %}
+            {% for item in array %}
+              {% if type in item.type %}
+                {% set_global type_count = type_count + 1 %}
+              {% endif %}
+            {% endfor %}
+            <option value="{{ type | slugify }}">{{ type | capitalize }} ({{ type_count }})</option>
+          {% endfor %}
+      </select>
+    </label>
+  </div>
   {{ macros::timeline(array=array, attribute_year="date.0.year", attribute_date="date.0.string") }}
+  <script src="{{ get_url(path="js/timeline_filter.js") }}" defer></script>
 </section>
 
 {% endblock content %}
