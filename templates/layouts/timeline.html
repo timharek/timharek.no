@@ -27,59 +27,12 @@
   {{ macros::breadcrumbs() }}
   <h1 class="page-title">{{ page.title }}</h1>
   {% if content %}
-    {{ content | safe }}
+    <p>
+      {{ content | safe }}
+    </p>
   {% endif %}
 
-  <div class="timeline-grid">
-    {% for year, events in array | group_by(attribute="date.0.year") %}
-      {% for date, items in events | group_by(attribute="date.0.string") %}
-        <div class="timeline__item">
-          <time class="font-mono" datetime="{{ date }}">{{ date }}</time>
-          {% for item in items %}
-            <div class="timeline__item__wrapper">
-              <h2>
-                <div class="type">
-                  {% if item.details.custom_prefix %}
-                    {{ item.details.custom_prefix }}
-                  {% else %}
-                    {% if item.type == "movie" or item.type == "tv" %}
-                      🍿 Watched
-                    {% elif item.type == "book" %}
-                      📚 Read
-                    {% elif item.type == "game" %}
-                      🎮 Completed
-                    {% elif item.type == "life" %}
-                      🍀 Life
-                    {% elif item.type == "travel" and item.details.occasion == "business" %}
-                      ✈️ Business trip
-                    {% elif item.type == "travel" and item.details.occasion == "pleasure" %}
-                      ✈️ Travel
-                    {% endif %}
-                  {% endif %}
-                </div>
-                {% if not item.type == "travel" %}
-                  {{ item.title }}
-                {% else %}
-                  {% if item.details.occasion == "business" %}
-                    {{ item.details.location.cities[0] }}
-                  {% else %}
-                    {{ item.details.location.country }} - {{ item.details.location.cities | join(sep=", ") }}
-                  {% endif %}
-                {% endif %}
-              </h2>
-              {% if item.details.my_rating %}
-                <p>{{ macros::rating(rating=item.details.my_rating) }}</p>
-              {% endif %}
-              {% if item.description %}
-                <p>{{ item.description }}</p>
-              {% endif %}
-            </div>
-          {% endfor %}
-        </div>
-      {% endfor %}
-      <time id="{{ year }}" class="timeline__year font-mono" datetime="{{ year }}">{{ year }}</time>
-    {% endfor %}
-  </div>
+  {{ macros::timeline(array=array, attribute_year="date.0.year", attribute_date="date.0.string") }}
 </section>
 
 {% endblock content %}
