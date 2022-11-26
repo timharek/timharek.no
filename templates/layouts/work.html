@@ -31,9 +31,9 @@
   {% endfor %}
   {% set all_tags_unique = all_tags | unique %}
 
-  <div class="work-filter">
+  <div class="filter">
     <label for="filter">Filter keywords
-      <select name="filter" id="filter" onchange="updateWorkGrid()">
+      <select name="filter" id="filter" onchange="update('.work__item')">
           <option value="all">{{ trans(key="show_all", lang=lang) }}</option>
           {% for tag in all_tags_unique | sort %}
             {% set_global tag_count = 0 %}
@@ -97,6 +97,6 @@
   </div>
 </section>
 
-<script src="{{ get_url(path="js/work_filter.js") }}" defer></script>
+<script src="{{ get_url(path="js/filter.js") }}" defer></script>
 
 {% endblock content %}
