@@ -26,5 +26,5 @@ tasks:
   - deploy: |
       cd timharek.no
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avrP public/ $deploy:sites/timharek.no-test/public
+      rsync --rsh="$sshopts" -avrP public/ $deploy:sites/timharek.no/public
 
