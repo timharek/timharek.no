@@ -1,0 +1,30 @@
+image: alpine/edge
+packages:
+  - rsync
+  - zola
+environment:
+  BUILD_SUBMITTER: git.sr.ht
+  deploy: tim@wyd.no
+secrets:
+  - 0323bc6f-a046-4b96-8496-2bac6e7ee107
+sources:
+  - git+ssh://git@git.sr.ht/~timharek/timharek.no
+triggers:
+  - action: email
+    condition: always
+    to: tim@harek.no
+tasks:
+  - check: |
+      if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
+        complete-build; \
+      fi
+      cd timharek.no
+      zola check
+  - build: |
+      cd timharek.no
+      zola build
+  - deploy: |
+      cd timharek.no
+      sshopts="ssh -o StrictHostKeyChecking=no"
+      rsync --rsh="$sshopts" -avrP public/ $deploy:sites/timharek.no-test/public
+
