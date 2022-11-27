@@ -15,10 +15,10 @@ triggers:
     to: tim@harek.no
 tasks:
   - check: |
+      cd timharek.no
       if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
         complete-build; \
       fi
-      cd timharek.no
       zola check
   - build: |
       cd timharek.no
