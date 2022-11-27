@@ -1,7 +1,6 @@
 +++
 title = "Passord"
 updated = 2022-01-21
-template = "layouts/page.html"
 +++
 
 Passord er noe alle har et forhold til, men svært få vet hvordan de skal
