@@ -195,11 +195,11 @@
             {% if lang == "no" %}
               {% set_global defaultIndex = "Hjem" %}
             {% endif %}
-            <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value=defaultIndex) }}</a>
+            <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value=defaultIndex) | safe }}</a>
           </li>
         {% endfor %}
         <li class="breadcrumbs-list__item">
-          {{ section.title | default(value=page.title) }}
+          {{ section.title | default(value=page.title) | safe }}
         </li>
       </ul>
     </nav>
