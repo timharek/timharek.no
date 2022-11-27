@@ -85,6 +85,21 @@ external_links_target_blank = true
 external_links_no_referrer = true
 smart_punctuation = true
 
+# Configuration of the link checker.
+[link_checker]
+# Skip link checking for external URLs that start with these prefixes
+skip_prefixes = [
+    "https://www.kickstarter.com",
+    "https://docs.github.com/",
+    "https://snabelen.no/@tim",
+    "https://alternativeto.net"
+]
+
+# Skip anchor checking for external URLs that start with these prefixes
+skip_anchor_prefixes = [
+    "https://github.com/",
+]
+
 [extra]
 author = "Tim Hårek Andreassen"
 author_img = "img/me.jpeg"
