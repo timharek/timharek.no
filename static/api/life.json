@@ -174,5 +174,21 @@
     "details": {
       "custom_prefix": "🖲️ Hobby"
     }
+  },
+  {
+    "title": "Ran my 2nd half-marathon",
+    "description": "Finished in 2 hours and 2 minutes",
+    "type": "life",
+    "date": [
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "03",
+        "string": "2022-12-03"
+      }
+    ],
+    "details": {
+      "custom_prefix": "💪 Health"
+    }
   }
 ]
