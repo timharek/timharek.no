@@ -10,7 +10,7 @@ tags = ["Recently"]
 I've been a bit more busy this last month, or at least I think I have. When I
 think about it now I realize that I have updated my website quite a bit since
 last month. I did however manage to sneak in a blogpost on Black Friday: [I
-didn't buy anything on Black Friday][black_friday_post]
+didn't buy anything on Black Friday][black_friday_post].
 
 ## 🌐 Website
 
@@ -80,7 +80,7 @@ Apple TV+ and I'm impressed so far into two episodes.
 - **The Guardians of the Galaxy Holiday Special** &mdash; Meh, it had some cool
   details, and I felt like _I had to_ watch it.
 
-[place_i_live_post]: @/blog/2022-11-27-i-didnt-buy-anything-on-black-friday
+[black_friday_post]: @/blog/2022-11-27-i-didnt-buy-anything-on-black-friday.md
 [work]: @/work/_index.md
 [uses]: @/about/uses.md
 [logs]: @/logs/_index.md
