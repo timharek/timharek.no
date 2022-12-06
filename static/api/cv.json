@@ -258,6 +258,19 @@
   ],
   "projects": [
     {
+      "name": "valuegroup.no",
+      "client": "Value",
+      "roles": ["Developer"],
+      "description": "New website made with HubSpot CMS for an accounting agency.",
+      "endDate": "2022-12-06",
+      "keywords": ["Website", "HubSpot CMS", "Netlife"],
+      "url": "https://valuegroup.no",
+      "color": {
+        "bg": "#ece2fa",
+        "text": "black"
+      }
+    },
+    {
       "name": "ren.no",
       "client": "REN",
       "roles": ["UX-designer"],
