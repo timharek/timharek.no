@@ -1018,5 +1018,32 @@
       "season": 1,
       "episode_count": 10
     }
+  },
+  {
+    "title": "Black Bird",
+    "description": "A superb show about a drug-dealer that gets to know a serial killer in prison.",
+    "type": "tv",
+    "date": [
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "06",
+        "string": "2022-12-06"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 5,
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "creator": [
+        "Dennis Lehane"
+      ],
+      "season": 1,
+      "episode_count": 6
+    }
   }
 ]
