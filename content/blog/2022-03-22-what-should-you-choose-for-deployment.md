@@ -3,9 +3,14 @@ title = "What should you choose for depolying your static websites?"
 description = """
 Should you use GitHub Pages/Actions, `scp/rsync`, Sourcehut, GitLab?
 """
+updated = 2022-12-08
 [taxonomies]
 tags = ["DevOps", "Git"]
 +++
+
+{% notice(type="note") %}
+  As of 2022-12-08 [I have switched to SourceHut](@/blog/2022-12-08-switching-to-sourcehut-builds.md).
+{% end %}
 
 For the last couple of weeks I've been asking myself this. What is the better
 solution? Do I want to rely on a third-party for the deployment of my static
