@@ -232,14 +232,14 @@
   {% endfor %}
   {% set swap_lang_obj = load_data(literal='
     {
-      "en": "🇳🇴 Norsk",
-      "no": "🇺🇸 English"
+      "no": "🇳🇴 Norsk",
+      "en": "🇺🇸 English"
     }
   ', format="json") %}
   <div class="{{ prefix }}translation">
     {% if translation|length > 1 %}
-      <a class="translation__link" href="{{ url }}">
-         <span lang="{{ lang }}">{{ swap_lang_obj[lang] }}</span>
+      <a class="translation__link" href="{{ url }}" hreflang="{{ swap_lang }}">
+         <span lang="{{ swap_lang }}">{{ swap_lang_obj[swap_lang] }}</span>
       </a>
     {% endif %}
   </div>
