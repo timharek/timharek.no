@@ -26,35 +26,6 @@
 
         </li>
       {% endfor %}
-      {% set_global url = "/" %}
-      {% set_global translation = "" %}
-      {% set_global swap_lang = "" %}
-      {% if lang == "en" %}
-        {% set_global swap_lang = "no" %}
-        {% set_global url = "/no" %}
-      {% else %}
-        {% set_global swap_lang = "en" %}
-      {% endif %}
-
-      {% if page %}
-        {% set_global translation = page.translations %}
-      {% elif section %}
-        {% set_global translation = section.translations %}
-      {% endif %}
-      {% for trans in translation %}
-        {% if trans.lang == swap_lang %}
-          {% set_global url = trans.permalink %}
-        {% endif %}
-      {% endfor %}
-      <li class="nav__item">
-        <a class="nav__item--link" href="{{ url }}">
-          {% if lang == 'en' %}
-            <span lang="no">Norsk</span>
-          {% else %}
-            <span lang="en">English</span>
-          {% endif %}
-        </a>
-      </li>
     </ul>
   </nav>
 </header>

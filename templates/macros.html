@@ -185,26 +185,66 @@
 {% macro breadcrumbs() %}
   {% set_global ancestors = section.ancestors | default(value=page.ancestors) %}
 
-  {% if ancestors | length > 0 %}
-    <nav aria-label="Breadcrumbs">
-      <ul class="breadcrumbs-list">
-        {% for ancestor_raw in ancestors %}
-          {% set ancestor = get_section(path=ancestor_raw) %}
+  <div class="breadcrumbs-wrapper">
+    {% if ancestors | length > 0 %}
+      <nav aria-label="Breadcrumbs">
+        <ul class="breadcrumbs-list">
+          {% for ancestor_raw in ancestors %}
+            {% set ancestor = get_section(path=ancestor_raw) %}
+            <li class="breadcrumbs-list__item">
+              {% set_global defaultIndex = "Index" %}
+              {% if lang == "no" %}
+                {% set_global defaultIndex = "Hjem" %}
+              {% endif %}
+              <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value=defaultIndex) | safe }}</a>
+            </li>
+          {% endfor %}
           <li class="breadcrumbs-list__item">
-            {% set_global defaultIndex = "Index" %}
-            {% if lang == "no" %}
-              {% set_global defaultIndex = "Hjem" %}
-            {% endif %}
-            <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value=defaultIndex) | safe }}</a>
+            {{ section.title | default(value=page.title) | safe }}
           </li>
-        {% endfor %}
-        <li class="breadcrumbs-list__item">
-          {{ section.title | default(value=page.title) | safe }}
-        </li>
-      </ul>
-    </nav>
-  {% endif %}
+        </ul>
+      </nav>
+    {% endif %}
+    {{ self::translation() }}
+  </div>
 {% endmacro %}
+
+{% macro translation() %}
+  {% set_global url = "/" %}
+  {% set_global translation = "" %}
+  {% set_global swap_lang = "" %}
+  {% if lang == "en" %}
+    {% set_global swap_lang = "no" %}
+    {% set_global url = "/no" %}
+  {% else %}
+    {% set_global swap_lang = "en" %}
+  {% endif %}
+
+  {% if page %}
+    {% set_global translation = page.translations %}
+  {% elif section %}
+    {% set_global translation = section.translations %}
+  {% endif %}
+  {% for trans in translation %}
+    {% if trans.lang == swap_lang %}
+      {% set_global url = trans.permalink %}
+    {% endif %}
+  {% endfor %}
+  {% set swap_lang_obj = load_data(literal='
+    {
+      "en": "🇳🇴 Norsk",
+      "no": "🇺🇸 English"
+    }
+  ', format="json") %}
+  <div class="translation">
+    {% if translation|length > 1 %}
+      <a class="translation__link" href="{{ url }}">
+         <span lang="{{ lang }}">{{ swap_lang_obj[lang] }}</span>
+      </a>
+    {% endif %}
+  </div>
+{% endmacro %}
+
 
 {% macro rating(max=5, rating) %}
   {% set rating = rating | int %}
