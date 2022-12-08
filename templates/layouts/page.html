@@ -33,19 +33,6 @@
       {{ trans(key="updated", lang=lang) }}: <time datetime="{{ page.updated }}">{{ updated }}</time>
     </span>
   {% endif %}
-  {% if page.translations %}
-    {% for translation in page.translations %}
-      {% if translation.lang == "no" and not lang == "no" %}
-        <a href="{{ translation.permalink }}">
-          🇳🇴
-        </a>
-      {% elif lang == "no" and translation.lang == "en" %}
-        <a href="{{ translation.permalink }}">
-          🇺🇸
-        </a>
-      {% endif %}
-    {% endfor %}
-  {% endif %}
   {% if page and page.extra.subnav or section and section.extra.subnav %}
     {% set subnav = page.extra.subnav | default(value=section.extra.subnav) %}
     <nav class="page__subnav" aria-label="Sub navigation">

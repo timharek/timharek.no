@@ -470,6 +470,12 @@ article.post {
   }
 }
 
+.index-translation {
+  @media (min-width:$b-sm) {
+    float: right;
+  }
+  text-align: right;
+}
 .breadcrumbs-wrapper {
   @include flex(space-between);
   width: 100%;

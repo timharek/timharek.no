@@ -209,7 +209,7 @@
   </div>
 {% endmacro %}
 
-{% macro translation() %}
+{% macro translation(prefix="") %}
   {% set_global url = "/" %}
   {% set_global translation = "" %}
   {% set_global swap_lang = "" %}
@@ -236,7 +236,7 @@
       "no": "🇺🇸 English"
     }
   ', format="json") %}
-  <div class="translation">
+  <div class="{{ prefix }}translation">
     {% if translation|length > 1 %}
       <a class="translation__link" href="{{ url }}">
          <span lang="{{ lang }}">{{ swap_lang_obj[lang] }}</span>
