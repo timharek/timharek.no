@@ -3,7 +3,7 @@ title = "Uses"
 description = "What I use on a day-to-day basis."
 template = "layouts/page.html"
 aliases = ["/use"]
-updated = 2022-11-01
+updated = 2022-12-08
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read 
@@ -81,6 +81,7 @@ This is software that I use on my devices.
 - [Plausible][plausible]. Privacy-first analytics.
 - [Pinboard][pinboard]. Social bookmarking, I like it.
 - [Spotify][spotify]. Current music-service of choice.
+- [SourceHut][sourcehut]. Source-forge for all my personal Git-repositories.
 
 [affinity]: https://affinity.serif.com/en-us/designer
 [firefox]: https://www.mozilla.org/en-US/firefox/new
@@ -120,3 +121,4 @@ This is software that I use on my devices.
 [spaceman]: https://github.com/Jaysce/Spaceman
 [usesthis]: https://usesthis.com/
 [insomnia]: https://insomnia.rest/
+[sourcehut]: https://sourcehut.org
