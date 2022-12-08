@@ -190,5 +190,21 @@
     "details": {
       "custom_prefix": "💪 Health"
     }
+  },
+  {
+    "title": "Featured on Hacker News",
+    "description": "'You don't need live chat on your website', a post I spent no more than five minutes on.",
+    "type": "life",
+    "date": [
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "08",
+        "string": "2022-12-08"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🪨 Milestone"
+    }
   }
 ]
