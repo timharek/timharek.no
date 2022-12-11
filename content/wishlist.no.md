@@ -3,7 +3,7 @@ title = "Ønskeliste"
 description = "Tim Hårek's ønskeliste"
 template = "layouts/page.html"
 aliases = ["/ønskeliste", "/onskeliste"]
-updated = 2022-11-22
+updated = 2022-12-11
 lang = "no"
 [extra]
 no_index = true
@@ -12,7 +12,7 @@ no_index = true
 ## Diverse
 
 - Brødform
-- Skinnforkle
+- ~~Skinnforkle~~
 
 ## Teknologi osv.
 
