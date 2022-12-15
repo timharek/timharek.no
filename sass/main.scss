@@ -400,6 +400,10 @@ article.post {
     margin-block-end: $spacing;
   }
 
+  .header__metadata {
+    @include list(none, block)
+  }
+
   .post__tags {
     @include list($gap: $spacingSmall);
     * {

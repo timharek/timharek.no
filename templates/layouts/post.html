@@ -20,28 +20,33 @@
       </h1>
       <div class="header__time">
       </div>
-      <div class="header__time__wrapper">
-        {{ trans(key="published", lang=lang) }}:
-        <time
-          class="dt-published"
-          datetime="{{ page.date }}"
-          itemprop="datePublished"
-        >
-          {{ page.date | date(format=config.extra.date_format) }}
-        </time>
-      </div>
-      {% if page.updated %}
-        <div class="header__time__wrapper">
-          {{ trans(key="updated", lang=lang) }}:
-            <time
-              class="dt-updated"
-              datetime="{{ page.updated }}"
-              itemprop="dateUpdated"
-            >
-              {{ page.updated | date(format=config.extra.date_format) }}
-            </time>
-        </div>
-      {% endif %}
+      <ul class="header__metadata">
+        <li>
+          {{ trans(key="published", lang=lang) }}:
+          <time
+            class="dt-published"
+            datetime="{{ page.date }}"
+            itemprop="datePublished"
+          >
+            {{ page.date | date(format=config.extra.date_format) }}
+          </time>
+        </li>
+        {% if page.updated %}
+          <li>
+            {{ trans(key="updated", lang=lang) }}:
+              <time
+                class="dt-updated"
+                datetime="{{ page.updated }}"
+                itemprop="dateUpdated"
+              >
+                {{ page.updated | date(format=config.extra.date_format) }}
+              </time>
+          </li>
+        {% endif %}
+        <li>
+          Reading time: {{ page.reading_time }} min{{ page.reading_time | pluralize }}
+        </li>
+      </ul>
     </div>
     <span class="post-meta">
       {%- if config.extra.author -%}
