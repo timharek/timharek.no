@@ -136,6 +136,28 @@ a {
   }
 }
 
+.skip-to-content {
+  display: inline-block;
+  height: 1px;
+  left: -1000px;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+  top: -1000px;
+  width: 1px;
+
+  &:hover,
+  &:focus {
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    overflow: visible;
+    top: 0;
+    width: max-content;
+  }
+}
+
 .btn {
   --color-text: var(--color-primary);
   color: var(--color-text);
