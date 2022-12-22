@@ -625,5 +625,34 @@
         ]
       }
     }
+  },
+  {
+    "title": "Visiting friends",
+    "type": "travel",
+    "date": [
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "16",
+        "string": "2022-12-16"
+      },
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "21",
+        "string": "2022-12-21"
+      }
+    ],
+    "details": {
+      "occasion": "pleasure",
+      "location": {
+        "country": "Northern Ireland",
+        "cities": [
+          "Belfast",
+          "Lisburn",
+          "Portrush"
+        ]
+      }
+    }
   }
 ]
