@@ -2321,5 +2321,27 @@
         "James Gunn"
       ]
     }
+  },
+  {
+    "title": "Glass Onion: A Knives Out Mystery",
+    "type": "movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "25",
+        "string": "2022-12-25"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 3,
+      "genres": [
+        "Comedy", "Crime", "Drama"
+      ],
+      "director": [
+        "Rian Johnson"
+      ]
+    }
   }
 ]
