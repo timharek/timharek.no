@@ -9,11 +9,6 @@ lang = "no"
 no_index = true
 +++
 
-## Diverse
-
-- Brødform
-- ~~Skinnforkle~~
-
 ## Teknologi osv.
 
 - [Raspberry Pi 4 Model B 8GB](https://prisguiden.no/produkt/raspberry-pi-4-model-b-8gb-448032)
@@ -22,10 +17,6 @@ no_index = true
 
 ## Klær og sko
 
-- [Vivobarefoot Tracker II FG](https://www.vivobarefoot.com/rw/tracker-ii-fg-mens),
-  størrelse 46 EU, farge Obsidian
 - [Vivobarefoot Primus Asana Mens](https://www.vivobarefoot.com/rw/primus-asana-mens?colour=Obsidian),
   størrelse 45 EU, farge Obsidian
-- [Northern Playground beanie](https://www.northernplayground.no/nb/shop/the-recycled-wool-beanie)
-- [Northern Playground treningslue](https://www.northernplayground.no/nb/shop/toyen-lue)
 - [Northern Playground boxer](https://www.northernplayground.no/nb/shop/Boxer-kort)
