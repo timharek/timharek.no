@@ -2343,5 +2343,49 @@
         "Rian Johnson"
       ]
     }
+  },
+  {
+    "title": "Verdens verste menneske",
+    "type": "movie",
+    "date": [
+      {
+        "year": "2022",
+        "month": "12",
+        "day": "30",
+        "string": "2022-12-30"
+      }
+    ],
+    "details": {
+      "release_year": 2021,
+      "my_rating": 4,
+      "genres": [
+        "Comedy", "Drama", "Romance"
+      ],
+      "director": [
+        "Joachim Trier"
+      ]
+    }
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "type": "movie",
+    "date": [
+      {
+        "year": "2023",
+        "month": "01",
+        "day": "01",
+        "string": "2023-01-01"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 3,
+      "genres": [
+        "Action", "Adventure", "Fantasy"
+      ],
+      "director": [
+        "James Cameron"
+      ]
+    }
   }
 ]

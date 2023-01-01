@@ -1045,5 +1045,30 @@
       "season": 1,
       "episode_count": 6
     }
+  },
+  {
+    "title": "Andor",
+    "description": "",
+    "type": "tv",
+    "date": [
+      {
+        "year": "2023",
+        "month": "01",
+        "day": "01",
+        "string": "2023-01-01"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 4,
+      "genres": [
+        "Action", "Adventure", "Drama"
+      ],
+      "creator": [
+        "Tony Gilroy"
+      ],
+      "season": 1,
+      "episode_count": 12
+    }
   }
 ]
