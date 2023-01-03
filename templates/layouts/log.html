@@ -35,7 +35,7 @@
       <div class="log__year">
         <div class="log__year__header">
           <h3>{{ year }}</h3>
-          <p>Count: {{ entries | length }}</p>
+          <span>({{ entries | length }} entr{{ entries | length | pluralize(singular="y", plural="ies") }})</span>
         </div>
         <div class="entries">
           {% for entry in entries %}

@@ -606,11 +606,11 @@ article.post {
 
 .page-log {
   h2 {
-    @include stickyHeading();
+    margin-block: $spacing;
   }
 
   .log__year__header {
-    @include stickyHeading($level: 2rem);
+    @include stickyHeading();
     @include flex();
     gap: $spacing;
     border-block-end: 2px solid var(--color-primary);
@@ -620,6 +620,10 @@ article.post {
     p {
       width: auto;
       margin: 0;
+    }
+
+    span {
+      font-size: $spacing;
     }
   }
 
