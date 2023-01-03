@@ -3,6 +3,7 @@
     "name": "Arne Bahlo",
     "description": "A software engineer that writes about technology. Also has a newsletter with lots of cool links.",
     "tags": ["Technology"],
+    "type": "blog",
     "url": "https://arne.me/",
     "rss": "https://arne.me/atom.xml",
     "color": {
@@ -14,6 +15,8 @@
     "name": "Bjørn Stærk",
     "description": "A fellow Norwegian technologist that's also a book author, he some times does deep dives into the rabbit-hole of technology.",
     "tags": ["Technology", "Author"],
+    "type": "blog",
+    "url": "https://arne.me/",
     "url": "https://bearstrong.net/",
     "rss": "https://bearstrong.net/index.xml"
   },
@@ -21,6 +24,7 @@
     "name": "Brian Lovin",
     "description": "A designer that writes about web development, technology and gives design critiques to those who want it.",
     "tags": ["Web design", "Webdev", "Technology"],
+    "type": "blog",
     "url": "https://brianlovin.com/",
     "rss": "https://brianlovin.com/writing/rss",
     "color": {
@@ -32,6 +36,7 @@
     "name": "Christian Engelsen",
     "description": "A friend of mine that writes about technology, devops, machine learning and other shenanigans regarding technology.",
     "tags": ["Technology", "DevOps", "AI / ML"],
+    "type": "blog",
     "url": "https://cengelsen.no/",
     "rss": "https://cengelsen.no/index.xml",
     "color": {
@@ -43,6 +48,7 @@
     "name": "Erik Johannes",
     "description": "Well written tech-person that writes about everything from plaintext to machine learning to reviewing running shoes.",
     "tags": ["Technology", "ML", "Outdoors"],
+    "type": "blog",
     "url": "https://erikjohannes.no/",
     "rss": "https://erikjohannes.no/index.xml",
     "color": {
@@ -54,6 +60,7 @@
     "name": "Jim Nielsen",
     "description": "Frequent writer, writes about web technologies, everything from very specific CSS-properties to whole web-frameworks.",
     "tags": ["Technology", "Webdev", "Web design"],
+    "type": "blog",
     "url": "https://blog.jim-nielsen.com/",
     "rss": "https://blog.jim-nielsen.com/feed.json",
     "color": {
@@ -65,6 +72,7 @@
     "name": "Tom MacWright",
     "description": "Writes about geo-specific stuff, cool gadgets and other cool tidbits.",
     "tags": ["Technology", "Webdev", "Web design"],
+    "type": "blog",
     "url": "https://macwright.com/",
     "rss": "https://macwright.com/rss.xml",
     "color": {
@@ -76,6 +84,7 @@
     "name": "Personvernsbloggen",
     "description": "A Norwegian blog about privacy, by a government-department, very interesting takes on social media and their responsibilities.",
     "tags": ["Technology", "Privacy", "Social"],
+    "type": "blog",
     "url": "https://www.personvernbloggen.no/",
     "rss": "https://www.personvernbloggen.no/feed/",
     "color": {
@@ -87,6 +96,8 @@
     "name": "Mathias Haugsbø",
     "description": "A friend of mine that writes about technology, finance, mapping and button UX.",
     "tags": ["Technology", "Finance", "Maps"],
+    "type": "blog",
+    "url": "https://www.personvernbloggen.no/",
     "url": "https://mathiash98.github.io/",
     "rss": "https://mathiash98.github.io/posts/index.xml",
     "color": {
@@ -98,6 +109,7 @@
     "name": "Nils Norman Haukås",
     "description": "A colleague of mine that writes about web development, ethics and much more.",
     "tags": ["Technology", "Webdev", "Ethics", "Privacy"],
+    "type": "blog",
     "url": "https://nilsnh.no/",
     "rss": "https://nilsnh.no/index.xml"
   },
@@ -105,6 +117,7 @@
     "name": "Luke Harris",
     "description": "Posts about technology, webdev, web design and more.",
     "tags": ["Technology", "Webdev"],
+    "type": "blog",
     "url": "https://www.lkhrs.com/",
     "rss": "https://www.lkhrs.com/blog/index.xml",
     "color": {
@@ -116,6 +129,7 @@
     "name": "Changelog",
     "description": "News and podcasts for developers.",
     "tags": ["Technology", "Development"],
+    "type": "podcast",
     "url": "https://changelog.com/",
     "rss": "https://changelog.com/feed",
     "color": {
@@ -127,6 +141,7 @@
     "name": "Self-Hosted",
     "description": "Software and hardware around self-hosting.",
     "tags": ["Technology", "Development", "Self-hosting"],
+    "type": "podcast",
     "url": "https://selfhosted.show/",
     "rss": "https://selfhosted.show/rss",
     "color": {
@@ -138,6 +153,7 @@
     "name": "WAN Show",
     "description": "Every week Linus and Luke discuss the most current happenings in the technology universe.",
     "tags": ["Technology"],
+    "type": "podcast",
     "url": "https://www.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH",
     "color": {
       "bg": "#e15a29",

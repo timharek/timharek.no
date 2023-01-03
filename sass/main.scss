@@ -760,7 +760,26 @@ article.post {
 }
 
 .blogroll {
-  @include grid();
+  @include list(none, block);
+  column-count: 2;
+  --bg: var(--color-default-text);
+
+  .blogroll__item {
+    a {
+      margin-left: $spacingSmall;
+      display: inline-block;
+    }
+
+    &::before {
+      content: '';
+      background-color: var(--bg);
+      width: $spacingSmall;
+      height: $spacingSmall;
+      border-radius: 50%;
+      margin-top: 0.55rem;
+      display: inline-block;
+    }
+  }
 }
 
 table.stats {

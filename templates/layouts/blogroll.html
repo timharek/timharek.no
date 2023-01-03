@@ -10,35 +10,23 @@
     {{ page.content | safe }}
   {% endif %}
 
-  {% set blogs = load_data(path="static/api/blogroll.json") %}
-  {% set blogs = blogs | sort(attribute="name") %}
+  {% set feeds = load_data(path="static/api/blogroll.json") %}
+  {% set feeds = feeds | sort(attribute="name") %}
 
-  <div class="blogroll">
-    {% for blog in blogs %}
-      <div class="blogroll__item">
-        {% if blog.color %}
-          <div class="blogroll__item__header" style="background-color: {{ blog.color.bg }}; color: {{ blog.color.text }}">
+  {% for type, feed_item in feeds | group_by(attribute="type") %}
+      <h2>{{ type | capitalize }}{{ feed_item | length | pluralize }}</h2>
+    <ul class="blogroll">
+      {% for feed in feed_item %}
+        {% if feed.color %}
+          <li class="blogroll__item" style="--bg: {{ feed.color.bg }}; --text: {{ feed.color.text }}">
         {% else %}
-          <div class="blogroll__item__header">
+          <li class="blogroll__item">
         {% endif %}
-          <h2>{{ blog.name }}</h2>
-        </div>
-        <div class="blogroll__item__body">
-          <p>{{ blog.description }}</p>
-          {% if blog.url or blog.rss %}
-            <ul class="blogroll__item__body__urls">
-              {% if blog.url %}
-                <li><a href="{{ blog.url }}" target="_blank">Website</a></li>
-              {% endif %}
-              {% if blog.rss %}
-                <li><a href="{{ blog.rss }}" target="_blank">RSS</a></li>
-              {% endif %}
-            </ul>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+          <a href="{{ feed.url }}" target="_blank">{{ feed.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </section>
 
 {% endblock content %}
