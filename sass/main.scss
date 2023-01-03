@@ -65,14 +65,14 @@ $b-md: 768px;
   background-color: var(--color-background);
 }
 
-@mixin gridDouble($column-count: 1) {
+@mixin grid($columns: 2, $column-count: 1) {
   display: grid;
   gap: $spacingLarge;
   --header-bg: var(--color-primary);
   --header-text: white;
 
   @media (min-width: $b-md) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat($columns, 1fr);
   }
 
   &__item {
@@ -760,7 +760,7 @@ article.post {
 }
 
 .blogroll {
-  @include gridDouble();
+  @include grid();
 }
 
 table.stats {
@@ -799,7 +799,7 @@ div.filter {
 }
 
 .work {
-  @include gridDouble($column-count: 2);
+  @include grid($column-count: 2);
 }
 
 .work-grid {
