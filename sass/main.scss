@@ -348,8 +348,18 @@ footer.footer {
     margin-block: $spacing;
   }
 
-  h2 {
+  .bloglisting__header {
+    @include flex($align: center);
+    gap: $spacing;
     @include stickyHeading();
+
+    h2 {
+      margin: 0;
+    }
+    
+    span {
+      font-size: $spacing;
+    }
   }
 
   .blog__post {
@@ -401,7 +411,7 @@ article.post {
   }
 
   .header__metadata {
-    @include list(none, block)
+    @include list(none, block);
   }
 
   .post__tags {
@@ -497,7 +507,7 @@ article.post {
 }
 
 .index-translation {
-  @media (min-width:$b-sm) {
+  @media (min-width: $b-sm) {
     float: right;
   }
   text-align: right;
@@ -667,7 +677,7 @@ article.post {
       height: 100%;
       background-color: var(--color-primary);
       left: 50%;
-      margin-left: -.3rem;
+      margin-left: -0.3rem;
       border-radius: 1em;
     }
 
@@ -690,7 +700,7 @@ article.post {
 
     .timeline__item {
       position: relative;
-      grid-column: 1/span 2;
+      grid-column: 1 / span 2;
       z-index: 5;
 
       /* Alternating grid */
@@ -705,9 +715,9 @@ article.post {
           display: block;
           content: "";
           width: 51%;
-          height: .2rem;
+          height: 0.2rem;
           background-color: var(--color-primary);
-          top: .74em;
+          top: 0.74em;
           left: 2em;
           margin-left: 5rem;
           z-index: 1;
