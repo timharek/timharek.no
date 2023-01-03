@@ -3,7 +3,7 @@ title = "Ønskeliste"
 description = "Tim Hårek's ønskeliste"
 template = "layouts/page.html"
 aliases = ["/ønskeliste", "/onskeliste"]
-updated = 2022-12-11
+updated = 2023-01-03
 lang = "no"
 [extra]
 no_index = true
@@ -17,6 +17,4 @@ no_index = true
 
 ## Klær og sko
 
-- [Vivobarefoot Primus Asana Mens](https://www.vivobarefoot.com/rw/primus-asana-mens?colour=Obsidian),
-  størrelse 45 EU, farge Obsidian
 - [Northern Playground boxer](https://www.northernplayground.no/nb/shop/Boxer-kort)
