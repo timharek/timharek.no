@@ -5,6 +5,7 @@ template = "layouts/page.html"
 [extra]
 subnav = [
   { name = "CV", path = "@/about/cv.md" },
+  { name = "Work", path = "@/work/_index.md" },
   { name = "Uses", path = "@/about/uses.md" },
   { name = "Digital garden", path = "@/garden/_index.md" },
   { name = "Feedroll", path = "@/feedroll.md" },

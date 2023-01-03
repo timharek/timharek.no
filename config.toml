@@ -99,7 +99,6 @@ cover = "img/cover.png"
 
 nav = [
   { path = "@/blog/_index.md" },
-  { path = "@/work/_index.md" },
   { path = "@/connect/_index.md" },
   { path = "@/about/_index.md" }
 ]
