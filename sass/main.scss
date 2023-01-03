@@ -71,6 +71,9 @@ $b-md: 768px;
   --header-bg: var(--color-primary);
   --header-text: white;
 
+  @media (min-width: $b-sm) {
+    grid-template-columns: repeat($columns - 1, 1fr);
+  }
   @media (min-width: $b-md) {
     grid-template-columns: repeat($columns, 1fr);
   }
@@ -86,6 +89,7 @@ $b-md: 768px;
       max-width: 100%;
       height: 8rem;
       @include flex(center, center);
+      text-align: center;
     }
 
     &__body {
@@ -818,44 +822,6 @@ div.filter {
 }
 
 .work {
-  @include grid($column-count: 2);
+  @include grid($columns: 3, $column-count: 2);
 }
 
-.work-grid {
-  @media (min-width: $b-md) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: $spacingLarge;
-  }
-
-  & > &__item:not(:last-of-type) {
-    margin-block-end: $spacingLarge;
-  }
-
-  .item__header {
-    h3 {
-      margin-block-start: 0;
-    }
-
-    &__wrapper {
-      display: flex;
-      align-items: center;
-      gap: $spacingSmall;
-
-      svg {
-        max-width: 2rem;
-      }
-    }
-  }
-
-  .item__tags {
-    @include list();
-    column-gap: $spacingSmall;
-    row-gap: calc(#{$spacing} / 2);
-    flex-wrap: wrap;
-    font-style: italic;
-  }
-  .item__links {
-    @include list();
-  }
-}
