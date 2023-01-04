@@ -356,6 +356,7 @@ footer.footer {
     @include flex($align: center);
     gap: $spacing;
     @include stickyHeading();
+    border-block-end: 2px solid var(--color-border-aside);
 
     h2 {
       margin: 0;
