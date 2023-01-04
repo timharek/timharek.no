@@ -1,0 +1,26 @@
+{
+  "lint": {
+    "files": {
+      "include": ["src/", "types/"]
+    },
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["./"]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 2,
+      "singleQuote": true,
+      "proseWrap": "preserve"
+    }
+  },
+
+  "tasks": {
+    "watched": "deno run --allow-net --allow-read --allow-write --allow-env watched.ts"
+  }
+}
