@@ -259,15 +259,19 @@
 {% macro timeline(array, attribute_year, attribute_date) %}
   <div class="timeline-grid">
     {% for year, events in array | group_by(attribute=attribute_year) %}
-      {% for date, items in events | group_by(attribute=attribute_date) %}
-        <div class="timeline__item">
-          <time class="font-mono" datetime="{{ date }}">{{ date }}</time>
-          {% for item in items %}
-            {{ self::timeline_item(item=item) }}
-          {% endfor %}
-        </div>
-      {% endfor %}
-      <time id="{{ year }}" class="timeline__year font-mono" datetime="{{ year }}">{{ year }}</time>
+      {% if year != "0" %}
+        {% for date, items in events | group_by(attribute=attribute_date) %}
+          <div class="timeline__item">
+            <time class="font-mono" datetime="{{ date }}">{{ date }}</time>
+            {% for item in items %}
+              {{ self::timeline_item(item=item) }}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      {% endif %}
+      {% if year != "0" %}
+        <time id="{{ year }}" class="timeline__year font-mono" datetime="{{ year }}">{{ year }}</time>
+      {% endif %}
     {% endfor %}
   </div>
 {% endmacro %}

@@ -27,14 +27,18 @@
     {{ content | safe }}
   {% endif %}
   {% for file in files %}
-    {% set array = load_data(path=file) %}
+    {% set array = load_data(path=file) | sort(attribute="date.0.year") | reverse %}
     {% if array[0].type %}
       <h2>{{ array[0].type | capitalize }}s</h2>
     {% endif %}
-    {% for year, entries in array | reverse | group_by(attribute="date.0.year") %}
+    {% for year, entries in array | group_by(attribute="date.0.year") %}
       <div class="log__year">
         <div class="log__year__header">
-          <h3>{{ year }}</h3>
+          {% if year != "0" %}
+            <h3>{{ year }}</h3>
+          {% else %}
+            <h3>Other</h3>
+          {% endif %}
           <span>({{ entries | length }} entr{{ entries | length | pluralize(singular="y", plural="ies") }})</span>
         </div>
         <div class="entries">
@@ -50,12 +54,14 @@
                   </div>
                 {% endif %}
               {% endfor %}
-              {% set dateArray = entry.date | sort(attribute="year") | reverse %}
-              <time aria-label="When entry was watched">
-                {% for date in dateArray %}
-                  {% if loop.index0 > 0 %}, {% endif %}{{ date.string }}
-                {% endfor %}
-              </time>
+              {% if entry.date.string %}
+                {% set dateArray = entry.date | sort(attribute="year") | reverse %}
+                <time aria-label="When entry was watched">
+                  {% for date in dateArray %}
+                    {% if loop.index0 > 0 %}, {% endif %}{{ date.string }}
+                  {% endfor %}
+                </time>
+              {% endif %}
               <div aria-label="Entry rating">{{ macros::rating(max=5, rating=entry.details.my_rating) }}</div>
             </div>
           {% endfor %}
