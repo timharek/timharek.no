@@ -50,8 +50,11 @@
                 {% endif %}
               </div>
               {% set date = entry.date %}
-              <time datetime="{{ date[0].string }}" aria-label="Entry from date">{{ date[0].string }}</time>
-              <time datetime="{{ date[1].string }}" aria-label="Entry to date">{{ date[1].string }}</time>
+              <div aria-label="Entry from-to date">
+                <time datetime="{{ date[0].string }}">{{ date[0].string | date(format="%b. %e") }}</time>
+                -
+                <time datetime="{{ date[1].string }}">{{ date[1].string | date(format="%b. %e") }}</time>
+              </div>
             </div>
           {% endfor %}
         </div>
