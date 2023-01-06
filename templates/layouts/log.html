@@ -54,7 +54,7 @@
                   </div>
                 {% endif %}
               {% endfor %}
-              {% if entry.date.string %}
+              {% if entry.date.0.string %}
                 {% set dateArray = entry.date | sort(attribute="year") | reverse %}
                 <time aria-label="When entry was watched">
                   {% for date in dateArray %}
