@@ -2,7 +2,7 @@
 title = "December 2022"
 description = "What I've been up to since November."
 [taxonomies]
-tags = ["Recently", "100 Days To Offload 2023"]
+tags = ["Recently", "100 Days To Offload"]
 +++
 
 December, the month that feels so short since you need to do some much stuff
