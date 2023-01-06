@@ -1,6 +1,6 @@
 import { getMovie } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts';
 import { Result as OMDB } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/mod.d.ts';
-import { Input, Select } from "https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts";
+import { Input, Select, Number } from "https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts";
 
 interface IWatchedEntryDate {
   day: string
@@ -22,9 +22,15 @@ interface IWatchedEntry {
   }
 }
 
+const currentDate = new Date().toISOString().split('T')[0]
 
 const title: string = await Input.prompt('What did you watch?');
-const date: string = await Input.prompt('When did you watch it? (YYYY-MM-DD)');
+const date: string = await Input.prompt(
+  {
+    message: 'When did you watch it? (YYYY-MM-DD)' ,
+    suggestions: [currentDate]
+  }
+) ?? currentDate;
 const type: "movie" | "tv" = await Select.prompt({
   message: "Movie or TV Show?",
   options: [
@@ -32,7 +38,7 @@ const type: "movie" | "tv" = await Select.prompt({
     { name: "TV Show", value: "tv" },
   ],
 });
-const rating: number = await Input.prompt(`How many stars for ${title}? (1-5)`);
+const rating: number = await Number.prompt({ message: `How many stars for ${title}? (1-5)`, min: 1, max: 5 });
 
 const options = {
   apiKey: Deno.env.get('OMDB_API') ?? '',
