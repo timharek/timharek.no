@@ -45,15 +45,7 @@
           {% for entry in entries %}
             <div class="entry">
               <div aria-label="Entry title">{{ entry.title }}</div>
-              {% for field in person_field %}
-                {% if entry.details[field] %}
-                  <div aria-label="Entry {{ field }}{{ entry.details[field]|length | pluralize }}">
-                    {% for person in entry.details[field] %}
-                      {{ person }}{% if not loop.last %},{% endif %}
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              {% endfor %}
+              <div aria-label="Entry rating">{{ macros::rating(max=5, rating=entry.details.my_rating) }}</div>
               {% if entry.date.0.string %}
                 {% set dateArray = entry.date | sort(attribute="year") | reverse %}
                 <time aria-label="When entry was watched">
@@ -62,7 +54,6 @@
                   {% endfor %}
                 </time>
               {% endif %}
-              <div aria-label="Entry rating">{{ macros::rating(max=5, rating=entry.details.my_rating) }}</div>
             </div>
           {% endfor %}
         </div>
