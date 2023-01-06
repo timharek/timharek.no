@@ -34,20 +34,18 @@
         </div>
         <div class="entries">
           {% for entry in entries %}
-            <div class="entry">
+            <div class="entry travel">
               <div aria-label="Entry title">
                 {% if entry.details.location.cities|length == 1 %}
                   {{ entry.title }}
                 {% else %}
-                  {{ entry.title }} in {{ entry.details.location.country }}
+                  {{ entry.title }} in {{ entry.details.location.country.name }}
                 {% endif %}
               </div>
               <div aria-label="Entry location">
-                {% if entry.details.location.cities|length == 1 %}
-                  {{ entry.details.location.cities[0] }}, {{ entry.details.location.country }}
-                {% else %}
-                  {{ entry.details.location.cities|join(sep=", ") }}
-                {% endif %}
+                {% set loc = entry.details.location %}
+                <span title="{{ loc.country.name }}">{{ loc.country.emoji }}</span>
+                {{ loc.cities|join(sep=", ") }}
               </div>
               {% set date = entry.date %}
               <div aria-label="Entry from-to date">
