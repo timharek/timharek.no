@@ -21,6 +21,6 @@
   },
 
   "tasks": {
-    "watched": "deno run --allow-net --allow-read --allow-write --allow-env watched.ts"
+    "watched": "deno run --allow-net=www.omdbapi.com --allow-read=../static/api --allow-write=../static/api --allow-env watched.ts"
   }
 }
