@@ -5,7 +5,6 @@ template = "layouts/log.html"
 aliases = ["/gaming"]
 [extra]
 json_files = ["static/api/games.json"]
-person_field = ["platform"]
 date_field_is_array = false
 +++
 
