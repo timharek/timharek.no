@@ -9,13 +9,9 @@
 
 {% block content %}
 
-<section class="page-content">
-  <h1 class="page-title">{{ term.name }}</h1>
-  <ul class="blog">
-    {% for post in term.pages %}
-      {{ macros::bloglisting_item(post=post, showDescription=false) }}
-    {% endfor %}
-  </ul>
+<section class="blog">
+  <h1 class="page-title">Tag: {{ term.name }}</h1>
+  {{ macros::bloglisting(posts=term.pages, showDescription=false) }}
   See all <a href="/{{ taxonomy.name }}">{{ taxonomy.name }}</a>
 </section>
 

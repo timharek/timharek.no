@@ -348,7 +348,7 @@ footer.footer {
   @include list(none, block);
   margin-block-end: $spacing;
 
-  & > *:not(:last-of-type) {
+  & > * {
     margin-block: $spacing;
   }
 
