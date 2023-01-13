@@ -2337,7 +2337,9 @@
       "release_year": 2022,
       "my_rating": 3,
       "genres": [
-        "Comedy", "Crime", "Drama"
+        "Comedy",
+        "Crime",
+        "Drama"
       ],
       "director": [
         "Rian Johnson"
@@ -2359,7 +2361,9 @@
       "release_year": 2021,
       "my_rating": 4,
       "genres": [
-        "Comedy", "Drama", "Romance"
+        "Comedy",
+        "Drama",
+        "Romance"
       ],
       "director": [
         "Joachim Trier"
@@ -2381,10 +2385,35 @@
       "release_year": 2022,
       "my_rating": 3,
       "genres": [
-        "Action", "Adventure", "Fantasy"
+        "Action",
+        "Adventure",
+        "Fantasy"
       ],
       "director": [
         "James Cameron"
+      ]
+    }
+  },
+  {
+    "title": "Marriage Story",
+    "type": "movie",
+    "date": [
+      {
+        "day": "13",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-13"
+      }
+    ],
+    "details": {
+      "release_year": 2019,
+      "my_rating": 3,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "director": [
+        "Noah Baumbach"
       ]
     }
   }
