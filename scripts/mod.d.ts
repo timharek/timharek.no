@@ -1,6 +1,6 @@
 declare interface IEntry {
   title: string;
-  type: 'movie' | 'tv' | 'game' | 'book';
+  type: 'movie' | 'tv' | 'game' | 'book' | 'travel';
   date: IDate[];
 }
 
@@ -35,5 +35,18 @@ declare interface IBookEntry extends IEntry {
     publish_year: number;
     my_rating: number;
     genres: string[];
+  };
+}
+
+declare interface ITravelEntry extends IEntry {
+  details: {
+    occasion: 'business' | 'pleasure';
+    location: {
+      country: {
+        name: string;
+        emoji: string;
+      }
+      cities: string[];
+    }
   };
 }
