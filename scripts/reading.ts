@@ -7,7 +7,9 @@ export async function logBook(type: 'book') {
   const currentDate = new Date().toISOString().split('T')[0];
 
   const title: string = await Input.prompt('What did you read?');
-  const publishYear: number = await Number.prompt('Which year did the book publish?');
+  const publishYear: number = await Number.prompt(
+    'Which year did the book publish?',
+  );
   const date: string = await Input.prompt(
     {
       message: 'When did you read it? (YYYY-MM-DD)',

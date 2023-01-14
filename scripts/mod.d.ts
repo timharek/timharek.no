@@ -45,8 +45,8 @@ declare interface ITravelEntry extends IEntry {
       country: {
         name: string;
         emoji: string;
-      }
+      };
       cities: string[];
-    }
+    };
   };
 }

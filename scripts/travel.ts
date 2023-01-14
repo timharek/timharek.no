@@ -1,14 +1,20 @@
 import {
   Input,
-  Select
+  Select,
 } from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
 
 export async function logTrip(type: 'travel') {
   const currentDate = new Date().toISOString().split('T')[0];
 
-  const country: string = await Input.prompt('Which country did you travel to?');
-  const countryEmoji: string = await Input.prompt(`What is the flag-emoji for ${country}`);
-  const cities: string = await Input.prompt('Which cities did you visit? (comma seperated values)');
+  const country: string = await Input.prompt(
+    'Which country did you travel to?',
+  );
+  const countryEmoji: string = await Input.prompt(
+    `What is the flag-emoji for ${country}`,
+  );
+  const cities: string = await Input.prompt(
+    'Which cities did you visit? (comma seperated values)',
+  );
   const departure: string = await Input.prompt(
     {
       message: 'When did you departure? (YYYY-MM-DD)',
@@ -21,7 +27,7 @@ export async function logTrip(type: 'travel') {
       suggestions: [currentDate],
     },
   ) ?? currentDate;
-  const occasion: 'business' | 'pleasure'= await Select.prompt({
+  const occasion: 'business' | 'pleasure' = await Select.prompt({
     message: 'What was the occasion?',
     options: [
       { name: 'Business', value: 'business' },
@@ -39,8 +45,8 @@ export async function logTrip(type: 'travel') {
       occasion: occasion,
       location: {
         country: { name: country, emoji: countryEmoji },
-        cities: getCities(cities)
-      }
+        cities: getCities(cities),
+      },
     },
   };
 
@@ -53,11 +59,11 @@ function getEntryDate(date: string) {
     month: date.split('-')[1],
     year: date.split('-')[0],
     string: date,
-  }
+  };
 }
 
 function getCities(cities: string) {
   const citiesNoWhitespace = cities.replace(' ', '');
-  const citiesArray = citiesNoWhitespace.split(',')
+  const citiesArray = citiesNoWhitespace.split(',');
   return citiesArray;
 }

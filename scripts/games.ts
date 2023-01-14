@@ -7,8 +7,12 @@ export async function logGame(type: 'game') {
   const currentDate = new Date().toISOString().split('T')[0];
 
   const title: string = await Input.prompt('What did you play?');
-  const platform: string = await Input.prompt('Which platform did you play on?');
-  const releaseYear: number = await Number.prompt('Which year did the game release?');
+  const platform: string = await Input.prompt(
+    'Which platform did you play on?',
+  );
+  const releaseYear: number = await Number.prompt(
+    'Which year did the game release?',
+  );
   const date: string = await Input.prompt(
     {
       message: 'When did you play it? (YYYY-MM-DD)',
