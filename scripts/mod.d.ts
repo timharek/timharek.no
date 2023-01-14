@@ -29,3 +29,11 @@ declare interface IGameEntry extends IEntry {
     platform: string[];
   };
 }
+
+declare interface IBookEntry extends IEntry {
+  details: {
+    publish_year: number;
+    my_rating: number;
+    genres: string[];
+  };
+}
