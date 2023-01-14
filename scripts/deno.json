@@ -1,15 +1,22 @@
 {
   "lint": {
     "files": {
-      "include": ["src/", "types/"]
+      "include": [
+        "src/",
+        "types/"
+      ]
     },
     "rules": {
-      "tags": ["recommended"]
+      "tags": [
+        "recommended"
+      ]
     }
   },
   "fmt": {
     "files": {
-      "include": ["./"]
+      "include": [
+        "./"
+      ]
     },
     "options": {
       "useTabs": false,
@@ -19,8 +26,7 @@
       "proseWrap": "preserve"
     }
   },
-
   "tasks": {
-    "watched": "deno run --allow-net=www.omdbapi.com --allow-read=../static/api --allow-write=../static/api --allow-env watched.ts"
+    "log": "deno run --allow-net=www.omdbapi.com --allow-read=../static/api --allow-write=../static/api --allow-env mod.ts"
   }
 }
