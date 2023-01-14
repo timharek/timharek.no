@@ -20,3 +20,12 @@ declare interface IWatchedEntry extends IEntry {
     creator?: string[];
   };
 }
+
+declare interface IGameEntry extends IEntry {
+  details: {
+    release_year: number;
+    my_rating: number;
+    genres: string[];
+    platform: string[];
+  };
+}
