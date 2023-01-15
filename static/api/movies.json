@@ -2416,5 +2416,29 @@
         "Noah Baumbach"
       ]
     }
+  },
+  {
+    "title": "I Don't Feel at Home in This World Anymore",
+    "type": "movie",
+    "date": [
+      {
+        "day": "14",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-14"
+      }
+    ],
+    "details": {
+      "release_year": 2017,
+      "my_rating": 3,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "director": [
+        "Macon Blair"
+      ]
+    }
   }
 ]
