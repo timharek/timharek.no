@@ -92,6 +92,8 @@
     "https://deno.land/x/cliffy@v0.25.6/prompt/secret.ts": "4d513925deca97a7ca5110f2fb6290186ce6deb4de93a9ce841737f196e27177",
     "https://deno.land/x/cliffy@v0.25.6/prompt/select.ts": "3e58d118e79933036df69b30fb5aa63101dccee1f044d1a0010f32ad909806d5",
     "https://deno.land/x/cliffy@v0.25.6/prompt/toggle.ts": "16a8aa3f4f22db7d4705cd263569d547b6540c53b057e64a4c4028b610dd1920",
+    "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts": "db8a32650c43046865d2932c3a9a5a987f6b7b3195a121988425cd46e703e39d",
+    "https://git.sr.ht/~timharek/deno-books/blob/main/mod.ts": "6caed5c312cd11b417c2c4e4828410455ee03186c692eb42ee0ebc759768037e",
     "https://raw.githubusercontent.com/timharek/deno-omdb/main/deps.ts": "8c0a3a6eda5243017450ab355104f01099e3f160d643e76d4b44f3e83cc688fb",
     "https://raw.githubusercontent.com/timharek/deno-omdb/main/mod.d.ts": "cd0c79cbd5667b9329c2c6ec369e9686460ca2385ccd7863cbf9724c55993952",
     "https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts": "0b7b569da6a3c4bb61dac31f226e989c87a27896f4ade73d338d3e9fb0b7efd4"

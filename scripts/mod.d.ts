@@ -33,6 +33,7 @@ declare interface IGameEntry extends IEntry {
 declare interface IBookEntry extends IEntry {
   details: {
     publish_year: number;
+    author: string[];
     my_rating: number;
     genres: string[];
   };
