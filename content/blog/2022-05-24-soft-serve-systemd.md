@@ -5,6 +5,9 @@ description = "Setting up and using soft-serve from charm.sh as a Git-server."
 tags = ["Tutorial", "Git", "Software", "DevOps"]
 +++
 
+{% notice(type="info") %} As of 2023-01-15 I'm no longer hosting a `soft-serve`
+server. {% end %}
+
 ## What is soft-serve?
 
 From Charm's own git-repo:
@@ -22,6 +25,7 @@ terminal. It's configurable using a single `yaml`-file.
 1. (optional) A way of reaching your remote server.
 
 ## How to
+
 ### 1. Install soft-serve
 
 Depending on your system, checkout their latest
@@ -31,9 +35,11 @@ remote server).
 ### 2. Create a service
 
 On your machine (or server):
+
 1. Navigate to your systemd-directory: `cd /etc/systemd/system`
 1. Create a new file: `nano softserved.service`
-1. Use this as a template or paste it (remember to verify that you understand what this does):
+1. Use this as a template or paste it (remember to verify that you understand
+   what this does):
 
 ```conf
 [Unit]
@@ -53,7 +59,6 @@ ExecStart=/usr/bin/soft # Depends on the system, check yours with `which soft`
 WantedBy=multi-user.target
 ```
 
-
 ### 3. Create a user
 
 Run `sudo useradd -m soft`
@@ -66,6 +71,7 @@ Run `sudo useradd -m soft`
 ### 5. Access soft-serve
 
 Depending on where you setup your service, you can now access it by running:
+
 ```bash
 ssh <hostname> -p 23231
 ```
@@ -74,15 +80,10 @@ ssh <hostname> -p 23231
 
 ### 6. Follow the official instructions
 
-For the rest of the setup of `soft-serve` I recommend going through their official
-instructions in order to configure it correctly. [Repo-link][soft_serve].
-
-
-## Checkout my open soft-serve server
-
-```bash
-ssh git.wyd.no -p 23231
-```
+For the rest of the setup of `soft-serve` I recommend going through their
+official instructions in order to configure it correctly.
+[Repo-link][soft_serve].
 
 [soft_serve]: https://github.com/charmbracelet/soft-serve
-[soft_serve_instructions]: https://github.com/charmbracelet/soft-serve#installation
+[soft_serve_instructions]:
+  https://github.com/charmbracelet/soft-serve#installation
