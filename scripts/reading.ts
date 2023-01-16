@@ -1,5 +1,6 @@
 import {
   Input,
+  List,
   Number,
   Select,
 } from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
@@ -40,6 +41,8 @@ export async function logBook(type: 'book') {
   const bookFields =
     selectOptions.filter((book: unknown) => book.value === selectedResult)[0];
 
+  const genres: string[] = await List.prompt('Which genre(s)?');
+
   const date: string = await Input.prompt(
     {
       message: 'When did you read it? (YYYY-MM-DD)',
@@ -65,7 +68,7 @@ export async function logBook(type: 'book') {
       publish_year: bookFields.publishYear,
       author: bookFields.author,
       my_rating: rating,
-      genres: [], // TODO: Might need to use an API to get neccessary data
+      genres,
     },
   };
 
