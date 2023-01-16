@@ -33,6 +33,7 @@ export async function logBook(type: 'book') {
   const selectedResult: string = await Select.prompt({
     message: 'Which book is correct?',
     options: selectOptions,
+    ...(selectOptions.length > 10 && { search: true }),
   });
 
   const book: OpenLibrary.IBook = await getBook(selectedResult.split('/')[2]);
