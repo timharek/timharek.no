@@ -409,5 +409,29 @@
         "Management"
       ]
     }
+  },
+  {
+    "title": "Kang the Conqueror",
+    "type": "book",
+    "date": [
+      {
+        "day": "15",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-15"
+      }
+    ],
+    "details": {
+      "publish_year": 2022,
+      "author": [
+        "Carlos Magno",
+        "Collin Kelly",
+        "Jackson Lanzing"
+      ],
+      "my_rating": 4,
+      "genres": [
+        "Comicbook"
+      ]
+    }
   }
 ]
