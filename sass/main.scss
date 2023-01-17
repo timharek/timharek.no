@@ -74,6 +74,7 @@ $b-md: 768px;
   @media (min-width: $b-sm) {
     grid-template-columns: repeat($columns - 1, 1fr);
   }
+
   @media (min-width: $b-md) {
     grid-template-columns: repeat($columns, 1fr);
   }
@@ -232,6 +233,7 @@ $code-bg-dark: #151515;
 code {
   color: #abb2bf;
 }
+
 pre,
 code {
   background: $code-bg-dark !important;
@@ -275,6 +277,7 @@ picture {
       }
     }
   }
+
   figcaption {
     color: var(--color-default-text);
     font-size: 0.9rem;
@@ -304,6 +307,7 @@ header.header {
     border-radius: 999px;
     max-width: 4rem;
     max-height: 4rem;
+
     svg {
       width: 100%;
       height: 100%;
@@ -348,7 +352,7 @@ footer.footer {
   @include list(none, block);
   margin-block-end: $spacing;
 
-  & > * {
+  &>* {
     margin-block: $spacing;
   }
 
@@ -361,7 +365,7 @@ footer.footer {
     h2 {
       margin: 0;
     }
-    
+
     span {
       font-size: $spacing;
     }
@@ -421,6 +425,7 @@ article.post {
 
   .post__tags {
     @include list($gap: $spacingSmall);
+
     * {
       text-decoration: none;
     }
@@ -444,6 +449,7 @@ article.post {
 
     &.notice {
       padding-block-start: $spacing;
+
       &::before {
         text-transform: uppercase;
         font-weight: bold;
@@ -457,11 +463,13 @@ article.post {
           background: var(--color-primary);
           color: var(--color-background);
         }
+
         &.note {
           content: "Note";
           background: var(--color-primary);
           color: var(--color-background);
         }
+
         &.warning {
           content: "Warning";
           background: red;
@@ -478,7 +486,7 @@ article.post {
     padding-block: $spacingLarge;
     margin-block: $spacing;
 
-    .footer__metadata > div {
+    .footer__metadata>div {
       @include flex(flex-start, center);
       gap: $spacingSmall;
 
@@ -515,12 +523,15 @@ article.post {
   @media (min-width: $b-sm) {
     float: right;
   }
+
   text-align: right;
 }
+
 .breadcrumbs-wrapper {
   @include flex(space-between);
   width: 100%;
 }
+
 .breadcrumbs-list {
   @media print {
     display: none;
@@ -579,7 +590,7 @@ article.post {
     padding-left: $spacing;
     max-width: 65ch;
 
-    & > *:not(:last-of-type) {
+    &>*:not(:last-of-type) {
       margin-block-end: $spacingSmall;
     }
   }
@@ -587,16 +598,19 @@ article.post {
 
 .skill__category {
   margin-block-end: $spacing;
+
   @media (min-width: $b-sm) {
     @include flex($justify: space-between);
     flex-wrap: nowrap;
-    & > * {
+
+    &>* {
       width: 50%;
     }
   }
 }
 
 @media print {
+
   header.header,
   footer.footer,
   .full-cv,
@@ -638,8 +652,9 @@ article.post {
       margin-inline-end: $spacingSmall;
     }
   }
+
   .entries {
-    & > * {
+    &>* {
       padding-block: $spacing;
 
       &:not(:last-of-type) {
@@ -647,6 +662,7 @@ article.post {
       }
     }
   }
+
   .entry {
     display: grid;
     gap: $spacingLarge $spacing;
@@ -659,11 +675,13 @@ article.post {
 
     @media (min-width: $b-md) {
       grid-template-columns: 2fr 1fr 0.5fr;
+
       &.travel {
         grid-template-columns: 2fr 1fr 1fr;
       }
     }
   }
+
   .count {
     text-align: right;
     margin-top: $spacing;
@@ -676,9 +694,11 @@ article.post {
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
+
     @media (min-width: $b-md) {
       grid-template-columns: repeat(3, 1fr);
     }
+
     gap: $spacing;
 
     &::before {
@@ -747,6 +767,7 @@ article.post {
       time {
         position: relative;
         z-index: 10;
+
         @media (max-width: $b-md) {
           display: block;
           width: max-content;
@@ -799,10 +820,12 @@ table.stats {
   th {
     text-align: left;
   }
+
   th,
   td {
     padding: $spacingSmall;
   }
+
   tr {
     border-bottom: 1px solid gray;
   }
@@ -813,9 +836,11 @@ table.stats {
     column-count: 2;
     column-gap: 5rem;
   }
+
   .tag__name {
     text-decoration: none;
   }
+
   .tag__count {
     float: right;
   }
@@ -828,4 +853,3 @@ div.filter {
 .work {
   @include grid($columns: 3, $column-count: 2);
 }
-

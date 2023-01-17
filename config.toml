@@ -93,7 +93,7 @@ author = "Tim Hårek Andreassen"
 author_img = "img/me.jpeg"
 email = "tim@harek.no"
 date_format = "%F"
-date_format_long = "%e. %B %Y"
+date_format_long = "%B %e, %Y"
 logo = "img/logo.svg"
 cover = "img/cover.png"
 
