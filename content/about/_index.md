@@ -3,6 +3,7 @@ title = "About"
 description = "About Tim Hårek, a developer based in Norway."
 template = "layouts/page.html"
 [extra]
+updated = 2022-09-16
 subnav = [
   { name = "CV", path = "@/about/cv.md" },
   { name = "Work", path = "@/work/_index.md" },
@@ -13,9 +14,9 @@ subnav = [
 ]
 +++
 
-I'm Tim Hårek Andreassen, a developer, UX designer, hiker and dog-person
-from the west coast of Norway. I care about creating solutions that respects
-people, in terms of privacy, security and user experience.
+I'm Tim Hårek Andreassen, a developer, UX designer, hiker and dog-person from
+the west coast of Norway. I care about creating solutions that respects people,
+in terms of privacy, security and user experience.
 
 I work as a technologist at Netlife Bergen where I mostly dabble with full stack
 development, accessibility and UX design.
@@ -26,7 +27,8 @@ hiking with my dog! 🐕
 ## Contact
 
 You can always reach me at
-<a href="mailto:tim@harek.no" rel="me">tim@harek.no</a> ([public key](@/connect/key.md)).
+<a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>
+([public key](@/connect/key.md)).
 
 ## Colophon
 

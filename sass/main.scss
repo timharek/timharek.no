@@ -546,6 +546,10 @@ article.post {
 }
 
 .page-content {
+  .page-updated {
+    margin-block: 1rem;
+  }
+
   .page__subnav ul {
     @include list();
     flex-wrap: wrap;

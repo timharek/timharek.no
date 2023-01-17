@@ -3,6 +3,7 @@ title = "Om"
 description = "Om Tim Hårek, en utvikler i Norge."
 template = "layouts/page.html"
 [extra]
+updated = 2022-09-16
 subnav = [
   { name = "CV", path = "@/about/cv.md" },
   { name = "Uses", path = "@/about/uses.md" },
