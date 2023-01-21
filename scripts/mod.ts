@@ -3,6 +3,7 @@ import { logMovieOrTv } from './watched.ts';
 import { logGame } from './games.ts';
 import { logBook } from './reading.ts';
 import { logTrip } from './travel.ts';
+import { logLifeEvent } from './life.ts';
 
 const typeSelector = {
   movie: logMovieOrTv,
@@ -10,6 +11,7 @@ const typeSelector = {
   game: logGame,
   book: logBook,
   travel: logTrip,
+  life: logLifeEvent,
 };
 
 const commonPath = '../static/api';
@@ -19,6 +21,7 @@ const entryPath = {
   game: `${commonPath}/games.json`,
   book: `${commonPath}/books.json`,
   travel: `${commonPath}/travel.json`,
+  life: `${commonPath}/life.json`,
 };
 
 const type: 'movie' | 'tv' | 'game' | 'book' = await Select.prompt({
@@ -29,6 +32,7 @@ const type: 'movie' | 'tv' | 'game' | 'book' = await Select.prompt({
     { name: 'Game', value: 'game' },
     { name: 'Book', value: 'book' },
     { name: 'Travel', value: 'travel' },
+    { name: 'Life event', value: 'life' },
   ],
   search: true,
 });

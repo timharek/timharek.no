@@ -1,6 +1,6 @@
 declare interface IEntry {
   title: string;
-  type: 'movie' | 'tv' | 'game' | 'book' | 'travel';
+  type: 'movie' | 'tv' | 'game' | 'book' | 'travel' | 'life';
   date: IDate[];
 }
 
@@ -49,5 +49,12 @@ declare interface ITravelEntry extends IEntry {
       };
       cities: string[];
     };
+  };
+}
+
+declare interface ILifeEventEntry extends IEntry {
+  description: string;
+  details?: {
+    custom_prefix: string | null;
   };
 }

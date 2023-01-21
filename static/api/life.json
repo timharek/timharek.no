@@ -206,5 +206,21 @@
     "details": {
       "custom_prefix": "🪨 Milestone"
     }
+  },
+  {
+    "title": "Ran a half-marathon",
+    "description": "Finished in 2 hours and 6 minutes, snowy and icy roads.",
+    "type": "life",
+    "date": [
+      {
+        "day": "21",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-21"
+      }
+    ],
+    "details": {
+      "custom_prefix": "💪 Health"
+    }
   }
 ]
