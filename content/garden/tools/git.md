@@ -1,7 +1,7 @@
 +++
 title = "Git"
 description = "Useful tips I've picked up from Git by using it for a few years. Updates reguarly."
-updated = 2022-04-03
+updated = 2023-01-21
 template = "layouts/page.html"
 [extra]
 toc_enable = true
@@ -14,9 +14,11 @@ efficiency.
 
 ## Git configuration
 
-The Git configuration-file is usually located in `$HOME`,
-`/home/<username>/.gitconfig`, or in `$XDG_CONFIG_HOME`[^1],
-`/home/<username>/.config/git/config`.
+The Git configuration-file is usually located in one of these directories:
+
+- `$HOME`
+- `/home/<username>/.gitconfig`
+- `$XDG_CONFIG_HOME`[^1], `/home/<username>/.config/git/config`
 
 ### Initial setup
 
@@ -110,6 +112,12 @@ origin git@third/repo.git (push)
 And now, when you run `git push` it will push to all three remotes/urls with
 just one command.
 
+#### Removing a push-url
+
+```sh
+$ git remote set-url --delete <remote> <url>
+```
+
 ## Commits
 
 ### Message
@@ -197,5 +205,4 @@ git shortlog -sne
 [git_scm]: https://git-scm.com/
 
 [^1]: https://wiki.archlinux.org/title/XDG_Base_Directory
-
 [^2]: https://stackoverflow.com/a/3580764
