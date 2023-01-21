@@ -30,6 +30,7 @@ const type: 'movie' | 'tv' | 'game' | 'book' = await Select.prompt({
     { name: 'Book', value: 'book' },
     { name: 'Travel', value: 'travel' },
   ],
+  search: true,
 });
 
 const entry = await typeSelector[type](type);
