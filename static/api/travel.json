@@ -19,8 +19,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "UAE", "emoji": "🇦🇪" },
-        "cities": ["Dubai"]
+        "country": {
+          "name": "UAE",
+          "emoji": "🇦🇪"
+        },
+        "cities": [
+          "Dubai"
+        ]
       }
     }
   },
@@ -44,8 +49,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Spain", "emoji": "🇪🇸" },
-        "cities": ["Torrevieja"]
+        "country": {
+          "name": "Spain",
+          "emoji": "🇪🇸"
+        },
+        "cities": [
+          "Torrevieja"
+        ]
       }
     }
   },
@@ -69,8 +79,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "UAE", "emoji": "🇦🇪" },
-        "cities": ["Dubai"]
+        "country": {
+          "name": "UAE",
+          "emoji": "🇦🇪"
+        },
+        "cities": [
+          "Dubai"
+        ]
       }
     }
   },
@@ -94,8 +109,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Philippines", "emoji": "🇵🇭" },
-        "cities": ["Manilla"]
+        "country": {
+          "name": "Philippines",
+          "emoji": "🇵🇭"
+        },
+        "cities": [
+          "Manilla"
+        ]
       }
     }
   },
@@ -119,8 +139,15 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "USA", "emoji": "🇺🇸" },
-        "cities": ["Las Vegas", "Los Angeles", "San Diego"]
+        "country": {
+          "name": "USA",
+          "emoji": "🇺🇸"
+        },
+        "cities": [
+          "Las Vegas",
+          "Los Angeles",
+          "San Diego"
+        ]
       }
     }
   },
@@ -144,8 +171,15 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Thailand", "emoji": "🇹🇭" },
-        "cities": ["Bangkok", "Chiang Mai", "Chiang Rai"]
+        "country": {
+          "name": "Thailand",
+          "emoji": "🇹🇭"
+        },
+        "cities": [
+          "Bangkok",
+          "Chiang Mai",
+          "Chiang Rai"
+        ]
       }
     }
   },
@@ -169,8 +203,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "UAE", "emoji": "🇦🇪" },
-        "cities": ["Dubai"]
+        "country": {
+          "name": "UAE",
+          "emoji": "🇦🇪"
+        },
+        "cities": [
+          "Dubai"
+        ]
       }
     }
   },
@@ -194,8 +233,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Malasyia", "emoji": "🇲🇾" },
-        "cities": ["Johor"]
+        "country": {
+          "name": "Malasyia",
+          "emoji": "🇲🇾"
+        },
+        "cities": [
+          "Johor"
+        ]
       }
     }
   },
@@ -219,8 +263,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Greece", "emoji": "🇬🇷" },
-        "cities": ["Rhodes"]
+        "country": {
+          "name": "Greece",
+          "emoji": "🇬🇷"
+        },
+        "cities": [
+          "Rhodes"
+        ]
       }
     }
   },
@@ -244,8 +293,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Oslo"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Oslo"
+        ]
       }
     }
   },
@@ -269,8 +323,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Svalbard"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Svalbard"
+        ]
       }
     }
   },
@@ -294,8 +353,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Denmark", "emoji": "🇩🇰" },
-        "cities": ["Copenhagen"]
+        "country": {
+          "name": "Denmark",
+          "emoji": "🇩🇰"
+        },
+        "cities": [
+          "Copenhagen"
+        ]
       }
     }
   },
@@ -319,8 +383,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Svalbard"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Svalbard"
+        ]
       }
     }
   },
@@ -339,13 +408,24 @@
         "month": "08",
         "day": "18",
         "string": "2021-08-18"
+      },
+      {
+        "day": "19",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-19"
       }
     ],
     "details": {
       "occasion": "business",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Oslo"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Oslo"
+        ]
       }
     }
   },
@@ -369,8 +449,13 @@
     "details": {
       "occasion": "business",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Nesbyen"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Nesbyen"
+        ]
       }
     }
   },
@@ -394,8 +479,13 @@
     "details": {
       "occasion": "business",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Oslo"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Oslo"
+        ]
       }
     }
   },
@@ -419,8 +509,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "USA", "emoji": "🇺🇸" },
-        "cities": ["New York"]
+        "country": {
+          "name": "USA",
+          "emoji": "🇺🇸"
+        },
+        "cities": [
+          "New York"
+        ]
       }
     }
   },
@@ -444,8 +539,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Oslo"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Oslo"
+        ]
       }
     }
   },
@@ -469,8 +569,13 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Trondheim"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Trondheim"
+        ]
       }
     }
   },
@@ -494,8 +599,14 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Thailand", "emoji": "🇹🇭" },
-        "cities": ["Pattaya, Koh Samet", "Bangkok"]
+        "country": {
+          "name": "Thailand",
+          "emoji": "🇹🇭"
+        },
+        "cities": [
+          "Pattaya, Koh Samet",
+          "Bangkok"
+        ]
       }
     }
   },
@@ -520,8 +631,13 @@
     "details": {
       "occasion": "business",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Oslo"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Oslo"
+        ]
       }
     }
   },
@@ -545,8 +661,13 @@
     "details": {
       "occasion": "business",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Trondheim"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Trondheim"
+        ]
       }
     }
   },
@@ -570,8 +691,13 @@
     "details": {
       "occasion": "business",
       "location": {
-        "country": { "name": "Norway", "emoji": "🇳🇴" },
-        "cities": ["Trondheim"]
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Trondheim"
+        ]
       }
     }
   },
@@ -595,8 +721,45 @@
     "details": {
       "occasion": "pleasure",
       "location": {
-        "country": { "name": "Northern Ireland", "emoji": "🇬🇧" },
-        "cities": ["Belfast", "Lisburn", "Portrush"]
+        "country": {
+          "name": "Northern Ireland",
+          "emoji": "🇬🇧"
+        },
+        "cities": [
+          "Belfast",
+          "Lisburn",
+          "Portrush"
+        ]
+      }
+    }
+  },
+  {
+    "title": "Meetings",
+    "type": "travel",
+    "date": [
+      {
+        "day": "19",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-18"
+      },
+      {
+        "day": "19",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-19"
+      }
+    ],
+    "details": {
+      "occasion": "business",
+      "location": {
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Trondheim"
+        ]
       }
     }
   }
