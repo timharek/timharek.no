@@ -4,6 +4,16 @@ import { logBook } from './reading.ts';
 import { logTrip } from './travel.ts';
 import { logLifeEvent } from './life.ts';
 
+/**
+ * Log-module.
+ *
+ * Used for logging:
+ * - Movies
+ * - TV Shows
+ * - Books
+ * - Trips
+ * - Life events
+ */
 export const log = {
   movieTv: logMovieOrTv,
   game: logGame,
