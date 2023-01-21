@@ -1,4 +1,4 @@
-// @deno-types="./mod.d.ts"
+// @deno-types="../../mod.d.ts"
 
 import {
   Input,
@@ -11,16 +11,14 @@ export async function logLifeEvent(type: 'life') {
   const title: string = await Input.prompt(
     'Which life event do you want to log?',
   );
-  const description: string = await Input.prompt(
-    'Add a description',
-  );
+  const description: string = await Input.prompt('Add a description');
   const date: string = await Input.prompt(
     {
       message: 'When did this occur? (YYYY-MM-DD)',
       suggestions: [currentDate],
     },
   ) ?? currentDate;
-  const customPrefix: string = await Select.prompt(
+  let customPrefix: string = await Select.prompt(
     {
       message: 'Do you want to add a custom prefix?',
       options: [
@@ -30,17 +28,22 @@ export async function logLifeEvent(type: 'life') {
         { name: 'Writing', value: '✍️ Writing' },
         { name: 'Career', value: '💼 Career' },
         { name: 'Custom', value: 'custom' },
-        { name: 'None', value: false },
+        { name: 'None', value: '0' },
       ],
+      search: true,
     },
   );
+
+  if (customPrefix === 'custom') {
+    customPrefix = await Input.prompt('Enter custom prefix');
+  }
 
   const lifeEntry: Log.ILifeEventEntry = {
     title,
     description,
     type,
     date: [getEntryDate(date)],
-    ...(customPrefix && {
+    ...(customPrefix && customPrefix != '0' && {
       details: {
         custom_prefix: customPrefix,
       },
