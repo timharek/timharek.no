@@ -1,19 +1,15 @@
 // @deno-types="./mod.d.ts"
 
 import { Select } from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
-import { logMovieOrTv } from './watched.ts';
-import { logGame } from './games.ts';
-import { logBook } from './reading.ts';
-import { logTrip } from './travel.ts';
-import { logLifeEvent } from './life.ts';
+import { log } from './src/log/index.ts';
 
 const typeSelector = {
-  movie: logMovieOrTv,
-  tv: logMovieOrTv,
-  game: logGame,
-  book: logBook,
-  travel: logTrip,
-  life: logLifeEvent,
+  movie: log.movieTv,
+  tv: log.movieTv,
+  game: log.game,
+  book: log.book,
+  travel: log.trip,
+  life: log.life,
 };
 
 const commonPath = '../static/api';
