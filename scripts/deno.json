@@ -3,7 +3,8 @@
     "files": {
       "include": [
         "src/",
-        "types/"
+        "mod.ts",
+        "mod.d.ts"
       ]
     },
     "rules": {
