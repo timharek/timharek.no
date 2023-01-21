@@ -1,12 +1,15 @@
 +++
 title = "Passwords"
-updated = 2022-01-21
+updated = 2023-01-21
+[extra]
+toc_enable = true
+toc_level = 2
 +++
 
 Password is something everyone has a relationship with, but very few knows how
 to treat them.
 
-## Have a strong password
+## Use a strong password
 
 And don't use the same password multiple places.
 
