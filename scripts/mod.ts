@@ -22,7 +22,7 @@ const entryPath = {
   life: `${commonPath}/life.json`,
 };
 
-const type: 'movie' | 'tv' | 'game' | 'book' = await Select.prompt({
+const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
   message: 'What do you want to log?',
   options: [
     { name: 'Movie', value: 'movie' },
