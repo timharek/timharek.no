@@ -2,7 +2,7 @@ base_url = "https://timharek.no"
 
 title = "Tim Hårek"
 description = """
-Full-stack developer from Norway that cares about creating solutions that
+Technologist from Norway that cares about creating solutions that
 respects people in terms of privacy, security and user experience."""
 
 default_language = "en"
