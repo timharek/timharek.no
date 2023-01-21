@@ -1,3 +1,5 @@
+// @deno-types="./mod.d.ts"
+
 import {
   Input,
   Select,
@@ -33,7 +35,7 @@ export async function logLifeEvent(type: 'life') {
     },
   );
 
-  const lifeEntry: ILifeEventEntry = {
+  const lifeEntry: Log.ILifeEventEntry = {
     title,
     description,
     type,

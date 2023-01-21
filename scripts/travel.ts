@@ -1,3 +1,5 @@
+// @deno-types="./mod.d.ts"
+
 import {
   Input,
   Select,
@@ -37,7 +39,7 @@ export async function logTrip(type: 'travel') {
 
   const title: string = await Input.prompt(`What would you call your trip`);
 
-  const travelEntry: ITravelEntry = {
+  const travelEntry: Log.ITravelEntry = {
     title: title,
     type: type,
     date: [getEntryDate(departure), getEntryDate(arrival)],

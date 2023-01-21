@@ -1,3 +1,5 @@
+// @deno-types="./mod.d.ts"
+
 import {
   Input,
   Number,
@@ -25,7 +27,7 @@ export async function logGame(type: 'game') {
     max: 5,
   });
 
-  const gameEntry: IGameEntry = {
+  const gameEntry: Log.IGameEntry = {
     title: title,
     type: type,
     date: [{

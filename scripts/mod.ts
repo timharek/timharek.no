@@ -1,3 +1,5 @@
+// @deno-types="./mod.d.ts"
+
 import { Select } from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
 import { logMovieOrTv } from './watched.ts';
 import { logGame } from './games.ts';
@@ -42,7 +44,7 @@ type entryType = typeof entry;
 
 writeEntryToFile<entryType>(entryPath[type], entry);
 
-async function writeEntryToFile<T extends IEntry>(path: string, entry: T) {
+async function writeEntryToFile<T extends Log.IEntry>(path: string, entry: T) {
   const json: T[] = JSON.parse(await Deno.readTextFile(path));
   const existingEntry = json.find((item) => item.title === entry.title);
   if (!existingEntry) {

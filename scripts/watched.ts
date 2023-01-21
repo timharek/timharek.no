@@ -1,3 +1,5 @@
+// @deno-types="./mod.d.ts"
+
 import { getMovie } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts';
 import { Result as OMDB } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/mod.d.ts';
 import {
@@ -24,13 +26,13 @@ export async function logMovieOrTv(type: 'movie' | 'tv') {
   const options = {
     apiKey: Deno.env.get('OMDB_API') ?? '',
     verbose: 3,
-    ...(!title.startsWith('tt') && {title}),
-    ...(title.startsWith('tt') && {id: title}),
+    ...(!title.startsWith('tt') && { title }),
+    ...(title.startsWith('tt') && { id: title }),
   };
 
   const entry: OMDB = await getMovie(options);
 
-  const watchedEntry: IWatchedEntry = {
+  const watchedEntry: Log.IWatchedEntry = {
     title: entry.title,
     type: type,
     date: [{

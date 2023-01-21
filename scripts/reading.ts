@@ -1,3 +1,5 @@
+// @deno-types="./mod.d.ts"
+
 import {
   Input,
   List,
@@ -55,7 +57,7 @@ export async function logBook(type: 'book') {
     max: 5,
   });
 
-  const bookEntry: IBookEntry = {
+  const bookEntry: Log.IBookEntry = {
     title: book.title,
     type: type,
     date: [{
