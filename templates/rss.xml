@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-      <title>{{ config.title }}
-        {%- if term %} - {{ term.name }}
-        {%- elif section.title %} - {{ section.title }}
-        {%- endif -%}
-      </title>
-        <link>{%- if section -%}
-            {{ section.permalink | escape_xml | safe }}
-          {%- else -%}
-            {{ config.base_url | escape_xml | safe }}
-          {%- endif -%}
-        </link>
-        <description>{{ config.description }}</description>
-        <generator>Zola</generator>
-        <language>{{ lang }}</language>
-        <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
-        <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
-        {% set blog_posts_en = get_section(path="blog/_index.md") %}
-        {% set blog_posts_no = get_section(path="blog/_index.no.md") %}
-        {% set blog_posts = blog_posts_en.pages | concat(with=blog_posts_no.pages) %}
-        {%- for page in blog_posts | sort(attribute="date") | reverse %}
-        <item>
-            <title>{{ page.title }}</title>
-            <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
-            <link>{{ page.permalink | escape_xml | safe }}</link>
-            <guid>{{ page.permalink | escape_xml | safe }}</guid>
-            <description>
-              {% if page.summary %}{{ page.summary }}{% else %}{{ page.content }}{% endif %}
-              <div><a href="mailto:{{ config.extra.email }}?subject=RE: {{ page.title }}">Reply via e-mail</a></div>
-            </description>
-        </item>
-        {%- endfor %}
-    </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
+	<title>{{ config.title }}
+		{%- if term %} - {{ term.name }}
+    {%- elif section.title %} - {{ section.title }}
+		{%- endif -%}
+	</title>
+	{%- if config.description %}
+	<subtitle>{{ config.description }}</subtitle>
+	{%- endif %}
+	<link href="{{ feed_url | safe }}" rel="self" type="application/atom+xml"/>
+  <link href="
+      {%- if section -%}
+        {{ section.permalink | escape_xml | safe }}
+      {%- else -%}
+        {{ config.base_url | escape_xml | safe }}
+      {%- endif -%}
+    "/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>{{ last_updated | date(format="%+") }}</updated>
+	<id>{{ feed_url | safe }}</id>
+  {% set blog_posts_en = get_section(path="blog/_index.md") %}
+  {% set blog_posts_no = get_section(path="blog/_index.no.md") %}
+  {% set blog_posts = blog_posts_en.pages | concat(with=blog_posts_no.pages) %}
+  {%- for page in blog_posts | sort(attribute="date") | reverse %}
+  {% set reply_to = '<a href="mailto:' ~ config.extra.email ~ '?subject=RE: ' ~ page.title~ '">Reply via e-mail</a>' %}
+	<entry xml:lang="{{ page.lang }}">
+		<title>{{ page.title }}</title>
+		<published>{{ page.date | date(format="%+") }}</published>
+		<updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+		<link rel="alternate" href="{{ page.permalink | safe }}" type="text/html"/>
+		<id>{{ page.permalink | safe }}</id>
+		<content type="html">
+      {{ page.content }}
+      {{ reply_to }}
+    </content>
+	</entry>
+	{%- endfor %}
+</feed>
