@@ -43,7 +43,7 @@ writeEntryToFile<entryType>(entryPath[type], entry);
 async function writeEntryToFile<T extends Log.IEntry>(path: string, entry: T) {
   const json: T[] = JSON.parse(await Deno.readTextFile(path));
   const existingEntry = json.find((item) => item.title === entry.title);
-  if (!existingEntry) {
+  if (!existingEntry || entry.type == 'travel') {
     json.push(entry);
   }
   if (existingEntry) {
