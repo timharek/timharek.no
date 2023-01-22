@@ -11,7 +11,8 @@
 
 <section class="blog">
   <h1 class="page-title">Tag: {{ term.name }}</h1>
-  {{ macros::bloglisting(posts=term.pages, showDescription=false) }}
+  {% set pages = term.pages | sort(attribute="date") | reverse %}
+  {{ macros::bloglisting(posts=pages, showDescription=false) }}
   See all <a href="/{{ taxonomy.name }}">{{ taxonomy.name }}</a>
 </section>
 
