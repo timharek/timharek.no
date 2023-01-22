@@ -5735,5 +5735,29 @@
         "Morten Tyldum"
       ]
     }
+  },
+  {
+    "title": "Collateral",
+    "type": "movie",
+    "date": [
+      {
+        "day": "21",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-21"
+      }
+    ],
+    "details": {
+      "release_year": 2004,
+      "my_rating": 3,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "director": [
+        "Michael Mann"
+      ]
+    }
   }
 ]
