@@ -1,9 +1,6 @@
 // @deno-types="./mod.d.ts"
 
-import {
-  Input,
-  Number,
-} from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
+import { Input, Number } from '../../deps.ts';
 
 export async function logGame(type: 'game') {
   const currentDate = new Date().toISOString().split('T')[0];

@@ -1,11 +1,6 @@
 // @deno-types="./mod.d.ts"
 
-import { getMovie } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts';
-import { Result as OMDB } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/mod.d.ts';
-import {
-  Input,
-  Number,
-} from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
+import { getMovie, Input, Number, OMDB } from '../../deps.ts';
 
 export async function logMovieOrTv(type: 'movie' | 'tv') {
   const currentDate = new Date().toISOString().split('T')[0];

@@ -1,6 +1,6 @@
 // @deno-types="./mod.d.ts"
 
-import { Select } from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
+import { Select } from './deps.ts';
 import { log } from './src/log/index.ts';
 
 const typeSelector = {

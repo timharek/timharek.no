@@ -1,11 +1,6 @@
 // @deno-types="./mod.d.ts"
 
-import {
-  Input,
-  List,
-  Number,
-  Select,
-} from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
+import { Input, List, Number, Select } from '../../deps.ts';
 import {
   getBook,
   searchBook,

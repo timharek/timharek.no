@@ -1,9 +1,6 @@
 // @deno-types="./mod.d.ts"
 
-import {
-  Input,
-  Select,
-} from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
+import { Input, Select } from '../../deps.ts';
 
 export async function logTrip(type: 'travel') {
   const currentDate = new Date().toISOString().split('T')[0];
