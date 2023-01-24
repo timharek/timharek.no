@@ -27,7 +27,7 @@
   {% set pages = root.pages | sort(attribute="title") | map(attribute="relative_path") %}
   {% set sections = root.subsections %}
   {% set pages = pages | concat(with=sections) | sort %}
-  <ul>
+  <ul class="tree">
     <li>
       <a href="{{ root.permalink }}">
         Index
