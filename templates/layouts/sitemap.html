@@ -25,14 +25,21 @@
   {% if content %}
     {{ content | safe }}
   {% endif %}
-  {% set root = get_section(path="_index.md") %}
+  {% set_global root = get_section(path="_index.md") %}
+  {% if lang == "no" %}
+    {% set_global root = get_section(path="_index.no.md") %}
+  {% endif %}
   {% set pages = root.pages | sort(attribute="title") | map(attribute="relative_path") %}
   {% set sections = root.subsections %}
   {% set pages = pages | concat(with=sections) | sort %}
   <ul class="tree">
     <li>
       <a href="{{ root.permalink }}">
-        Index
+        {% if lang == "no" %}
+          Hjem
+        {% else %}
+          Index
+        {% endif %}
       </a>
     </li>
     {% for page_path in pages %}
@@ -45,7 +52,7 @@
       <li>
         <a href="{{ the_page.permalink }}">{{ the_page.title }}</a>
       </li>
-      {% if the_page.pages and the_page.title != "Blog" %}
+      {% if the_page.pages and the_page.title != "Blog" and the_page.title != "Blogg" %}
         <ul>
           {% for sub_page in the_page.pages | sort(attribute="title") %}
             <li>
