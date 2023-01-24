@@ -414,6 +414,12 @@
         "month": "01",
         "year": "2023",
         "string": "2023-01-19"
+      },
+      {
+        "day": "23",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-23"
       }
     ],
     "details": {
@@ -759,6 +765,36 @@
         },
         "cities": [
           "Trondheim"
+        ]
+      }
+    }
+  },
+  {
+    "title": "Meetings",
+    "type": "travel",
+    "date": [
+      {
+        "day": "23",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-23"
+      },
+      {
+        "day": "23",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-23"
+      }
+    ],
+    "details": {
+      "occasion": "business",
+      "location": {
+        "country": {
+          "name": "Norway",
+          "emoji": "🇳🇴"
+        },
+        "cities": [
+          "Kristiansand"
         ]
       }
     }
