@@ -1,6 +1,6 @@
 // @deno-types="./mod.d.ts"
 
-import { Select } from './deps.ts';
+import { logPath, Select } from './deps.ts';
 import { log } from './src/log/index.ts';
 
 const typeSelector = {
@@ -10,16 +10,6 @@ const typeSelector = {
   book: log.book,
   travel: log.trip,
   life: log.life,
-};
-
-const commonPath = '../static/api';
-const entryPath = {
-  movie: `${commonPath}/movies.json`,
-  tv: `${commonPath}/tv_shows.json`,
-  game: `${commonPath}/games.json`,
-  book: `${commonPath}/books.json`,
-  travel: `${commonPath}/travel.json`,
-  life: `${commonPath}/life.json`,
 };
 
 const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
@@ -38,7 +28,7 @@ const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
 const entry = await typeSelector[type](type);
 type entryType = typeof entry;
 
-writeEntryToFile<entryType>(entryPath[type], entry);
+writeEntryToFile<entryType>(logPath[type], entry);
 
 async function writeEntryToFile<T extends Log.IEntry>(path: string, entry: T) {
   const json: T[] = JSON.parse(await Deno.readTextFile(path));
