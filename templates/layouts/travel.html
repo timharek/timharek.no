@@ -5,9 +5,6 @@
   {% if page %}
     {% set title = page.title ~ " - " ~ config.title %}
     {% set description = page.description | default(value=config.description) %}
-    {% if page.updated %}
-      {% set updated = page.updated | date(format=config.extra.date_format) %}
-    {% endif %}
     {% if page.content %}
       {% set content = page.content %}
     {% endif %}
@@ -50,8 +47,10 @@
               {% set date = entry.date %}
               <div aria-label="Entry from-to date">
                 <time datetime="{{ date[0].string }}">{{ date[0].string | date(format="%b. %e") }}</time>
-                -
-                <time datetime="{{ date[1].string }}">{{ date[1].string | date(format="%b. %e") }}</time>
+                {% if date[0].string != date[1].string %}
+                  -
+                  <time datetime="{{ date[1].string }}">{{ date[1].string | date(format="%b. %e") }}</time>
+                {% endif %}
               </div>
             </div>
           {% endfor %}
