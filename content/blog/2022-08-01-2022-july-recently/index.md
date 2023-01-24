@@ -55,9 +55,9 @@ create a self-documenting Makefile][makefile_blogpost] taught me how to use
 `Makefile`'s in a simple manner, and now I updated my dotfiles-repo to use a
 `Makefile` instead of relying on many different shellscripts.
 
-[restic][restic] is something I've been looking at as a backup-alternative
-for my servers instead of relying on `rsync`. I need to run more dry-runs and
-test to make sure everything will go smoothly.
+[restic][restic] is something I've been looking at as a backup-alternative for
+my servers instead of relying on `rsync`. I need to run more dry-runs and test
+to make sure everything will go smoothly.
 
 ### Website
 
@@ -88,20 +88,22 @@ noticeable difference on my [CV-page][cv]
 
 ## What's next?
 
-My vacation is coming up so I don't have anything planned, I might blog a bit 
+My vacation is coming up so I don't have anything planned, I might blog a bit
 about my new 3D printer and my newbie experiences with it.
 
-I'm not setting any goals this time, 
+I'm not setting any goals this time,
 
 [howtoemail]: @/blog/2022-07-11-organized-email.md
-[notifications]: @/blog/2022-07-14-why-i-dont-use-notifications-for-everything.md
+[notifications]:
+  @/blog/2022-07-14-why-i-dont-use-notifications-for-everything.md
 [freecad]: https://www.freecad.org
 [nvim]: https://neovim.io/
 [lukeharris]: https://www.lkhrs.com/
 [api-endpoint]: /api/tv_shows.json
-[makefile_blogpost]: https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/
+[makefile_blogpost]:
+  https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/
 [restic]: https://restic.net/
 [zola-release]: https://github.com/getzola/zola/releases/tag/v0.16.0
 [work]: @/work/_index.md
 [jsonresume]: https://jsonresume.org/schema/
-[cv]: @/about/cv.md
+[cv]: @/about/cv/index.md
