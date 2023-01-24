@@ -23,7 +23,7 @@ to see what the future holds (and what I have time for).
 There is also a breadcrumbs path on my site now, which is (supposibly) on all
 pages, and I've found it really useful just for myself haha.
 
-Also added a [travel-log page](@/logs/travel/_index.md) to my site over on my
+Also added a [travel-log page](@/logs/travel.md) to my site over on my
 [logs](@/logs/_index.md)-section. It's not complete, it's mainly for myself but
 I thought it would be cool to share.
 
@@ -68,9 +68,11 @@ what was going on at all times. I think I need to find more books like this
 Looking forward to Black Panther: Wakanda Forever in November, I really hope
 Marvel Studios delivers on this one!
 
-[place_i_live_post]: @/blog/2022-10-02-i-made-a-website-for-the-place-i-live/index.md
+[place_i_live_post]:
+  @/blog/2022-10-02-i-made-a-website-for-the-place-i-live/index.md
 [privacy_post]: @/blog/2022-10-12-privacy-vs-anonymity.md
 [casual_gaming_post]: @/blog/2022-10-15-casual-gaming-is-getting-boring.md
 [norwegian_post]: @/blog/2022-10-26-oversatt-til-norsk.no.md
 [northgard]: https://northgard.net/
-[phoenix_project]: https://www.goodreads.com/book/show/17255186-the-phoenix-project
+[phoenix_project]:
+  https://www.goodreads.com/book/show/17255186-the-phoenix-project

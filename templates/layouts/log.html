@@ -2,26 +2,26 @@
 {% import "macros.html" as macros %}
 
 {% block head %}
-  {% if section %}
-    {% set title = section.title ~ " - " ~ config.title %}
-    {% set description = section.description | default(value=config.description) %}
-    {% if section.updated %}
-      {% set updated = section.updated | date(format=config.extra.date_format) %}
+  {% if page %}
+    {% set title = page.title ~ " - " ~ config.title %}
+    {% set description = page.description | default(value=config.description) %}
+    {% if page.updated %}
+      {% set updated = page.updated | date(format=config.extra.date_format) %}
     {% endif %}
-    {% if section.content %}
-      {% set content = section.content %}
+    {% if page.content %}
+      {% set content = page.content %}
     {% endif %}
   {% endif %}
 {% endblock head %}
 
 {% block content %}
 
-{% set files = section.extra.json_files %}
-{% set is_date_field_array = section.extra.date_field_is_array %}
+{% set files = page.extra.json_files %}
+{% set is_date_field_array = page.extra.date_field_is_array %}
 
 <section class="page-content page-log">
   {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
+  <h1 class="page-title">{{ page.title | default(value=page.title) }}</h1>
   {% if content %}
     {{ content | safe }}
   {% endif %}

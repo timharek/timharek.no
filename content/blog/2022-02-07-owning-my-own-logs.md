@@ -41,5 +41,5 @@ create new Markdown-files for all the entires in order to have taxonomies. I
 would much more prefer having everything live in a JSON-file or something
 similar, but I do have an easy way to add a review to an entry.
 
-Here you can check out my [watched](@/logs/watched/_index.md)- and
-[reading](@/logs/reading/_index.md)-logs.
+Here you can check out my [watched](@/logs/watched.md)- and
+[reading](@/logs/reading.md)-logs.
