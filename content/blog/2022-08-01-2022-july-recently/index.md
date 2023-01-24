@@ -104,6 +104,6 @@ I'm not setting any goals this time,
   https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/
 [restic]: https://restic.net/
 [zola-release]: https://github.com/getzola/zola/releases/tag/v0.16.0
-[work]: @/work/_index.md
+[work]: @/work/index.md
 [jsonresume]: https://jsonresume.org/schema/
 [cv]: @/about/cv/index.md

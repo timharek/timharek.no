@@ -2,10 +2,10 @@
 {% import "macros.html" as macros %}
 
 {% block head %}
-  {% set title = section.title ~ " - " ~ config.title %}
+  {% set title = page.title ~ " - " ~ config.title %}
   {% set description = section.description | default(value=config.description) %}
-  {% if section.content %}
-    {% set content = section.content %}
+  {% if page.content %}
+    {% set content = page.content %}
   {% endif %}
 {% endblock head %}
 
@@ -16,7 +16,7 @@
 
 <section class="page-content">
   {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
+  <h1 class="page-title">{{ page.title | default(value=page.title) }}</h1>
   <span class="page-updated">
     {% set updated = work_data[0].endDate %}
     {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">{{ updated | date(format=config.extra.date_format_long) }}</time>

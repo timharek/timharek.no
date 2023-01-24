@@ -35,7 +35,7 @@
     </li>
     {% for page_path in pages %}
       {% set_global the_page = "" %}
-      {% if page_path is containing("/") %}
+      {% if page_path is containing("/_") %}
         {% set_global the_page = get_section(path=page_path) %}
       {% else %}
         {% set_global the_page = get_page(path=page_path) %}

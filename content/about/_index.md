@@ -6,7 +6,7 @@ template = "layouts/page.html"
 updated = 2023-01-21
 subnav = [
   { name = "CV", path = "@/about/cv/index.md" },
-  { name = "Work", path = "@/work/_index.md" },
+  { name = "Work", path = "@/work/index.md" },
   { name = "Uses", path = "@/about/uses.md" },
   { name = "Digital garden", path = "@/garden/_index.md" },
   { name = "Feedroll", path = "@/feedroll.md" },
