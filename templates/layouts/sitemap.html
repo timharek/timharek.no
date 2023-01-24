@@ -1,0 +1,85 @@
+{% extends "base/base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+  {% set title = page.title ~ " - " ~ config.title %}
+  {% set description = page.description | default(value=config.description) %}
+  {% if page.updated %}
+    {% set updated = page.updated | date(format=config.extra.date_format_long) %}
+  {% endif %}
+  {% if page.content %}
+    {% set content = page.content %}
+  {% endif %}
+{% endblock head %}
+
+
+{% block content %}
+<section class="page-content">
+  {{ macros::breadcrumbs() }}
+  <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
+  {% if updated %}
+    <div class="page-updated">
+      {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">{{ updated }}</time>
+    </div>
+  {% endif %}
+  {{ content | safe }}
+  {% set root = get_section(path="_index.md") %}
+  {% set pages = root.pages | sort(attribute="title") | map(attribute="relative_path") %}
+  {% set sections = root.subsections %}
+  {% set pages = pages | concat(with=sections) | sort %}
+  <ul>
+    <li>
+      <a href="{{ root.permalink }}">
+        Index
+      </a>
+    </li>
+    {% for page_path in pages %}
+      {% set_global the_page = "" %}
+      {% if page_path is containing("/") %}
+        {% set_global the_page = get_section(path=page_path) %}
+      {% else %}
+        {% set_global the_page = get_page(path=page_path) %}
+      {% endif %}
+      <li>
+        <a href="{{ the_page.permalink }}">{{ the_page.title }}</a>
+      </li>
+      {% if the_page.pages and the_page.title != "Blog" %}
+        <ul>
+          {% for sub_page in the_page.pages %}
+            <li>
+              <a href="{{ sub_page.permalink }}">
+                {{ sub_page.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if the_page.subsections %}
+        <ul>
+          {% for sub_sec_path in the_page.subsections %}
+            {% set sub_page = get_section(path=sub_sec_path) %}
+            <li>
+              <a href="{{ sub_page.permalink }}">
+                {{ sub_page.title }}
+              </a>
+            </li>
+            {% if sub_page.pages %}
+              <ul>
+              {% for sub_sub_page in sub_page.pages %}
+                <li>
+                  <a href="{{ sub_sub_page.permalink }}">
+                    {{ sub_sub_page.title }}
+                  </a>
+                </li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {{ macros::backlinks(page=page, title="page") }}
+</section>
+
+{% endblock content %}
