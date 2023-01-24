@@ -22,7 +22,9 @@
       {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">{{ updated }}</time>
     </div>
   {% endif %}
-  {{ content | safe }}
+  {% if content %}
+    {{ content | safe }}
+  {% endif %}
   {% set root = get_section(path="_index.md") %}
   {% set pages = root.pages | sort(attribute="title") | map(attribute="relative_path") %}
   {% set sections = root.subsections %}

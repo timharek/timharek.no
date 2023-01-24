@@ -105,6 +105,7 @@ nav = [
 
 footer_nav = [
   { path = "@/stats.md" },
-  { path = "@/privacy.md" }
+  { path = "@/privacy.md" },
+  { path = "@/sitemap.md" }
 ]
 
