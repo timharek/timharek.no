@@ -28,6 +28,6 @@
     }
   },
   "tasks": {
-    "log": "deno run --allow-net=www.omdbapi.com,openlibrary.org --allow-read=../static/api --allow-write=../static/api --allow-env mod.ts"
+    "log": "deno run --allow-net=www.omdbapi.com,openlibrary.org --allow-read=../static/api --allow-write=../static/api --allow-env log.ts"
   }
 }
