@@ -1,21 +1,21 @@
 +++
 title = "Om"
-description = "Om Tim Hårek, en utvikler i Norge."
+description = "Om Tim Hårek, en teknolog i Norge."
 template = "layouts/page.html"
 [extra]
-updated = 2022-09-16
+updated = 2023-01-24
 subnav = [
   { name = "CV", path = "@/about/cv/index.md" },
   { name = "Uses", path = "@/about/uses.md" },
-  { name = "Digital garden", path = "@/garden/_index.md" },
+  { name = "Digital hage", path = "@/garden/_index.md" },
   { name = "Feedroll", path = "@/feedroll.md" },
-  { name = "Logs", path = "@/logs/_index.md" },
+  { name = "Logger", path = "@/logs/_index.md" },
 ]
 +++
 
-Mitt navn er Tim Hårek Andreassen, jeg er en utvikler, UX-designer, turgåer og
-hundeperson fra vestlandet. Jeg bryr meg om å lage greier som respekterer folk i
-form av personvern, sikkerhet og brukeropplevelse.
+Mitt navn er Tim Hårek Andreassen, jeg er en teknolog, utvikler, UX-designer,
+turgåer og hundeperson fra vestlandet. Jeg bryr meg om å lage greier som
+respekterer folk i form av personvern, sikkerhet og brukeropplevelse.
 
 Jeg jobber som teknolog hos Netlife Bergen, hvor jeg jobber med
 fullstack-utvikling, universell utforming og UX-design.
@@ -28,7 +28,7 @@ med hunden min! 🐕
 Du kan alltid nå meg på <a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>
 ([public key](@/connect/key.md)).
 
-## Colophon
+## Kolofon
 
 Denne nettsiden er bygget med [Zola][zola] av undertegnende.
 

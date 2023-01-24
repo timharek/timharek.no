@@ -1,9 +1,9 @@
 +++
 title = "About"
-description = "About Tim Hårek, a developer based in Norway."
+description = "About Tim Hårek, a technologist based in Norway."
 template = "layouts/page.html"
 [extra]
-updated = 2023-01-21
+updated = 2023-01-24
 subnav = [
   { name = "CV", path = "@/about/cv/index.md" },
   { name = "Work", path = "@/work/index.md" },
