@@ -94,8 +94,9 @@
     "https://deno.land/x/cliffy@v0.25.6/prompt/toggle.ts": "16a8aa3f4f22db7d4705cd263569d547b6540c53b057e64a4c4028b610dd1920",
     "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts": "db8a32650c43046865d2932c3a9a5a987f6b7b3195a121988425cd46e703e39d",
     "https://git.sr.ht/~timharek/deno-books/blob/main/mod.ts": "6caed5c312cd11b417c2c4e4828410455ee03186c692eb42ee0ebc759768037e",
+    "https://git.sr.ht/~timharek/deno-omdb/blob/main/mod.d.ts": "7dfc9535c1a3fef77b684b46930dd18bdddb52accabd5b7ded55559fb2b500b7",
     "https://raw.githubusercontent.com/timharek/deno-omdb/main/deps.ts": "8c0a3a6eda5243017450ab355104f01099e3f160d643e76d4b44f3e83cc688fb",
-    "https://raw.githubusercontent.com/timharek/deno-omdb/main/mod.d.ts": "cd0c79cbd5667b9329c2c6ec369e9686460ca2385ccd7863cbf9724c55993952",
-    "https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts": "0b7b569da6a3c4bb61dac31f226e989c87a27896f4ade73d338d3e9fb0b7efd4"
+    "https://raw.githubusercontent.com/timharek/deno-omdb/main/mod.d.ts": "54a9c818158dee5ced7a30886dde2eca5204257292e5352fb36a8fa03b525863",
+    "https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts": "4e8822a71df9a817d1a12754df0e8d2e302eb1b001e64c0e1f21e30936537ac5"
   }
 }
