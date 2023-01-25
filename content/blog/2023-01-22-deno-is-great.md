@@ -1,6 +1,7 @@
 +++
 title = "Deno is great"
 description = "What is Deno, how do I use it and should you even consider it?"
+updated = 2023-01-25
 [taxonomies]
 tags = ["Deno", "Software", "100 days to offload"]
 +++
@@ -33,8 +34,8 @@ JavaScript I just fire up Deno's Repl and play around with it.
 
 ## Should you try it?
 
-If you work with Node.js and are of setting up linting, formatting, types etc.
-then you should most definitely try Deno!
+If you work with Node.js and are tired of setting up linting, formatting, types
+etc. then you should most definitely try Deno!
 
 [deno]: https://deno.land
 [nodejs]: https://nodejs.org/en/
