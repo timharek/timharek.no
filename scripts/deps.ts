@@ -1,8 +1,10 @@
 export {
   Confirm,
+  inject,
   Input,
   List,
   Number,
+  prompt,
   Select,
 } from 'https://deno.land/x/cliffy@v0.25.6/prompt/mod.ts';
 export { getMovie } from 'https://raw.githubusercontent.com/timharek/deno-omdb/main/omdb.ts';

@@ -27,6 +27,9 @@
       "proseWrap": "preserve"
     }
   },
+  "imports": {
+    "std/": "https://deno.land/std@0.174.0/"
+  },
   "tasks": {
     "log": "deno run --allow-net=www.omdbapi.com,openlibrary.org --allow-read=../static/api --allow-write=../static/api --allow-env log.ts",
     "read": "deno run --allow-read=../static/api --allow-write=../static/api read_logs.ts"

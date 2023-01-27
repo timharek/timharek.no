@@ -1,6 +1,6 @@
 // @deno-types="../mod.d.ts"
 
-import { assertEquals } from 'https://deno.land/std@0.174.0/testing/asserts.ts';
+import { assertEquals } from 'std/testing/asserts.ts';
 import { getEntryDate } from './util.ts';
 
 Deno.test('Format date', () => {
