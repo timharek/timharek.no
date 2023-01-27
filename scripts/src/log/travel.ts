@@ -1,6 +1,7 @@
 // @deno-types="./mod.d.ts"
 
 import { Input, Select } from '../../deps.ts';
+import { getEntryDate } from '../util.ts';
 
 export async function logTrip(type: 'travel') {
   const currentDate = new Date().toISOString().split('T')[0];
@@ -50,15 +51,6 @@ export async function logTrip(type: 'travel') {
   };
 
   return travelEntry;
-}
-
-function getEntryDate(date: string) {
-  return {
-    day: date.split('-')[2],
-    month: date.split('-')[1],
-    year: date.split('-')[0],
-    string: date,
-  };
 }
 
 function getCities(cities: string) {

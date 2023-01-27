@@ -1,6 +1,7 @@
 // @deno-types="./mod.d.ts"
 
 import { Input, Number } from '../../deps.ts';
+import { getEntryDate } from '../util.ts';
 
 export async function logGame(type: 'game') {
   const currentDate = new Date().toISOString().split('T')[0];
@@ -27,12 +28,7 @@ export async function logGame(type: 'game') {
   const gameEntry: Log.IGameEntry = {
     title: title,
     type: type,
-    date: [{
-      day: date.split('-')[2],
-      month: date.split('-')[1],
-      year: date.split('-')[0],
-      string: date,
-    }],
+    date: [getEntryDate(date)]],
     details: {
       release_year: releaseYear,
       my_rating: rating,

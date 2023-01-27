@@ -1,6 +1,7 @@
 // @deno-types="./mod.d.ts"
 
 import { getMovie, Input, Number, OMDB } from '../../deps.ts';
+import { getEntryDate } from '../util.ts';
 
 export async function logMovieOrTv(type: 'movie' | 'tv') {
   const currentDate = new Date().toISOString().split('T')[0];
@@ -30,12 +31,7 @@ export async function logMovieOrTv(type: 'movie' | 'tv') {
   const watchedEntry: Log.IWatchedEntry = {
     title: entry.title,
     type: type,
-    date: [{
-      day: date.split('-')[2],
-      month: date.split('-')[1],
-      year: date.split('-')[0],
-      string: date,
-    }],
+    date: [getEntryDate(date)],
     details: {
       release_year: entry.year,
       my_rating: rating,

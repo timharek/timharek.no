@@ -8,6 +8,7 @@ import {
 import {
   OpenLibrary,
 } from 'https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts';
+import { getEntryDate } from '../util.ts';
 
 export async function logBook(type: 'book') {
   const currentDate = new Date().toISOString().split('T')[0];
@@ -55,12 +56,7 @@ export async function logBook(type: 'book') {
   const bookEntry: Log.IBookEntry = {
     title: book.title,
     type: type,
-    date: [{
-      day: date.split('-')[2],
-      month: date.split('-')[1],
-      year: date.split('-')[0],
-      string: date,
-    }],
+    date: [getEntryDate(date)],
     details: {
       publish_year: bookFields.publishYear,
       author: bookFields.author,
