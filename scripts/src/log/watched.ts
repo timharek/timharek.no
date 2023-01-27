@@ -1,23 +1,33 @@
-// @deno-types="./mod.d.ts"
+// @deno-types="../../mod.d.ts"
 
-import { getMovie, Input, Number, OMDB } from '../../deps.ts';
+import { getMovie, Input, Number, OMDB, prompt } from '../../deps.ts';
 import { getCurrentDate, getEntryDate } from '../util.ts';
 
 export async function logMovieOrTv(type: 'movie' | 'tv') {
   const currentDate = getCurrentDate();
 
-  const title: string = await Input.prompt('What did you watch?');
-  const date: string = await Input.prompt(
+  const result = await prompt([
     {
+      name: 'title',
+      message: 'What did you watch?',
+      type: Input,
+    },
+    {
+      name: 'date',
       message: 'When did you watch it? (YYYY-MM-DD)',
       suggestions: [currentDate],
+      type: Input,
     },
-  ) ?? currentDate;
-  const rating: number = await Number.prompt({
-    message: `How many stars for ${title}? (1-5)`,
-    min: 1,
-    max: 5,
-  });
+    {
+      name: 'rating',
+      message: 'How many stars for ${title}? (1-5)',
+      type: Number,
+      min: 1,
+      max: 5,
+    },
+  ]);
+
+  const { title, date, rating } = result;
 
   const options = {
     apiKey: Deno.env.get('OMDB_API') ?? '',
