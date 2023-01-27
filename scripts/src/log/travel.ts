@@ -1,10 +1,10 @@
 // @deno-types="./mod.d.ts"
 
 import { Input, Select } from '../../deps.ts';
-import { getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate } from '../util.ts';
 
 export async function logTrip(type: 'travel') {
-  const currentDate = new Date().toISOString().split('T')[0];
+  const currentDate = getCurrentDate();
 
   const country: string = await Input.prompt(
     'Which country did you travel to?',

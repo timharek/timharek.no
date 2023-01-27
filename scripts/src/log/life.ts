@@ -1,10 +1,10 @@
 // @deno-types="../../mod.d.ts"
 
 import { Input, Select } from '../../deps.ts';
-import { getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate } from '../util.ts';
 
 export async function logLifeEvent(type: 'life') {
-  const currentDate = new Date().toISOString().split('T')[0];
+  const currentDate = getCurrentDate();
 
   const title: string = await Input.prompt(
     'Which life event do you want to log?',

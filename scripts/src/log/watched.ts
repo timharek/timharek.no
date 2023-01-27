@@ -1,10 +1,10 @@
 // @deno-types="./mod.d.ts"
 
 import { getMovie, Input, Number, OMDB } from '../../deps.ts';
-import { getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate } from '../util.ts';
 
 export async function logMovieOrTv(type: 'movie' | 'tv') {
-  const currentDate = new Date().toISOString().split('T')[0];
+  const currentDate = getCurrentDate();
 
   const title: string = await Input.prompt('What did you watch?');
   const date: string = await Input.prompt(

@@ -1,10 +1,10 @@
 // @deno-types="../../mod.d.ts"
 
 import { Input, Number, prompt } from '../../deps.ts';
-import { getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate } from '../util.ts';
 
 export async function logGame(type: 'game') {
-  const currentDate = new Date().toISOString().split('T')[0];
+  const currentDate = getCurrentDate();
 
   const result = await prompt([{
     name: 'title',
