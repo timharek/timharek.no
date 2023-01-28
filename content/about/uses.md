@@ -3,7 +3,7 @@ title = "Uses"
 description = "What I use on a day-to-day basis."
 template = "layouts/page.html"
 aliases = ["/use"]
-updated = 2023-01-15
+updated = 2023-01-29
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -53,6 +53,7 @@ This is software that I use on my devices.
 - [Firefox][firefox]. Highly customizable browser.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
+- [Figma][figma]. Design editor I use at work.
 - [Helix][helix]. New editor I'm trying out.
 - [Insomnia][insomnia]. Open source API-client.
 - [iTerm2][iterm]. Fast, native terminal for macOS.
@@ -76,11 +77,9 @@ This is software that I use on my devices.
 
 - [1984 Hosting][1984]. Privacy-first VPS service.
 - [Bitwarden][bitwarden]. Open source password manager.
+- [Linkding][linkding]. Self-hosted bookmarking.
 - [Migadu][migadu]. Amazing email provider ([my review][migadu_review]).
-- [Mullvad VPN][mullvad]. Privacy focused VPN provider, I only use them when I
-  need a thrid-party VPN.
-- [Nextcloud][nextcloud]. My self-hosted cloud.
-- [Pinboard][pinboard]. Social bookmarking, I like it.
+- [Nextcloud][nextcloud]. Self-hosted cloud.
 - [Plausible][plausible]. Privacy-first analytics.
 - [SourceHut][sourcehut]. Source-forge for all my personal Git-repositories.
 - [Spotify][spotify]. Current music-service of choice.
@@ -112,17 +111,17 @@ This is software that I use on my devices.
 [1984]: https://1984hosting.com
 [migadu]: https://migadu.com
 [migadu_review]: @/blog/2021-12-12-migadu-review/index.md
-[mullvad]: https://mullvad.net/en/
 [yabai]: https://github.com/koekeishiya/yabai
 [lulu]: https://objective-see.com/products/lulu.html
 [appcleaner]: https://freemacsoft.net/appcleaner/
 [macupdater]: https://www.corecode.io/macupdater/
 [plausible]: https://plausible.io
 [dotfiles]: https://github.com/timharek/dotfiles
-[pinboard]: https://pinboard.in
 [moonlander]: https://www.zsa.io/moonlander/
 [spaceman]: https://github.com/Jaysce/Spaceman
 [usesthis]: https://usesthis.com/
 [insomnia]: https://insomnia.rest/
 [sourcehut]: https://sourcehut.org
 [helix]: https://helix-editor.com/
+[linkding]: https://github.com/sissbruecker/linkding
+[figma]: https://www.figma.com/
