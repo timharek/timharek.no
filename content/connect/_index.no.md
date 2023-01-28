@@ -4,9 +4,12 @@ description = ""
 template = "layouts/page.html"
 +++
 
-E-postkassen min er åpen! Introduser deg selv, fortell meg at jeg tar feil,
-del noe gøy, gi tilbakemeldinger, du er deg! Du kan nå meg på
-[tim@harek.no](mailto:tim@harek.no), min [public key](@/connect/key.md).
+E-postkassen min er åpen! Introduser deg selv, fortell meg at jeg tar feil, del
+noe gøy, gi tilbakemeldinger, du er deg!
+
+- E-post: [tim@harek.no](mailto:tim@harek.no)
+- OpenPGP: [`18131862de62d969f02a14e834853dfd0b419a0d`](/public-key.asc).
+  - Eller `curl -sL https://timharek.no/public-key.asc | gpg --import`
 
 ## Hold deg oppdatert
 

@@ -25,8 +25,7 @@ med hunden min! 🐕
 
 ## Kontakt
 
-Du kan alltid nå meg på <a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>
-([public key](@/connect/key.md)).
+Du kan alltid nå meg på <a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>.
 
 ## Kolofon
 

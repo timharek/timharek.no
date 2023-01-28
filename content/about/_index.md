@@ -27,8 +27,7 @@ hike with my dog! 🐕
 ## Contact
 
 You can always reach me at
-<a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>
-([public key](@/connect/key.md)).
+<a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>.
 
 ## Colophon
 
