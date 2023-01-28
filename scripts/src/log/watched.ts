@@ -6,7 +6,7 @@ import { getCurrentDate, getEntryDate } from '../util.ts';
 export async function logMovieOrTv(type: 'movie' | 'tv') {
   const currentDate = getCurrentDate();
 
-  const result = await prompt([
+  const { title, date, rating } = await prompt([
     {
       name: 'title',
       message: 'What did you watch?',
@@ -26,8 +26,6 @@ export async function logMovieOrTv(type: 'movie' | 'tv') {
       max: 5,
     },
   ]);
-
-  const { title, date, rating } = result;
 
   const options = {
     apiKey: Deno.env.get('OMDB_API') ?? '',
