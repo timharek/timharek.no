@@ -176,7 +176,7 @@
       </li>
       {% endfor %}
       {% if section.pages %}
-        {% for page in section.pages %}
+        {% for page in section.pages | sort(attribute="title") %}
           <li class="list__item">
               <a href="{{ page.permalink }}">
                 {{ page.title }}
@@ -188,7 +188,7 @@
   {% else %}
     <nav aria-label="Subpages">
       <ul class="pages__list">
-        {% for page in section.pages %}
+        {% for page in section.pages | sort(attribute="title") %}
           <li class="list__item">
               <a href="{{ page.permalink }}">
                 {{ page.title }}
