@@ -30,9 +30,15 @@ Du kan alltid nå meg på <a href="mailto:tim@harek.no" rel="me">tim@harek.no</a
 
 Denne nettsiden er bygget med [Zola][zola] av undertegnende.
 
-Stolt medlem av [1MB club][1mb] and [512KB club][512kb].
+Stolt medlem av:
 
-Kildekode er tilgjengelig på [Codeberg][codeberg] og [SourceHut][sourcehut].
+- [1MB club][1mb]
+- [512KB club][512kb].
+
+Kildekode er tilgjengelig på:
+
+- [SourceHut][sourcehut].
+- [Codeberg][codeberg]
 
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org

@@ -32,9 +32,15 @@ You can always reach me at
 
 This website is built using [Zola][zola] by yours truly.
 
-Proud member of [1MB club][1mb] and [512KB club][512kb].
+Proud member of:
 
-Source code is available on [Codeberg][codeberg] and [SourceHut][sourcehut].
+- [1MB club][1mb]
+- [512KB club][512kb].
+
+Source code is available on:
+
+- [SourceHut][sourcehut].
+- [Codeberg][codeberg]
 
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org
