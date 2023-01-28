@@ -57,7 +57,16 @@ export async function logLifeEvent(type: 'life') {
 
 async function getCustomPrefix(prefix: string): Promise<string> {
   if (prefix === 'custom') {
-    return await Input.prompt('Enter custom prefix');
+    const { prefix } = await prompt([{
+      name: 'prefix',
+      message: 'Enter custom prefix',
+      type: Input,
+    }]);
+    return prefix;
   }
   return prefix;
 }
+
+export const LifeTesting = {
+  getCustomPrefix,
+};
