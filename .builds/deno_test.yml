@@ -2,7 +2,7 @@ image: ubuntu/lts
 packages:
     - unzip
 sources:
-    - https://git.sr.ht/~timhare/timharek.no
+    - https://git.sr.ht/~timharek/timharek.no
 triggers:
   - action: email
     condition: failure
