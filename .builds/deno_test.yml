@@ -1,0 +1,17 @@
+image: ubuntu/lts
+packages:
+    - unzip
+sources:
+    - https://git.sr.ht/~timhare/timharek.no
+triggers:
+  - action: email
+    condition: failure
+    to: tim@harek.no
+tasks:
+    - install-deno: |
+        curl -fsSL https://deno.land/x/install/install.sh | sh
+    - test: |
+        DENO_INSTALL="/home/build/.deno"
+        PATH="$DENO_INSTALL/bin:$PATH"
+        cd timharek.no/scripts
+        deno test
