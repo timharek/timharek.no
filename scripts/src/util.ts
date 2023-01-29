@@ -12,3 +12,8 @@ export function getEntryDate(date: string): Log.IDate {
 export function getCurrentDate(): string {
   return new Date().toISOString().split('T')[0];
 }
+
+export const selectKeys = {
+  next: ['down', 'tab'],
+  previous: ['up', 'shift'],
+};

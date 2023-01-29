@@ -8,7 +8,7 @@ import {
 import {
   OpenLibrary,
 } from 'https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts';
-import { getCurrentDate, getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate, selectKeys } from '../util.ts';
 
 export async function logBook(type: 'book') {
   const currentDate = getCurrentDate();
@@ -47,6 +47,7 @@ export async function logBook(type: 'book') {
       type: Select,
       options: selectOptions,
       ...(selectOptions.length > 10 && { search: true }),
+      keys: selectKeys,
     },
     {
       name: 'genres',

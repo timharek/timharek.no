@@ -1,6 +1,7 @@
 // @deno-types="./mod.d.ts"
 
 import { Confirm, logPath, Select } from './deps.ts';
+import { selectKeys } from './src/util.ts';
 
 async function readFile() {
   const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
@@ -14,6 +15,7 @@ async function readFile() {
       { name: 'Life event', value: 'life' },
     ],
     search: true,
+    keys: selectKeys,
   });
 
   const fileToRead = logPath[type];

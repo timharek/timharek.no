@@ -2,6 +2,7 @@
 
 import { logPath, Select } from './deps.ts';
 import { log } from './src/log/index.ts';
+import { selectKeys } from './src/util.ts';
 
 const typeSelector = {
   movie: log.movieTv,
@@ -23,6 +24,7 @@ const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
     { name: 'Life event', value: 'life' },
   ],
   search: true,
+  keys: selectKeys,
 });
 
 const entry = await typeSelector[type](type);

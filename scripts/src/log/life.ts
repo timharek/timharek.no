@@ -1,7 +1,7 @@
 // @deno-types="../../mod.d.ts"
 
 import { Input, prompt, Select } from '../../deps.ts';
-import { getCurrentDate, getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate, selectKeys } from '../util.ts';
 
 export async function logLifeEvent(type: 'life') {
   const currentDate = getCurrentDate();
@@ -37,6 +37,7 @@ export async function logLifeEvent(type: 'life') {
         { name: 'None', value: '0' },
       ],
       search: true,
+      keys: selectKeys,
     },
   ]);
 

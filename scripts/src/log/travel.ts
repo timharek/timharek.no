@@ -1,7 +1,7 @@
 // @deno-types="../../mod.d.ts"
 
 import { Input, List, prompt, Select } from '../../deps.ts';
-import { getCurrentDate, getEntryDate } from '../util.ts';
+import { getCurrentDate, getEntryDate, selectKeys } from '../util.ts';
 
 export async function logTrip(type: 'travel') {
   const currentDate = getCurrentDate();
@@ -43,6 +43,7 @@ export async function logTrip(type: 'travel') {
           { name: 'Business', value: 'business' },
           { name: 'Pleasure', value: 'pleasure' },
         ],
+        keys: selectKeys,
       },
       {
         name: 'title',
