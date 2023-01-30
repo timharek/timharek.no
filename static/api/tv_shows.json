@@ -1062,13 +1062,36 @@
       "release_year": 2022,
       "my_rating": 4,
       "genres": [
-        "Action", "Adventure", "Drama"
+        "Action",
+        "Adventure",
+        "Drama"
       ],
       "creator": [
         "Tony Gilroy"
       ],
       "season": 1,
       "episode_count": 12
+    }
+  },
+  {
+    "title": "The Legend of Vox Machina",
+    "type": "tv",
+    "date": [
+      {
+        "day": "27",
+        "month": "01",
+        "year": "2023",
+        "string": "2023-01-27"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
     }
   }
 ]
