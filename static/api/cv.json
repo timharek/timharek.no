@@ -110,7 +110,9 @@
       "position": "Security Guard",
       "logo": null,
       "summary": null,
-      "highlights": ["Part-time job as a bouncer beside my studies in Bergen."]
+      "highlights": [
+        "Part-time job as a bouncer beside my studies in Bergen."
+      ]
     },
     {
       "name": "Forsvaret",
@@ -166,7 +168,9 @@
       "position": "Web developer",
       "url": "https://srib.no",
       "logo": "/cv/srib.svg",
-      "highlights": ["Contributed on the development of their new website."]
+      "highlights": [
+        "Contributed on the development of their new website."
+      ]
     }
   ],
   "education": [
@@ -178,7 +182,9 @@
       "startDate": "2017-08-14",
       "endDate": "2021-06-07",
       "logo": "/cv/uib.svg",
-      "courses": ["INF100 - Introduction to programming"],
+      "courses": [
+        "INF100 - Introduction to programming"
+      ],
       "summary": "Computer Science with a security focus."
     }
   ],
@@ -199,7 +205,15 @@
     {
       "name": "Programming languages",
       "level": null,
-      "keywords": ["Java", "C#", "Python", "HTML", "CSS", "JS", "PHP"]
+      "keywords": [
+        "Java",
+        "C#",
+        "Python",
+        "HTML",
+        "CSS",
+        "JS",
+        "PHP"
+      ]
     },
     {
       "name": "Libraries and frameworks",
@@ -219,17 +233,35 @@
     {
       "name": "Tools",
       "level": null,
-      "keywords": ["Git", "Vim", "UNIX", "Ansible", "GitHub Actions", "Docker"]
+      "keywords": [
+        "Git",
+        "Vim",
+        "UNIX",
+        "Ansible",
+        "GitHub Actions",
+        "Docker"
+      ]
     },
     {
       "name": "Platforms",
       "level": null,
-      "keywords": ["Craft CMS", "Sanity", "WordPress", "Joomla", "HubSpot CMS"]
+      "keywords": [
+        "Craft CMS",
+        "Sanity",
+        "WordPress",
+        "Joomla",
+        "HubSpot CMS"
+      ]
     },
     {
       "name": "Design",
       "level": null,
-      "keywords": ["Affinity Designer", "Adobe CC", "Sketch", "Figma"]
+      "keywords": [
+        "Affinity Designer",
+        "Adobe CC",
+        "Sketch",
+        "Figma"
+      ]
     }
   ],
   "languages": [
@@ -245,98 +277,129 @@
   "interests": [
     {
       "name": "Hiking",
-      "keywords": ["mountains"]
+      "keywords": [
+        "mountains"
+      ]
     },
     {
       "name": "3D-printing",
-      "keywords": ["DIY", "Tool-making"]
+      "keywords": [
+        "DIY",
+        "Tool-making"
+      ]
     },
     {
       "name": "Home Automation",
-      "keywords": ["Home Assistant", "Zigbee", "Raspberry Pi"]
+      "keywords": [
+        "Home Assistant",
+        "Zigbee",
+        "Raspberry Pi"
+      ]
     }
   ],
   "projects": [
     {
       "name": "valuegroup.no",
       "client": "Value",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "New website made with HubSpot CMS for an accounting agency.",
       "endDate": "2022-12-06",
-      "keywords": ["Website", "HubSpot CMS", "Netlife"],
-      "url": "https://valuegroup.no",
-      "color": {
-        "bg": "#ece2fa",
-        "text": "black"
-      }
+      "keywords": [
+        "Website",
+        "HubSpot CMS",
+        "Netlife"
+      ],
+      "url": "https://valuegroup.no"
     },
     {
       "name": "ren.no",
       "client": "REN",
-      "roles": ["UX-designer"],
+      "roles": [
+        "UX-designer"
+      ],
       "description": "Designed components for their internal datasheet creation.",
       "endDate": "2022-09-30",
-      "keywords": ["Website", "Figma", "UX", "Netlife"],
-      "color": {
-        "bg": "#69dd74",
-        "text": "black"
-      }
+      "keywords": [
+        "Website",
+        "Figma",
+        "UX",
+        "Netlife"
+      ]
     },
     {
       "name": "ypper.no",
       "client": "Ypper",
-      "roles": ["Tech lead", "Developer"],
+      "roles": [
+        "Tech lead",
+        "Developer"
+      ],
       "description": "Developed a new webiste with Ghost CMS with memberships and payment model.",
       "endDate": "2022-04-21",
-      "keywords": ["Website", "Ghost CMS", "Tailwind", "Netlife"],
-      "url": "https://ypper.no",
-      "color": {
-        "bg": "#d8b895",
-        "text": "black"
-      }
+      "keywords": [
+        "Website",
+        "Ghost CMS",
+        "Tailwind",
+        "Netlife"
+      ],
+      "url": "https://ypper.no"
     },
     {
       "name": "Upgrade kolibricarf.no",
       "client": "Kolibri CARF",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "Upgrade website from Craft CMS 2 to Craft CMS 3 including migration of plugins and new setup for donations.",
       "endDate": "2022-07-08",
-      "keywords": ["Website", "Craft CMS", "Upgrade", "Netlife"],
-      "url": "https://kolibricarf.no/",
-      "color": {
-        "bg": "#f6c944",
-        "text": "black"
-      }
+      "keywords": [
+        "Website",
+        "Craft CMS",
+        "Upgrade",
+        "Netlife"
+      ],
+      "url": "https://kolibricarf.no/"
     },
     {
       "name": "viljareiser.no",
       "client": "Vilja",
-      "roles": ["Tech lead", "Developer", "UX designer"],
+      "roles": [
+        "Tech lead",
+        "Developer",
+        "UX designer"
+      ],
       "description": "Developed a new website for a traveling agency with API-integration to their exisiting booking system. Built with Craft CMS 3.",
       "endDate": "2022-06-26",
-      "keywords": ["Website", "Craft CMS", "Tailwind", "API", "Netlife"],
-      "url": "https://viljareiser.no/",
-      "color": {
-        "bg": "#d1356d",
-        "text": "white"
-      }
+      "keywords": [
+        "Website",
+        "Craft CMS",
+        "Tailwind",
+        "API",
+        "Netlife"
+      ],
+      "url": "https://viljareiser.no/"
     },
     {
       "name": "Frontend and UX assistance",
       "client": "Ambita",
-      "roles": ["Tech lead", "Developer"],
+      "roles": [
+        "Tech lead",
+        "Developer"
+      ],
       "description": "Assiting the client with developing a new frontend using Vue3 and other modern frontend-frameworks.",
       "endDate": "2022-09-01",
-      "keywords": ["Vue", "Netlife"],
-      "color": {
-        "bg": "#310471",
-        "text": "white"
-      }
+      "keywords": [
+        "Vue",
+        "Netlife"
+      ]
     },
     {
       "name": "oneoceanexpedition.com",
       "client": "Statsraad Lehmkuhl",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "A website built with Next.js using API from Havforskningsinstituttet with live-data coming from a sea vessal.",
       "endDate": "2021-09-22",
       "keywords": [
@@ -348,136 +411,190 @@
         "API",
         "Netlife"
       ],
-      "url": "https://oneoceanexpedition.com/",
-      "color": {
-        "bg": "#173464",
-        "text": "white"
-      }
+      "url": "https://oneoceanexpedition.com/"
     },
     {
       "name": "Optimze handelensmiljofond.no",
       "client": "Handelens Miljøfond",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "Optimize website, reduced page-size from ~18 MB down to ~1.2 MB.",
       "endDate": "2021-10-21",
-      "keywords": ["Website", "Craft CMS", "Optimze", "Netlife"],
-      "url": "https://handelensmiljofond.no/",
-      "color": {
-        "bg": "#14361d",
-        "text": "white"
-      }
+      "keywords": [
+        "Website",
+        "Craft CMS",
+        "Optimze",
+        "Netlife"
+      ],
+      "url": "https://handelensmiljofond.no/"
     },
     {
       "name": "verdighetsenteret.no",
       "client": "Verdighetsenteret",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "Assisted other developers with development of new webiste.",
       "endDate": "2021-09-14",
-      "keywords": ["Website", "Craft CMS", "Tailwind", "Netlife"],
-      "url": "https://verdighetsenteret.no/",
-      "color": {
-        "bg": "#f7ebdf",
-        "text": "black"
-      }
+      "keywords": [
+        "Website",
+        "Craft CMS",
+        "Tailwind",
+        "Netlife"
+      ],
+      "url": "https://verdighetsenteret.no/"
     },
     {
       "name": "Upgrade vff.no",
       "client": "Verdipapirfondenes forening",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "Upgraded from Craft CMS v2 to v3. Developed custom Craft CMS-modules for getting data from the official Norwegian fond-register.",
       "endDate": "2021-07-14",
-      "keywords": ["Website", "Craft CMS", "Upgrade", "Netlife"],
-      "url": "https://vff.no/",
-      "color": {
-        "bg": "#285fab",
-        "text": "white"
-      }
+      "keywords": [
+        "Website",
+        "Craft CMS",
+        "Upgrade",
+        "Netlife"
+      ],
+      "url": "https://vff.no/"
     },
     {
       "name": "khdele.no",
       "client": "Høgskulen i Volda",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "My first project at Netlife Bergen. We developed a new website for Arts and Crafts for teach-students.",
       "endDate": "2021-06-14",
-      "keywords": ["Website", "Craft CMS", "Tailwind", "Netlife"],
-      "url": "https://khdele.no/",
-      "color": {
-        "bg": "#1a4329",
-        "text": "white"
-      }
+      "keywords": [
+        "Website",
+        "Craft CMS",
+        "Tailwind",
+        "Netlife"
+      ],
+      "url": "https://khdele.no/"
     },
     {
       "name": "wcarbon",
       "description": "CLI tool using Website Carbon's API.",
       "endDate": "2022-06-26",
-      "keywords": ["Tool", "CLI", "Deno", "API", "Personal"],
+      "keywords": [
+        "Tool",
+        "CLI",
+        "Deno",
+        "API",
+        "Personal"
+      ],
       "url": "https://github.com/timharek/wcarbon",
-      "sources": ["https://github.com/timharek/wcarbon"]
+      "sources": [
+        "https://github.com/timharek/wcarbon"
+      ]
     },
     {
       "name": "d-yr",
       "description": "Gather weatherdata from Yr.no with built using Deno with TS.",
       "endDate": "2022-03-07",
-      "keywords": ["Tool", "CLI", "Deno", "API", "Personal"],
+      "keywords": [
+        "Tool",
+        "CLI",
+        "Deno",
+        "API",
+        "Personal"
+      ],
       "url": "https://github.com/timharek/d-yr",
-      "sources": ["https://github.com/timharek/d-yr"]
+      "sources": [
+        "https://github.com/timharek/d-yr"
+      ]
     },
     {
       "name": "deno-omdb",
       "description": "CLI tool using OMDb API.",
       "endDate": "2022-03-07",
-      "keywords": ["Tool", "CLI", "Deno", "API", "Personal"],
+      "keywords": [
+        "Tool",
+        "CLI",
+        "Deno",
+        "API",
+        "Personal"
+      ],
       "url": "https://github.com/timharek/deno-omdb",
-      "sources": ["https://github.com/timharek/deno-omdb"]
+      "sources": [
+        "https://github.com/timharek/deno-omdb"
+      ]
     },
     {
       "name": "everyday-privacy.com",
       "description": "Educate people about privacy and security with an interactive static-site.",
       "endDate": "2021-02-11",
-      "keywords": ["Website", "Privacy", "Personal"],
+      "keywords": [
+        "Website",
+        "Privacy",
+        "Personal"
+      ],
       "url": "https://everyday-privacy.com",
-      "sources": ["https://github.com/timharek/everyday-privacy"]
+      "sources": [
+        "https://github.com/timharek/everyday-privacy"
+      ]
     },
     {
       "name": "5545.no",
       "description": "Weather website for a local zip-code in Norway, built with Svelte using Yr's API. ",
       "endDate": "2021-05-03",
-      "keywords": ["Website", "API", "Svelte", "Personal", "Tailwind"],
+      "keywords": [
+        "Website",
+        "API",
+        "Svelte",
+        "Personal",
+        "Tailwind"
+      ],
       "url": "https://5545.no",
-      "sources": ["https://github.com/timharek/5545.no-svelte"]
+      "sources": [
+        "https://github.com/timharek/5545.no-svelte"
+      ]
     },
     {
       "name": "sbanken.sh",
       "description": "Shell-script with options to access Sbanken and see your banking details.",
       "endDate": "2021-11-15",
-      "keywords": ["API", "Shell", "Personal"],
-      "sources": ["https://github.com/timharek/sbanken.sh"]
+      "keywords": [
+        "API",
+        "Shell",
+        "Personal"
+      ],
+      "sources": [
+        "https://github.com/timharek/sbanken.sh"
+      ]
     },
     {
       "name": "fribyte.no",
       "client": "friByte",
       "description": "Static generated website made with Zola.",
       "endDate": "2021-04-06",
-      "keywords": ["Website", "Zola"],
+      "keywords": [
+        "Website",
+        "Zola"
+      ],
       "url": "https://fribyte.no",
-      "sources": ["https://github.com/fribyte-code/fribyte.no"],
-      "color": {
-        "bg": "#800000",
-        "text": "white"
-      }
+      "sources": [
+        "https://github.com/fribyte-code/fribyte.no"
+      ]
     },
     {
       "name": "vestkontakt.no",
       "client": "Vest Kontakt",
-      "roles": ["Developer"],
+      "roles": [
+        "Developer"
+      ],
       "description": "Static generated website made with Jekyll.",
       "endDate": "2020-01-07",
-      "keywords": ["Website", "Jekyll"],
-      "url": "https://vestkontakt.no",
-      "color": {
-        "bg": "#4eace9",
-        "text": "black"
-      }
+      "keywords": [
+        "Website",
+        "Jekyll"
+      ],
+      "url": "https://vestkontakt.no"
     }
   ]
 }
