@@ -510,22 +510,6 @@
       ]
     },
     {
-      "name": "deno-omdb",
-      "description": "CLI tool using OMDb API.",
-      "endDate": "2022-03-07",
-      "keywords": [
-        "Tool",
-        "CLI",
-        "Deno",
-        "API",
-        "Personal"
-      ],
-      "url": "https://github.com/timharek/deno-omdb",
-      "sources": [
-        "https://github.com/timharek/deno-omdb"
-      ]
-    },
-    {
       "name": "everyday-privacy.com",
       "description": "Educate people about privacy and security with an interactive static-site.",
       "endDate": "2021-02-11",
@@ -595,6 +579,40 @@
         "Jekyll"
       ],
       "url": "https://vestkontakt.no"
+    },
+    {
+      "name": "deno-omdb",
+      "description": "Access OMDb's API for getting details about movies and TV shows.",
+      "endDate": "2023-01-29",
+      "keywords": [
+        "Tool",
+        "CLI",
+        "Deno",
+        "API",
+        "Personal"
+      ],
+      "url": "https://deno.land/x/omdb",
+      "sources": [
+        "https://github.com/timharek/deno-omdb",
+        "https://git.sr.ht/~timharek/deno-omdb"
+      ]
+    },
+    {
+      "name": "deno-books",
+      "description": "Access OpenLibrary's API via Deno.",
+      "endDate": "2023-01-29",
+      "keywords": [
+        "Tool",
+        "CLI",
+        "Deno",
+        "API",
+        "Personal"
+      ],
+      "url": "https://deno.land/x/deno-book",
+      "sources": [
+        "https://github.com/timharek/deno-books",
+        "https://git.sr.ht/~timharek/deno-books"
+      ]
     }
   ]
 }
