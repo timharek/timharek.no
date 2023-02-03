@@ -18,6 +18,7 @@
 
 {% set files = page.extra.json_files %}
 {% set is_date_field_array = page.extra.date_field_is_array %}
+{% set year_field = page.extra.year_field | default(value=false) %}
 
 <section class="page-content page-log">
   {{ macros::breadcrumbs() }}
@@ -43,7 +44,12 @@
         <div class="entries">
           {% for entry in entries %}
             <div class="entry">
-              <div aria-label="Entry title">{{ entry.title }}</div>
+              <div aria-label="Entry title">
+                {{ entry.title }}
+                {% if year_field %}
+                  ({{ entry[year_field] }})
+                {% endif %}
+              </div>
               <div aria-label="Entry rating">{{ macros::rating(max=5, rating=entry.details.my_rating) }}</div>
               {% if entry.date.0.string %}
                 {% set dateArray = entry.date | sort(attribute="year") | reverse %}

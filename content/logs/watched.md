@@ -8,11 +8,13 @@ aliases = ["/watching", "/watched"]
 json_files = ["static/api/movies.json", "static/api/tv_shows.json"]
 date_field = "watched_date"
 date_field_is_array = true
+year_field = "details.release_year"
 +++
 
 Movies and TV shows that I've watched. Not a complete list.
 
 {% details(heading="Legend") %}
+
   <dl class="review__rating">
     <dt aria-label="1 out of 5 stars">★☆☆☆☆</dt>
     <dd>Awful.</dd>
@@ -26,4 +28,3 @@ Movies and TV shows that I've watched. Not a complete list.
     <dd>Must watch!</dd>
   </dl>
 {% end %}
-
