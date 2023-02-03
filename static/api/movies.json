@@ -5759,5 +5759,29 @@
         "Michael Mann"
       ]
     }
+  },
+  {
+    "title": "The Lighthouse",
+    "type": "movie",
+    "date": [
+      {
+        "day": "03",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-03"
+      }
+    ],
+    "details": {
+      "release_year": 2019,
+      "my_rating": 3,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "director": [
+        "Robert Eggers"
+      ]
+    }
   }
 ]
