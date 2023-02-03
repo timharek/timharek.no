@@ -7,7 +7,7 @@ export {
   prompt,
   Select,
 } from 'https://deno.land/x/cliffy@v0.25.7/prompt/mod.ts';
-export { getMovie } from 'https://deno.land/x/omdb/mod.ts';
+export { getMovie } from 'https://deno.land/x/omdb@v1.4.3/mod.ts';
 
 const commonPath = '../static/api';
 export const logPath = {
