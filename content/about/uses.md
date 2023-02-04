@@ -2,7 +2,7 @@
 title = "Uses"
 description = "What I use on a day-to-day basis."
 template = "layouts/page.html"
-aliases = ["/use"]
+aliases = ["/use", "/uses"]
 updated = 2023-01-29
 +++
 
