@@ -5783,5 +5783,29 @@
         "Robert Eggers"
       ]
     }
+  },
+  {
+    "title": "Gattaca",
+    "type": "movie",
+    "date": [
+      {
+        "day": "05",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-05"
+      }
+    ],
+    "details": {
+      "release_year": 1997,
+      "my_rating": 4,
+      "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "director": [
+        "Andrew Niccol"
+      ]
+    }
   }
 ]
