@@ -896,8 +896,32 @@ div.filter {
   margin-block-end: $spacing;
 }
 
-.work {
-  @include grid($columns: 3, $column-count: 2);
+// .work {
+//   @include grid($columns: 3, $column-count: 2);
+// }
+
+ul.projects {
+  @include list($display: block);
+
+  li.projects__item:not(:last-child) {
+    margin-block-end: $spacing;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .project {
+    background-color: var(--color-background-aside);
+    padding: $spacing;
+    border-radius: $spacingSmall;
+  }
+
+  ul.project__tags {
+    @include list($gap: 0.25rem $spacing);
+    flex-wrap: wrap;
+  }
 }
 
 ul.bookmarks {

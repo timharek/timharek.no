@@ -33,7 +33,7 @@
 
   <div class="filter">
     <label for="filter">Filter keywords
-      <select name="filter" id="filter" onchange="update('.work__item')">
+      <select name="filter" id="filter" onchange="update('.projects__item')">
           <option value="all">{{ trans(key="show_all", lang=lang) }}</option>
           {% for tag in all_tags_unique | sort %}
             {% set_global tag_count = 0 %}
@@ -48,53 +48,13 @@
     </label>
   </div>
 
-  <div class="work">
+  <ul class="projects">
     {% for work in work_data %}
-      <div class="work__item"
-        {% if work.color %}
-          style="
-          --header-bg: {{ work.color.bg }};
-          --header-text: {{ work.color.text }};"
-        {% endif %}>
-        <div class="work__item__header">
-          <h2>
-            {% if work.client %}
-              {{ work.client }}
-            {% else %}
-              {{ work.name }}
-            {% endif %}
-          </h2>
-        </div>
-        <div class="work__item__body">
-          {% if work.client %}
-            <h3>{{ work.name }}</h3>
-          {% endif %}
-          <p>
-            {{ work.description }}
-          </p>
-          {% if work.keywords %}
-            <ul class="work__item__body__tags">
-              {% for keyword in work.keywords | sort %}
-                <li data-tag="{{ keyword | slugify }}">{{ keyword | lower }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-          <ul class="work__item__body__urls">
-            {% if work.sources and work.sources|length == 1 %}
-              <li>
-                <a href="{{ work.sources[0] }}" target="_blank">{{ trans(key="source", lang=lang) }}</a>
-              </li>
-            {% endif %}
-            {% if work.url %}
-              <li>
-                <a href="{{ work.url }}" target="_blank">{{ trans(key="link", lang=lang) }}</a>
-              </li>
-            {% endif %}
-          </ul>
-        </div>
-      </div>
+      <li class="projects__item">
+        {{ macros::project_item(project=work) }}
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </section>
 
 <script src="{{ get_url(path="js/filter.js") }}" defer></script>
