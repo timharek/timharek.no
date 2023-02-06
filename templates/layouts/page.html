@@ -1,62 +1,7 @@
-{% extends "base/base.html" %}
-{% import "macros.html" as macros %}
+{% extends "layouts/page_wrapper.html" %}
 
-{% block head %}
-  {% if section %}
-    {% set title = section.title ~ " - " ~ config.title %}
-    {% set description = section.description | default(value=config.description) %}
-    {% if section.extra.updated %}
-      {% set updated = section.extra.updated %}
-    {% endif %}
-    {% if section.content %}
-      {% set content = section.content %}
-    {% endif %}
-  {% else %}
-    {% set title = page.title ~ " - " ~ config.title %}
-    {% set description = page.description | default(value=config.description) %}
-    {% if page.updated %}
-      {% set updated = page.updated  %}
-    {% endif %}
-    {% if page.content %}
-      {% set content = page.content %}
-    {% endif %}
-  {% endif %}
-{% endblock head %}
+{% block page_content %}
 
-{% block content %}
+{{ content | safe}}
 
-<section class="page-content">
-  {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ section.title | default(value=page.title) }}</h1>
-  {% if updated %}
-    <div class="page-updated">
-      {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">
-        {{ updated | date(format=config.extra.date_format_long) }}
-      </time>
-    </div>
-  {% endif %}
-  {% if page and page.extra.subnav or section and section.extra.subnav %}
-    {% set subnav = page.extra.subnav | default(value=section.extra.subnav) %}
-    <nav class="page__subnav" aria-label="Sub navigation">
-      <ul>
-        {% for item in subnav %}
-          <li>
-            <a href="{{ get_url(path=item.path) }}">{{ item.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  {% endif %}
-  {% if page.extra.toc_enable %}
-    {% set toc_level = page.extra.toc_level | default(value=1) %}
-    {{ macros::toc(toc=page.toc, level=toc_level) }}
-  {% endif %}
-  {{ content | safe }}
-  {% if page %}
-    {{ macros::backlinks(page=page, title="page") }}
-  {% else %}
-    {{ macros::backlinks(page=section, title="page") }}
-  {% endif %}
-</section>
-
-{% endblock content %}
+{% endblock page_content %}

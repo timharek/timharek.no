@@ -1,26 +1,19 @@
-{% extends "base/base.html" %}
+{% extends "layouts/page_wrapper.html" %}
 {% import "macros.html" as macros %}
 
-{% block head %}
-  {% set title = page.title ~ " - " ~ config.title %}
-  {% set description = section.description | default(value=config.description) %}
-  {% if page.content %}
-    {% set content = page.content %}
-  {% endif %}
-{% endblock head %}
-
-{% block content %}
-
-{% set work_data = load_data(path="static/api/cv.json") %}
-{% set work_data = work_data.projects | sort(attribute="endDate") | reverse %}
-
-<section class="page-content">
-  {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ page.title | default(value=page.title) }}</h1>
-  <span class="page-updated">
+{% block page_updated %}
+  {% set work_data = load_data(path="static/api/cv.json") %}
+  {% set work_data = work_data.projects | sort(attribute="endDate") | reverse %}
+  <div class="page-updated">
     {% set updated = work_data[0].endDate %}
     {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">{{ updated | date(format=config.extra.date_format_long) }}</time>
-  </span>
+  </div>
+{% endblock page_updated %}
+
+{% block page_content %}
+  {% set work_data = load_data(path="static/api/cv.json") %}
+  {% set work_data = work_data.projects | sort(attribute="endDate") | reverse %}
+
   {{ content | safe }}
 
   {% set_global all_tags = [] %}
@@ -55,8 +48,8 @@
       </li>
     {% endfor %}
   </ul>
-</section>
+{% endblock page_content %}
 
-<script src="{{ get_url(path="js/filter.js") }}" defer></script>
-
-{% endblock content %}
+{% block page_script %}
+  <script src="{{ get_url(path="js/filter.js") }}" defer></script>
+{% endblock page_script %}

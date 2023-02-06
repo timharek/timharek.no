@@ -1,28 +1,14 @@
-{% extends "base/base.html" %}
+{% extends "layouts/page_wrapper.html" %}
 {% import "macros.html" as macros %}
 
-{% block head %}
-  {% if page %}
-    {% set title = page.title ~ " - " ~ config.title %}
-    {% set description = page.description | default(value=config.description) %}
-    {% if page.updated %}
-      {% set updated = page.updated | date(format=config.extra.date_format) %}
-    {% endif %}
-    {% if page.content %}
-      {% set content = page.content %}
-    {% endif %}
-  {% endif %}
-{% endblock head %}
+{% block page_class %}page-log{% endblock page_class %}
 
-{% block content %}
+{% block page_content %}
 
-{% set files = page.extra.json_files %}
-{% set is_date_field_array = page.extra.date_field_is_array %}
-{% set year_field = page.extra.year_field | default(value=false) %}
+  {% set files = page.extra.json_files %}
+  {% set is_date_field_array = page.extra.date_field_is_array %}
+  {% set year_field = page.extra.year_field | default(value=false) %}
 
-<section class="page-content page-log">
-  {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ page.title | default(value=page.title) }}</h1>
   {% if content %}
     {{ content | safe }}
   {% endif %}
@@ -66,11 +52,9 @@
         </div>
       </div>
     {% endfor %}
-  <div class="count">
-    Total count: {{ array | length }}
-  </div>
+    <div class="count">
+      Total count: {{ array | length }}
+    </div>
   {% endfor %}
-</section>
-
-{% endblock content %}
+{% endblock page_content %}
 

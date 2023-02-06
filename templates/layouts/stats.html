@@ -1,11 +1,7 @@
-{% extends "base/base.html" %}
-{% import "macros.html" as macros %}
+{% extends "layouts/page_wrapper.html" %}
 
-{% block content %}
+{% block page_content %}
 
-<section class="page">
-  {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ page.title }}</h1>
   {% if page.content %}
     {{ page.content | safe }}
   {% endif %}
@@ -112,7 +108,5 @@
     {% endfor %}
   </ol>
 
-</section>
-
-{% endblock content %}
+{% endblock page_content %}
 

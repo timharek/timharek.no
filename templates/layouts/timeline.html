@@ -1,31 +1,20 @@
-{% extends "base/base.html" %}
+{% extends "layouts/page_wrapper.html" %}
 {% import "macros.html" as macros %}
 
-{% block head %}
-  {% if page %}
-    {% set title = page.title ~ " - " ~ config.title %}
-    {% set description = page.description | default(value=config.description) %}
-    {% if page.content %}
-      {% set content = page.content %}
-    {% endif %}
-  {% endif %}
-{% endblock head %}
+{% block page_class %}page-timeline{% endblock page_class %}
 
-{% block content %}
+{% block page_content %}
 
-{% set files = page.extra.json_files %}
-{% set_global array = [] %}
+  {% set files = page.extra.json_files %}
+  {% set_global array = [] %}
 
-{% for file in files %}
-  {% set data = load_data(path=file) %}
-  {% set_global array = array | concat(with=data) %}
-{% endfor %}
+  {% for file in files %}
+    {% set data = load_data(path=file) %}
+    {% set_global array = array | concat(with=data) %}
+  {% endfor %}
 
-{% set_global array = array | sort(attribute="date.0.string") | reverse %}
+  {% set_global array = array | sort(attribute="date.0.string") | reverse %}
 
-<section class="page-content page-timeline">
-  {{ macros::breadcrumbs() }}
-  <h1 class="page-title">{{ page.title }}</h1>
   {% if content %}
     <p>
       {{ content | safe }}
@@ -56,8 +45,10 @@
     </label>
   </div>
   {{ macros::timeline(array=array, attribute_year="date.0.year", attribute_date="date.0.string") }}
-  <script src="{{ get_url(path="js/filter.js") }}" defer></script>
-</section>
 
-{% endblock content %}
+{% endblock page_content %}
+
+{% block page_script %}
+  <script src="{{ get_url(path="js/filter.js") }}" defer></script>
+{% endblock page_script %}
 
