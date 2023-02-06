@@ -479,7 +479,7 @@
     },
     {
       "name": "wcarbon",
-      "description": "CLI tool using Website Carbon's API.",
+      "description": "Access Website Carbon's API with Deno.",
       "endDate": "2022-06-26",
       "keywords": [
         "Tool",
@@ -488,14 +488,14 @@
         "API",
         "Personal"
       ],
-      "url": "https://github.com/timharek/wcarbon",
+      "url": "https://deno.land/x/wcarbon",
       "sources": [
         "https://github.com/timharek/wcarbon"
       ]
     },
     {
       "name": "d-yr",
-      "description": "Gather weatherdata from Yr.no with built using Deno with TS.",
+      "description": "Access Yr.no's weather API with Deno.",
       "endDate": "2022-03-07",
       "keywords": [
         "Tool",
@@ -504,7 +504,7 @@
         "API",
         "Personal"
       ],
-      "url": "https://github.com/timharek/d-yr",
+      "url": "https://deno.land/x/dyr",
       "sources": [
         "https://github.com/timharek/d-yr"
       ]
@@ -582,7 +582,7 @@
     },
     {
       "name": "deno-omdb",
-      "description": "Access OMDb's API for getting details about movies and TV shows.",
+      "description": "Access OMDb's API for getting details about movies and TV shows with Deno.",
       "endDate": "2023-01-29",
       "keywords": [
         "Tool",
@@ -599,7 +599,7 @@
     },
     {
       "name": "deno-books",
-      "description": "Access OpenLibrary's API via Deno.",
+      "description": "Access OpenLibrary's API with Deno.",
       "endDate": "2023-01-29",
       "keywords": [
         "Tool",
@@ -608,10 +608,27 @@
         "API",
         "Personal"
       ],
-      "url": "https://deno.land/x/deno-book",
+      "url": "https://deno.land/x/deno_books",
       "sources": [
         "https://github.com/timharek/deno-books",
         "https://git.sr.ht/~timharek/deno-books"
+      ]
+    },
+    {
+      "name": "deno-linkding",
+      "description": "Access your Linkding instance's API with Deno.",
+      "endDate": "2023-02-05",
+      "keywords": [
+        "Tool",
+        "CLI",
+        "Deno",
+        "API",
+        "Personal"
+      ],
+      "url": "https://deno.land/x/deno-linkding",
+      "sources": [
+        "https://github.com/timharek/deno-linkding",
+        "https://git.sr.ht/~timharek/deno-linkding"
       ]
     }
   ]
