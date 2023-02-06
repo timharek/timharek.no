@@ -1,0 +1,47 @@
+{% extends "base/base.html" %}
+{% import "macros.html" as macros %}
+
+{% block head %}
+  {% set title = page.title ~ " - " ~ config.title %}
+  {% set description = page.description | default(value=config.description) %}
+  {% if page.updated %}
+    {% set updated = page.updated  %}
+  {% endif %}
+  {% if page.content %}
+    {% set content = page.content %}
+  {% endif %}
+{% endblock head %}
+
+{% block content %}
+
+{% set bookmarks = load_data(path=page.extra.input_file) | sort(attribute="date_added") | reverse %}
+
+<section class="page-content">
+  {{ macros::breadcrumbs() }}
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if updated %}
+    <div class="page-updated">
+      {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">
+        {{ updated | date(format=config.extra.date_format_long) }}
+      </time>
+    </div>
+  {% endif %}
+
+  {{ content | safe }}
+
+  <p>
+    There are {{ bookmarks | length }}
+    bookmark{{ bookmarks | length | pluralize }}.
+  </p>
+  <ul class="bookmarks">
+    {% for bookmark in bookmarks %}
+      <li class="bookmarks__item">
+        {{ macros::bookmark_item(bookmark=bookmark) }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {{ macros::backlinks(page=page, title="page") }}
+</section>
+
+{% endblock content %}

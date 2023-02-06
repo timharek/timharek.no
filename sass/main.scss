@@ -899,3 +899,27 @@ div.filter {
 .work {
   @include grid($columns: 3, $column-count: 2);
 }
+
+ul.bookmarks {
+  @include list($display: block);
+
+  li.bookmarks__item:not(:last-child) {
+    margin-block-end: $spacing;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .bookmark {
+    background-color: var(--color-background-aside);
+    padding: $spacing;
+    border-radius: $spacingSmall;
+  }
+
+  ul.bookmark__tags {
+    @include list($gap: 0.25rem $spacing);
+    flex-wrap: wrap;
+  }
+}

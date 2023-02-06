@@ -346,3 +346,35 @@
     {{ types[type] }}
   {% endif %}
 {% endmacro %}
+
+{% macro bookmark_item(bookmark) %}
+  <div class="bookmark">
+    <h2 class="bookmark__title">
+      <a href="{{ bookmark.url }}">
+        {% if bookmark.title != "" %}
+          {{ bookmark.title }}
+        {% else %}
+          {{ bookmark.website_title }}
+        {% endif %}
+      </a>
+    </h2>
+    {% if bookmark.description %}
+      <p class="bookmark__desc">
+        {{ bookmark.description }}
+      </p>
+    {% endif %}
+    <div class="bookmark__metadata">
+      <div class="bookmark__date_added">
+        Bookmarked
+        {{ bookmark.date_added | date(format=config.extra.date_format) }}
+      </div>
+      {% if bookmark.tag_names %}
+        <ul aria-label="Bookmark's tags" class="bookmark__tags">
+          {% for tag in bookmark.tag_names | sort %}
+            <li>#{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+{% endmacro %}
