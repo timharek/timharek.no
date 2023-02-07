@@ -531,6 +531,7 @@ article.post {
     .footer__metadata>div {
       @include flex(flex-start, center);
       gap: $spacingSmall;
+      flex-wrap: wrap;
 
       svg {
         width: 1.25rem;
