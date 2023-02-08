@@ -26,10 +26,20 @@
   {% set reply_to = '<a href="mailto:' ~ config.extra.email ~ '?subject=RE: ' ~ page.title~ '">Reply via e-mail</a>' %}
 	<entry xml:lang="{{ page.lang }}">
 		<title>{{ page.title }}</title>
+		<author>
+			<name>{{ config.extra.author }}</name>
+			<email>{{ config.extra.email }}</email>
+			<uri>{{ config.base_url }}</uri>
+			</author>
 		<published>{{ page.date | date(format="%+") }}</published>
 		<updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
 		<link rel="alternate" href="{{ page.permalink | safe }}" type="text/html"/>
 		<id>{{ page.permalink | safe }}</id>
+		{% if page.taxonomies.tags %}
+			{% for tag in page.taxonomies.tags | sort %}
+				<category term="{{ tag | lower}}" />
+			{% endfor %}
+		{% endif %}
 		<content type="html">
       {{ page.content }}
       {{ reply_to }}
