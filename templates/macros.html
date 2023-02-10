@@ -383,7 +383,7 @@
   <div class="project">
     <h2 class="project__title">
       {% if project.url %}
-        <a href="{{ project.url }}">
+        <a href="{{ project.url }}" target="_blank">
           {{ project.name }}
         </a>
       {% else %}
@@ -396,7 +396,7 @@
       </p>
     {% endif %}
     {% if project.sources %}
-      <p><a href="{{ project.sources[0] }}">Source code</a></p>
+      <p><a href="{{ project.sources[0] }}" target="_blank">Source code</a></p>
     {% endif %}
     <div class="project__metadata">
       <div class="project__date_added"></div>

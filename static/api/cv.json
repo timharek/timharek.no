@@ -625,7 +625,7 @@
         "API",
         "Personal"
       ],
-      "url": "https://deno.land/x/deno-linkding",
+      "url": "https://deno.land/x/linkding",
       "sources": [
         "https://github.com/timharek/deno-linkding",
         "https://git.sr.ht/~timharek/deno-linkding"
