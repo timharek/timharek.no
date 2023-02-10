@@ -1093,5 +1093,26 @@
         "Adventure"
       ]
     }
+  },
+  {
+    "title": "The Legend of Vox Machina S02",
+    "type": "tv",
+    "date": [
+      {
+        "day": "10",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-10"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
+    }
   }
 ]
