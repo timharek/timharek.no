@@ -5807,5 +5807,29 @@
         "Andrew Niccol"
       ]
     }
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "type": "movie",
+    "date": [
+      {
+        "day": "16",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-16"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 3,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": [
+        "Peyton Reed"
+      ]
+    }
   }
 ]
