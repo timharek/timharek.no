@@ -1,9 +1,196 @@
 [
   {
+    "id": 308,
+    "url": "https://coolify.io/",
+    "title": "",
+    "description": "A self-hostable Netlify/Heroku alternative.",
+    "website_title": "Coolify",
+    "website_description": null,
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "development",
+      "self-host"
+    ],
+    "date_added": "2023-02-20T06:07:58.567954Z",
+    "date_modified": "2023-02-20T06:07:58.567964Z"
+  },
+  {
+    "id": 307,
+    "url": "https://localfirstweb.dev/",
+    "title": "",
+    "description": "A bunch of resources for local development.",
+    "website_title": "Local-First Web Development",
+    "website_description": "A fresh way to think about building web applications.",
+    "is_archived": false,
+    "unread": true,
+    "shared": false,
+    "tag_names": [
+      "development",
+      "resources",
+      "local-first"
+    ],
+    "date_added": "2023-02-19T15:49:45.254859Z",
+    "date_modified": "2023-02-19T21:29:55.659856Z"
+  },
+  {
+    "id": 305,
+    "url": "https://dumbpasswordrules.com/sites/",
+    "title": "",
+    "description": "Some of these Are really dumb.",
+    "website_title": "Dumb Password Rules",
+    "website_description": "A compilation of sites with dumb password rules.",
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "security"
+    ],
+    "date_added": "2023-02-15T15:12:08.056496Z",
+    "date_modified": "2023-02-15T15:12:08.056502Z"
+  },
+  {
+    "id": 304,
+    "url": "https://userinyerface.com/",
+    "title": "",
+    "description": "A superb example of bad UX.",
+    "website_title": "User Inyerface - A worst-practice UI experiment",
+    "website_description": "User Inyerface - A worst-practice UI experiment",
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "design",
+      "ux"
+    ],
+    "date_added": "2023-02-15T13:09:50.561558Z",
+    "date_modified": "2023-02-15T13:09:50.561565Z"
+  },
+  {
+    "id": 303,
+    "url": "https://www.nngroup.com/articles/onboarding-tutorials/",
+    "title": "",
+    "description": "",
+    "website_title": "Onboarding Tutorials vs. Contextual Help",
+    "website_description": "Tutorials interrupt users, don’t necessarily improve task performance, and are quickly forgotten. Contextual help signals can avoid these pitfalls but require unintrusive ways to activate.",
+    "is_archived": false,
+    "unread": true,
+    "shared": false,
+    "tag_names": [],
+    "date_added": "2023-02-15T11:01:23.752233Z",
+    "date_modified": "2023-02-15T11:01:23.752235Z"
+  },
+  {
+    "id": 302,
+    "url": "https://deno.land/x/githooks@0.0.3",
+    "title": "",
+    "description": "Super simple way to use git-hooks in Deno-projects.",
+    "website_title": "githooks@0.0.3 | Deno",
+    "website_description": "Allows you to associate deno tasks with githooks by extending the native deno.json configuration file",
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "git",
+      "git-hooks",
+      "deno"
+    ],
+    "date_added": "2023-02-14T22:49:56.296877Z",
+    "date_modified": "2023-02-14T22:49:56.296884Z"
+  },
+  {
+    "id": 301,
+    "url": "https://news.ycombinator.com/item?id=34773860",
+    "title": "",
+    "description": "Hilarious thread about MS forcing GitHub to use Teams for videoconferencing.",
+    "website_title": "GitHub staff are required to use Teams by Sep 1, 2023 | Hacker News",
+    "website_description": null,
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "app",
+      "communication"
+    ],
+    "date_added": "2023-02-13T21:20:32.507118Z",
+    "date_modified": "2023-02-13T21:20:32.507120Z"
+  },
+  {
+    "id": 300,
+    "url": "https://www.personvernbloggen.no/2023/02/09/nar-er-det-nok-overvaking/",
+    "title": "",
+    "description": "",
+    "website_title": "Når er det nok overvåking? - Personvernbloggen",
+    "website_description": null,
+    "is_archived": false,
+    "unread": true,
+    "shared": false,
+    "tag_names": [
+      "privacy",
+      "norwegian",
+      "norwegian-privacy"
+    ],
+    "date_added": "2023-02-09T16:17:59.568207Z",
+    "date_modified": "2023-02-09T16:17:59.568215Z"
+  },
+  {
+    "id": 299,
+    "url": "https://www.nushell.sh/",
+    "title": "",
+    "description": "A different kind of Unix shell",
+    "website_title": "Nushell",
+    "website_description": "A new type of shell.",
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "development",
+      "shell"
+    ],
+    "date_added": "2023-02-09T16:08:55.621790Z",
+    "date_modified": "2023-02-09T16:08:55.621794Z"
+  },
+  {
+    "id": 298,
+    "url": "https://www.youtube.com/watch?v=KGszSj0BLeg",
+    "title": "",
+    "description": "Louis has a great discussion about owing your own stuff when it comes to technology.",
+    "website_title": "Mainstream media catching onto the \"you own nothing\" culture shift - YouTube",
+    "website_description": "👉 Article: https://www.theatlantic.com/technology/archive/2023/02/home-printer-digital-rights-management-hp-instant-ink-subscription/672913/👉 My printer is...",
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "tech",
+      "hardware",
+      "ownership"
+    ],
+    "date_added": "2023-02-07T20:33:12.152419Z",
+    "date_modified": "2023-02-07T20:33:12.152421Z"
+  },
+  {
+    "id": 296,
+    "url": "https://anthonyhobday.com/sideprojects/saferules/",
+    "title": "Visual design rules you can safely follow every time",
+    "description": "Some great rules to follow when making user interfaces!",
+    "website_title": "Visual design rules you can safely follow every time",
+    "website_description": "",
+    "is_archived": false,
+    "unread": false,
+    "shared": false,
+    "tag_names": [
+      "design",
+      "ux"
+    ],
+    "date_added": "2023-02-07T07:18:05.848948Z",
+    "date_modified": "2023-02-08T22:45:06.373988Z"
+  },
+  {
     "id": 295,
     "url": "https://github.com/kdeldycke/awesome-falsehood",
     "title": "kdeldycke/awesome-falsehood",
-    "description": "Falsehoods Programmers Believe in.",
+    "description": "Falsehoods programmers believe in.",
     "website_title": "GitHub - kdeldycke/awesome-falsehood: 😱 Falsehoods Programmers Believe in",
     "website_description": "😱 Falsehoods Programmers Believe in. Contribute to kdeldycke/awesome-falsehood development by creating an account on GitHub.",
     "is_archived": false,
@@ -14,7 +201,7 @@
       "git-repo"
     ],
     "date_added": "2023-02-05T21:39:40.153934Z",
-    "date_modified": "2023-02-06T17:40:32.223580Z"
+    "date_modified": "2023-02-06T18:28:33.263182Z"
   },
   {
     "id": 294,
@@ -601,8 +788,8 @@
   {
     "id": 260,
     "url": "https://github.com/sissbruecker/linkding",
-    "title": "",
-    "description": "",
+    "title": "sissbruecker/linkding",
+    "description": "Self-hosted bookmark service, the very service I use for all of my bookmarks.",
     "website_title": "GitHub - sissbruecker/linkding: Self-hosted bookmark service",
     "website_description": "Self-hosted bookmark service. Contribute to sissbruecker/linkding development by creating an account on GitHub.",
     "is_archived": false,
@@ -613,31 +800,32 @@
       "repo"
     ],
     "date_added": "2023-01-27T18:40:16.082623Z",
-    "date_modified": "2023-01-27T18:40:16.082629Z"
+    "date_modified": "2023-02-06T18:22:03.049381Z"
   },
   {
     "id": 1,
     "url": "https://patrikarvidsson.com/",
-    "title": "Home | Patrik Arvidsson",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "title": "Patrik Arvidsson",
+    "description": "A minimalitic personal website.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
     "tag_names": [
-      "personal-website"
+      "personal-website",
+      "minimalistic"
     ],
     "date_added": "2023-01-26T20:58:51Z",
-    "date_modified": "2023-01-26T20:58:51Z"
+    "date_modified": "2023-02-06T18:23:07.332365Z"
   },
   {
     "id": 2,
     "url": "https://toyos.dev/",
-    "title": "toyos.dev :: Home",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "title": "toyos.dev",
+    "description": "Cool personal website with a design inspired by an old Macintosh OS.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -645,15 +833,15 @@
       "personal-website"
     ],
     "date_added": "2023-01-26T20:58:00Z",
-    "date_modified": "2023-01-26T20:58:00Z"
+    "date_modified": "2023-02-06T18:24:24.674555Z"
   },
   {
     "id": 3,
     "url": "https://docdocgoose.huey.xyz/",
-    "title": "DocDocGoose — Edit documents directly in your browser",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "title": "DocDocGoose",
+    "description": "Edit PDF-documents directly in your browser.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -663,31 +851,32 @@
       "web"
     ],
     "date_added": "2023-01-26T20:52:30Z",
-    "date_modified": "2023-01-26T20:52:30Z"
+    "date_modified": "2023-02-06T18:24:44.284983Z"
   },
   {
     "id": 4,
     "url": "https://joshcrain.io/",
     "title": "Josh Crain",
     "description": "",
-    "website_title": null,
-    "website_description": null,
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
     "tag_names": [
-      "personal-website"
+      "personal-website",
+      "blog"
     ],
     "date_added": "2023-01-26T20:39:08Z",
-    "date_modified": "2023-01-26T20:39:08Z"
+    "date_modified": "2023-02-06T18:25:19.270791Z"
   },
   {
     "id": 5,
     "url": "https://rafa.design/",
     "title": "Rafa's website",
     "description": "",
-    "website_title": null,
-    "website_description": null,
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -697,32 +886,33 @@
       "inspiration"
     ],
     "date_added": "2023-01-26T20:24:22Z",
-    "date_modified": "2023-01-26T20:24:22Z"
+    "date_modified": "2023-02-06T18:25:26.436709Z"
   },
   {
     "id": 6,
     "url": "https://github.com/jakehilborn/displayplacer",
-    "title": "jakehilborn/displayplacer: macOS command line utility to configure multi-display resolutions and arrangements. Essentially XRandR for macOS.",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "title": "jakehilborn/displayplacer",
+    "description": "macOS command line utility to configure multi-display resolutions and arrangements. Essentially XRandR for macOS.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
     "tag_names": [
       "cli",
-      "macos"
+      "macos",
+      "git-repo"
     ],
     "date_added": "2023-01-25T16:20:41Z",
-    "date_modified": "2023-01-25T16:20:41Z"
+    "date_modified": "2023-02-06T18:25:42.245240Z"
   },
   {
     "id": 7,
     "url": "https://fabiensanglard.net/",
-    "title": "Fabien Sanglard's Website",
+    "title": "Fabien Sanglard",
     "description": "",
-    "website_title": null,
-    "website_description": null,
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -733,15 +923,15 @@
       "games"
     ],
     "date_added": "2023-01-25T16:19:08Z",
-    "date_modified": "2023-01-25T16:19:08Z"
+    "date_modified": "2023-02-06T18:25:55.302476Z"
   },
   {
     "id": 8,
     "url": "https://neal.fun/",
     "title": "Neal.fun",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "description": "A tiny website on the internet with fun little experimental pages.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -751,15 +941,15 @@
       "science"
     ],
     "date_added": "2023-01-23T21:40:37Z",
-    "date_modified": "2023-01-23T21:40:37Z"
+    "date_modified": "2023-02-06T18:26:20.935200Z"
   },
   {
     "id": 9,
     "url": "https://nx.dev/",
-    "title": "Nx: Smart, Fast and Extensible Build System",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "title": "Nx",
+    "description": "Smart, fast and extensible build System for Node.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -770,15 +960,15 @@
       "tools"
     ],
     "date_added": "2023-01-20T11:39:05Z",
-    "date_modified": "2023-01-20T11:39:05Z"
+    "date_modified": "2023-02-06T18:26:42.705802Z"
   },
   {
     "id": 10,
     "url": "https://jamsync.dev/",
-    "title": "jamsync.dev/",
-    "description": "",
-    "website_title": null,
-    "website_description": null,
+    "title": "Jamsync",
+    "description": "A version-control system based on rsync.",
+    "website_title": "",
+    "website_description": "",
     "is_archived": false,
     "unread": false,
     "shared": false,
@@ -788,7 +978,7 @@
       "vcs"
     ],
     "date_added": "2023-01-20T10:00:29Z",
-    "date_modified": "2023-01-20T10:00:29Z"
+    "date_modified": "2023-02-06T18:27:24.241314Z"
   },
   {
     "id": 11,
