@@ -5831,5 +5831,27 @@
         "Peyton Reed"
       ]
     }
+  },
+  {
+    "title": "The Whale",
+    "type": "movie",
+    "date": [
+      {
+        "day": "23",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-23"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 5,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Darren Aronofsky"
+      ]
+    }
   }
 ]
