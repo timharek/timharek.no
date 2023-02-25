@@ -60,6 +60,18 @@
       {%- endif -%}
     </span>
   </div>
+  {% if page.taxonomies.tags and "Review" in page.taxonomies.tags %}
+    {% set currentTimestamp = now() | date(format="%s") | int %}
+    {% set publishTimestamp = page.date | date(format="%s") | int %}
+    {% set oneYearSec = 31536000 %}
+    {% if (currentTimestamp - publishTimestamp) > oneYearSec %}
+      <aside class="notice note">
+        <p>
+          This review is older than one year, my views and opionons may have changed.
+        </p>
+      </aside>
+    {% endif %}
+  {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ page.content | safe }}

@@ -493,29 +493,33 @@ article.post {
       padding-block-start: $spacing;
 
       &::before {
+        content: "Info";
         text-transform: uppercase;
         font-weight: bold;
         position: absolute;
         top: 0;
         left: 0;
         padding: 0.25rem 0.5rem;
+        --bg: var(--color-primary);
+        --color: var(--color-background);
+        background: var(--bg);
+        color: var(--color);
 
-        &.info {
-          content: "Info";
-          background: var(--color-primary);
-          color: var(--color-background);
-        }
+      }
 
-        &.note {
-          content: "Note";
-          background: var(--color-primary);
-          color: var(--color-background);
-        }
+      &.info::before {
+        content: "Info";
+      }
 
-        &.warning {
-          content: "Warning";
-          background: red;
-        }
+      &.note::before {
+        content: "Note";
+        --bg: gold;
+      }
+
+      &.warning::before {
+        content: "Warning";
+        --bg: red;
+        --color: black;
       }
     }
   }
