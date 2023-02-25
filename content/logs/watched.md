@@ -8,7 +8,7 @@ aliases = ["/watching", "/watched"]
 json_files = ["static/api/movies.json", "static/api/tv_shows.json"]
 date_field = "watched_date"
 date_field_is_array = true
-year_field = "details.release_year"
+year_field = "release_year"
 +++
 
 Movies and TV shows that I've watched. Not a complete list.

@@ -32,8 +32,8 @@
             <div class="entry">
               <div aria-label="Entry title">
                 {{ entry.title }}
-                {% if year_field %}
-                  ({{ entry[year_field] }})
+                {% if year_field and entry.details[year_field] %}
+                  ({{ entry.details[year_field] }})
                 {% endif %}
               </div>
               <div aria-label="Entry rating">{{ macros::rating(max=5, rating=entry.details.my_rating) }}</div>
