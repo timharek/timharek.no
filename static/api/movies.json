@@ -5853,5 +5853,29 @@
         "Darren Aronofsky"
       ]
     }
+  },
+  {
+    "title": "Weird: The Al Yankovic Story",
+    "type": "movie",
+    "date": [
+      {
+        "day": "25",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-25"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 3,
+      "genres": [
+        "Biography",
+        "Comedy",
+        "Music"
+      ],
+      "director": [
+        "Eric Appel"
+      ]
+    }
   }
 ]
