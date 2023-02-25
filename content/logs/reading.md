@@ -6,9 +6,7 @@ page_template = "layouts/book_page.html"
 aliases = ["/read", "/reading"]
 [extra]
 json_files = ["static/api/books.json"]
-date_field = "read_date"
 date_field_is_array = false
 +++
 
 Books that I've read.
-
