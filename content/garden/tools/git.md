@@ -1,7 +1,7 @@
 +++
 title = "Git"
 description = "Useful tips I've picked up from Git by using it for a few years. Updates reguarly."
-updated = 2023-01-21
+updated = 2023-03-01
 template = "layouts/page.html"
 [extra]
 toc_enable = true
@@ -199,6 +199,28 @@ And now you can commit with with `git c -m <your-message>`!
 ```bash
 git shortlog -sne
 ```
+
+## Tagging
+
+There are multiple ways of tagging:
+
+1. `git tag v1.0.0`
+1. `git tag -a v1.0.0`
+
+By using the `-a`-flag you annotate the commit and you're able to use
+`git describe --exact-match HEAD` to check if `HEAD` is on the latest tag. This
+can be useful for CI/CD.
+
+## Last changed files
+
+Sometimes it can be useful to see which files was last changed.
+
+```sh
+git diff --name-only HEAD HEAD~1
+```
+
+You can swap out `1` with a hash or another number to go back in history to see
+which files has been changed.
 
 [lobsters_thread]:
   https://lobste.rs/s/dmkw4d/how_back_up_your_git_repositories#c_zfyjqu
