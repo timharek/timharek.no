@@ -46,6 +46,7 @@ tagged_with = "Tagged with"
 also_mentioned_in = "Also mentioned in"
 date_format = "%F"
 date_format_long = "%B %e, %Y"
+minute_read = "minute read"
 
 [languages.no]
 title = "Tim Hårek"
@@ -81,6 +82,7 @@ tagged_with = "Tagget med"
 also_mentioned_in = "Også nevnt i"
 date_format = "%F"
 date_format_long = "%e. %B %Y"
+minute_read = "minutt lesing"
 
 [markdown]
 highlight_code = true
