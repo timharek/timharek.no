@@ -6,7 +6,8 @@
   {% set work_data = work_data.projects | sort(attribute="endDate") | reverse %}
   <div class="page-updated">
     {% set updated = work_data[0].endDate %}
-    {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">{{ updated | date(format=config.extra.date_format_long) }}</time>
+    {% set format = trans(key="date_format_long", lang=lang) %}
+    {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">{{ updated | date(format=format) }}</time>
   </div>
 {% endblock page_updated %}
 

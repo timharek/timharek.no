@@ -26,7 +26,12 @@
             datetime="{{ page.date }}"
             itemprop="datePublished"
           >
-            {{ page.date | date(format=config.extra.date_format_long) }}
+            {% set format = trans(key="date_format_long", lang=lang) %}
+            {% set locale = "en_US" %}
+            {% if lang == 'no' %}
+              {% set locale = "nb_NO" %}
+            {% endif %}
+            {{ page.date | date(format=format, locale=locale) }}
           </time>
         </span>
         &mdash;
@@ -42,7 +47,7 @@
                 datetime="{{ page.updated }}"
                 itemprop="dateUpdated"
               >
-                {{ page.updated | date(format=config.extra.date_format_long) }}
+                {{ page.updated | date(format=format, locale=locale) }}
               </time>
           </span>
         {% endif %}

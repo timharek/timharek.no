@@ -44,6 +44,8 @@ top_tags = "Top tags"
 posts = "Posts"
 tagged_with = "Tagged with"
 also_mentioned_in = "Also mentioned in"
+date_format = "%F"
+date_format_long = "%B %e, %Y"
 
 [languages.no]
 title = "Tim Hårek"
@@ -77,6 +79,8 @@ top_tags = "Topp tags"
 posts = "Innlegg"
 tagged_with = "Tagget med"
 also_mentioned_in = "Også nevnt i"
+date_format = "%F"
+date_format_long = "%e. %B %Y"
 
 [markdown]
 highlight_code = true
@@ -92,8 +96,6 @@ external_level = "warn"
 author = "Tim Hårek Andreassen"
 author_img = "img/me.jpeg"
 email = "tim@harek.no"
-date_format = "%F"
-date_format_long = "%B %e, %Y"
 logo = "img/logo.svg"
 cover = "img/cover.png"
 

@@ -366,7 +366,8 @@
     <div class="bookmark__metadata">
       <div class="bookmark__date_added">
         Bookmarked
-        {{ bookmark.date_added | date(format=config.extra.date_format) }}
+        {% set format = trans(key="date_format_long", lang=lang) %}
+        {{ bookmark.date_added | date(format=format) }}
       </div>
       {% if bookmark.tag_names %}
         <ul aria-label="Bookmark's tags" class="bookmark__tags">

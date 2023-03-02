@@ -32,7 +32,12 @@
     {% if updated %}
       <div class="page-updated">
         {{ trans(key="updated", lang=lang) }} <time datetime="{{ updated }}">
-          {{ updated | date(format=config.extra.date_format_long) }}
+          {% set format = trans(key="date_format_long", lang=lang) %}
+          {% set locale = "en_US" %}
+          {% if lang == 'no' %}
+            {% set locale = "nb_NO" %}
+          {% endif %}
+          {{ updated | date(format=format, locale=locale) }}
         </time>
       </div>
     {% endif %}
