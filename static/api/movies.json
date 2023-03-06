@@ -5877,5 +5877,27 @@
         "Eric Appel"
       ]
     }
+  },
+  {
+    "title": "Aftersun",
+    "type": "movie",
+    "date": [
+      {
+        "day": "04",
+        "month": "03",
+        "year": "2023",
+        "string": "2023-03-04"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 4,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Charlotte Wells"
+      ]
+    }
   }
 ]
