@@ -1114,5 +1114,26 @@
         "Adventure"
       ]
     }
+  },
+  {
+    "title": "The Last of Us S01",
+    "type": "tv",
+    "date": [
+      {
+        "day": "14",
+        "month": "03",
+        "year": "2023",
+        "string": "2023-03-14"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ]
+    }
   }
 ]
