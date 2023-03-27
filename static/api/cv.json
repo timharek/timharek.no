@@ -630,6 +630,23 @@
         "https://github.com/timharek/deno-linkding",
         "https://git.sr.ht/~timharek/deno-linkding"
       ]
+    },
+    {
+      "name": "Web daemon",
+      "client": "Institutt for Journalistikk",
+      "roles": [
+        "Tech lead"
+      ],
+      "description": "Developed a web daemon that listens to a webhook from an LMS that updates an old MS-SQL database made in the late 90s. Also made the daemon to be scalable to a full-fledged front-end API for future use.",
+      "endDate": "2023-02-27",
+      "keywords": [
+        "API",
+        "Database",
+        "Node.js",
+        "Express.js",
+        "TypeScript",
+        "Netlife"
+      ]
     }
   ]
 }
