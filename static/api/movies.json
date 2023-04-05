@@ -5899,5 +5899,29 @@
         "Charlotte Wells"
       ]
     }
+  },
+  {
+    "title": "John Wick: Chapter 4",
+    "type": "movie",
+    "date": [
+      {
+        "day": "04",
+        "month": "04",
+        "year": "2023",
+        "string": "2023-04-04"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 3,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "director": [
+        "Chad Stahelski"
+      ]
+    }
   }
 ]
