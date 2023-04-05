@@ -228,5 +228,37 @@
     "details": {
       "custom_prefix": "💪 Health"
     }
+  },
+  {
+    "title": "Ran half-marathon 2 of 6 2023",
+    "description": "Finished in 2 hours and 7 minutes. First one in barefoot shoes.",
+    "type": "life",
+    "date": [
+      {
+        "day": "18",
+        "month": "02",
+        "year": "2023",
+        "string": "2023-02-18"
+      }
+    ],
+    "details": {
+      "custom_prefix": "💪 Health"
+    }
+  },
+  {
+    "title": "Ran half-marathon 3 of 6 2023",
+    "description": "Finished in 2 hours and 6 minutes.",
+    "type": "life",
+    "date": [
+      {
+        "day": "25",
+        "month": "03",
+        "year": "2023",
+        "string": "2023-03-25"
+      }
+    ],
+    "details": {
+      "custom_prefix": "💪 Health"
+    }
   }
 ]
