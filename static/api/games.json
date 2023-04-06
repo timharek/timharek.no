@@ -468,5 +468,25 @@
         "PS4"
       ]
     }
+  },
+  {
+    "title": "Dredge",
+    "type": "game",
+    "date": [
+      {
+        "day": "06",
+        "month": "04",
+        "year": "2023",
+        "string": "2023-04-06"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 5,
+      "genres": [],
+      "platform": [
+        "PC"
+      ]
+    }
   }
 ]
