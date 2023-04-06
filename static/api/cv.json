@@ -647,6 +647,22 @@
         "TypeScript",
         "Netlife"
       ]
+    },
+    {
+      "name": "Hima",
+      "description": "Home Inventory system built with Deno Fresh using PocketBase as a backend.",
+      "endDate": "2023-04-06",
+      "keywords": [
+        "API",
+        "Database",
+        "TypeScript",
+        "PocketBase",
+        "Deno"
+      ],
+      "url": "https://sr.ht/~timharek/hima",
+      "sources": [
+        "https://git.sr.ht/~timharek/hima"
+      ]
     }
   ]
 }
