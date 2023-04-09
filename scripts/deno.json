@@ -33,6 +33,7 @@
   "tasks": {
     "log": "deno run --allow-net=www.omdbapi.com,openlibrary.org --allow-read=../static/api --allow-write=../static/api --allow-env log.ts",
     "bookmark": "deno run --allow-net --allow-read --allow-write --allow-env bookmark.ts",
-    "read": "deno run --allow-read=../static/api --allow-write=../static/api read_logs.ts"
+    "read": "deno run --allow-read=../static/api --allow-write=../static/api read_logs.ts",
+    "blog": "deno run --allow-write=../content/blog blog.ts"
   }
 }
