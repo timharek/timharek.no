@@ -1,6 +1,6 @@
 +++
 title = "February 2023"
-description = "What I've been up to since Janurary."
+description = "What I've been up to since January."
 [taxonomies]
 tags = ["100 days to offload", "Recently"]
 +++
@@ -13,9 +13,9 @@ together a short one about owning my own hardware.
 
 ## 💪 Health
 
-Been running a bit less than Janurary, but I'm happy nonetheless, also managed
-to sneak in some strength workouts during work when I needed to catch a break.
-And ran another "competetive" half-marathon.
+Been running a bit less than January, but I'm happy nonetheless, also managed to
+sneak in some strength workouts during work when I needed to catch a break. And
+ran another "competetive" half-marathon.
 
 ## 🌐 Website
 
