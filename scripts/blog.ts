@@ -32,8 +32,8 @@ const { title, description, slug, date, tags } = await prompt([
 
 const file = `
 +++
-title = ${title}
-description = ${description}
+title = "${title}"
+description = "${description}"
 [taxonomies]
 tags = [${tags && tags.map((tag) => `"${tag}"`).join(', ')}]
 +++
