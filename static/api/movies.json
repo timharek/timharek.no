@@ -5923,5 +5923,53 @@
         "Chad Stahelski"
       ]
     }
+  },
+  {
+    "title": "Murder Mystery",
+    "type": "movie",
+    "date": [
+      {
+        "day": "07",
+        "month": "04",
+        "year": "2023",
+        "string": "2023-04-07"
+      }
+    ],
+    "details": {
+      "release_year": 2019,
+      "my_rating": 2,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "director": [
+        "Kyle Newacheck"
+      ]
+    }
+  },
+  {
+    "title": "Murder Mystery 2",
+    "type": "movie",
+    "date": [
+      {
+        "day": "10",
+        "month": "04",
+        "year": "2023",
+        "string": "2023-04-10"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 2,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "director": [
+        "Jeremy Garelick"
+      ]
+    }
   }
 ]
