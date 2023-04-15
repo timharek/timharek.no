@@ -5971,5 +5971,31 @@
         "Jeremy Garelick"
       ]
     }
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "type": "movie",
+    "date": [
+      {
+        "day": "15",
+        "month": "04",
+        "year": "2023",
+        "string": "2023-04-15"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 3,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": [
+        "Aaron Horvath",
+        "Michael Jelenic",
+        "Pierre Leduc"
+      ]
+    }
   }
 ]
