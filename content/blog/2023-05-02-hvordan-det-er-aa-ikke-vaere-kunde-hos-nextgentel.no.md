@@ -5,7 +5,7 @@ description = "Ja, du leste riktig."
 
 Ja, du leste riktig. Jeg tror nemlig jeg har svaret.
 
-Det hele begynte fredagen før påske, 31. mars 2023, jeg mottaer en epost fra
+Det hele begynte fredagen før påske, 31. mars 2023, jeg mottar en epost fra
 `varsel@efaktura.no` hvor det står at jeg har fått en faktura fra NextGenTel
 (NGT) på kr 658 med AvtaleGiro og i henhold til avtalen vil den bli trukket fra
 konto automatisk. OK, jeg har flere spørsmål her:
