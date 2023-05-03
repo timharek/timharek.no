@@ -483,10 +483,42 @@
     "details": {
       "release_year": 2023,
       "my_rating": 5,
-      "genres": [],
+      "genres": [
+        "Adventure",
+        "Single-Player",
+        "Survival",
+        "Casual"
+      ],
       "platform": [
         "PC"
       ]
+    }
+  },
+  {
+    "title": "Star Wars Jedi: Survivor",
+    "type": "game",
+    "date": [
+      {
+        "day": "01",
+        "month": "05",
+        "year": "2023",
+        "string": "2023-05-01"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 4,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Platformer",
+        "Single-Player",
+        "Sci-Fi"
+      ],
+      "platform": [
+        "PS5"
+      ],
+      "playtime": 16.7
     }
   }
 ]
