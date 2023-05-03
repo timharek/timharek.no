@@ -260,5 +260,37 @@
     "details": {
       "custom_prefix": "💪 Health"
     }
+  },
+  {
+    "title": "Bought my first house",
+    "description": "Bought my first house with my SO.",
+    "type": "life",
+    "date": [
+      {
+        "day": "26",
+        "month": "04",
+        "year": "2023",
+        "string": "2023-04-26"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🪨 Milestone"
+    }
+  },
+  {
+    "title": "Sold my first apartment",
+    "description": "Sold the apartment I bought with my brother in 2016.",
+    "type": "life",
+    "date": [
+      {
+        "day": "03",
+        "month": "05",
+        "year": "2023",
+        "string": "2023-05-03"
+      }
+    ],
+    "details": {
+      "custom_prefix": "🪨 Milestone"
+    }
   }
 ]
