@@ -1,5 +1,5 @@
 {
-  "last_update": "2022-09-29",
+  "last_update": "2023-05-04",
   "basics": {
     "name": "Tim Hårek Andreassen",
     "label": "Full-stack developer",
@@ -17,6 +17,11 @@
         "network": "GitHub",
         "username": "timharek",
         "url": "https://github.com/timharek"
+      },
+      {
+        "network": "Sourcehut",
+        "username": "timharek",
+        "url": "https://sr.ht/~timharek"
       }
     ]
   },
@@ -30,10 +35,11 @@
       "logo": "/cv/netlife.svg",
       "summary": null,
       "highlights": [
-        "Tech lead for multiple Craft CMS-projects.",
+        "Tech lead role with a responsibility for multiple technologists.",
+        "Held internal workshops.",
+        "Held presentations about technology and UX at the University of Bergen.",
         "UX-designer for REN.no and logged in area.",
-        "Full-stack development with Craft CMS & Sanity in Next.js.",
-        "Front-end development with Vue.js v3."
+        "Full-stack development with Craft CMS, Sanity with Next.js, Vue and Deno."
       ]
     },
     {
@@ -45,8 +51,8 @@
       "logo": "/cv/vk.svg",
       "summary": null,
       "highlights": [
-        "Setup and maintenance of IT systems, i.e. CRM, accounting software, etc.",
-        "IT support for employees, both remote and on-site.",
+        "Transitioned a lot of manual processes to a digital medium, i.e. CRM, accouting software, etc.",
+        "Provided IT support for employees, both remote and on-site.",
         "Re-designed their website, with modern technologies.",
         "Created a more efficient system for their annual inventory."
       ]
@@ -74,7 +80,7 @@
       "logo": "/cv/uib.svg",
       "summary": null,
       "highlights": [
-        "Technical support for students and lectures.",
+        "Provided technical support for students and lecturers.",
         "Part-time job beside my bachelors-degree."
       ]
     },
@@ -111,6 +117,7 @@
       "logo": null,
       "summary": null,
       "highlights": [
+        "Responsible for maintaining Norwegian alcohol laws.",
         "Part-time job as a bouncer beside my studies in Bergen."
       ]
     },
@@ -219,27 +226,30 @@
       "name": "Libraries and frameworks",
       "level": null,
       "keywords": [
-        "Node.js",
-        "jQuery",
-        "React.js",
-        "Vue.js",
-        "Next.js",
+        "Deno Fresh",
+        "Deno",
+        "Express.js",
         "Jekyll",
-        "Zola",
+        "Next.js",
+        "Node.js",
+        "React.js",
         "Tailwind",
-        "Deno"
+        "Vue.js",
+        "Zola",
+        "jQuery"
       ]
     },
     {
       "name": "Tools",
       "level": null,
       "keywords": [
-        "Git",
-        "Vim",
-        "UNIX",
         "Ansible",
+        "Docker",
+        "Git",
         "GitHub Actions",
-        "Docker"
+        "Helix",
+        "UNIX",
+        "Vim"
       ]
     },
     {
