@@ -1,5 +1,5 @@
 {
-  "last_update": "2023-05-04",
+  "last_update": "2023-05-11",
   "basics": {
     "name": "Tim Hårek Andreassen",
     "label": "Full-stack developer",
@@ -308,6 +308,22 @@
     }
   ],
   "projects": [
+    {
+      "name": "sticos.no",
+      "client": "Sticos",
+      "roles": [
+        "Tech lead"
+      ],
+      "description": "New website made with HubSpot CMS for an Norwegian SaaS company.",
+      "endDate": "2023-04-14",
+      "keywords": [
+        "HubSpot CMS",
+        "Netlife",
+        "Tailwind",
+        "Website"
+      ],
+      "url": "https://sticos.no"
+    },
     {
       "name": "valuegroup.no",
       "client": "Value",
@@ -665,9 +681,10 @@
       "keywords": [
         "API",
         "Database",
-        "TypeScript",
+        "Deno",
         "PocketBase",
-        "Deno"
+        "Tailwind",
+        "TypeScript"
       ],
       "url": "https://sr.ht/~timharek/hima",
       "sources": [
