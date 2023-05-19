@@ -6021,5 +6021,28 @@
         "James Gunn"
       ]
     }
+  },
+  {
+    "title": "Sisu",
+    "type": "movie",
+    "date": [
+      {
+        "day": "19",
+        "month": "05",
+        "year": "2023",
+        "string": "2023-05-19"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 4,
+      "genres": [
+        "Action",
+        "War"
+      ],
+      "director": [
+        "Jalmari Helander"
+      ]
+    }
   }
 ]
