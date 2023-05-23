@@ -1135,5 +1135,25 @@
         "Drama"
       ]
     }
+  },
+  {
+    "title": "Beef S01",
+    "type": "tv",
+    "date": [
+      {
+        "day": "22",
+        "month": "05",
+        "year": "2023",
+        "string": "2023-05-22"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ]
+    }
   }
 ]
