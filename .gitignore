@@ -1,4 +1,5 @@
 static/processed_images
+public
 # dotenv environment variable files
 .env
 .env.development.local
