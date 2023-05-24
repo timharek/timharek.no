@@ -1,6 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { AppProps } from "$fresh/server.ts";
 import { Header } from "../components/Header.tsx";
+import { Footer } from "../components/Footer.tsx";
 
 export default function App({ Component }: AppProps) {
   return (
@@ -37,6 +38,7 @@ export default function App({ Component }: AppProps) {
         <main id="main">
           <Component />
         </main>
+        <Footer />
       </body>
     </html>
   );
