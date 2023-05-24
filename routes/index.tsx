@@ -1,11 +1,12 @@
 import { Head } from "$fresh/runtime.ts";
+import { config } from "../config.ts";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Tim Hårek</title>
+        <title>{config.title}</title>
       </Head>
       <div class="p-4 mx-auto max-w-screen-md">
         <img

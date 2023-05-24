@@ -1,18 +1,7 @@
+import { config } from "../config.ts";
+
 export function Header() {
-  const navigation = [
-    {
-      title: "Blog",
-      path: "/blog",
-    },
-    {
-      title: "Connect",
-      path: "/connect",
-    },
-    {
-      title: "About",
-      path: "/about",
-    },
-  ];
+  const navigation = config.navigation.header;
   return (
     <>
       <a

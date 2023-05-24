@@ -2,6 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { AppProps } from "$fresh/server.ts";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
+import { config } from "../config.ts";
 
 export default function App({ Component }: AppProps) {
   return (
@@ -9,7 +10,7 @@ export default function App({ Component }: AppProps) {
       <Head>
         <meta
           name="description"
-          content="TODO: Add description"
+          content={config.description}
         />
         <link
           rel="apple-touch-icon"

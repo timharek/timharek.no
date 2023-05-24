@@ -1,22 +1,7 @@
+import { config } from "../config.ts";
+
 export function Footer() {
-  const navigation = [
-    {
-      title: "Stats",
-      path: "/stats",
-    },
-    {
-      title: "Privacy",
-      path: "/privacy",
-    },
-    {
-      title: "Sitemap",
-      path: "/sitemap",
-    },
-    {
-      title: "RSS",
-      path: "/rss.xml",
-    },
-  ];
+  const navigation = config.navigation.footer;
   return (
     <footer class="max-w-screen-md mx-auto px-4 flex justify-between">
       <div>
