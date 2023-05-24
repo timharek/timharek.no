@@ -22,7 +22,7 @@ export function Header() {
         Skip to content
       </a>
       <header
-        class="max-w-3xl mx-auto px-4 flex justify-between items-center my-4"
+        class="max-w-screen-md mx-auto px-4 flex justify-between items-center my-4"
         aria-label="Main navigation"
       >
         <a class="header__logo" rel="me" href="/" aria-label="Home">

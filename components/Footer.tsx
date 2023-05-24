@@ -18,7 +18,7 @@ export function Footer() {
     },
   ];
   return (
-    <footer class="max-w-3xl mx-auto px-4 flex justify-between">
+    <footer class="max-w-screen-md mx-auto px-4 flex justify-between">
       <div>
         Last deploy: (date-coming)
       </div>
