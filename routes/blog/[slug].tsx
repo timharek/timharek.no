@@ -20,8 +20,21 @@ export const handler: Handlers = {
       });
     }
 
-    const url = new URL(`../../content/blog/${slug}.md`, import.meta.url);
-    const fileContent = await Deno.readTextFile(url);
+    const blogPath = new URL(`../../content/blog`, import.meta.url);
+    let postPath: string | URL = "";
+    const blogDir = Deno.readDir(blogPath);
+    for await (const post of blogDir) {
+      const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}-/);
+      const postWithoutDate = post.name.replace(YYYY_MM_DD_REGEX, "").replace(
+        ".md",
+        "",
+      );
+      if (postWithoutDate === slug) {
+        postPath = new URL(`../../content/blog/${post.name}`, import.meta.url);
+      }
+    }
+
+    const fileContent = await Deno.readTextFile(postPath);
     const { body, attrs } = extract(fileContent);
     const page: BlogPostProps = {
       markdown: body,
