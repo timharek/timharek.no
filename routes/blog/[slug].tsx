@@ -23,14 +23,20 @@ export const handler: Handlers = {
     const blogPath = new URL(`../../content/blog`, import.meta.url);
     let postPath: string | URL = "";
     const blogDir = Deno.readDir(blogPath);
-    for await (const post of blogDir) {
+    for await (const entry of blogDir) {
       const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}-/);
-      const postWithoutDate = post.name.replace(YYYY_MM_DD_REGEX, "").replace(
+      const postWithoutDate = entry.name.replace(YYYY_MM_DD_REGEX, "").replace(
         ".md",
         "",
       );
       if (postWithoutDate === slug) {
-        postPath = new URL(`../../content/blog/${post.name}`, import.meta.url);
+        const isNested = entry.isDirectory;
+        postPath = new URL(
+          `../../content/blog/${
+            isNested ? `${entry.name}/index.md` : entry.name
+          }`,
+          import.meta.url,
+        );
       }
     }
 
