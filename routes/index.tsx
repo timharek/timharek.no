@@ -1,7 +1,25 @@
 import { Head } from "$fresh/runtime.ts";
+import { Handlers, PageProps } from "$fresh/server.ts";
 import { config } from "../config.ts";
+import { getAllBlogPosts } from "../src/utils.ts";
 
-export default function Home() {
+interface HomeProps {
+  posts: Post[];
+}
+
+export const handler: Handlers = {
+  async GET(_req, ctx) {
+    const posts = await getAllBlogPosts();
+
+    return ctx.render(
+      {
+        posts: posts.slice(0, 5),
+      } as HomeProps,
+    );
+  },
+};
+export default function Home({ data }: PageProps<HomeProps>) {
+  const { posts } = data;
   return (
     <>
       <Head>
@@ -19,7 +37,11 @@ export default function Home() {
         <section class="space-y-4 md:space-y-8">
           <h2 class="text-3xl font-semibold">Latest posts</h2>
           <ul>
-            <li>Blog listing</li>
+            {posts.map((post) => (
+              <li class="">
+                <a href={post.path}>{post.title}</a>
+              </li>
+            ))}
           </ul>
         </section>
       </div>
