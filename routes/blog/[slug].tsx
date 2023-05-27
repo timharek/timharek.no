@@ -13,12 +13,6 @@ interface BlogPostProps {
 export const handler: Handlers = {
   async GET(_req, ctx) {
     const slug = ctx.params.slug;
-    if (slug === "tim") {
-      return new Response("", {
-        status: 307,
-        headers: { location: "/hallo" },
-      });
-    }
 
     const blogPath = new URL(`../../content/blog`, import.meta.url);
     let postPath: string | URL = "";
