@@ -25,11 +25,13 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     );
     const fileContent = await Deno.readTextFile(postPath);
     const { attrs } = extract(fileContent);
-    posts.push({
-      title: attrs.title as string,
-      date: new Date(postDate),
-      path: `/blog/${postWithoutDate}`,
-    });
+    if (!attrs.draft) {
+      posts.push({
+        title: attrs.title as string,
+        date: new Date(postDate),
+        path: `/blog/${postWithoutDate}`,
+      });
+    }
   }
   return posts.sort((a, b) => b.date.getTime() - a.date.getTime());
 }
