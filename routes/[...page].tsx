@@ -31,8 +31,7 @@ export const handler: Handlers = {
         markdown: body,
         frontMatter: attrs as Props["frontMatter"] ?? {},
       };
-      const resp = ctx.render(page);
-      return resp;
+      return ctx.render(page);
     } catch (error) {
       console.error(error);
       return ctx.renderNotFound();

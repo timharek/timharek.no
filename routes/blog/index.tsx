@@ -1,58 +1,21 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import extract from "https://deno.land/std@0.188.0/front_matter/any.ts";
 import { config } from "../../config.ts";
+import { getAllBlogPosts } from "../../src/utils.ts";
 
-interface Post {
-  title: string;
-  date: Date;
-  path: string;
-}
 interface BlogProps {
   posts: Post[];
 }
 
 export const handler: Handlers = {
   async GET(_req, ctx) {
-    const blogPath = new URL(`../../content/blog`, import.meta.url);
-    const blogDir = Deno.readDir(blogPath);
-    const posts: Post[] = [];
-    for await (const entry of blogDir) {
-      if (entry.name === "_index.md") {
-        continue;
-      }
-      const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
-      const postDateMatch = entry.name.match(YYYY_MM_DD_REGEX);
-      const postDate = postDateMatch ? postDateMatch[0] : "";
-      const postWithoutDate = entry.name.replace(YYYY_MM_DD_REGEX, "").replace(
-        "-",
-        "",
-      ).replace(
-        ".md",
-        "",
-      );
-      const isNested = entry.isDirectory;
-      const postPath = new URL(
-        `../../content/blog/${
-          isNested ? `${entry.name}/index.md` : entry.name
-        }`,
-        import.meta.url,
-      );
-      const fileContent = await Deno.readTextFile(postPath);
-      const { attrs } = extract(fileContent);
-      posts.push({
-        title: attrs.title as string,
-        date: new Date(postDate),
-        path: `/blog/${postWithoutDate}`,
-      });
-    }
+    const posts = await getAllBlogPosts();
 
-    const resp = ctx.render(
+    return ctx.render(
       {
-        posts: posts.sort((a, b) => b.date.getTime() - a.date.getTime()),
+        posts,
       } as BlogProps,
     );
-    return resp;
   },
 };
 
