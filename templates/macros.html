@@ -4,7 +4,7 @@
       <div class="bloglisting__header">
         <h2>{{ year }}</h2>
         <span>
-          ({{ posts | length }} entr{{ posts | length | pluralize(singular="y", plural="ies") }})
+          ({{ posts | length }} post{{ posts | length | pluralize }})
         </span>
       </div>
       <ul class="blog">
