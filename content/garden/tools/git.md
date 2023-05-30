@@ -222,6 +222,18 @@ git diff --name-only HEAD HEAD~1
 You can swap out `1` with a hash or another number to go back in history to see
 which files has been changed.
 
+## Last commit timetamp
+
+```sh
+git log -n1 --pretty="%ct"
+```
+
+## Last commit hash
+
+```sh
+git log -n1 --pretty="%T"
+```
+
 [lobsters_thread]:
   https://lobste.rs/s/dmkw4d/how_back_up_your_git_repositories#c_zfyjqu
 [git_scm]: https://git-scm.com/
