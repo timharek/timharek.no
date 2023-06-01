@@ -6044,5 +6044,27 @@
         "Jalmari Helander"
       ]
     }
+  },
+  {
+    "title": "The Quiet Girl",
+    "type": "movie",
+    "date": [
+      {
+        "day": "27",
+        "month": "05",
+        "year": "2023",
+        "string": "2023-05-27"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 4,
+      "genres": [
+        "Drama"
+      ],
+      "director": [
+        "Colm Bairéad"
+      ]
+    }
   }
 ]
