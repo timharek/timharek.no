@@ -1,5 +1,5 @@
 {
-  "last_update": "2023-05-11",
+  "last_update": "2023-06-04",
   "basics": {
     "name": "Tim Hårek Andreassen",
     "label": "Full-stack developer",
@@ -38,8 +38,7 @@
         "Tech lead role with a responsibility for multiple technologists.",
         "Held internal workshops.",
         "Held presentations about technology and UX at the University of Bergen.",
-        "UX-designer for REN.no and logged in area.",
-        "Full-stack development with Craft CMS, Sanity with Next.js, Vue and Deno."
+        "Full-stack development with Craft CMS, Sanity CMS, Next.js, Vue.js and Deno."
       ]
     },
     {
@@ -51,7 +50,7 @@
       "logo": "/cv/vk.svg",
       "summary": null,
       "highlights": [
-        "Transitioned a lot of manual processes to a digital medium, i.e. CRM, accouting software, etc.",
+        "Transitioned manual processes to a digital medium, i.e. CRM, accouting software, etc.",
         "Provided IT support for employees, both remote and on-site.",
         "Re-designed their website, with modern technologies.",
         "Created a more efficient system for their annual inventory."
@@ -244,6 +243,7 @@
       "level": null,
       "keywords": [
         "Ansible",
+        "Buddy works",
         "Docker",
         "Git",
         "GitHub Actions",
