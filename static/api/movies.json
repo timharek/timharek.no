@@ -6066,5 +6066,31 @@
         "Colm Bairéad"
       ]
     }
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "type": "movie",
+    "date": [
+      {
+        "day": "02",
+        "month": "06",
+        "year": "2023",
+        "string": "2023-06-02"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 5,
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "director": [
+        "Joaquim Dos Santos",
+        "Kemp Powers",
+        "Justin K. Thompson"
+      ]
+    }
   }
 ]
