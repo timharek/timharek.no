@@ -9,7 +9,7 @@ My e-mail is open! Introduce yourself, tell me I’m wrong, share content, give
 feedback, you do you!
 
 - E-mail: [tim@harek.no](mailto:tim@harek.no)
-- OpenPGP: [`18131862de62d969f02a14e834853dfd0b419a0d`](/public-key.asc).
+- OpenPGP: [`F6A1E22056C5806E69528AB2E59C7734F0E10EB5`](/public-key.asc).
   - Or `curl -sL https://timharek.no/public-key.asc | gpg --import`
 
 ## Keep up to date
