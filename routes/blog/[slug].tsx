@@ -55,7 +55,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
       <Head>
         <title>{title} - Blog - Tim Hårek</title>
       </Head>
-      <article class="max-w-screen-md mx-auto px-4">
+      <article class="max-w-screen-md mx-auto px-4 mb-4 prose">
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: body }}></div>
       </article>

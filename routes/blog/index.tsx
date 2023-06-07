@@ -26,7 +26,7 @@ export default function BlogIndex({ data }: PageProps<BlogProps>) {
       <Head>
         <title>Blog - {config.title}</title>
       </Head>
-      <article class="max-w-screen-md mx-auto px-4">
+      <article class="max-w-screen-md mx-auto px-4 prose">
         <h1>Blog</h1>
         <ul class="">
           {posts.map((post) => (
