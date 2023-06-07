@@ -9,3 +9,8 @@ interface Section {
   title: string;
   path: string;
 }
+
+interface Page {
+  title: string;
+  path: string;
+}

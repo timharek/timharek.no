@@ -1,6 +1,6 @@
 import extract from "$std/front_matter/any.ts";
 
-async function getMarkdownFile<T>(path: URL) {
+export async function getMarkdownFile<T>(path: URL) {
   const fileContent = await Deno.readTextFile(path);
   const markdownFile = extract<T>(fileContent);
 
@@ -50,4 +50,50 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     }
   }
   return posts.sort((a, b) => b.date.getTime() - a.date.getTime());
+}
+
+interface PageQuery {
+  name: string;
+  path: string;
+}
+export async function getAllPages(): Promise<PageQuery[]> {
+  const pages: PageQuery[] = [];
+  const commonPath = "../content";
+  const contentPath = new URL(commonPath, import.meta.url);
+  const contentDir = Deno.readDir(contentPath);
+
+  for await (const item of contentDir) {
+    if (item.isDirectory) {
+      const subPath = new URL(`${contentPath}/${item.name}`);
+      const subDir = Deno.readDir(subPath);
+      for await (const subItem of subDir) {
+        if (subItem.isDirectory) {
+          continue;
+        }
+        if (isSection(subItem.name)) {
+          continue;
+        }
+        if (subItem.name.match("index.md|index.no.md")) {
+          pages.push({
+            name: item.name.replace(".md", ""),
+            path: `${contentPath}/${item.name}/${subItem.name}`,
+          });
+        }
+      }
+      continue;
+    }
+    if (isSection(item.name)) {
+      continue;
+    }
+    pages.push({
+      name: item.name.replace(".md", ""),
+      path: `${contentPath}/${item.name}`,
+    });
+  }
+
+  return pages;
+}
+
+function isSection(path: string) {
+  return path.match("_index.md");
 }
