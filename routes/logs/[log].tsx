@@ -7,19 +7,27 @@ interface Props {
 }
 
 export const handler: Handlers = {
-  async GET(_req, ctx) {
+  async GET(req, ctx) {
     const logName = ctx.params.log;
+    const logPath = new URL(
+      `../../static/api/${logName}.json`,
+      import.meta.url,
+    );
+
+    const headers = req.headers.get("accept");
+    const isRequestingHtml = headers?.includes("text/html");
     try {
-      const logPath = new URL(
-        `../../static/api/${logName}.json`,
-        import.meta.url,
-      );
       const logRaw = await Deno.readTextFile(logPath);
       const logs = JSON.parse(logRaw) as Log.IEntry[];
-      console.log(logs);
+      if (!isRequestingHtml) {
+        return new Response(JSON.stringify(logs, null, 2));
+      }
       return ctx.render({ title: logName, entries: logs });
     } catch (error) {
       console.error(error);
+      if (!isRequestingHtml) {
+        return new Response(JSON.stringify({ message: "error" }, null, 2));
+      }
       return ctx.renderNotFound();
     }
   },
