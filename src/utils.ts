@@ -1,5 +1,22 @@
 import extract from "$std/front_matter/any.ts";
 
+async function getMarkdownFile<T>(path: URL) {
+  const fileContent = await Deno.readTextFile(path);
+  const markdownFile = extract<T>(fileContent);
+
+  return markdownFile;
+}
+
+export async function getSection(sectionName: string) {
+  const sectionPath = new URL(
+    `../content/${sectionName}/_index.md`,
+    import.meta.url,
+  );
+  const section = await getMarkdownFile<Section>(sectionPath);
+
+  return section;
+}
+
 export async function getAllBlogPosts(): Promise<Post[]> {
   const blogPath = new URL(`../content/blog`, import.meta.url);
   const blogDir = Deno.readDir(blogPath);
@@ -23,11 +40,10 @@ export async function getAllBlogPosts(): Promise<Post[]> {
       `../content/blog/${isNested ? `${entry.name}/index.md` : entry.name}`,
       import.meta.url,
     );
-    const fileContent = await Deno.readTextFile(postPath);
-    const { attrs } = extract(fileContent);
+    const { attrs } = await getMarkdownFile<Post>(postPath);
     if (!attrs.draft) {
       posts.push({
-        title: attrs.title as string,
+        title: attrs.title,
         date: new Date(postDate),
         path: `/blog/${postWithoutDate}`,
       });
