@@ -73,7 +73,7 @@ export async function getAllPages(): Promise<PageQuery[]> {
         if (isSection(subItem.name)) {
           continue;
         }
-        if (subItem.name.match("index.md|index.no.md")) {
+        if (subItem.name.match("index.md")) {
           pages.push({
             name: item.name.replace(".md", ""),
             path: `${contentPath}/${item.name}/${subItem.name}`,
@@ -95,5 +95,5 @@ export async function getAllPages(): Promise<PageQuery[]> {
 }
 
 function isSection(path: string) {
-  return path.match("_index.md");
+  return path.match("_index.md|_index.no.md");
 }
