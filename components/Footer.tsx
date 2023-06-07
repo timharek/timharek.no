@@ -3,7 +3,7 @@ import { config } from "../config.ts";
 export function Footer() {
   const navigation = config.navigation.footer;
   return (
-    <footer class="max-w-screen-md mx-auto px-4 flex justify-between">
+    <footer class="max-w-screen-md mx-auto mb-4 px-4 flex justify-between">
       <div>
         Last deploy: (date-coming)
       </div>
