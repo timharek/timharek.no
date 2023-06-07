@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { render } from "https://deno.land/x/gfm@0.1.26/mod.ts";
+import { render } from "gfm/mod.ts";
 import { getAllPages, getMarkdownFile } from "../src/utils.ts";
 
 interface Props {
