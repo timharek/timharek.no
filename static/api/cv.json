@@ -690,6 +690,23 @@
       "sources": [
         "https://git.sr.ht/~timharek/hima"
       ]
+    },
+    {
+      "name": "filmpolitiet-api",
+      "description": "API for NRK P3 Filmpolitiet's reviews. Made using Deno, Fresh and PocketBase.",
+      "endDate": "2023-06-15",
+      "keywords": [
+        "API",
+        "Database",
+        "Deno",
+        "PocketBase",
+        "Tailwind",
+        "TypeScript"
+      ],
+      "url": "https://sr.ht/~timharek/filmpolitiet-api",
+      "sources": [
+        "https://git.sr.ht/~timharek/filmpolitiet-api"
+      ]
     }
   ]
 }
