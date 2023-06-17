@@ -1197,5 +1197,26 @@
         "Sci-Fi"
       ]
     }
+  },
+  {
+    "title": "Black Mirror S6: Beyond the Sea",
+    "type": "tv",
+    "date": [
+      {
+        "day": "16",
+        "month": "06",
+        "year": "2023",
+        "string": "2023-06-17"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 4,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ]
+    }
   }
 ]
