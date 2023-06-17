@@ -20,6 +20,14 @@ tasks:
         complete-build; \
       fi
       zola check
+  - mirror: |
+      cd timharek.no
+      git remote add github git@github.com:timharek/timharek.no.git
+      git remote add codeberg git@codeberg.org:timharek/timharek.no.git
+      ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      ssh-keyscan -t rsa codeberg.org >> ~/.ssh/known_hosts
+      git push github main
+      git push codeberg main
   - build: |
       cd timharek.no
       zola build
