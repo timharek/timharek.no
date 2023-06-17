@@ -6092,5 +6092,28 @@
         "Justin K. Thompson"
       ]
     }
+  },
+  {
+    "title": "Extraction 2",
+    "type": "movie",
+    "date": [
+      {
+        "day": "17",
+        "month": "06",
+        "year": "2023",
+        "string": "2023-06-17"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 3,
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "director": [
+        "Sam Hargrave"
+      ]
+    }
   }
 ]
