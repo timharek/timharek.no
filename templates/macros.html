@@ -36,7 +36,7 @@
 {% macro backlinks(page, title="page") %}
   {% if page.backlinks %}
     <div class="backlinks">
-      <h2>{{ trans(key="also_mentioned_in", lang=lang) }}</h2>
+      <h2 class="backlinks__heading">{{ trans(key="also_mentioned_in", lang=lang) }}</h2>
       <ul class="backlinks__list">
         {% for backlink in page.backlinks %}
         <li>
