@@ -84,7 +84,7 @@ Apple TV+ and I'm impressed so far into two episodes.
 [work]: @/work/index.md
 [uses]: @/about/uses.md
 [logs]: @/logs/_index.md
-[timeline]: @/logs/timeline.md
+[timeline]: /logs/timeline
 [resume_schema]: https://jsonresume.org/
 [cliffy]: https://cliffy.io
 [deno_fresh]: https://fresh.deno.dev/
