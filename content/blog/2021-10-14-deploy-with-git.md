@@ -1,10 +1,10 @@
 +++
-updated = 2022-01-19
 title = "Deploy a static site to production using git-hooks"
 description = """
 How to deploy a static site to production (any kind of Linux-server)."""
+updated = 2023-06-18
 [taxonomies]
-tags = ["git", "DevOps", "tutorial"] 
+tags = ["Git", "DevOps", "Tutorial", "CI/CD"] 
 +++
 
 ## Prerequisites

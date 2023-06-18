@@ -5,11 +5,11 @@ Should you use GitHub Pages/Actions, `scp/rsync`, Sourcehut, GitLab?
 """
 updated = 2022-12-08
 [taxonomies]
-tags = ["DevOps", "Git"]
+tags = ["DevOps", "Git", "CI/CD", "GitHub", "GitLab", "SourceHut", "rsync"]
 +++
 
-{% notice(type="note") %}
-  As of 2022-12-08 [I have switched to SourceHut](@/blog/2022-12-08-switching-to-sourcehut-builds.md).
+{% notice(type="note") %} As of 2022-12-08
+[I have switched to SourceHut](@/blog/2022-12-08-switching-to-sourcehut-builds.md).
 {% end %}
 
 For the last couple of weeks I've been asking myself this. What is the better
@@ -160,7 +160,6 @@ I'm open for suggestions and tips you have any.
 [Checkout my Git-tricks](@/garden/tools/git.md) in my digital garden.
 
 [^1]: Subjective opinion, because of their massive user base.
-
 [^2]: There are a few more options if you want to have custom domain etc.
 
 [jekyll]: https://jekyllrb.com
