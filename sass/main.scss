@@ -141,6 +141,21 @@ a {
   }
 }
 
+kbd {
+  font-family: $font-family-mono;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0 $spacingSmall;
+  box-shadow: 1px 1px 1px #777;
+  margin: 2px;
+  background: #eee;
+  font-weight: 500;
+  color: var(--color-background);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+}
+
 .skip-to-content {
   display: inline-block;
   height: 1px;
