@@ -3,8 +3,8 @@ packages:
   - rsync
   - zola
 environment:
-  BUILD_SUBMITTER: git.sr.ht
   deploy: tim@wyd.no
+  deploy2: tim@vps.tukler.no
 secrets:
   - 0323bc6f-a046-4b96-8496-2bac6e7ee107
 sources:
@@ -35,4 +35,8 @@ tasks:
       cd timharek.no
       sshopts="ssh -o StrictHostKeyChecking=no"
       rsync --rsh="$sshopts" -avrP public/ $deploy:sites/timharek.no/public
+  - deploy_new: |
+      cd timharek.no
+      sshopts="ssh -o StrictHostKeyChecking=no"
+      rsync --rsh="$sshopts" -avrP public/ $deploy2:/var/www/timharek.no
 
