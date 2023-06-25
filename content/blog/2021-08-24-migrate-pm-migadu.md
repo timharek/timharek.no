@@ -3,7 +3,7 @@ title = "Migadu > ProtonMail"
 updated = 2021-12-12
 description = "Why I decided against continuing using ProtonMail and migrate over to Migadu. Not a direct comparison nor a review of the services."
 [taxonomies]
-tags = ["Email", "Privacy"] 
+tags = ["Email", "Privacy", "ProtonMail", "Migadu"] 
 +++
 
 I have been a paying for ProtonMail (PM) since October 2018, where I paid for
@@ -77,7 +77,9 @@ I will have to make a proper review of Migadu by the end of the year, I promise!
 
 UPDATE: [My review](@/blog/2021-12-12-migadu-review/index.md)
 
-[^1]: [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/) (protonmail.com)
+[^1]:
+    [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/)
+    (protonmail.com)
 
 [pm-bridge]: https://protonmail.com/bridge/
 [migadu]: https://migadu.com

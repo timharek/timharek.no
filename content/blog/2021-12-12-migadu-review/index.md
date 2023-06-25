@@ -3,7 +3,7 @@ updated = 2022-06-19
 title = "Migadu Review"
 description = "My thoughts on Migadu after using it for 8 months."
 [taxonomies]
-tags = ["Email", "Review", "Privacy"] 
+tags = ["Email", "Review", "Privacy", "Migadu"] 
 +++
 
 [Migadu](https://migadu.com) is an e-mail service provider that provide its
@@ -73,4 +73,3 @@ really looking forward to continue using them and recommending them!
 Also really looking forward to their new CalDav-thingy that they've told me has
 an ETA in January. Hopefully that can help me get away from using iCloud for my
 personal calendar - who knows!
-
