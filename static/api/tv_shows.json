@@ -1218,5 +1218,25 @@
         "Sci-Fi"
       ]
     }
+  },
+  {
+    "title": "Silo S1",
+    "type": "tv",
+    "date": [
+      {
+        "day": "30",
+        "month": "06",
+        "year": "2023",
+        "string": "2023-06-30"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ]
+    }
   }
 ]
