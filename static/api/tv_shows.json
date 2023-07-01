@@ -1220,6 +1220,27 @@
     }
   },
   {
+    "title": "Black Mirror S6: Demon 79",
+    "type": "tv",
+    "date": [
+      {
+        "day": "16",
+        "month": "06",
+        "year": "2023",
+        "string": "2023-06-18"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 4,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ]
+    }
+  },
+  {
     "title": "Silo S1",
     "type": "tv",
     "date": [
