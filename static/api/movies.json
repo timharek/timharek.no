@@ -6115,5 +6115,30 @@
         "Sam Hargrave"
       ]
     }
+  },
+  {
+    "title": "Luck",
+    "type": "movie",
+    "date": [
+      {
+        "day": "01",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-01"
+      }
+    ],
+    "details": {
+      "release_year": 2022,
+      "my_rating": 4,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": [
+        "Peggy Holmes",
+        "Javier Abad"
+      ]
+    }
   }
 ]
