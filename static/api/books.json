@@ -433,5 +433,27 @@
         "Comicbook"
       ]
     }
+  },
+  {
+    "title": "Crossover: Volume 1",
+    "type": "book",
+    "date": [
+      {
+        "day": "17",
+        "month": "06",
+        "year": "2023",
+        "string": "2023-06-17"
+      }
+    ],
+    "details": {
+      "publish_year": 2022,
+      "author": [
+        "Scott Snyder"
+      ],
+      "my_rating": 4,
+      "genres": [
+        "Comicbook"
+      ]
+    }
   }
 ]
