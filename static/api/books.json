@@ -455,5 +455,29 @@
         "Comicbook"
       ]
     }
+  },
+  {
+    "title": "Skriv godt, bli forstått",
+    "type": "book",
+    "date": [
+      {
+        "day": "04",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-04"
+      }
+    ],
+    "details": {
+      "publish_year": 2021,
+      "author": [
+        "Christine Calvert",
+        "Ove Dalen"
+      ],
+      "my_rating": 5,
+      "genres": [
+        "Writing",
+        "Language"
+      ]
+    }
   }
 ]
