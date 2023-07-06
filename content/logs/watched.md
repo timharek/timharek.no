@@ -12,6 +12,11 @@ year_field = "release_year"
 
 Movies and TV shows that I've watched. Not a complete list.
 
+Currently watching:
+
+- Secret Invasion S1
+- Barry S1
+
 {% details(heading="Legend") %}
 
   <dl class="review__rating">

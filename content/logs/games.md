@@ -10,7 +10,12 @@ date_field_is_array = false
 
 Video games I've finished. Not a complete list.
 
+Currently playing:
+
+- Zelda: Tears of the Kingdom
+
 {% details(heading="Legend") %}
+
   <dl class="review__rating">
     <dt aria-label="1 out of 5 stars">★☆☆☆☆</dt>
     <dd>Awful.</dd>
@@ -24,4 +29,3 @@ Video games I've finished. Not a complete list.
     <dd>Must play!</dd>
   </dl>
 {% end %}
-
