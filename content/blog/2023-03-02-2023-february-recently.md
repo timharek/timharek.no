@@ -1,6 +1,7 @@
 +++
 title = "February 2023"
 description = "What I've been up to since January."
+updated = 2023-07-09
 [taxonomies]
 tags = ["100 days to offload", "Recently"]
 +++
@@ -19,9 +20,10 @@ ran another "competetive" half-marathon.
 
 ## 🌐 Website
 
-I added a new page, [Bookmarks][bookmarks], which is a collection of the
-bookmarks I've collected throughout the years, that I'm storing on my own
-self-hosted Linkding-instance. Other than that I've made a few bugfixes.
+I added a new page, Bookmarks (removed as of July 9th 2023), which is a
+collection of the bookmarks I've collected throughout the years, that I'm
+storing on my own self-hosted Linkding-instance. Other than that I've made a few
+bugfixes.
 
 ## 🎬 Entertainment
 
@@ -47,5 +49,3 @@ Lots are happening, we're started the process of selling our apartment this week
 and hopefully have completed the process of putting it up for sale before
 easter. So if I'm unresponsive to emails and messages etc. this month, that
 might be the reason why.
-
-[bookmarks]: @/bookmarks.md
