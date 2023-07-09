@@ -12,7 +12,8 @@ Video games I've finished. Not a complete list.
 
 Currently playing:
 
-- Zelda: Tears of the Kingdom
+- Zelda: Tears of the Kingdom on the Nintendo Switch
+- Dave the Diver on the Steam Deck
 
 {% details(heading="Legend") %}
 
