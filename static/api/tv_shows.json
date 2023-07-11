@@ -1259,5 +1259,26 @@
         "Sci-Fi"
       ]
     }
+  },
+  {
+    "title": "Barry S1",
+    "type": "tv",
+    "date": [
+      {
+        "day": "11",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-11"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 4,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ]
+    }
   }
 ]
