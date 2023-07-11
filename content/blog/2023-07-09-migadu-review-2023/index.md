@@ -1,6 +1,7 @@
 +++
 title = "Migadu review 2023"
 description = "After using the service for more than two years."
+updated = 2023-07-11
 [taxonomies]
 tags = ["Email", "Review", "Privacy", "Migadu", "100 days to offload"]
 +++
@@ -78,6 +79,9 @@ There are also more, but they are more specific to support and Migadu as long
 lasting company. To see all of their features check out [Migadu's
 website][migadu].
 
+Migadu also offers a [student discount][migadu_student] with a valid ID. For
+more details you need to contact them.
+
 ## What is different with Migadu?
 
 The single thing I would say that makes Migadu different is that focus on
@@ -127,3 +131,4 @@ If you have a basic email need there may be cheaper alterantives availble.
 [migadu_proscons]: https://www.migadu.com/procon/
 [migadu]: https://www.migadu.com/index.html
 [srht_migadu]: https://sr.ht/~migadu/alps/
+[migadu_student]: https://www.migadu.com/pricing/#do-you-offer-student-discounts
