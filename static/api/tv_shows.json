@@ -1280,5 +1280,26 @@
         "Crime"
       ]
     }
+  },
+  {
+    "title": "Barry S2",
+    "type": "tv",
+    "date": [
+      {
+        "day": "22",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-22"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ]
+    }
   }
 ]
