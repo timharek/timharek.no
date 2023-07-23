@@ -6140,5 +6140,29 @@
         "Javier Abad"
       ]
     }
+  },
+  {
+    "title": "Oppenheimer",
+    "type": "movie",
+    "date": [
+      {
+        "day": "23",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-23"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 5,
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "director": [
+        "Christopher Nolan"
+      ]
+    }
   }
 ]
