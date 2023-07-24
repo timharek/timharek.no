@@ -16,7 +16,6 @@ Currently watching:
 
 - Secret Invasion S1
 - Barry S3
-- The Bear S2
 
 {% details(heading="Legend") %}
 
