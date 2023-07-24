@@ -1301,5 +1301,25 @@
         "Crime"
       ]
     }
+  },
+  {
+    "title": "The Bear S2",
+    "type": "tv",
+    "date": [
+      {
+        "day": "24",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-24"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ]
+    }
   }
 ]
