@@ -1321,5 +1321,26 @@
         "Drama"
       ]
     }
+  },
+  {
+    "title": "Barry S3",
+    "type": "tv",
+    "date": [
+      {
+        "day": "26",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-26"
+      }
+    ],
+    "details": {
+      "release_year": null,
+      "my_rating": 5,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ]
+    }
   }
 ]
