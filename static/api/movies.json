@@ -6164,5 +6164,28 @@
         "Christopher Nolan"
       ]
     }
+  },
+  {
+    "title": "Tommy Boy",
+    "type": "movie",
+    "date": [
+      {
+        "day": "28",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-28"
+      }
+    ],
+    "details": {
+      "release_year": 1995,
+      "my_rating": 3,
+      "genres": [
+        "Adventure",
+        "Comedy"
+      ],
+      "director": [
+        "Peter Segal"
+      ]
+    }
   }
 ]
