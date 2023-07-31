@@ -6187,5 +6187,29 @@
         "Peter Segal"
       ]
     }
+  },
+  {
+    "title": "Barbie",
+    "type": "movie",
+    "date": [
+      {
+        "day": "30",
+        "month": "07",
+        "year": "2023",
+        "string": "2023-07-30"
+      }
+    ],
+    "details": {
+      "release_year": 2023,
+      "my_rating": 4,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "director": [
+        "Greta Gerwig"
+      ]
+    }
   }
 ]
