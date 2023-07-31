@@ -14,7 +14,6 @@ Movies and TV shows that I've watched. Not a complete list.
 
 Currently watching:
 
-- Secret Invasion S1
 - Barry S4
 
 {% details(heading="Legend") %}
