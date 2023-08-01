@@ -1,5 +1,5 @@
 {
-  "last_update": "2023-06-04",
+  "last_update": "2023-08-01",
   "basics": {
     "name": "Tim Hårek Andreassen",
     "label": "Full-stack developer",
@@ -35,10 +35,11 @@
       "logo": "/cv/netlife.svg",
       "summary": null,
       "highlights": [
-        "Tech lead role with a responsibility for multiple technologists.",
+        "Tech lead in multiple projects.",
         "Held internal workshops.",
         "Held presentations about technology and UX at the University of Bergen.",
-        "Full-stack development with Craft CMS, Sanity CMS, Next.js, Vue.js and Deno."
+        "Full-stack development with Craft CMS, Sanity CMS, Next.js, Vue.js and Deno.",
+        "Mentored new developers."
       ]
     },
     {
@@ -65,7 +66,7 @@
       "logo": "/img/logo.svg",
       "summary": null,
       "highlights": [
-        "Working for Netlife Bergen.",
+        "Worked for Netlife Bergen.",
         "Development on KHdele's website.",
         "Development on One Ocean Expedtion's website."
       ]
@@ -93,7 +94,7 @@
       "summary": null,
       "highlights": [
         "Computer-repair of Dell and Lenovo computers, both laptops and desktops.",
-        "IT support at ABB Bergen Kokstad."
+        "IT support at ABB Bergen, Kokstad."
       ]
     },
     {
@@ -104,7 +105,7 @@
       "position": "Developer (Summer intern)",
       "logo": "/cv/appex.svg",
       "highlights": [
-        "Pilot project Sildikon Valley 2019 in Haugesund.",
+        "Pilot project Sildikon Valley 2019, in Haugesund.",
         "Developed a cross-platform AR-app for a local real-estate company."
       ]
     },
@@ -145,9 +146,9 @@
       "logo": "/cv/fribyte.svg",
       "highlights": [
         "Maintenance and operation of IT systems for student organizations in Bergen.",
-        "Setup of different services for automatic deployment of other services.",
+        "Set up of different services for automatic deployment of other services.",
         "Configuring a easy to maintain script for checking server availability.",
-        "Setup of Mattermost, moderating channels and maintaining channel workflows.",
+        "Set up Mattermost, moderating channels and maintaining channel workflows.",
         "Initiate Ansible-workflow for maintaining servers."
       ]
     },
@@ -161,9 +162,9 @@
       "logo": "/cv/fribyte.svg",
       "highlights": [
         "Administrative tasks, convene meetings etc.",
-        "Re-designed their website.",
-        "Currently restructuring their server-infrastructure.",
-        "Simplifying how the organization operates and responds to inquires."
+        "Re-designed the current website website.",
+        "Restructured some of the server-infrastructure.",
+        "Simplified how the organization operates and responds to inquires."
       ]
     },
     {
@@ -175,7 +176,7 @@
       "url": "https://srib.no",
       "logo": "/cv/srib.svg",
       "highlights": [
-        "Contributed on the development of their new website."
+        "Contributed on the development on their new website."
       ]
     }
   ],
