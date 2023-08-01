@@ -34,13 +34,10 @@ This website is built using [Zola][zola] by yours truly.
 
 Proud member of:
 
-- [1MB club][1mb]
+- [1MB club][1mb].
 - [512KB club][512kb].
 
-Source code is available on:
-
-- [SourceHut][sourcehut].
-- [Codeberg][codeberg]
+Source code is available on [SourceHut][sourcehut].
 
 [1984]: https://1984hosting.com
 [zola]: https://getzola.org
