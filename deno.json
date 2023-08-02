@@ -20,7 +20,7 @@
     "twind/": "https://esm.sh/twind@1.0.7/",
     "@twind/": "https://esm.sh/@twind/",
     "$std/": "https://deno.land/std@0.189.0/",
-    "gfm/": "https://deno.land/x/gfm@0.2.3/"
+    "gfm/": "https://deno.land/x/gfm@0.2.5/"
   },
   "lint": {
     "rules": {
