@@ -64,6 +64,16 @@ export async function getAllBlogPosts(): Promise<Post[]> {
   return posts.sort((a, b) => b.date.getTime() - a.date.getTime());
 }
 
+export async function getBlogPostsByTag(tag: string): Promise<Post[] | null> {
+  const allPosts = await getAllBlogPosts();
+
+  const postsByTag = allPosts.filter((post) =>
+    post.taxonomies && post.taxonomies.tags.includes(tag)
+  );
+
+  return postsByTag.length > 0 ? postsByTag : null;
+}
+
 interface PageQuery {
   name: string;
   path: string;
