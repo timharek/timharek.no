@@ -15,9 +15,9 @@ $b-md: 768px;
 :root {
   --wrapper: 760px;
   --color-primary: #0096f5;
-  --color-background: #212121;
-  --color-background-secondary: #262626;
-  --color-background-aside: #151515;
+  --color-background: #04081a;
+  --color-background-secondary: #111a2c;
+  --color-background-aside: #233143;
   --color-border-aside: #abb2bf;
   --color-default-text: #fefefe;
   font-family: $font-family-sans;
@@ -294,7 +294,7 @@ code {
 
 pre,
 code {
-  background: $code-bg-dark !important;
+  background: var(--color-background-aside) !important;
   padding: $spacingSmall $spacing;
   border-radius: $spacingSmall;
   line-height: 1.5;
