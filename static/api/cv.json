@@ -1,5 +1,5 @@
 {
-  "last_update": "2023-08-01",
+  "last_update": "2023-08-04",
   "basics": {
     "name": "Tim Hårek Andreassen",
     "label": "Full-stack developer",
@@ -7,7 +7,7 @@
     "email": "tim@harek.no",
     "phone": "+47 400 43 672",
     "url": "https://timharek.no",
-    "summary": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a technologist at Netlife Design, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
+    "summary": "I'm a developer from the west coast of Norway. I care about creating solutions that respects people, in terms of privacy, security and user experience. I have a bachelors degree in informatics, specifically Computer Security. Presently I'm working as a developer at Value Group, and I'm also an IT manager for an offshore-service company, Vest Kontakt.",
     "location": {
       "city": "Bergen",
       "countryCode": "NO"
@@ -27,11 +27,22 @@
   },
   "work": [
     {
+      "name": "Value Group",
+      "position": "Developer",
+      "url": "https://valuegroup.no",
+      "startDate": "2023-08-07",
+      "endDate": null,
+      "summary": null,
+      "highlights": [
+        "Full-stack applications with Next.js and Google Cloud Run."
+      ]
+    },
+    {
       "name": "Netlife Bergen",
       "position": "Technologist",
       "url": "https://netlife.com",
       "startDate": "2021-08-02",
-      "endDate": null,
+      "endDate": "2023-08-04",
       "logo": "/cv/netlife.svg",
       "summary": null,
       "highlights": [
@@ -250,7 +261,10 @@
         "GitHub Actions",
         "Helix",
         "UNIX",
-        "Vim"
+        "Vim",
+        "AWS Amplify",
+        "Azure",
+        "Google Cloud Run"
       ]
     },
     {

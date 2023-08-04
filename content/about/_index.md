@@ -3,7 +3,7 @@ title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
 template = "layouts/page.html"
 [extra]
-updated = 2023-01-24
+updated = 2023-08-04
 subnav = [
   { name = "CV", path = "@/about/cv/index.md" },
   { name = "Work", path = "@/work/index.md" },
@@ -17,8 +17,8 @@ I'm Tim Hårek Andreassen, a technologist, developer, UX designer, hiker and
 dog-person from the west coast of Norway. I care about creating solutions that
 respects people, in terms of privacy, security and user experience.
 
-I work as a technologist at Netlife Bergen where I mostly dabble with full stack
-development, accessibility and UX design.
+I work as a developer at Value Group where I dabble with full stack development,
+architecture, accessibility and UX design.
 
 During my my free time I learn about new technologies, automate my everyday and
 hike with my dog! 🐕
@@ -43,5 +43,4 @@ Source code is available on [SourceHut][sourcehut].
 [zola]: https://getzola.org
 [1mb]: https://1mb.club
 [512kb]: https://512kb.club
-[codeberg]: https://codeberg.org/timharek/timharek.no
 [sourcehut]: https://git.sr.ht/~timharek/timharek.no
