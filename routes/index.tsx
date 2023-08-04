@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
+import { PostList } from "../components/PostList.tsx";
 import { getAllBlogPosts } from "../src/utils.ts";
 import { ServerState } from "./_middleware.ts";
 
@@ -27,13 +28,7 @@ export default function Home({ data }: PageProps<HomeProps>) {
       </section>
       <section class="space-y-4 md:space-y-8">
         <h2 class="text-3xl font-semibold">Latest posts</h2>
-        <ul>
-          {posts.map((post) => (
-            <li class="">
-              <a href={post.path}>{post.title}</a>
-            </li>
-          ))}
-        </ul>
+        <PostList posts={posts} />
       </section>
     </div>
   );

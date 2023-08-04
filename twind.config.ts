@@ -6,6 +6,11 @@ export default {
     presets: [
       presetTailwind(),
     ],
+    theme: {
+      extend: {
+        colors: { primary: "#70a3f3" },
+      },
+    },
   }),
   selfURL: import.meta.url,
 };

@@ -33,7 +33,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
   const blogDir = Deno.readDir(blogPath);
   const posts: Post[] = [];
   for await (const entry of blogDir) {
-    if (entry.name === "_index.md") {
+    if (entry.name === "_index.md" || entry.name === "_index.no.md") {
       continue;
     }
     const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);

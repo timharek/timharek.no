@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
+import { PostList } from "../../components/PostList.tsx";
 import { getAllBlogPosts } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 
@@ -20,13 +21,7 @@ export default function BlogIndex({ data }: PageProps<BlogProps>) {
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">
       <h1>Blog</h1>
-      <ul class="">
-        {posts.map((post) => (
-          <li class="">
-            <a href={post.path}>{post.title}</a>
-          </li>
-        ))}
-      </ul>
+      <PostList posts={posts} />
     </div>
   );
 }

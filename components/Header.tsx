@@ -5,7 +5,7 @@ export function Header() {
   return (
     <>
       <a
-        class="transition left-0 bg-primary text-primary-content absolute p-3 m-3 -translate-y-16 focus:translate-y-0"
+        class="transition left-0 bg-primary text-primary-content absolute p-3 m-3 -translate-y-32 focus:translate-y-0"
         href="#main"
       >
         Skip to content
