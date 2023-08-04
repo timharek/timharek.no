@@ -26,8 +26,8 @@ tasks:
       git remote add codeberg git@codeberg.org:timharek/timharek.no.git
       ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       ssh-keyscan -t rsa codeberg.org >> ~/.ssh/known_hosts
-      git push github main
-      git push codeberg main
+      git push -f github main
+      git push -f codeberg main
   - build: |
       cd timharek.no
       zola build
