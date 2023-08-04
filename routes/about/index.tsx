@@ -2,6 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { CSS, render } from "gfm/mod.ts";
 import { getSection } from "../../src/utils.ts";
+import { ServerState } from "../_middleware.ts";
 
 interface Props {
   markdown: string;
@@ -10,7 +11,7 @@ interface Props {
   };
 }
 
-export const handler: Handlers = {
+export const handler: Handlers<Props, ServerState> = {
   async GET(_req, ctx) {
     try {
       const { body, attrs } = await getSection("about");
@@ -18,7 +19,8 @@ export const handler: Handlers = {
         markdown: body,
         frontMatter: attrs,
       };
-      return ctx.render(page);
+      ctx.state.title = `About - ${ctx.state.title}`;
+      return ctx.render({ ...ctx.state, ...page });
     } catch (error) {
       console.error(error);
       return ctx.renderNotFound();

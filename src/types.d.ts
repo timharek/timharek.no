@@ -3,6 +3,7 @@ interface Post {
   date: Date;
   path: string;
   draft?: boolean;
+  description?: string;
   taxonomies?: {
     tags: string[];
   };
@@ -16,6 +17,7 @@ interface Section {
 interface Page {
   title: string;
   path: string;
+  description?: string;
 }
 
 interface Tag {

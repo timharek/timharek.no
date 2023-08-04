@@ -1,12 +1,12 @@
-import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { getTag } from "../../src/utils.ts";
+import { ServerState } from "../_middleware.ts";
 
 interface TagPageProps {
-  title: string;
+  tag: Tag;
 }
 
-export const handler: Handlers<TagPageProps, unknown> = {
+export const handler: Handlers<TagPageProps, ServerState> = {
   async GET(_req, ctx) {
     const slug = ctx.params.slug;
 
@@ -15,22 +15,19 @@ export const handler: Handlers<TagPageProps, unknown> = {
     if (!tag) {
       return ctx.renderNotFound();
     }
+    ctx.state.title = `Tags: ${tag.title} - ${ctx.state.title}`;
+    console.log("title", ctx.state.title);
 
-    return ctx.render(tag);
+    return ctx.render({ ...ctx.state, tag });
   },
 };
 
 export default function TagPage({ data }: PageProps<TagPageProps>) {
-  const { title } = data;
+  const { tag } = data;
 
   return (
-    <>
-      <Head>
-        <title>{title} - Tags - Tim Hårek</title>
-      </Head>
-      <main>
-        <h1>{title}</h1>
-      </main>
-    </>
+    <div class="max-w-screen-md mx-auto px-4 prose">
+      <h1>{tag.title}</h1>
+    </div>
   );
 }

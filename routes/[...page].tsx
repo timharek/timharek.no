@@ -2,15 +2,14 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { CSS, render } from "gfm/mod.ts";
 import { getAllPages, getMarkdownFile } from "../src/utils.ts";
+import { ServerState } from "./_middleware.ts";
 
 interface Props {
   markdown: string;
-  frontMatter: {
-    title: string;
-  };
+  frontMatter: Page;
 }
 
-export const handler: Handlers = {
+export const handler: Handlers<Props, ServerState> = {
   async GET(_req, ctx) {
     const page = ctx.params.page;
     const allPages = await getAllPages();
@@ -29,7 +28,11 @@ export const handler: Handlers = {
         markdown: body,
         frontMatter: attrs,
       };
-      return ctx.render(page);
+      ctx.state.title = `${page.frontMatter.title} - ${ctx.state.title}`;
+      ctx.state.description = page.frontMatter.description ??
+        ctx.state.description;
+
+      return ctx.render({ ...ctx.state, ...page });
     } catch (error) {
       console.error(error);
       return ctx.renderNotFound();

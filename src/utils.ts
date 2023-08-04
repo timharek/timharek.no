@@ -119,7 +119,6 @@ export async function getAllTags(): Promise<Tag[]> {
       }
     }).filter((tag) => tag !== undefined),
   );
-  console.log(tagsUnique);
   const tags = Array.from(tagsUnique).map((tag) => {
     if (tag) {
       const slug = slugify(tag);

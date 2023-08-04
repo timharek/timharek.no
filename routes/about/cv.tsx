@@ -1,5 +1,5 @@
-import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
+import { ServerState } from "../_middleware.ts";
 
 interface CVProps {
   last_update: string;
@@ -8,7 +8,7 @@ interface CVProps {
   };
 }
 
-export const handler: Handlers = {
+export const handler: Handlers<CVProps, ServerState> = {
   async GET(req, ctx) {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
@@ -19,7 +19,8 @@ export const handler: Handlers = {
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
-      return ctx.render(cv);
+      ctx.state.title = `CV - ${ctx.state.title}`;
+      return ctx.render({ ...ctx.state, ...cv });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
@@ -30,18 +31,11 @@ export const handler: Handlers = {
   },
 };
 
-export default function CV({ data }: PageProps<CVProps>) {
-  const title = "CV";
-
+export default function CV({ data }: PageProps<CVProps & ServerState>) {
   return (
-    <>
-      <Head>
-        <title>{title} - Tim Hårek</title>
-      </Head>
-      <article class="max-w-screen-md mx-auto px-4 mb-4 prose">
-        <h1>{title}</h1>
-        {data.basics.summary}
-      </article>
-    </>
+    <div class="max-w-screen-md mx-auto px-4 mb-4 prose">
+      <h1>{data.title}</h1>
+      {data.basics.summary}
+    </div>
   );
 }

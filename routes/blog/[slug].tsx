@@ -3,13 +3,14 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { CSS, render } from "gfm/mod.ts";
 import { extract } from "$std/front_matter/any.ts";
 import { slugify } from "../../src/utils.ts";
+import { ServerState } from "../_middleware.ts";
 
 interface BlogPostProps {
   markdown: string;
   frontMatter: Post;
 }
 
-export const handler: Handlers = {
+export const handler: Handlers<BlogPostProps, ServerState> = {
   async GET(_req, ctx) {
     const slug = ctx.params.slug;
 
@@ -39,7 +40,8 @@ export const handler: Handlers = {
       markdown: body,
       frontMatter: attrs as unknown as BlogPostProps["frontMatter"] ?? {},
     };
-    const resp = ctx.render(page);
+    ctx.state.title = `${page.frontMatter.title} - ${ctx.state.title}`;
+    const resp = ctx.render({ ...ctx.state, ...page });
     return resp;
   },
 };
@@ -61,7 +63,6 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
   return (
     <>
       <Head>
-        <title>{title} - Blog - Tim Hårek</title>
         <style dangerouslySetInnerHTML={{ __html: css }} />
       </Head>
       <article
