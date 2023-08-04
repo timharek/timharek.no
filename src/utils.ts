@@ -1,5 +1,16 @@
 import extract from "$std/front_matter/any.ts";
 
+export function slugify(text: string): string {
+  return text
+    .toString() // Cast to string (optional)
+    .normalize("NFKD") // The normalize() using NFKD method returns the Unicode Normalization Form of a given string.
+    .toLowerCase() // Convert the string to lowercase letters
+    .trim() // Remove whitespace from both sides of a string (optional)
+    .replace(/\./g, "-") // Replace spaces with -
+    .replace(/\s+/g, "-") // Replace spaces with -
+    .replace(/\-\-+/g, "-"); // Replace multiple - with single -
+}
+
 export async function getMarkdownFile<T>(path: URL) {
   const fileContent = await Deno.readTextFile(path);
   const markdownFile = extract<T>(fileContent);
@@ -46,6 +57,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
         title: attrs.title,
         date: new Date(postDate),
         path: `/blog/${postWithoutDate}`,
+        taxonomies: attrs.taxonomies,
       });
     }
   }
@@ -96,4 +108,35 @@ export async function getAllPages(): Promise<PageQuery[]> {
 
 function isSection(path: string) {
   return path.match("_index.md|_index.no.md");
+}
+
+export async function getAllTags(): Promise<Tag[]> {
+  const posts = await getAllBlogPosts();
+  const tagsUnique = new Set(
+    posts.flatMap((post) => {
+      if (post.taxonomies && post.taxonomies?.tags.length > 0) {
+        return post.taxonomies.tags;
+      }
+    }).filter((tag) => tag !== undefined),
+  );
+  console.log(tagsUnique);
+  const tags = Array.from(tagsUnique).map((tag) => {
+    if (tag) {
+      const slug = slugify(tag);
+      return {
+        title: tag,
+        path: `/tags/${slug}`,
+        slug,
+      };
+    }
+  });
+  return tags;
+}
+
+export async function getTag(slug: string): Promise<Tag | null> {
+  const tags = await getAllTags();
+
+  const tag = tags.find((tag) => tag.slug === slug);
+
+  return tag ? tag : null;
 }

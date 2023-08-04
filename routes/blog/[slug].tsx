@@ -2,12 +2,11 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { CSS, render } from "gfm/mod.ts";
 import { extract } from "$std/front_matter/any.ts";
+import { slugify } from "../../src/utils.ts";
 
 interface BlogPostProps {
   markdown: string;
-  frontMatter: {
-    title: string;
-  };
+  frontMatter: Post;
 }
 
 export const handler: Handlers = {
@@ -38,7 +37,7 @@ export const handler: Handlers = {
     const { body, attrs } = extract(fileContent);
     const page: BlogPostProps = {
       markdown: body,
-      frontMatter: attrs as BlogPostProps["frontMatter"] ?? {},
+      frontMatter: attrs as unknown as BlogPostProps["frontMatter"] ?? {},
     };
     const resp = ctx.render(page);
     return resp;
@@ -72,6 +71,16 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
       >
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: body }}></div>
+        <ul>
+          {frontMatter.taxonomies &&
+            frontMatter.taxonomies.tags.map((tag) => (
+              <li>
+                <a href={`/tags/${slugify(tag)}`}>
+                  {tag}
+                </a>
+              </li>
+            ))}
+        </ul>
       </article>
     </>
   );
