@@ -129,7 +129,7 @@ export async function getAllTags(): Promise<Tag[]> {
       }
     }).filter((tag) => tag !== undefined),
   );
-  const tags = Array.from(tagsUnique).map((tag) => {
+  const tags: Tag[] = Array.from(tagsUnique).map((tag) => {
     if (tag) {
       const slug = slugify(tag);
       return {
@@ -139,7 +139,8 @@ export async function getAllTags(): Promise<Tag[]> {
       };
     }
   });
-  return tags;
+
+  return tags.sort((a, b) => a?.title.localeCompare(b?.title));
 }
 
 export async function getTag(slug: string): Promise<Tag | null> {
