@@ -2,7 +2,7 @@
 title = "My thoughts on Helix after 6 months"
 description = "What I like and don't like."
 [taxonomies]
-tags = ["100 Days to Offload", "Software", "Tools", "Helix", "Thoughts"]
+tags = ["100 days to offload", "Software", "Tools", "Helix", "Thoughts"]
 +++
 
 Back in [January][helix_post] I decided to try out Helix as my primary editor
