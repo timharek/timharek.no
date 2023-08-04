@@ -2,7 +2,7 @@
 title = "Revisting paper notes"
 description = "What has happend after writing paper notes for more than a year."
 [taxonomies]
-tags = ["note-taking", "100 days to offload"]
+tags = ["Note-taking", "100 days to offload"]
 +++
 
 Last year I wrote about how I [went back to paper notes][prev_post] for my
