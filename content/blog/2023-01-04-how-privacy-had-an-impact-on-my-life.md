@@ -2,7 +2,7 @@
 title = "How privacy had an impact on my life"
 description = "Everything took a turn in 2018, during my second year at the university."
 [taxonomies]
-tags = ["100 Days to Offload", "Privacy"]
+tags = ["100 days to offload", "Privacy"]
 +++
 
 To explain how privacy had an impact on my life, I need to start from the
@@ -84,7 +84,7 @@ And to summaries what I've learned:
 When I come to think about it I don't think it has been so inconvenient in a
 sense where I just want to say "Fuck it, let's just the downsides". But I have
 to admit, I'm using some services that goes against my belief of
-privacy-respecting solutions. And I'm so grateful that my friends and family has 
+privacy-respecting solutions. And I'm so grateful that my friends and family has
 started to take an interest in why privacy (and security) is important.
 
 [bitwarden]: https://bitwarden.com

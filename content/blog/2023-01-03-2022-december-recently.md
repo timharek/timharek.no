@@ -2,7 +2,7 @@
 title = "December 2022"
 description = "What I've been up to since November."
 [taxonomies]
-tags = ["Recently", "100 Days To Offload"]
+tags = ["Recently", "100 days to offload"]
 +++
 
 December, the month that feels so short since you need to do some much stuff
@@ -68,8 +68,8 @@ Finished **Black Bird** &mdash; Great show, with amazing performances!
 
 - **Glass Onion: A Knives Out Mystery** &mdash; Not impressed, the first one is
   a proper detective movie - this was just a hollywood-showoff.
-- **Verdens verste menneske (The Worst Person in the World)** &mdash; A Norwegian
-  movie, a great watch - highly recommend!
+- **Verdens verste menneske (The Worst Person in the World)** &mdash; A
+  Norwegian movie, a great watch - highly recommend!
 
 [srht_post]: @/blog/2022-12-08-switching-to-sourcehut-builds.md
 [livechat_post]: @/blog/2022-12-07-you-dont-need-chat-on-your-site.md

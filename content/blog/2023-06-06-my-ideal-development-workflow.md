@@ -2,7 +2,7 @@
 title = "My ideal development workflow"
 description = "How I like to work in order to get things done."
 [taxonomies]
-tags = ["100 days to offload", "thoughts", "git", "devops"]
+tags = ["100 days to offload", "Thoughts", "Git", "DevOps"]
 +++
 
 This year I've started a few project both during my spare-time, but also at
