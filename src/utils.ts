@@ -51,13 +51,14 @@ export async function getAllBlogPosts(): Promise<Post[]> {
       `../content/blog/${isNested ? `${entry.name}/index.md` : entry.name}`,
       import.meta.url,
     );
-    const { attrs } = await getMarkdownFile<Post>(postPath);
+    const { attrs, body } = await getMarkdownFile<Post>(postPath);
     if (!attrs.draft) {
       posts.push({
         title: attrs.title,
         date: new Date(postDate),
         path: `/blog/${postWithoutDate}`,
         taxonomies: attrs.taxonomies,
+        content: body,
       });
     }
   }

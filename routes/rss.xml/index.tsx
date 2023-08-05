@@ -1,0 +1,73 @@
+import { Handlers } from "$fresh/server.ts";
+import { sanitizeHtml } from "gfm/deps.ts";
+import { config } from "../../config.ts";
+import { getAllBlogPosts } from "../../src/utils.ts";
+import { ServerState } from "../_middleware.ts";
+import { render } from "gfm/mod.ts";
+export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
+
+interface RSSProps {
+  posts: Post[];
+}
+
+export const handler: Handlers<RSSProps, ServerState> = {
+  async GET(_req, ctx) {
+    const posts = await getAllBlogPosts();
+
+    const rss = generateRssFeed(posts);
+
+    return new Response(rss, { headers: { "content-type": "text/xml" } });
+  },
+};
+
+function generateRssFeed(posts: Post[]): string {
+  const postsRss = posts.map((post) => {
+    const tags = post.taxonomies?.tags.map((tag) => {
+      return `<category term="${sanitizeHtml(tag)}" />`;
+    }).filter((tag) => tag !== undefined);
+
+    return `<entry xml:lang="en">
+		<title>${sanitizeHtml(post.title)}</title>
+		<author>
+			<name>${config.author}</name>
+			<email>${config.email}</email>
+			<uri>${config.base_url}</uri>
+			</author>
+		<published>${post.date.toISOString()}</published>
+		<updated>${
+      post.updated ? post.updated.toISOString() : post.date.toISOString()
+    }</updated>
+		<link rel="alternate" href="${config.base_url}/${post.path}" type="text/html"/>
+		<id>${config.base_url}/${post.path}</id>
+    ${tags ? tags.join("\n") : ""}
+		<content type="html">
+      ${render(post.content)}
+      ${
+      sanitizeHtml(
+        `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,
+      )
+    }
+    </content>
+	</entry>
+`;
+  });
+
+  const feedUrl = `${config.base_url}/rss.xml`;
+  const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>${config.title}</title>
+	<subtitle>${config.description}</subtitle>
+	<link href="${feedUrl}" rel="self" type="application/atom+xml"/>
+  <link href="${config.base_url}"/>
+	<updated>${
+    posts[0].updated
+      ? posts[0].updated.toISOString()
+      : posts[0].date.toISOString()
+  }</updated>
+	<id>${feedUrl}</id>
+	${postsRss.join("\n")}}
+</feed>
+  `;
+
+  return rss;
+}

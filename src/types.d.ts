@@ -1,12 +1,14 @@
 interface Post {
   title: string;
   date: Date;
+  updated?: Date;
   path: string;
   draft?: boolean;
   description?: string;
   taxonomies?: {
     tags: string[];
   };
+  content: string;
 }
 
 interface Section {
