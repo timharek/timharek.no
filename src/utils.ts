@@ -60,6 +60,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
         path: `/blog/${postWithoutDate}`,
         taxonomies: attrs.taxonomies,
         content: body,
+        ...(attrs.updated && { updated: attrs.updated }),
       });
     }
   }
@@ -94,8 +95,10 @@ export async function getAllPages(): Promise<Page[]> {
           continue;
         }
         if (subItem.name.match("index.md")) {
-          const path = `${contentPath}/${item.name}/${subItem.name}`;
-          const filePath = new URL(path);
+          const path = `${item.name}/${subItem.name}`;
+          const filePath = new URL(
+            `${contentPath}/${item.name}/${subItem.name}`,
+          );
           const { attrs, body } = await getMarkdownFile<Page>(filePath);
           if (!attrs.draft) {
             pages.push({
@@ -103,6 +106,7 @@ export async function getAllPages(): Promise<Page[]> {
               slug: subItem.name.replace(".md", ""),
               path,
               content: body,
+              ...(attrs.updated && { updated: attrs.updated }),
             });
           }
         }
@@ -115,8 +119,8 @@ export async function getAllPages(): Promise<Page[]> {
     if (item.name === ".DS_Store") {
       continue;
     }
-    const path = `${contentPath}/${item.name}`;
-    const filePath = new URL(path);
+    const path = item.name;
+    const filePath = new URL(`${contentPath}/${item.name}`);
     const { attrs, body } = await getMarkdownFile<Page>(filePath);
     if (!attrs.draft) {
       pages.push({
@@ -124,6 +128,7 @@ export async function getAllPages(): Promise<Page[]> {
         slug: item.name.replace(".md", ""),
         path,
         content: body,
+        ...(attrs.updated && { updated: attrs.updated }),
       });
     }
   }

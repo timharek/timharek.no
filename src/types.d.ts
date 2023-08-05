@@ -5,7 +5,7 @@ interface Page {
   /** Markdown */
   content: string;
   description?: string;
-  updated?: string;
+  updated?: Date;
   draft?: string;
 }
 
