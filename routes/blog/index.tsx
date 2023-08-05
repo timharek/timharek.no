@@ -8,9 +8,21 @@ interface BlogProps {
 }
 
 export const handler: Handlers<BlogProps, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(req, ctx) {
+    const url = new URL(req.url);
     const posts = await getAllBlogPosts();
     ctx.state.title = `Blog - ${ctx.state.title}`;
+    ctx.state.breadcrumbs = [
+      {
+        title: "Index",
+        path: "/",
+      },
+      {
+        title: "Blog",
+        path: url.pathname,
+        current: true,
+      },
+    ];
 
     return ctx.render({ ...ctx.state, posts });
   },

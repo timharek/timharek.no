@@ -9,7 +9,8 @@ interface Props {
 }
 
 export const handler: Handlers<Props, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(req, ctx) {
+    const url = new URL(req.url);
     const pageSlug = ctx.params.page;
     const allPages = await getAllPages();
 
@@ -23,6 +24,17 @@ export const handler: Handlers<Props, ServerState> = {
     if (page.description) {
       ctx.state.description = page.description;
     }
+    ctx.state.breadcrumbs = [
+      {
+        title: "Index",
+        path: "/",
+      },
+      {
+        title: page.title,
+        path: url.pathname,
+        current: true,
+      },
+    ];
 
     return ctx.render({ ...ctx.state, page });
   },

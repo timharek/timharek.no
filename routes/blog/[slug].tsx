@@ -11,7 +11,7 @@ interface BlogPostProps {
 }
 
 export const handler: Handlers<BlogPostProps, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(req, ctx) {
     const slug = ctx.params.slug;
 
     const blogPath = new URL(`../../content/blog`, import.meta.url);
@@ -40,7 +40,24 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
       markdown: body,
       frontMatter: attrs as unknown as BlogPostProps["frontMatter"] ?? {},
     };
+    const url = new URL(req.url);
     ctx.state.title = `${page.frontMatter.title} - ${ctx.state.title}`;
+    ctx.state.breadcrumbs = [
+      {
+        title: "Index",
+        path: "/",
+      },
+      {
+        title: "Blog",
+        path: "/blog",
+      },
+      {
+        title: page.frontMatter.title,
+        path: url.pathname,
+        current: true,
+      },
+    ];
+    console.log("req", url.pathname);
     const resp = ctx.render({ ...ctx.state, ...page });
     return resp;
   },

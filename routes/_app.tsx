@@ -18,7 +18,7 @@ export default function App(props: AppProps) {
         <title>{state.title}</title>
       </Head>
       <body class="bg-zinc-900 text-white">
-        <Header />
+        <Header breadcrumbs={state.breadcrumbs} />
         <main id="main">
           <Component />
         </main>

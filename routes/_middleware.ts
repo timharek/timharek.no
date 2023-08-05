@@ -1,9 +1,11 @@
 import { MiddlewareHandlerContext } from "$fresh/server.ts";
+import { Breadcrumbs } from "../components/Breadcrumbs.tsx";
 import { config } from "../config.ts";
 
 export interface ServerState {
   title: string;
   description: string;
+  breadcrumbs: Breadcrumbs[];
 }
 
 export async function handler(

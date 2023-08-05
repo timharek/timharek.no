@@ -1,6 +1,10 @@
 import { config } from "../config.ts";
+import { Breadcrumbs } from "./Breadcrumbs.tsx";
 
-export function Header() {
+interface HeaderProps {
+  breadcrumbs?: Breadcrumbs[];
+}
+export function Header({ breadcrumbs }: HeaderProps) {
   const navigation = config.navigation.header;
   return (
     <>
@@ -30,6 +34,7 @@ export function Header() {
           </ul>
         </nav>
       </header>
+      {breadcrumbs && <Breadcrumbs crumbs={breadcrumbs} />}
     </>
   );
 }

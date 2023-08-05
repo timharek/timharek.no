@@ -7,9 +7,21 @@ interface TagsProps {
 }
 
 export const handler: Handlers<TagsProps, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(req, ctx) {
+    const url = new URL(req.url);
     const tags = await getAllTags();
     ctx.state.title = `Tags - ${ctx.state.title}`;
+    ctx.state.breadcrumbs = [
+      {
+        title: "Index",
+        path: "/",
+      },
+      {
+        title: "Tags",
+        path: url.pathname,
+        current: true,
+      },
+    ];
 
     return ctx.render({ ...ctx.state, tags });
   },

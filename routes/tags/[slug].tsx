@@ -9,7 +9,8 @@ interface TagPageProps {
 }
 
 export const handler: Handlers<TagPageProps, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(req, ctx) {
+    const url = new URL(req.url);
     const slug = ctx.params.slug;
 
     const tag = await getTag(slug);
@@ -25,7 +26,21 @@ export const handler: Handlers<TagPageProps, ServerState> = {
     }
 
     ctx.state.title = `Tags: ${tag.title} - ${ctx.state.title}`;
-    console.log("title", ctx.state.title);
+    ctx.state.breadcrumbs = [
+      {
+        title: "Index",
+        path: "/",
+      },
+      {
+        title: "Tags",
+        path: "/tags",
+      },
+      {
+        title: tag.title,
+        path: url.pathname,
+        current: true,
+      },
+    ];
 
     return ctx.render({ ...ctx.state, tag, posts });
   },
