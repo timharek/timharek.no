@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { CSS, render } from "gfm/mod.ts";
-import { getAllPages } from "../src/utils.ts";
+import { render } from "gfm/mod.ts";
+import { css, getAllPages } from "../src/utils.ts";
 import { ServerState } from "./_middleware.ts";
 
 interface Props {
@@ -43,15 +43,6 @@ export const handler: Handlers<Props, ServerState> = {
 export default function Page({ data }: PageProps<Props>) {
   const { page } = data;
   const body = render(page.content);
-  const css = `
-    ${CSS}
-    .markdown-body {
-      background-color: rgba(24,24,27,var(--tw-bg-opacity)); // bg-zinc-900
-    }
-    .markdown-body ul {
-      list-style: disc;
-    }
-  `;
 
   return (
     <>
@@ -61,10 +52,11 @@ export default function Page({ data }: PageProps<Props>) {
       <article
         data-color-mode="dark"
         data-dark-theme="dark"
-        class="max-w-screen-md mx-auto px-4 mb-4 markdown-body"
+        class="max-w-screen-md mx-auto px-4 mb-4"
       >
-        <h1>{page.title}</h1>
+        <h1 class="text-4xl font-semibold mb-4">{page.title}</h1>
         <div
+          class="markdown-body"
           dangerouslySetInnerHTML={{ __html: body }}
         >
         </div>

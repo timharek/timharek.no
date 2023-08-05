@@ -32,7 +32,7 @@ export default function BlogIndex({ data }: PageProps<BlogProps>) {
   const { posts } = data;
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">
-      <h1>Blog</h1>
+      <h1 class="text-4xl font-semibold mb-4">Blog</h1>
       <PostList posts={posts} />
     </div>
   );

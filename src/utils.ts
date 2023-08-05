@@ -1,4 +1,5 @@
 import extract from "$std/front_matter/any.ts";
+import { CSS } from "gfm/mod.ts";
 
 export function slugify(text: string): string {
   return text
@@ -178,3 +179,15 @@ export async function getTag(slug: string): Promise<Tag | null> {
 
   return tag ? tag : null;
 }
+
+export const css = `
+    ${CSS}
+    .markdown-body {
+      /* bg-zinc-900 */
+      --color-canvas-default: rgba(24,24,27,var(--tw-bg-opacity)) !important; 
+      --color-fg-default: white !important;
+    }
+    .markdown-body ul {
+      list-style: disc;
+    }
+  `;

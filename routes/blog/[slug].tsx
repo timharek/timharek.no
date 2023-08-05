@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { CSS, render } from "gfm/mod.ts";
-import { getBlogPost, slugify } from "../../src/utils.ts";
+import { render } from "gfm/mod.ts";
+import { css, getBlogPost, slugify } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface BlogPostProps {
@@ -45,15 +45,6 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
   const { post } = data;
   const body = render(post.content);
   const title = post.title;
-  const css = `
-    ${CSS}
-    .markdown-body {
-      background-color: rgba(24,24,27,var(--tw-bg-opacity)); // bg-zinc-900
-    }
-    .markdown-body ul {
-      list-style: disc;
-    }
-  `;
 
   return (
     <>
@@ -63,10 +54,11 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
       <article
         data-color-mode="dark"
         data-dark-theme="dark"
-        class="max-w-screen-md mx-auto px-4 mb-4 markdown-body"
+        class="max-w-screen-md mx-auto px-4 mb-4"
       >
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: body }}></div>
+        <h1 class="text-4xl font-semibold mb-4">{title}</h1>
+        <div class="markdown-body" dangerouslySetInnerHTML={{ __html: body }}>
+        </div>
         <ul>
           {post.taxonomies &&
             post.taxonomies.tags.map((tag) => (
