@@ -7,6 +7,8 @@ interface Page {
   description?: string;
   updated?: Date;
   draft?: string;
+  /** title */
+  section?: string;
 }
 
 interface Post extends Page {

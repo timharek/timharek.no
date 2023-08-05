@@ -242,3 +242,25 @@ export async function getGardenSection(
     return null;
   }
 }
+
+export async function getGardenPage(
+  sectionSlug: string,
+  pageSlug: string,
+): Promise<Page | null> {
+  const section = await getGardenSection(sectionSlug);
+
+  if (!section) {
+    return null;
+  }
+
+  const page = section.pages.find((page) => page.slug === pageSlug);
+
+  if (!page) {
+    return null;
+  }
+
+  return {
+    ...page,
+    section: section.title,
+  };
+}
