@@ -1,0 +1,4 @@
+{
+  "/hello-world": "/about",
+  "/about/cv": "/cv"
+}

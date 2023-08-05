@@ -27,3 +27,7 @@ interface Tag {
   slug: string;
   path: string;
 }
+
+interface Redirect {
+  [key: string]: string;
+}
