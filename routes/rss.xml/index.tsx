@@ -11,7 +11,7 @@ interface RSSProps {
 }
 
 export const handler: Handlers<RSSProps, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(_req, _ctx) {
     const posts = await getAllBlogPosts();
 
     const rss = generateRssFeed(posts);

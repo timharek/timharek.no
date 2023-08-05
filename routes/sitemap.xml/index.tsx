@@ -8,7 +8,7 @@ interface SitemapProps {
 }
 
 export const handler: Handlers<SitemapProps, ServerState> = {
-  async GET(_req, ctx) {
+  async GET(_req, _ctx) {
     const posts = await getAllBlogPosts();
     const pages = await getAllPages();
 
@@ -20,7 +20,6 @@ export const handler: Handlers<SitemapProps, ServerState> = {
 
 function generateSitemap(pages: SitemapProps["pages"]): string {
   const pagesXml = pages.map((page) => {
-    console.log(page);
     return `<url>
         <loc>${config.base_url}/${page.path}</loc>
         ${
