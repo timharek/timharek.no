@@ -20,6 +20,7 @@ type Section = Page & {
   extra: {
     updated: Date;
   };
+  pages: Page[];
 };
 
 interface Tag {

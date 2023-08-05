@@ -10,12 +10,13 @@ import * as $4 from "./routes/about/cv.tsx";
 import * as $5 from "./routes/about/index.tsx";
 import * as $6 from "./routes/blog/[slug].tsx";
 import * as $7 from "./routes/blog/index.tsx";
-import * as $8 from "./routes/index.tsx";
-import * as $9 from "./routes/logs/[log].tsx";
-import * as $10 from "./routes/rss.xml/index.tsx";
-import * as $11 from "./routes/sitemap.xml/index.tsx";
-import * as $12 from "./routes/tags/[slug].tsx";
-import * as $13 from "./routes/tags/index.tsx";
+import * as $8 from "./routes/garden/[section]/index.tsx";
+import * as $9 from "./routes/index.tsx";
+import * as $10 from "./routes/logs/[log].tsx";
+import * as $11 from "./routes/rss.xml/index.tsx";
+import * as $12 from "./routes/sitemap.xml/index.tsx";
+import * as $13 from "./routes/tags/[slug].tsx";
+import * as $14 from "./routes/tags/index.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -28,12 +29,13 @@ const manifest = {
     "./routes/about/index.tsx": $5,
     "./routes/blog/[slug].tsx": $6,
     "./routes/blog/index.tsx": $7,
-    "./routes/index.tsx": $8,
-    "./routes/logs/[log].tsx": $9,
-    "./routes/rss.xml/index.tsx": $10,
-    "./routes/sitemap.xml/index.tsx": $11,
-    "./routes/tags/[slug].tsx": $12,
-    "./routes/tags/index.tsx": $13,
+    "./routes/garden/[section]/index.tsx": $8,
+    "./routes/index.tsx": $9,
+    "./routes/logs/[log].tsx": $10,
+    "./routes/rss.xml/index.tsx": $11,
+    "./routes/sitemap.xml/index.tsx": $12,
+    "./routes/tags/[slug].tsx": $13,
+    "./routes/tags/index.tsx": $14,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

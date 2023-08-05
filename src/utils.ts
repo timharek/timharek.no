@@ -194,3 +194,51 @@ export const css = `
       list-style: disc;
     }
   `;
+
+async function getPagesFromSection(section: string): Promise<Page[]> {
+  const pages: Page[] = [];
+  const commonPath = `../content/${section}`;
+  const contentPath = new URL(commonPath, import.meta.url);
+  const contentDir = Deno.readDir(contentPath);
+
+  for await (const item of contentDir) {
+    if (item.name.match(".DS_Store|_index.md|_index.no.md")) {
+      continue;
+    }
+    const path = item.name;
+    const filePath = new URL(`${contentPath}/${item.name}`);
+    const { attrs, body } = await getMarkdownFile<Page>(filePath);
+    if (!attrs.draft) {
+      pages.push({
+        title: attrs.title,
+        slug: item.name.replace(".md", ""),
+        path,
+        content: body,
+        ...(attrs.updated && { updated: attrs.updated }),
+      });
+    }
+  }
+
+  return pages;
+}
+
+export async function getGardenSection(
+  sectionSlug: string,
+): Promise<Section | null> {
+  const sectionPath = new URL(
+    `../content/garden/${sectionSlug}/_index.md`,
+    import.meta.url,
+  );
+  try {
+    const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
+
+    return {
+      ...attrs,
+      content: body,
+      pages: await getPagesFromSection(`garden/${sectionSlug}`),
+    };
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+}
