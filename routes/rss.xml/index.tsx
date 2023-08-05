@@ -13,8 +13,9 @@ interface RSSProps {
 export const handler: Handlers<RSSProps, ServerState> = {
   async GET(_req, _ctx) {
     const posts = await getAllBlogPosts();
+    const POST_COUNT = 15;
 
-    const rss = generateRssFeed(posts);
+    const rss = generateRssFeed(posts.slice(0, POST_COUNT));
 
     return new Response(rss, { headers: { "content-type": "text/xml" } });
   },
