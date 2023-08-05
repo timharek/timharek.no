@@ -26,9 +26,12 @@ export async function getSection(sectionName: string): Promise<Section> {
   );
   const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
 
+  const pages = await getPagesFromSection(sectionName);
+
   return {
     ...attrs,
     content: body,
+    ...(pages && { pages }),
   };
 }
 
