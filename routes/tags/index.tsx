@@ -32,10 +32,12 @@ export default function TagsIndex({ data }: PageProps<TagsProps>) {
   return (
     <article class="max-w-screen-md mx-auto px-4 prose">
       <h1>Tags</h1>
-      <ul class="">
+      <ul class="columns-2 list-disc pl-4">
         {tags.map((tag) => (
           <li class="">
-            <a href={tag.path}>{tag.title}</a>
+            <a class="text-primary hover:underline" href={tag.path}>
+              {tag.title}
+            </a>
           </li>
         ))}
       </ul>
