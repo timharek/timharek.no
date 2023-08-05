@@ -68,7 +68,10 @@ export default function GardenSection({ data }: PageProps<Props>) {
             <ul class="list-disc pl-4">
               {section.pages.map((page) => (
                 <li class="">
-                  <a class="text-primary hover:underline" href={page.path}>
+                  <a
+                    class="text-primary hover:underline"
+                    href={`${section.slug}/${page.slug}`}
+                  >
                     {page.title}
                   </a>
                 </li>

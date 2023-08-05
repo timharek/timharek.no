@@ -234,6 +234,7 @@ export async function getGardenSection(
 
     return {
       ...attrs,
+      slug: sectionSlug,
       content: body,
       pages: await getPagesFromSection(`garden/${sectionSlug}`),
     };
