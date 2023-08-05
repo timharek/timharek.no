@@ -14,6 +14,9 @@ export const handler: Handlers<Props, ServerState> = {
     try {
       const page = await getSection("about");
       ctx.state.title = `About - ${ctx.state.title}`;
+      if (page.description) {
+        ctx.state.description = page.description;
+      }
       return ctx.render({ ...ctx.state, page });
     } catch (error) {
       console.error(error);
@@ -37,7 +40,7 @@ export default function BlogPost({ data }: PageProps<Props>) {
         data-dark-theme="dark"
         class="max-w-screen-md mx-auto px-4 mb-4"
       >
-        <PageHeader title={title} updated={page.extra.updated} />
+        <PageHeader title={title} updated={page.extra?.updated} />
         <div
           class="markdown-body"
           dangerouslySetInnerHTML={{ __html: body }}

@@ -24,7 +24,10 @@ export default function Home({ data }: PageProps<HomeProps>) {
     "Git integration?",
     "Swap shortcodes with proper Markdown",
     "Move CV",
-    "Move uses",
+    "Move Uses",
+    "Move Work",
+    "Move About",
+    "Clean up front matter in all Markdown files",
     "Clean up `utils.ts`",
   ];
   return (
