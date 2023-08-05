@@ -16,10 +16,11 @@ interface Post extends Page {
   };
 }
 
-interface Section {
-  title: string;
-  path: string;
-}
+type Section = Page & {
+  extra: {
+    updated: Date;
+  };
+};
 
 interface Tag {
   title: string;

@@ -19,14 +19,17 @@ export async function getMarkdownFile<T>(path: URL) {
   return markdownFile;
 }
 
-export async function getSection(sectionName: string) {
+export async function getSection(sectionName: string): Promise<Section> {
   const sectionPath = new URL(
     `../content/${sectionName}/_index.md`,
     import.meta.url,
   );
-  const section = await getMarkdownFile<Section>(sectionPath);
+  const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
 
-  return section;
+  return {
+    ...attrs,
+    content: body,
+  };
 }
 
 export async function getAllBlogPosts(): Promise<Post[]> {

@@ -3,6 +3,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { css, getAllPages } from "../src/utils.ts";
 import { ServerState } from "./_middleware.ts";
+import { PageHeader } from "../components/PageHeader.tsx";
 
 interface Props {
   page: Page;
@@ -54,7 +55,7 @@ export default function Page({ data }: PageProps<Props>) {
         data-dark-theme="dark"
         class="max-w-screen-md mx-auto px-4 mb-4"
       >
-        <h1 class="text-4xl font-semibold mb-4">{page.title}</h1>
+        <PageHeader title={page.title} updated={page.updated} />
         <div
           class="markdown-body"
           dangerouslySetInnerHTML={{ __html: body }}
