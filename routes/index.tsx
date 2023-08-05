@@ -25,7 +25,6 @@ export default function Home({ data }: PageProps<HomeProps>) {
     "Swap shortcodes with proper Markdown",
     "Move CV",
     "Move uses",
-    "Extract redirects",
     "Clean up `utils.ts`",
   ];
   return (
