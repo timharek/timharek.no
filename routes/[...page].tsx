@@ -1,49 +1,36 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { CSS, render } from "gfm/mod.ts";
-import { getAllPages, getMarkdownFile } from "../src/utils.ts";
+import { getAllPages } from "../src/utils.ts";
 import { ServerState } from "./_middleware.ts";
 
 interface Props {
-  markdown: string;
-  frontMatter: Page;
+  page: Page;
 }
 
 export const handler: Handlers<Props, ServerState> = {
   async GET(_req, ctx) {
-    const page = ctx.params.page;
+    const pageSlug = ctx.params.page;
     const allPages = await getAllPages();
 
-    const pageQuery = allPages.find((item) => item.name === page);
+    const page = allPages.find((item) => item.slug === pageSlug);
 
-    if (!pageQuery) {
+    if (!page) {
       return ctx.renderNotFound();
     }
 
-    try {
-      const { body, attrs } = await getMarkdownFile<Page>(
-        new URL(pageQuery.path),
-      );
-      const page: Props = {
-        markdown: body,
-        frontMatter: attrs,
-      };
-      ctx.state.title = `${page.frontMatter.title} - ${ctx.state.title}`;
-      ctx.state.description = page.frontMatter.description ??
-        ctx.state.description;
-
-      return ctx.render({ ...ctx.state, ...page });
-    } catch (error) {
-      console.error(error);
-      return ctx.renderNotFound();
+    ctx.state.title = `${page.title} - ${ctx.state.title}`;
+    if (page.description) {
+      ctx.state.description = page.description;
     }
+
+    return ctx.render({ ...ctx.state, page });
   },
 };
 
 export default function Page({ data }: PageProps<Props>) {
-  const { markdown, frontMatter } = data;
-  const body = render(markdown);
-  const title = frontMatter.title;
+  const { page } = data;
+  const body = render(page.content);
   const css = `
     ${CSS}
     .markdown-body {
@@ -57,7 +44,6 @@ export default function Page({ data }: PageProps<Props>) {
   return (
     <>
       <Head>
-        <title>{title} - Tim Hårek</title>
         <style dangerouslySetInnerHTML={{ __html: css }} />
       </Head>
       <article
@@ -65,7 +51,7 @@ export default function Page({ data }: PageProps<Props>) {
         data-dark-theme="dark"
         class="max-w-screen-md mx-auto px-4 mb-4 markdown-body"
       >
-        <h1>{title}</h1>
+        <h1>{page.title}</h1>
         <div
           dangerouslySetInnerHTML={{ __html: body }}
         >

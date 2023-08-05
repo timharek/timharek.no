@@ -1,25 +1,24 @@
-interface Post {
+interface Page {
   title: string;
-  date: Date;
-  updated?: Date;
+  slug: string;
   path: string;
-  draft?: boolean;
+  /** Markdown */
+  content: string;
   description?: string;
+  updated?: string;
+  draft?: string;
+}
+
+interface Post extends Page {
+  date: Date;
   taxonomies?: {
     tags: string[];
   };
-  content: string;
 }
 
 interface Section {
   title: string;
   path: string;
-}
-
-interface Page {
-  title: string;
-  path: string;
-  description?: string;
 }
 
 interface Tag {

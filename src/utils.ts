@@ -55,6 +55,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     if (!attrs.draft) {
       posts.push({
         title: attrs.title,
+        slug: entry.name.replace(".md", ""),
         date: new Date(postDate),
         path: `/blog/${postWithoutDate}`,
         taxonomies: attrs.taxonomies,
@@ -75,12 +76,8 @@ export async function getBlogPostsByTag(tag: string): Promise<Post[] | null> {
   return postsByTag.length > 0 ? postsByTag : null;
 }
 
-interface PageQuery {
-  name: string;
-  path: string;
-}
-export async function getAllPages(): Promise<PageQuery[]> {
-  const pages: PageQuery[] = [];
+export async function getAllPages(): Promise<Page[]> {
+  const pages: Page[] = [];
   const commonPath = "../content";
   const contentPath = new URL(commonPath, import.meta.url);
   const contentDir = Deno.readDir(contentPath);
@@ -97,10 +94,17 @@ export async function getAllPages(): Promise<PageQuery[]> {
           continue;
         }
         if (subItem.name.match("index.md")) {
-          pages.push({
-            name: item.name.replace(".md", ""),
-            path: `${contentPath}/${item.name}/${subItem.name}`,
-          });
+          const path = `${contentPath}/${item.name}/${subItem.name}`;
+          const filePath = new URL(path);
+          const { attrs, body } = await getMarkdownFile<Page>(filePath);
+          if (!attrs.draft) {
+            pages.push({
+              title: attrs.title,
+              slug: subItem.name.replace(".md", ""),
+              path,
+              content: body,
+            });
+          }
         }
       }
       continue;
@@ -108,10 +112,20 @@ export async function getAllPages(): Promise<PageQuery[]> {
     if (isSection(item.name)) {
       continue;
     }
-    pages.push({
-      name: item.name.replace(".md", ""),
-      path: `${contentPath}/${item.name}`,
-    });
+    if (item.name === ".DS_Store") {
+      continue;
+    }
+    const path = `${contentPath}/${item.name}`;
+    const filePath = new URL(path);
+    const { attrs, body } = await getMarkdownFile<Page>(filePath);
+    if (!attrs.draft) {
+      pages.push({
+        title: attrs.title,
+        slug: item.name.replace(".md", ""),
+        path,
+        content: body,
+      });
+    }
   }
 
   return pages;
