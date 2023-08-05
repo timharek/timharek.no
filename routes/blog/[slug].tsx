@@ -1,47 +1,25 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { CSS, render } from "gfm/mod.ts";
-import { extract } from "$std/front_matter/any.ts";
-import { slugify } from "../../src/utils.ts";
+import { getBlogPost, slugify } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface BlogPostProps {
-  markdown: string;
-  frontMatter: Post;
+  post: Post;
 }
 
 export const handler: Handlers<BlogPostProps, ServerState> = {
   async GET(req, ctx) {
     const slug = ctx.params.slug;
 
-    const blogPath = new URL(`../../content/blog`, import.meta.url);
-    let postPath: string | URL = "";
-    const blogDir = Deno.readDir(blogPath);
-    for await (const entry of blogDir) {
-      const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}-/);
-      const postWithoutDate = entry.name.replace(YYYY_MM_DD_REGEX, "").replace(
-        ".md",
-        "",
-      );
-      if (postWithoutDate === slug) {
-        const isNested = entry.isDirectory;
-        postPath = new URL(
-          `../../content/blog/${
-            isNested ? `${entry.name}/index.md` : entry.name
-          }`,
-          import.meta.url,
-        );
-      }
+    const post = await getBlogPost(slug);
+
+    if (!post) {
+      return ctx.renderNotFound();
     }
 
-    const fileContent = await Deno.readTextFile(postPath);
-    const { body, attrs } = extract(fileContent);
-    const page: BlogPostProps = {
-      markdown: body,
-      frontMatter: attrs as unknown as BlogPostProps["frontMatter"] ?? {},
-    };
     const url = new URL(req.url);
-    ctx.state.title = `${page.frontMatter.title} - ${ctx.state.title}`;
+    ctx.state.title = `${post.title} - ${ctx.state.title}`;
     ctx.state.breadcrumbs = [
       {
         title: "Index",
@@ -52,20 +30,21 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
         path: "/blog",
       },
       {
-        title: page.frontMatter.title,
+        title: post.title,
         path: url.pathname,
         current: true,
       },
     ];
-    const resp = ctx.render({ ...ctx.state, ...page });
+
+    const resp = ctx.render({ ...ctx.state, post });
     return resp;
   },
 };
 
 export default function BlogPost({ data }: PageProps<BlogPostProps>) {
-  const { markdown, frontMatter } = data;
-  const body = render(markdown);
-  const title = frontMatter.title;
+  const { post } = data;
+  const body = render(post.content);
+  const title = post.title;
   const css = `
     ${CSS}
     .markdown-body {
@@ -89,8 +68,8 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: body }}></div>
         <ul>
-          {frontMatter.taxonomies &&
-            frontMatter.taxonomies.tags.map((tag) => (
+          {post.taxonomies &&
+            post.taxonomies.tags.map((tag) => (
               <li>
                 <a href={`/tags/${slugify(tag)}`}>
                   {tag}

@@ -9,7 +9,7 @@ export interface ServerState {
 }
 
 export async function handler(
-  req: Request,
+  _req: Request,
   ctx: MiddlewareHandlerContext<ServerState>,
 ) {
   ctx.state.title = config.title;

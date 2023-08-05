@@ -39,13 +39,14 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
     const postDateMatch = entry.name.match(YYYY_MM_DD_REGEX);
     const postDate = postDateMatch ? postDateMatch[0] : "";
-    const postWithoutDate = entry.name.replace(YYYY_MM_DD_REGEX, "").replace(
-      "-",
-      "",
-    ).replace(
-      ".md",
-      "",
-    );
+    const postSlugWithoutDate = entry.name.replace(YYYY_MM_DD_REGEX, "")
+      .replace(
+        "-",
+        "",
+      ).replace(
+        ".md",
+        "",
+      );
     const isNested = entry.isDirectory;
     const postPath = new URL(
       `../content/blog/${isNested ? `${entry.name}/index.md` : entry.name}`,
@@ -55,9 +56,9 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     if (!attrs.draft) {
       posts.push({
         title: attrs.title,
-        slug: entry.name.replace(".md", ""),
+        slug: postSlugWithoutDate,
         date: new Date(postDate),
-        path: `/blog/${postWithoutDate}`,
+        path: `/blog/${postSlugWithoutDate}`,
         taxonomies: attrs.taxonomies,
         content: body,
         ...(attrs.updated && { updated: attrs.updated }),
@@ -65,6 +66,13 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     }
   }
   return posts.sort((a, b) => b.date.getTime() - a.date.getTime());
+}
+
+export async function getBlogPost(slug: string): Promise<Post | null> {
+  const posts = await getAllBlogPosts();
+  const post = posts.find((post) => post.slug === slug);
+
+  return post ? post : null;
 }
 
 export async function getBlogPostsByTag(tag: string): Promise<Post[] | null> {
