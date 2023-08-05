@@ -57,7 +57,6 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
         current: true,
       },
     ];
-    console.log("req", url.pathname);
     const resp = ctx.render({ ...ctx.state, ...page });
     return resp;
   },
