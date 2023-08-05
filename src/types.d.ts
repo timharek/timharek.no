@@ -19,10 +19,11 @@ interface Post extends Page {
 }
 
 type Section = Page & {
-  extra: {
+  pages: Page[];
+  extra?: {
     updated: Date;
   };
-  pages: Page[];
+  subSections?: Section[];
 };
 
 interface Tag {

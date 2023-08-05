@@ -222,6 +222,59 @@ async function getPagesFromSection(section: string): Promise<Page[]> {
   return pages;
 }
 
+export async function getGarden(): Promise<Section | null> {
+  const sectionPath = new URL(`../content/garden/_index.md`, import.meta.url);
+  try {
+    const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
+    const sections = await getGardenSections();
+
+    if (!sections) {
+      return null;
+    }
+
+    return {
+      ...attrs,
+      slug: "garden",
+      content: body,
+      pages: sections,
+    };
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+}
+
+export async function getGardenSections(): Promise<Page[] | null> {
+  const gardenPath = new URL(`../content/garden`, import.meta.url);
+  const gardenDir = Deno.readDir(gardenPath);
+  const sections: Page[] = [];
+  for await (const entry of gardenDir) {
+    if (entry.name.match("_index.md|_index.no.md")) {
+      continue;
+    }
+    const sectionpath = new URL(
+      `../content/garden/${entry.name}/_index.md`,
+      import.meta.url,
+    );
+    const { attrs, body } = await getMarkdownFile<Section>(sectionpath);
+    if (!attrs.draft) {
+      const section = await getGardenSection(entry.name);
+      sections.push({
+        title: attrs.title,
+        slug: entry.name,
+        path: `/garden/${entry.name}`,
+        content: body,
+        ...(section && section.pages.length > 0 && { pages: section.pages }),
+      });
+    }
+  }
+
+  if (sections.length === 0) {
+    return null;
+  }
+  return sections;
+}
+
 export async function getGardenSection(
   sectionSlug: string,
 ): Promise<Section | null> {

@@ -17,7 +17,6 @@ export const handler: Handlers<HomeProps, ServerState> = {
 export default function Home({ data }: PageProps<HomeProps>) {
   const { posts } = data;
   const todo = [
-    "Add garden",
     "Add proper logs pages",
     "Add sitemap (not xml)",
     "Add tests",
