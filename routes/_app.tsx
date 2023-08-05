@@ -7,6 +7,7 @@ import { ServerState } from "./_middleware.ts";
 export default function App(props: AppProps) {
   const Component = props.Component;
   const state = props.data as ServerState;
+  const currentPath = new URL(props.url).pathname;
 
   return (
     <html>
@@ -18,11 +19,11 @@ export default function App(props: AppProps) {
         <title>{state.title}</title>
       </Head>
       <body class="bg-zinc-900 text-white">
-        <Header breadcrumbs={state.breadcrumbs} />
+        <Header currentPath={currentPath} breadcrumbs={state.breadcrumbs} />
         <main id="main">
           <Component />
         </main>
-        <Footer />
+        <Footer currentPath={currentPath} />
       </body>
     </html>
   );

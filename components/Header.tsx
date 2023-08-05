@@ -2,10 +2,17 @@ import { config } from "../config.ts";
 import { Breadcrumbs } from "./Breadcrumbs.tsx";
 
 interface HeaderProps {
+  currentPath: string;
   breadcrumbs?: Breadcrumbs[];
 }
-export function Header({ breadcrumbs }: HeaderProps) {
-  const navigation = config.navigation.header;
+
+export function Header({ currentPath, breadcrumbs }: HeaderProps) {
+  const navigation = config.navigation.header.map((item) => {
+    return {
+      ...item,
+      current: currentPath === item.path,
+    };
+  });
   return (
     <>
       <a
@@ -26,9 +33,13 @@ export function Header({ breadcrumbs }: HeaderProps) {
           <ul class="flex gap-4">
             {navigation.map((item) => (
               <li>
-                <a class="text-primary hover:underline" href={item.path}>
-                  {item.title}
-                </a>
+                {item.current
+                  ? item.title
+                  : (
+                    <a class="text-primary hover:underline" href={item.path}>
+                      {item.title}
+                    </a>
+                  )}
               </li>
             ))}
           </ul>
