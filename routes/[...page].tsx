@@ -18,7 +18,7 @@ export const handler: Handlers<Props, ServerState> = {
     const page = allPages.find((item) => item.slug === pageSlug);
 
     if (!page) {
-      return ctx.renderNotFound();
+      return ctx.renderNotFound({ ...ctx.state });
     }
 
     ctx.state.title = `${page.title} - ${ctx.state.title}`;

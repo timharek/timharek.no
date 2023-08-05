@@ -3,35 +3,37 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $0 from "./routes/[...page].tsx";
-import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/_middleware.ts";
-import * as $3 from "./routes/about/cv.tsx";
-import * as $4 from "./routes/about/index.tsx";
-import * as $5 from "./routes/blog/[slug].tsx";
-import * as $6 from "./routes/blog/index.tsx";
-import * as $7 from "./routes/index.tsx";
-import * as $8 from "./routes/logs/[log].tsx";
-import * as $9 from "./routes/rss.xml/index.tsx";
-import * as $10 from "./routes/sitemap.xml/index.tsx";
-import * as $11 from "./routes/tags/[slug].tsx";
-import * as $12 from "./routes/tags/index.tsx";
+import * as $1 from "./routes/_404.tsx";
+import * as $2 from "./routes/_app.tsx";
+import * as $3 from "./routes/_middleware.ts";
+import * as $4 from "./routes/about/cv.tsx";
+import * as $5 from "./routes/about/index.tsx";
+import * as $6 from "./routes/blog/[slug].tsx";
+import * as $7 from "./routes/blog/index.tsx";
+import * as $8 from "./routes/index.tsx";
+import * as $9 from "./routes/logs/[log].tsx";
+import * as $10 from "./routes/rss.xml/index.tsx";
+import * as $11 from "./routes/sitemap.xml/index.tsx";
+import * as $12 from "./routes/tags/[slug].tsx";
+import * as $13 from "./routes/tags/index.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
     "./routes/[...page].tsx": $0,
-    "./routes/_app.tsx": $1,
-    "./routes/_middleware.ts": $2,
-    "./routes/about/cv.tsx": $3,
-    "./routes/about/index.tsx": $4,
-    "./routes/blog/[slug].tsx": $5,
-    "./routes/blog/index.tsx": $6,
-    "./routes/index.tsx": $7,
-    "./routes/logs/[log].tsx": $8,
-    "./routes/rss.xml/index.tsx": $9,
-    "./routes/sitemap.xml/index.tsx": $10,
-    "./routes/tags/[slug].tsx": $11,
-    "./routes/tags/index.tsx": $12,
+    "./routes/_404.tsx": $1,
+    "./routes/_app.tsx": $2,
+    "./routes/_middleware.ts": $3,
+    "./routes/about/cv.tsx": $4,
+    "./routes/about/index.tsx": $5,
+    "./routes/blog/[slug].tsx": $6,
+    "./routes/blog/index.tsx": $7,
+    "./routes/index.tsx": $8,
+    "./routes/logs/[log].tsx": $9,
+    "./routes/rss.xml/index.tsx": $10,
+    "./routes/sitemap.xml/index.tsx": $11,
+    "./routes/tags/[slug].tsx": $12,
+    "./routes/tags/index.tsx": $13,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
