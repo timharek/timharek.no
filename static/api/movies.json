@@ -6211,5 +6211,28 @@
         "Greta Gerwig"
       ]
     }
+  },
+  {
+    "title": "Kopps",
+    "type": "movie",
+    "date": [
+      {
+        "day": "11",
+        "month": "08",
+        "year": "2023",
+        "string": "2023-08-11"
+      }
+    ],
+    "details": {
+      "release_year": 2003,
+      "my_rating": 4,
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "director": [
+        "Josef Fares"
+      ]
+    }
   }
 ]
