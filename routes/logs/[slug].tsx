@@ -5,21 +5,37 @@ import { css, getPage } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 
-interface Props {
+interface AvailableLogs {
+  [key: string]: string[];
+}
+const availableLogs: AvailableLogs = {
+  watched: ["movies.json", "tv_shows.json"],
+  reading: ["books.json"],
+  games: ["games.json"],
+  travel: ["travel.json"],
+};
+
+interface LogProps {
   entries: Log.Entry[];
   page: Page;
 }
 
-export const handler: Handlers<Props, ServerState> = {
+export const handler: Handlers<LogProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const page = await getPage("logs/travel.md");
+    const slug = ctx.params.slug;
+
+    if (!Object.keys(availableLogs).includes(slug)) {
+      return ctx.renderNotFound({ ...ctx.state });
+    }
+
+    const page = await getPage(`logs/${slug}.md`);
 
     if (!page) {
       return ctx.renderNotFound({ ...ctx.state });
     }
 
-    const files = ["../../static/api/travel.json"];
+    const files = availableLogs[slug].map((file) => `../../static/api/${file}`);
 
     ctx.state.title = `${page.title} - ${ctx.state.title}`;
     if (page.description) {
@@ -66,7 +82,7 @@ export const handler: Handlers<Props, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<Props & ServerState>) {
+export default function Page({ data }: PageProps<LogProps & ServerState>) {
   const { entries, page } = data;
   const body = render(page.content);
 
@@ -106,7 +122,43 @@ function Item({ item }: ItemProps) {
       <li class="py-4 grid grid-cols-4 gap-4">
         <h3 class="col-span-2">{item.title}</h3>
         <div aria-label="Country">{item.location.country.name}</div>
-        <time class="font-mono" datetime={item.date}>
+        <time class="font-mono" dateTime={item.date}>
+          {item.date}
+        </time>
+      </li>
+    );
+  }
+  if (item.type === "game") {
+    return (
+      <li class="py-4 grid grid-cols-4 gap-4">
+        <h3 class="col-span-2">{item.title} ({item.platform})</h3>
+        <div aria-label="Stars">{item.review.rating}</div>
+        <time class="font-mono" dateTime={item.date}>
+          {item.date}
+        </time>
+      </li>
+    );
+  }
+  if (item.type === "book") {
+    return (
+      <li class="py-4 grid grid-cols-4 gap-4">
+        <h3 class="col-span-2">{item.title}</h3>
+        <div aria-label="Stars">{item.review.rating}</div>
+        <time class="font-mono" dateTime={item.date}>
+          {item.date}
+        </time>
+      </li>
+    );
+  }
+  if (item.type === "movie" || item.type === "tv") {
+    return (
+      <li class="py-4 grid grid-cols-4 gap-4">
+        <h3 class="col-span-2">
+          {item.title}
+          {item.type === "tv" && ` S${item.season}`}
+        </h3>
+        <div aria-label="Stars">{item.review.rating}</div>
+        <time class="font-mono" dateTime={item.date}>
           {item.date}
         </time>
       </li>

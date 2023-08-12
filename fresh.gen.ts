@@ -14,17 +14,14 @@ import * as $8 from "./routes/garden/[section]/[slug].tsx";
 import * as $9 from "./routes/garden/[section]/index.tsx";
 import * as $10 from "./routes/garden/index.tsx";
 import * as $11 from "./routes/index.tsx";
-import * as $12 from "./routes/logs/feedroll.tsx";
-import * as $13 from "./routes/logs/games.tsx";
+import * as $12 from "./routes/logs/[slug].tsx";
+import * as $13 from "./routes/logs/feedroll.tsx";
 import * as $14 from "./routes/logs/index.tsx";
-import * as $15 from "./routes/logs/reading.tsx";
-import * as $16 from "./routes/logs/travel.tsx";
-import * as $17 from "./routes/logs/watched.tsx";
-import * as $18 from "./routes/rss.xml/index.tsx";
-import * as $19 from "./routes/sitemap.xml/index.tsx";
-import * as $20 from "./routes/tags/[slug].tsx";
-import * as $21 from "./routes/tags/index.tsx";
-import * as $22 from "./routes/todo.tsx";
+import * as $15 from "./routes/rss.xml/index.tsx";
+import * as $16 from "./routes/sitemap.xml/index.tsx";
+import * as $17 from "./routes/tags/[slug].tsx";
+import * as $18 from "./routes/tags/index.tsx";
+import * as $19 from "./routes/todo.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -41,17 +38,14 @@ const manifest = {
     "./routes/garden/[section]/index.tsx": $9,
     "./routes/garden/index.tsx": $10,
     "./routes/index.tsx": $11,
-    "./routes/logs/feedroll.tsx": $12,
-    "./routes/logs/games.tsx": $13,
+    "./routes/logs/[slug].tsx": $12,
+    "./routes/logs/feedroll.tsx": $13,
     "./routes/logs/index.tsx": $14,
-    "./routes/logs/reading.tsx": $15,
-    "./routes/logs/travel.tsx": $16,
-    "./routes/logs/watched.tsx": $17,
-    "./routes/rss.xml/index.tsx": $18,
-    "./routes/sitemap.xml/index.tsx": $19,
-    "./routes/tags/[slug].tsx": $20,
-    "./routes/tags/index.tsx": $21,
-    "./routes/todo.tsx": $22,
+    "./routes/rss.xml/index.tsx": $15,
+    "./routes/sitemap.xml/index.tsx": $16,
+    "./routes/tags/[slug].tsx": $17,
+    "./routes/tags/index.tsx": $18,
+    "./routes/todo.tsx": $19,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
