@@ -9,6 +9,7 @@ interface Page {
   draft?: string;
   /** title */
   section?: string;
+  extra?: Record<string, string | string[]>;
 }
 
 interface Post extends Page {

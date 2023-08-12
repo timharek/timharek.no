@@ -14,8 +14,8 @@ import * as $8 from "./routes/garden/[section]/[slug].tsx";
 import * as $9 from "./routes/garden/[section]/index.tsx";
 import * as $10 from "./routes/garden/index.tsx";
 import * as $11 from "./routes/index.tsx";
-import * as $12 from "./routes/logs/[log].tsx";
-import * as $13 from "./routes/logs/index.tsx";
+import * as $12 from "./routes/logs/index.tsx";
+import * as $13 from "./routes/logs/watched.tsx";
 import * as $14 from "./routes/rss.xml/index.tsx";
 import * as $15 from "./routes/sitemap.xml/index.tsx";
 import * as $16 from "./routes/tags/[slug].tsx";
@@ -37,8 +37,8 @@ const manifest = {
     "./routes/garden/[section]/index.tsx": $9,
     "./routes/garden/index.tsx": $10,
     "./routes/index.tsx": $11,
-    "./routes/logs/[log].tsx": $12,
-    "./routes/logs/index.tsx": $13,
+    "./routes/logs/index.tsx": $12,
+    "./routes/logs/watched.tsx": $13,
     "./routes/rss.xml/index.tsx": $14,
     "./routes/sitemap.xml/index.tsx": $15,
     "./routes/tags/[slug].tsx": $16,

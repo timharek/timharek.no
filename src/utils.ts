@@ -1,5 +1,6 @@
 import extract from "$std/front_matter/any.ts";
 import { CSS } from "gfm/mod.ts";
+import { Extract } from "$std/front_matter/mod.ts";
 
 export function slugify(text: string): string {
   return text
@@ -12,11 +13,21 @@ export function slugify(text: string): string {
     .replace(/\-\-+/g, "-"); // Replace multiple - with single -
 }
 
-export async function getMarkdownFile<T>(path: URL) {
+export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
   const fileContent = await Deno.readTextFile(path);
   const markdownFile = extract<T>(fileContent);
 
   return markdownFile;
+}
+
+export async function getPage(path: string): Promise<Page> {
+  const fullPath = new URL(`../content/${path}`, import.meta.url);
+  const { attrs, body } = await getMarkdownFile<Page>(fullPath);
+
+  return {
+    ...attrs,
+    content: body,
+  };
 }
 
 export async function getSection(sectionName: string): Promise<Section> {
@@ -218,6 +229,7 @@ async function getPagesFromSection(section: string): Promise<Page[]> {
         path,
         content: body,
         ...(attrs.updated && { updated: attrs.updated }),
+        ...(attrs.extra && { extra: attrs.extra }),
       });
     }
   }
