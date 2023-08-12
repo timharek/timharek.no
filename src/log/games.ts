@@ -1,9 +1,9 @@
 // @deno-types="./mod.d.ts"
 
 import { Input, Number, prompt } from "../deps.ts";
-import { getCurrentDate, getEntryDate } from "./util.ts";
+import { getCurrentDate } from "./util.ts";
 
-export async function logGame(type: "game") {
+export async function logGame(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
 
   const result = await prompt([{
@@ -33,17 +33,13 @@ export async function logGame(type: "game") {
 
   const { title, date, releaseYear, rating, platform } = result;
 
-  const gameEntry: Log.IGameEntry = {
+  return {
     title: title,
-    type: type,
-    date: [getEntryDate(date)],
-    details: {
-      release_year: releaseYear,
-      my_rating: rating,
-      genres: [], // TODO: Might need to use an API to get neccessary data
-      platform: [platform],
-    },
+    type: "game",
+    date: new Date(date),
+    release_year: releaseYear,
+    review: { rating },
+    genres: [], // TODO: Might need to use an API to get neccessary data
+    platform: platform,
   };
-
-  return gameEntry;
 }

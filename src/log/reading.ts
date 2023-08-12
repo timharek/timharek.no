@@ -8,9 +8,9 @@ import {
 import {
   OpenLibrary,
 } from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
-import { getCurrentDate, getEntryDate, selectKeys } from "./util.ts";
+import { getCurrentDate, selectKeys } from "./util.ts";
 
-export async function logBook(type: "book") {
+export async function logBook(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
 
   const { title, author } = await prompt([
@@ -29,16 +29,18 @@ export async function logBook(type: "book") {
   const searchResult: OpenLibrary.ISearch = await searchBook(
     `${title} ${author}`,
   );
-  const selectOptions = searchResult.docs.map((book) => {
-    return {
-      name: `${book.title} (${book.first_publish_year}) by ${
-        book.author_name.join(", ")
-      }`,
-      publishYear: book.first_publish_year,
-      author: book.author_name,
-      value: book.key,
-    };
-  });
+  const selectOptions = searchResult.docs.map(
+    (book: Record<string, string | string[]>) => {
+      return {
+        name: `${book.title} (${book.first_publish_year}) by ${
+          book.author_name.join(", ")
+        }`,
+        publishYear: book.first_publish_year,
+        author: book.author_name,
+        value: book.key,
+      };
+    },
+  );
 
   const { date, rating, genres, selectedResult } = await prompt([
     {
@@ -69,19 +71,17 @@ export async function logBook(type: "book") {
 
   const book: OpenLibrary.IBook = await getBook(selectedResult.split("/")[2]);
   const bookFields =
-    selectOptions.filter((book: unknown) => book.value === selectedResult)[0];
+    selectOptions.filter((book: Record<string, string>) =>
+      book.value === selectedResult
+    )[0];
 
-  const bookEntry: Log.IBookEntry = {
+  return {
+    type: "book",
     title: book.title,
-    type: type,
-    date: [getEntryDate(date)],
-    details: {
-      publish_year: bookFields.publishYear,
-      author: bookFields.author,
-      my_rating: rating,
-      genres,
-    },
+    date: new Date(date),
+    publish_year: bookFields.publishYear,
+    author: bookFields.author,
+    review: { rating },
+    genres,
   };
-
-  return bookEntry;
 }

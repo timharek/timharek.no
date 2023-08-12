@@ -3,26 +3,23 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
 import { LifeTesting, logLifeEvent } from "./life.ts";
-import { getEntryDate } from "./util.ts";
 
 Deno.test("Log a life event", async () => {
   inject({
     title: "Minor life change",
     description: "A description",
     date: "2012-12-26",
-    customPrefix: "💪 Health",
+    category: "💪 Health",
   });
 
-  const entry = await logLifeEvent("life");
+  const entry = await logLifeEvent();
 
-  const expected: Log.ILifeEventEntry = {
+  const expected: Log.Entry = {
     title: "Minor life change",
     type: "life",
     description: "A description",
-    date: [getEntryDate("2012-12-26")],
-    details: {
-      custom_prefix: "💪 Health",
-    },
+    date: new Date("2012-12-26"),
+    category: "💪 Health",
   };
 
   assertEquals(entry, expected);
@@ -30,10 +27,10 @@ Deno.test("Log a life event", async () => {
 
 Deno.test("Prompt custom prefix", async () => {
   inject({
-    prefix: "🦕 Deno",
+    category: "🦕 Deno",
   });
 
-  const result = await LifeTesting.getCustomPrefix("custom");
+  const result = await LifeTesting.getCategory("custom");
 
   assertEquals(result, "🦕 Deno");
 });
@@ -43,20 +40,18 @@ Deno.test("Log a life event with custom prefix", async () => {
     title: "Major life change",
     description: "A description",
     date: "2012-12-26",
-    customPrefix: "custom",
+    category: "custom",
     prefix: "🦕 Deno",
   });
 
-  const entry = await logLifeEvent("life");
+  const entry = await logLifeEvent();
 
-  const expected: Log.ILifeEventEntry = {
+  const expected: Log.Entry = {
     title: "Major life change",
     type: "life",
     description: "A description",
-    date: [getEntryDate("2012-12-26")],
-    details: {
-      custom_prefix: "🦕 Deno",
-    },
+    date: new Date("2012-12-26"),
+    category: "🦕 Deno",
   };
 
   assertEquals(entry, expected);

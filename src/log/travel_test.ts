@@ -3,7 +3,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
 import { logTrip } from "./travel.ts";
-import { getEntryDate } from "./util.ts";
 
 Deno.test("Log a trip", async () => {
   inject({
@@ -16,22 +15,21 @@ Deno.test("Log a trip", async () => {
     title: "Travel through time",
   });
 
-  const entry = await logTrip("travel");
+  const entry = await logTrip();
 
-  const expected: Log.ITravelEntry = {
+  const expected: Log.Entry = {
     title: "Travel through time",
     type: "travel",
-    date: [getEntryDate("0001-01-01"), getEntryDate("2023-01-28")],
-    details: {
-      location: {
-        cities: ["Africa", "South America"],
-        country: {
-          name: "Pangea",
-          emoji: "🌍",
-        },
+    date: new Date("0001-01-01"),
+    to_date: new Date("2023-01-28"),
+    location: {
+      cities: ["Africa", "South America"],
+      country: {
+        name: "Pangea",
+        emoji: "🌍",
       },
-      occasion: "pleasure",
     },
+    occasion: "pleasure",
   };
 
   assertEquals(entry, expected);

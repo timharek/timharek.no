@@ -1,9 +1,11 @@
 // @deno-types="./mod.d.ts"
 
 import { getMovie, Input, Number, OMDB, prompt } from "../deps.ts";
-import { getCurrentDate, getEntryDate } from "./util.ts";
+import { getCurrentDate } from "./util.ts";
 
-export async function logMovieOrTv(logType: "movie" | "tv") {
+export async function logMovieOrTv(
+  logType: Log.Entry["type"],
+): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
 
   const { title, date, rating, season } = await prompt([
@@ -47,17 +49,27 @@ export async function logMovieOrTv(logType: "movie" | "tv") {
 
   const entry: OMDB = await getMovie(options);
 
-  const watchedEntry: Log.IWatchedEntry = {
-    title: `${entry.title}${season ? ` S${season}` : ""}`,
-    type: logType,
-    date: [getEntryDate(date)],
-    details: {
-      release_year: entry.year,
-      my_rating: rating,
+  if (logType === "movie") {
+    return {
+      type: "movie",
+      title: entry.title,
+      date: new Date(date),
       genres: entry.genre,
-      ...(logType === "movie" && { director: entry.director }),
-    },
-  };
+      release_year: entry.year,
+      review: { rating },
+      ...(entry.director && { director: entry.director }),
+    };
+  }
 
-  return watchedEntry;
+  return {
+    type: "tv",
+    title: entry.title,
+    date: new Date(date),
+    genres: entry.genre,
+    release_year: entry.year,
+    review: { rating },
+    season,
+    ...(entry.director && { director: entry.director }),
+    ...(entry.creator && { creator: entry.creator }),
+  };
 }

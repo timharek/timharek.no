@@ -1,12 +1,12 @@
 // @deno-types="./mod.d.ts"
 
 import { Input, prompt, Select } from "../deps.ts";
-import { getCurrentDate, getEntryDate, selectKeys } from "./util.ts";
+import { getCurrentDate, selectKeys } from "./util.ts";
 
-export async function logLifeEvent(type: "life") {
+export async function logLifeEvent(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
 
-  const { title, description, date, customPrefix } = await prompt([
+  const { title, description, date, category } = await prompt([
     {
       name: "title",
       message: "Which life event do you want to log?",
@@ -24,7 +24,7 @@ export async function logLifeEvent(type: "life") {
       suggestions: [currentDate],
     },
     {
-      name: "customPrefix",
+      name: "category",
       message: "Do you want to add a custom prefix?",
       type: Select,
       options: [
@@ -41,26 +41,22 @@ export async function logLifeEvent(type: "life") {
     },
   ]);
 
-  const lifeEntry: Log.ILifeEventEntry = {
+  return {
+    type: "life",
     title,
     description,
-    type,
-    date: [getEntryDate(date)],
-    ...(customPrefix && customPrefix != "0" && {
-      details: {
-        custom_prefix: await getCustomPrefix(customPrefix),
-      },
+    date: new Date(date),
+    ...(category && category != "0" && {
+      category: await getCategory(category),
     }),
   };
-
-  return lifeEntry;
 }
 
-async function getCustomPrefix(prefix: string): Promise<string> {
+async function getCategory(prefix: string): Promise<string> {
   if (prefix === "custom") {
     const { prefix } = await prompt([{
       name: "prefix",
-      message: "Enter custom prefix",
+      message: "Enter category",
       type: Input,
     }]);
     return prefix;
@@ -69,5 +65,5 @@ async function getCustomPrefix(prefix: string): Promise<string> {
 }
 
 export const LifeTesting = {
-  getCustomPrefix,
+  getCategory,
 };

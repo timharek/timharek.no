@@ -1,21 +1,12 @@
 // @deno-types="../mod.d.ts"
 
-export function getEntryDate(date: string): Log.IDate {
-  return {
-    day: date.split('-')[2],
-    month: date.split('-')[1],
-    year: date.split('-')[0],
-    string: date,
-  };
-}
-
 export function getCurrentDate(): string {
-  return new Date().toISOString().split('T')[0];
+  return new Date().toISOString().split("T")[0];
 }
 
 export const selectKeys = {
-  next: ['down', 'tab'],
-  previous: ['up', 'shift'],
+  next: ["down", "tab"],
+  previous: ["up", "shift"],
 };
 
 /**
@@ -27,10 +18,10 @@ export const selectKeys = {
 export function slugify(text: string): string {
   return text
     .toString() // Cast to string (optional)
-    .normalize('NFKD') // The normalize() using NFKD method returns the Unicode Normalization Form of a given string.
+    .normalize("NFKD") // The normalize() using NFKD method returns the Unicode Normalization Form of a given string.
     .toLowerCase() // Convert the string to lowercase letters
     .trim() // Remove whitespace from both sides of a string (optional)
-    .replace(/\./g, '-') // Replace spaces with -
-    .replace(/\s+/g, '-') // Replace spaces with -
-    .replace(/\-\-+/g, '-'); // Replace multiple - with single -
+    .replace(/\./g, "-") // Replace spaces with -
+    .replace(/\s+/g, "-") // Replace spaces with -
+    .replace(/\-\-+/g, "-"); // Replace multiple - with single -
 }

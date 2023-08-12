@@ -1,9 +1,9 @@
 // @deno-types="./mod.d.ts"
 
 import { Input, List, prompt, Select } from "../deps.ts";
-import { getCurrentDate, getEntryDate, selectKeys } from "./util.ts";
+import { getCurrentDate, selectKeys } from "./util.ts";
 
-export async function logTrip(type: "travel") {
+export async function logTrip(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
 
   const { title, departure, arrival, occasion, country, countryEmoji, cities } =
@@ -52,18 +52,15 @@ export async function logTrip(type: "travel") {
       },
     ]);
 
-  const travelEntry: Log.ITravelEntry = {
+  return {
+    type: "travel",
     title: title,
-    type: type,
-    date: [getEntryDate(departure), getEntryDate(arrival)],
-    details: {
-      occasion: occasion,
-      location: {
-        country: { name: country, emoji: countryEmoji },
-        cities: cities,
-      },
+    date: new Date(departure),
+    to_date: new Date(arrival),
+    occasion: occasion,
+    location: {
+      country: { name: country, emoji: countryEmoji },
+      cities: cities,
     },
   };
-
-  return travelEntry;
 }

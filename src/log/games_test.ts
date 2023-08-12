@@ -3,7 +3,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
 import { logGame } from "./games.ts";
-import { getEntryDate } from "./util.ts";
 
 Deno.test("Log a game", async () => {
   inject({
@@ -14,18 +13,16 @@ Deno.test("Log a game", async () => {
     rating: "5",
   });
 
-  const entry = await logGame("game");
+  const entry = await logGame();
 
-  const expected: Log.IGameEntry = {
+  const expected: Log.Entry = {
     title: "A video game",
     type: "game",
-    date: [getEntryDate("2012-12-26")],
-    details: {
-      release_year: 2012,
-      my_rating: 5,
-      genres: [],
-      platform: ["PC"],
-    },
+    date: new Date("2012-12-26"),
+    release_year: 2012,
+    review: { rating: 5 },
+    genres: [],
+    platform: "PC",
   };
 
   assertEquals(entry, expected);

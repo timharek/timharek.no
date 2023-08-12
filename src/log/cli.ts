@@ -4,7 +4,11 @@ import { logPath, Select } from "../deps.ts";
 import { log } from "./index.ts";
 import { selectKeys } from "./util.ts";
 
-const typeSelector = {
+interface TypeSelector {
+  [key: string]: (type: Log.Entry["type"]) => Promise<Log.Entry>;
+}
+
+const typeSelector: TypeSelector = {
   movie: log.movieTv,
   tv: log.movieTv,
   game: log.game,
@@ -27,25 +31,12 @@ const type: "movie" | "tv" | "game" | "book" | "life" = await Select.prompt({
   keys: selectKeys,
 });
 
-const entry = await typeSelector[type](type);
-type entryType = typeof entry;
+const newEntry = await typeSelector[type](type);
 
-writeEntryToFile<entryType>(logPath[type], entry);
+writeNewEntryToFile(logPath[type], newEntry);
 
-async function writeEntryToFile<T extends Log.IEntry>(path: string, entry: T) {
-  const json: T[] = JSON.parse(await Deno.readTextFile(path));
-  const existingEntry = json.find((item) => item.title === entry.title);
-  if (!existingEntry || entry.type == "travel") {
-    json.push(entry);
-  }
-  if (existingEntry) {
-    const updatedEntry = {
-      ...existingEntry,
-      date: [...existingEntry.date, entry.date[0]],
-    };
-    const index = json.findIndex((item) => item.title === existingEntry.title);
-
-    json[index] = updatedEntry;
-  }
+async function writeNewEntryToFile(path: string, entry: Log.Entry) {
+  const json: Log.Entry[] = JSON.parse(await Deno.readTextFile(path));
+  json.push(entry);
   await Deno.writeTextFile(path, JSON.stringify(json, null, 2));
 }
