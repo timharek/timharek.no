@@ -61,7 +61,7 @@ declare namespace Log {
   type Entry =
     & {
       title: string;
-      date: Date;
+      date: string;
     }
     & (
       | MovieEntry

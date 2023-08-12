@@ -6,7 +6,7 @@ import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 
 interface Props {
-  entries: Log.IEntry[];
+  entries: Log.Entry[];
   page: Page;
 }
 
@@ -44,12 +44,12 @@ export const handler: Handlers<Props, ServerState> = {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
     try {
-      const logs: Log.IEntry[] = [];
+      const logs: Log.Entry[] = [];
       for (const file of files) {
         const logPath = new URL(file, import.meta.url);
         const logRaw = await Deno.readTextFile(logPath);
-        const log = JSON.parse(logRaw) as Log.IEntry[];
-        log.sort((a, b) => b.date[0].string.localeCompare(a.date[0].string));
+        const log = JSON.parse(logRaw) as Log.Entry[];
+        log.sort((a, b) => b.date.localeCompare(a.date));
         logs.push(...log);
       }
       if (!isRequestingHtml) {
@@ -97,17 +97,20 @@ export default function Page({ data }: PageProps<Props & ServerState>) {
 }
 
 interface ItemProps {
-  item: Log.IEntry;
+  item: Log.Entry;
 }
 
 function Item({ item }: ItemProps) {
-  return (
-    <li class="py-4 grid grid-cols-4 gap-4">
-      <h3 class="col-span-2">{item.title}</h3>
-      <div aria-label="Stars">{item.details.my_rating}</div>
-      <time class="font-mono" datetime={item.date[0].string}>
-        {item.date[0].string}
-      </time>
-    </li>
-  );
+  if (item.type === "game") {
+    return (
+      <li class="py-4 grid grid-cols-4 gap-4">
+        <h3 class="col-span-2">{item.title} ({item.platform})</h3>
+        <div aria-label="Stars">{item.review.rating}</div>
+        <time class="font-mono" datetime={item.date}>
+          {item.date}
+        </time>
+      </li>
+    );
+  }
+  return <></>;
 }
