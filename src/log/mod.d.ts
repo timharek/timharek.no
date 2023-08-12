@@ -54,7 +54,7 @@ declare namespace Log {
   interface LifeEventEntry {
     type: "life";
     description: string;
-    emoji?: string;
+    category?: string;
   }
 
   type Entry =
