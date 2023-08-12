@@ -1,802 +1,425 @@
 [
   {
-    "title": "Holiday",
     "type": "travel",
-    "date": [
-      {
-        "year": "2012",
-        "month": "11",
-        "day": "29",
-        "string": "2012-11-29"
+    "title": "Holiday",
+    "date": "2012-11-29T00:00:00.000Z",
+    "to_date": "2012-12-03T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "UAE",
+        "emoji": "🇦🇪"
       },
-      {
-        "year": "2012",
-        "month": "12",
-        "day": "03",
-        "string": "2012-12-03"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "UAE",
-          "emoji": "🇦🇪"
-        },
-        "cities": [
-          "Dubai"
-        ]
-      }
-    }
+      "cities": [
+        "Dubai"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Wedding in Spain",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2013",
-        "month": "10",
-        "day": "09",
-        "string": "2013-10-09"
+    "date": "2013-10-09T00:00:00.000Z",
+    "to_date": "2013-10-15T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Spain",
+        "emoji": "🇪🇸"
       },
-      {
-        "year": "2013",
-        "month": "10",
-        "day": "15",
-        "string": "2013-10-15"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Spain",
-          "emoji": "🇪🇸"
-        },
-        "cities": [
-          "Torrevieja"
-        ]
-      }
-    }
+      "cities": [
+        "Torrevieja"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2013",
-        "month": "12",
-        "day": "19",
-        "string": "2013-12-19"
+    "date": "2013-12-19T00:00:00.000Z",
+    "to_date": "2014-01-02T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "UAE",
+        "emoji": "🇦🇪"
       },
-      {
-        "year": "2014",
-        "month": "01",
-        "day": "02",
-        "string": "2014-01-02"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "UAE",
-          "emoji": "🇦🇪"
-        },
-        "cities": [
-          "Dubai"
-        ]
-      }
-    }
+      "cities": [
+        "Dubai"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Christmas",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2013",
-        "month": "12",
-        "day": "23",
-        "string": "2013-12-23"
+    "date": "2013-12-23T00:00:00.000Z",
+    "to_date": "2013-12-29T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Philippines",
+        "emoji": "🇵🇭"
       },
-      {
-        "year": "2013",
-        "month": "12",
-        "day": "29",
-        "string": "2013-12-29"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Philippines",
-          "emoji": "🇵🇭"
-        },
-        "cities": [
-          "Manilla"
-        ]
-      }
-    }
+      "cities": [
+        "Manilla"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2014",
-        "month": "07",
-        "day": "11",
-        "string": "2014-07-11"
+    "date": "2014-07-11T00:00:00.000Z",
+    "to_date": "2014-07-27T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "USA",
+        "emoji": "🇺🇸"
       },
-      {
-        "year": "2014",
-        "month": "07",
-        "day": "27",
-        "string": "2014-07-27"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "USA",
-          "emoji": "🇺🇸"
-        },
-        "cities": [
-          "Las Vegas",
-          "Los Angeles",
-          "San Diego"
-        ]
-      }
-    }
+      "cities": [
+        "Las Vegas",
+        "Los Angeles",
+        "San Diego"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2015",
-        "month": "07",
-        "day": "13",
-        "string": "2015-07-13"
+    "date": "2015-07-13T00:00:00.000Z",
+    "to_date": "2014-07-27T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Thailand",
+        "emoji": "🇹🇭"
       },
-      {
-        "year": "2015",
-        "month": "07",
-        "day": "27",
-        "string": "2014-07-27"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Thailand",
-          "emoji": "🇹🇭"
-        },
-        "cities": [
-          "Bangkok",
-          "Chiang Mai",
-          "Chiang Rai"
-        ]
-      }
-    }
+      "cities": [
+        "Bangkok",
+        "Chiang Mai",
+        "Chiang Rai"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2016",
-        "month": "02",
-        "day": "08",
-        "string": "2016-02-08"
+    "date": "2016-02-08T00:00:00.000Z",
+    "to_date": "2016-02-16T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "UAE",
+        "emoji": "🇦🇪"
       },
-      {
-        "year": "2016",
-        "month": "02",
-        "day": "16",
-        "string": "2016-02-16"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "UAE",
-          "emoji": "🇦🇪"
-        },
-        "cities": [
-          "Dubai"
-        ]
-      }
-    }
+      "cities": [
+        "Dubai"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2017",
-        "month": "07",
-        "day": "16",
-        "string": "2017-07-16"
+    "date": "2017-07-16T00:00:00.000Z",
+    "to_date": "2017-07-31T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Malasyia",
+        "emoji": "🇲🇾"
       },
-      {
-        "year": "2017",
-        "month": "07",
-        "day": "31",
-        "string": "2017-07-31"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Malasyia",
-          "emoji": "🇲🇾"
-        },
-        "cities": [
-          "Johor"
-        ]
-      }
-    }
+      "cities": [
+        "Johor"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2018",
-        "month": "06",
-        "day": "09",
-        "string": "2018-06-09"
+    "date": "2018-06-09T00:00:00.000Z",
+    "to_date": "2018-06-16T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Greece",
+        "emoji": "🇬🇷"
       },
-      {
-        "year": "2018",
-        "month": "06",
-        "day": "16",
-        "string": "2018-06-16"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Greece",
-          "emoji": "🇬🇷"
-        },
-        "cities": [
-          "Rhodes"
-        ]
-      }
-    }
+      "cities": [
+        "Rhodes"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Weekend",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2018",
-        "month": "07",
-        "day": "13",
-        "string": "2018-07-13"
+    "date": "2018-07-13T00:00:00.000Z",
+    "to_date": "2018-07-15T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2018",
-        "month": "07",
-        "day": "15",
-        "string": "2018-07-15"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Oslo"
-        ]
-      }
-    }
+      "cities": [
+        "Oslo"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Weekend on Svalbard",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2019",
-        "month": "02",
-        "day": "01",
-        "string": "2019-02-01"
+    "date": "2019-02-01T00:00:00.000Z",
+    "to_date": "2019-02-04T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2019",
-        "month": "02",
-        "day": "04",
-        "string": "2019-02-04"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Svalbard"
-        ]
-      }
-    }
+      "cities": [
+        "Svalbard"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Weekend in Copenhagen",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2019",
-        "month": "10",
-        "day": "24",
-        "string": "2019-10-24"
+    "date": "2019-10-24T00:00:00.000Z",
+    "to_date": "2019-10-28T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Denmark",
+        "emoji": "🇩🇰"
       },
-      {
-        "year": "2019",
-        "month": "10",
-        "day": "28",
-        "string": "2019-10-28"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Denmark",
-          "emoji": "🇩🇰"
-        },
-        "cities": [
-          "Copenhagen"
-        ]
-      }
-    }
+      "cities": [
+        "Copenhagen"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Visting my SO",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2021",
-        "month": "07",
-        "day": "22",
-        "string": "2021-07-22"
+    "date": "2021-07-22T00:00:00.000Z",
+    "to_date": "2021-07-27T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2021",
-        "month": "07",
-        "day": "27",
-        "string": "2021-07-27"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Svalbard"
-        ]
-      }
-    }
+      "cities": [
+        "Svalbard"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Meetings",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2021",
-        "month": "08",
-        "day": "18",
-        "string": "2021-08-18"
+    "date": "2021-08-18T00:00:00.000Z",
+    "to_date": "2021-08-18T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2021",
-        "month": "08",
-        "day": "18",
-        "string": "2021-08-18"
-      },
-      {
-        "day": "19",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-19"
-      },
-      {
-        "day": "23",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-23"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Oslo"
-        ]
-      }
-    }
+      "cities": [
+        "Oslo"
+      ]
+    },
+    "occasion": "business"
   },
   {
+    "type": "travel",
     "title": "WAX-kon",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "08",
-        "string": "2021-11-08"
+    "date": "2021-11-08T00:00:00.000Z",
+    "to_date": "2021-11-10T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "10",
-        "string": "2021-11-10"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Nesbyen"
-        ]
-      }
-    }
+      "cities": [
+        "Nesbyen"
+      ]
+    },
+    "occasion": "business"
   },
   {
+    "type": "travel",
     "title": "Meeting with Try",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "18",
-        "string": "2021-11-18"
+    "date": "2021-11-18T00:00:00.000Z",
+    "to_date": "2021-11-18T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "19",
-        "string": "2021-11-18"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Oslo"
-        ]
-      }
-    }
+      "cities": [
+        "Oslo"
+      ]
+    },
+    "occasion": "business"
   },
   {
+    "type": "travel",
     "title": "Quick Holiday in NYC",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2021",
-        "month": "12",
-        "day": "18",
-        "string": "2021-12-18"
+    "date": "2021-12-18T00:00:00.000Z",
+    "to_date": "2021-12-24T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "USA",
+        "emoji": "🇺🇸"
       },
-      {
-        "year": "2021",
-        "month": "12",
-        "day": "24",
-        "string": "2021-12-24"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "USA",
-          "emoji": "🇺🇸"
-        },
-        "cities": [
-          "New York"
-        ]
-      }
-    }
+      "cities": [
+        "New York"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Show in Oslo",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "04",
-        "string": "2022-03-04"
+    "date": "2022-03-04T00:00:00.000Z",
+    "to_date": "2022-03-06T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "06",
-        "string": "2022-03-06"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Oslo"
-        ]
-      }
-    }
+      "cities": [
+        "Oslo"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Ski trip",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "25",
-        "string": "2022-03-25"
+    "date": "2022-03-25T00:00:00.000Z",
+    "to_date": "2022-03-27T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "27",
-        "string": "2022-03-27"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Trondheim"
-        ]
-      }
-    }
+      "cities": [
+        "Trondheim"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Holiday",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "13",
-        "string": "2022-08-13"
+    "date": "2022-08-13T00:00:00.000Z",
+    "to_date": "2022-08-28T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Thailand",
+        "emoji": "🇹🇭"
       },
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "28",
-        "string": "2022-08-28"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Thailand",
-          "emoji": "🇹🇭"
-        },
-        "cities": [
-          "Pattaya, Koh Samet",
-          "Bangkok"
-        ]
-      }
-    }
+      "cities": [
+        "Pattaya, Koh Samet",
+        "Bangkok"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
+    "type": "travel",
     "title": "Y Oslo",
-    "description": "Attending Y Oslo conference",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "19",
-        "string": "2022-10-19"
+    "date": "2022-10-19T00:00:00.000Z",
+    "to_date": "2022-10-21T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "21",
-        "string": "2022-10-21"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Oslo"
-        ]
-      }
-    }
+      "cities": [
+        "Oslo"
+      ]
+    },
+    "occasion": "business"
   },
   {
+    "type": "travel",
     "title": "Meetings",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "03",
-        "string": "2022-11-03"
+    "date": "2022-11-03T00:00:00.000Z",
+    "to_date": "2022-11-04T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "04",
-        "string": "2022-11-04"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Trondheim"
-        ]
-      }
-    }
+      "cities": [
+        "Trondheim"
+      ]
+    },
+    "occasion": "business"
   },
   {
+    "type": "travel",
     "title": "Meetings",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "15",
-        "string": "2022-11-15"
+    "date": "2022-11-15T00:00:00.000Z",
+    "to_date": "2022-11-17T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "17",
-        "string": "2022-11-17"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Trondheim"
-        ]
-      }
-    }
+      "cities": [
+        "Trondheim"
+      ]
+    },
+    "occasion": "business"
   },
   {
+    "type": "travel",
     "title": "Visiting friends",
-    "type": "travel",
-    "date": [
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "16",
-        "string": "2022-12-16"
+    "date": "2022-12-16T00:00:00.000Z",
+    "to_date": "2022-12-21T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Northern Ireland",
+        "emoji": "🇬🇧"
       },
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "21",
-        "string": "2022-12-21"
-      }
-    ],
-    "details": {
-      "occasion": "pleasure",
-      "location": {
-        "country": {
-          "name": "Northern Ireland",
-          "emoji": "🇬🇧"
-        },
-        "cities": [
-          "Belfast",
-          "Lisburn",
-          "Portrush"
-        ]
-      }
-    }
+      "cities": [
+        "Belfast",
+        "Lisburn",
+        "Portrush"
+      ]
+    },
+    "occasion": "pleasure"
   },
   {
-    "title": "Meetings",
     "type": "travel",
-    "date": [
-      {
-        "day": "19",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-18"
+    "title": "Meetings",
+    "date": "2023-01-18T00:00:00.000Z",
+    "to_date": "2023-01-19T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "day": "19",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-19"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Trondheim"
-        ]
-      }
-    }
+      "cities": [
+        "Trondheim"
+      ]
+    },
+    "occasion": "business"
   },
   {
-    "title": "Meetings",
     "type": "travel",
-    "date": [
-      {
-        "day": "23",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-23"
+    "title": "Meetings",
+    "date": "2023-01-23T00:00:00.000Z",
+    "to_date": "2023-01-23T00:00:00.000Z",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
       },
-      {
-        "day": "23",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-23"
-      }
-    ],
-    "details": {
-      "occasion": "business",
-      "location": {
-        "country": {
-          "name": "Norway",
-          "emoji": "🇳🇴"
-        },
-        "cities": [
-          "Kristiansand"
-        ]
-      }
-    }
+      "cities": [
+        "Kristiansand"
+      ]
+    },
+    "occasion": "business"
   }
 ]

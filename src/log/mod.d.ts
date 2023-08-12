@@ -42,7 +42,7 @@ declare namespace Log {
   interface TravelEntry {
     type: "travel";
     occasion: "business" | "pleasure";
-    to_date: Date;
+    to_date: string;
     location: {
       country: {
         name: string;
