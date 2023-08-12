@@ -23,7 +23,6 @@ export default function Home() {
     "Add proper logs pages",
     "Add sitemap (not xml)",
     "Add tests",
-    "Move scripts",
     "Git integration?",
     "Swap shortcodes with proper Markdown",
     "Check all links in Markdown",
@@ -33,7 +32,7 @@ export default function Home() {
     "Move About",
     "Clean up front matter in all Markdown files",
     "Clean up `utils.ts`",
-    "Add route for all outgoing links",
+    "Add route for all outgoing links (.well-known)",
     "Change layout",
   ];
   return (
