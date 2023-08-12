@@ -15,7 +15,14 @@ but I didn't want to sign up for any waitlist, so I waited instead.
 When I opened Arc for the first (and only) time, I was greeted with a sign up
 form. Why do I need to sign up to browse the internet?
 
-{{ picture(url="content/blog/2023-08-01-arc-browser-account/arc-screenshot.png", alt="Screentshot of Arc browser after first time opening." caption="What I was greeted with after opening the Arc browser for the first time.") }}
+<figure>
+  <img
+    src="/img/blog/2023-08-01-arc-browser-account/arc-screenshot.png"
+    alt="Screentshot of Arc browser after first time opening.">
+  <figcaption>
+    What I was greeted with after opening the Arc browser for the first time.
+  </figcaption>
+</figure>
 
 The form even says:
 

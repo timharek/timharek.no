@@ -39,7 +39,14 @@ up as we were presenting for each other, instead of trying to remember all of
 them in my head. And man did that work wonders! I made it into a list and we
 adjusted everything and nailed the presentation!
 
-{{ picture(url="content/blog/2022-04-10-paper-notes/paper-notes.jpeg", alt="My field notes. Photo" caption="My field notes with my Space Pen.") }}
+<figure>
+  <img
+    src="/img/blog/2022-04-10-paper-notes/paper-notes.jpeg"
+    alt="My field notes. Photo">
+  <figcaption>
+    My field notes with my Space Pen.
+  </figcaption>
+</figure>
 
 Like Tom, I treat them as append-only, and when I started doing this, it came
 naturally for me to only write down my notes in the paper notebook instead of

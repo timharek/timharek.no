@@ -5,11 +5,13 @@ description = "Why does that matter?"
 tags = ["Thoughts"]
 +++
 
-{% notice(type="note") %}
-  I don't hold anything against those who bought anything on
-  Black Friday, there might have been some great deals and I fully understand
-  that. This post is not about taking advantage of that.
-{% end %}
+## Disclaimer
+
+I don't hold anything against those who bought anything on Black Friday, there
+might have been some great deals and I fully understand that. This post is not
+about taking advantage of that.
+
+## My thoughts
 
 For the first time in many years I didn't pay any attention to Black Friday (or
 Black Week) sales. I didn't want anything, I didn't need anything, I felt like I
@@ -33,4 +35,3 @@ a lot!
 I'm grateful that I didn't buy anything this year and that I've gotten a better
 relationship with buying stuff over the years. Looking forward to more years
 with a more thoughtful approach to buying stuff.
-

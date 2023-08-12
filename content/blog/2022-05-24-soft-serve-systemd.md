@@ -1,12 +1,10 @@
 +++
 title = "How to setup soft-serve as a systemd-service"
 description = "Setting up and using soft-serve from charm.sh as a Git-server."
+updated = 2023-01-15
 [taxonomies]
 tags = ["Tutorial", "Git", "Software", "DevOps"]
 +++
-
-{% notice(type="info") %} As of 2023-01-15 I'm no longer hosting a `soft-serve`
-server. {% end %}
 
 ## What is soft-serve?
 
@@ -83,6 +81,10 @@ ssh <hostname> -p 23231
 For the rest of the setup of `soft-serve` I recommend going through their
 official instructions in order to configure it correctly.
 [Repo-link][soft_serve].
+
+## Update 2023-01-15
+
+As of 2023-01-15 I'm no longer hosting a `soft-serve` server.
 
 [soft_serve]: https://github.com/charmbracelet/soft-serve
 [soft_serve_instructions]:

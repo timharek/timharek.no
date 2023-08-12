@@ -23,7 +23,14 @@ and it works great! It detects the document and makes a scan as soon as it's
 finished scanning its contents. It's also super convienient on iOS's
 Nextcloud-app.
 
-{{ picture(url="content/blog/2022-09-05-why-you-shoud-stop-taking-photos-of-documents/files-scan.jpeg", alt="Screenshots from iOS scanning a document" caption="How you can scan documents on iOS with the Files-app.") }}
+<figure>
+  <img
+    src="/img/blog/2022-09-05-why-you-shoud-stop-taking-photos-of-documents/files-scan.jpeg"
+    alt="Screenshots from iOS scanning a document">
+  <figcaption>
+    How you can scan documents on iOS with the Files-app.
+  </figcaption>
+</figure>
 
 (I don't have an Android phone available to test, but it seems it's possible to
 scan documents straight from [the camera app][android], please do that instead

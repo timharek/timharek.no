@@ -37,7 +37,14 @@ Inventory Management. It's called [Hima][hima], which means "home" in a
 Norwegian dialect and could be used as a acronym for "Home Inventory Management
 Application".
 
-{{ picture(url="content/blog/2023-04-09-2023-march-recently/hima-screenshot.png", alt="Screenshot of Hima" caption="What Hima looks like as of today.") }}
+<figure>
+  <img
+    src="/img/blog/2023-04-09-2023-march-recently/hima-screenshot.png"
+    alt="Screenshot of Hima">
+  <figcaption>
+    What Hima looks like as of today.
+  </figcaption>
+</figure>
 
 It's open source and the source code is available on [Sourcehut][hima]. It's
 been really fun learning Deno Fresh and doing more custom server-side stuff.

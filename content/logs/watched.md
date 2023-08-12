@@ -16,7 +16,8 @@ Currently watching:
 
 - Barry S4
 
-{% details(heading="Legend") %}
+<details>
+  <summary>Legend</summary>
 
   <dl class="review__rating">
     <dt aria-label="1 out of 5 stars">★☆☆☆☆</dt>
@@ -30,4 +31,4 @@ Currently watching:
     <dt aria-label="5 out of 5 stars">★★★★★</dt>
     <dd>Must watch!</dd>
   </dl>
-{% end %}
+</details>

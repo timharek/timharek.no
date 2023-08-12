@@ -40,9 +40,14 @@ alternatives, who knows? 🤷
 I tried to login to my Facebook account, and to my surprise my account hadn't
 been deleted.
 
-{{ picture(url="blog/2021-12-08-post-facebook/screenshot.png",
-  alt="Screenshot from Facebook after I initially deleted my account",
-  caption="Facebook saying my account will be deleted after the 5th of December, while the current date is December 11th.") }}
+<figure>
+  <img
+    src="/img/blog/2021-12-08-post-facebook/screenshot.png"
+    alt="Screenshot from Facebook after I initially deleted my account">
+  <figcaption>
+    Facebook saying my account will be deleted after the 5th of December, while the current date is December 11th.
+  </figcaption>
+</figure>
 
 I've reached out to the GDPR folks at Facebook to see if they can fix this. I'll
 post a new update as soon as I hear back from them.

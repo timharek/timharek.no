@@ -109,13 +109,27 @@ So do keep that in mind!
 
 ## Is it easy to use?
 
-{{ picture(url="content/blog/2023-07-09-migadu-review-2023/migadu-dns.png", alt="Screenshot of Migadu's DNS setup." caption="Migadu's DNS setup.") }}
+<figure>
+  <img
+    src="/img/blog/2023-07-09-migadu-review-2023/migadu-dns.png"
+    alt="Screenshot of Migadu's DNS setup.">
+  <figcaption>
+    Migadu's DNS setup.
+  </figcaption>
+</figure>
 
 In my experience it's straight forward to set up and get started. Their guide
 for adding a domain has all the details you need to add the different DNS
 records and the UI explains what the different things are.
 
-{{ picture(url="content/blog/2023-07-09-migadu-review-2023/migadu-mailbox.png", alt="Screenshot of Migadu's Mailbox overview." caption="Migadu's Mailbox overview.") }}
+<figure>
+  <img
+    src="/img/blog/2023-07-09-migadu-review-2023/migadu-mailbox.png"
+    alt="Screenshot of Migadu's Mailbox overview.">
+  <figcaption>
+    Migadu's Mailbox overview.
+  </figcaption>
+</figure>
 
 ## Conclusion
 

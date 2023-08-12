@@ -19,7 +19,14 @@ I've been hard at work learning more about my 3D-printer. I printed a bunch of
 spool-holders for all my filament, which is mounted nicely on a IKEA Skådis
 pegboard besides the printer.
 
-{{ picture(url="content/blog/2022-09-30-2022-september-recently/spools.jpeg", alt="Photo of my 3D-printed spool-holders." caption="My new spool-holders.") }}
+<figure>
+  <img
+    src="/img/blog/2022-09-30-2022-september-recently/spools.jpeg"
+    alt="Photo of my 3D-printed spool-holders.">
+  <figcaption>
+    My new spool-holders.
+  </figcaption>
+</figure>
 
 I also bought a glass plate to replace the metal bed to get better prints. _Why
 is this so much fun?_
@@ -58,4 +65,5 @@ logged in just to check what people had been up to. So I just deleted the thing,
 no more feeling the urge to check-in.
 
 [dumb_watch]: @/blog/2022-01-16-switching-back-dumb-watch.md
-[phoenix_project]: https://www.goodreads.com/book/show/17255186-the-phoenix-project
+[phoenix_project]:
+  https://www.goodreads.com/book/show/17255186-the-phoenix-project

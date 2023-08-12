@@ -32,8 +32,14 @@ out how I can save as much time as possible with my designs. Hopefully in
 August's post I'll have some files to share, until then you can check out my
 custom-designed mop-holder!
 
-{{ picture(url="content/blog/2022-08-01-2022-july-recently/mop_overview.jpeg",
-isSmall="true" alt="My mop hanging in the closet. Photo" caption="My first custom 3D design, a mop holder.") }}
+<figure>
+  <img
+    src="/img/blog/2022-08-01-2022-july-recently/mop_overview.jpeg"
+    alt="My mop hanging in the closet. Photo">
+  <figcaption>
+    My first custom 3D design, a mop holder.
+  </figcaption>
+</figure>
 
 However, I've been struggling a bit with the printer as well. The UI is not the
 best and the instructions that came included was missing some stuff. You see,

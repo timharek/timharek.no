@@ -29,8 +29,14 @@ of the expenses were taken away.
 
 ## What I like about Ghost
 
-{{ picture(url="@/blog/2022-07-20-my-thoughts-on-ghost-cms/snapshot.jpg",
-  alt="Screenshot of Ghost's dashboard" caption="The beautiful Ghost Dashboard.") }}
+<figure>
+  <img
+    src="/img/blog/2022-07-20-my-thoughts-on-ghost-cms/snapshot.jpg"
+    alt="Screenshot of Ghost's dashboard">
+  <figcaption>
+    The beautiful Ghost Dashboard.
+  </figcaption>
+</figure>
 
 I like the clean and simple admin UI Ghost has, it's simple and streamlined.
 Nothing fancy, each button and link takes were you want to go. And I really like
@@ -131,9 +137,14 @@ signed up again, they did that by creating a promotion from within the CMS. But
 when they tried to open the promotion-link they were sent directly to Stripe
 instead of the pop-up preview they were shown in the UI.
 
-{{ picture(url="@/blog/2022-07-20-my-thoughts-on-ghost-cms/pop-preview.png",
-  alt="Screenshot of pop-up preview" caption="The preview in Ghost",
-  isSmall=true) }}
+<figure>
+  <img
+    src="/img/blog/2022-07-20-my-thoughts-on-ghost-cms/pop-preview.png"
+    alt="Screenshot of pop-up preview">
+  <figcaption>
+    The preview in Ghost
+  </figcaption>
+</figure>
 
 We contacted Ghost, they replied that you need to active the
 [Portal-button][portal_button] in order for the pop-up to work. And this is not
@@ -150,8 +161,8 @@ Furthermore, I've summarized what I've learned:
 - Ghost is mainly for blog-like content.
   - It has limited customizability when it comes to how the content is rendered
     in the frontend.
-  - It can be a good thing, it makes it easier for editor when they don't have too
-    many options.
+  - It can be a good thing, it makes it easier for editor when they don't have
+    too many options.
 - I should do more tests and try out the technology before I dive deep.
   - With this project I only read their documentation and looked at their
     examples instead of trying to create simple "Hello world"'s myself.
@@ -163,14 +174,15 @@ Furthermore, I've summarized what I've learned:
     deprecations and warnings, it's great!
   - It helped us a ton when we were "forced" to upgrade to Ghost CMS 5.
 - Handlebars seems outdated
-  - Not meant in a bad-way, I'm sure it's great when you used it in a way
-    where you can easily extend it and built upon it.
+  - Not meant in a bad-way, I'm sure it's great when you used it in a way where
+    you can easily extend it and built upon it.
 - It helps to write down stuff like this.
-  - It's something I can look back on, that can be of help for future reference not
-    only for me but for others as well.
+  - It's something I can look back on, that can be of help for future reference
+    not only for me but for others as well.
 
 [ghost]: https://ghost.org
-[kickstarter]: https://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform
+[kickstarter]:
+  https://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform
 [theme_starter]: https://github.com/TryGhost/Starter
 [ghost_helpers]: https://ghost.org/docs/themes/helpers/
 [helper_has]: https://ghost.org/docs/themes/helpers/has/

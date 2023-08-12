@@ -59,7 +59,14 @@ much more. I also made a nice overview of everyone in the building, owner or
 resident, this page is protected by a password, so that this information stays
 out of the public's eyes.
 
-{{ picture(url="content/blog/2022-10-02-i-made-a-website-for-the-place-i-live/screenshot.png", alt="Screenshot of the website I made." caption="The super simple website for the building I live in.") }}
+<figure>
+  <img
+    src="/img/blog/ns6.no-screenshot.png"
+    alt="Screenshot of the website I made.">
+  <figcaption>
+    The super simple website for the building I live in.
+  </figcaption>
+</figure>
 
 I made the website with a focus on being scaleable, so I've also created more
 pages with other details, such as:
@@ -76,11 +83,11 @@ And to fix the issue by having to reprint all of our documents to the notice
 boards, I created QR-codes with URLs for the most important webpages. So now we
 don't have to reprint every time one of these documents/webpages get updated.
 
-An added benefit of having most of our document creation process on the website 
+An added benefit of having most of our document creation process on the website
 makes it very convenient to announce new meetings, as I can just generate a PDF
-of that page/post and attach to the e-mail I send to everyone. Then they'll 
-have the static copy of the meeting-announcement with a link to the actual post 
-in case it gets updated.
+of that page/post and attach to the e-mail I send to everyone. Then they'll have
+the static copy of the meeting-announcement with a link to the actual post in
+case it gets updated.
 
 We've been using this for two weeks now and I've found it super helpful for my
 needs. I can even link to stuff on Dropbox whenever I'm referring to a document.

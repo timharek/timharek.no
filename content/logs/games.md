@@ -15,7 +15,8 @@ Currently playing:
 - Zelda: Tears of the Kingdom on the Nintendo Switch
 - Dave the Diver on the Steam Deck
 
-{% details(heading="Legend") %}
+<details>
+  <summary>Legend</summary>
 
   <dl class="review__rating">
     <dt aria-label="1 out of 5 stars">★☆☆☆☆</dt>
@@ -29,4 +30,4 @@ Currently playing:
     <dt aria-label="5 out of 5 stars">★★★★★</dt>
     <dd>Must play!</dd>
   </dl>
-{% end %}
+</details>

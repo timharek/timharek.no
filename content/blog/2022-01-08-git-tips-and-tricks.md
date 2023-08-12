@@ -166,5 +166,3 @@ Here is some of my useful aliases that are not that straight forward;
 
 I hope you learned something new! I want to write more about some of my
 configurations from my dotfiles.
-
-{{ backlinks() }}

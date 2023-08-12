@@ -23,7 +23,6 @@ export default function Home() {
     "Add sitemap (not xml)",
     "Add tests",
     "Git integration?",
-    "Swap shortcodes with proper Markdown",
     "Check all links in Markdown",
     "Clean up front matter in all Markdown files",
     "Clean up `utils.ts`",
@@ -33,6 +32,9 @@ export default function Home() {
     "Add support for Plausible",
     "Add route for all outgoing links (.well-known)",
     "Change layout",
+    "Add backlinks",
+    "Add word count",
+    "Add Stats-page",
   ];
   return (
     <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">

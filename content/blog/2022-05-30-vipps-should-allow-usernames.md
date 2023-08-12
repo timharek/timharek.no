@@ -6,12 +6,6 @@ description = "Today Vipps doesn't allow usernames for individuals, and that cou
 tags = ["Privacy", "Thoughts"]
 +++
 
-{% notice(type="note") %}
-  2022-06-07: This post also appeared on [Kode24 (Norwegian)](https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055).
-
-  2022-06-08: Vipps replied on [Kode24 (Norwegian)](https://www.kode24.no/artikkel/vipps-jobber-med-losninger-for-anonyme-brukere-vi-har-ikke-knekt-koden-enna/76289259).
-{% end %}
-
 In Norway we have a service (mobile app) called [Vipps][vipps] that we use for
 quick money transfers between individuals, we can also use it to pay in some
 stores, and as a way of authenticating ourselves online.
@@ -63,6 +57,18 @@ to let their users identify themselves via the app. **What do you think?** I'm
 curious what others think about this. (I know this is mostly relevant for
 Norwegian citizens).
 
+## Update 2022-06-07
+
+2022-06-07: This post also appeared on
+[Kode24 (Norwegian)](https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055).
+
+## Update 2022-06-08
+
+2022-06-08: Vipps replied on
+[Kode24 (Norwegian)](https://www.kode24.no/artikkel/vipps-jobber-med-losninger-for-anonyme-brukere-vi-har-ikke-knekt-koden-enna/76289259).
+
 [vipps]: https://vipps.no
-[kode24]: https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055
-[kode24_answer]: https://www.kode24.no/artikkel/vipps-jobber-med-losninger-for-anonyme-brukere-vi-har-ikke-knekt-koden-enna/76289259
+[kode24]:
+  https://www.kode24.no/artikkel/vipps-kan-fortsatt-avslore-hemmelige-telefonnummer-na-etterlyser-utvikler-brukernavn/76237055
+[kode24_answer]:
+  https://www.kode24.no/artikkel/vipps-jobber-med-losninger-for-anonyme-brukere-vi-har-ikke-knekt-koden-enna/76289259

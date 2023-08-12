@@ -8,10 +8,6 @@ updated = 2022-12-08
 tags = ["DevOps", "Git", "CI/CD", "GitHub", "GitLab", "SourceHut", "rsync"]
 +++
 
-{% notice(type="note") %} As of 2022-12-08
-[I have switched to SourceHut](@/blog/2022-12-08-switching-to-sourcehut-builds.md).
-{% end %}
-
 For the last couple of weeks I've been asking myself this. What is the better
 solution? Do I want to rely on a third-party for the deployment of my static
 sites, if so, which ones? If no, should I use [git-hooks][git_hooks],
@@ -158,6 +154,11 @@ using Pushover for notifications.
 I'm open for suggestions and tips you have any.
 
 [Checkout my Git-tricks](@/garden/tools/git.md) in my digital garden.
+
+## Update 2022-12-08
+
+As of 2022-12-08
+[I have switched to SourceHut](@/blog/2022-12-08-switching-to-sourcehut-builds.md).
 
 [^1]: Subjective opinion, because of their massive user base.
 [^2]: There are a few more options if you want to have custom domain etc.

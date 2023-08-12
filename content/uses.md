@@ -15,7 +15,14 @@ software and services.
 I don't really arrange my desk to well, I only do that occasionally. Here is
 some snapshots of my current workspace.
 
-{{ picture(url="content/about/setup.webp", alt="My desk setup. Photo" caption="My current desk setup.") }}
+<figure>
+  <img
+    src="/img/uses/setup.webp"
+    alt="My desk setup. Photo">
+  <figcaption>
+    My current desk setup.
+  </figcaption>
+</figure>
 
 ## Hardware
 
@@ -24,7 +31,14 @@ some snapshots of my current workspace.
 - **Apple Watch Ultra**. Overkill watch for everyday exercise.
 - [ZSA Moonlander Mark I][moonlander]. Ergonomic split keyboard.
 
-{{ picture(url="content/about/hardware.webp", alt="My MacBook, iPhone and Apple Watch. Photo" caption="My MacBook, iPhone and Apple Watch. (Yes, I watch Kurzgesagt)") }}
+<figure>
+  <img
+    src="/img/uses/hardware.webp"
+    alt="My MacBook, iPhone and Apple Watch. Photo">
+  <figcaption>
+    My MacBook, iPhone and Apple Watch. (Yes, I watch Kurzgesagt)
+  </figcaption>
+</figure>
 
 ### Homelab
 
@@ -36,7 +50,14 @@ some snapshots of my current workspace.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
 - **Ender 3 S1**. 3D-printer.
 
-{{ picture(url="content/about/3d-pegboard.webp", alt="Server-cabinet and 3D-printer setup with filaments. Photo" caption="Server-cabinet and 3D-printer setup with filaments.") }}
+<figure>
+  <img
+    src="/img/uses/3d-pegboard.webp"
+    alt="Server-cabinet and 3D-printer setup with filaments. Photo">
+  <figcaption>
+    Server-cabinet and 3D-printer setup with filaments.
+  </figcaption>
+</figure>
 
 ## Software
 
