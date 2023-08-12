@@ -1,296 +1,124 @@
 [
   {
+    "type": "life",
     "title": "New apartment",
     "description": "Got my first apartment",
-    "type": "life",
-    "date": [
-      {
-        "year": "2016",
-        "month": "08",
-        "day": "08",
-        "string": "2016-08-08"
-      }
-    ],
-    "details": {
-      "custom_prefix": null
-    }
+    "date": "2016-08-08T00:00:00.000Z"
   },
   {
+    "type": "life",
     "title": "Finished military service",
     "description": "",
-    "type": "life",
-    "date": [
-      {
-        "year": "2016",
-        "month": "09",
-        "day": "21",
-        "string": "2016-09-21"
-      }
-    ],
-    "details": {
-      "custom_prefix": null
-    }
+    "date": "2016-09-21T00:00:00.000Z"
   },
   {
+    "type": "life",
     "title": "Moved to Bergen",
     "description": "To study Computer Security.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2017",
-        "month": "07",
-        "day": "31",
-        "string": "2017-07-31"
-      }
-    ],
-    "details": {
-      "custom_prefix": null
-    }
+    "date": "2017-07-31T00:00:00.000Z"
   },
   {
+    "type": "life",
     "title": "Started my Bachelor's degree",
     "description": "In Computer Security.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2017",
-        "month": "08",
-        "day": "17",
-        "string": "2017-08-17"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🏛️ Education"
-    }
+    "date": "2017-08-17T00:00:00.000Z",
+    "category": "🏛️ Education"
   },
   {
+    "type": "life",
     "title": "Got a dog 🐶",
     "description": "Picked up Ayla.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2018",
-        "month": "01",
-        "day": "01",
-        "string": "2018-01-01"
-      }
-    ],
-    "details": {
-      "custom_prefix": null
-    }
+    "date": "2018-01-01T00:00:00.000Z"
   },
   {
+    "type": "life",
     "title": "New website",
     "description": "",
-    "type": "life",
-    "date": [
-      {
-        "year": "2021",
-        "month": "01",
-        "day": "28",
-        "string": "2021-01-28"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🌐 Internet"
-    }
+    "date": "2021-01-28T00:00:00.000Z",
+    "category": "🌐 Internet"
   },
   {
+    "type": "life",
     "title": "Finished my Bachelor's degree",
     "description": "In Computer Security.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2021",
-        "month": "06",
-        "day": "07",
-        "string": "2021-06-07"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🏛️ Education"
-    }
+    "date": "2021-06-07T00:00:00.000Z",
+    "category": "🏛️ Education"
   },
   {
+    "type": "life",
     "title": "New job at Netlife Bergen",
     "description": "First job after Univeristy.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2021",
-        "month": "08",
-        "day": "02",
-        "string": "2021-08-02"
-      }
-    ],
-    "details": {
-      "custom_prefix": "💼 Career"
-    }
+    "date": "2021-08-02T00:00:00.000Z",
+    "category": "💼 Career"
   },
   {
+    "type": "life",
     "title": "Deleted my Facebook-account",
     "description": "",
-    "type": "life",
-    "date": [
-      {
-        "year": "2021",
-        "month": "10",
-        "day": "31",
-        "string": "2021-10-31"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🌐 Internet"
-    }
+    "date": "2021-10-31T00:00:00.000Z",
+    "category": "🌐 Internet"
   },
   {
+    "type": "life",
     "title": "First opinion piece",
     "description": "On a Norwegian tech site.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2022",
-        "month": "06",
-        "day": "07",
-        "string": "2022-06-07"
-      }
-    ],
-    "details": {
-      "custom_prefix": "✍️ Writing"
-    }
+    "date": "2022-06-07T00:00:00.000Z",
+    "category": "✍️ Writing"
   },
   {
+    "type": "life",
     "title": "Got my first 3D-printer",
     "description": "",
-    "type": "life",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "13",
-        "string": "2022-07-13"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🖲️ Hobby"
-    }
+    "date": "2022-07-13T00:00:00.000Z",
+    "category": "🖲️ Hobby"
   },
   {
+    "type": "life",
     "title": "Ran my 2nd half-marathon",
     "description": "Finished in 2 hours and 2 minutes",
-    "type": "life",
-    "date": [
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "03",
-        "string": "2022-12-03"
-      }
-    ],
-    "details": {
-      "custom_prefix": "💪 Health"
-    }
+    "date": "2022-12-03T00:00:00.000Z",
+    "category": "💪 Health"
   },
   {
+    "type": "life",
     "title": "Featured on Hacker News",
     "description": "'You don't need live chat on your website', a post I spent no more than five minutes on.",
-    "type": "life",
-    "date": [
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "08",
-        "string": "2022-12-08"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🪨 Milestone"
-    }
+    "date": "2022-12-08T00:00:00.000Z",
+    "category": "🪨 Milestone"
   },
   {
+    "type": "life",
     "title": "Ran a half-marathon",
     "description": "Finished in 2 hours and 6 minutes, snowy and icy roads.",
-    "type": "life",
-    "date": [
-      {
-        "day": "21",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-21"
-      },
-      {
-        "day": "18",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-18"
-      }
-    ],
-    "details": {
-      "custom_prefix": "💪 Health"
-    }
+    "date": "2023-01-21T00:00:00.000Z",
+    "category": "💪 Health"
   },
   {
+    "type": "life",
     "title": "Ran half-marathon 2 of 6 2023",
     "description": "Finished in 2 hours and 7 minutes. First one in barefoot shoes.",
-    "type": "life",
-    "date": [
-      {
-        "day": "18",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-18"
-      }
-    ],
-    "details": {
-      "custom_prefix": "💪 Health"
-    }
+    "date": "2023-02-18T00:00:00.000Z",
+    "category": "💪 Health"
   },
   {
+    "type": "life",
     "title": "Ran half-marathon 3 of 6 2023",
     "description": "Finished in 2 hours and 6 minutes.",
-    "type": "life",
-    "date": [
-      {
-        "day": "25",
-        "month": "03",
-        "year": "2023",
-        "string": "2023-03-25"
-      }
-    ],
-    "details": {
-      "custom_prefix": "💪 Health"
-    }
+    "date": "2023-03-25T00:00:00.000Z",
+    "category": "💪 Health"
   },
   {
+    "type": "life",
     "title": "Bought my first house",
     "description": "Bought my first house with my SO.",
-    "type": "life",
-    "date": [
-      {
-        "day": "26",
-        "month": "04",
-        "year": "2023",
-        "string": "2023-04-26"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🪨 Milestone"
-    }
+    "date": "2023-04-26T00:00:00.000Z",
+    "category": "🪨 Milestone"
   },
   {
+    "type": "life",
     "title": "Sold my first apartment",
     "description": "Sold the apartment I bought with my brother in 2016.",
-    "type": "life",
-    "date": [
-      {
-        "day": "03",
-        "month": "05",
-        "year": "2023",
-        "string": "2023-05-03"
-      }
-    ],
-    "details": {
-      "custom_prefix": "🪨 Milestone"
-    }
+    "date": "2023-05-03T00:00:00.000Z",
+    "category": "🪨 Milestone"
   }
 ]

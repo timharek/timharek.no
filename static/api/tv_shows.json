@@ -1,1367 +1,932 @@
 [
   {
-    "title": "Daredevil S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2015",
-        "month": "04",
-        "day": "11",
-        "string": "2015-04-11"
-      }
+    "title": "Daredevil",
+    "release_year": 2015,
+    "date": "2015-04-11T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Fantasy",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "creator": [
-        "Drew Goddard"
-      ],
-      "season": 1,
-      "episode_count": 13
-    }
+    "season": 1,
+    "creator": [
+      "Drew Goddard"
+    ]
   },
   {
-    "title": "Daredevil S2",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2016",
-        "month": "03",
-        "day": "19",
-        "string": "2016-03-19"
-      }
+    "title": "Daredevil",
+    "release_year": 2016,
+    "date": "2016-03-19T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Fantasy",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "creator": [
-        "Drew Goddard"
-      ],
-      "season": 2,
-      "episode_count": 13
-    }
+    "season": 2,
+    "creator": [
+      "Drew Goddard"
+    ]
   },
   {
-    "title": "Atypical S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2017",
-        "month": "08",
-        "day": "17",
-        "string": "2017-08-17"
-      }
+    "title": "Atypical",
+    "release_year": 2017,
+    "date": "2017-08-17T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "creator": [
-        "Robia Rashid"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "Robia Rashid"
+    ]
   },
   {
-    "title": "Atypical S2",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2018",
-        "month": "10",
-        "day": "07",
-        "string": "2018-10-07"
-      }
+    "title": "Atypical",
+    "release_year": 2018,
+    "date": "2018-10-07T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "creator": [
-        "Robia Rashid"
-      ],
-      "season": 2,
-      "episode_count": 10
-    }
+    "season": 2,
+    "creator": [
+      "Robia Rashid"
+    ]
   },
   {
-    "title": "Daredevil S3",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2018",
-        "month": "10",
-        "day": "29",
-        "string": "2018-10-29"
-      }
+    "title": "Daredevil",
+    "release_year": 2018,
+    "date": "2018-10-29T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Fantasy",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Fantasy",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "creator": [
-        "Drew Goddard"
-      ],
-      "season": 3,
-      "episode_count": 13
-    }
+    "season": 3,
+    "creator": [
+      "Drew Goddard"
+    ]
   },
   {
-    "title": "Bodyguard S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2018",
-        "month": "11",
-        "day": "08",
-        "string": "2018-11-08"
-      }
+    "title": "Bodyguard",
+    "release_year": 2018,
+    "date": "2018-11-08T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "creator": [
-        "Jed Mercurio"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "Jed Mercurio"
+    ]
   },
   {
-    "title": "Atypical S3",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2019",
-        "month": "11",
-        "day": "03",
-        "string": "2019-11-03"
-      }
+    "title": "Atypical",
+    "release_year": 2019,
+    "date": "2019-11-03T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "creator": [
-        "Robia Rashid"
-      ],
-      "season": 3,
-      "episode_count": 10
-    }
+    "season": 3,
+    "creator": [
+      "Robia Rashid"
+    ]
   },
   {
-    "title": "The Witcher S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2019",
-        "month": "12",
-        "day": "25",
-        "string": "2019-12-25"
-      }
+    "title": "The Witcher",
+    "release_year": 2019,
+    "date": "2019-12-25T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Mystery",
+      "Fantasy"
     ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama",
-        "Mystery",
-        "Fantasy"
-      ],
-      "creator": [
-        "Lauren Schmidt"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "Lauren Schmidt"
+    ]
   },
   {
-    "title": "Westworld S3",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2020",
-        "month": "05",
-        "day": "09",
-        "string": "2020-05-09"
-      }
+    "title": "Westworld",
+    "release_year": 2020,
+    "date": "2020-05-09T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ],
-      "creator": [
-        "Jonathan Nolan",
-        "Lisa Joy"
-      ],
-      "season": 3,
-      "episode_count": 6
-    }
+    "season": 3,
+    "creator": [
+      "Jonathan Nolan",
+      "Lisa Joy"
+    ]
   },
   {
-    "title": "Space Force S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2020",
-        "month": "06",
-        "day": "03",
-        "string": "2020-06-03"
-      }
+    "title": "Space Force",
+    "release_year": 2020,
+    "date": "2020-06-03T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
     ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "creator": [
-        "Steve Carell",
-        "Greg Daniels"
-      ],
-      "season": 1,
-      "episode_count": 10
-    }
+    "season": 1,
+    "creator": [
+      "Steve Carell",
+      "Greg Daniels"
+    ]
   },
   {
-    "title": "Atypical S4",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2021",
-        "month": "07",
-        "day": "20",
-        "string": "2021-07-20"
-      }
+    "title": "Atypical",
+    "release_year": 2021,
+    "date": "2021-07-20T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "creator": [
-        "Robia Rashid"
-      ],
-      "season": 4,
-      "episode_count": 10
-    }
+    "season": 4,
+    "creator": [
+      "Robia Rashid"
+    ]
   },
   {
-    "title": "Rick and Morty S5",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2021",
-        "month": "08",
-        "day": "09",
-        "string": "2021-08-09"
-      }
+    "title": "Rick and Morty",
+    "release_year": 2021,
+    "date": "2021-08-09T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi",
+      "Cartoon"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Sci-Fi",
-        "Cartoon"
-      ],
-      "creator": [
-        "Justin Roiland",
-        "Dan Harmon"
-      ],
-      "season": 5,
-      "episode_count": 10
-    }
+    "season": 5,
+    "creator": [
+      "Justin Roiland",
+      "Dan Harmon"
+    ]
   },
   {
-    "title": "Sex Education S3",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2021",
-        "month": "10",
-        "day": "13",
-        "string": "2021-10-13"
-      }
+    "title": "Sex Education",
+    "release_year": 2021,
+    "date": "2021-10-13T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "creator": [
-        "Laurie Nunn"
-      ],
-      "season": 3,
-      "episode_count": 8
-    }
+    "season": 3,
+    "creator": [
+      "Laurie Nunn"
+    ]
   },
   {
-    "title": "Hawkeye S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2021",
-        "month": "12",
-        "day": "22",
-        "string": "2021-12-22"
-      }
+    "title": "Hawkeye",
+    "release_year": 2021,
+    "date": "2021-12-22T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Comicbook"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama",
-        "Comicbook"
-      ],
-      "creator": [
-        "Jonathan Igla"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "Jonathan Igla"
+    ]
   },
   {
-    "title": "The Witcher S2",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "01",
-        "day": "09",
-        "string": "2022-01-09"
-      }
+    "title": "The Witcher",
+    "release_year": 2021,
+    "date": "2022-01-09T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Mystery",
+      "Fantasy"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama",
-        "Mystery",
-        "Fantasy"
-      ],
-      "creator": [
-        "Lauren Schmidt"
-      ],
-      "season": 2,
-      "episode_count": 8
-    }
+    "season": 2,
+    "creator": [
+      "Lauren Schmidt"
+    ]
   },
   {
+    "type": "tv",
     "title": "Dexter: New Blood",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "01",
-        "day": "11",
-        "string": "2022-01-11"
-      }
+    "release_year": 2021,
+    "date": "2022-01-11T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "creator": [
-        "Clyde Phillips"
-      ],
-      "season": 1,
-      "episode_count": 10
-    }
+    "season": 1,
+    "creator": [
+      "Clyde Phillips"
+    ]
   },
   {
-    "title": "The Book of Boba Fett S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "02",
-        "day": "11",
-        "string": "2022-02-11"
-      }
+    "title": "The Book of Boba Fett",
+    "release_year": 2021,
+    "date": "2022-02-11T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "creator": [
-        "Jon Favreau"
-      ],
-      "season": 1,
-      "episode_count": 7
-    }
+    "season": 1,
+    "creator": [
+      "Jon Favreau"
+    ]
   },
   {
-    "title": "Peacemaker S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "02",
-        "day": "18",
-        "string": "2022-02-18"
-      }
+    "title": "Peacemaker",
+    "release_year": 2021,
+    "date": "2022-02-18T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Fantasy",
+      "Sci-Fi",
+      "Comicbook"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Crime",
-        "Fantasy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "creator": [
-        "James Gunn"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "James Gunn"
+    ]
   },
   {
-    "title": "Euphoria S2",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "02",
-        "string": "2022-03-02"
-      }
+    "title": "Euphoria",
+    "release_year": 2022,
+    "date": "2022-03-02T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Drama"
-      ],
-      "creator": [
-        "Sam Levinson"
-      ],
-      "season": 2,
-      "episode_count": 8
-    }
+    "season": 2,
+    "creator": [
+      "Sam Levinson"
+    ]
   },
   {
-    "title": "Reacher S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "03",
-        "string": "2022-03-03"
-      }
+    "title": "Reacher",
+    "release_year": 2022,
+    "date": "2022-03-03T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "creator": [
-        "Nick Santora"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "Nick Santora"
+    ]
   },
   {
-    "title": "Dopesick S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "04",
-        "day": "10",
-        "string": "2022-04-10"
-      }
+    "title": "Dopesick",
+    "release_year": 2021,
+    "date": "2022-04-10T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "creator": [
-        "Danny Strong"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "Danny Strong"
+    ]
   },
   {
-    "title": "Moon Knight S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "04",
-        "string": "2022-05-04"
-      }
+    "title": "Moon Knight",
+    "release_year": 2022,
+    "date": "2022-05-04T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Comicbook"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Comicbook"
-      ],
-      "creator": [
-        "Doug Moench"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "Doug Moench"
+    ]
   },
   {
-    "title": "Maid S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "09",
-        "string": "2022-05-09"
-      }
+    "title": "Maid",
+    "release_year": 2021,
+    "date": "2022-05-09T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 5,
-      "genres": [
-        "Drama"
-      ],
-      "creator": [
-        "Molly Smith Metzler"
-      ],
-      "season": 1,
-      "episode_count": 10
-    }
+    "season": 1,
+    "creator": [
+      "Molly Smith Metzler"
+    ]
   },
   {
-    "title": "Severance S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "28",
-        "string": "2022-05-28"
-      }
+    "title": "Severance",
+    "release_year": 2022,
+    "date": "2022-05-28T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "creator": [
-        "Dan Erickson"
-      ],
-      "season": 1,
-      "episode_count": 9
-    }
+    "season": 1,
+    "creator": [
+      "Dan Erickson"
+    ]
   },
   {
-    "title": "Clark S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "28",
-        "string": "2022-05-28"
-      }
+    "title": "Clark",
+    "release_year": 2022,
+    "date": "2022-05-28T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Action",
+      "Crime",
+      "Mystery",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Action",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "creator": [
-        "Jonas Åkerlund"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "Jonas Åkerlund"
+    ]
   },
   {
-    "title": "The Dropout S1",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "28",
-        "string": "2022-05-28"
-      }
+    "title": "The Dropout",
+    "release_year": 2022,
+    "date": "2022-05-28T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Biography"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Biography"
-      ],
-      "creator": [
-        "Elizabeth Meriwether"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "Elizabeth Meriwether"
+    ]
   },
   {
-    "title": "Atlanta S3",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "06",
-        "day": "17",
-        "string": "2022-06-17"
-      }
+    "title": "Atlanta",
+    "release_year": 2022,
+    "date": "2022-06-17T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Music"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Music"
-      ],
-      "creator": [
-        "Donald Glover"
-      ],
-      "season": 3,
-      "episode_count": 8
-    }
+    "season": 3,
+    "creator": [
+      "Donald Glover"
+    ]
   },
   {
-    "title": "Kärleik och anarki S2",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "06",
-        "day": "17",
-        "string": "2022-06-17"
-      }
+    "title": "Kärleik och anarki",
+    "release_year": 2022,
+    "date": "2022-06-17T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "creator": [
-        "Lisa Langseth"
-      ],
-      "season": 2,
-      "episode_count": 8
-    }
+    "season": 2,
+    "creator": [
+      "Lisa Langseth"
+    ]
   },
   {
+    "type": "tv",
     "title": "Obi-Wan Kenobi",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "06",
-        "day": "22",
-        "string": "2022-06-22"
-      }
+    "release_year": 2022,
+    "date": "2022-06-22T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "creator": [
-        "George Lucas"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "George Lucas"
+    ]
   },
   {
+    "type": "tv",
     "title": "Ms. Marvel",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "14",
-        "string": "2022-07-14"
-      }
+    "release_year": 2022,
+    "date": "2022-07-14T00:00:00.000Z",
+    "review": {
+      "rating": 1
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Comicbook"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 1,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Comicbook"
-      ],
-      "creator": [
-        "Bisha K. Ali"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "Bisha K. Ali"
+    ]
   },
   {
-    "title": "The Boys S2",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "22",
-        "string": "2022-07-22"
-      }
+    "title": "The Boys",
+    "release_year": 2021,
+    "date": "2022-07-22T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Comedy",
+      "Comicbook",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Comedy",
-        "Comicbook",
-        "Drama"
-      ],
-      "creator": [
-        "Eric Kripke"
-      ],
-      "season": 2,
-      "episode_count": 8
-    }
+    "season": 2,
+    "creator": [
+      "Eric Kripke"
+    ]
   },
   {
-    "title": "The Boys S3",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "31",
-        "string": "2022-07-31"
-      }
+    "title": "The Boys",
+    "release_year": 2022,
+    "date": "2022-07-31T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Comedy",
+      "Comicbook",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Comedy",
-        "Comicbook",
-        "Drama"
-      ],
-      "creator": [
-        "Eric Kripke"
-      ],
-      "season": 3,
-      "episode_count": 8
-    }
+    "season": 3,
+    "creator": [
+      "Eric Kripke"
+    ]
   },
   {
-    "title": "Better Call Saul S6",
-    "description": "",
     "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "18",
-        "string": "2022-08-18"
-      }
+    "title": "Better Call Saul",
+    "release_year": 2022,
+    "date": "2022-08-18T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Crime",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "creator": [
-        "Vince Gilligan"
-      ],
-      "season": 6,
-      "episode_count": 13
-    }
+    "season": 6,
+    "creator": [
+      "Vince Gilligan"
+    ]
   },
   {
+    "type": "tv",
     "title": "The Bear",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "09",
-        "day": "27",
-        "string": "2022-09-27"
-      }
+    "release_year": 2022,
+    "date": "2022-09-27T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Drama"
-      ],
-      "creator": [
-        "Christopher Storer"
-      ],
-      "season": 1,
-      "episode_count": 8
-    }
+    "season": 1,
+    "creator": [
+      "Christopher Storer"
+    ]
   },
   {
+    "type": "tv",
     "title": "She-Hulk: Attorney at Law",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "13",
-        "string": "2022-10-13"
-      }
+    "release_year": 2022,
+    "date": "2022-10-13T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Comicbook"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Comicbook"
-      ],
-      "creator": [
-        "Jessica Gao"
-      ],
-      "season": 1,
-      "episode_count": 9
-    }
+    "season": 1,
+    "creator": [
+      "Jessica Gao"
+    ]
   },
   {
+    "type": "tv",
     "title": "Dahmer - Monster: The Jeffrey Dahmer Story",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "15",
-        "string": "2022-10-15"
-      }
+    "release_year": 2022,
+    "date": "2022-10-15T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
-      "creator": [
-        "Ian Brennan",
-        "Ryan Murphy"
-      ],
-      "season": 1,
-      "episode_count": 10
-    }
+    "season": 1,
+    "creator": [
+      "Ian Brennan",
+      "Ryan Murphy"
+    ]
   },
   {
+    "type": "tv",
     "title": "House of the Dragon",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "24",
-        "string": "2022-10-24"
-      }
+    "release_year": 2022,
+    "date": "2022-10-24T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "creator": [
-        "Ryan J. Condal",
-        "George R.R. Martin"
-      ],
-      "season": 1,
-      "episode_count": 10
-    }
+    "season": 1,
+    "creator": [
+      "Ryan J. Condal",
+      "George R.R. Martin"
+    ]
   },
   {
+    "type": "tv",
     "title": "Black Bird",
-    "description": "A superb show about a drug-dealer that gets to know a serial killer in prison.",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "06",
-        "string": "2022-12-06"
-      }
+    "release_year": 2022,
+    "date": "2022-12-06T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
-      "creator": [
-        "Dennis Lehane"
-      ],
-      "season": 1,
-      "episode_count": 6
-    }
+    "season": 1,
+    "creator": [
+      "Dennis Lehane"
+    ]
   },
   {
+    "type": "tv",
     "title": "Andor",
-    "description": "",
-    "type": "tv",
-    "date": [
-      {
-        "year": "2023",
-        "month": "01",
-        "day": "01",
-        "string": "2023-01-01"
-      }
+    "release_year": 2022,
+    "date": "2023-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "creator": [
-        "Tony Gilroy"
-      ],
-      "season": 1,
-      "episode_count": 12
-    }
+    "season": 1,
+    "creator": [
+      "Tony Gilroy"
+    ]
   },
   {
-    "title": "The Legend of Vox Machina S1",
     "type": "tv",
-    "date": [
-      {
-        "day": "27",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-27"
-      }
+    "title": "The Legend of Vox Machina",
+    "release_year": null,
+    "date": "2023-01-27T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ]
-    }
+    "season": 1
   },
   {
-    "title": "The Legend of Vox Machina S2",
     "type": "tv",
-    "date": [
-      {
-        "day": "10",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-10"
-      }
+    "title": "The Legend of Vox Machina",
+    "release_year": null,
+    "date": "2023-02-10T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ]
-    }
+    "season": 2
   },
   {
-    "title": "The Last of Us S1",
     "type": "tv",
-    "date": [
-      {
-        "day": "14",
-        "month": "03",
-        "year": "2023",
-        "string": "2023-03-14"
-      }
+    "title": "The Last of Us",
+    "release_year": null,
+    "date": "2023-03-14T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ]
-    }
+    "season": 1
   },
   {
-    "title": "Beef S1",
     "type": "tv",
-    "date": [
-      {
-        "day": "22",
-        "month": "05",
-        "year": "2023",
-        "string": "2023-05-22"
-      }
+    "title": "Beef",
+    "release_year": null,
+    "date": "2023-05-22T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ]
-    }
+    "season": 1
   },
   {
+    "type": "tv",
     "title": "Black Mirror S6: Jaun is Awful",
-    "type": "tv",
-    "date": [
-      {
-        "day": "16",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-15"
-      }
+    "release_year": null,
+    "date": "2023-06-15T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ]
-    }
+    "season": 6
   },
   {
+    "type": "tv",
     "title": "Black Mirror S6: Loch Henry",
-    "type": "tv",
-    "date": [
-      {
-        "day": "16",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-16"
-      }
+    "release_year": null,
+    "date": "2023-06-16T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ]
-    }
+    "season": 6
   },
   {
+    "type": "tv",
     "title": "Black Mirror S6: Beyond the Sea",
-    "type": "tv",
-    "date": [
-      {
-        "day": "16",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-17"
-      }
+    "release_year": null,
+    "date": "2023-06-17T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ]
-    }
+    "season": 6
   },
   {
+    "type": "tv",
     "title": "Black Mirror S6: Demon 79",
-    "type": "tv",
-    "date": [
-      {
-        "day": "16",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-18"
-      }
+    "release_year": null,
+    "date": "2023-06-18T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ]
-    }
+    "season": 6
   },
   {
-    "title": "Silo S1",
     "type": "tv",
-    "date": [
-      {
-        "day": "30",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-30"
-      }
+    "title": "Silo",
+    "release_year": null,
+    "date": "2023-06-30T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Sci-Fi"
-      ]
-    }
+    "season": 1
   },
   {
-    "title": "Barry S1",
     "type": "tv",
-    "date": [
-      {
-        "day": "11",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-11"
-      }
+    "title": "Barry",
+    "release_year": null,
+    "date": "2023-07-11T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ]
-    }
+    "season": 1
   },
   {
-    "title": "Barry S2",
     "type": "tv",
-    "date": [
-      {
-        "day": "22",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-22"
-      }
+    "title": "Barry",
+    "release_year": null,
+    "date": "2023-07-22T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ]
-    }
+    "season": 2
   },
   {
-    "title": "The Bear S2",
     "type": "tv",
-    "date": [
-      {
-        "day": "24",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-24"
-      }
+    "title": "The Bear",
+    "release_year": null,
+    "date": "2023-07-24T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ]
-    }
+    "season": 2
   },
   {
-    "title": "Barry S3",
     "type": "tv",
-    "date": [
-      {
-        "day": "26",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-26"
-      }
+    "title": "Barry",
+    "release_year": null,
+    "date": "2023-07-26T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
     ],
-    "details": {
-      "release_year": null,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ]
-    }
+    "season": 3
   },
   {
-    "title": "Secret Invasion S1",
     "type": "tv",
-    "date": [
-      {
-        "day": "26",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-26"
-      }
+    "title": "Secret Invasion",
+    "release_year": 2023,
+    "date": "2023-07-26T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ]
-    }
+    "season": 1
   }
 ]

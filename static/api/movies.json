@@ -1,6238 +1,4578 @@
 [
   {
-    "title": "Batman v Superman: Dawn of Justice",
-    "description": "",
     "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "month": "03",
-        "day": "22",
-        "string": "2016-03-22"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Zack Snyder"
-      ]
-    }
-  },
-  {
-    "title": "Captain America: Civil War",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "month": "04",
-        "day": "26",
-        "string": "2016-04-26"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Russo Brothers"
-      ]
-    }
-  },
-  {
-    "title": "X-Men: Apocalypse",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "month": "05",
-        "day": "20",
-        "string": "2016-05-20"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Bryan Singer"
-      ]
-    }
-  },
-  {
-    "title": "Warcraft",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "month": "05",
-        "day": "27",
-        "string": "2016-05-27"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 1,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Duncan Jones"
-      ]
-    }
-  },
-  {
-    "title": "War Dogs",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "month": "08",
-        "day": "19",
-        "string": "2016-08-19"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Biography",
-        "Crime",
-        "Comedy",
-        "Drama",
-        "War"
-      ],
-      "director": [
-        "Todd Phillips"
-      ]
-    }
-  },
-  {
-    "title": "Doctor Strange",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "month": "11",
-        "day": "04",
-        "string": "2016-11-04"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Fantasy"
-      ],
-      "director": [
-        "Scott Derrickson"
-      ]
-    }
-  },
-  {
-    "title": "Logan",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "month": "03",
-        "day": "01",
-        "string": "2017-03-01"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Drama",
-        "Sci-Fi",
-        "Comicbook",
-        "Thriller"
-      ],
-      "director": [
-        "James Mangold"
-      ]
-    }
-  },
-  {
-    "title": "Guardians of the Galaxy Vol. 2",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "month": "04",
-        "day": "26",
-        "string": "2017-04-26"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Comedy"
-      ],
-      "director": [
-        "James Gunn"
-      ]
-    }
-  },
-  {
-    "title": "Spider-Man: Homecoming ",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "month": "07",
-        "day": "07",
-        "string": "2017-07-07"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Jon Watts"
-      ]
-    }
-  },
-  {
-    "title": "Thor: Ragnarok",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "month": "10",
-        "day": "27",
-        "string": "2017-10-27"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Sci-Fi",
-        "Comicbook",
-        "Comedy"
-      ],
-      "director": [
-        "Taika Watiti"
-      ]
-    }
-  },
-  {
-    "title": "Justice League",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "month": "11",
-        "day": "15",
-        "string": "2017-11-15"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Zack Snyder",
-        "Josh Whedon"
-      ]
-    }
-  },
-  {
-    "title": "Ant-Man and The Wasp",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "month": "07",
-        "day": "04",
-        "string": "2018-07-04"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Peyton Reed"
-      ]
-    }
-  },
-  {
-    "title": "Mission: Impossible - Fallout",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "month": "08",
-        "day": "14",
-        "string": "2018-08-14"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "director": [
-        "Christopher McQuarrie"
-      ]
-    }
-  },
-  {
-    "title": "Incredibles 2",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "month": "08",
-        "day": "24",
-        "string": "2018-08-24"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Family",
-        "Animation"
-      ],
-      "director": [
-        "Brad Bird"
-      ]
-    }
-  },
-  {
-    "title": "Spider-Man: Into The Spider-Verse",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "month": "12",
-        "day": "17",
-        "string": "2018-12-17"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Fantasy",
-        "Animation"
-      ],
-      "director": [
-        "Bob Persichetti",
-        "Peter Ramsey",
-        "Rodney Rothman"
-      ]
-    }
-  },
-  {
-    "title": "Avengers: Endgame",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "month": "04",
-        "day": "24",
-        "string": "2019-04-24"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Drama"
-      ],
-      "director": [
-        "Russo Brothers"
-      ]
-    }
-  },
-  {
-    "title": "Spider-Man: Far From Home",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "month": "07",
-        "day": "04",
-        "string": "2019-07-04"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Jon Watts"
-      ]
-    }
-  },
-  {
-    "title": "Joker",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "month": "10",
-        "day": "04",
-        "string": "2019-10-04"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Todd Phillips"
-      ]
-    }
-  },
-  {
-    "title": "Toy Story 4",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "month": "10",
-        "day": "07",
-        "string": "2019-10-07"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 3,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "director": [
-        "Josh Cooley"
-      ]
-    }
-  },
-  {
-    "title": "Knives Out",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "month": "12",
-        "day": "06",
-        "string": "2019-12-06"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Mystery",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Rian Johnson"
-      ]
-    }
-  },
-  {
-    "title": "1917",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "02",
-        "day": "05",
-        "string": "2020-02-05"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Drama",
-        "War"
-      ],
-      "director": [
-        "Sam Mendes"
-      ]
-    }
-  },
-  {
-    "title": "Birds of Prey",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "02",
-        "day": "08",
-        "string": "2020-02-08"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 2,
-      "genres": [
-        "Comedy",
-        "Action",
-        "Adventure",
-        "Crime",
-        "Comicbook"
-      ],
-      "director": [
-        "Cathy Yan"
-      ]
-    }
-  },
-  {
-    "title": "Jojo Rabbit",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "03",
-        "day": "04",
-        "string": "2020-03-04"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "War"
-      ],
-      "director": [
-        "Taika Watiti"
-      ]
-    }
-  },
-  {
-    "title": "The Invisible Man",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "03",
-        "day": "30",
-        "string": "2020-03-30"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Thriller",
-        "Sci-Fi",
-        "Mystery"
-      ],
-      "director": [
-        "Leigh Whannell"
-      ]
-    }
-  },
-  {
-    "title": "The Gentlemen",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "04",
-        "day": "03",
-        "string": "2020-04-03"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Guy Ritchie"
-      ]
-    }
-  },
-  {
-    "title": "Spies in Disguise",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "04",
-        "day": "07",
-        "string": "2020-04-07"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Adventure",
-        "Animation",
-        "Family",
-        "Fantasy",
-        "Thriller",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Nick Bruno",
-        "Troy Quane"
-      ]
-    }
-  },
-  {
-    "title": "Bad Boys For Life",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "04",
-        "day": "10",
-        "string": "2020-04-10"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Adil El Arbi",
-        "Bilall Fallah"
-      ]
-    }
-  },
-  {
-    "title": "The Big Sick",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "04",
-        "day": "17",
-        "string": "2020-04-17"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "director": [
-        "Michael Showalter"
-      ]
-    }
-  },
-  {
-    "title": "Johnny English Strikes Again",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "06",
-        "day": "05",
-        "string": "2020-06-05"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Action",
-        "Adventure"
-      ],
-      "director": [
-        "David Kerr"
-      ]
-    }
-  },
-  {
-    "title": "Minority Report",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "06",
-        "day": "06",
-        "string": "2020-06-06"
-      }
-    ],
-    "details": {
-      "release_year": 2002,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Mystery",
-        "Thriller",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Steven Spielberg"
-      ]
-    }
-  },
-  {
-    "title": "Mean Girls",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "06",
-        "day": "07",
-        "string": "2020-06-07"
-      }
-    ],
-    "details": {
-      "release_year": 2004,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Mark Waters"
-      ]
-    }
-  },
-  {
-    "title": "The King of Staten Island",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "06",
-        "day": "15",
-        "string": "2020-06-15"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Judd Apatow"
-      ]
-    }
-  },
-  {
-    "title": "Extraction",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "07",
-        "day": "20",
-        "string": "2020-07-20"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "director": [
-        "Sam Hargrave"
-      ]
-    }
-  },
-  {
-    "title": "Parasite",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "02",
-        "day": "22",
-        "string": "2020-02-22"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Bong Joon Ho"
-      ]
-    }
-  },
-  {
-    "title": "The Rental",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "07",
-        "day": "30",
-        "string": "2020-07-30"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Thriller",
-        "Mystery"
-      ],
-      "director": [
-        "Dave Franco"
-      ]
-    }
-  },
-  {
-    "title": "Uncut Gems",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "08",
-        "day": "19",
-        "string": "2020-08-19"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Benny Safdie",
-        "Josh Safdie"
-      ]
-    }
-  },
-  {
-    "title": "Room",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "08",
-        "day": "23",
-        "string": "2020-08-23"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Lenny Abrahamson"
-      ]
-    }
-  },
-  {
-    "title": "Tenet",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "08",
-        "day": "26",
-        "string": "2020-08-26"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Christopher Nolan"
-      ]
-    }
-  },
-  {
-    "title": "Onward",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "08",
-        "day": "28",
-        "string": "2020-08-28"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Fantasy",
-        "Comedy",
-        "Family"
-      ],
-      "director": [
-        "Dan Scanlon"
-      ]
-    }
-  },
-  {
-    "title": "The Incredible Journey",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "09",
-        "day": "20",
-        "string": "2020-09-20"
-      }
-    ],
-    "details": {
-      "release_year": 1963,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Family"
-      ],
-      "director": [
-        "Fletcher Markle"
-      ]
-    }
-  },
-  {
-    "title": "Borat Subsequent Moviefilm",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "10",
-        "day": "23",
-        "string": "2020-10-23"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 4,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Jason Woliner"
-      ]
-    }
-  },
-  {
-    "title": "Love and Monsters",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2020",
-        "month": "10",
-        "day": "29",
-        "string": "2020-10-29"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Michael Matthews"
-      ]
-    }
-  },
-  {
-    "title": "Yesterday",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "02",
-        "day": "19",
-        "string": "2021-02-19"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Fantasy",
-        "Music",
-        "Romance"
-      ],
-      "director": [
-        "Danny Boyle"
-      ]
-    }
-  },
-  {
-    "title": "This is 40",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "02",
-        "day": "28",
-        "string": "2021-02-28"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "director": [
-        "Judd Apatow"
-      ]
-    }
-  },
-  {
-    "title": "Zack Snyder's Justice League",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "03",
-        "day": "18",
-        "string": "2021-03-18"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Zack Snyder"
-      ]
-    }
-  },
-  {
-    "title": "Deadly Illusions",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "03",
-        "day": "26",
-        "string": "2021-03-26"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 1,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Anna Elizabeth James"
-      ]
-    }
-  },
-  {
-    "title": "Bad Trip",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "03",
-        "day": "28",
-        "string": "2021-03-28"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Kitao Sakurai"
-      ]
-    }
-  },
-  {
-    "title": "Stowaway",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "04",
-        "day": "24",
-        "string": "2021-04-24"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Joe Penna"
-      ]
-    }
-  },
-  {
-    "title": "Bo Burnham: Inside",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "06",
-        "day": "07",
-        "string": "2021-06-07"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Music"
-      ],
-      "director": [
-        "Bo Burnhamn"
-      ]
-    }
-  },
-  {
-    "title": "A Quiet Place Part II",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "06",
-        "day": "09",
-        "string": "2021-06-09"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Sci-Fi",
-        "Horror",
-        "Thriller"
-      ],
-      "director": [
-        "John Krasinski"
-      ]
-    }
-  },
-  {
-    "title": "Black Widow",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "07",
-        "day": "07",
-        "string": "2021-07-07"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Cate Shortland"
-      ]
-    }
-  },
-  {
-    "title": "The Suicide Squad",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "08",
-        "day": "06",
-        "string": "2021-08-06"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "James Gunn"
-      ]
-    }
-  },
-  {
-    "title": "Free Guy",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "08",
-        "day": "21",
-        "string": "2021-08-21"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Shawn Levy"
-      ]
-    }
-  },
-  {
-    "title": "Shang-Chi and the Legend of the Ten Rings",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "09",
-        "day": "01",
-        "string": "2021-09-01"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Fantasy",
-        "Comicbook"
-      ],
-      "director": [
-        "Destin Daniel Cretton"
-      ]
-    }
-  },
-  {
-    "title": "Dune",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "10",
-        "day": "11",
-        "string": "2021-10-11"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Drama"
-      ],
-      "director": [
-        "Denis Villeneuve"
-      ]
-    }
-  },
-  {
-    "title": "Eternals",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "03",
-        "string": "2021-11-03"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Fantasy"
-      ],
-      "director": [
-        "Chloé Zhao"
-      ]
-    }
-  },
-  {
-    "title": "Venom: Let There Be Carnage",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "13",
-        "string": "2021-11-13"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-        "Comicbook",
-        "Thriller"
-      ],
-      "director": [
-        "Andy Serkis"
-      ]
-    }
-  },
-  {
-    "title": "Love Hard",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "11",
-        "day": "27",
-        "string": "2021-11-27"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "director": [
-        "Hernan Jimenez"
-      ]
-    }
-  },
-  {
-    "title": "Atomic Blonde",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "12",
-        "day": "17",
-        "string": "2021-12-17"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "director": [
-        "David Leitch"
-      ]
-    }
-  },
-  {
-    "title": "Spider-Man: No Way Home",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2021",
-        "month": "12",
-        "day": "19",
-        "string": "2021-12-19"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Comicbook"
-      ],
-      "director": [
-        "Jon Watts"
-      ]
-    }
-  },
-  {
-    "title": "The Green Knight",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "01",
-        "day": "09",
-        "string": "2022-01-09"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Fantasy"
-      ],
-      "director": [
-        "David Lowery"
-      ]
-    }
-  },
-  {
-    "title": "The Matrix Resurrections",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "01",
-        "day": "15",
-        "string": "2022-01-15"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Lana Wachowski"
-      ]
-    }
-  },
-  {
-    "title": "Ant-Man",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "02",
-        "day": "06",
-        "string": "2022-02-06"
-      },
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "Peyton Reed"
-      ]
-    }
-  },
-  {
-    "title": "Chicken Run",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "02",
-        "day": "06",
-        "string": "2022-02-06"
-      }
-    ],
-    "details": {
-      "release_year": 2000,
-      "my_rating": 4,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "Family"
-      ],
-      "director": [
-        "Peter Lord",
-        "Nick Park"
-      ]
-    }
-  },
-  {
-    "title": "The Tinder Swindler",
-    "description": "The retelling of the viral story posted by VG.",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "02",
-        "day": "07",
-        "string": "2022-02-07"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "director": [
-        "Felicity Morris"
-      ]
-    }
-  },
-  {
-    "title": "Red Notice",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "02",
-        "day": "19",
-        "string": "2022-02-19"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "director": [
-        "Rawson Marshall Thurber"
-      ]
-    }
-  },
-  {
-    "title": "The Batman",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "06",
-        "string": "2022-03-06"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Comicbook"
-      ],
-      "director": [
-        "Matt Reeves"
-      ]
-    }
-  },
-  {
-    "title": "The Adam Project",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "03",
-        "day": "18",
-        "string": "2022-03-18"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Shawn Levy"
-      ]
-    }
-  },
-  {
-    "title": "Trollhunter",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "04",
-        "day": "13",
-        "string": "2022-04-13"
-      }
-    ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Horror",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "André Øvredal"
-      ]
-    }
-  },
-  {
-    "title": "The Northman",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "04",
-        "day": "15",
-        "string": "2022-04-15"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama",
-        "Fantasy",
-        "History",
-        "Thriller"
-      ],
-      "director": [
-        "Robert Eggers"
-      ]
-    }
-  },
-  {
-    "title": "Doctor Strange in the Multiverse of Madness",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "04",
-        "string": "2022-05-04"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Sci-Fi",
-        "Horror",
-        "Comicbook"
-      ],
-      "director": [
-        "Sam Raimi"
-      ]
-    }
-  },
-  {
-    "title": "Chip 'n Dale: Rescue Rangers",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "21",
-        "string": "2022-05-21"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Mystery"
-      ],
-      "director": [
-        "Akiva Schaffer"
-      ]
-    }
-  },
-  {
-    "title": "Everything Everywhere All At Once",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "05",
-        "day": "25",
-        "string": "2022-05-25"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Dan Kwan",
-        "Daniel Scheinert"
-      ]
-    }
-  },
-  {
-    "title": "Pleasure",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "06",
-        "day": "16",
-        "string": "2022-06-16"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Ninja Thyberg"
-      ]
-    }
-  },
-  {
-    "title": "Thor: Love and Thunder",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "07",
-        "string": "2022-07-07"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Comicbook"
-      ],
-      "director": [
-        "Taika Watiti"
-      ]
-    }
-  },
-  {
-    "title": "American History X",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "23",
-        "string": "2022-07-23"
-      },
-      {
-        "year": "2013",
-        "month": "10",
-        "day": "01",
-        "string": "2013-10-01"
-      }
-    ],
-    "details": {
-      "release_year": 1998,
-      "my_rating": 5,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Tony Kaye"
-      ]
-    }
-  },
-  {
-    "title": "The Witches (2020)",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "25",
-        "string": "2022-07-25"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy",
-        "Horror",
-        "Mystery"
-      ],
-      "director": [
-        "Robert Zemeckis"
-      ]
-    }
-  },
-  {
-    "title": "Jumper",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "07",
-        "day": "31",
-        "string": "2022-07-31"
-      }
-    ],
-    "details": {
-      "release_year": 2008,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Doug Liman"
-      ]
-    }
-  },
-  {
-    "title": "The Last Duel",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "13",
-        "string": "2022-08-13"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Drama",
-        "History"
-      ],
-      "director": [
-        "Ridley Scott"
-      ]
-    }
-  },
-  {
-    "title": "C'mon C'mon",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "13",
-        "string": "2022-08-13"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Mike Mills"
-      ]
-    }
-  },
-  {
-    "title": "Ghostbusters: Afterlife",
-    "description": "",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "20",
-        "string": "2022-08-20"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Fantasy"
-      ],
-      "director": [
-        "Jason Reitman"
-      ]
-    }
-  },
-  {
-    "title": "Bullet Train",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "23",
-        "string": "2022-08-23"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "director": [
-        "David Leitch"
-      ]
-    }
-  },
-  {
-    "title": "Bodies Bodies Bodies",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "09",
-        "day": "24",
-        "string": "2022-09-24"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Horror",
-        "Comedy",
-        "Thriller"
-      ],
-      "director": [
-        "Halina Reijn"
-      ]
-    }
-  },
-  {
-    "title": "Nope",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "09",
-        "day": "25",
-        "string": "2022-09-25"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Jordan Peele"
-      ]
-    }
-  },
-  {
-    "title": "Werewolf by Night",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "08",
-        "string": "2022-10-08"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Michael Giacchino"
-      ]
-    }
-  },
-  {
-    "title": "The Naked Gun: From the Files of Police Squad!",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "10",
-        "day": "22",
-        "string": "2022-10-22"
-      }
-    ],
-    "details": {
-      "release_year": 1988,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "David Zucker"
-      ]
-    }
-  },
-  {
-    "title": "Barbarian",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "04",
-        "string": "2022-11-04"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "director": [
-        "Zach Cregger"
-      ]
-    }
-  },
-  {
-    "title": "Black Panther: Wakanda Forever",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "09",
-        "string": "2022-11-09"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "director": [
-        "Ryan Coggler"
-      ]
-    }
-  },
-  {
-    "title": "Krigsseileren",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "19",
-        "string": "2022-11-19"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "War"
-      ],
-      "director": [
-        "Gunnar Vikene"
-      ]
-    }
-  },
-  {
-    "title": "The Guardians of the Galaxy Holiday Special",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "25",
-        "string": "2022-11-25"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Sci-Fi",
-        "Comicbook"
-      ],
-      "director": [
-        "James Gunn"
-      ]
-    }
-  },
-  {
-    "title": "Glass Onion: A Knives Out Mystery",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "25",
-        "string": "2022-12-25"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Rian Johnson"
-      ]
-    }
-  },
-  {
-    "title": "Verdens verste menneske",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2022",
-        "month": "12",
-        "day": "30",
-        "string": "2022-12-30"
-      }
-    ],
-    "details": {
-      "release_year": 2021,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "director": [
-        "Joachim Trier"
-      ]
-    }
-  },
-  {
-    "title": "Avatar: The Way of Water",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2023",
-        "month": "01",
-        "day": "01",
-        "string": "2023-01-01"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "James Cameron"
-      ]
-    }
-  },
-  {
-    "title": "Marriage Story",
-    "type": "movie",
-    "date": [
-      {
-        "day": "13",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-13"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "director": [
-        "Noah Baumbach"
-      ]
-    }
-  },
-  {
-    "title": "I Don't Feel at Home in This World Anymore",
-    "type": "movie",
-    "date": [
-      {
-        "day": "14",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-14"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Macon Blair"
-      ]
-    }
-  },
-  {
-    "title": "The Man from U.N.C.L.E.",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Guy Ritchie"
-      ]
-    }
-  },
-  {
-    "title": "Sicario",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Denis Villeneuve"
-      ]
-    }
-  },
-  {
-    "title": "Mad Max: Fury Road",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "George Miller"
-      ]
-    }
-  },
-  {
-    "title": "Star Wars: Episode VII - The Force Awakens",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "J.J. Abrams"
-      ]
-    }
-  },
-  {
-    "title": "The Hateful Eight",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 5,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "director": [
-        "Quentin Tarantino"
-      ]
-    }
-  },
-  {
-    "title": "Jurassic World",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Colin Trevorrow"
-      ]
-    }
-  },
-  {
-    "title": "Avengers: Age of Ultron",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Joss Whedon"
-      ]
-    }
-  },
-  {
-    "title": "Legend",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Brian Helgeland"
-      ]
-    }
-  },
-  {
-    "title": "The Martian",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Ridley Scott"
-      ]
-    }
-  },
-  {
-    "title": "Everest",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Biography"
-      ],
-      "director": [
-        "Baltasar Kormákur"
-      ]
-    }
-  },
-  {
-    "title": "Straight Outta Compton",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Drama",
-        "History"
-      ],
-      "director": [
-        "F. Gary Gray"
-      ]
-    }
-  },
-  {
-    "title": "Demolition",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Jean-Marc Vallée"
-      ]
-    }
-  },
-  {
-    "title": "Chappie",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Neill Blomkamp"
-      ]
-    }
-  },
-  {
-    "title": "Dope",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 2,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Rick Famuyiwa"
-      ]
-    }
-  },
-  {
-    "title": "Hardcore Henry",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Ilya Naishuller"
-      ]
-    }
-  },
-  {
-    "title": "Rogue One: A Star Wars Story",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Gareth Edwards"
-      ]
-    }
-  },
-  {
-    "title": "Nocturnal Animals",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Tom Ford"
-      ]
-    }
-  },
-  {
-    "title": "Split",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "director": [
-        "M. Night Shyamalan"
-      ]
-    }
-  },
-  {
-    "title": "Deadpool",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Tim Miller"
-      ]
-    }
-  },
-  {
-    "title": "Arrival",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Denis Villeneuve"
-      ]
-    }
-  },
-  {
-    "title": "Hell or High Water",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "David Mackenzie"
-      ]
-    }
-  },
-  {
-    "title": "Captain Fantastic",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Matt Ross"
-      ]
-    }
-  },
-  {
-    "title": "Sausage Party",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 2,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Greg Tiernan",
-        "Conrad Vernon"
-      ]
-    }
-  },
-  {
-    "title": "10 Cloverfield Lane",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Mystery"
-      ],
-      "director": [
-        "Dan Trachtenberg"
-      ]
-    }
-  },
-  {
-    "title": "Why Him?",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "John Hamburg"
-      ]
-    }
-  },
-  {
-    "title": "Snowden",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
-    ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 3,
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Oliver Stone"
-      ]
-    }
-  },
-  {
-    "title": "Blade Runner 2049",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Drama",
-        "Mystery"
-      ],
-      "director": [
-        "Denis Villeneuve"
-      ]
-    }
-  },
-  {
-    "title": "Get Out",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "director": [
-        "Jordan Peele"
-      ]
-    }
-  },
-  {
-    "title": "Wind River",
-    "type": "movie",
-    "date": [
-      {
-        "day": "29",
-        "month": "11",
-        "year": "2017",
-        "string": "2017-11-29"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "director": [
-        "Taylor Sheridan"
-      ]
-    }
-  },
-  {
-    "title": "John Wick: Chapter 2",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Chad Stahelski"
-      ]
-    }
-  },
-  {
-    "title": "Star Wars: Episode VIII - The Last Jedi",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Rian Johnson"
-      ]
-    }
-  },
-  {
-    "title": "Baby Driver",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Edgar Wright"
-      ]
-    }
-  },
-  {
-    "title": "It (2017)",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Talk-Show"
-      ],
-      "director": [
-        "Sol Harris",
-        "Allen Turing"
-      ]
-    }
-  },
-  {
-    "title": "Wonder Woman",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Patty Jenkins"
-      ]
-    }
-  },
-  {
-    "title": "The Shape of Water",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Romance"
-      ],
-      "director": [
-        "Guillermo del Toro"
-      ]
-    }
-  },
-  {
-    "title": "Kong: Skull Island",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Jordan Vogt-Roberts"
-      ]
-    }
-  },
-  {
-    "title": "Good-Time Girl",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 1948,
-      "my_rating": 3,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "David MacDonald"
-      ]
-    }
-  },
-  {
-    "title": "War for the Planet of the Apes",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "director": [
-        "Matt Reeves"
-      ]
-    }
-  },
-  {
-    "title": "The Disaster Artist",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 3,
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "James Franco"
-      ]
-    }
-  },
-  {
-    "title": "Black Panther",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Ryan Coogler"
-      ]
-    }
-  },
-  {
-    "title": "A Quiet Place",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Sci-Fi"
-      ],
-      "director": [
-        "John Krasinski"
-      ]
-    }
-  },
-  {
-    "title": "Avengers: Infinity War",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Anthony Russo",
-        "Joe Russo"
-      ]
-    }
-  },
-  {
-    "title": "Ready Player One",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Steven Spielberg"
-      ]
-    }
-  },
-  {
-    "title": "Deadpool 2",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "David Leitch"
-      ]
-    }
-  },
-  {
-    "title": "Aquaman",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "James Wan"
-      ]
-    }
-  },
-  {
-    "title": "Annihilation",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Horror"
-      ],
-      "director": [
-        "Alex Garland"
-      ]
-    }
-  },
-  {
-    "title": "Game Night",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "John Francis Daley",
-        "Jonathan Goldstein"
-      ]
-    }
-  },
-  {
-    "title": "Venom",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Ruben Fleischer"
-      ]
-    }
-  },
-  {
-    "title": "BlacKkKlansman",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 3,
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Spike Lee"
-      ]
-    }
-  },
-  {
-    "title": "Upgrade",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Leigh Whannell"
-      ]
-    }
-  },
-  {
-    "title": "Once Upon a Time in Hollywood",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "string": "2019"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 5,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Quentin Tarantino"
-      ]
-    }
-  },
-  {
-    "title": "Midsommar",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "string": "2019"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Mystery"
-      ],
-      "director": [
-        "Ari Aster"
-      ]
-    }
-  },
-  {
-    "title": "John Wick: Chapter 3 - Parabellum",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "string": "2019"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Chad Stahelski"
-      ]
-    }
-  },
-  {
-    "title": "Captain Marvel",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "string": "2019"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Anna Boden",
-        "Ryan Fleck"
-      ]
-    }
-  },
-  {
-    "title": "El Camino: A Breaking Bad Movie",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2019",
-        "string": "2019"
-      }
-    ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Vince Gilligan"
-      ]
-    }
-  },
-  {
-    "title": "Interstellar",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 5,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Christopher Nolan"
-      ]
-    }
-  },
-  {
-    "title": "John Wick",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Chad Stahelski",
-        "David Leitch"
-      ]
-    }
-  },
-  {
-    "title": "Whiplash",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Music"
-      ],
-      "director": [
-        "Damien Chazelle"
-      ]
-    }
-  },
-  {
-    "title": "Guardians of the Galaxy",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "James Gunn"
-      ]
-    }
-  },
-  {
-    "title": "Kingsman: The Secret Service",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Matthew Vaughn"
-      ]
-    }
-  },
-  {
-    "title": "Nightcrawler",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 5,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Dan Gilroy"
-      ]
-    }
-  },
-  {
-    "title": "Deus Ex-machina",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2015",
-        "string": "2015"
-      }
-    ],
-    "details": {
-      "release_year": 1995,
-      "my_rating": 5,
-      "genres": [
-        "Short"
-      ],
-      "director": [
-        "Carlos Gerbase"
-      ]
-    }
-  },
-  {
-    "title": "Edge of Tomorrow",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Doug Liman"
-      ]
-    }
-  },
-  {
-    "title": "Birdman",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": null,
-      "my_rating": 3,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
-      "director": [
-        "N/A"
-      ]
-    }
-  },
-  {
-    "title": "Captain America: The Winter Soldier",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Anthony Russo",
-        "Joe Russo"
-      ]
-    }
-  },
-  {
-    "title": "Big Hero 6",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
-      "director": [
-        "Don Hall",
-        "Chris Williams"
-      ]
-    }
-  },
-  {
-    "title": "NATURE VS MAN: Godzilla (1954)/Godzilla (2014)",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 1954,
-      "my_rating": 3,
-      "genres": [
-        "Talk-Show"
-      ],
-      "director": [
-        "N/A"
-      ]
-    }
-  },
-  {
-    "title": "X-Men: Days of Future Past",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Bryan Singer"
-      ]
-    }
-  },
-  {
-    "title": "The Lego Movie",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
-      "director": [
-        "Phil Lord",
-        "Christopher Miller"
-      ]
-    }
-  },
-  {
-    "title": "The Amazing Spider-Man 2",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Marc Webb"
-      ]
-    }
-  },
-  {
-    "title": "22 Jump Street",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Phil Lord",
-        "Christopher Miller"
-      ]
-    }
-  },
-  {
-    "title": "300: Rise of an Empire",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "director": [
-        "Noam Murro"
-      ]
-    }
-  },
-  {
-    "title": "The Interview",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Evan Goldberg",
-        "Seth Rogen"
-      ]
-    }
-  },
-  {
-    "title": "The Theory of Everything",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Drama",
-        "Romance"
-      ],
-      "director": [
-        "James Marsh"
-      ]
-    }
-  },
-  {
-    "title": "The Fault in Our Stars",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "director": [
-        "Josh Boone"
-      ]
-    }
-  },
-  {
-    "title": "Lucy",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Luc Besson"
-      ]
-    }
-  },
-  {
-    "title": "Boyhood",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 3,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Richard Linklater"
-      ]
-    }
-  },
-  {
-    "title": "Neighbors",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Nicholas Stoller"
-      ]
-    }
-  },
-  {
-    "title": "Dawn of the Planet of the Apes",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "director": [
-        "Matt Reeves"
-      ]
-    }
-  },
-  {
-    "title": "The Wolf of Wall Street",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 5,
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Martin Scorsese"
-      ]
-    }
-  },
-  {
-    "title": "Prisoners",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 5,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "director": [
-        "Denis Villeneuve"
-      ]
-    }
-  },
-  {
-    "title": "Her",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Romance",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Spike Jonze"
-      ]
-    }
-  },
-  {
-    "title": "Man of Steel",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Zack Snyder"
-      ]
-    }
-  },
-  {
-    "title": "Oblivion",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Joseph Kosinski"
-      ]
-    }
-  },
-  {
-    "title": "We're the Millers",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Rawson Marshall Thurber"
-      ]
-    }
-  },
-  {
-    "title": "12 Years a Slave",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 5,
-      "genres": [
-        "Biography",
-        "Drama",
-        "History"
-      ],
-      "director": [
-        "Steve McQueen"
-      ]
-    }
-  },
-  {
-    "title": "Iron Man 3",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Shane Black"
-      ]
-    }
-  },
-  {
-    "title": "World War Z",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Horror"
-      ],
-      "director": [
-        "Marc Forster"
-      ]
-    }
-  },
-  {
-    "title": "The Secret Life of Walter Mitty",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Ben Stiller"
-      ]
-    }
-  },
-  {
-    "title": "The Internship",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Shawn Levy"
-      ]
-    }
-  },
-  {
-    "title": "This Is the End",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Fantasy"
-      ],
-      "director": [
-        "Evan Goldberg",
-        "Seth Rogen"
-      ]
-    }
-  },
-  {
-    "title": "Enemy",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
-      "director": [
-        "Denis Villeneuve"
-      ]
-    }
-  },
-  {
-    "title": "Pacific Rim",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Guillermo del Toro"
-      ]
-    }
-  },
-  {
-    "title": "Kick-Ass 2",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Jeff Wadlow"
-      ]
-    }
-  },
-  {
-    "title": "Rush",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Biography",
-        "Drama"
-      ],
-      "director": [
-        "Ron Howard"
-      ]
-    }
-  },
-  {
-    "title": "Thor: The Dark World",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Alan Taylor"
-      ]
-    }
-  },
-  {
-    "title": "Warm Bodies",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 2,
-      "genres": [
-        "Comedy",
-        "Horror",
-        "Romance"
-      ],
-      "director": [
-        "Jonathan Levine"
-      ]
-    }
-  },
-  {
-    "title": "The Purge",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 1,
-      "genres": [
-        "Horror",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "James DeMonaco"
-      ]
-    }
-  },
-  {
-    "title": "R.I.P.D.",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Robert Schwentke"
-      ]
-    }
-  },
-  {
-    "title": "Don Jon",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "director": [
-        "Joseph Gordon-Levitt"
-      ]
-    }
-  },
-  {
-    "title": "Pain & Gain",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Michael Bay"
-      ]
-    }
-  },
-  {
-    "title": "Elysium",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Drama",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Neill Blomkamp"
-      ]
-    }
-  },
-  {
-    "title": "The World's End",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Edgar Wright"
-      ]
-    }
-  },
-  {
-    "title": "The Wolverine",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Sci-Fi"
-      ],
-      "director": [
-        "James Mangold"
-      ]
-    }
-  },
-  {
-    "title": "Locke",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Steven Knight"
-      ]
-    }
-  },
-  {
-    "title": "The Hangover Part III",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2013",
-        "string": "2013"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Todd Phillips"
-      ]
-    }
-  },
-  {
-    "title": "Django Unchained",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 5,
-      "genres": [
-        "Drama",
-        "Western"
-      ],
-      "director": [
-        "Quentin Tarantino"
-      ]
-    }
-  },
-  {
-    "title": "The Dark Knight Rises",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "director": [
-        "Christopher Nolan"
-      ]
-    }
-  },
-  {
-    "title": "The Hobbit: An Unexpected Journey",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 2,
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Peter Jackson"
-      ]
-    }
-  },
-  {
-    "title": "The Avengers",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Joss Whedon"
-      ]
-    }
-  },
-  {
-    "title": "21 Jump Street",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Phil Lord",
-        "Christopher Miller"
-      ]
-    }
-  },
-  {
-    "title": "Skyfall",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "director": [
-        "Sam Mendes"
-      ]
-    }
-  },
-  {
-    "title": "Prometheus",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Adventure",
-        "Mystery",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Ridley Scott"
-      ]
-    }
-  },
-  {
-    "title": "Looper",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Drama",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Rian Johnson"
-      ]
-    }
-  },
-  {
-    "title": "The Amazing Spider-Man",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Marc Webb"
-      ]
-    }
-  },
-  {
-    "title": "Ted",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Seth MacFarlane"
-      ]
-    }
-  },
-  {
-    "title": "The Bourne Legacy",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "director": [
-        "Tony Gilroy"
-      ]
-    }
-  },
-  {
-    "title": "The Dictator",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Larry Charles"
-      ]
-    }
-  },
-  {
-    "title": "That's My Boy",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Sean Anders"
-      ]
-    }
-  },
-  {
-    "title": "Battleship",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 1,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Peter Berg"
-      ]
-    }
-  },
-  {
-    "title": "Project-X",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Horror",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Jose F. Sanchez"
-      ]
-    }
-  },
-  {
-    "title": "Brave",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Mark Andrews",
-        "Brenda Chapman",
-        "Steve Purcell"
-      ]
-    }
-  },
-  {
-    "title": "Chronicle",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Drama",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Josh Trank"
-      ]
-    }
-  },
-  {
-    "title": "American Reunion",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 3,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Jon Hurwitz",
-        "Hayden Schlossberg"
-      ]
-    }
-  },
-  {
-    "title": "Taken 2",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 1,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Olivier Megaton"
-      ]
-    }
-  },
-  {
-    "title": "Safe",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Boaz Yakin"
-      ]
-    }
-  },
-  {
-    "title": "Kon-Tiki",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2012",
-        "string": "2012"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Biography"
-      ],
-      "director": [
-        "Joachim Rønning",
-        "Espen Sandberg"
-      ]
-    }
-  },
-  {
-    "title": "Drive",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "director": [
-        "Nicolas Winding Refn"
-      ]
-    }
-  },
-  {
-    "title": "Captain America: The First Avenger",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Joe Johnston"
-      ]
-    }
-  },
-  {
-    "title": "Thor",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Kenneth Branagh"
-      ]
-    }
-  },
-  {
-    "title": "X-Men: First Class",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Matthew Vaughn"
-      ]
-    }
-  },
-  {
-    "title": "Limitless",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 4,
-      "genres": [
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Neil Burger"
-      ]
-    }
-  },
-  {
-    "title": "Horrible Bosses",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 4,
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Seth Gordon"
-      ]
-    }
-  },
-  {
-    "title": "The Hangover Part II",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 4,
-      "genres": [
-        "Comedy"
-      ],
-      "director": [
-        "Todd Phillips"
-      ]
-    }
-  },
-  {
-    "title": "Fast Five",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Justin Lin"
-      ]
-    }
-  },
-  {
-    "title": "Real Steel",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2011",
-        "string": "2011"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Drama",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Shawn Levy"
-      ]
-    }
-  },
-  {
     "title": "Inception",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Christopher Nolan"
-      ]
-    }
+    "director": [
+      "Christopher Nolan"
+    ]
   },
   {
+    "type": "movie",
     "title": "Shutter Island",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Mystery",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 5,
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
-      "director": [
-        "Martin Scorsese"
-      ]
-    }
+    "director": [
+      "Martin Scorsese"
+    ]
   },
   {
+    "type": "movie",
     "title": "Kick-Ass",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Matthew Vaughn"
-      ]
-    }
+    "director": [
+      "Matthew Vaughn"
+    ]
   },
   {
+    "type": "movie",
     "title": "The Social Network",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Drama"
-      ],
-      "director": [
-        "David Fincher"
-      ]
-    }
+    "director": [
+      "David Fincher"
+    ]
   },
   {
+    "type": "movie",
     "title": "Iron Man 2",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "director": [
-        "Jon Favreau"
-      ]
-    }
+    "director": [
+      "Jon Favreau"
+    ]
   },
   {
+    "type": "movie",
     "title": "The Expendables",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "director": [
-        "Sylvester Stallone"
-      ]
-    }
+    "director": [
+      "Sylvester Stallone"
+    ]
   },
   {
+    "type": "movie",
     "title": "Prince of Persia: The Sands of Time",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "director": [
-        "Mike Newell"
-      ]
-    }
+    "director": [
+      "Mike Newell"
+    ]
   },
   {
+    "type": "movie",
     "title": "127 Hours",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Drama"
-      ],
-      "director": [
-        "Danny Boyle"
-      ]
-    }
+    "director": [
+      "Danny Boyle"
+    ]
   },
   {
+    "type": "movie",
     "title": "Salt",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "director": [
-        "Phillip Noyce"
-      ]
-    }
+    "director": [
+      "Phillip Noyce"
+    ]
   },
   {
+    "type": "movie",
     "title": "Due Date",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Todd Phillips"
-      ]
-    }
+    "director": [
+      "Todd Phillips"
+    ]
   },
   {
+    "type": "movie",
     "title": "Repo Men",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2010",
-        "string": "2010"
-      }
+    "release_year": 2010,
+    "date": "2010-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Miguel Sapochnik"
-      ]
-    }
+    "director": [
+      "Miguel Sapochnik"
+    ]
   },
   {
-    "title": "13 Hours",
     "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
+    "title": "Drive",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2016,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Drama",
-        "History"
-      ],
-      "director": [
-        "Michael Bay"
-      ]
-    }
+    "director": [
+      "Nicolas Winding Refn"
+    ]
   },
   {
-    "title": "Paper Towns",
     "type": "movie",
-    "date": [
-      {
-        "year": "2017",
-        "string": "2017"
-      }
+    "title": "Captain America: The First Avenger",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Drama"
-      ],
-      "director": [
-        "Jake Schreier"
-      ]
-    }
+    "director": [
+      "Joe Johnston"
+    ]
   },
   {
-    "title": "Spotlight",
     "type": "movie",
-    "date": [
-      {
-        "year": "2016",
-        "string": "2016"
-      }
+    "title": "Thor",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Tom McCarthy"
-      ]
-    }
+    "director": [
+      "Kenneth Branagh"
+    ]
   },
   {
+    "type": "movie",
+    "title": "X-Men: First Class",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Matthew Vaughn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Limitless",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "Neil Burger"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Horrible Bosses",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Seth Gordon"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Hangover Part II",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Todd Phillips"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Fast Five",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Justin Lin"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Real Steel",
+    "release_year": 2011,
+    "date": "2011-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Shawn Levy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Django Unchained",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "director": [
+      "Quentin Tarantino"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Dark Knight Rises",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "director": [
+      "Christopher Nolan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Hobbit: An Unexpected Journey",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "Peter Jackson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Avengers",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Joss Whedon"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "21 Jump Street",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Phil Lord",
+      "Christopher Miller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Skyfall",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "director": [
+      "Sam Mendes"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Prometheus",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Adventure",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Ridley Scott"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Looper",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Rian Johnson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Amazing Spider-Man",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Marc Webb"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Ted",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Seth MacFarlane"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Bourne Legacy",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "director": [
+      "Tony Gilroy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Dictator",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Larry Charles"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "That's My Boy",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Sean Anders"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Battleship",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 1
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Peter Berg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Project-X",
+    "release_year": 2010,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Jose F. Sanchez"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Brave",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Mark Andrews",
+      "Brenda Chapman",
+      "Steve Purcell"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Chronicle",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Josh Trank"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "American Reunion",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Jon Hurwitz",
+      "Hayden Schlossberg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Taken 2",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 1
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Olivier Megaton"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Safe",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Boaz Yakin"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Kon-Tiki",
+    "release_year": 2012,
+    "date": "2012-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Biography"
+    ],
+    "director": [
+      "Joachim Rønning",
+      "Espen Sandberg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Wolf of Wall Street",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Martin Scorsese"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Her",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Spike Jonze"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Man of Steel",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Zack Snyder"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Oblivion",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Joseph Kosinski"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "We're the Millers",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Rawson Marshall Thurber"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "12 Years a Slave",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": [
+      "Steve McQueen"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Iron Man 3",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Shane Black"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "World War Z",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Horror"
+    ],
+    "director": [
+      "Marc Forster"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Secret Life of Walter Mitty",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Ben Stiller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Internship",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Shawn Levy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "This Is the End",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "director": [
+      "Evan Goldberg",
+      "Seth Rogen"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Enemy",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": [
+      "Denis Villeneuve"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Pacific Rim",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Guillermo del Toro"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Kick-Ass 2",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Jeff Wadlow"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Rush",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama"
+    ],
+    "director": [
+      "Ron Howard"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Thor: The Dark World",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "Alan Taylor"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Warm Bodies",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Romance"
+    ],
+    "director": [
+      "Jonathan Levine"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Purge",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 1
+    },
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "James DeMonaco"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "R.I.P.D.",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Robert Schwentke"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Don Jon",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": [
+      "Joseph Gordon-Levitt"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Pain & Gain",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Michael Bay"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Elysium",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Neill Blomkamp"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The World's End",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Edgar Wright"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Wolverine",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "director": [
+      "James Mangold"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Locke",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama"
+    ],
+    "director": [
+      "Steven Knight"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Hangover Part III",
+    "release_year": 2013,
+    "date": "2013-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Todd Phillips"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Interstellar",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Christopher Nolan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "John Wick",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Chad Stahelski",
+      "David Leitch"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Whiplash",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "director": [
+      "Damien Chazelle"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Guardians of the Galaxy",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "James Gunn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Kingsman: The Secret Service",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Matthew Vaughn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Nightcrawler",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Dan Gilroy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Edge of Tomorrow",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Doug Liman"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Birdman",
+    "release_year": null,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Captain America: The Winter Soldier",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Big Hero 6",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": [
+      "Don Hall",
+      "Chris Williams"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "NATURE VS MAN: Godzilla (1954)/Godzilla (2014)",
+    "release_year": 1954,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Talk-Show"
+    ],
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "X-Men: Days of Future Past",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Bryan Singer"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Lego Movie",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": [
+      "Phil Lord",
+      "Christopher Miller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Amazing Spider-Man 2",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Marc Webb"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "22 Jump Street",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Phil Lord",
+      "Christopher Miller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "300: Rise of an Empire",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "director": [
+      "Noam Murro"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Interview",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Evan Goldberg",
+      "Seth Rogen"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Theory of Everything",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Drama",
+      "Romance"
+    ],
+    "director": [
+      "James Marsh"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Fault in Our Stars",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": [
+      "Josh Boone"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Lucy",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "Luc Besson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Boyhood",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama"
+    ],
+    "director": [
+      "Richard Linklater"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Neighbors",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Nicholas Stoller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Dawn of the Planet of the Apes",
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": [
+      "Matt Reeves"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Prisoners",
+    "release_year": 2013,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": [
+      "Denis Villeneuve"
+    ]
+  },
+  {
+    "type": "movie",
     "title": "The Imitation Game",
-    "type": "movie",
-    "date": [
-      {
-        "year": "2014",
-        "string": "2014"
-      }
+    "release_year": 2014,
+    "date": "2014-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Drama",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2014,
-      "my_rating": 4,
-      "genres": [
-        "Biography",
-        "Drama",
-        "Thriller"
-      ],
-      "director": [
-        "Morten Tyldum"
-      ]
-    }
+    "director": [
+      "Morten Tyldum"
+    ]
   },
   {
+    "type": "movie",
+    "title": "The Man from U.N.C.L.E.",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Guy Ritchie"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Sicario",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Denis Villeneuve"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Mad Max: Fury Road",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "George Miller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: Episode VII - The Force Awakens",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "J.J. Abrams"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Hateful Eight",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": [
+      "Quentin Tarantino"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Jurassic World",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Colin Trevorrow"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Avengers: Age of Ultron",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Joss Whedon"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Legend",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Brian Helgeland"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Martian",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Ridley Scott"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Everest",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Biography"
+    ],
+    "director": [
+      "Baltasar Kormákur"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Straight Outta Compton",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": [
+      "F. Gary Gray"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Demolition",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Jean-Marc Vallée"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Chappie",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Neill Blomkamp"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Dope",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Rick Famuyiwa"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Hardcore Henry",
+    "release_year": 2015,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Ilya Naishuller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Deus Ex-machina",
+    "release_year": 1995,
+    "date": "2015-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Short"
+    ],
+    "director": [
+      "Carlos Gerbase"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Rogue One: A Star Wars Story",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Gareth Edwards"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Nocturnal Animals",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Tom Ford"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Split",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "director": [
+      "M. Night Shyamalan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Deadpool",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Tim Miller"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Arrival",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Denis Villeneuve"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Hell or High Water",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "David Mackenzie"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Captain Fantastic",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Matt Ross"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Sausage Party",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Greg Tiernan",
+      "Conrad Vernon"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "10 Cloverfield Lane",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "director": [
+      "Dan Trachtenberg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Why Him?",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "John Hamburg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Snowden",
+    "release_year": 2016,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Oliver Stone"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Spotlight",
+    "release_year": 2015,
+    "date": "2016-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Tom McCarthy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Batman v Superman: Dawn of Justice",
+    "release_year": 2016,
+    "date": "2016-03-22T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Zack Snyder"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Captain America: Civil War",
+    "release_year": 2016,
+    "date": "2016-04-26T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Russo Brothers"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "X-Men: Apocalypse",
+    "release_year": 2016,
+    "date": "2016-05-20T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Bryan Singer"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Warcraft",
+    "release_year": 2016,
+    "date": "2016-05-27T00:00:00.000Z",
+    "review": {
+      "rating": 1
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "Duncan Jones"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "War Dogs",
+    "release_year": 2016,
+    "date": "2016-08-19T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Biography",
+      "Crime",
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "director": [
+      "Todd Phillips"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Doctor Strange",
+    "release_year": 2016,
+    "date": "2016-11-04T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Fantasy"
+    ],
+    "director": [
+      "Scott Derrickson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Blade Runner 2049",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "director": [
+      "Denis Villeneuve"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Get Out",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": [
+      "Jordan Peele"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "John Wick: Chapter 2",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Chad Stahelski"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: Episode VIII - The Last Jedi",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "Rian Johnson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Baby Driver",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Edgar Wright"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "It (2017)",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Talk-Show"
+    ],
+    "director": [
+      "Sol Harris",
+      "Allen Turing"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Wonder Woman",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "Patty Jenkins"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Shape of Water",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "director": [
+      "Guillermo del Toro"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Kong: Skull Island",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "Jordan Vogt-Roberts"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Good-Time Girl",
+    "release_year": 1948,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "David MacDonald"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "War for the Planet of the Apes",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": [
+      "Matt Reeves"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Disaster Artist",
+    "release_year": 2017,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "James Franco"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "13 Hours",
+    "release_year": 2016,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "director": [
+      "Michael Bay"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Paper Towns",
+    "release_year": 2015,
+    "date": "2017-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Jake Schreier"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Logan",
+    "release_year": 2017,
+    "date": "2017-03-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Comicbook",
+      "Thriller"
+    ],
+    "director": [
+      "James Mangold"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "release_year": 2017,
+    "date": "2017-04-26T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Comedy"
+    ],
+    "director": [
+      "James Gunn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: Homecoming ",
+    "release_year": 2017,
+    "date": "2017-07-07T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Jon Watts"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Thor: Ragnarok",
+    "release_year": 2017,
+    "date": "2017-10-27T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi",
+      "Comicbook",
+      "Comedy"
+    ],
+    "director": [
+      "Taika Watiti"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Justice League",
+    "release_year": 2017,
+    "date": "2017-11-15T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Zack Snyder",
+      "Josh Whedon"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Wind River",
+    "release_year": 2017,
+    "date": "2017-11-29T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": [
+      "Taylor Sheridan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Black Panther",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Ryan Coogler"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "A Quiet Place",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "director": [
+      "John Krasinski"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Avengers: Infinity War",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Ready Player One",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Deadpool 2",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "David Leitch"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Aquaman",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "James Wan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Annihilation",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Horror"
+    ],
+    "director": [
+      "Alex Garland"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Game Night",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "John Francis Daley",
+      "Jonathan Goldstein"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Venom",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Ruben Fleischer"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "BlacKkKlansman",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Spike Lee"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Upgrade",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "Leigh Whannell"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Ant-Man and The Wasp",
+    "release_year": 2018,
+    "date": "2018-07-04T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Peyton Reed"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Mission: Impossible - Fallout",
+    "release_year": 2018,
+    "date": "2018-08-14T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "director": [
+      "Christopher McQuarrie"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Incredibles 2",
+    "release_year": 2018,
+    "date": "2018-08-24T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Family",
+      "Animation"
+    ],
+    "director": [
+      "Brad Bird"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: Into The Spider-Verse",
+    "release_year": 2018,
+    "date": "2018-12-17T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Fantasy",
+      "Animation"
+    ],
+    "director": [
+      "Bob Persichetti",
+      "Peter Ramsey",
+      "Rodney Rothman"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Once Upon a Time in Hollywood",
+    "release_year": 2019,
+    "date": "2019-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Quentin Tarantino"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Midsommar",
+    "release_year": 2019,
+    "date": "2019-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "director": [
+      "Ari Aster"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "John Wick: Chapter 3 - Parabellum",
+    "release_year": 2019,
+    "date": "2019-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Chad Stahelski"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Captain Marvel",
+    "release_year": 2019,
+    "date": "2019-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Anna Boden",
+      "Ryan Fleck"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "El Camino: A Breaking Bad Movie",
+    "release_year": 2019,
+    "date": "2019-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Vince Gilligan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Avengers: Endgame",
+    "release_year": 2019,
+    "date": "2019-04-24T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Drama"
+    ],
+    "director": [
+      "Russo Brothers"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: Far From Home",
+    "release_year": 2019,
+    "date": "2019-07-04T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Jon Watts"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Joker",
+    "release_year": 2019,
+    "date": "2019-10-04T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Todd Phillips"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Toy Story 4",
+    "release_year": 2019,
+    "date": "2019-10-07T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "director": [
+      "Josh Cooley"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Knives Out",
+    "release_year": 2019,
+    "date": "2019-12-06T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Rian Johnson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "1917",
+    "release_year": 2020,
+    "date": "2020-02-05T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "director": [
+      "Sam Mendes"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Birds of Prey",
+    "release_year": 2020,
+    "date": "2020-02-08T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Crime",
+      "Comicbook"
+    ],
+    "director": [
+      "Cathy Yan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Parasite",
+    "release_year": 2019,
+    "date": "2020-02-22T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Bong Joon Ho"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Jojo Rabbit",
+    "release_year": 2019,
+    "date": "2020-03-04T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "director": [
+      "Taika Watiti"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Invisible Man",
+    "release_year": 2020,
+    "date": "2020-03-30T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Horror",
+      "Thriller",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "director": [
+      "Leigh Whannell"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Gentlemen",
+    "release_year": 2019,
+    "date": "2020-04-03T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "Guy Ritchie"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Spies in Disguise",
+    "release_year": 2019,
+    "date": "2020-04-07T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Nick Bruno",
+      "Troy Quane"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Bad Boys For Life",
+    "release_year": 2020,
+    "date": "2020-04-10T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "director": [
+      "Adil El Arbi",
+      "Bilall Fallah"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Big Sick",
+    "release_year": 2017,
+    "date": "2020-04-17T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": [
+      "Michael Showalter"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Johnny English Strikes Again",
+    "release_year": 2018,
+    "date": "2020-06-05T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Action",
+      "Adventure"
+    ],
+    "director": [
+      "David Kerr"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Minority Report",
+    "release_year": 2002,
+    "date": "2020-06-06T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Mystery",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Mean Girls",
+    "release_year": 2004,
+    "date": "2020-06-07T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Mark Waters"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The King of Staten Island",
+    "release_year": 2020,
+    "date": "2020-06-15T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Judd Apatow"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Extraction",
+    "release_year": 2020,
+    "date": "2020-07-20T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "director": [
+      "Sam Hargrave"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Rental",
+    "release_year": 2020,
+    "date": "2020-07-30T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Horror",
+      "Thriller",
+      "Mystery"
+    ],
+    "director": [
+      "Dave Franco"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Uncut Gems",
+    "release_year": 2019,
+    "date": "2020-08-19T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Benny Safdie",
+      "Josh Safdie"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Room",
+    "release_year": 2015,
+    "date": "2020-08-23T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Lenny Abrahamson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Tenet",
+    "release_year": 2020,
+    "date": "2020-08-26T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "Christopher Nolan"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Onward",
+    "release_year": 2020,
+    "date": "2020-08-28T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy",
+      "Comedy",
+      "Family"
+    ],
+    "director": [
+      "Dan Scanlon"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Incredible Journey",
+    "release_year": 1963,
+    "date": "2020-09-20T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "director": [
+      "Fletcher Markle"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Borat Subsequent Moviefilm",
+    "release_year": 2020,
+    "date": "2020-10-23T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Jason Woliner"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Love and Monsters",
+    "release_year": 2020,
+    "date": "2020-10-29T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Michael Matthews"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Yesterday",
+    "release_year": 2019,
+    "date": "2021-02-19T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Music",
+      "Romance"
+    ],
+    "director": [
+      "Danny Boyle"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "This is 40",
+    "release_year": 2012,
+    "date": "2021-02-28T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "director": [
+      "Judd Apatow"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Zack Snyder's Justice League",
+    "release_year": 2021,
+    "date": "2021-03-18T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Zack Snyder"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Deadly Illusions",
+    "release_year": 2021,
+    "date": "2021-03-26T00:00:00.000Z",
+    "review": {
+      "rating": 1
+    },
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": [
+      "Anna Elizabeth James"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Bad Trip",
+    "release_year": 2021,
+    "date": "2021-03-28T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "director": [
+      "Kitao Sakurai"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Stowaway",
+    "release_year": 2021,
+    "date": "2021-04-24T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "Joe Penna"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Bo Burnham: Inside",
+    "release_year": 2021,
+    "date": "2021-06-07T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music"
+    ],
+    "director": [
+      "Bo Burnhamn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "A Quiet Place Part II",
+    "release_year": 2021,
+    "date": "2021-06-09T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Horror",
+      "Thriller"
+    ],
+    "director": [
+      "John Krasinski"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Black Widow",
+    "release_year": 2021,
+    "date": "2021-07-07T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Cate Shortland"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Suicide Squad",
+    "release_year": 2021,
+    "date": "2021-08-06T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "James Gunn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Free Guy",
+    "release_year": 2021,
+    "date": "2021-08-21T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Shawn Levy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "release_year": 2021,
+    "date": "2021-09-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Fantasy",
+      "Comicbook"
+    ],
+    "director": [
+      "Destin Daniel Cretton"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Dune",
+    "release_year": 2021,
+    "date": "2021-10-11T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Drama"
+    ],
+    "director": [
+      "Denis Villeneuve"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Eternals",
+    "release_year": 2021,
+    "date": "2021-11-03T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Fantasy"
+    ],
+    "director": [
+      "Chloé Zhao"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Venom: Let There Be Carnage",
+    "release_year": 2021,
+    "date": "2021-11-13T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Comicbook",
+      "Thriller"
+    ],
+    "director": [
+      "Andy Serkis"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Love Hard",
+    "release_year": 2021,
+    "date": "2021-11-27T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "director": [
+      "Hernan Jimenez"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Atomic Blonde",
+    "release_year": 2017,
+    "date": "2021-12-17T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "director": [
+      "David Leitch"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: No Way Home",
+    "release_year": 2021,
+    "date": "2021-12-19T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Comicbook"
+    ],
+    "director": [
+      "Jon Watts"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Green Knight",
+    "release_year": 2021,
+    "date": "2022-01-09T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": [
+      "David Lowery"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Matrix Resurrections",
+    "release_year": 2021,
+    "date": "2022-01-15T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Lana Wachowski"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Ant-Man",
+    "release_year": 2015,
+    "date": "2022-02-06T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "Peyton Reed"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Chicken Run",
+    "release_year": 2000,
+    "date": "2022-02-06T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "director": [
+      "Peter Lord",
+      "Nick Park"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Tinder Swindler",
+    "release_year": 2022,
+    "date": "2022-02-07T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "director": [
+      "Felicity Morris"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Red Notice",
+    "release_year": 2021,
+    "date": "2022-02-19T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "director": [
+      "Rawson Marshall Thurber"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Batman",
+    "release_year": 2022,
+    "date": "2022-03-06T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Comicbook"
+    ],
+    "director": [
+      "Matt Reeves"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Adam Project",
+    "release_year": 2022,
+    "date": "2022-03-18T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Shawn Levy"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Trollhunter",
+    "release_year": 2010,
+    "date": "2022-04-13T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": [
+      "André Øvredal"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Northman",
+    "release_year": 2022,
+    "date": "2022-04-15T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "History",
+      "Thriller"
+    ],
+    "director": [
+      "Robert Eggers"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "release_year": 2022,
+    "date": "2022-05-04T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi",
+      "Horror",
+      "Comicbook"
+    ],
+    "director": [
+      "Sam Raimi"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Chip 'n Dale: Rescue Rangers",
+    "release_year": 2022,
+    "date": "2022-05-21T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Mystery"
+    ],
+    "director": [
+      "Akiva Schaffer"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Everything Everywhere All At Once",
+    "release_year": 2022,
+    "date": "2022-05-25T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Dan Kwan",
+      "Daniel Scheinert"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Pleasure",
+    "release_year": 2021,
+    "date": "2022-06-16T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama"
+    ],
+    "director": [
+      "Ninja Thyberg"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Thor: Love and Thunder",
+    "release_year": 2022,
+    "date": "2022-07-07T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Comicbook"
+    ],
+    "director": [
+      "Taika Watiti"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "American History X",
+    "release_year": 1998,
+    "date": "2022-07-23T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Tony Kaye"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Witches (2020)",
+    "release_year": 2020,
+    "date": "2022-07-25T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Horror",
+      "Mystery"
+    ],
+    "director": [
+      "Robert Zemeckis"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Jumper",
+    "release_year": 2008,
+    "date": "2022-07-31T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Doug Liman"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Last Duel",
+    "release_year": 2021,
+    "date": "2022-08-13T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "director": [
+      "Ridley Scott"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "C'mon C'mon",
+    "release_year": 2021,
+    "date": "2022-08-13T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama"
+    ],
+    "director": [
+      "Mike Mills"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Ghostbusters: Afterlife",
+    "release_year": 2021,
+    "date": "2022-08-20T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "director": [
+      "Jason Reitman"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Bullet Train",
+    "release_year": 2022,
+    "date": "2022-08-23T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "director": [
+      "David Leitch"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Bodies Bodies Bodies",
+    "release_year": 2022,
+    "date": "2022-09-24T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Horror",
+      "Comedy",
+      "Thriller"
+    ],
+    "director": [
+      "Halina Reijn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Nope",
+    "release_year": 2022,
+    "date": "2022-09-25T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": [
+      "Jordan Peele"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Werewolf by Night",
+    "release_year": 2022,
+    "date": "2022-10-08T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": [
+      "Michael Giacchino"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Naked Gun: From the Files of Police Squad!",
+    "release_year": 1988,
+    "date": "2022-10-22T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": [
+      "David Zucker"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Barbarian",
+    "release_year": 2022,
+    "date": "2022-11-04T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "director": [
+      "Zach Cregger"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Black Panther: Wakanda Forever",
+    "release_year": 2022,
+    "date": "2022-11-09T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": [
+      "Ryan Coggler"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Krigsseileren",
+    "release_year": 2022,
+    "date": "2022-11-19T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": [
+      "Gunnar Vikene"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "release_year": 2022,
+    "date": "2022-11-25T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi",
+      "Comicbook"
+    ],
+    "director": [
+      "James Gunn"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Glass Onion: A Knives Out Mystery",
+    "release_year": 2022,
+    "date": "2022-12-25T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Rian Johnson"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Verdens verste menneske",
+    "release_year": 2021,
+    "date": "2022-12-30T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": [
+      "Joachim Trier"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Avatar: The Way of Water",
+    "release_year": 2022,
+    "date": "2023-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": [
+      "James Cameron"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Marriage Story",
+    "release_year": 2019,
+    "date": "2023-01-13T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": [
+      "Noah Baumbach"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "I Don't Feel at Home in This World Anymore",
+    "release_year": 2017,
+    "date": "2023-01-14T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "director": [
+      "Macon Blair"
+    ]
+  },
+  {
+    "type": "movie",
     "title": "Collateral",
-    "type": "movie",
-    "date": [
-      {
-        "day": "21",
-        "month": "01",
-        "year": "2023",
-        "string": "2023-01-21"
-      }
+    "release_year": 2004,
+    "date": "2023-01-21T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
     ],
-    "details": {
-      "release_year": 2004,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
-      "director": [
-        "Michael Mann"
-      ]
-    }
+    "director": [
+      "Michael Mann"
+    ]
   },
   {
+    "type": "movie",
     "title": "The Lighthouse",
-    "type": "movie",
-    "date": [
-      {
-        "day": "03",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-03"
-      }
+    "release_year": 2019,
+    "date": "2023-02-03T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
     ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 3,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Fantasy"
-      ],
-      "director": [
-        "Robert Eggers"
-      ]
-    }
+    "director": [
+      "Robert Eggers"
+    ]
   },
   {
+    "type": "movie",
     "title": "Gattaca",
-    "type": "movie",
-    "date": [
-      {
-        "day": "05",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-05"
-      }
+    "release_year": 1997,
+    "date": "2023-02-05T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 1997,
-      "my_rating": 4,
-      "genres": [
-        "Drama",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "director": [
-        "Andrew Niccol"
-      ]
-    }
+    "director": [
+      "Andrew Niccol"
+    ]
   },
   {
+    "type": "movie",
     "title": "Ant-Man and the Wasp: Quantumania",
-    "type": "movie",
-    "date": [
-      {
-        "day": "16",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-16"
-      }
+    "release_year": 2023,
+    "date": "2023-02-16T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Peyton Reed"
-      ]
-    }
+    "director": [
+      "Peyton Reed"
+    ]
   },
   {
+    "type": "movie",
     "title": "The Whale",
-    "type": "movie",
-    "date": [
-      {
-        "day": "23",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-23"
-      }
+    "release_year": 2022,
+    "date": "2023-02-23T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Darren Aronofsky"
-      ]
-    }
+    "director": [
+      "Darren Aronofsky"
+    ]
   },
   {
+    "type": "movie",
     "title": "Weird: The Al Yankovic Story",
-    "type": "movie",
-    "date": [
-      {
-        "day": "25",
-        "month": "02",
-        "year": "2023",
-        "string": "2023-02-25"
-      }
+    "release_year": 2022,
+    "date": "2023-02-25T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Music"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 3,
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Music"
-      ],
-      "director": [
-        "Eric Appel"
-      ]
-    }
+    "director": [
+      "Eric Appel"
+    ]
   },
   {
+    "type": "movie",
     "title": "Aftersun",
-    "type": "movie",
-    "date": [
-      {
-        "day": "04",
-        "month": "03",
-        "year": "2023",
-        "string": "2023-03-04"
-      }
+    "release_year": 2022,
+    "date": "2023-03-04T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Charlotte Wells"
-      ]
-    }
+    "director": [
+      "Charlotte Wells"
+    ]
   },
   {
+    "type": "movie",
     "title": "John Wick: Chapter 4",
-    "type": "movie",
-    "date": [
-      {
-        "day": "04",
-        "month": "04",
-        "year": "2023",
-        "string": "2023-04-04"
-      }
+    "release_year": 2023,
+    "date": "2023-04-04T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "director": [
-        "Chad Stahelski"
-      ]
-    }
+    "director": [
+      "Chad Stahelski"
+    ]
   },
   {
+    "type": "movie",
     "title": "Murder Mystery",
-    "type": "movie",
-    "date": [
-      {
-        "day": "07",
-        "month": "04",
-        "year": "2023",
-        "string": "2023-04-07"
-      }
+    "release_year": 2019,
+    "date": "2023-04-07T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
     ],
-    "details": {
-      "release_year": 2019,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Kyle Newacheck"
-      ]
-    }
+    "director": [
+      "Kyle Newacheck"
+    ]
   },
   {
+    "type": "movie",
     "title": "Murder Mystery 2",
-    "type": "movie",
-    "date": [
-      {
-        "day": "10",
-        "month": "04",
-        "year": "2023",
-        "string": "2023-04-10"
-      }
+    "release_year": 2023,
+    "date": "2023-04-10T00:00:00.000Z",
+    "review": {
+      "rating": 2
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 2,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "director": [
-        "Jeremy Garelick"
-      ]
-    }
+    "director": [
+      "Jeremy Garelick"
+    ]
   },
   {
+    "type": "movie",
     "title": "The Super Mario Bros. Movie",
-    "type": "movie",
-    "date": [
-      {
-        "day": "15",
-        "month": "04",
-        "year": "2023",
-        "string": "2023-04-15"
-      }
+    "release_year": 2023,
+    "date": "2023-04-15T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 3,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Aaron Horvath",
-        "Michael Jelenic",
-        "Pierre Leduc"
-      ]
-    }
+    "director": [
+      "Aaron Horvath",
+      "Michael Jelenic",
+      "Pierre Leduc"
+    ]
   },
   {
+    "type": "movie",
     "title": "Guardians of the Galaxy Vol. 3",
-    "type": "movie",
-    "date": [
-      {
-        "day": "03",
-        "month": "05",
-        "year": "2023",
-        "string": "2023-05-03"
-      }
+    "release_year": 2023,
+    "date": "2023-05-03T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "James Gunn"
-      ]
-    }
+    "director": [
+      "James Gunn"
+    ]
   },
   {
+    "type": "movie",
     "title": "Sisu",
-    "type": "movie",
-    "date": [
-      {
-        "day": "19",
-        "month": "05",
-        "year": "2023",
-        "string": "2023-05-19"
-      }
+    "release_year": 2022,
+    "date": "2023-05-19T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "War"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "War"
-      ],
-      "director": [
-        "Jalmari Helander"
-      ]
-    }
+    "director": [
+      "Jalmari Helander"
+    ]
   },
   {
+    "type": "movie",
     "title": "The Quiet Girl",
-    "type": "movie",
-    "date": [
-      {
-        "day": "27",
-        "month": "05",
-        "year": "2023",
-        "string": "2023-05-27"
-      }
+    "release_year": 2022,
+    "date": "2023-05-27T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Drama"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Drama"
-      ],
-      "director": [
-        "Colm Bairéad"
-      ]
-    }
+    "director": [
+      "Colm Bairéad"
+    ]
   },
   {
+    "type": "movie",
     "title": "Spider-Man: Across the Spider-Verse",
-    "type": "movie",
-    "date": [
-      {
-        "day": "02",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-02"
-      }
+    "release_year": 2023,
+    "date": "2023-06-02T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 5,
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
-      "director": [
-        "Joaquim Dos Santos",
-        "Kemp Powers",
-        "Justin K. Thompson"
-      ]
-    }
+    "director": [
+      "Joaquim Dos Santos",
+      "Kemp Powers",
+      "Justin K. Thompson"
+    ]
   },
   {
+    "type": "movie",
     "title": "Extraction 2",
-    "type": "movie",
-    "date": [
-      {
-        "day": "17",
-        "month": "06",
-        "year": "2023",
-        "string": "2023-06-17"
-      }
+    "release_year": 2023,
+    "date": "2023-06-17T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Thriller"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "director": [
-        "Sam Hargrave"
-      ]
-    }
+    "director": [
+      "Sam Hargrave"
+    ]
   },
   {
+    "type": "movie",
     "title": "Luck",
-    "type": "movie",
-    "date": [
-      {
-        "day": "01",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-01"
-      }
+    "release_year": 2022,
+    "date": "2023-07-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
     ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 4,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Peggy Holmes",
-        "Javier Abad"
-      ]
-    }
+    "director": [
+      "Peggy Holmes",
+      "Javier Abad"
+    ]
   },
   {
+    "type": "movie",
     "title": "Oppenheimer",
-    "type": "movie",
-    "date": [
-      {
-        "day": "23",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-23"
-      }
+    "release_year": 2023,
+    "date": "2023-07-23T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 5,
-      "genres": [
-        "Biography",
-        "Drama",
-        "History"
-      ],
-      "director": [
-        "Christopher Nolan"
-      ]
-    }
+    "director": [
+      "Christopher Nolan"
+    ]
   },
   {
+    "type": "movie",
     "title": "Tommy Boy",
-    "type": "movie",
-    "date": [
-      {
-        "day": "28",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-28"
-      }
+    "release_year": 1995,
+    "date": "2023-07-28T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Adventure",
+      "Comedy"
     ],
-    "details": {
-      "release_year": 1995,
-      "my_rating": 3,
-      "genres": [
-        "Adventure",
-        "Comedy"
-      ],
-      "director": [
-        "Peter Segal"
-      ]
-    }
+    "director": [
+      "Peter Segal"
+    ]
   },
   {
+    "type": "movie",
     "title": "Barbie",
-    "type": "movie",
-    "date": [
-      {
-        "day": "30",
-        "month": "07",
-        "year": "2023",
-        "string": "2023-07-30"
-      }
+    "release_year": 2023,
+    "date": "2023-07-30T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
     ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 4,
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Fantasy"
-      ],
-      "director": [
-        "Greta Gerwig"
-      ]
-    }
+    "director": [
+      "Greta Gerwig"
+    ]
   },
   {
-    "title": "Kopps",
     "type": "movie",
-    "date": [
-      {
-        "day": "11",
-        "month": "08",
-        "year": "2023",
-        "string": "2023-08-11"
-      }
+    "title": "Kopps",
+    "release_year": 2003,
+    "date": "2023-08-11T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Comedy"
     ],
-    "details": {
-      "release_year": 2003,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "director": [
-        "Josef Fares"
-      ]
-    }
+    "director": [
+      "Josef Fares"
+    ]
   }
 ]

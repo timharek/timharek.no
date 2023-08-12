@@ -1,524 +1,327 @@
 [
   {
+    "type": "game",
     "title": "The Elder Scrolls V: Skyrim",
-    "type": "game",
-    "date": [
-      {
-        "year": "2012",
-        "month": "02",
-        "day": "03",
-        "string": "2012-02-03"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2011,
+    "date": "2012-02-03T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
   },
   {
+    "type": "game",
     "title": "Portal 2",
-    "type": "game",
-    "date": [
-      {
-        "year": "2012",
-        "month": "07",
-        "day": "13",
-        "string": "2012-07-13"
-      }
-    ],
-    "details": {
-      "release_year": 2011,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Sci-Fi",
-        "Puzzle"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2011,
+    "date": "2012-07-13T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Puzzle"
+    ]
   },
   {
+    "type": "game",
     "title": "Just Cause 2",
-    "type": "game",
-    "date": [
-      {
-        "year": "2012",
-        "month": "07",
-        "day": "24",
-        "string": "2012-07-24"
-      }
-    ],
-    "details": {
-      "release_year": 2010,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2010,
+    "date": "2012-07-24T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
   },
   {
+    "type": "game",
     "title": "Sleeping Dogs",
-    "type": "game",
-    "date": [
-      {
-        "year": "2012",
-        "month": "08",
-        "day": "18",
-        "string": "2012-08-18"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2012,
+    "date": "2012-08-18T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
   },
   {
+    "type": "game",
     "title": "Far Cry 3",
-    "type": "game",
-    "date": [
-      {
-        "year": "2012",
-        "month": "12",
-        "day": "10",
-        "string": "2012-12-10"
-      }
-    ],
-    "details": {
-      "release_year": 2012,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2012,
+    "date": "2012-12-10T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
   },
   {
+    "type": "game",
     "title": "Don't Starve",
-    "type": "game",
-    "date": [
-      {
-        "year": "2013",
-        "month": "05",
-        "day": "23",
-        "string": "2013-05-23"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2013,
+    "date": "2013-05-23T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
   },
   {
+    "type": "game",
     "title": "Payday 2",
-    "type": "game",
-    "date": [
-      {
-        "year": "2013",
-        "month": "08",
-        "day": "23",
-        "string": "2013-08-23"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "RPG"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2013,
+    "date": "2013-08-23T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "RPG"
+    ]
   },
   {
+    "type": "game",
     "title": "Amnesia: A Machine for Pigs",
-    "type": "game",
-    "date": [
-      {
-        "year": "2013",
-        "month": "09",
-        "day": "13",
-        "string": "2013-09-13"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "Horror"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2013,
+    "date": "2013-09-13T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Horror"
+    ]
   },
   {
+    "type": "game",
     "title": "Batman: Arkham Origins",
-    "type": "game",
-    "date": [
-      {
-        "year": "2013",
-        "month": "10",
-        "day": "27",
-        "string": "2013-10-27"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2013,
+    "date": "2013-10-27T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
   },
   {
+    "type": "game",
     "title": "Game Dev Tycoon",
-    "type": "game",
-    "date": [
-      {
-        "year": "2013",
-        "month": "12",
-        "day": "02",
-        "string": "2013-12-02"
-      }
-    ],
-    "details": {
-      "release_year": 2013,
-      "my_rating": 5,
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2013,
+    "date": "2013-12-02T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ]
   },
   {
+    "type": "game",
     "title": "Hacknet",
-    "type": "game",
-    "date": [
-      {
-        "year": "2015",
-        "month": "08",
-        "day": "25",
-        "string": "2015-08-25"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 4,
-      "genres": [
-        "Indie",
-        "Simulation"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2015,
+    "date": "2015-08-25T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Indie",
+      "Simulation"
+    ]
   },
   {
+    "type": "game",
     "title": "Prey",
-    "type": "game",
-    "date": [
-      {
-        "year": "2017",
-        "month": "05",
-        "day": "12",
-        "string": "2017-05-12"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2017,
+    "date": "2017-05-12T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
   },
   {
+    "type": "game",
     "title": "Hob",
-    "type": "game",
-    "date": [
-      {
-        "year": "2017",
-        "month": "10",
-        "day": "01",
-        "string": "2017-10-01"
-      }
-    ],
-    "details": {
-      "release_year": 2017,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2017,
+    "date": "2017-10-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ]
   },
   {
-    "title": "The Last of Us: Part 2",
     "type": "game",
-    "date": [
-      {
-        "year": "2020",
-        "month": "06",
-        "day": "21",
-        "string": "2020-06-21"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Survival"
-      ],
-      "platform": [
-        "PS4"
-      ]
-    }
-  },
-  {
-    "title": "Ori and the Blind Forest",
-    "type": "game",
-    "date": [
-      {
-        "year": "2020",
-        "month": "10",
-        "day": "02",
-        "string": "2020-10-02"
-      }
-    ],
-    "details": {
-      "release_year": 2015,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Platformer"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
-  },
-  {
-    "title": "Ori and the Will of The Wisp",
-    "type": "game",
-    "date": [
-      {
-        "year": "2020",
-        "month": "10",
-        "day": "06",
-        "string": "2020-10-06"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Platformer"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
-  },
-  {
-    "title": "Return of the Obra Dinn",
-    "type": "game",
-    "date": [
-      {
-        "year": "2022",
-        "month": "08",
-        "day": "22",
-        "string": "2022-08-22"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "Puzzle"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
-  },
-  {
-    "title": "Detroit: Become Human",
-    "type": "game",
-    "date": [
-      {
-        "year": "2022",
-        "month": "09",
-        "day": "17",
-        "string": "2022-09-17"
-      }
-    ],
-    "details": {
-      "release_year": 2020,
-      "my_rating": 3,
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "platform": [
-        "PS5"
-      ]
-    }
-  },
-  {
-    "title": "God of War: Ragnarök",
-    "type": "game",
-    "date": [
-      {
-        "year": "2022",
-        "month": "11",
-        "day": "13",
-        "string": "2022-11-13"
-      }
-    ],
-    "details": {
-      "release_year": 2022,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Single-Player"
-      ],
-      "platform": [
-        "PS5"
-      ]
-    }
-  },
-  {
     "title": "Red Dead Redemption 2",
-    "type": "game",
-    "date": [
-      {
-        "year": "2018",
-        "string": "2018"
-      }
-    ],
-    "details": {
-      "release_year": 2018,
-      "my_rating": 5,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Single-Player"
-      ],
-      "platform": [
-        "PS4"
-      ]
-    }
+    "platform": "PS4",
+    "release_year": 2018,
+    "date": "2018-01-01T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Single-Player"
+    ]
   },
   {
+    "type": "game",
+    "title": "The Last of Us: Part 2",
+    "platform": "PS4",
+    "release_year": 2020,
+    "date": "2020-06-21T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Survival"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Ori and the Blind Forest",
+    "platform": "PC",
+    "release_year": 2015,
+    "date": "2020-10-02T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Platformer"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Ori and the Will of The Wisp",
+    "platform": "PC",
+    "release_year": 2020,
+    "date": "2020-10-06T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Platformer"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Return of the Obra Dinn",
+    "platform": "PC",
+    "release_year": 2018,
+    "date": "2022-08-22T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Puzzle"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Detroit: Become Human",
+    "platform": "PS5",
+    "release_year": 2020,
+    "date": "2022-09-17T00:00:00.000Z",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "God of War: Ragnarök",
+    "platform": "PS5",
+    "release_year": 2022,
+    "date": "2022-11-13T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Single-Player"
+    ]
+  },
+  {
+    "type": "game",
     "title": "Dredge",
-    "type": "game",
-    "date": [
-      {
-        "day": "06",
-        "month": "04",
-        "year": "2023",
-        "string": "2023-04-06"
-      }
-    ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 5,
-      "genres": [
-        "Adventure",
-        "Single-Player",
-        "Survival",
-        "Casual"
-      ],
-      "platform": [
-        "PC"
-      ]
-    }
+    "platform": "PC",
+    "release_year": 2023,
+    "date": "2023-04-06T00:00:00.000Z",
+    "review": {
+      "rating": 5
+    },
+    "genres": [
+      "Adventure",
+      "Single-Player",
+      "Survival",
+      "Casual"
+    ]
   },
   {
-    "title": "Star Wars Jedi: Survivor",
     "type": "game",
-    "date": [
-      {
-        "day": "01",
-        "month": "05",
-        "year": "2023",
-        "string": "2023-05-01"
-      }
-    ],
-    "details": {
-      "release_year": 2023,
-      "my_rating": 4,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Platformer",
-        "Single-Player",
-        "Sci-Fi"
-      ],
-      "platform": [
-        "PS5"
-      ],
-      "playtime": 16.7
-    }
+    "title": "Star Wars Jedi: Survivor",
+    "platform": "PS5",
+    "release_year": 2023,
+    "date": "2023-05-01T00:00:00.000Z",
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Platformer",
+      "Single-Player",
+      "Sci-Fi"
+    ]
   }
 ]
