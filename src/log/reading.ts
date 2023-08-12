@@ -1,27 +1,27 @@
-// @deno-types="../../mod.d.ts"
+// @deno-types="./mod.d.ts"
 
-import { Input, List, Number, prompt, Select } from '../../deps.ts';
+import { Input, List, Number, prompt, Select } from "../deps.ts";
 import {
   getBook,
   searchBook,
-} from 'https://git.sr.ht/~timharek/deno-books/blob/main/mod.ts';
+} from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.ts";
 import {
   OpenLibrary,
-} from 'https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts';
-import { getCurrentDate, getEntryDate, selectKeys } from '../util.ts';
+} from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
+import { getCurrentDate, getEntryDate, selectKeys } from "./util.ts";
 
-export async function logBook(type: 'book') {
+export async function logBook(type: "book") {
   const currentDate = getCurrentDate();
 
   const { title, author } = await prompt([
     {
-      name: 'title',
-      message: 'What did you read?',
+      name: "title",
+      message: "What did you read?",
       type: Input,
     },
     {
-      name: 'author',
-      message: 'Who authored the title?',
+      name: "author",
+      message: "Who authored the title?",
       type: Input,
     },
   ]);
@@ -32,7 +32,7 @@ export async function logBook(type: 'book') {
   const selectOptions = searchResult.docs.map((book) => {
     return {
       name: `${book.title} (${book.first_publish_year}) by ${
-        book.author_name.join(', ')
+        book.author_name.join(", ")
       }`,
       publishYear: book.first_publish_year,
       author: book.author_name,
@@ -42,32 +42,32 @@ export async function logBook(type: 'book') {
 
   const { date, rating, genres, selectedResult } = await prompt([
     {
-      name: 'selectedResult',
-      message: 'Which book is correct?',
+      name: "selectedResult",
+      message: "Which book is correct?",
       type: Select,
       options: selectOptions,
       ...(selectOptions.length > 10 && { search: true }),
       keys: selectKeys,
     },
     {
-      name: 'genres',
-      message: 'Which genre(s)?',
+      name: "genres",
+      message: "Which genre(s)?",
       type: List,
     },
     {
-      name: 'date',
-      message: 'When did you read it? (YYYY-MM-DD)',
+      name: "date",
+      message: "When did you read it? (YYYY-MM-DD)",
       type: Input,
       suggestions: [currentDate],
     },
     {
-      name: 'rating',
-      message: 'How many stars? (1-5)',
+      name: "rating",
+      message: "How many stars? (1-5)",
       type: Number,
     },
   ]);
 
-  const book: OpenLibrary.IBook = await getBook(selectedResult.split('/')[2]);
+  const book: OpenLibrary.IBook = await getBook(selectedResult.split("/")[2]);
   const bookFields =
     selectOptions.filter((book: unknown) => book.value === selectedResult)[0];
 

@@ -1,18 +1,18 @@
 // @deno-types="./mod.d.ts"
 
-import { Confirm, logPath, Select } from './deps.ts';
-import { selectKeys } from './src/util.ts';
+import { Confirm, logPath, Select } from "../deps.ts";
+import { selectKeys } from "./util.ts";
 
 async function readFile() {
-  const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
-    message: 'What do you want to log?',
+  const type: "movie" | "tv" | "game" | "book" | "life" = await Select.prompt({
+    message: "What do you want to log?",
     options: [
-      { name: 'Movie', value: 'movie' },
-      { name: 'TV Show', value: 'tv' },
-      { name: 'Game', value: 'game' },
-      { name: 'Book', value: 'book' },
-      { name: 'Travel', value: 'travel' },
-      { name: 'Life event', value: 'life' },
+      { name: "Movie", value: "movie" },
+      { name: "TV Show", value: "tv" },
+      { name: "Game", value: "game" },
+      { name: "Book", value: "book" },
+      { name: "Travel", value: "travel" },
+      { name: "Life event", value: "life" },
     ],
     search: true,
     keys: selectKeys,
@@ -27,7 +27,7 @@ async function readFile() {
   });
 
   const selectedTitle: string = await Select.prompt({
-    message: 'Which title do you to view in more detail?',
+    message: "Which title do you to view in more detail?",
     options: titles,
     search: true,
   });
@@ -38,7 +38,7 @@ async function readFile() {
 
   console.log(details);
 
-  const continueOnward: boolean = await Confirm.prompt('Look through more?');
+  const continueOnward: boolean = await Confirm.prompt("Look through more?");
   if (continueOnward) {
     await readFile();
   }

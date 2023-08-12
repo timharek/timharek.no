@@ -1,8 +1,8 @@
 // @deno-types="./mod.d.ts"
 
-import { logPath, Select } from './deps.ts';
-import { log } from './src/log/index.ts';
-import { selectKeys } from './src/util.ts';
+import { logPath, Select } from "../deps.ts";
+import { log } from "./index.ts";
+import { selectKeys } from "./util.ts";
 
 const typeSelector = {
   movie: log.movieTv,
@@ -13,15 +13,15 @@ const typeSelector = {
   life: log.life,
 };
 
-const type: 'movie' | 'tv' | 'game' | 'book' | 'life' = await Select.prompt({
-  message: 'What do you want to log?',
+const type: "movie" | "tv" | "game" | "book" | "life" = await Select.prompt({
+  message: "What do you want to log?",
   options: [
-    { name: 'Movie', value: 'movie' },
-    { name: 'TV Show', value: 'tv' },
-    { name: 'Game', value: 'game' },
-    { name: 'Book', value: 'book' },
-    { name: 'Travel', value: 'travel' },
-    { name: 'Life event', value: 'life' },
+    { name: "Movie", value: "movie" },
+    { name: "TV Show", value: "tv" },
+    { name: "Game", value: "game" },
+    { name: "Book", value: "book" },
+    { name: "Travel", value: "travel" },
+    { name: "Life event", value: "life" },
   ],
   search: true,
   keys: selectKeys,
@@ -35,7 +35,7 @@ writeEntryToFile<entryType>(logPath[type], entry);
 async function writeEntryToFile<T extends Log.IEntry>(path: string, entry: T) {
   const json: T[] = JSON.parse(await Deno.readTextFile(path));
   const existingEntry = json.find((item) => item.title === entry.title);
-  if (!existingEntry || entry.type == 'travel') {
+  if (!existingEntry || entry.type == "travel") {
     json.push(entry);
   }
   if (existingEntry) {
