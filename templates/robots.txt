@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /no/wishlist/
-
-Sitemap: {{ get_url(path="sitemap.xml") }}
