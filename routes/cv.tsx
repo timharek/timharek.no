@@ -1,5 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { ServerState } from "../_middleware.ts";
+import { ServerState } from "./_middleware.ts";
 
 interface CVProps {
   last_update: string;
@@ -13,7 +13,7 @@ export const handler: Handlers<CVProps, ServerState> = {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
     try {
-      const cvPath = new URL("../../static/api/cv.json", import.meta.url);
+      const cvPath = new URL("../static/api/cv.json", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
       const cv = JSON.parse(cvRaw);
       if (!isRequestingHtml) {

@@ -1,11 +1,15 @@
 {
-  "/hello-world": "/about",
   "/about/cv": "/cv",
-  "/resume": "/cv",
-  "/contact": "/connect",
-  "/logs/timeline": "/logs",
-  "/bookmarks": "/logs",
-  "/read": "/reading",
+  "/about/uses": "/uses",
   "/blogroll": "/feedroll",
-  "/watching": "/watched"
+  "/bookmarks": "/logs",
+  "/contact": "/connect",
+  "/games": "/logs/games",
+  "/logs/timeline": "/logs",
+  "/read": "/logs/reading",
+  "/reading": "/logs/reading",
+  "/resume": "/cv",
+  "/travel": "/logs/travel",
+  "/watched": "/logs/watched",
+  "/watching": "/logs/watched"
 }

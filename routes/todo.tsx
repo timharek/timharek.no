@@ -25,16 +25,14 @@ export default function Home() {
     "Git integration?",
     "Swap shortcodes with proper Markdown",
     "Check all links in Markdown",
-    "Move CV",
-    "Move Uses",
-    "Move Work",
-    "Move About",
     "Clean up front matter in all Markdown files",
     "Clean up `utils.ts`",
-    "Add route for all outgoing links (.well-known)",
-    "Change layout",
+    "Add proper CV route",
+    "Add proper Work route",
     "Add groupBy() function",
     "Add support for Plausible",
+    "Add route for all outgoing links (.well-known)",
+    "Change layout",
   ];
   return (
     <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
