@@ -20,7 +20,6 @@ export const handler: Handlers<unknown, ServerState> = {
 };
 export default function Home() {
   const todo = [
-    "Add proper logs pages",
     "Add sitemap (not xml)",
     "Add tests",
     "Git integration?",
@@ -34,6 +33,8 @@ export default function Home() {
     "Clean up `utils.ts`",
     "Add route for all outgoing links (.well-known)",
     "Change layout",
+    "Add groupBy() function",
+    "Add support for Plausible",
   ];
   return (
     <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
