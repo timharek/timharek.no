@@ -13,13 +13,13 @@ interface Props {
 export const handler: Handlers<Props, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const page = await getPage("logs/travel.md");
+    const page = await getPage("logs/reading.md");
 
     if (!page) {
       return ctx.renderNotFound({ ...ctx.state });
     }
 
-    const files = ["../../static/api/travel.json"];
+    const files = ["../../static/api/books.json"];
 
     ctx.state.title = `${page.title} - ${ctx.state.title}`;
     if (page.description) {
@@ -104,7 +104,7 @@ function Item({ item }: ItemProps) {
   return (
     <li class="py-4 grid grid-cols-4 gap-4">
       <h3 class="col-span-2">{item.title}</h3>
-      <div aria-label="Country">{item.details.location.country.name}</div>
+      <div aria-label="Stars">{item.details.my_rating}</div>
       <time class="font-mono" datetime={item.date[0].string}>
         {item.date[0].string}
       </time>
