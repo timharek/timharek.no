@@ -5,7 +5,6 @@ updated = 2023-08-13
 +++
 
 - Add support for Plausible
-- Add `robots.txt`
 - Add logo
 - Test running on vps.tukler.no
 
