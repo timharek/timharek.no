@@ -1,13 +1,6 @@
 +++
 title = "Watched"
 description = "What I've watched, mostly recorded here."
-template = "layouts/log.html"
-page_template = "layouts/watched_page.html"
-aliases = ["/watching", "/watched"]
-[extra]
-json_files = ["static/api/movies.json", "static/api/tv_shows.json"]
-date_field_is_array = true
-year_field = "release_year"
 +++
 
 Movies and TV shows that I've watched. Not a complete list.

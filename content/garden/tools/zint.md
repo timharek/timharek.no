@@ -2,11 +2,10 @@
 title = "Zint"
 description = ""
 updated = 2022-09-15
-template = "layouts/page.html"
 +++
 
-The [Zint][zint] project aims to provide a complete cross-platform open source barcode
-generating solution.
+The [Zint][zint] project aims to provide a complete cross-platform open source
+barcode generating solution.
 
 ## Generate QR-codes
 

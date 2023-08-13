@@ -1,11 +1,6 @@
 +++
 title = "Games"
 description = "Video games I've finished, mostly recorded here."
-template = "layouts/log.html"
-aliases = ["/gaming"]
-[extra]
-json_files = ["static/api/games.json"]
-date_field_is_array = false
 +++
 
 Video games I've finished. Not a complete list.

@@ -1,8 +1,6 @@
 +++
 title = "Connect"
 description = ""
-template = "layouts/page.html"
-aliases = ["contact"]
 +++
 
 My e-mail is open! Introduce yourself, tell me I’m wrong, share content, give

@@ -2,7 +2,6 @@
 title = "ZSH"
 description = "Z Shell"
 updated = 2022-07-19
-template = "layouts/page.html"
 +++
 
 <abbr title="Z Shell">[zsh][zsh]</abbr> is a Unix shell that can be used as an

@@ -2,10 +2,6 @@
 title = "Git"
 description = "Useful tips I've picked up from Git by using it for a few years. Updates reguarly."
 updated = 2023-03-01
-template = "layouts/page.html"
-[extra]
-toc_enable = true
-toc_level = 2
 +++
 
 [Git][git_scm] is a free and open source distributed version control system

@@ -1,9 +1,6 @@
 +++
 title = "Passord"
 updated = 2023-01-21
-[extra]
-toc_enable = true
-toc_level = 2
 +++
 
 Passord er noe alle har et forhold til, men svært få vet hvordan de skal
