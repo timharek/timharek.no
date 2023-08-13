@@ -36,7 +36,7 @@ export async function logGame(): Promise<Log.Entry> {
   return {
     title: title,
     type: "game",
-    date: new Date(date),
+    date: date,
     release_year: releaseYear,
     review: { rating },
     genres: [], // TODO: Might need to use an API to get neccessary data

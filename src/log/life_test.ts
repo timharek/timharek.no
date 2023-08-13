@@ -18,7 +18,7 @@ Deno.test("Log a life event", async () => {
     title: "Minor life change",
     type: "life",
     description: "A description",
-    date: new Date("2012-12-26"),
+    date: "2012-12-26",
     category: "💪 Health",
   };
 
@@ -27,7 +27,7 @@ Deno.test("Log a life event", async () => {
 
 Deno.test("Prompt custom prefix", async () => {
   inject({
-    category: "🦕 Deno",
+    prefix: "🦕 Deno",
   });
 
   const result = await LifeTesting.getCategory("custom");
@@ -50,7 +50,7 @@ Deno.test("Log a life event with custom prefix", async () => {
     title: "Major life change",
     type: "life",
     description: "A description",
-    date: new Date("2012-12-26"),
+    date: "2012-12-26",
     category: "🦕 Deno",
   };
 

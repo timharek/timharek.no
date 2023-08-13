@@ -78,7 +78,7 @@ export async function logBook(): Promise<Log.Entry> {
   return {
     type: "book",
     title: book.title,
-    date: new Date(date),
+    date: date,
     publish_year: bookFields.publishYear,
     author: bookFields.author,
     review: { rating },

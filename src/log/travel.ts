@@ -55,8 +55,8 @@ export async function logTrip(): Promise<Log.Entry> {
   return {
     type: "travel",
     title: title,
-    date: new Date(departure),
-    to_date: new Date(arrival),
+    date: departure,
+    to_date: arrival,
     occasion: occasion,
     location: {
       country: { name: country, emoji: countryEmoji },

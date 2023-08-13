@@ -20,8 +20,8 @@ Deno.test("Log a trip", async () => {
   const expected: Log.Entry = {
     title: "Travel through time",
     type: "travel",
-    date: new Date("0001-01-01"),
-    to_date: new Date("2023-01-28"),
+    date: "0001-01-01",
+    to_date: "2023-01-28",
     location: {
       cities: ["Africa", "South America"],
       country: {

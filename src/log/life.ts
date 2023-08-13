@@ -45,7 +45,7 @@ export async function logLifeEvent(): Promise<Log.Entry> {
     type: "life",
     title,
     description,
-    date: new Date(date),
+    date: date,
     ...(category && category != "0" && {
       category: await getCategory(category),
     }),
