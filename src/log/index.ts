@@ -1,8 +1,8 @@
-import { logMovieOrTv } from './watched.ts';
-import { logGame } from './games.ts';
-import { logBook } from './reading.ts';
-import { logTrip } from './travel.ts';
-import { logLifeEvent } from './life.ts';
+import { logMovieOrTv } from "./watched.ts";
+import { logGame } from "./games.ts";
+import { logBook } from "./reading.ts";
+import { logTrip } from "./travel.ts";
+import { logLifeEvent } from "./life.ts";
 
 /**
  * Log-module.

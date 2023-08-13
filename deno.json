@@ -32,5 +32,13 @@
         "recommended"
       ]
     }
+  },
+  "fmt": {
+    "exclude": ["**/*.md"],
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "singleQuote": false,
+    "proseWrap": "preserve"
   }
 }

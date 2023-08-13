@@ -1,31 +1,31 @@
-import { Input, List, prompt } from './deps.ts';
-import { getCurrentDate, slugify } from './src/util.ts';
+import { Input, List, prompt } from "./deps.ts";
+import { getCurrentDate, slugify } from "./src/util.ts";
 
 const { title, description, slug, date, tags } = await prompt([
   {
-    name: 'title',
-    message: 'Post title',
+    name: "title",
+    message: "Post title",
     type: Input,
   },
   {
-    name: 'slug',
-    message: 'Slug',
+    name: "slug",
+    message: "Slug",
     type: Input,
   },
   {
-    name: 'description',
-    message: 'Description',
+    name: "description",
+    message: "Description",
     type: Input,
   },
   {
-    name: 'date',
-    message: 'Date',
+    name: "date",
+    message: "Date",
     suggestions: [getCurrentDate()],
     type: Input,
   },
   {
-    name: 'tags',
-    message: 'Tags',
+    name: "tags",
+    message: "Tags",
     type: List,
   },
 ]);
@@ -35,7 +35,7 @@ const file = `
 title = "${title}"
 description = "${description}"
 [taxonomies]
-tags = [${tags && tags.map((tag) => `"${tag}"`).join(', ')}]
+tags = [${tags && tags.map((tag) => `"${tag}"`).join(", ")}]
 +++
 `;
 
