@@ -1,5 +1,6 @@
 import { config } from "../config.ts";
 import { Breadcrumbs } from "./Breadcrumbs.tsx";
+import { Logo } from "./Logo.tsx";
 
 interface HeaderProps {
   currentPath: string;
@@ -25,8 +26,8 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
         class="max-w-screen-md mx-auto px-4 flex justify-between items-center my-4"
         aria-label="Main navigation"
       >
-        <a class="header__logo" rel="me" href="/" aria-label="Home">
-          Logo
+        <a class="w-20 h-20" rel="me" href="/" aria-label="Home">
+          <Logo />
         </a>
 
         <nav>
