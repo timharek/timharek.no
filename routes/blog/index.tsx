@@ -2,6 +2,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { PostList } from "../../components/PostList.tsx";
 import { getAllBlogPosts } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
+import { groupBy } from "../../src/group_by.ts";
 
 interface BlogProps {
   posts: Post[];
@@ -30,10 +31,19 @@ export const handler: Handlers<BlogProps, ServerState> = {
 
 export default function BlogIndex({ data }: PageProps<BlogProps>) {
   const { posts } = data;
+  const groupedPosts = groupBy(posts, (post) => post.date.getFullYear());
+
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">
       <h1 class="text-4xl font-semibold mb-4">Blog</h1>
-      <PostList posts={posts} />
+      {Object.keys(groupedPosts).sort((a, b) => b.localeCompare(a)).map((
+        year,
+      ) => (
+        <div class="">
+          <h3 class="text-2xl font-semibold my-4">{year}</h3>
+          <PostList posts={groupedPosts[year]} />
+        </div>
+      ))}
     </div>
   );
 }
