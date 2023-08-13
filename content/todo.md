@@ -6,10 +6,12 @@ updated = 2023-08-13
 
 - Add support for Plausible
 - Test running on vps.tukler.no
+- Update date-format
 
 ## Nice to have
 
-- Change layout
+- Update layout/design
+- Add icons to post metadata
 - Add Stats-page
 - Add backlinks
 - Add route for all outgoing links (`.well-known`)
