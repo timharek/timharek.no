@@ -76,6 +76,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
     if (!attrs.draft) {
       posts.push({
         title: attrs.title,
+        description: attrs.description,
         slug: postSlugWithoutDate,
         date: new Date(postDate),
         path: `/blog/${postSlugWithoutDate}`,
