@@ -4,6 +4,7 @@ interface Page {
   path: string;
   /** Markdown */
   content: string;
+  wordCount: number;
   description?: string;
   updated?: Date;
   draft?: string;

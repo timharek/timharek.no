@@ -61,7 +61,11 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
         <PageHeader title={title} date={post.date} updated={post.updated} />
         <div class="markdown-body" dangerouslySetInnerHTML={{ __html: body }}>
         </div>
-        <Metadata tags={post.taxonomies?.tags} postTitle={title} />
+        <Metadata
+          tags={post.taxonomies?.tags}
+          postTitle={title}
+          wordCount={post.wordCount}
+        />
       </article>
     </>
   );
@@ -70,9 +74,10 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
 interface MetadataProps {
   tags?: string[];
   postTitle: string;
+  wordCount: number;
 }
 
-function Metadata({ tags, postTitle }: MetadataProps) {
+function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
   return (
     <div class="border-y-2 border-primary py-4 mt-4 flex flex-wrap gap-4 justify-between items-center">
       <div class="">
@@ -93,7 +98,7 @@ function Metadata({ tags, postTitle }: MetadataProps) {
             </ul>
           )}
         </div>
-        <div class="">(count) words</div>
+        <div class="">{wordCount} words</div>
       </div>
       <a
         class="border border-primary px-3 py-2 rounded-lg text-(primary hover:black) bg-(hover:primary) transition-all duration-150"

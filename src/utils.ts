@@ -1,3 +1,5 @@
+// @deno-types="./types.d.ts"
+
 import extract from "$std/front_matter/any.ts";
 import { CSS } from "gfm/mod.ts";
 import { Extract } from "$std/front_matter/mod.ts";
@@ -79,6 +81,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
         path: `/blog/${postSlugWithoutDate}`,
         taxonomies: attrs.taxonomies,
         content: body,
+        wordCount: getWordCount(body),
         ...(attrs.updated && { updated: attrs.updated }),
       });
     }
@@ -132,6 +135,7 @@ export async function getAllPages(): Promise<Page[]> {
               slug: subItem.name.replace(".md", ""),
               path,
               content: body,
+              wordCount: getWordCount(body),
               ...(attrs.updated && { updated: attrs.updated }),
             });
           }
@@ -154,6 +158,7 @@ export async function getAllPages(): Promise<Page[]> {
         slug: item.name.replace(".md", ""),
         path,
         content: body,
+        wordCount: getWordCount(body),
         ...(attrs.updated && { updated: attrs.updated }),
       });
     }
@@ -168,14 +173,13 @@ function isSection(path: string) {
 
 export async function getAllTags(): Promise<Tag[]> {
   const posts = await getAllBlogPosts();
-  const tagsUnique = new Set(
-    posts.flatMap((post) => {
-      if (post.taxonomies && post.taxonomies?.tags.length > 0) {
-        return post.taxonomies.tags;
-      }
-    }).filter((tag) => tag !== undefined),
-  );
-  const tags: Tag[] = Array.from(tagsUnique).map((tag) => {
+  const tagsNotUnique = posts.flatMap((post) => {
+    if (post.taxonomies && post.taxonomies?.tags.length > 0) {
+      return post.taxonomies.tags;
+    }
+  });
+  const tagsUnique = new Set(tagsNotUnique.filter(Boolean));
+  const tags = Array.from(tagsUnique).map((tag) => {
     if (tag) {
       const slug = slugify(tag);
       return {
@@ -186,7 +190,7 @@ export async function getAllTags(): Promise<Tag[]> {
     }
   });
 
-  return tags.sort((a, b) => a?.title.localeCompare(b?.title));
+  return (tags as Tag[]).sort((a, b) => a?.title.localeCompare(b?.title));
 }
 
 export async function getTag(slug: string): Promise<Tag | null> {
@@ -228,6 +232,7 @@ async function getPagesFromSection(section: string): Promise<Page[]> {
         slug: item.name.replace(".md", ""),
         path,
         content: body,
+        wordCount: getWordCount(body),
         ...(attrs.updated && { updated: attrs.updated }),
         ...(attrs.extra && { extra: attrs.extra }),
       });
@@ -279,6 +284,7 @@ export async function getGardenSections(): Promise<Page[] | null> {
         slug: entry.name,
         path: `/garden/${entry.name}`,
         content: body,
+        wordCount: getWordCount(body),
         ...(section && section.pages.length > 0 && { pages: section.pages }),
       });
     }
@@ -333,3 +339,22 @@ export async function getGardenPage(
     section: section.title,
   };
 }
+
+function getWordCount(input: string): number {
+  // Remove Markdown formatting tags using a regular expression
+  const strippedContent = input.replace(/[#*_]+/g, "");
+
+  // Split the content into words using whitespace as a delimiter
+  const wordsArray = strippedContent.split(/\s+/);
+
+  // Filter out empty strings from the array
+  const filteredWords = wordsArray.filter((word) => word.trim() !== "");
+
+  // Count the number of words
+  const wordCount = filteredWords.length;
+  return wordCount;
+}
+
+export const forTestingOnly = {
+  getWordCount,
+};
