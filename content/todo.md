@@ -1,5 +1,5 @@
 +++
-title = "TODO"
+title = "TODOs"
 description = "Todos for timharek.no"
 updated = 2023-08-13
 +++
