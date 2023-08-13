@@ -6,7 +6,7 @@ updated = 2023-08-13
 
 - Add proper CV route
 - Add proper Work route
-- Add groupBy() function
+- Add `groupBy()` function
 - Add support for Plausible
 - Change layout
 - Add word count
@@ -21,3 +21,4 @@ updated = 2023-08-13
 - Clean up `utils.ts`
 - Add tests
 - Add sitemap (not xml)
+- Add proper syntax-highlighting
