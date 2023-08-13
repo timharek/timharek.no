@@ -4,6 +4,7 @@ import { PageHeader } from "../../components/PageHeader.tsx";
 import { css, getPage } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
+import { groupBy } from "../../src/group_by.ts";
 
 interface AvailableLogs {
   [key: string]: string[];
@@ -65,9 +66,9 @@ export const handler: Handlers<LogProps, ServerState> = {
         const logPath = new URL(file, import.meta.url);
         const logRaw = await Deno.readTextFile(logPath);
         const log = JSON.parse(logRaw) as Log.Entry[];
-        log.sort((a, b) => b.date.localeCompare(a.date));
         logs.push(...log);
       }
+      logs.sort((a, b) => b.date.localeCompare(a.date));
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(logs, null, 2));
       }
@@ -85,6 +86,10 @@ export const handler: Handlers<LogProps, ServerState> = {
 export default function Page({ data }: PageProps<LogProps & ServerState>) {
   const { entries, page } = data;
   const body = render(page.content);
+  const groupedEntries = groupBy(
+    entries,
+    (entry) => new Date(entry.date).getFullYear(),
+  );
 
   return (
     <>
@@ -102,11 +107,20 @@ export default function Page({ data }: PageProps<LogProps & ServerState>) {
             dangerouslySetInnerHTML={{ __html: body }}
           />
         </article>
-        <section>
-          <ul class="divide-gray-700 divide-y-2">
-            {entries.map((item, index) => <Item key={index} item={item} />)}
-          </ul>
-        </section>
+        <div>
+          {Object.keys(groupedEntries).sort((a, b) => b.localeCompare(a)).map((
+            year,
+          ) => (
+            <div class="">
+              <h3 class="text-2xl font-semibold">{year}</h3>
+              <ul class="divide-gray-700 divide-y-2">
+                {groupedEntries[year].map((item, index) => (
+                  <Item key={index} item={item} />
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
