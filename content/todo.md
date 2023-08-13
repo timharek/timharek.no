@@ -4,11 +4,11 @@ description = "Todos for timharek.no"
 updated = 2023-08-13
 +++
 
-- Add proper Work route
 - Add support for Plausible
 - Add word count
 - Add `robots.txt`
 - Add logo
+- Test running on vps.tukler.no
 
 ## Nice to have
 
