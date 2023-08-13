@@ -1,4 +1,5 @@
 import { UnknownPageProps } from "$fresh/server.ts";
+import { Link } from "../components/Link.tsx";
 import { PageHeader } from "../components/PageHeader.tsx";
 
 export default function NotFoundPage({ url }: UnknownPageProps) {
@@ -6,8 +7,7 @@ export default function NotFoundPage({ url }: UnknownPageProps) {
     <article class="max-w-screen-md mx-auto px-4 mb-4">
       <PageHeader title="404 - Page not found" />
       <p>
-        Please return to the{" "}
-        <a class="text-primary hover:underline" href="/">home page</a>
+        Please return to the <Link href="/" label="home page" />
       </p>
     </article>
   );

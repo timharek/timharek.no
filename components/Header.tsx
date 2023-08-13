@@ -1,5 +1,6 @@
 import { config } from "../config.ts";
 import { Breadcrumbs } from "./Breadcrumbs.tsx";
+import { Link } from "./Link.tsx";
 import { Logo } from "./Logo.tsx";
 
 interface HeaderProps {
@@ -36,11 +37,7 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
               <li>
                 {item.current
                   ? item.title
-                  : (
-                    <a class="text-primary hover:underline" href={item.path}>
-                      {item.title}
-                    </a>
-                  )}
+                  : <Link href={item.path} label={item.title} />}
               </li>
             ))}
           </ul>

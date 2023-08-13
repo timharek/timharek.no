@@ -4,6 +4,7 @@ import { PageHeader } from "../../components/PageHeader.tsx";
 import { css, getPage } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
+import { Link } from "../../components/Link.tsx";
 
 interface Props {
   entries: Record<string, string>[];
@@ -102,7 +103,7 @@ interface ItemProps {
 function Item({ item }: ItemProps) {
   return (
     <li class="">
-      <a class="text-primary hover:underline" href={item.url}>{item.name}</a>
+      <Link href={item.url} label={item.name} />
     </li>
   );
 }

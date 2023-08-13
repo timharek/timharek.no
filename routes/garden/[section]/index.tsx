@@ -4,6 +4,7 @@ import { render } from "gfm/mod.ts";
 import { ServerState } from "../../_middleware.ts";
 import { css, getGardenSection } from "../../../src/utils.ts";
 import { PageHeader } from "../../../components/PageHeader.tsx";
+import { Link } from "../../../components/Link.tsx";
 
 interface Props {
   section: Section;
@@ -68,12 +69,10 @@ export default function GardenSection({ data }: PageProps<Props>) {
             <ul class="list-disc pl-4">
               {section.pages.map((page) => (
                 <li class="">
-                  <a
-                    class="text-primary hover:underline"
+                  <Link
                     href={`${section.slug}/${page.slug}`}
-                  >
-                    {page.title}
-                  </a>
+                    label={page.title}
+                  />
                 </li>
               ))}
             </ul>

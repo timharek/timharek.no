@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
+import { Link } from "../components/Link.tsx";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { ServerState } from "./_middleware.ts";
 
@@ -187,13 +188,7 @@ function Work({ work }: { work: Work }) {
       <div class="flex gap-4 items-center justify-between">
         <div class="flex gap-4 items-center">
           <h3 class="text-xl font-semibold">{work.position}</h3>
-          {work.url
-            ? (
-              <a class="text-primary hover:underline" href={work.url}>
-                {work.name}
-              </a>
-            )
-            : work.name}
+          {work.url ? <Link href={work.url} label={work.name} /> : work.name}
         </div>
         <div class="text-gray-400">
           <Dates start={work.startDate} end={work.endDate} />
@@ -210,9 +205,7 @@ function Education({ edu }: { edu: Education }) {
       <div class="flex gap-4 items-center justify-between">
         <div class="flex gap-4 items-center">
           <h3 class="text-xl font-semibold">{edu.studyType} in {edu.area}</h3>
-          <a class="text-primary hover:underline" href={edu.url}>
-            {edu.insitution}
-          </a>
+          <Link href={edu.url} label={edu.insitution} />
         </div>
         <div class="text-gray-400">
           <Dates start={edu.startDate} end={edu.endDate} />

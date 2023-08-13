@@ -5,6 +5,7 @@ import { css, getPage } from "../src/utils.ts";
 import { ServerState } from "./_middleware.ts";
 import { CV, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";
+import { Link } from "../components/Link.tsx";
 
 interface WorkProps {
   page: Page;
@@ -86,22 +87,12 @@ function Project({ project }: { project: Project }) {
     <div class="space-y-4 bg-slate-800 rounded-lg p-4">
       <h2 class="text-xl">
         {project.url
-          ? (
-            <a
-              class="text-primary hover:underline"
-              href={project.url}
-              target="_blank"
-            >
-              {project.name}
-            </a>
-          )
+          ? <Link href={project.url} label={project.name} target="_blank" />
           : project.name}
       </h2>
       <p class="">{project.description}</p>
       {project.sources && (
-        <a class="text-primary hover:underline" href={project.sources[0]}>
-          Source code
-        </a>
+        <Link href={project.sources[0]} label="Source code" target="_blank" />
       )}
       <ul class="flex gap-2">
         {project.keywords.map((keyword) => (

@@ -5,6 +5,7 @@ import { css, getBlogPost, slugify } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { config } from "../../config.ts";
+import { Link } from "../../components/Link.tsx";
 
 interface BlogPostProps {
   post: Post;
@@ -87,12 +88,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
             <ul class="flex gap-1">
               {tags.sort((a, b) => a.localeCompare(b)).map((tag) => (
                 <li>
-                  <a
-                    class="text-primary hover:underline"
-                    href={`/tags/${slugify(tag)}`}
-                  >
-                    {tag}
-                  </a>
+                  <Link href={`/tags/${slugify(tag)}`} label={tag} />
                 </li>
               ))}
             </ul>

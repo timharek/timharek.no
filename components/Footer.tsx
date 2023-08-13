@@ -1,4 +1,5 @@
 import { config } from "../config.ts";
+import { Link } from "./Link.tsx";
 
 interface FooterProps {
   currentPath: string;
@@ -23,11 +24,7 @@ export function Footer({ currentPath }: FooterProps) {
             <li>
               {item.current
                 ? item.title
-                : (
-                  <a class="text-primary hover:underline" href={item.path}>
-                    {item.title}
-                  </a>
-                )}
+                : <Link href={item.path} label={item.title} />}
             </li>
           ))}
         </ul>

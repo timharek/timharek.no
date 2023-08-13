@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
+import { Link } from "../../components/Link.tsx";
 import { getAllTags } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 
@@ -35,9 +36,7 @@ export default function TagsIndex({ data }: PageProps<TagsProps>) {
       <ul class="columns-2 list-disc pl-4">
         {tags.map((tag) => (
           <li class="">
-            <a class="text-primary hover:underline" href={tag.path}>
-              {tag.title}
-            </a>
+            <Link href={tag.path} label={tag.title} />
           </li>
         ))}
       </ul>
