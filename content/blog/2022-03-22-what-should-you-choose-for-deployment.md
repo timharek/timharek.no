@@ -153,12 +153,12 @@ using Pushover for notifications.
 
 I'm open for suggestions and tips you have any.
 
-[Checkout my Git-tricks](@/garden/tools/git.md) in my digital garden.
+[Checkout my Git-tricks](/garden/tools/git) in my digital garden.
 
 ## Update 2022-12-08
 
 As of 2022-12-08
-[I have switched to SourceHut](@/blog/2022-12-08-switching-to-sourcehut-builds.md).
+[I have switched to SourceHut](/blog/switching-to-sourcehut-builds).
 
 [^1]: Subjective opinion, because of their massive user base.
 [^2]: There are a few more options if you want to have custom domain etc.

@@ -35,4 +35,4 @@ I'm really grateful for stumpling over Tom MacWright's post about paper notes.
 It really inspired and helped me. It made me realise that simple things might
 work better.
 
-[prev_post]: @/blog/2022-04-10-paper-notes/index.md
+[prev_post]: /blog/paper-notes

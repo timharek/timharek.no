@@ -71,5 +71,5 @@ Finished **Black Bird** &mdash; Great show, with amazing performances!
 - **Verdens verste menneske (The Worst Person in the World)** &mdash; A
   Norwegian movie, a great watch - highly recommend!
 
-[srht_post]: @/blog/2022-12-08-switching-to-sourcehut-builds.md
-[livechat_post]: @/blog/2022-12-07-you-dont-need-chat-on-your-site.md
+[srht_post]: /blog/switching-to-sourcehut-builds
+[livechat_post]: /blog/you-dont-need-chat-on-your-site

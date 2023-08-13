@@ -103,7 +103,7 @@ no complaints.
 
 [deno_scripts]: https://git.sr.ht/~timharek/timharek.no/tree/main/item/scripts
 [dome_keeper]: https://dome-keeper.com/
-[trying_helix]: @/blog/2023-01-15-trying-helix.md
+[trying_helix]: /blog/trying-helix
 [dyr]: https://deno.land/x/dyr
 [omdb]: https://deno.land/x/omdb
 [deno_books]: https://deno.land/x/deno_books

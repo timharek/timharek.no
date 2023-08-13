@@ -141,7 +141,7 @@ If you have a basic email need there may be cheaper alterantives availble.
 
 [dd_post]:
   https://drewdevault.com/2020/06/19/Mail-service-provider-recommendations.html
-[migadu_review]: @/blog/2021-12-12-migadu-review/index.md
+[migadu_review]: /blog/migadu-review
 [migadu_proscons]: https://www.migadu.com/procon/
 [migadu]: https://www.migadu.com/index.html
 [srht_migadu]: https://sr.ht/~migadu/alps/

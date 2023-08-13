@@ -1,8 +1,6 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-template = "layouts/page.html"
-aliases = ["/use", "/uses"]
 updated = 2023-01-29
 +++
 
@@ -131,7 +129,7 @@ This is software that I use on my devices.
 [yr]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
 [migadu]: https://migadu.com
-[migadu_review]: @/blog/2021-12-12-migadu-review/index.md
+[migadu_review]: /blog/migadu-review
 [yabai]: https://github.com/koekeishiya/yabai
 [lulu]: https://objective-see.com/products/lulu.html
 [appcleaner]: https://freemacsoft.net/appcleaner/

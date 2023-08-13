@@ -36,6 +36,6 @@ This method uses the `curl`-installation method on a Ubuntu-system. If you want
 to have multiple tasks for running `deno` you need to bring `DENO_INSTALL` and
 the new `PATH` for each tasks using `deno`.
 
-[logs]: @/logs/_index.md
+[logs]: /logs
 [deno]: https://deno.land/manual@v1.30.0/getting_started/installation
 [build-srht]: https://man.sr.ht/builds.sr.ht/

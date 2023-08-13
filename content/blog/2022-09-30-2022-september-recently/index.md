@@ -64,6 +64,6 @@ much and didn't bring any joy anymore. Started to get frustrated every time I
 logged in just to check what people had been up to. So I just deleted the thing,
 no more feeling the urge to check-in.
 
-[dumb_watch]: @/blog/2022-01-16-switching-back-dumb-watch.md
+[dumb_watch]: /blog/switching-back-dumb-watch
 [phoenix_project]:
   https://www.goodreads.com/book/show/17255186-the-phoenix-project

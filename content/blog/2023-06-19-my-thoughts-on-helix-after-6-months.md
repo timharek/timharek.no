@@ -84,5 +84,5 @@ what future updates will bring!
 Remember to check out Helix's tutor, `hx --tutor` for quick introduction to its
 keystrokes and interactions.
 
-[helix_post]: @/blog/2023-01-15-trying-helix.md
+[helix_post]: /blog/trying-helix
 [helix_minor_modes]: https://docs.helix-editor.com/keymap.html#normal-mode

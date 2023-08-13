@@ -10,12 +10,11 @@ tags = ["Social Media", "Privacy"]
 
 No, not really.
 
-It's been a month since
-[I left Facebook](@/blog/2021-10-31-goodbye-facebook.md), for good, and I feel
-relieved. For the last couple of years I hadn't spent much time on Facebook,
-mostly because I didn't enjoy it nor did I agree in the way they treat their
-users data and privacy. So for the last month by being officially done with
-Facebook it feels like a great weight has been lifted from my shoulders.
+It's been a month since [I left Facebook](/blog/goodbye-facebook), for good, and
+I feel relieved. For the last couple of years I hadn't spent much time on
+Facebook, mostly because I didn't enjoy it nor did I agree in the way they treat
+their users data and privacy. So for the last month by being officially done
+with Facebook it feels like a great weight has been lifted from my shoulders.
 
 My transition hasn't been very noticeable in terms of my everyday. I've slowly
 asked my friends and family to join me on Signal over the last couple of years,

@@ -80,10 +80,10 @@ Apple TV+ and I'm impressed so far into two episodes.
 - **The Guardians of the Galaxy Holiday Special** &mdash; Meh, it had some cool
   details, and I felt like _I had to_ watch it.
 
-[black_friday_post]: @/blog/2022-11-27-i-didnt-buy-anything-on-black-friday.md
-[work]: @/work/index.md
-[uses]: @/about/uses.md
-[logs]: @/logs/_index.md
+[black_friday_post]: /blog/i-didnt-buy-anything-on-black-friday
+[work]: /work
+[uses]: /uses
+[logs]: /logs
 [timeline]: /logs/timeline
 [resume_schema]: https://jsonresume.org/
 [cliffy]: https://cliffy.io

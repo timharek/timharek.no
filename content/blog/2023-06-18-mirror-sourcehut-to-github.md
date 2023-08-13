@@ -61,6 +61,6 @@ if you want.
 
 [srht]: https://sourcehut.org
 [srht_builds]: https://builds.sr.ht
-[srht_post]: @/blog/2022-12-08-switching-to-sourcehut-builds.md
-[git_push_urls]: @/garden/tools/git.md#multiple-push-urls-for-a-single-remote
+[srht_post]: /blog/switching-to-sourcehut-builds
+[git_push_urls]: /garden/tools/git#multiple-push-urls-for-a-single-remote
 [srht_builds_secrets]: https://builds.sr.ht/secrets

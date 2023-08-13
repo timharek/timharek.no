@@ -9,7 +9,7 @@ tags = ["Tutorial", "Git", "Dotfiles"]
 ## UPDATE: 2022-04-03
 
 I've added a seperate page which I will update whenever I discover something new
-about Git in my [digital garden (Git)](@/garden/tools/git.md)
+about Git in my [digital garden (Git)](/garden/tools/git)
 
 [Git](https://git-scm.com) is an extremely useful tool that I use almost every
 day. I'm very thankful that it exists and work as well as it does.

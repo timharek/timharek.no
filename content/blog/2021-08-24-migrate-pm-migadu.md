@@ -75,7 +75,7 @@ self-hosting.
 
 I will have to make a proper review of Migadu by the end of the year, I promise!
 
-UPDATE: [My review](@/blog/2021-12-12-migadu-review/index.md)
+UPDATE: [My review](/blog/migadu-review)
 
 [^1]:
     [How to reset your Proton password](https://protonmail.com/support/knowledge-base/reset-password/)

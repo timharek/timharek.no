@@ -75,9 +75,8 @@ something to tinker with and improve. I came across someone called [Luke
 Harris][lukeharris], I was intrigued by their blogposts and site. I noticed they
 had a little page in the footer called _stats_. I read the blogpost about it and
 was inspired to create one myself, as you may have noticed, unless you're
-reading from an RSS-reader, I also have my own dedicated
-[stats](@/stats.md)-page now. It's not as sophisticated as Luke's, but I like
-how it turned out.
+reading from an RSS-reader, I also have my own dedicated [stats](/stats)-page
+now. It's not as sophisticated as Luke's, but I like how it turned out.
 
 Also, I added a [work][work]-page. Not quite done with it yet, but at least now
 it exists on my website. It features most of my projects and even has a simple
@@ -99,9 +98,8 @@ about my new 3D printer and my newbie experiences with it.
 
 I'm not setting any goals this time,
 
-[howtoemail]: @/blog/2022-07-11-organized-email.md
-[notifications]:
-  @/blog/2022-07-14-why-i-dont-use-notifications-for-everything.md
+[howtoemail]: /blog/organized-email
+[notifications]: /blog/why-i-dont-use-notifications-for-everything
 [freecad]: https://www.freecad.org
 [nvim]: https://neovim.io/
 [lukeharris]: https://www.lkhrs.com/
@@ -110,6 +108,6 @@ I'm not setting any goals this time,
   https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/
 [restic]: https://restic.net/
 [zola-release]: https://github.com/getzola/zola/releases/tag/v0.16.0
-[work]: @/work/index.md
+[work]: /work
 [jsonresume]: https://jsonresume.org/schema/
-[cv]: @/about/cv/index.md
+[cv]: /cv

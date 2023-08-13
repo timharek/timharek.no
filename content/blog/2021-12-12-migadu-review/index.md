@@ -53,11 +53,11 @@ DNS-diagnostics to see if you messed up somewhere in the process.
 ### Unlimited mailboxes
 
 This was one of the big reasons why I switched from ProtonMail
-([read about it here](@/blog/2021-08-24-migrate-pm-migadu.md)). I don't really
-use that many mailboxes, but I use ~5, it varies. And the setup for this is also
-very straight forward. I have my primary mailbox setup with 1 primary domain and
-3 alias domains and have catch-all setup for all of the domains. This makes it
-very convenient when I sign-up for new services or need to provide someone or
+([read about it here](/blog/migrate-pm-migadu)). I don't really use that many
+mailboxes, but I use ~5, it varies. And the setup for this is also very straight
+forward. I have my primary mailbox setup with 1 primary domain and 3 alias
+domains and have catch-all setup for all of the domains. This makes it very
+convenient when I sign-up for new services or need to provide someone or
 something with an e-mail address. I can make up something random on the spot
 instead of having to give away my personal e-mail each time.
 

@@ -124,7 +124,7 @@ scripts.
    serving it online.
 1. `git push production`.
 
-[More Git-tricks](@/garden/tools/git.md).
+[More Git-tricks](/garden/tools/git).
 
 ## UPDATE: 2022-01-19
 

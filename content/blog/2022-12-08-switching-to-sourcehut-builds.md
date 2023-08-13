@@ -45,10 +45,10 @@ away a lot of unnecessary bits that other source-forges has.
 
 [^1]: Short for: Continuous Integration / Continuous Deployment
 
-[earlier_post]: @/blog/2022-03-22-what-should-you-choose-for-deployment.md
+[earlier_post]: blog/what-should-you-choose-for-deployment
 [git_hooks_repo]: https://github.com/timharek/git-hooks
 [sourcehut]: https://sourcehut.org
 [srht_images]: https://man.sr.ht/builds.sr.ht/compatibility.md
-[place_i_live]: @/blog/2022-10-02-i-made-a-website-for-the-place-i-live/index.md
+[place_i_live]: /blog/i-made-a-website-for-the-place-i-live/index
 [everyday_privacy]: https://everyday-privacy.com
 [ben_post]: https://benbusby.com/gh-vs-gl-vs-sh/

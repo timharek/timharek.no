@@ -1,16 +1,7 @@
 +++
 title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
-template = "layouts/page.html"
-[extra]
 updated = 2023-08-04
-subnav = [
-  { name = "CV", path = "@/about/cv/index.md" },
-  { name = "Work", path = "@/work/index.md" },
-  { name = "Uses", path = "@/about/uses.md" },
-  { name = "Digital garden", path = "@/garden/_index.md" },
-  { name = "Logs", path = "@/logs/_index.md" },
-]
 +++
 
 I'm Tim Hårek Andreassen, a technologist, developer, UX designer, hiker and
