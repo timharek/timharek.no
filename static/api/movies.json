@@ -4574,5 +4574,22 @@
     "director": [
       "Josef Fares"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "Tetris",
+    "date": "2023-08-12T00:00:00.000Z",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Jon S. Baird"
+    ]
   }
 ]
