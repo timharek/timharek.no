@@ -7,7 +7,6 @@ updated = 2023-08-13
 - Add sitemap (not xml)
 - Add tests
 - Git integration?
-- Check all links in Markdown
 - Clean up front matter in all Markdown files
 - Clean up `utils.ts`
 - Add proper CV route
