@@ -20,6 +20,7 @@ import * as $14 from "./routes/rss.xml/index.tsx";
 import * as $15 from "./routes/sitemap.xml/index.tsx";
 import * as $16 from "./routes/tags/[slug].tsx";
 import * as $17 from "./routes/tags/index.tsx";
+import * as $18 from "./routes/work.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -42,6 +43,7 @@ const manifest = {
     "./routes/sitemap.xml/index.tsx": $15,
     "./routes/tags/[slug].tsx": $16,
     "./routes/tags/index.tsx": $17,
+    "./routes/work.tsx": $18,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

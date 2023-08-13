@@ -43,7 +43,7 @@ interface Interest {
   name: string;
   keywords: string[];
 }
-interface Project {
+export interface Project {
   name: string;
   client: string;
   roles: string[];
@@ -51,39 +51,41 @@ interface Project {
   endDate: string;
   keywords: string[];
   url: string;
+  sources?: string[];
+}
+export interface CV {
+  last_update: string;
+  basics: {
+    name: string;
+    label: string;
+    image: string;
+    email: string;
+    phone: string;
+    url: string;
+    summary: string;
+    location: {
+      city: string;
+      countryCode: string;
+    };
+    profiles: {
+      network: string;
+      username: string;
+      url: string;
+    }[];
+  };
+  work: Work[];
+  volunteer: Work[];
+  education: Education[];
+  awards: [];
+  certificates: Certificate[];
+  publications: [];
+  skills: Skill[];
+  language: Language[];
+  interest: Interest[];
+  projects: Project[];
 }
 interface CVProps {
-  cv: {
-    last_update: string;
-    basics: {
-      name: string;
-      label: string;
-      image: string;
-      email: string;
-      phone: string;
-      url: string;
-      summary: string;
-      location: {
-        city: string;
-        countryCode: string;
-      };
-      profiles: {
-        network: string;
-        username: string;
-        url: string;
-      }[];
-    };
-    work: Work[];
-    volunteer: Work[];
-    education: Education[];
-    awards: [];
-    certificates: Certificate[];
-    publications: [];
-    skills: Skill[];
-    language: Language[];
-    interest: Interest[];
-    projects: Project[];
-  };
+  cv: CV;
 }
 
 export const handler: Handlers<CVProps, ServerState> = {
