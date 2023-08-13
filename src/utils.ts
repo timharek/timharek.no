@@ -133,6 +133,7 @@ export async function getAllPages(): Promise<Page[]> {
           if (!attrs.draft) {
             pages.push({
               title: attrs.title,
+              description: attrs.description,
               slug: subItem.name.replace(".md", ""),
               path,
               content: body,
@@ -156,6 +157,7 @@ export async function getAllPages(): Promise<Page[]> {
     if (!attrs.draft) {
       pages.push({
         title: attrs.title,
+        description: attrs.description,
         slug: item.name.replace(".md", ""),
         path,
         content: body,
