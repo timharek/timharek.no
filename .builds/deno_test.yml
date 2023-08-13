@@ -1,6 +1,7 @@
 image: ubuntu/lts
 packages:
     - unzip
+    - rsync
 sources:
     - https://git.sr.ht/~timharek/timharek.no
 triggers:
@@ -13,5 +14,5 @@ tasks:
     - test: |
         DENO_INSTALL="/home/build/.deno"
         PATH="$DENO_INSTALL/bin:$PATH"
-        cd timharek.no/scripts
-        deno test
+        cd timharek.no
+        deno test -A

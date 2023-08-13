@@ -1,10 +1,8 @@
 image: alpine/edge
 packages:
   - rsync
-  - zola
 environment:
-  deploy: tim@wyd.no
-  deploy2: tim@vps.tukler.no
+  deploy: tim@vps.tukler.no
 secrets:
   - 0323bc6f-a046-4b96-8496-2bac6e7ee107
 sources:
@@ -28,15 +26,8 @@ tasks:
       ssh-keyscan -t rsa codeberg.org >> ~/.ssh/known_hosts
       git push -f github main
       git push -f codeberg main
-  - build: |
-      cd timharek.no
-      zola build
   - deploy: |
       cd timharek.no
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avrP public/ $deploy:sites/timharek.no/public
-  - deploy_new: |
-      cd timharek.no
-      sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avrP public/ $deploy2:/var/www/timharek.no
+      rsync --rsh="$sshopts" -avrP . $deploy:/var/www/timharek.no
 
