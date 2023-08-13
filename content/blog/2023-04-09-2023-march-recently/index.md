@@ -39,7 +39,7 @@ Application".
 
 <figure>
   <img
-    src="/img/blog/2023-04-09-2023-march-recently/hima-screenshot.png"
+    src="/img/blog/2023-04-09-2023-march-recently/hima-screenshot.webp"
     alt="Screenshot of Hima">
   <figcaption>
     What Hima looks like as of today.

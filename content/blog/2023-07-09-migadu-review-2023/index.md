@@ -111,7 +111,7 @@ So do keep that in mind!
 
 <figure>
   <img
-    src="/img/blog/2023-07-09-migadu-review-2023/migadu-dns.png"
+    src="/img/blog/2023-07-09-migadu-review-2023/migadu-dns.webp"
     alt="Screenshot of Migadu's DNS setup.">
   <figcaption>
     Migadu's DNS setup.
@@ -124,7 +124,7 @@ records and the UI explains what the different things are.
 
 <figure>
   <img
-    src="/img/blog/2023-07-09-migadu-review-2023/migadu-mailbox.png"
+    src="/img/blog/2023-07-09-migadu-review-2023/migadu-mailbox.webp"
     alt="Screenshot of Migadu's Mailbox overview.">
   <figcaption>
     Migadu's Mailbox overview.

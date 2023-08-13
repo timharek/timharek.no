@@ -21,7 +21,7 @@ pegboard besides the printer.
 
 <figure>
   <img
-    src="/img/blog/2022-09-30-2022-september-recently/spools.jpeg"
+    src="/img/blog/2022-09-30-2022-september-recently/spools.webp"
     alt="Photo of my 3D-printed spool-holders.">
   <figcaption>
     My new spool-holders.

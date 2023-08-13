@@ -41,7 +41,7 @@ been deleted.
 
 <figure>
   <img
-    src="/img/blog/2021-12-08-post-facebook/screenshot.png"
+    src="/img/blog/2021-12-08-post-facebook/screenshot.webp"
     alt="Screenshot from Facebook after I initially deleted my account">
   <figcaption>
     Facebook saying my account will be deleted after the 5th of December, while the current date is December 11th.
