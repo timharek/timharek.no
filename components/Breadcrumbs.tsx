@@ -1,3 +1,5 @@
+import { Link } from "./Link.tsx";
+
 export interface Breadcrumbs {
   title: string;
   path: string;
@@ -15,16 +17,14 @@ export function Breadcrumbs({ crumbs }: BreadcrumbsProps) {
         {crumbs.map((crumb) => {
           if (crumb.current) {
             return (
-              <li class="">
+              <li class="font-semibold">
                 {crumb.title}
               </li>
             );
           }
           return (
             <li class="after:content-['/'] after:pl-1 flex gap-1">
-              <a class="text-primary hover:underline" href={crumb.path}>
-                {crumb.title}
-              </a>
+              <Link href={crumb.path} label={crumb.title} />
             </li>
           );
         })}
