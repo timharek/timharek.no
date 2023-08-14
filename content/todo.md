@@ -5,7 +5,6 @@ updated = 2023-08-14
 +++
 
 - Update layout/design
-- Add icons to post metadata
 - Add Stats-page
 - Add backlinks
 - Add route for all outgoing links (`.well-known`)
@@ -16,3 +15,4 @@ updated = 2023-08-14
 - Add proper syntax-highlighting
 - Add automatic share cover-image
 - Add query params for CV, Work, Logs++
+- Add reading time

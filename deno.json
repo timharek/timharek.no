@@ -25,7 +25,8 @@
     "twind/": "https://esm.sh/twind@1.0.7/",
     "@twind/": "https://esm.sh/@twind/",
     "$std/": "https://deno.land/std@0.189.0/",
-    "gfm/": "https://deno.land/x/gfm@0.2.5/"
+    "gfm/": "https://deno.land/x/gfm@0.2.5/",
+    "icons/": "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/"
   },
   "lint": {
     "rules": {
