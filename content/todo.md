@@ -1,13 +1,8 @@
 +++
 title = "TODOs"
 description = "Todos for timharek.no"
-updated = 2023-08-13
+updated = 2023-08-14
 +++
-
-- Add support for Plausible
-- Test running on vps.tukler.no
-
-## Nice to have
 
 - Update layout/design
 - Add icons to post metadata
