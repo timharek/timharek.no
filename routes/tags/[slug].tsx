@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
+import { PageHeader } from "../../components/PageHeader.tsx";
 import { PostList } from "../../components/PostList.tsx";
 import { getBlogPostsByTag, getTag } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
@@ -51,7 +52,7 @@ export default function TagPage({ data }: PageProps<TagPageProps>) {
 
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">
-      <h1>{tag.title}</h1>
+      <PageHeader title={tag.title} />
       <PostList posts={posts} />
     </div>
   );

@@ -1,5 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Link } from "../../components/Link.tsx";
+import { PageHeader } from "../../components/PageHeader.tsx";
 import { getAllTags } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 
@@ -31,8 +32,8 @@ export const handler: Handlers<TagsProps, ServerState> = {
 export default function TagsIndex({ data }: PageProps<TagsProps>) {
   const { tags } = data;
   return (
-    <article class="max-w-screen-md mx-auto px-4 prose">
-      <h1>Tags</h1>
+    <article class="max-w-screen-md mx-auto px-4">
+      <PageHeader title="Tags" />
       <ul class="columns-2 list-disc pl-4">
         {tags.map((tag) => (
           <li class="">
