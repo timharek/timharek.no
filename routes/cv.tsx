@@ -185,15 +185,15 @@ export default function CV({ data }: PageProps<CVProps & ServerState>) {
 function Work({ work }: { work: Work }) {
   return (
     <div class="space-y-2">
-      <div class="flex gap-4 items-center justify-between">
-        <div class="flex gap-4 items-center">
+      <header class="flex flex-wrap gap-4 items-center justify-between">
+        <div class="flex flex-wrap gap-4 items-center">
           <h3 class="text-xl font-semibold">{work.position}</h3>
           {work.url ? <Link href={work.url} label={work.name} /> : work.name}
         </div>
         <div class="text-gray-400">
           <Dates start={work.startDate} end={work.endDate} />
         </div>
-      </div>
+      </header>
       <Keywords keywords={work.highlights} />
     </div>
   );
@@ -202,15 +202,15 @@ function Work({ work }: { work: Work }) {
 function Education({ edu }: { edu: Education }) {
   return (
     <div class="space-y-2">
-      <div class="flex gap-4 items-center justify-between">
-        <div class="flex gap-4 items-center">
+      <header class="flex flex-wrap gap-4 items-center justify-between">
+        <div class="flex flex-wrap gap-4 items-center">
           <h3 class="text-xl font-semibold">{edu.studyType} in {edu.area}</h3>
           <Link href={edu.url} label={edu.insitution} />
         </div>
         <div class="text-gray-400">
           <Dates start={edu.startDate} end={edu.endDate} />
         </div>
-      </div>
+      </header>
       <Keywords keywords={[edu.summary]} />
     </div>
   );
@@ -229,8 +229,8 @@ function Dates({ start, end }: { start: string; end?: string }) {
 function Skill({ skill }: { skill: Skill }) {
   return (
     <div class="md:flex justify-between gap-4">
-      <h4 class="w-1/2 text-lg font-semibold">{skill.name}</h4>
-      <p class="w-1/2">
+      <h4 class="md:w-1/2 text-lg font-semibold">{skill.name}</h4>
+      <p class="md:w-1/2">
         {skill.keywords.sort((a, b) => a.localeCompare(b)).join(", ")}
       </p>
     </div>
