@@ -48,10 +48,10 @@ ${
     }</updated>
 	<link rel="alternate" href="${config.base_url}${post.path}" type="text/html"/>
 	<id>${config.base_url}/${post.path}</id>
-  ${tags ? tags.join("\n") : ""}
-  <content type="html">
-    ${content}
-  </content>
+    ${tags ? tags.join("\n\t") : ""}
+    <content type="html">
+      ${content}
+    </content>
 </entry>`;
   });
 
@@ -68,7 +68,7 @@ ${
       : posts[0].date.toISOString()
   }</updated>
 	<id>${feedUrl}</id>
-	${postsRss.join("\n")}}
+	${postsRss.join("\n")}
 </feed>
   `;
 
