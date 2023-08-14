@@ -13,7 +13,7 @@ export function Footer({ currentPath }: FooterProps) {
     };
   });
   return (
-    <footer class="max-w-screen-md mx-auto my-4 px-4 flex justify-between">
+    <footer class="max-w-screen-md mx-auto my-4 px-4 flex justify-between flex-wrap">
       <div>
         Last deploy: (date-coming)
       </div>
