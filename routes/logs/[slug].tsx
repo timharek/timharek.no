@@ -26,6 +26,8 @@ export const handler: Handlers<LogProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const slug = ctx.params.slug;
+    const type = url.searchParams.get("type");
+    const rating = url.searchParams.get("rating");
 
     if (!Object.keys(availableLogs).includes(slug)) {
       return ctx.renderNotFound({ ...ctx.state });
@@ -62,7 +64,7 @@ export const handler: Handlers<LogProps, ServerState> = {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
     try {
-      const logs: Log.Entry[] = [];
+      let logs: Log.Entry[] = [];
       for (const file of files) {
         const logPath = new URL(file, import.meta.url);
         const logRaw = await Deno.readTextFile(logPath);
@@ -73,6 +75,16 @@ export const handler: Handlers<LogProps, ServerState> = {
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(logs, null, 2));
       }
+
+      if (type) {
+        logs = logs.filter((entry) => entry.type === type);
+      }
+      if (rating && hasReview(logs[0])) {
+        logs = logs.filter((entry) =>
+          hasReview(entry) && entry.review.rating === Number(rating)
+        );
+      }
+
       return ctx.render({ ...ctx.state, page, entries: logs });
     } catch (error) {
       console.error(error);
@@ -247,4 +259,8 @@ function getStars(rating: number) {
   }
 
   return stars.join("");
+}
+
+function hasReview(entry: unknown): entry is Log.MovieEntry {
+  return "review" in entry;
 }
