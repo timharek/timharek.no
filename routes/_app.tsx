@@ -16,6 +16,14 @@ export default function App(props: AppProps) {
           name="description"
           content={state.description}
         />
+        <script
+          async
+          defer
+          data-domain="timharek.no"
+          src="https://timharek.no/js/script.js"
+        >
+        </script>
+
         <title>{state.title}</title>
       </Head>
       <body class="bg-bg text-white">
