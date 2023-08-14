@@ -1,6 +1,7 @@
 +++
 title = "Passord"
 updated = 2023-01-21
+language = "no"
 +++
 
 Passord er noe alle har et forhold til, men svært få vet hvordan de skal

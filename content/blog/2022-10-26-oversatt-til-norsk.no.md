@@ -1,6 +1,8 @@
 +++
 title = "Nettsiden finnes nå også på norsk"
 description = "Jeg har laget en norsk-versjon av nettsiden min!"
+updated = 2023-08-14
+language = "no"
 +++
 
 Etter litt om og men med meg selv så bestemte jeg meg i kveld for å prøve ut
@@ -14,6 +16,11 @@ tid. Vi får se hva som skjer, jeg vil gjerne høre din mening!
 
 NB! Det er sikkert litt engelske rester her og der, men de forsvinner sikkert
 fortløpende, hvem vet 🤷‍♂️
+
+## Oppdatering 2023-08-14
+
+Etter i dag så har ikke nettsiden lenger en norsk-versjon. Det er godt mulig
+denne vil komme tilbake på ett eller annet tidspunkt.
 
 [zola_i18n]: https://www.getzola.org/documentation/content/multilingual/
 [passord_notat]: /garden/security/password.no
