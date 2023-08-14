@@ -214,6 +214,9 @@ export const css = `
     .markdown-body ul {
       list-style: disc;
     }
+    .markdown-body figure {
+      margin-block: 1rem;
+    }
   `;
 
 async function getPagesFromSection(section: string): Promise<Page[]> {
