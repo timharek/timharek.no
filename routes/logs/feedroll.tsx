@@ -5,13 +5,27 @@ import { css, getPage } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 import { Link } from "../../components/Link.tsx";
+import { groupBy } from "../../src/group_by.ts";
+import { capitalize } from "../../src/utils.ts";
 
-interface Props {
-  entries: Record<string, string>[];
+interface Feed {
+  name: string;
+  description: string;
+  tags: string[];
+  type: "blog" | "podcast";
+  url: string;
+  feed: string;
+  color?: {
+    bg: string;
+    text: string;
+  };
+}
+interface FeedrollProps {
+  entries: Feed[];
   page: Page;
 }
 
-export const handler: Handlers<Props, ServerState> = {
+export const handler: Handlers<FeedrollProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const page = await getPage("logs/feedroll.md");
@@ -66,16 +80,18 @@ export const handler: Handlers<Props, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<Props & ServerState>) {
+export default function Page({ data }: PageProps<FeedrollProps & ServerState>) {
   const { entries, page } = data;
   const body = render(page.content);
+
+  const groupedBy = groupBy(entries, (feed) => feed.type);
 
   return (
     <>
       <Head>
         <style dangerouslySetInnerHTML={{ __html: css }} />
       </Head>
-      <div class="max-w-screen-md mx-auto px-4 mb-4">
+      <div class="max-w-screen-md mx-auto px-4 space-y-4">
         <article
           data-color-mode="dark"
           data-dark-theme="dark"
@@ -86,23 +102,34 @@ export default function Page({ data }: PageProps<Props & ServerState>) {
             dangerouslySetInnerHTML={{ __html: body }}
           />
         </article>
-        <section>
-          <ul class="divide-gray-700 divide-y-2">
-            {entries.map((item, index) => <Item key={index} item={item} />)}
-          </ul>
-        </section>
+        {Object.keys(groupedBy).map((type) => (
+          <section class="space-y-4">
+            <h2 class="text-3xl font-semibold">{capitalize(type)}s</h2>
+            <ul class="space-y-2 md:columns-2">
+              {groupedBy[type].sort((a, b) => a.name.localeCompare(b.name)).map(
+                (
+                  item,
+                  index,
+                ) => <Item key={index} item={item} />,
+              )}
+            </ul>
+          </section>
+        ))}
       </div>
     </>
   );
 }
 
 interface ItemProps {
-  item: Record<string, string>;
+  item: Feed;
 }
 
 function Item({ item }: ItemProps) {
+  const bg = item.color && item.color.bg ? item.color.bg : "white";
   return (
-    <li class="">
+    <li
+      class={`before:(content-[''] bg-[${bg}] w-2 h-2 rounded-full inline-block) flex items-center gap-2`}
+    >
       <Link href={item.url} label={item.name} />
     </li>
   );
