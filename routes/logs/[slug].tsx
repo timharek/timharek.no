@@ -112,7 +112,10 @@ export default function Page({ data }: PageProps<LogProps & ServerState>) {
             year,
           ) => (
             <div class="">
-              <h3 class="text-2xl font-semibold">{year}</h3>
+              <div class="flex items-center gap-2 sticky top-0 bg-bg">
+                <h3 class="text-2xl font-semibold my-4">{year}</h3>
+                <p class="">({groupedEntries[year].length} entries)</p>
+              </div>
               <ul class="divide-gray-700 divide-y-2">
                 {groupedEntries[year].map((item, index) => (
                   <Item key={index} item={item} />

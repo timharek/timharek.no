@@ -40,7 +40,10 @@ export default function BlogIndex({ data }: PageProps<BlogProps>) {
         year,
       ) => (
         <div class="">
-          <h3 class="text-2xl font-semibold my-4">{year}</h3>
+          <div class="flex items-center gap-2 sticky top-0 bg-bg">
+            <h3 class="text-2xl font-semibold my-4">{year}</h3>
+            <p class="">({groupedPosts[year].length} posts)</p>
+          </div>
           <PostList posts={groupedPosts[year]} />
         </div>
       ))}
