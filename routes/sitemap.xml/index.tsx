@@ -1,6 +1,6 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
-import { getAllBlogPosts, getAllPages } from "../../src/utils.ts";
+import { getAllBlogPosts, getAllPages } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface SitemapProps {

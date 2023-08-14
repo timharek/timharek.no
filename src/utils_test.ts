@@ -1,5 +1,5 @@
 import { assertEquals } from "$std/testing/asserts.ts";
-import { forTestingOnly } from "./utils.ts";
+import { getWordCount } from "./utils.ts";
 
 Deno.test("Get word count from Markdown", () => {
   const input = `
@@ -35,6 +35,6 @@ is just an excuse to track people and/or have a way to do analytics.
 
 Signing in to a browser should be opt-in, and not be forced.
 `;
-  const wordCount = forTestingOnly.getWordCount(input);
+  const wordCount = getWordCount(input);
   assertEquals(wordCount, 221);
 });

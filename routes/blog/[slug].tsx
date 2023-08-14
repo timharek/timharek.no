@@ -1,12 +1,13 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
-import { css, getBlogPost, slugify } from "../../src/utils.ts";
+import { css, getBlogPost } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { config } from "../../config.ts";
 import { Link } from "../../components/Link.tsx";
 import { Icon } from "../../components/Icons.tsx";
+import { slugify } from "../../src/utils.ts";
 
 interface BlogPostProps {
   post: Post;

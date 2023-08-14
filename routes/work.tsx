@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
-import { css, getPage } from "../src/utils.ts";
+import { css, getPage } from "../src/markdown.ts";
 import { ServerState } from "./_middleware.ts";
 import { CV, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";

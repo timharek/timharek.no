@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { PostList } from "../../components/PostList.tsx";
-import { getBlogPostsByTag, getTag } from "../../src/utils.ts";
+import { getBlogPostsByTag, getTag } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface TagPageProps {

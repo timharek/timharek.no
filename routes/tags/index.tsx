@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Link } from "../../components/Link.tsx";
-import { getAllTags } from "../../src/utils.ts";
+import { getAllTags } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface TagsProps {

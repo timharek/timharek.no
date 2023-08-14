@@ -1,7 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 import { sanitizeHtml } from "gfm/deps.ts";
 import { config } from "../../config.ts";
-import { getAllBlogPosts } from "../../src/utils.ts";
+import { getAllBlogPosts } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
