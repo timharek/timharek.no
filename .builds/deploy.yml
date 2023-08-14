@@ -1,5 +1,6 @@
-image: alpine/edge
+image: ubuntu/lts
 packages:
+  - unzip
   - rsync
 environment:
   deploy: tim@vps.tukler.no
@@ -12,12 +13,18 @@ triggers:
     condition: failure
     to: tim@harek.no
 tasks:
+  - install-deno: |
+      curl -fsSL https://deno.land/x/install/install.sh | sh
+  - test: |
+      DENO_INSTALL="/home/build/.deno"
+      PATH="$DENO_INSTALL/bin:$PATH"
+      cd timharek.no
+      deno test -A
   - check: |
       cd timharek.no
       if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
         complete-build; \
       fi
-      zola check
   - mirror: |
       cd timharek.no
       git remote add github git@github.com:timharek/timharek.no.git
