@@ -6,7 +6,7 @@
 
 # [timharek.no](https://timharek.no)
 
-My personal website, made with [Zola](https://getzola.org).
+My personal website, made with [Deno Fresh](https://fresh.deno.dev).
 
 ## Features
 
