@@ -23,3 +23,7 @@ export function getWordCount(input: string): number {
   const wordCount = filteredWords.length;
   return wordCount;
 }
+
+export function capitalize(string: string): string {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
