@@ -28,11 +28,8 @@ tasks:
   - mirror: |
       cd timharek.no
       git remote add github git@github.com:timharek/timharek.no.git
-      git remote add codeberg git@codeberg.org:timharek/timharek.no.git
       ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-      ssh-keyscan -t rsa codeberg.org >> ~/.ssh/known_hosts
       git push -f github main
-      git push -f codeberg main
   - deploy: |
       cd timharek.no
       sshopts="ssh -o StrictHostKeyChecking=no"
