@@ -1,5 +1,6 @@
 import { Input, List, prompt } from "./deps.ts";
-import { getCurrentDate, slugify } from "./src/util.ts";
+import { getCurrentDate } from "./log/util.ts";
+import { slugify } from "./utils.ts";
 
 const { title, description, slug, date, tags } = await prompt([
   {
@@ -30,16 +31,15 @@ const { title, description, slug, date, tags } = await prompt([
   },
 ]);
 
-const file = `
-+++
+const file = `+++
 title = "${title}"
 description = "${description}"
 [taxonomies]
 tags = [${tags && tags.map((tag) => `"${tag}"`).join(", ")}]
-+++
-`;
++++`;
 
 const slugifiedSlug = slugify(slug ? slug : title as string);
 const filename = `${date}-${slugifiedSlug}.md`;
 
-await Deno.writeTextFile(`../content/blog/${filename}`, file);
+const path = new URL(`../content/blog/${filename}`, import.meta.url);
+await Deno.writeTextFile(path, file);
