@@ -19,11 +19,16 @@ export function PageHeader({ title, date, updated }: PageHeaderProps) {
 }
 
 function DateBlock({ text, date }: { text: string; date: Date }) {
+  const formattedDate = new Intl.DateTimeFormat("en-US", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  }).format(date);
   return (
     <div class="">
       {text}{" "}
-      <time datetime={date}>
-        {date.toISOString().split("T")[0]}
+      <time dateTime={date.toISOString()} title={date.toISOString()}>
+        {formattedDate}
       </time>
     </div>
   );

@@ -6,7 +6,6 @@ updated = 2023-08-13
 
 - Add support for Plausible
 - Test running on vps.tukler.no
-- Update date-format
 
 ## Nice to have
 
