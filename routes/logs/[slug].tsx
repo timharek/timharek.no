@@ -5,6 +5,7 @@ import { css, getPage } from "../../src/utils.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 import { groupBy } from "../../src/group_by.ts";
+import { ComponentChildren } from "preact";
 
 interface AvailableLogs {
   [key: string]: string[];
@@ -136,50 +137,114 @@ interface ItemProps {
 function Item({ item }: ItemProps) {
   if (item.type === "travel") {
     return (
-      <li class="py-4 grid grid-cols-4 gap-4">
-        <h3 class="col-span-2">{item.title}</h3>
-        <div aria-label="Country">{item.location.country.name}</div>
-        <time class="font-mono" dateTime={item.date}>
-          {item.date}
-        </time>
-      </li>
+      <ItemWrapper>
+        <h3 class="md:col-span-2">{item.title}</h3>
+        <div>
+          <span aria-label="Country">
+            {item.location.country.emoji} {item.location.country.name}:{" "}
+          </span>
+          <span
+            aria-label={item.location.cities.length > 1 ? "Cities" : "City"}
+          >
+            {item.location.cities.join(", ")}
+          </span>
+        </div>
+        <div class="md:justify-self-end">
+          <DateT dateString={item.date} />
+          {item.to_date != item.date &&
+            (
+              <>
+                {" - "}
+                <DateT dateString={item.to_date} />
+              </>
+            )}
+        </div>
+      </ItemWrapper>
     );
   }
   if (item.type === "game") {
     return (
-      <li class="py-4 grid grid-cols-4 gap-4">
-        <h3 class="col-span-2">{item.title} ({item.platform})</h3>
-        <div aria-label="Stars">{item.review.rating}</div>
-        <time class="font-mono" dateTime={item.date}>
-          {item.date}
-        </time>
-      </li>
+      <ItemWrapper>
+        <h3 class="md:col-span-2">{item.title} ({item.platform})</h3>
+        <Stars rating={item.review.rating} />
+        <div class="md:justify-self-end">
+          <DateT dateString={item.date} />
+        </div>
+      </ItemWrapper>
     );
   }
   if (item.type === "book") {
     return (
-      <li class="py-4 grid grid-cols-4 gap-4">
-        <h3 class="col-span-2">{item.title}</h3>
-        <div aria-label="Stars">{item.review.rating}</div>
-        <time class="font-mono" dateTime={item.date}>
-          {item.date}
-        </time>
-      </li>
+      <ItemWrapper>
+        <h3 class="md:col-span-2">{item.title}</h3>
+        <Stars rating={item.review.rating} />
+        <div class="md:justify-self-end">
+          <DateT dateString={item.date} />
+        </div>
+      </ItemWrapper>
     );
   }
   if (item.type === "movie" || item.type === "tv") {
     return (
-      <li class="py-4 grid grid-cols-4 gap-4">
-        <h3 class="col-span-2">
+      <ItemWrapper>
+        <h3 class="md:col-span-2">
           {item.title}
           {item.type === "tv" && ` S${item.season}`}
+          {item.type === "movie" && ` (${item.release_year})`}
         </h3>
-        <div aria-label="Stars">{item.review.rating}</div>
-        <time class="font-mono" dateTime={item.date}>
-          {item.date}
-        </time>
-      </li>
+        <Stars rating={item.review.rating} />
+        <div class="md:justify-self-end">
+          <DateT dateString={item.date} />
+        </div>
+      </ItemWrapper>
     );
   }
   return <></>;
+}
+
+function ItemWrapper(
+  { children }: {
+    children?: ComponentChildren;
+  },
+) {
+  return (
+    <li class="py-4 grid md:grid-cols-4 grid-cols-1 gap-4">
+      {children}
+    </li>
+  );
+}
+
+function DateT({ dateString }: { dateString: string }) {
+  const date = new Date(dateString);
+  const formattedDate = new Intl.DateTimeFormat("en-US", {
+    day: "numeric",
+    month: "short",
+  }).format(date);
+  return (
+    <time dateTime={date.toISOString()} title={date.toISOString()}>
+      {formattedDate}
+    </time>
+  );
+}
+
+function Stars({ rating }: { rating: number }) {
+  const string = `${rating} out of 5 stars`;
+  return <div aria-label={string} title={string}>{getStars(rating)}</div>;
+}
+
+function getStars(rating: number) {
+  const MAX_STARS = 5;
+
+  const stars = [];
+
+  const ratingArray = Array(rating);
+  for (const _i of ratingArray) {
+    stars.push("★");
+  }
+  const nonStarsArray = Array(MAX_STARS - rating);
+  for (const _i of nonStarsArray) {
+    stars.push("☆");
+  }
+
+  return stars.join("");
 }
