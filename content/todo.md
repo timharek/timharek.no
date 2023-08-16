@@ -8,8 +8,6 @@ updated = 2023-08-14
 - Add Stats-page
 - Add backlinks
 - Add route for all outgoing links (`.well-known`)
-- Git integration?
-- Add tests
 - Add sitemap (not xml)
 - Add proper syntax-highlighting
 - Add automatic share cover-image
