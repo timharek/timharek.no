@@ -207,6 +207,9 @@ export const css = `
     .markdown-body ul {
       list-style: disc;
     }
+    .markdown-body ol {
+      list-style: decimal;
+    }
     .markdown-body figure {
       margin-block: 1rem;
     }
