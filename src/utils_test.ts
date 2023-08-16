@@ -1,5 +1,5 @@
 import { assertEquals } from "$std/testing/asserts.ts";
-import { getReadingTime, getWordCount } from "./utils.ts";
+import { getReadingTime, getRelativeTime, getWordCount } from "./utils.ts";
 
 Deno.test("Get word count from Markdown", () => {
   const input = `
@@ -76,4 +76,20 @@ Signing in to a browser should be opt-in, and not be forced.
 
   const wordCount = getReadingTime(input);
   assertEquals(wordCount, 1);
+});
+
+Deno.test("Get relative time format for 2023-08-15 vs 2023-08-16", () => {
+  const initialDate = new Date("2023-08-15");
+  const comparisonDate = new Date("2023-08-16");
+
+  const relativeTime = getRelativeTime(comparisonDate, initialDate);
+  assertEquals(relativeTime, "1 day ago");
+});
+
+Deno.test("Get relative time format for 2023-08-16T10:00:00 vs 2023-08-16T12:00:00", () => {
+  const initialDate = new Date("2023-08-16T10:00:00");
+  const comparisonDate = new Date("2023-08-16T12:00:00");
+
+  const relativeTime = getRelativeTime(comparisonDate, initialDate);
+  assertEquals(relativeTime, "2 hours ago");
 });
