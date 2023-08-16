@@ -14,6 +14,5 @@ updated = 2023-08-14
 - Add proper syntax-highlighting
 - Add automatic share cover-image
 - Add query params for CV, Work, Logs++
-- Add reading time
 - Add counter to tags
 - Add /now page

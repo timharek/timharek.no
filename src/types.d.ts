@@ -5,6 +5,7 @@ interface Page {
   /** Markdown */
   content: string;
   wordCount: number;
+  readingTime: number;
   description?: string;
   updated?: Date;
   draft?: string;

@@ -24,6 +24,15 @@ export function getWordCount(input: string): number {
   return wordCount;
 }
 
+// Based on https://help.medium.com/hc/en-us/articles/214991667-Read-time
+export function getReadingTime(input: string): number {
+  const averagePerMinute = 265;
+
+  const wordCount = getWordCount(input);
+
+  return Math.ceil(wordCount / averagePerMinute);
+}
+
 export function capitalize(string: string): string {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }

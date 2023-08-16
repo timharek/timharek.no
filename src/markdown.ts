@@ -3,7 +3,7 @@
 import extract from "$std/front_matter/any.ts";
 import { CSS } from "gfm/mod.ts";
 import { Extract } from "$std/front_matter/mod.ts";
-import { getWordCount, slugify } from "./utils.ts";
+import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 
 export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
   const fileContent = await Deno.readTextFile(path);
@@ -73,6 +73,7 @@ export async function getAllBlogPosts(): Promise<Post[]> {
         taxonomies: attrs.taxonomies,
         content: body,
         wordCount: getWordCount(body),
+        readingTime: getReadingTime(body),
         ...(attrs.updated && { updated: attrs.updated }),
       });
     }
@@ -128,6 +129,7 @@ export async function getAllPages(): Promise<Page[]> {
               path,
               content: body,
               wordCount: getWordCount(body),
+              readingTime: getReadingTime(body),
               ...(attrs.updated && { updated: attrs.updated }),
             });
           }
@@ -152,6 +154,7 @@ export async function getAllPages(): Promise<Page[]> {
         path,
         content: body,
         wordCount: getWordCount(body),
+        readingTime: getReadingTime(body),
         ...(attrs.updated && { updated: attrs.updated }),
       });
     }
@@ -229,6 +232,7 @@ async function getPagesFromSection(section: string): Promise<Page[]> {
         path,
         content: body,
         wordCount: getWordCount(body),
+        readingTime: getReadingTime(body),
         ...(attrs.updated && { updated: attrs.updated }),
         ...(attrs.extra && { extra: attrs.extra }),
       });
@@ -281,6 +285,7 @@ export async function getGardenSections(): Promise<Page[] | null> {
         path: `/garden/${entry.name}`,
         content: body,
         wordCount: getWordCount(body),
+        readingTime: getReadingTime(body),
         ...(section && section.pages.length > 0 && { pages: section.pages }),
       });
     }

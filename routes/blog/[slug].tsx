@@ -61,7 +61,12 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
         data-dark-theme="dark"
         class="max-w-screen-md mx-auto px-4 mb-4"
       >
-        <PageHeader title={title} date={post.date} updated={post.updated} />
+        <PageHeader
+          title={title}
+          date={post.date}
+          updated={post.updated}
+          readingTime={post.readingTime}
+        />
         <div class="markdown-body" dangerouslySetInnerHTML={{ __html: body }}>
         </div>
         <Metadata

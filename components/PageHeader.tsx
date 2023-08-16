@@ -2,16 +2,28 @@ interface PageHeaderProps {
   title: string;
   date?: Date;
   updated?: Date;
+  readingTime?: number;
 }
 
-export function PageHeader({ title, date, updated }: PageHeaderProps) {
+export function PageHeader(
+  { title, date, updated, readingTime }: PageHeaderProps,
+) {
   return (
     <div class="mb-4">
       <h1 class="text-4xl font-semibold mb-4">{title}</h1>
-      {(date || updated) && (
+      {(date || updated || readingTime) && (
         <div class="space-y-1">
           {date && <DateBlock date={date} text="Published" />}
           {updated && <DateBlock date={updated} text="Last updated" />}
+          {readingTime && (
+            <span
+              class=""
+              aria-label="Estimated read time"
+              title="Estimated read time"
+            >
+              {readingTime} {readingTime > 1 ? "minutes" : "minute"} read
+            </span>
+          )}
         </div>
       )}
     </div>
