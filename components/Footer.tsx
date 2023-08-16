@@ -14,7 +14,7 @@ export function Footer({ currentPath, lastDeploy }: FooterProps) {
     };
   });
   return (
-    <footer class="max-w-screen-md mx-auto my-4 px-4 flex justify-between flex-wrap">
+    <footer class="print:hidden max-w-screen-md mx-auto my-4 px-4 flex justify-between flex-wrap">
       <div>
         Last deploy: {lastDeploy}
       </div>

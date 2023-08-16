@@ -12,7 +12,7 @@ interface BreadcrumbsProps {
 
 export function Breadcrumbs({ crumbs }: BreadcrumbsProps) {
   return (
-    <nav class="max-w-screen-md mx-auto px-4 mb-4">
+    <nav class="print:hidden max-w-screen-md mx-auto px-4 mb-4">
       <ol class="flex gap-2 flex-wrap">
         {crumbs.map((crumb) => {
           if (crumb.current) {

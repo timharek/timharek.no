@@ -120,7 +120,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
         </div>
       </div>
       <a
-        class="border border-primary px-3 py-2 rounded-lg text-(primary hover:black) bg-(hover:primary) transition-all duration-150"
+        class="print:hidden border border-primary px-3 py-2 rounded-lg text-(primary hover:black) bg-(hover:primary) transition-all duration-150"
         href={`mailto:${config.email}?subject=RE: ${postTitle}`}
       >
         <span class="flex gap-2">
