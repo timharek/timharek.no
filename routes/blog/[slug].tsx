@@ -9,6 +9,11 @@ import { Link } from "../../components/Link.tsx";
 import { Icon } from "../../components/Icons.tsx";
 import { slugify } from "../../src/utils.ts";
 
+// Syntax highlighting
+import "https://esm.sh/prismjs@1.29.0/components/prism-typescript?no-check";
+import "https://esm.sh/prismjs@1.29.0/components/prism-bash?no-check";
+import "https://esm.sh/prismjs@1.29.0/components/prism-json?no-check";
+
 interface BlogPostProps {
   post: Post;
 }
