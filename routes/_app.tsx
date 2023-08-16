@@ -31,7 +31,7 @@ export default function App(props: AppProps) {
         <main id="main">
           <Component />
         </main>
-        <Footer currentPath={currentPath} />
+        <Footer currentPath={currentPath} lastDeploy={state.lastDeploy} />
       </body>
     </html>
   );

@@ -1,11 +1,13 @@
 import { MiddlewareHandlerContext, Status } from "$fresh/server.ts";
 import { Breadcrumbs } from "../components/Breadcrumbs.tsx";
 import { config } from "../config.ts";
+import { getRelativeTime } from "../src/utils.ts";
 
 export interface ServerState {
   title: string;
   description: string;
   breadcrumbs: Breadcrumbs[];
+  lastDeploy: string;
 }
 
 export async function handler(
@@ -16,6 +18,16 @@ export async function handler(
   const redirects: Redirect = JSON.parse(
     await Deno.readTextFile(new URL("../redirects.json", import.meta.url)),
   );
+
+  try {
+    const lastDeployString = await Deno.readTextFile(
+      new URL("../last_deploy", import.meta.url),
+    );
+    ctx.state.lastDeploy =
+      new Date(lastDeployString).toISOString().split("T")[0];
+  } catch (_error) {
+    ctx.state.lastDeploy = "missing";
+  }
 
   const redirect = redirects[url.pathname];
   if (redirect) {

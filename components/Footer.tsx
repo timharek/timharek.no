@@ -3,9 +3,10 @@ import { Link } from "./Link.tsx";
 
 interface FooterProps {
   currentPath: string;
+  lastDeploy: string;
 }
 
-export function Footer({ currentPath }: FooterProps) {
+export function Footer({ currentPath, lastDeploy }: FooterProps) {
   const navigation = config.navigation.footer.map((item) => {
     return {
       ...item,
@@ -15,7 +16,7 @@ export function Footer({ currentPath }: FooterProps) {
   return (
     <footer class="max-w-screen-md mx-auto my-4 px-4 flex justify-between flex-wrap">
       <div>
-        Last deploy: (date-coming)
+        Last deploy: {lastDeploy}
       </div>
 
       <nav class="footer__nav" aria-label="Secondary navigation">
