@@ -136,3 +136,6 @@ don't hesitate to reach out! :)
 [deno_md]: https://fresh.deno.dev/docs/examples/rendering-markdown
 [twind]: https://twind.style/
 [fresh_docs]: https://fresh.deno.dev/docs/introduction
+[zola]: https://www.getzola.org/
+[systemd]: https://en.wikipedia.org/wiki/Systemd
+[caddy]: https://caddyserver.com/
