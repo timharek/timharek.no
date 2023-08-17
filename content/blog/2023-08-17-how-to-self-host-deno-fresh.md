@@ -2,7 +2,7 @@
 title = "How to self-host Deno Fresh"
 description = "How I self-host Deno Fresh on my own VPS."
 [taxonomies]
-tags = ["Deno", "Tutorial", "DevOps", "100 days to offload"]
+tags = ["Deno", "Tutorial", "DevOps", "100 days to offload", "Deno Fresh"]
 +++
 
 I self-host my own website built with Deno Fresh on my own VPS using systemd and

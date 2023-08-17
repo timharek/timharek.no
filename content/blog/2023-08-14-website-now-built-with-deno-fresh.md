@@ -2,7 +2,7 @@
 title = "timharek.no is now built with Deno Fresh"
 description = "I switched out Zola with Deno Fresh."
 [taxonomies]
-tags = ["100 days to offload","Thoughts", "Deno"]
+tags = ["100 days to offload","Thoughts", "Deno", "Deno Fresh"]
 +++
 
 A while back I mentioned that I was in the process of remaking my website with
