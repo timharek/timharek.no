@@ -1,3 +1,21 @@
+interface Attrs {
+  title: string;
+  description?: string;
+  draft?: boolean;
+}
+
+interface PageAttrs extends Attrs {
+  updated?: string;
+}
+
+interface PostAttrs extends Attrs {
+  date: string;
+  updated?: string;
+  taxonomies?: {
+    tags: string[];
+  };
+}
+
 interface Page {
   title: string;
   slug: string;
@@ -8,10 +26,9 @@ interface Page {
   readingTime: number;
   description?: string;
   updated?: Date;
-  draft?: string;
+  draft?: boolean;
   /** title */
   section?: string;
-  extra?: Record<string, string | string[]>;
 }
 
 interface Post extends Page {
@@ -23,9 +40,6 @@ interface Post extends Page {
 
 type Section = Page & {
   pages: Page[];
-  extra?: {
-    updated: Date;
-  };
   subSections?: Section[];
 };
 
