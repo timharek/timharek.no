@@ -60,17 +60,6 @@ Deno.test("Get section with a blog-ish", async () => {
         wordCount: 2,
       },
       {
-        title: "Test post 1",
-        slug: "test-post1",
-        path: "blog/test-post1",
-        description: "This is a test post.",
-        draft: true,
-        date: new Date("2023-08-16"),
-        content: "Lorem ipsum.\n",
-        readingTime: 1,
-        wordCount: 2,
-      },
-      {
         title: "Test post",
         slug: "test-post",
         path: "blog/test-post",
@@ -82,6 +71,17 @@ Deno.test("Get section with a blog-ish", async () => {
         taxonomies: {
           tags: ["Tag 1", "Tag 2"],
         },
+      },
+      {
+        title: "Test post 1",
+        slug: "test-post1",
+        path: "blog/test-post1",
+        description: "This is a test post.",
+        draft: true,
+        date: new Date("2023-08-16"),
+        content: "Lorem ipsum.\n",
+        readingTime: 1,
+        wordCount: 2,
       },
     ],
   });

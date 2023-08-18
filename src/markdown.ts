@@ -244,6 +244,11 @@ async function getPagesFromSection(
         ...(attrs.updated && { updated: new Date(attrs.updated) }),
         ...(attrs.draft && { draft: attrs.draft }),
       });
+      pages.sort((a, b) =>
+        (b as Post).date.toISOString().localeCompare(
+          (a as Post).date.toISOString(),
+        )
+      );
       continue;
     }
 
