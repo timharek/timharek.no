@@ -26,7 +26,7 @@ export default function App(props: AppProps) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          href="/feed.xml"
+          href="/rss.xml"
           title="Blog feed"
         />
         <title>{state.title}</title>
