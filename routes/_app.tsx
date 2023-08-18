@@ -10,7 +10,7 @@ export default function App(props: AppProps) {
   const currentPath = new URL(props.url).pathname;
 
   return (
-    <html>
+    <html lang="en">
       <Head>
         <meta
           name="description"
