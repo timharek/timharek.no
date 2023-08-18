@@ -1,7 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 import { sanitizeHtml } from "gfm/deps.ts";
 import { config } from "../../config.ts";
-import { getAllBlogPosts } from "../../src/markdown.ts";
+import { getSection } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
@@ -13,7 +13,7 @@ interface RSSProps {
 
 export const handler: Handlers<RSSProps, ServerState> = {
   async GET(_req, _ctx) {
-    const posts = await getAllBlogPosts();
+    const posts = (await getSection("blog")).pages as Post[];
     const POST_COUNT = 15;
 
     const rss = generateRssFeed(posts.slice(0, POST_COUNT));

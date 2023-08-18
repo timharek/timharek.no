@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { PostList } from "../components/PostList.tsx";
-import { getAllBlogPosts } from "../src/markdown.ts";
+import { getSection } from "../src/markdown.ts";
 import { ServerState } from "./_middleware.ts";
 
 interface HomeProps {
@@ -9,7 +9,7 @@ interface HomeProps {
 
 export const handler: Handlers<HomeProps, ServerState> = {
   async GET(_req, ctx) {
-    const posts = await getAllBlogPosts();
+    const posts = (await getSection("blog")).pages as Post[];
 
     return ctx.render({ ...ctx.state, posts: posts.slice(0, 5) });
   },

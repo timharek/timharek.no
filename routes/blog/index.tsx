@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { PostList } from "../../components/PostList.tsx";
-import { getAllBlogPosts } from "../../src/markdown.ts";
+import { getSection } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { groupBy } from "../../src/group_by.ts";
 
@@ -11,7 +11,7 @@ interface BlogProps {
 export const handler: Handlers<BlogProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const posts = await getAllBlogPosts();
+    const posts = (await getSection("blog")).pages as Post[];
     ctx.state.title = `Blog - ${ctx.state.title}`;
     ctx.state.breadcrumbs = [
       {

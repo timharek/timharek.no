@@ -9,7 +9,6 @@ interface PageAttrs extends Attrs {
 }
 
 interface PostAttrs extends Attrs {
-  date: string;
   updated?: string;
   taxonomies?: {
     tags: string[];
@@ -39,7 +38,7 @@ interface Post extends Page {
 }
 
 type Section = Page & {
-  pages: Page[];
+  pages: Page[] | Post[];
   subSections?: Section[];
 };
 

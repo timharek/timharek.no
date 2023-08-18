@@ -5,6 +5,8 @@ import { CSS } from "gfm/mod.ts";
 import { Extract } from "$std/front_matter/mod.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 
+const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
+
 export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
   const fileContent = await Deno.readTextFile(path);
   const markdownFile = extract<T>(fileContent);
@@ -12,84 +14,70 @@ export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
   return markdownFile;
 }
 
-export async function getPage(path: string): Promise<Page> {
-  const fullPath = new URL(`../content/${path}`, import.meta.url);
-  const { attrs, body } = await getMarkdownFile<Page>(fullPath);
+export async function getPage(
+  path: string,
+  prefix = "../content",
+): Promise<Page> {
+  const fullPath = new URL(`${prefix}/${path}`, import.meta.url);
+  const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
 
   return {
-    ...attrs,
+    title: attrs.title,
+    path: path.replace(".md", ""),
+    slug: path.replace(".md", ""),
+    readingTime: getReadingTime(body),
+    wordCount: getWordCount(body),
     content: body,
+    ...(attrs.description && { description: attrs.description }),
+    ...(attrs.updated && { updated: new Date(attrs.updated) }),
+    ...(attrs.draft && { draft: attrs.draft }),
   };
 }
 
-export async function getSection(sectionName: string): Promise<Section> {
+export async function getSection(
+  sectionName: string,
+  prefix = "../content",
+): Promise<Section> {
   const sectionPath = new URL(
-    `../content/${sectionName}/_index.md`,
+    `${prefix}/${sectionName}/_index.md`,
     import.meta.url,
   );
-  const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
+  const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
 
-  const pages = await getPagesFromSection(sectionName);
+  const pages = await getPagesFromSection(sectionName, prefix);
 
   return {
-    ...attrs,
+    title: attrs.title,
+    path: "",
+    slug: sectionName,
+    readingTime: getReadingTime(body),
+    wordCount: getWordCount(body),
     content: body,
     ...(pages && { pages }),
+    ...(attrs.description && { description: attrs.description }),
+    ...(attrs.updated && { updated: new Date(attrs.updated) }),
+    ...(attrs.draft && { draft: attrs.draft }),
   };
 }
 
-export async function getAllBlogPosts(): Promise<Post[]> {
-  const blogPath = new URL(`../content/blog`, import.meta.url);
-  const blogDir = Deno.readDir(blogPath);
-  const posts: Post[] = [];
-  for await (const entry of blogDir) {
-    if (entry.name === "_index.md" || entry.name === "_index.no.md") {
-      continue;
-    }
-    const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
-    const postDateMatch = entry.name.match(YYYY_MM_DD_REGEX);
-    const postDate = postDateMatch ? postDateMatch[0] : "";
-    const postSlugWithoutDate = entry.name.replace(YYYY_MM_DD_REGEX, "")
-      .replace(
-        "-",
-        "",
-      ).replace(
-        ".md",
-        "",
-      );
-    const isNested = entry.isDirectory;
-    const postPath = new URL(
-      `../content/blog/${isNested ? `${entry.name}/index.md` : entry.name}`,
-      import.meta.url,
-    );
-    const { attrs, body } = await getMarkdownFile<Post>(postPath);
-    if (!attrs.draft) {
-      posts.push({
-        title: attrs.title,
-        description: attrs.description,
-        slug: postSlugWithoutDate,
-        date: new Date(postDate),
-        path: `/blog/${postSlugWithoutDate}`,
-        taxonomies: attrs.taxonomies,
-        content: body,
-        wordCount: getWordCount(body),
-        readingTime: getReadingTime(body),
-        ...(attrs.updated && { updated: attrs.updated }),
-      });
-    }
-  }
-  return posts.sort((a, b) => b.date.getTime() - a.date.getTime());
-}
+export async function getBlogPost(
+  slug: string,
+  blogSlug = "blog",
+  prefix = "../content",
+): Promise<Post | null> {
+  const blogSection = await getSection(blogSlug, prefix);
+  const posts = blogSection.pages as Post[];
 
-export async function getBlogPost(slug: string): Promise<Post | null> {
-  const posts = await getAllBlogPosts();
   const post = posts.find((post) => post.slug === slug);
 
   return post ? post : null;
 }
 
-export async function getBlogPostsByTag(tag: string): Promise<Post[] | null> {
-  const allPosts = await getAllBlogPosts();
+export async function getBlogPostsByTag(
+  tag: string,
+  blogSlug = "blog",
+): Promise<Post[] | null> {
+  const allPosts = (await getSection(blogSlug)).pages as Post[];
 
   const postsByTag = allPosts.filter((post) =>
     post.taxonomies && post.taxonomies.tags.includes(tag)
@@ -120,19 +108,18 @@ export async function getAllPages(): Promise<Page[]> {
           const filePath = new URL(
             `${contentPath}/${item.name}/${subItem.name}`,
           );
-          const { attrs, body } = await getMarkdownFile<Page>(filePath);
-          if (!attrs.draft) {
-            pages.push({
-              title: attrs.title,
-              description: attrs.description,
-              slug: subItem.name.replace(".md", ""),
-              path,
-              content: body,
-              wordCount: getWordCount(body),
-              readingTime: getReadingTime(body),
-              ...(attrs.updated && { updated: attrs.updated }),
-            });
-          }
+          const { attrs, body } = await getMarkdownFile<PageAttrs>(filePath);
+          pages.push({
+            title: attrs.title,
+            slug: subItem.name.replace(".md", ""),
+            path,
+            content: body,
+            wordCount: getWordCount(body),
+            readingTime: getReadingTime(body),
+            ...(attrs.description && { description: attrs.description }),
+            ...(attrs.updated && { updated: new Date(attrs.updated) }),
+            ...(attrs.draft && { draft: attrs.draft }),
+          });
         }
       }
       continue;
@@ -146,18 +133,18 @@ export async function getAllPages(): Promise<Page[]> {
     const path = item.name;
     const filePath = new URL(`${contentPath}/${item.name}`);
     const { attrs, body } = await getMarkdownFile<Page>(filePath);
-    if (!attrs.draft) {
-      pages.push({
-        title: attrs.title,
-        description: attrs.description,
-        slug: item.name.replace(".md", ""),
-        path,
-        content: body,
-        wordCount: getWordCount(body),
-        readingTime: getReadingTime(body),
-        ...(attrs.updated && { updated: attrs.updated }),
-      });
-    }
+
+    pages.push({
+      title: attrs.title,
+      slug: item.name.replace(".md", ""),
+      path,
+      content: body,
+      wordCount: getWordCount(body),
+      readingTime: getReadingTime(body),
+      ...(attrs.description && { description: attrs.description }),
+      ...(attrs.updated && { updated: new Date(attrs.updated) }),
+      ...(attrs.draft && { draft: attrs.draft }),
+    });
   }
 
   return pages;
@@ -168,7 +155,7 @@ function isSection(path: string) {
 }
 
 export async function getAllTags(): Promise<Tag[]> {
-  const posts = await getAllBlogPosts();
+  const posts = (await getSection("blog")).pages as Post[];
   const tagsNotUnique = posts.flatMap((post) => {
     if (post.taxonomies && post.taxonomies?.tags.length > 0) {
       return post.taxonomies.tags;
@@ -215,9 +202,12 @@ export const css = `
     }
   `;
 
-async function getPagesFromSection(section: string): Promise<Page[]> {
-  const pages: Page[] = [];
-  const commonPath = `../content/${section}`;
+async function getPagesFromSection(
+  section: string,
+  prefix = "../content",
+): Promise<Page[] | Post[]> {
+  const pages: (Page | Post)[] = [];
+  const commonPath = `${prefix}/${section}`;
   const contentPath = new URL(commonPath, import.meta.url);
   const contentDir = Deno.readDir(contentPath);
 
@@ -225,21 +215,54 @@ async function getPagesFromSection(section: string): Promise<Page[]> {
     if (item.name.match(".DS_Store|_index.md|_index.no.md")) {
       continue;
     }
-    const path = item.name;
+    let slug = item.name.replace(".md", "");
     const filePath = new URL(`${contentPath}/${item.name}`);
-    const { attrs, body } = await getMarkdownFile<Page>(filePath);
-    if (!attrs.draft) {
+
+    const isPost = item.name.match(YYYY_MM_DD_REGEX);
+    if (isPost) {
+      slug = slug.replace(YYYY_MM_DD_REGEX, "").replace("-", "");
+      const postDate = isPost ? isPost[0] : "";
+
+      const isNested = item.isDirectory;
+      const postPath = new URL(
+        `${commonPath}/${isNested ? `${item.name}/index.md` : item.name}`,
+        import.meta.url,
+      );
+
+      const { attrs, body } = await getMarkdownFile<PostAttrs>(postPath);
+
       pages.push({
         title: attrs.title,
-        slug: item.name.replace(".md", ""),
-        path,
+        date: new Date(postDate),
+        slug,
+        path: `${section}/${slug}`,
         content: body,
         wordCount: getWordCount(body),
         readingTime: getReadingTime(body),
-        ...(attrs.updated && { updated: attrs.updated }),
-        ...(attrs.extra && { extra: attrs.extra }),
+        ...(attrs.taxonomies && { taxonomies: attrs.taxonomies }),
+        ...(attrs.description && { description: attrs.description }),
+        ...(attrs.updated && { updated: new Date(attrs.updated) }),
+        ...(attrs.draft && { draft: attrs.draft }),
       });
+      continue;
     }
+
+    if (item.isDirectory) {
+      continue;
+    }
+    const { attrs, body } = await getMarkdownFile<PageAttrs>(filePath);
+
+    pages.push({
+      title: attrs.title,
+      slug,
+      path: `${section}/${slug}`,
+      content: body,
+      wordCount: getWordCount(body),
+      readingTime: getReadingTime(body),
+      ...(attrs.description && { description: attrs.description }),
+      ...(attrs.updated && { updated: new Date(attrs.updated) }),
+      ...(attrs.draft && { draft: attrs.draft }),
+    });
   }
 
   return pages;
@@ -248,7 +271,7 @@ async function getPagesFromSection(section: string): Promise<Page[]> {
 export async function getGarden(): Promise<Section | null> {
   const sectionPath = new URL(`../content/garden/_index.md`, import.meta.url);
   try {
-    const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
+    const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
     const sections = await getGardenSections();
 
     if (!sections) {
@@ -256,10 +279,15 @@ export async function getGarden(): Promise<Section | null> {
     }
 
     return {
-      ...attrs,
+      title: attrs.title,
       slug: "garden",
+      path: "/garden",
+      wordCount: getWordCount(body),
+      readingTime: getReadingTime(body),
       content: body,
       pages: sections,
+      ...(attrs.description && { description: attrs.description }),
+      ...(attrs.updated && { updated: new Date(attrs.updated) }),
     };
   } catch (error) {
     console.error(error);
@@ -279,19 +307,18 @@ export async function getGardenSections(): Promise<Page[] | null> {
       `../content/garden/${entry.name}/_index.md`,
       import.meta.url,
     );
-    const { attrs, body } = await getMarkdownFile<Section>(sectionpath);
-    if (!attrs.draft) {
-      const section = await getGardenSection(entry.name);
-      sections.push({
-        title: attrs.title,
-        slug: entry.name,
-        path: `/garden/${entry.name}`,
-        content: body,
-        wordCount: getWordCount(body),
-        readingTime: getReadingTime(body),
-        ...(section && section.pages.length > 0 && { pages: section.pages }),
-      });
-    }
+    const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionpath);
+    const section = await getGardenSection(entry.name);
+    sections.push({
+      title: attrs.title,
+      slug: entry.name,
+      path: `/garden/${entry.name}`,
+      content: body,
+      wordCount: getWordCount(body),
+      readingTime: getReadingTime(body),
+      ...(section && section.pages.length > 0 && { pages: section.pages }),
+      ...(attrs.draft && { draft: attrs.draft }),
+    });
   }
 
   if (sections.length === 0) {
@@ -308,11 +335,14 @@ export async function getGardenSection(
     import.meta.url,
   );
   try {
-    const { attrs, body } = await getMarkdownFile<Section>(sectionPath);
+    const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
 
     return {
-      ...attrs,
+      title: attrs.title,
       slug: sectionSlug,
+      path: `/garden/${sectionSlug}`,
+      wordCount: getWordCount(body),
+      readingTime: getReadingTime(body),
       content: body,
       pages: await getPagesFromSection(`garden/${sectionSlug}`),
     };
