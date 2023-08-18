@@ -23,7 +23,12 @@ export default function App(props: AppProps) {
           src="https://timharek.no/js/script.js"
         >
         </script>
-
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          href="/feed.xml"
+          title="Blog feed"
+        />
         <title>{state.title}</title>
       </Head>
       <body class="bg-bg text-white">
