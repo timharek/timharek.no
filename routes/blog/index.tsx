@@ -11,8 +11,12 @@ interface BlogProps {
 export const handler: Handlers<BlogProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const posts = (await getSection("blog")).pages as Post[];
-    ctx.state.title = `Blog - ${ctx.state.title}`;
+    const blog = await getSection("blog");
+    const posts = blog.pages as Post[];
+    ctx.state.title = `${blog.title} - ${ctx.state.title}`;
+    if (blog.description) {
+      ctx.state.description = blog.description;
+    }
     ctx.state.breadcrumbs = [
       {
         title: "Index",
