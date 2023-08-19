@@ -94,59 +94,41 @@ export async function getPostsByTag(
   return postsByTag.length > 0 ? postsByTag : null;
 }
 
-export async function getAllPages(): Promise<Page[]> {
-  const pages: Page[] = [];
-  const commonPath = "../content";
-  const contentPath = new URL(commonPath, import.meta.url);
+export async function getAllPages(
+  prefix = "../content",
+): Promise<(Page | Post)[]> {
+  const pages: (Page | Post)[] = [];
+  const contentPath = new URL(prefix, import.meta.url);
   const contentDir = Deno.readDir(contentPath);
 
   for await (const item of contentDir) {
-    if (item.isDirectory) {
-      const subPath = new URL(`${contentPath}/${item.name}`);
-      const subDir = Deno.readDir(subPath);
-      for await (const subItem of subDir) {
-        if (subItem.isDirectory) {
-          continue;
-        }
-        if (isSection(subItem.name)) {
-          continue;
-        }
-        if (subItem.name.match("index.md")) {
-          const path = `${item.name}/${subItem.name}`;
-          const filePath = new URL(
-            `${contentPath}/${item.name}/${subItem.name}`,
-          );
-          const { attrs, body } = await getMarkdownFile<PageAttrs>(filePath);
-          pages.push({
-            title: attrs.title,
-            slug: subItem.name.replace(".md", ""),
-            path,
-            content: body,
-            wordCount: getWordCount(body),
-            readingTime: getReadingTime(body),
-            section: item.name,
-            ...(attrs.description && { description: attrs.description }),
-            ...(attrs.updated && { updated: new Date(attrs.updated) }),
-            ...(attrs.draft && { draft: attrs.draft }),
-          });
-        }
-      }
-      continue;
-    }
-    if (isSection(item.name)) {
-      continue;
-    }
     if (item.name === ".DS_Store") {
       continue;
     }
-    const path = item.name;
+    if (item.isDirectory) {
+      const section = await getSection(item.name, prefix);
+      pages.push(
+        ...section.pages,
+        {
+          title: section.title,
+          slug: section.slug,
+          content: section.content,
+          path: section.slug,
+        } as Page,
+      );
+      continue;
+    }
+    let slug = item.name.replace(".md", "");
+    if (item.name === "_index.md") {
+      slug = "";
+    }
     const filePath = new URL(`${contentPath}/${item.name}`);
     const { attrs, body } = await getMarkdownFile<Page>(filePath);
 
     pages.push({
       title: attrs.title,
-      slug: item.name.replace(".md", ""),
-      path,
+      slug,
+      path: slug,
       content: body,
       wordCount: getWordCount(body),
       readingTime: getReadingTime(body),
@@ -157,11 +139,7 @@ export async function getAllPages(): Promise<Page[]> {
     });
   }
 
-  return pages;
-}
-
-function isSection(path: string) {
-  return path.match("_index.md|_index.no.md");
+  return pages.sort((a, b) => a.title.localeCompare(b.title));
 }
 
 export async function getAllTags(

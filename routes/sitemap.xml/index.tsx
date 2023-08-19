@@ -1,6 +1,6 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
-import { getAllPages, getSection } from "../../src/markdown.ts";
+import { getAllPages } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface SitemapProps {
@@ -9,10 +9,10 @@ interface SitemapProps {
 
 export const handler: Handlers<SitemapProps, ServerState> = {
   async GET(_req, _ctx) {
-    const posts = (await getSection("blog")).pages as Post[];
     const pages = await getAllPages();
+    console.log(pages);
 
-    const sitemap = generateSitemap([...pages, ...posts]);
+    const sitemap = generateSitemap([...pages]);
 
     return new Response(sitemap, { headers: { "content-type": "text/xml" } });
   },

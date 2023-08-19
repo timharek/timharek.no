@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
-import { css, getAllPages } from "../src/markdown.ts";
+import { css, getPage } from "../src/markdown.ts";
 import { ServerState } from "./_middleware.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 
@@ -13,9 +13,7 @@ export const handler: Handlers<Props, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const pageSlug = ctx.params.page;
-    const allPages = await getAllPages();
-
-    const page = allPages.find((item) => item.slug === pageSlug);
+    const page = await getPage({ slug: pageSlug });
 
     if (!page) {
       return ctx.renderNotFound({ ...ctx.state });
