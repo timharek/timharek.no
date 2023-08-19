@@ -1,5 +1,11 @@
 import { assertEquals } from "$std/testing/asserts.ts";
-import { getPage, getPost, getSection } from "./markdown.ts";
+import {
+  getAllTags,
+  getPage,
+  getPost,
+  getPostsByTag,
+  getSection,
+} from "./markdown.ts";
 
 Deno.test("Get page", async () => {
   const prefix = "./testdata/markdown/content";
@@ -72,7 +78,18 @@ Deno.test("Get section with a blog-ish", async () => {
         readingTime: 1,
         wordCount: 2,
         taxonomies: {
-          tags: ["Tag 1", "Tag 2"],
+          tags: [
+            {
+              title: "Tag 1",
+              slug: "tag-1",
+              path: "tags/tag-1",
+            },
+            {
+              title: "Tag 2",
+              slug: "tag-2",
+              path: "tags/tag-2",
+            },
+          ],
         },
         section: "blog",
       },
@@ -156,4 +173,58 @@ Deno.test("Get post from blog", async () => {
     wordCount: 2,
     section: "blog",
   });
+});
+
+Deno.test("Get tags from blog", async () => {
+  const prefix = "./testdata/markdown/content";
+  const blogSlug = "blog";
+
+  const tags = await getAllTags(blogSlug, prefix);
+
+  assertEquals(tags, [
+    {
+      title: "Tag 1",
+      slug: "tag-1",
+      path: "tags/tag-1",
+    },
+    {
+      title: "Tag 2",
+      slug: "tag-2",
+      path: "tags/tag-2",
+    },
+  ]);
+});
+
+Deno.test("Get posts by tag from blog", async () => {
+  const prefix = "./testdata/markdown/content";
+  const tagSlug = "tag-1";
+  const blogSlug = "blog";
+
+  const posts = await getPostsByTag(tagSlug, blogSlug, prefix);
+
+  assertEquals(posts, [{
+    title: "Test post",
+    slug: "test-post",
+    path: "blog/test-post",
+    description: "This is a test post.",
+    date: new Date("2023-08-17"),
+    content: "Lorem ipsum.\n",
+    readingTime: 1,
+    wordCount: 2,
+    taxonomies: {
+      tags: [
+        {
+          title: "Tag 1",
+          slug: "tag-1",
+          path: "tags/tag-1",
+        },
+        {
+          title: "Tag 2",
+          slug: "tag-2",
+          path: "tags/tag-2",
+        },
+      ],
+    },
+    section: "blog",
+  }]);
 });

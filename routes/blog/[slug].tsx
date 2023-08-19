@@ -7,7 +7,6 @@ import { PageHeader } from "../../components/PageHeader.tsx";
 import { config } from "../../config.ts";
 import { Link } from "../../components/Link.tsx";
 import { Icon } from "../../components/Icons.tsx";
-import { slugify } from "../../src/utils.ts";
 
 // Syntax highlighting
 import "https://esm.sh/prismjs@1.29.0/components/prism-typescript?no-check";
@@ -86,7 +85,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
 }
 
 interface MetadataProps {
-  tags?: string[];
+  tags?: Tag[];
   postTitle: string;
   wordCount: number;
 }
@@ -103,11 +102,13 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
                 <h2>Tagged with</h2>
               </div>
               <ul class="flex gap-1 flex-wrap">
-                {tags.sort((a, b) => a.localeCompare(b)).map((tag) => (
+                {tags.sort((a, b) => a.title.localeCompare(b.title)).map((
+                  tag,
+                ) => (
                   <li>
                     <Link
-                      href={`/tags/${slugify(tag)}`}
-                      label={`#${tag.toLowerCase().replaceAll(" ", "-")}`}
+                      href={`/${tag.path}`}
+                      label={`#${tag.slug}`}
                     />
                   </li>
                 ))}

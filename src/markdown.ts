@@ -80,14 +80,15 @@ export async function getPost(
   return post ? post : null;
 }
 
-export async function getBlogPostsByTag(
-  tag: string,
+export async function getPostsByTag(
+  tagSlug: string,
   blogSlug = "blog",
+  prefix = "../content",
 ): Promise<Post[] | null> {
-  const allPosts = (await getSection(blogSlug)).pages as Post[];
+  const allPosts = (await getSection(blogSlug, prefix)).pages as Post[];
 
   const postsByTag = allPosts.filter((post) =>
-    post.taxonomies && post.taxonomies.tags.includes(tag)
+    post.taxonomies && post.taxonomies.tags.find((tag) => tag.slug === tagSlug)
   );
 
   return postsByTag.length > 0 ? postsByTag : null;
@@ -163,26 +164,22 @@ function isSection(path: string) {
   return path.match("_index.md|_index.no.md");
 }
 
-export async function getAllTags(): Promise<Tag[]> {
-  const posts = (await getSection("blog")).pages as Post[];
+export async function getAllTags(
+  blogSlug = "blog",
+  prefix = "../content",
+): Promise<Tag[]> {
+  const posts = (await getSection(blogSlug, prefix)).pages as Post[];
   const tagsNotUnique = posts.flatMap((post) => {
     if (post.taxonomies && post.taxonomies?.tags.length > 0) {
       return post.taxonomies.tags;
     }
+    return [];
   });
-  const tagsUnique = new Set(tagsNotUnique.filter(Boolean));
-  const tags = Array.from(tagsUnique).map((tag) => {
-    if (tag) {
-      const slug = slugify(tag);
-      return {
-        title: tag,
-        path: `/tags/${slug}`,
-        slug,
-      };
-    }
-  });
+  const tagsStringArray = tagsNotUnique.map((str) => JSON.stringify(str));
+  const uniqueArray = [...new Set(tagsStringArray)];
+  const tags = uniqueArray.map((str) => JSON.parse(str) as Tag);
 
-  return (tags as Tag[]).sort((a, b) => a?.title.localeCompare(b?.title));
+  return tags.sort((a, b) => a?.title.localeCompare(b?.title));
 }
 
 export async function getTag(slug: string): Promise<Tag | null> {
@@ -248,7 +245,19 @@ async function getPagesFromSection(
         wordCount: getWordCount(body),
         readingTime: getReadingTime(body),
         section: sectionSlug,
-        ...(attrs.taxonomies && { taxonomies: attrs.taxonomies }),
+        ...(attrs.taxonomies &&
+          {
+            taxonomies: {
+              tags: attrs.taxonomies.tags.map((tag) => {
+                const slug = slugify(tag);
+                return {
+                  title: tag,
+                  slug,
+                  path: `tags/${slug}`,
+                };
+              }),
+            },
+          }),
         ...(attrs.description && { description: attrs.description }),
         ...(attrs.updated && { updated: new Date(attrs.updated) }),
         ...(attrs.draft && { draft: attrs.draft }),

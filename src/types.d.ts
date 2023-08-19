@@ -34,7 +34,7 @@ interface Page {
 interface Post extends Page {
   date: Date;
   taxonomies?: {
-    tags: string[];
+    tags: Tag[];
   };
 }
 

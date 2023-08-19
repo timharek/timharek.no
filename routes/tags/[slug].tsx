@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { PostList } from "../../components/PostList.tsx";
-import { getBlogPostsByTag, getTag } from "../../src/markdown.ts";
+import { getPostsByTag, getTag } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 
 interface TagPageProps {
@@ -20,7 +20,7 @@ export const handler: Handlers<TagPageProps, ServerState> = {
       return ctx.renderNotFound();
     }
 
-    const posts = await getBlogPostsByTag(tag?.title);
+    const posts = await getPostsByTag(tag.slug);
 
     if (!posts) {
       return ctx.renderNotFound();
@@ -42,6 +42,7 @@ export const handler: Handlers<TagPageProps, ServerState> = {
         current: true,
       },
     ];
+    ctx.state.description = `Posts tagged with ${tag.title}.`;
 
     return ctx.render({ ...ctx.state, tag, posts });
   },
