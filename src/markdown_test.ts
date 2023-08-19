@@ -1,5 +1,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import {
+  getAllPages,
   getAllTags,
   getPage,
   getPost,
@@ -227,4 +228,28 @@ Deno.test("Get posts by tag from blog", async () => {
     },
     section: "blog",
   }]);
+});
+
+Deno.test("Get all pages", async () => {
+  const prefix = "./testdata/markdown/content";
+
+  const pages = await getAllPages(prefix);
+
+  // TODO: Remember to get subsections
+  // src/testdata/markdown/content
+  // └── section
+  //     └── subsection
+  //         ├── _index.md
+  //         └── page.md
+  assertEquals(pages.map((page) => page.title), [
+    "Blog index",
+    "Index page",
+    "Page",
+    "Page 2",
+    "Section index",
+    "Section page",
+    "Test post",
+    "Test post 1",
+    "Test post 3 in a dir",
+  ]);
 });
