@@ -2,6 +2,7 @@ import { assertEquals } from "$std/testing/asserts.ts";
 import {
   getAllPages,
   getAllTags,
+  getGlobalStats,
   getPage,
   getPost,
   getPostsByTag,
@@ -269,4 +270,16 @@ Deno.test("Get all pages", async () => {
     "Test post 1",
     "Test post 3 in a dir",
   ]);
+});
+
+Deno.test("Get stats", async () => {
+  const prefix = "./testdata/markdown/content";
+  const blogSlug = "blog";
+
+  const stats = await getGlobalStats(blogSlug, prefix);
+
+  assertEquals(stats.posts, 3);
+  assertEquals(stats.tags, 2);
+  assertEquals(stats.words, "24");
+  assertEquals(Object.keys(stats.blogByYear).length, 1);
 });
