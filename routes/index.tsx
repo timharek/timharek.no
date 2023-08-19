@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { PostList } from "../components/PostList.tsx";
-import { getSection } from "../src/markdown.ts";
+import { getSection } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 
 interface HomeProps {

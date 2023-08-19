@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
-import { css, getPage } from "../../src/markdown.ts";
+import { css, getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 import { Link } from "../../components/Link.tsx";
@@ -28,7 +28,7 @@ interface FeedrollProps {
 export const handler: Handlers<FeedrollProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const page = await getPage("logs/feedroll.md");
+    const page = await getPage({ slug: "logs/feedroll" });
 
     if (!page) {
       return ctx.renderNotFound({ ...ctx.state });

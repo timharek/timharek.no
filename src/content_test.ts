@@ -6,7 +6,7 @@ import {
   getPost,
   getPostsByTag,
   getSection,
-} from "./markdown.ts";
+} from "./content.ts";
 
 Deno.test("Get page", async () => {
   const prefix = "./testdata/markdown/content";

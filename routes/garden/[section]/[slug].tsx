@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { ServerState } from "../../_middleware.ts";
-import { css, getPage, getSection } from "../../../src/markdown.ts";
+import { css, getPage, getSection } from "../../../src/content.ts";
 import { PageHeader } from "../../../components/PageHeader.tsx";
 
 interface Props {

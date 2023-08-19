@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
-import { css, getSection } from "../../src/markdown.ts";
+import { css, getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { Link } from "../../components/Link.tsx";

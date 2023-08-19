@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
-import { css, getPage } from "../../src/markdown.ts";
+import { css, getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 import { groupBy } from "../../src/group_by.ts";
@@ -33,7 +33,7 @@ export const handler: Handlers<LogProps, ServerState> = {
       return ctx.renderNotFound({ ...ctx.state });
     }
 
-    const page = await getPage(`logs/${slug}.md`);
+    const page = await getPage({ slug: `logs/${slug}` });
 
     if (!page) {
       return ctx.renderNotFound({ ...ctx.state });

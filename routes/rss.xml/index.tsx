@@ -1,7 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 import { sanitizeHtml } from "gfm/deps.ts";
 import { config } from "../../config.ts";
-import { getSection } from "../../src/markdown.ts";
+import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
@@ -25,7 +25,7 @@ export const handler: Handlers<RSSProps, ServerState> = {
 function generateRssFeed(posts: Post[]): string {
   const postsRss = posts.map((post) => {
     const tags = post.taxonomies?.tags.map((tag) => {
-      return `<category term="${sanitizeHtml(tag)}" />`;
+      return `<category term="${sanitizeHtml(tag.title)}" />`;
     }).filter((tag) => tag !== undefined);
 
     const content = escapeHtml(`${render(post.content).toString()}

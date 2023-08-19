@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
-import { css, getPage } from "../src/markdown.ts";
+import { css, getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 import { CV, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";
@@ -24,7 +24,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
-      const page = await getPage("work.md");
+      const page = await getPage({ slug: "work" });
       ctx.state.title = `${page.title} - ${ctx.state.title}`;
       if (page.description) {
         ctx.state.description = page.description;
