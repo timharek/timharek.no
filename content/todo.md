@@ -1,11 +1,10 @@
 +++
 title = "TODOs"
 description = "Todos for timharek.no"
-updated = 2023-08-16
+updated = 2023-08-19
 +++
 
 - Update layout/design
-- Add Stats-page
 - Add backlinks
 - Add route for all outgoing links (`.well-known`)
 - Add sitemap (not xml)
