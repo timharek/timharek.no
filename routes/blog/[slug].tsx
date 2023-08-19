@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
-import { css, getPost } from "../../src/content.ts";
+import { getPost } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { config } from "../../config.ts";
@@ -13,6 +13,7 @@ import "https://esm.sh/prismjs@1.29.0/components/prism-typescript?no-check";
 import "https://esm.sh/prismjs@1.29.0/components/prism-bash?no-check";
 import "https://esm.sh/prismjs@1.29.0/components/prism-json?no-check";
 import "https://esm.sh/prismjs@1.29.0/components/prism-systemd?no-check";
+import { css } from "../../src/markdown.ts";
 
 interface BlogPostProps {
   post: Post;

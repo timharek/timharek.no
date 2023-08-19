@@ -1,11 +1,12 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
-import { css, getPage } from "../src/content.ts";
+import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 import { CV, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";
 import { Link } from "../components/Link.tsx";
+import { css } from "../src/markdown.ts";
 
 interface WorkProps {
   page: Page;

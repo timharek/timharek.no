@@ -1,12 +1,13 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
-import { css, getPage } from "../../src/content.ts";
+import { getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { render } from "gfm/mod.ts";
 import { Link } from "../../components/Link.tsx";
 import { groupBy } from "../../src/group_by.ts";
 import { capitalize } from "../../src/utils.ts";
+import { css } from "../../src/markdown.ts";
 
 interface Feed {
   name: string;

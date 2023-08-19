@@ -1,18 +1,9 @@
 // @deno-types="./types.d.ts"
 
-import extract from "$std/front_matter/any.ts";
-import { CSS } from "gfm/mod.ts";
-import { Extract } from "$std/front_matter/mod.ts";
+import { getMarkdownFile } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
-
-export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
-  const fileContent = await Deno.readTextFile(path);
-  const markdownFile = extract<T>(fileContent);
-
-  return markdownFile;
-}
 
 export async function getPage(
   { slug, prefix = "../content", section }: {
@@ -202,24 +193,6 @@ export async function getTag(slug: string): Promise<Tag | null> {
   return tag ? tag : null;
 }
 
-export const css = `
-    ${CSS}
-    .markdown-body {
-      /* bg-zinc-900 */
-      --color-canvas-default: rgba(24,24,27,var(--tw-bg-opacity)) !important; 
-      --color-fg-default: white !important;
-    }
-    .markdown-body ul {
-      list-style: disc;
-    }
-    .markdown-body ol {
-      list-style: decimal;
-    }
-    .markdown-body figure {
-      margin-block: 1rem;
-    }
-  `;
-
 async function getPagesFromSection(
   sectionSlug: SectionProp,
   prefix = "../content",
@@ -261,7 +234,7 @@ async function getPagesFromSection(
         ...(attrs.taxonomies &&
           {
             taxonomies: {
-              tags: attrs.taxonomies.tags.map((tag) => {
+              tags: attrs.taxonomies.tags.map((tag: string) => {
                 const slug = slugify(tag);
                 return {
                   title: tag,
