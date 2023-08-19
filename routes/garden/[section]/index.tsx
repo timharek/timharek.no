@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { ServerState } from "../../_middleware.ts";
-import { css, getGardenSection } from "../../../src/markdown.ts";
+import { css, getSection } from "../../../src/markdown.ts";
 import { PageHeader } from "../../../components/PageHeader.tsx";
 import { Link } from "../../../components/Link.tsx";
 
@@ -14,7 +14,7 @@ export const handler: Handlers<Props, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const sectionSlug = ctx.params.section;
-    const section = await getGardenSection(sectionSlug);
+    const section = await getSection(`garden/${sectionSlug}`);
 
     if (!section) {
       return ctx.renderNotFound({ ...ctx.state });
@@ -70,7 +70,7 @@ export default function GardenSection({ data }: PageProps<Props>) {
               {section.pages.map((page) => (
                 <li class="">
                   <Link
-                    href={`${section.slug}/${page.slug}`}
+                    href={`/${page.path}`}
                     label={page.title}
                   />
                 </li>

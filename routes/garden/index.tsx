@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
-import { css, getGarden } from "../../src/markdown.ts";
+import { css, getSection } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { Link } from "../../components/Link.tsx";
@@ -11,13 +11,14 @@ interface Props {
 }
 
 export const handler: Handlers<Props, ServerState> = {
-  async GET(req, ctx) {
-    const url = new URL(req.url);
-    const section = await getGarden();
+  async GET(_req, ctx) {
+    const section = await getSection("garden");
 
     if (!section) {
       return ctx.renderNotFound({ ...ctx.state });
     }
+
+    console.log("section", section);
 
     ctx.state.title = `${section.title} - ${ctx.state.title}`;
     if (section.description) {
@@ -29,8 +30,8 @@ export const handler: Handlers<Props, ServerState> = {
         path: "/",
       },
       {
-        title: "Garden",
-        path: "/garden",
+        title: section.title,
+        path: `/${section.path}`,
         current: true,
       },
     ];
@@ -59,14 +60,14 @@ export default function GardenSection({ data }: PageProps<Props>) {
           dangerouslySetInnerHTML={{ __html: body }}
         >
         </div>
-        {section.pages &&
+        {section.subSections &&
           (
             <ul class="list-disc pl-4">
-              {section.pages.map((page) => (
+              {section.subSections.map((subSection) => (
                 <li class="">
                   <Link
-                    href={`${section.slug}/${page.slug}`}
-                    label={page.title}
+                    href={`/${subSection.path}`}
+                    label={subSection.title}
                   />
                 </li>
               ))}

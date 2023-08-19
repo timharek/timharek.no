@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
 import { ServerState } from "../../_middleware.ts";
-import { css, getGardenPage } from "../../../src/markdown.ts";
+import { css, getPage, getSection } from "../../../src/markdown.ts";
 import { PageHeader } from "../../../components/PageHeader.tsx";
 
 interface Props {
@@ -14,7 +14,9 @@ export const handler: Handlers<Props, ServerState> = {
     const url = new URL(req.url);
     const sectionSlug = ctx.params.section;
     const pageSlug = ctx.params.slug;
-    const page = await getGardenPage(sectionSlug, pageSlug);
+    const sectionAndPage = `garden/${sectionSlug}/${pageSlug}`;
+    const section = await getSection(`garden/${sectionSlug}`);
+    const page = await getPage({ slug: sectionAndPage });
 
     if (!page) {
       return ctx.renderNotFound({ ...ctx.state });
@@ -34,8 +36,8 @@ export const handler: Handlers<Props, ServerState> = {
         path: "/garden",
       },
       {
-        title: page.section ?? "section",
-        path: `/garden/${sectionSlug}`,
+        title: section.title,
+        path: `/${section.path}`,
       },
       {
         title: page.title,

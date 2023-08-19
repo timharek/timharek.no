@@ -125,21 +125,6 @@ Deno.test("Get section", async () => {
     wordCount: 4,
     pages: [
       {
-        content: "This is sub section page.\n",
-        path: "section/subsection/page",
-        readingTime: 1,
-        section: "section/subsection",
-        slug: "page",
-        title: "Sub section page",
-        wordCount: 5,
-      },
-      {
-        content: "This is sub section index.\n",
-        path: "section/subsection",
-        slug: "section/subsection",
-        title: "Sub section index",
-      } as Page,
-      {
         content: "This is section page.\n",
         path: "section/page",
         readingTime: 1,
@@ -147,6 +132,27 @@ Deno.test("Get section", async () => {
         title: "Section page",
         wordCount: 4,
         section: "section",
+      },
+    ],
+    subSections: [
+      {
+        title: "Sub section index",
+        slug: "section/subsection",
+        path: "section/subsection",
+        content: "This is sub section index.\n",
+        readingTime: 1,
+        wordCount: 5,
+        pages: [
+          {
+            content: "This is sub section page.\n",
+            path: "section/subsection/page",
+            readingTime: 1,
+            section: "section/subsection",
+            slug: "page",
+            title: "Sub section page",
+            wordCount: 5,
+          },
+        ],
       },
     ],
   });
