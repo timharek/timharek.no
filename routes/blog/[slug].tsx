@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { render } from "gfm/mod.ts";
-import { css, getBlogPost } from "../../src/markdown.ts";
+import { css, getPost } from "../../src/markdown.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { config } from "../../config.ts";
@@ -23,7 +23,7 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
   async GET(req, ctx) {
     const slug = ctx.params.slug;
 
-    const post = await getBlogPost(slug);
+    const post = await getPost(slug);
 
     if (!post) {
       return ctx.renderNotFound();

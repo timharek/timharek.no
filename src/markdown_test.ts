@@ -1,5 +1,5 @@
 import { assertEquals } from "$std/testing/asserts.ts";
-import { getPage, getSection } from "./markdown.ts";
+import { getPage, getPost, getSection } from "./markdown.ts";
 
 Deno.test("Get page", async () => {
   const prefix = "./testdata/markdown/content";
@@ -134,5 +134,26 @@ Deno.test("Get page from section", async () => {
     title: "Section page",
     wordCount: 4,
     section: "section",
+  });
+});
+
+Deno.test("Get post from blog", async () => {
+  const prefix = "./testdata/markdown/content";
+  const slug = "test-post1";
+  const section = "blog";
+
+  const post = await getPost(slug, section, prefix);
+
+  assertEquals(post, {
+    title: "Test post 1",
+    slug: "test-post1",
+    path: "blog/test-post1",
+    description: "This is a test post.",
+    draft: true,
+    date: new Date("2023-08-16"),
+    content: "Lorem ipsum.\n",
+    readingTime: 1,
+    wordCount: 2,
+    section: "blog",
   });
 });

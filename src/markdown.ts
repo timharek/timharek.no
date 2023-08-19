@@ -67,7 +67,7 @@ export async function getSection(
   };
 }
 
-export async function getBlogPost(
+export async function getPost(
   slug: string,
   blogSlug = "blog",
   prefix = "../content",
