@@ -2,10 +2,10 @@ import { assertEquals } from "$std/testing/asserts.ts";
 import { getPage, getSection } from "./markdown.ts";
 
 Deno.test("Get page", async () => {
-  const prefixPath = "./testdata/markdown/content";
-  const path = "page.md";
+  const prefix = "./testdata/markdown/content";
+  const slug = "page";
 
-  const page = await getPage(path, prefixPath);
+  const page = await getPage({ slug, prefix });
 
   assertEquals(page, {
     title: "Page",
@@ -14,14 +14,15 @@ Deno.test("Get page", async () => {
     readingTime: 1,
     slug: "page",
     wordCount: 3,
+    section: "main",
   });
 });
 
 Deno.test("Get page with more fields", async () => {
-  const prefixPath = "./testdata/markdown/content";
-  const path = "page-2.md";
+  const prefix = "./testdata/markdown/content";
+  const slug = "page-2";
 
-  const page = await getPage(path, prefixPath);
+  const page = await getPage({ slug, prefix });
 
   assertEquals(page, {
     title: "Page 2",
@@ -32,6 +33,7 @@ Deno.test("Get page with more fields", async () => {
     wordCount: 4,
     description: "Hello world",
     updated: new Date("2023-08-18T00:00:00.000Z"),
+    section: "main",
   });
 });
 
@@ -58,6 +60,7 @@ Deno.test("Get section with a blog-ish", async () => {
         content: "Lorem ipsum.\n",
         readingTime: 1,
         wordCount: 2,
+        section: "blog",
       },
       {
         title: "Test post",
@@ -71,6 +74,7 @@ Deno.test("Get section with a blog-ish", async () => {
         taxonomies: {
           tags: ["Tag 1", "Tag 2"],
         },
+        section: "blog",
       },
       {
         title: "Test post 1",
@@ -82,12 +86,13 @@ Deno.test("Get section with a blog-ish", async () => {
         content: "Lorem ipsum.\n",
         readingTime: 1,
         wordCount: 2,
+        section: "blog",
       },
     ],
   });
 });
 
-Deno.test("Get section 2", async () => {
+Deno.test("Get section", async () => {
   const prefixPath = "./testdata/markdown/content";
   const sectionSlug = "section";
 
@@ -108,7 +113,26 @@ Deno.test("Get section 2", async () => {
         slug: "page",
         title: "Section page",
         wordCount: 4,
+        section: "section",
       },
     ],
+  });
+});
+
+Deno.test("Get page from section", async () => {
+  const prefix = "./testdata/markdown/content";
+  const slug = "page";
+  const section = "section";
+
+  const page = await getPage({ slug, prefix, section });
+
+  assertEquals(page, {
+    content: "This is section page.\n",
+    path: "section/page",
+    readingTime: 1,
+    slug: "page",
+    title: "Section page",
+    wordCount: 4,
+    section: "section",
   });
 });

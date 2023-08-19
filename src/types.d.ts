@@ -15,6 +15,7 @@ interface PostAttrs extends Attrs {
   };
 }
 
+type SectionProp = "main" | string;
 interface Page {
   title: string;
   slug: string;
@@ -27,7 +28,7 @@ interface Page {
   updated?: Date;
   draft?: boolean;
   /** title */
-  section?: string;
+  section: SectionProp;
 }
 
 interface Post extends Page {
@@ -37,7 +38,7 @@ interface Post extends Page {
   };
 }
 
-type Section = Page & {
+type Section = Omit<Page, "section"> & {
   pages: Page[] | Post[];
   subSections?: Section[];
 };

@@ -15,19 +15,26 @@ export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
 }
 
 export async function getPage(
-  path: string,
-  prefix = "../content",
+  { slug, prefix = "../content", section }: {
+    slug: string;
+    prefix?: string;
+    section?: SectionProp;
+  },
 ): Promise<Page> {
-  const fullPath = new URL(`${prefix}/${path}`, import.meta.url);
+  const fullPath = new URL(
+    `${prefix}/${section ? `${section}/` : ""}${slug}.md`,
+    import.meta.url,
+  );
   const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
 
   return {
     title: attrs.title,
-    path: path.replace(".md", ""),
-    slug: path.replace(".md", ""),
+    path: section ? `${section}/${slug}` : slug,
+    slug,
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
     content: body,
+    section: section ? section : "main",
     ...(attrs.description && { description: attrs.description }),
     ...(attrs.updated && { updated: new Date(attrs.updated) }),
     ...(attrs.draft && { draft: attrs.draft }),
@@ -116,6 +123,7 @@ export async function getAllPages(): Promise<Page[]> {
             content: body,
             wordCount: getWordCount(body),
             readingTime: getReadingTime(body),
+            section: item.name,
             ...(attrs.description && { description: attrs.description }),
             ...(attrs.updated && { updated: new Date(attrs.updated) }),
             ...(attrs.draft && { draft: attrs.draft }),
@@ -141,6 +149,7 @@ export async function getAllPages(): Promise<Page[]> {
       content: body,
       wordCount: getWordCount(body),
       readingTime: getReadingTime(body),
+      section: "main",
       ...(attrs.description && { description: attrs.description }),
       ...(attrs.updated && { updated: new Date(attrs.updated) }),
       ...(attrs.draft && { draft: attrs.draft }),
@@ -203,11 +212,11 @@ export const css = `
   `;
 
 async function getPagesFromSection(
-  section: string,
+  sectionSlug: SectionProp,
   prefix = "../content",
 ): Promise<Page[] | Post[]> {
   const pages: (Page | Post)[] = [];
-  const commonPath = `${prefix}/${section}`;
+  const commonPath = `${prefix}/${sectionSlug}`;
   const contentPath = new URL(commonPath, import.meta.url);
   const contentDir = Deno.readDir(contentPath);
 
@@ -216,7 +225,6 @@ async function getPagesFromSection(
       continue;
     }
     let slug = item.name.replace(".md", "");
-    const filePath = new URL(`${contentPath}/${item.name}`);
 
     const isPost = item.name.match(YYYY_MM_DD_REGEX);
     if (isPost) {
@@ -235,10 +243,11 @@ async function getPagesFromSection(
         title: attrs.title,
         date: new Date(postDate),
         slug,
-        path: `${section}/${slug}`,
+        path: `${sectionSlug}/${slug}`,
         content: body,
         wordCount: getWordCount(body),
         readingTime: getReadingTime(body),
+        section: sectionSlug,
         ...(attrs.taxonomies && { taxonomies: attrs.taxonomies }),
         ...(attrs.description && { description: attrs.description }),
         ...(attrs.updated && { updated: new Date(attrs.updated) }),
@@ -255,19 +264,9 @@ async function getPagesFromSection(
     if (item.isDirectory) {
       continue;
     }
-    const { attrs, body } = await getMarkdownFile<PageAttrs>(filePath);
+    const page = await getPage({ slug, section: sectionSlug, prefix });
 
-    pages.push({
-      title: attrs.title,
-      slug,
-      path: `${section}/${slug}`,
-      content: body,
-      wordCount: getWordCount(body),
-      readingTime: getReadingTime(body),
-      ...(attrs.description && { description: attrs.description }),
-      ...(attrs.updated && { updated: new Date(attrs.updated) }),
-      ...(attrs.draft && { draft: attrs.draft }),
-    });
+    pages.push(page);
   }
 
   return pages;
@@ -321,6 +320,7 @@ export async function getGardenSections(): Promise<Page[] | null> {
       content: body,
       wordCount: getWordCount(body),
       readingTime: getReadingTime(body),
+      section: entry.name,
       ...(section && section.pages.length > 0 && { pages: section.pages }),
       ...(attrs.draft && { draft: attrs.draft }),
     });
