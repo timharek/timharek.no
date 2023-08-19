@@ -22,7 +22,9 @@ export async function getPage(
   },
 ): Promise<Page> {
   const fullPath = new URL(
-    `${prefix}/${section ? `${section}/` : ""}${slug}.md`,
+    `${prefix}/${section ? `${section}/` : ""}${
+      slug === "" ? "_index" : slug
+    }.md`,
     import.meta.url,
   );
   const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
@@ -122,21 +124,9 @@ export async function getAllPages(
     if (item.name === "_index.md") {
       slug = "";
     }
-    const filePath = new URL(`${contentPath}/${item.name}`);
-    const { attrs, body } = await getMarkdownFile<Page>(filePath);
+    const page = await getPage({ slug, prefix });
 
-    pages.push({
-      title: attrs.title,
-      slug,
-      path: slug,
-      content: body,
-      wordCount: getWordCount(body),
-      readingTime: getReadingTime(body),
-      section: "main",
-      ...(attrs.description && { description: attrs.description }),
-      ...(attrs.updated && { updated: new Date(attrs.updated) }),
-      ...(attrs.draft && { draft: attrs.draft }),
-    });
+    pages.push(page);
   }
 
   return pages.sort((a, b) => a.title.localeCompare(b.title));
