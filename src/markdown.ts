@@ -189,9 +189,21 @@ async function getPagesFromSection(
     if (item.name.match(".DS_Store|_index.md|_index.no.md")) {
       continue;
     }
+    const isPost = item.name.match(YYYY_MM_DD_REGEX);
+
+    if (item.isDirectory && !isPost) {
+      const subSectionSlug = `${sectionSlug}/${item.name}`;
+      const subSection = await getSection(subSectionSlug, prefix);
+      pages.push(...subSection.pages, {
+        title: subSection.title,
+        slug: subSection.slug,
+        content: subSection.content,
+        path: subSection.slug,
+      } as Page);
+      continue;
+    }
     let slug = item.name.replace(".md", "");
 
-    const isPost = item.name.match(YYYY_MM_DD_REGEX);
     if (isPost) {
       slug = slug.replace(YYYY_MM_DD_REGEX, "").replace("-", "");
       const postDate = isPost ? isPost[0] : "";

@@ -125,6 +125,21 @@ Deno.test("Get section", async () => {
     wordCount: 4,
     pages: [
       {
+        content: "This is sub section page.\n",
+        path: "section/subsection/page",
+        readingTime: 1,
+        section: "section/subsection",
+        slug: "page",
+        title: "Sub section page",
+        wordCount: 5,
+      },
+      {
+        content: "This is sub section index.\n",
+        path: "section/subsection",
+        slug: "section/subsection",
+        title: "Sub section index",
+      } as Page,
+      {
         content: "This is section page.\n",
         path: "section/page",
         readingTime: 1,
@@ -235,12 +250,6 @@ Deno.test("Get all pages", async () => {
 
   const pages = await getAllPages(prefix);
 
-  // TODO: Remember to get subsections
-  // src/testdata/markdown/content
-  // └── section
-  //     └── subsection
-  //         ├── _index.md
-  //         └── page.md
   assertEquals(pages.map((page) => page.title), [
     "Blog index",
     "Index page",
@@ -248,6 +257,8 @@ Deno.test("Get all pages", async () => {
     "Page 2",
     "Section index",
     "Section page",
+    "Sub section index",
+    "Sub section page",
     "Test post",
     "Test post 1",
     "Test post 3 in a dir",
