@@ -4,9 +4,9 @@ import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { ServerState } from "./_middleware.ts";
 
-export default function App(props: AppProps) {
+export default function App(props: AppProps<ServerState>) {
   const Component = props.Component;
-  const state = props.data as ServerState;
+  const state = props.data;
   const currentPath = new URL(props.url).pathname;
 
   return (

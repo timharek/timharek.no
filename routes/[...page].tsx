@@ -6,41 +6,46 @@ import { ServerState } from "./_middleware.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { css } from "../src/markdown.ts";
 
-interface Props {
-  page: Page;
+interface Props extends ServerState {
+  page?: Page;
 }
 
 export const handler: Handlers<Props, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const pageSlug = ctx.params.page;
-    const page = await getPage({ slug: pageSlug });
+    try {
+      const page = await getPage({ slug: pageSlug });
 
-    if (!page) {
+      if (!page) {
+        return ctx.renderNotFound();
+      }
+
+      ctx.state.title = `${page.title} - ${ctx.state.title}`;
+      if (page.description) {
+        ctx.state.description = page.description;
+      }
+      ctx.state.breadcrumbs = [
+        {
+          title: "Index",
+          path: "/",
+        },
+        {
+          title: page.title,
+          path: url.pathname,
+          current: true,
+        },
+      ];
+
+      return ctx.render({ ...ctx.state, page });
+    } catch (error) {
+      console.error(error);
       return ctx.renderNotFound({ ...ctx.state });
     }
-
-    ctx.state.title = `${page.title} - ${ctx.state.title}`;
-    if (page.description) {
-      ctx.state.description = page.description;
-    }
-    ctx.state.breadcrumbs = [
-      {
-        title: "Index",
-        path: "/",
-      },
-      {
-        title: page.title,
-        path: url.pathname,
-        current: true,
-      },
-    ];
-
-    return ctx.render({ ...ctx.state, page });
   },
 };
 
-export default function Page({ data }: PageProps<Props>) {
+export default function Page({ data }: PageProps<Required<Props>>) {
   const { page } = data;
   const body = render(page.content);
 

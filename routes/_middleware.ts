@@ -1,7 +1,6 @@
 import { MiddlewareHandlerContext, Status } from "$fresh/server.ts";
 import { Breadcrumbs } from "../components/Breadcrumbs.tsx";
 import { config } from "../config.ts";
-import { getRelativeTime } from "../src/utils.ts";
 
 export interface ServerState {
   title: string;

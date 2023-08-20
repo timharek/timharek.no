@@ -18,9 +18,9 @@ const availableLogs: AvailableLogs = {
   travel: ["travel.json"],
 };
 
-interface LogProps {
-  entries: Log.Entry[];
-  page: Page;
+interface LogProps extends ServerState {
+  entries?: Log.Entry[];
+  page?: Page;
 }
 
 export const handler: Handlers<LogProps, ServerState> = {
@@ -97,7 +97,7 @@ export const handler: Handlers<LogProps, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<LogProps & ServerState>) {
+export default function Page({ data }: PageProps<Required<LogProps>>) {
   const { entries, page } = data;
   const body = render(page.content);
   const groupedEntries = groupBy(
@@ -262,6 +262,8 @@ function getStars(rating: number) {
   return stars.join("");
 }
 
-function hasReview(entry: unknown): entry is Log.MovieEntry {
-  return "review" in entry;
+function hasReview(
+  entry: unknown,
+): entry is Log.BookEntry | Log.GameEntry | Log.MovieEntry {
+  return "review" in (entry as never);
 }

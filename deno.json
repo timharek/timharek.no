@@ -12,7 +12,8 @@
   },
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "types": ["./src/types.d.ts", "./src/log/mod.d.ts"]
   },
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.4.2/",

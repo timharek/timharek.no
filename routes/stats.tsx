@@ -9,9 +9,9 @@ import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
 import { ChartColors, transparentize } from "$fresh_charts/utils.ts";
 
-interface Props {
-  page: Page;
-  stats: Stats;
+interface Props extends ServerState {
+  page?: Page;
+  stats?: Stats;
 }
 
 export const handler: Handlers<Props, ServerState> = {
@@ -44,7 +44,7 @@ export const handler: Handlers<Props, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<Props>) {
+export default function Page({ data }: PageProps<Required<Props>>) {
   const { page, stats } = data;
   const body = render(page.content);
 
@@ -87,7 +87,7 @@ export default function Page({ data }: PageProps<Props>) {
             type="bar"
             options={{
               devicePixelRatio: 1,
-              scales: { yAxes: [{ ticks: { beginAtZero: true } }] },
+              scales: { y: { beginAtZero: true } },
             }}
             data={{
               labels: Object.keys(stats.blogByYear),

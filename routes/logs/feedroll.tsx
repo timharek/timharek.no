@@ -21,9 +21,9 @@ interface Feed {
     text: string;
   };
 }
-interface FeedrollProps {
-  entries: Feed[];
-  page: Page;
+interface FeedrollProps extends ServerState {
+  entries?: Feed[];
+  page?: Page;
 }
 
 export const handler: Handlers<FeedrollProps, ServerState> = {
@@ -64,7 +64,7 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
       for (const file of files) {
         const logPath = new URL(file, import.meta.url);
         const logRaw = await Deno.readTextFile(logPath);
-        const log = JSON.parse(logRaw) as Record<string, string>[];
+        const log = JSON.parse(logRaw) as Feed[];
         logs.push(...log);
       }
       if (!isRequestingHtml) {
@@ -81,7 +81,7 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<FeedrollProps & ServerState>) {
+export default function Page({ data }: PageProps<Required<FeedrollProps>>) {
   const { entries, page } = data;
   const body = render(page.content);
 

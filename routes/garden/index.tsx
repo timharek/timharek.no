@@ -7,8 +7,8 @@ import { PageHeader } from "../../components/PageHeader.tsx";
 import { Link } from "../../components/Link.tsx";
 import { css } from "../../src/markdown.ts";
 
-interface Props {
-  section: Section;
+interface Props extends ServerState {
+  section?: Section;
 }
 
 export const handler: Handlers<Props, ServerState> = {
@@ -41,7 +41,7 @@ export const handler: Handlers<Props, ServerState> = {
   },
 };
 
-export default function GardenSection({ data }: PageProps<Props>) {
+export default function GardenSection({ data }: PageProps<Required<Props>>) {
   const { section } = data;
   const body = render(section.content);
 
