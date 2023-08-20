@@ -1,5 +1,5 @@
 {
-  "last_update": "2023-08-04",
+  "last_update": "2023-08-20",
   "basics": {
     "name": "Tim Hårek Andreassen",
     "label": "Full-stack developer",
@@ -34,7 +34,8 @@
       "endDate": null,
       "summary": null,
       "highlights": [
-        "Full-stack applications with Next.js and Google Cloud Run."
+        "Full-stack applications with Next.js and Google Cloud Run.",
+        "Integration work with Deno using Oak to parse data from 24SevenOffice's SOAP API."
       ]
     },
     {
@@ -229,7 +230,7 @@
         "Python",
         "HTML",
         "CSS",
-        "JS",
+        "JavaScript",
         "PHP"
       ]
     },
@@ -247,7 +248,8 @@
         "Tailwind",
         "Vue.js",
         "Zola",
-        "jQuery"
+        "jQuery",
+        "Oak"
       ]
     },
     {
@@ -255,16 +257,30 @@
       "level": null,
       "keywords": [
         "Ansible",
-        "Buddy works",
         "Docker",
         "Git",
-        "GitHub Actions",
         "Helix",
         "UNIX",
-        "Vim",
+        "Vim"
+      ]
+    },
+    {
+      "name": "Cloud infrastructure",
+      "level": null,
+      "keywords": [
         "AWS Amplify",
         "Azure",
         "Google Cloud Run"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "keywords": [
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Buddy works",
+        "SourceHut builds"
       ]
     },
     {
@@ -279,7 +295,7 @@
       ]
     },
     {
-      "name": "Design",
+      "name": "Design tools",
       "level": null,
       "keywords": [
         "Affinity Designer",
