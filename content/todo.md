@@ -12,3 +12,6 @@ updated = 2023-08-19
 - Add query params for CV, Work, Logs++
 - Add counter to tags
 - Add /now page
+- Add unit tests for sitemap.xml
+- Add unit tests for rss.xml
+- Add JSON-feed
