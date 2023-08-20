@@ -1,11 +1,9 @@
-// @deno-types="./mod.d.ts"
-
 import { Input, List, Number, prompt, Select } from "../deps.ts";
 import {
   getBook,
   searchBook,
 } from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.ts";
-import {
+import type {
   OpenLibrary,
 } from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
 import { getCurrentDate, selectKeys } from "./util.ts";
@@ -33,7 +31,9 @@ export async function logBook(): Promise<Log.Entry> {
     (book: Record<string, string | string[]>) => {
       return {
         name: `${book.title} (${book.first_publish_year}) by ${
-          book.author_name.join(", ")
+          typeof book.author_name === "string"
+            ? book.author_name
+            : book.author_name.join(", ")
         }`,
         publishYear: book.first_publish_year,
         author: book.author_name,
@@ -69,7 +69,9 @@ export async function logBook(): Promise<Log.Entry> {
     },
   ]);
 
-  const book: OpenLibrary.IBook = await getBook(selectedResult.split("/")[2]);
+  const book: OpenLibrary.IBook = await getBook(
+    (selectedResult as string).split("/")[2],
+  );
   const bookFields =
     selectOptions.filter((book: Record<string, string>) =>
       book.value === selectedResult
@@ -78,10 +80,10 @@ export async function logBook(): Promise<Log.Entry> {
   return {
     type: "book",
     title: book.title,
-    date: date,
+    date: date as string,
     publish_year: bookFields.publishYear,
     author: bookFields.author,
-    review: { rating },
-    genres,
+    review: { rating: rating as number },
+    genres: genres as string[],
   };
 }

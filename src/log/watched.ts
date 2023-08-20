@@ -1,6 +1,5 @@
-// @deno-types="./mod.d.ts"
-
-import { getMovie, Input, Number, OMDB, prompt } from "../deps.ts";
+import { getMovie, Input, Number, prompt } from "../deps.ts";
+import type { OMDB } from "../deps.ts";
 import { getCurrentDate } from "./util.ts";
 
 export async function logMovieOrTv(
@@ -44,16 +43,16 @@ export async function logMovieOrTv(
   const options = {
     api: Deno.env.get("OMDB_API") ?? "",
     verbose: 3,
-    titleOrId: title,
+    titleOrId: title as string,
   };
 
-  const entry: OMDB = await getMovie(options);
+  const entry: OMDB.Response = await getMovie(options);
 
   if (logType === "movie") {
     return {
       type: "movie",
       title: entry.title,
-      date: new Date(date),
+      date: new Date(date as string).toISOString(),
       genres: entry.genre,
       release_year: entry.year,
       review: { rating },
@@ -64,7 +63,7 @@ export async function logMovieOrTv(
   return {
     type: "tv",
     title: entry.title,
-    date: new Date(date),
+    date: new Date(date as string),
     genres: entry.genre,
     release_year: entry.year,
     review: { rating },

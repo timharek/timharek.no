@@ -1,10 +1,10 @@
-// @deno-types="./mod.d.ts"
-
 import { Confirm, logPath, Select } from "../deps.ts";
 import { selectKeys } from "./util.ts";
 
+type Type = "movie" | "tv" | "game" | "book" | "life" | "travel";
+
 async function readFile() {
-  const type: "movie" | "tv" | "game" | "book" | "life" = await Select.prompt({
+  const type = await Select.prompt<Type>({
     message: "What do you want to log?",
     options: [
       { name: "Movie", value: "movie" },
@@ -20,13 +20,13 @@ async function readFile() {
 
   const fileToRead = logPath[type];
 
-  const file: Log.IEntry[] = JSON.parse(await Deno.readTextFile(fileToRead));
+  const file: Log.Entry[] = JSON.parse(await Deno.readTextFile(fileToRead));
 
   const titles = file.map((item) => {
     return { name: `${item.title}`, value: `${item.title}` };
   });
 
-  const selectedTitle: string = await Select.prompt({
+  const selectedTitle = await Select.prompt({
     message: "Which title do you to view in more detail?",
     options: titles,
     search: true,
@@ -34,7 +34,9 @@ async function readFile() {
 
   console.log(selectedTitle);
 
-  const details: unknown = file.find((item) => item.title === selectedTitle);
+  const details: unknown = file.find((item) =>
+    item.title === selectedTitle.value
+  );
 
   console.log(details);
 
