@@ -10,7 +10,6 @@ interface SitemapProps {
 export const handler: Handlers<SitemapProps, ServerState> = {
   async GET(_req, _ctx) {
     const pages = await getAllPages();
-    console.log(pages);
 
     const sitemap = generateSitemap([...pages]);
 

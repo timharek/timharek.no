@@ -34,7 +34,6 @@ ${
         `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,
       ).toString()
     }`);
-    console.log(content);
     return `<entry xml:lang="en">
 	<title>${sanitizeHtml(post.title)}</title>
 	<author>
