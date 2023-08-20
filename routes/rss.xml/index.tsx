@@ -46,7 +46,7 @@ ${
 	<updated>${
       post.updated ? post.updated.toISOString() : post.date.toISOString()
     }</updated>
-	<link rel="alternate" href="${config.base_url}${post.path}" type="text/html"/>
+	<link rel="alternate" href="${config.base_url}/${post.path}" type="text/html"/>
 	<id>${config.base_url}/${post.path}</id>
     ${tags ? tags.join("\n\t") : ""}
     <content type="html">
