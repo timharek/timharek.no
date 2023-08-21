@@ -65,7 +65,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
       <article
         data-color-mode="dark"
         data-dark-theme="dark"
-        class="max-w-screen-md mx-auto px-4 mb-4"
+        class="max-w-screen-md mx-auto px-4 mb-4 e-content"
       >
         <PageHeader
           title={title}
@@ -110,6 +110,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
                     <Link
                       href={`/${tag.path}`}
                       label={`#${tag.slug}`}
+                      className="p-category"
                     />
                   </li>
                 ))}
