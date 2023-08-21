@@ -1,0 +1,100 @@
+import { Handlers } from "$fresh/server.ts";
+import { escapeHtml } from "https://deno.land/x/escape_html@1.0.0/mod.ts";
+import { config } from "../../config.ts";
+import { getSection } from "../../src/content.ts";
+import { ServerState } from "../_middleware.ts";
+import { render } from "gfm/mod.ts";
+import { sanitizeHtml } from "gfm/deps.ts";
+export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
+
+interface RSSProps {
+  posts: Post[];
+}
+
+export const handler: Handlers<RSSProps, ServerState> = {
+  async GET(_req, _ctx) {
+    const posts = (await getSection("blog")).pages as Post[];
+    const POST_COUNT = 15;
+
+    const feed = generateJsonFeed(posts.slice(0, 15));
+
+    return new Response(JSON.stringify(feed, null, 2), {
+      headers: { "content-type": "application/json; charset=utf-8" },
+    });
+  },
+};
+
+interface Author {
+  name?: string;
+  url?: URL;
+  avatar?: URL;
+}
+interface Item {
+  title: string;
+  id: string;
+  url: URL;
+  content_html: string;
+  summary?: string;
+  image?: URL;
+  banner_image?: URL;
+  date_published: Date;
+  date_modified?: Date;
+  authors?: Author[];
+  tags?: string[];
+  language?: string;
+}
+interface Attachment {
+  url: URL;
+  mime_type: string;
+  title?: string;
+  size_in_bytes?: number;
+  duration_in_seconds?: number;
+}
+interface JSONFeed {
+  version: "https://www.jsonfeed.org/version/1.1/";
+  user_comment: string;
+  title: string;
+  icon?: URL;
+  favicon?: URL;
+  description?: string;
+  home_page_url?: URL;
+  feed_url?: URL;
+  authors?: Author[];
+  language?: string;
+  expired?: boolean;
+  items: Item[];
+  attachments?: Attachment[];
+}
+
+function generateJsonFeed(posts: Post[]): JSONFeed {
+  return {
+    version: "https://www.jsonfeed.org/version/1.1/",
+    user_comment:
+      `"This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — ${config.base_url}/feed.json — and add it your reader."`,
+    title: config.title,
+    description: config.description,
+    home_page_url: new URL(config.base_url),
+    feed_url: new URL(`${config.base_url}/feed.json`),
+    authors: [{
+      name: config.author,
+      url: new URL(config.base_url),
+      avatar: new URL(`${config.base_url}/${config.author_img}`),
+    }],
+    items: posts.map((post) => {
+      return {
+        title: post.title,
+        id: post.path,
+        url: new URL(`${config.base_url}/${post.path}`),
+        date_published: post.date,
+        ...(post.updated && { date_modified: post.updated }),
+        content_html: `${render(post.content).toString()} ${
+          sanitizeHtml(
+            `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,
+          ).toString()
+        }`,
+        ...(post.taxonomies?.tags &&
+          { tags: post.taxonomies?.tags.map((tag) => tag.title) }),
+      };
+    }),
+  };
+}
