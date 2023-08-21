@@ -1,5 +1,3 @@
-// @deno-types="./types.d.ts"
-
 import { groupBy } from "./group_by.ts";
 import { getMarkdownFile } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
@@ -293,8 +291,8 @@ export async function getGlobalStats(
   }, 0);
 
   const blogByYear = groupBy<string, Post>(
-    blog.pages,
-    (post: Post) => post.date.getFullYear(),
+    blog.pages as Post[],
+    (post: Post) => post.date.getFullYear().toString(),
   );
 
   return {
