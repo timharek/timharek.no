@@ -42,4 +42,10 @@ export const config = {
       },
     ],
   },
+  "rel=me": [
+    "https://github.com/timharek",
+    "https://sr.ht/~timharek",
+    "mailto:tim@harek.no",
+    "/public-key.asc",
+  ],
 };

@@ -3,6 +3,7 @@ import { AppProps } from "$fresh/server.ts";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { ServerState } from "./_middleware.ts";
+import { config } from "../config.ts";
 
 export default function App(props: AppProps<ServerState>) {
   const Component = props.Component;
@@ -25,6 +26,7 @@ export default function App(props: AppProps<ServerState>) {
           src="https://timharek.no/js/script.js"
         >
         </script>
+        {config["rel=me"].map((item) => <link rel="me" href={item} />)}
         <link
           rel="alternate"
           type="application/rss+xml"
