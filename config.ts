@@ -38,7 +38,7 @@ export const config = {
       },
       {
         title: "RSS",
-        path: "/rss.xml",
+        path: "/feed.xml",
       },
     ],
   },

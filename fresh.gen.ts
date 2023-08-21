@@ -10,14 +10,14 @@ import * as $4 from "./routes/blog/[slug].tsx";
 import * as $5 from "./routes/blog/index.tsx";
 import * as $6 from "./routes/cv.tsx";
 import * as $7 from "./routes/feed.json/index.ts";
-import * as $8 from "./routes/garden/[section]/[slug].tsx";
-import * as $9 from "./routes/garden/[section]/index.tsx";
-import * as $10 from "./routes/garden/index.tsx";
-import * as $11 from "./routes/index.tsx";
-import * as $12 from "./routes/logs/[slug].tsx";
-import * as $13 from "./routes/logs/feedroll.tsx";
-import * as $14 from "./routes/logs/index.tsx";
-import * as $15 from "./routes/rss.xml/index.ts";
+import * as $8 from "./routes/feed.xml/index.ts";
+import * as $9 from "./routes/garden/[section]/[slug].tsx";
+import * as $10 from "./routes/garden/[section]/index.tsx";
+import * as $11 from "./routes/garden/index.tsx";
+import * as $12 from "./routes/index.tsx";
+import * as $13 from "./routes/logs/[slug].tsx";
+import * as $14 from "./routes/logs/feedroll.tsx";
+import * as $15 from "./routes/logs/index.tsx";
 import * as $16 from "./routes/sitemap.xml/index.ts";
 import * as $17 from "./routes/stats.tsx";
 import * as $18 from "./routes/tags/[slug].tsx";
@@ -35,14 +35,14 @@ const manifest = {
     "./routes/blog/index.tsx": $5,
     "./routes/cv.tsx": $6,
     "./routes/feed.json/index.ts": $7,
-    "./routes/garden/[section]/[slug].tsx": $8,
-    "./routes/garden/[section]/index.tsx": $9,
-    "./routes/garden/index.tsx": $10,
-    "./routes/index.tsx": $11,
-    "./routes/logs/[slug].tsx": $12,
-    "./routes/logs/feedroll.tsx": $13,
-    "./routes/logs/index.tsx": $14,
-    "./routes/rss.xml/index.ts": $15,
+    "./routes/feed.xml/index.ts": $8,
+    "./routes/garden/[section]/[slug].tsx": $9,
+    "./routes/garden/[section]/index.tsx": $10,
+    "./routes/garden/index.tsx": $11,
+    "./routes/index.tsx": $12,
+    "./routes/logs/[slug].tsx": $13,
+    "./routes/logs/feedroll.tsx": $14,
+    "./routes/logs/index.tsx": $15,
     "./routes/sitemap.xml/index.ts": $16,
     "./routes/stats.tsx": $17,
     "./routes/tags/[slug].tsx": $18,

@@ -24,5 +24,6 @@
   "/resume": "/cv",
   "/travel": "/logs/travel",
   "/watched": "/logs/watched",
-  "/watching": "/logs/watched"
+  "/watching": "/logs/watched",
+  "/rss.xml": "/feed.xml"
 }
