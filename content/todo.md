@@ -1,7 +1,7 @@
 +++
 title = "TODOs"
 description = "Todos for timharek.no"
-updated = 2023-08-19
+updated = 2023-08-21
 +++
 
 - Update layout/design
@@ -12,3 +12,4 @@ updated = 2023-08-19
 - Add unit tests for sitemap.xml
 - Add unit tests for rss.xml
 - Add JSON-feed
+- Make more IndieWeb compatiable: see https://indiewebify.me/
