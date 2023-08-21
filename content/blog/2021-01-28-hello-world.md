@@ -26,4 +26,4 @@ privacy and security tips, as this is something I find very interesting and
 important.
 
 If you ever have any questions about the blog, or to me personally, please to
-not hesitate to <a href="/contact">get in touch</a>!
+not hesitate to [get in touch](/connect)!
