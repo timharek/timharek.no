@@ -10,7 +10,7 @@ export function PostList({ posts }: Props) {
       {posts.map((post) => (
         <li class="border-l-4 border-primary pl-2 w-full">
           <div class="flex flex-wrap-reverse gap-2 justify-between ">
-            <Link href={post.path} label={post.title} />
+            <Link href={`/${post.path}`} label={post.title} />
             {post.date && (
               <span class="text-gray-400 font-mono">
                 {post.date.toISOString().split("T")[0]}
