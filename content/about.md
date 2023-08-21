@@ -14,6 +14,8 @@ architecture, accessibility and UX design.
 During my my free time I learn about new technologies, automate my everyday and
 hike with my dog! 🐕
 
+Check out my [now](/now)-page for what I'm up to now.
+
 ## Contact
 
 You can always reach me at
