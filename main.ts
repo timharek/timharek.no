@@ -14,8 +14,11 @@ import twindConfig from "./twind.config.ts";
 
 import "$std/dotenv/load.ts";
 
-const hostname = Deno.env.get("HOSTNAME") ?? "localhost";
-const port = Deno.env.get("PORT") ?? 8000;
+Deno.env.set("HOSTNAME", Deno.env.get("HOSTNAME") ?? "localhost");
+Deno.env.set("PORT", Deno.env.get("PORT") ?? "8000");
+
+export const hostname = Deno.env.get("HOSTNAME");
+export const port = Deno.env.get("PORT");
 
 await start(manifest, {
   hostname,

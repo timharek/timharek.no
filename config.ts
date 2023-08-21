@@ -1,8 +1,15 @@
+import "$std/dotenv/load.ts";
+
+const HOSTNAME = Deno.env.get("HOSTNAME");
+const PORT = Deno.env.get("PORT");
+
 export const config = {
   title: "Tim Hårek",
   description:
     "Technologist from Norway that cares about creating solutions that respects people in terms of privacy, security and user experience.",
-  base_url: "https://timharek.no",
+  base_url: HOSTNAME != "localhost"
+    ? "https://timharek.no"
+    : `http://localhost:${PORT}`,
   author: "Tim Hårek Andreassen",
   author_img: "img/me.jpeg",
   email: "tim@harek.no",
