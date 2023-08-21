@@ -1,5 +1,4 @@
 import { Handlers } from "$fresh/server.ts";
-import { escapeHtml } from "https://deno.land/x/escape_html@1.0.0/mod.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
@@ -16,7 +15,7 @@ export const handler: Handlers<RSSProps, ServerState> = {
     const posts = (await getSection("blog")).pages as Post[];
     const POST_COUNT = 15;
 
-    const feed = generateJsonFeed(posts.slice(0, 15));
+    const feed = generateJsonFeed(posts.slice(0, POST_COUNT));
 
     return new Response(JSON.stringify(feed, null, 2), {
       headers: { "content-type": "application/json; charset=utf-8" },
