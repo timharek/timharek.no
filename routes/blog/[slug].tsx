@@ -65,7 +65,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
       <article
         data-color-mode="dark"
         data-dark-theme="dark"
-        class="max-w-screen-md mx-auto px-4 mb-4 e-content"
+        class="max-w-screen-md mx-auto px-4 mb-4 h-entry"
       >
         <PageHeader
           title={title}
@@ -73,7 +73,10 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
           updated={post.updated}
           readingTime={post.readingTime}
         />
-        <div class="markdown-body" dangerouslySetInnerHTML={{ __html: body }}>
+        <div
+          class="markdown-body e-content"
+          dangerouslySetInnerHTML={{ __html: body }}
+        >
         </div>
         <Metadata
           tags={post.taxonomies?.tags}
