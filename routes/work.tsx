@@ -11,13 +11,23 @@ import { css } from "../src/markdown.ts";
 interface WorkProps {
   page: Page;
   projects: Project[];
+  filter: {
+    year: string | null;
+    tag: string | null;
+  };
 }
 
 export const handler: Handlers<WorkProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
+    const filter = {
+      year: url.searchParams.get("year"),
+      tag: url.searchParams.get("tag"),
+    };
+
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
+
     try {
       const cvPath = new URL("../static/api/cv.json", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
@@ -41,10 +51,26 @@ export const handler: Handlers<WorkProps, ServerState> = {
           current: true,
         },
       ];
-      const projects = cv.projects.sort((a, b) =>
+      let projects = cv.projects.sort((a, b) =>
         b.endDate.localeCompare(a.endDate)
       );
-      return ctx.render({ ...ctx.state, projects, page });
+
+      if (filter.year) {
+        projects = projects.filter((project) =>
+          new Date(project.endDate).getFullYear().toString() === filter.year
+        );
+      }
+
+      if (filter.tag) {
+        const tag = filter.tag;
+        projects = projects.filter((project) =>
+          project.keywords.some((keyword) =>
+            keyword.toLowerCase() === tag.toLowerCase()
+          )
+        );
+      }
+
+      return ctx.render({ ...ctx.state, projects, page, filter });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
@@ -56,7 +82,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
 };
 
 export default function CV({ data }: PageProps<WorkProps & ServerState>) {
-  const { projects, page } = data;
+  const { projects, page, filter } = data;
   const body = render(page.content);
   return (
     <>
@@ -71,6 +97,12 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
           class="markdown-body"
           dangerouslySetInnerHTML={{ __html: body }}
         />
+        {(filter.year || filter.tag) &&
+          (
+            <p class="">
+              Showing {projects.length} results:
+            </p>
+          )}
         <ul class="space-y-4">
           {projects.map((project) => (
             <li>
