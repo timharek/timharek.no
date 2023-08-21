@@ -28,8 +28,14 @@ export default function App(props: AppProps<ServerState>) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          href="/rss.xml"
-          title="Blog feed"
+          href="/feed.xml"
+          title="RSS feed"
+        />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="/feed.json"
+          title="JSON feed"
         />
         <title>{state.title}</title>
       </Head>
