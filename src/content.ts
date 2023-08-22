@@ -6,6 +6,7 @@ import {
   DOMParser,
 } from "https://deno.land/x/deno_dom@v0.1.38/deno-dom-wasm.ts";
 import { config } from "../config.ts";
+import { parse } from "https://esm.sh/tldts@6.0.14";
 
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
 
@@ -279,8 +280,8 @@ export interface Stats {
   words: string;
   tags: number;
   links: {
-    internal?: URL[];
-    external?: URL[];
+    internal?: InternalLink[];
+    external?: ExternalLink[];
   };
 }
 
@@ -315,10 +316,24 @@ export async function getGlobalStats(
   };
 }
 
+interface ExternalLink {
+  domain: string;
+  count: number;
+  links: {
+    sourceUrl?: string;
+    targetUrl: string;
+  }[];
+}
+
+interface InternalLink {
+  pathname: string;
+  count: number;
+}
+
 interface Links {
   count: number;
-  internal?: URL[];
-  external?: URL[];
+  internal?: InternalLink[];
+  external?: ExternalLink[];
 }
 export async function getAllLinks(
   prefix = "../content",
@@ -326,7 +341,6 @@ export async function getAllLinks(
 ): Promise<Links | null> {
   const allPages = await getAllPages(prefix);
 
-  console.log("baseUrl", baseUrl);
   const allContent = allPages.flatMap((page) =>
     render(page.content, { baseUrl })
   ).join(
@@ -336,28 +350,53 @@ export async function getAllLinks(
   const dom = new DOMParser().parseFromString(allContent, "text/html");
   const anchors = dom?.getElementsByTagName("a");
 
-  if (anchors) {
-    const internal = anchors.filter((link) => {
-      const href = link.getAttribute("href") as string;
-      const isInternalAnchor = href.indexOf("#") > -1;
-      const isHeadingAnchor = link.className.includes("anchor");
-
-      return href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
-    }).map((link) => new URL(link.getAttribute("href") as string));
-    const external = anchors.filter((link) => {
-      const href = link.getAttribute("href") as string;
-      const isInternalAnchor = href.indexOf("#") > -1;
-      const isHeadingAnchor = link.className.includes("anchor");
-
-      return !href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
-    }).map((link) => new URL(link.getAttribute("href") as string));
-
-    return {
-      count: internal.length + external.length,
-      internal,
-      external,
-    };
+  if (!anchors) {
+    return null;
   }
 
-  return null;
+  const internalAnchors = anchors.filter((link) => {
+    const href = link.getAttribute("href") as string;
+    const isInternalAnchor = href.indexOf("#") > -1;
+    const isHeadingAnchor = link.className.includes("anchor");
+
+    return href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
+  }).map((link) => new URL(link.getAttribute("href") as string));
+  const externalAnchors = anchors.filter((link) => {
+    const href = link.getAttribute("href") as string;
+    const isInternalAnchor = href.indexOf("#") > -1;
+    const isHeadingAnchor = link.className.includes("anchor");
+
+    return !href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
+  }).map((link) => new URL(link.getAttribute("href") as string));
+
+  const externalGroup = groupBy(
+    externalAnchors,
+    (link) => parse(link.host).domain,
+  );
+  const external: ExternalLink[] = Object.keys(externalGroup).map((domain) => {
+    return {
+      domain,
+      count: externalGroup[domain].length,
+      links: externalGroup[domain].map((link) => {
+        return {
+          targetUrl: link.toString(),
+        };
+      }),
+    };
+  }).sort((a, b) => b.count - a.count);
+
+  const internalGroup = groupBy(
+    internalAnchors,
+    (link) => link.pathname,
+  );
+
+  const internal = Object.keys(internalGroup).map((pathname) => {
+    return { pathname, count: internalGroup[pathname].length };
+  }).sort((a, b) => b.count - a.count);
+
+  return {
+    count: internal.length + external.length,
+    internal,
+    external,
+  };
 }

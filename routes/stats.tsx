@@ -8,8 +8,6 @@ import { css } from "../src/markdown.ts";
 import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
 import { ChartColors, transparentize } from "$fresh_charts/utils.ts";
-import { groupBy } from "../src/group_by.ts";
-import { parse } from "https://esm.sh/tldts@6.0.14";
 
 interface Props extends ServerState {
   page?: Page;
@@ -51,21 +49,8 @@ export default function Page({ data }: PageProps<Required<Props>>) {
   const body = render(page.content);
 
   const TOP_LINKS_COUNT = 10;
-  const externalGroup = groupBy(
-    stats.links.external!,
-    (link) => parse(link.host).domain,
-  );
-  const external = Object.keys(externalGroup).map((host) => {
-    return { host, count: externalGroup[host].length };
-  }).sort((a, b) => b.count - a.count).slice(0, TOP_LINKS_COUNT);
-
-  const internalGroup = groupBy(
-    stats.links.internal!,
-    (link) => link.pathname,
-  );
-  const internal = Object.keys(internalGroup).map((pathname) => {
-    return { pathname, count: internalGroup[pathname].length };
-  }).sort((a, b) => b.count - a.count).slice(0, TOP_LINKS_COUNT);
+  const external = stats.links.external?.slice(0, TOP_LINKS_COUNT);
+  const internal = stats.links.internal?.slice(0, TOP_LINKS_COUNT);
 
   return (
     <>
@@ -143,17 +128,28 @@ export default function Page({ data }: PageProps<Required<Props>>) {
               />
             ))}
           </dl>
-          <h3 class="text-2xl font-semibold">Top external links</h3>
-          <ol class="list-decima pl-6 columns-2">
-            {external.map((link) => <li class="">{link.host}: {link.count}
-            </li>)}
-          </ol>
-          <h3 class="text-2xl font-semibold">Top internal links</h3>
-          <ol class="list-decima pl-6 columns-2">
-            {internal.map((link) => (
-              <li class="">{link.pathname}: {link.count}</li>
-            ))}
-          </ol>
+          {external &&
+            (
+              <>
+                <h3 class="text-2xl font-semibold">Top external links</h3>
+                <ol class="list-decima pl-6 columns-2">
+                  {external.map((link) => (
+                    <li class="">{link.domain}: {link.count}</li>
+                  ))}
+                </ol>
+              </>
+            )}
+          {internal &&
+            (
+              <>
+                <h3 class="text-2xl font-semibold">Top internal links</h3>
+                <ol class="list-decima pl-6 columns-2">
+                  {internal.map((link) => (
+                    <li class="">{link.pathname}: {link.count}</li>
+                  ))}
+                </ol>
+              </>
+            )}
         </section>
       </article>
     </>
