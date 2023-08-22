@@ -73,3 +73,5 @@ as well.
 [wk_wiki]: https://en.wikipedia.org/wiki/Well-known_URI
 [jim_links]: https://blog.jim-nielsen.com/2022/well-known-links-resource/
 [jim_avatar]: https://blog.jim-nielsen.com/2023/well-known-avatar/
+[marked.js]: https://marked.js.org/
+[deno_gfm]: https://github.com/denoland/deno-gfm
