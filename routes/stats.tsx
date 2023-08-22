@@ -69,22 +69,26 @@ export default function Page({ data }: PageProps<Required<Props>>) {
         />
         <section class="space-y-4">
           <h2 class="text-3xl font-semibold">Writing</h2>
-          <dl class="columns-2">
+          <dl class="columns-2 space-y-2">
             <Definition
               title="Years of blogging"
               value={Object.keys(stats.blogByYear).length}
+              showBullet
             />
             <Definition
               title="Posts"
               value={stats.posts}
+              showBullet
             />
             <Definition
               title="Words"
               value={stats.words}
+              showBullet
             />
             <Definition
               title="Tags"
               value={stats.tags}
+              showBullet
             />
           </dl>
           <Chart
@@ -118,13 +122,14 @@ export default function Page({ data }: PageProps<Required<Props>>) {
             }}
           />
           <h3 class="text-2xl font-semibold">Posts / Words Per Year</h3>
-          <dl class="columns-2">
+          <dl class="columns-2 space-y-2">
             {Object.keys(stats.blogByYear).map((year) => (
               <Definition
                 title={year}
                 value={`${stats.blogByYear[year].length} / ${
                   getWordCountFromArray(stats.blogByYear[year])
                 }`}
+                showBullet
               />
             ))}
           </dl>
@@ -132,7 +137,7 @@ export default function Page({ data }: PageProps<Required<Props>>) {
             (
               <>
                 <h3 class="text-2xl font-semibold">Top external links</h3>
-                <ol class="list-decima pl-6 columns-2">
+                <ol class="list-decima pl-6 columns-2 space-y-2">
                   {external.map((link) => (
                     <li class="">{link.domain}: {link.count}</li>
                   ))}
@@ -143,7 +148,7 @@ export default function Page({ data }: PageProps<Required<Props>>) {
             (
               <>
                 <h3 class="text-2xl font-semibold">Top internal links</h3>
-                <ol class="list-decima pl-6 columns-2">
+                <ol class="list-decima pl-6 columns-2 space-y-2">
                   {internal.map((link) => (
                     <li class="">{link.pathname}: {link.count}</li>
                   ))}
