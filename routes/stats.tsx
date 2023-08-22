@@ -9,6 +9,7 @@ import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
 import { ChartColors, transparentize } from "$fresh_charts/utils.ts";
 import { groupBy } from "../src/group_by.ts";
+import { parse } from "https://esm.sh/tldts@6.0.14";
 
 interface Props extends ServerState {
   page?: Page;
@@ -52,7 +53,7 @@ export default function Page({ data }: PageProps<Required<Props>>) {
   const TOP_LINKS_COUNT = 10;
   const externalGroup = groupBy(
     stats.links.external!,
-    (link) => link.host.replace("www.", ""),
+    (link) => parse(link.host).domain,
   );
   const external = Object.keys(externalGroup).map((host) => {
     return { host, count: externalGroup[host].length };
