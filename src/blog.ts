@@ -36,7 +36,8 @@ title = "${title}"
 description = "${description}"
 [taxonomies]
 tags = [${tags && tags.map((tag) => `"${tag}"`).join(", ")}]
-+++`;
++++
+`;
 
 const slugifiedSlug = slugify(slug ? slug : title as string);
 const filename = `${date}-${slugifiedSlug}.md`;
