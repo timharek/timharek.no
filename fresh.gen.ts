@@ -2,52 +2,54 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/[...page].tsx";
-import * as $1 from "./routes/_404.tsx";
-import * as $2 from "./routes/_app.tsx";
-import * as $3 from "./routes/_middleware.ts";
-import * as $4 from "./routes/blog/[slug].tsx";
-import * as $5 from "./routes/blog/index.tsx";
-import * as $6 from "./routes/cv.tsx";
-import * as $7 from "./routes/feed.json/index.ts";
-import * as $8 from "./routes/feed.xml/index.ts";
-import * as $9 from "./routes/garden/[section]/[slug].tsx";
-import * as $10 from "./routes/garden/[section]/index.tsx";
-import * as $11 from "./routes/garden/index.tsx";
-import * as $12 from "./routes/index.tsx";
-import * as $13 from "./routes/logs/[slug].tsx";
-import * as $14 from "./routes/logs/feedroll.tsx";
-import * as $15 from "./routes/logs/index.tsx";
-import * as $16 from "./routes/sitemap.xml/index.ts";
-import * as $17 from "./routes/stats.tsx";
-import * as $18 from "./routes/tags/[slug].tsx";
-import * as $19 from "./routes/tags/index.tsx";
-import * as $20 from "./routes/work.tsx";
+import * as $0 from "./routes/.well-known/links.ts";
+import * as $1 from "./routes/[...page].tsx";
+import * as $2 from "./routes/_404.tsx";
+import * as $3 from "./routes/_app.tsx";
+import * as $4 from "./routes/_middleware.ts";
+import * as $5 from "./routes/blog/[slug].tsx";
+import * as $6 from "./routes/blog/index.tsx";
+import * as $7 from "./routes/cv.tsx";
+import * as $8 from "./routes/feed.json/index.ts";
+import * as $9 from "./routes/feed.xml/index.ts";
+import * as $10 from "./routes/garden/[section]/[slug].tsx";
+import * as $11 from "./routes/garden/[section]/index.tsx";
+import * as $12 from "./routes/garden/index.tsx";
+import * as $13 from "./routes/index.tsx";
+import * as $14 from "./routes/logs/[slug].tsx";
+import * as $15 from "./routes/logs/feedroll.tsx";
+import * as $16 from "./routes/logs/index.tsx";
+import * as $17 from "./routes/sitemap.xml/index.ts";
+import * as $18 from "./routes/stats.tsx";
+import * as $19 from "./routes/tags/[slug].tsx";
+import * as $20 from "./routes/tags/index.tsx";
+import * as $21 from "./routes/work.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
-    "./routes/[...page].tsx": $0,
-    "./routes/_404.tsx": $1,
-    "./routes/_app.tsx": $2,
-    "./routes/_middleware.ts": $3,
-    "./routes/blog/[slug].tsx": $4,
-    "./routes/blog/index.tsx": $5,
-    "./routes/cv.tsx": $6,
-    "./routes/feed.json/index.ts": $7,
-    "./routes/feed.xml/index.ts": $8,
-    "./routes/garden/[section]/[slug].tsx": $9,
-    "./routes/garden/[section]/index.tsx": $10,
-    "./routes/garden/index.tsx": $11,
-    "./routes/index.tsx": $12,
-    "./routes/logs/[slug].tsx": $13,
-    "./routes/logs/feedroll.tsx": $14,
-    "./routes/logs/index.tsx": $15,
-    "./routes/sitemap.xml/index.ts": $16,
-    "./routes/stats.tsx": $17,
-    "./routes/tags/[slug].tsx": $18,
-    "./routes/tags/index.tsx": $19,
-    "./routes/work.tsx": $20,
+    "./routes/.well-known/links.ts": $0,
+    "./routes/[...page].tsx": $1,
+    "./routes/_404.tsx": $2,
+    "./routes/_app.tsx": $3,
+    "./routes/_middleware.ts": $4,
+    "./routes/blog/[slug].tsx": $5,
+    "./routes/blog/index.tsx": $6,
+    "./routes/cv.tsx": $7,
+    "./routes/feed.json/index.ts": $8,
+    "./routes/feed.xml/index.ts": $9,
+    "./routes/garden/[section]/[slug].tsx": $10,
+    "./routes/garden/[section]/index.tsx": $11,
+    "./routes/garden/index.tsx": $12,
+    "./routes/index.tsx": $13,
+    "./routes/logs/[slug].tsx": $14,
+    "./routes/logs/feedroll.tsx": $15,
+    "./routes/logs/index.tsx": $16,
+    "./routes/sitemap.xml/index.ts": $17,
+    "./routes/stats.tsx": $18,
+    "./routes/tags/[slug].tsx": $19,
+    "./routes/tags/index.tsx": $20,
+    "./routes/work.tsx": $21,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
