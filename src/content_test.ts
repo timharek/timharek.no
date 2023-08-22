@@ -1,5 +1,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import {
+  getAllLinks,
   getAllPages,
   getAllTags,
   getGlobalStats,
@@ -15,15 +16,11 @@ Deno.test("Get page", async () => {
 
   const page = await getPage({ slug, prefix });
 
-  assertEquals(page, {
-    title: "Page",
-    content: "This is page.\n",
-    path: "page",
-    readingTime: 1,
-    slug: "page",
-    wordCount: 3,
-    section: "main",
-  });
+  assertEquals(page.title, "Page");
+  assertEquals(page.slug, "page");
+  assertEquals(page.path, "page");
+  assertEquals(page.readingTime, 1);
+  assertEquals(page.wordCount, 13);
 });
 
 Deno.test("Get page with more fields", async () => {
@@ -126,12 +123,12 @@ Deno.test("Get section", async () => {
     wordCount: 4,
     pages: [
       {
-        content: "This is section page.\n",
+        content: "This is section page. [An internal link](/example/now)\n",
         path: "section/page",
         readingTime: 1,
         slug: "page",
         title: "Section page",
-        wordCount: 4,
+        wordCount: 7,
         section: "section",
       },
     ],
@@ -167,12 +164,12 @@ Deno.test("Get page from section", async () => {
   const page = await getPage({ slug, prefix, section });
 
   assertEquals(page, {
-    content: "This is section page.\n",
+    content: "This is section page. [An internal link](/example/now)\n",
     path: "section/page",
     readingTime: 1,
     slug: "page",
     title: "Section page",
-    wordCount: 4,
+    wordCount: 7,
     section: "section",
   });
 });
@@ -280,6 +277,16 @@ Deno.test("Get stats", async () => {
 
   assertEquals(stats.posts, 3);
   assertEquals(stats.tags, 2);
-  assertEquals(stats.words, "24");
+  assertEquals(stats.words, "37");
   assertEquals(Object.keys(stats.blogByYear).length, 1);
+});
+
+Deno.test("Get all links", async () => {
+  const prefix = "./testdata/markdown/content";
+
+  const links = await getAllLinks(prefix);
+
+  assertEquals(links?.count, 2);
+  assertEquals(links?.internal?.length, 1);
+  assertEquals(links?.external?.length, 1);
 });

@@ -8,6 +8,7 @@ import { css } from "../src/markdown.ts";
 import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
 import { ChartColors, transparentize } from "$fresh_charts/utils.ts";
+import { groupBy } from "../src/group_by.ts";
 
 interface Props extends ServerState {
   page?: Page;
@@ -47,6 +48,23 @@ export const handler: Handlers<Props, ServerState> = {
 export default function Page({ data }: PageProps<Required<Props>>) {
   const { page, stats } = data;
   const body = render(page.content);
+
+  const TOP_LINKS_COUNT = 10;
+  const externalGroup = groupBy(
+    stats.links.external!,
+    (link) => link.host.replace("www.", ""),
+  );
+  const external = Object.keys(externalGroup).map((host) => {
+    return { host, count: externalGroup[host].length };
+  }).sort((a, b) => b.count - a.count).slice(0, TOP_LINKS_COUNT);
+
+  const internalGroup = groupBy(
+    stats.links.internal!,
+    (link) => link.pathname,
+  );
+  const internal = Object.keys(internalGroup).map((pathname) => {
+    return { pathname, count: internalGroup[pathname].length };
+  }).sort((a, b) => b.count - a.count).slice(0, TOP_LINKS_COUNT);
 
   return (
     <>
@@ -124,6 +142,17 @@ export default function Page({ data }: PageProps<Required<Props>>) {
               />
             ))}
           </dl>
+          <h3 class="text-2xl font-semibold">Top external links</h3>
+          <ol class="list-decima pl-6 columns-2">
+            {external.map((link) => <li class="">{link.host}: {link.count}
+            </li>)}
+          </ol>
+          <h3 class="text-2xl font-semibold">Top internal links</h3>
+          <ol class="list-decima pl-6 columns-2">
+            {internal.map((link) => (
+              <li class="">{link.pathname}: {link.count}</li>
+            ))}
+          </ol>
         </section>
       </article>
     </>
