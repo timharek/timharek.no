@@ -1,6 +1,6 @@
 import { logPath, Select } from "../deps.ts";
+import { selectKeys } from "../utils.ts";
 import { log } from "./index.ts";
-import { selectKeys } from "./util.ts";
 
 interface TypeSelector {
   [key: string]: (type: Log.Entry["type"]) => Promise<Log.Entry>;
@@ -12,10 +12,9 @@ const typeSelector: TypeSelector = {
   game: log.game,
   book: log.book,
   travel: log.trip,
-  life: log.life,
 };
 
-const type: "movie" | "tv" | "game" | "book" | "life" = await Select.prompt({
+const type = await Select.prompt<Log.Entry["type"]>({
   message: "What do you want to log?",
   options: [
     { name: "Movie", value: "movie" },
@@ -27,7 +26,7 @@ const type: "movie" | "tv" | "game" | "book" | "life" = await Select.prompt({
   ],
   search: true,
   keys: selectKeys,
-});
+}) as Log.Entry["type"];
 
 const newEntry = await typeSelector[type](type);
 

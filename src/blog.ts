@@ -1,5 +1,5 @@
 import { Input, List, prompt } from "./deps.ts";
-import { getCurrentDate } from "./log/util.ts";
+import { getCurrentDate } from "./utils.ts";
 import { slugify } from "./utils.ts";
 
 const { title, description, slug, date, tags } = await prompt([

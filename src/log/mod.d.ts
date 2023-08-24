@@ -39,9 +39,10 @@ declare namespace Log {
     genres: string[];
   }
 
+  type Occasion = "business" | "pleasure";
   interface TravelEntry {
     type: "travel";
-    occasion: "business" | "pleasure";
+    occasion: Occasion;
     to_date: string;
     location: {
       country: {

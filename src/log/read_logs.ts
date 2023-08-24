@@ -1,5 +1,5 @@
 import { Confirm, logPath, Select } from "../deps.ts";
-import { selectKeys } from "./util.ts";
+import { selectKeys } from "../utils.ts";
 
 type Type = "movie" | "tv" | "game" | "book" | "life" | "travel";
 

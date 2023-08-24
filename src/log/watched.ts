@@ -1,6 +1,6 @@
 import { getMovie, Input, Number, prompt } from "../deps.ts";
 import type { OMDB } from "../deps.ts";
-import { getCurrentDate } from "./util.ts";
+import { getCurrentDate } from "../utils.ts";
 
 export async function logMovieOrTv(
   logType: Log.Entry["type"],

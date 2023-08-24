@@ -6,7 +6,7 @@ import {
 import type {
   OpenLibrary,
 } from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
-import { getCurrentDate, selectKeys } from "./util.ts";
+import { getCurrentDate, selectKeys } from "../utils.ts";
 
 export async function logBook(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();

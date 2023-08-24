@@ -1,5 +1,5 @@
 import { Input, Number, prompt } from "../deps.ts";
-import { getCurrentDate } from "./util.ts";
+import { getCurrentDate } from "../utils.ts";
 
 export async function logGame(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
@@ -30,6 +30,10 @@ export async function logGame(): Promise<Log.Entry> {
   }]);
 
   const { title, date, releaseYear, rating, platform } = result;
+
+  if (!title || !date || !releaseYear || !rating || !platform) {
+    throw new Error("Missing some fields");
+  }
 
   return {
     title: title,

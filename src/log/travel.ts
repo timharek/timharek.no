@@ -1,5 +1,5 @@
 import { Input, List, prompt, Select } from "../deps.ts";
-import { getCurrentDate, selectKeys } from "./util.ts";
+import { getCurrentDate, selectKeys } from "../utils.ts";
 
 export async function logTrip(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
@@ -50,12 +50,19 @@ export async function logTrip(): Promise<Log.Entry> {
       },
     ]);
 
+  if (
+    !title || !departure || !arrival || !occasion || !country ||
+    !countryEmoji || !cities
+  ) {
+    throw new Error("Missing some fields");
+  }
+
   return {
     type: "travel",
     title: title,
     date: departure,
     to_date: arrival,
-    occasion: occasion,
+    occasion: occasion as Log.Occasion,
     location: {
       country: { name: country, emoji: countryEmoji },
       cities: cities,

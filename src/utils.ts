@@ -70,3 +70,12 @@ export function getRelativeTime(date: Date, now = new Date()) {
     );
   }
 }
+
+export function getCurrentDate(): string {
+  return new Date().toISOString().split("T")[0];
+}
+
+export const selectKeys = {
+  next: ["down", "tab"],
+  previous: ["up", "shift"],
+};

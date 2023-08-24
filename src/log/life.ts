@@ -1,5 +1,5 @@
 import { Input, prompt, Select } from "../deps.ts";
-import { getCurrentDate, selectKeys } from "./util.ts";
+import { getCurrentDate, selectKeys } from "../utils.ts";
 
 export async function logLifeEvent(): Promise<Log.Entry> {
   const currentDate = getCurrentDate();
@@ -39,6 +39,10 @@ export async function logLifeEvent(): Promise<Log.Entry> {
     },
   ]);
 
+  if (!title || !description || !date) {
+    throw new Error("Missing some fields");
+  }
+
   return {
     type: "life",
     title,
@@ -57,7 +61,7 @@ async function getCategory(prefix: string): Promise<string> {
       message: "Enter category",
       type: Input,
     }]);
-    return prefix;
+    return prefix as string;
   }
   return prefix;
 }
