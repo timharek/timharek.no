@@ -1,5 +1,3 @@
-// @deno-types="./mod.d.ts"
-
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
 import { LifeTesting, logLifeEvent } from "./life.ts";

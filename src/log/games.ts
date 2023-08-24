@@ -1,5 +1,3 @@
-// @deno-types="./mod.d.ts"
-
 import { Input, Number, prompt } from "../deps.ts";
 import { getCurrentDate } from "./util.ts";
 

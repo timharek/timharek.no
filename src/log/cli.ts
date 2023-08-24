@@ -1,5 +1,3 @@
-// @deno-types="./mod.d.ts"
-
 import { logPath, Select } from "../deps.ts";
 import { log } from "./index.ts";
 import { selectKeys } from "./util.ts";
