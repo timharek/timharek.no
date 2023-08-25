@@ -1,5 +1,4 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { render } from "gfm/mod.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
@@ -83,7 +82,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
 
 export default function CV({ data }: PageProps<WorkProps & ServerState>) {
   const { projects, page, filter } = data;
-  const body = render(page.content);
+
   return (
     <>
       <Head>
@@ -95,7 +94,7 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
           data-color-mode="dark"
           data-dark-theme="dark"
           class="markdown-body"
-          dangerouslySetInnerHTML={{ __html: body }}
+          dangerouslySetInnerHTML={{ __html: page.html }}
         />
         {(filter.year || filter.tag) &&
           (

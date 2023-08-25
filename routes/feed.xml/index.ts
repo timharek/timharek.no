@@ -3,7 +3,6 @@ import { sanitizeHtml } from "gfm/deps.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
-import { render } from "gfm/mod.ts";
 export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
 import { escapeHtml } from "https://deno.land/x/escape_html@1.0.0/mod.ts";
 
@@ -28,7 +27,7 @@ function generateRssFeed(posts: Post[]): string {
       return `<category term="${sanitizeHtml(tag.title)}" />`;
     }).filter((tag) => tag !== undefined);
 
-    const content = escapeHtml(`${render(post.content).toString()}
+    const content = escapeHtml(`${post.html}
 ${
       sanitizeHtml(
         `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,

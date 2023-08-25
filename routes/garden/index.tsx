@@ -1,6 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { render } from "gfm/mod.ts";
 import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
@@ -43,7 +42,6 @@ export const handler: Handlers<Props, ServerState> = {
 
 export default function GardenSection({ data }: PageProps<Required<Props>>) {
   const { section } = data;
-  const body = render(section.content);
 
   return (
     <>
@@ -58,7 +56,7 @@ export default function GardenSection({ data }: PageProps<Required<Props>>) {
         <PageHeader title={section.title} updated={section.updated} />
         <div
           class="markdown-body"
-          dangerouslySetInnerHTML={{ __html: body }}
+          dangerouslySetInnerHTML={{ __html: section.html }}
         >
         </div>
         {section.subSections &&

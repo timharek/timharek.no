@@ -45,7 +45,6 @@ export const handler: Handlers<Props, ServerState> = {
 
 export default function Page({ data }: PageProps<Required<Props>>) {
   const { page, stats } = data;
-  const body = page.html;
 
   const TOP_LINKS_COUNT = 10;
   const external = stats.links.external?.slice(0, TOP_LINKS_COUNT);
@@ -64,7 +63,7 @@ export default function Page({ data }: PageProps<Required<Props>>) {
         <PageHeader title={page.title} updated={page.updated} />
         <div
           class="markdown-body"
-          dangerouslySetInnerHTML={{ __html: body }}
+          dangerouslySetInnerHTML={{ __html: page.html }}
         />
         <section class="space-y-4">
           <h2 class="text-3xl font-semibold">Writing</h2>

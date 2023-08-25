@@ -3,7 +3,6 @@ import { Head } from "$fresh/runtime.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
-import { render } from "gfm/mod.ts";
 import { Link } from "../../components/Link.tsx";
 import { groupBy } from "../../src/group_by.ts";
 import { capitalize } from "../../src/utils.ts";
@@ -83,7 +82,6 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
 
 export default function Page({ data }: PageProps<Required<FeedrollProps>>) {
   const { entries, page } = data;
-  const body = render(page.content);
 
   const groupedBy = groupBy(entries, (feed) => feed.type);
 
@@ -100,7 +98,7 @@ export default function Page({ data }: PageProps<Required<FeedrollProps>>) {
           <PageHeader title={page.title} updated={page.updated} />
           <div
             class="markdown-body mb-4"
-            dangerouslySetInnerHTML={{ __html: body }}
+            dangerouslySetInnerHTML={{ __html: page.html }}
           />
         </article>
         {Object.keys(groupedBy).map((type) => (

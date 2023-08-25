@@ -2,7 +2,6 @@ import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
-import { render } from "gfm/mod.ts";
 import { sanitizeHtml } from "gfm/deps.ts";
 export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
 
@@ -86,7 +85,7 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
         url: new URL(`${config.base_url}/${post.path}`),
         date_published: post.date,
         ...(post.updated && { date_modified: post.updated }),
-        content_html: `${render(post.content).toString()} ${
+        content_html: `${post.html} ${
           sanitizeHtml(
             `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,
           ).toString()

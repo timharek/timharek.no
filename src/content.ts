@@ -35,7 +35,6 @@ export async function getPage(
     slug,
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
-    content: body,
     html,
     section: section ? section : "main",
     ...(attrs.description && { description: attrs.description }),
@@ -67,7 +66,6 @@ export async function getSection(
     slug: sectionName,
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
-    content: body,
     html,
     ...(pages && { pages }),
     ...(subSections && { subSections }),
@@ -150,7 +148,6 @@ export async function getAllPages(
         return {
           title: subSection.title,
           slug: subSection.slug,
-          content: subSection.content,
           path: subSection.slug,
         };
       });
@@ -165,7 +162,6 @@ export async function getAllPages(
         {
           title: section.title,
           slug: section.slug,
-          content: section.content,
           path: section.slug,
         } as Page,
       );
@@ -247,7 +243,6 @@ async function getPagesFromSection(
         date: new Date(postDate),
         slug,
         path: `${sectionSlug}/${slug}`,
-        content: body,
         html,
         wordCount: getWordCount(body),
         readingTime: getReadingTime(body),

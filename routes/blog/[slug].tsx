@@ -1,6 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { render } from "gfm/mod.ts";
 import { getPost } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
@@ -54,7 +53,6 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
 
 export default function BlogPost({ data }: PageProps<BlogPostProps>) {
   const { post } = data;
-  const body = render(post.content);
   const title = post.title;
 
   return (
@@ -75,7 +73,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
         />
         <div
           class="markdown-body e-content"
-          dangerouslySetInnerHTML={{ __html: body }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
         >
         </div>
         <Metadata

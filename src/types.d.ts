@@ -21,8 +21,6 @@ interface Page {
   title: string;
   slug: string;
   path: string;
-  /** Markdown */
-  content: string;
   html: string;
   wordCount: number;
   readingTime: number;

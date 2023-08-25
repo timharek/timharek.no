@@ -3,7 +3,6 @@ import { Head } from "$fresh/runtime.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
-import { render } from "gfm/mod.ts";
 import { groupBy } from "../../src/group_by.ts";
 import { ComponentChildren } from "preact";
 import { css } from "../../src/markdown.ts";
@@ -99,7 +98,7 @@ export const handler: Handlers<LogProps, ServerState> = {
 
 export default function Page({ data }: PageProps<Required<LogProps>>) {
   const { entries, page } = data;
-  const body = render(page.content);
+
   const groupedEntries = groupBy(
     entries,
     (entry) => new Date(entry.date).getFullYear(),
@@ -118,7 +117,7 @@ export default function Page({ data }: PageProps<Required<LogProps>>) {
           <PageHeader title={page.title} updated={page.updated} />
           <div
             class="markdown-body mb-4"
-            dangerouslySetInnerHTML={{ __html: body }}
+            dangerouslySetInnerHTML={{ __html: page.html }}
           />
         </article>
         <div>

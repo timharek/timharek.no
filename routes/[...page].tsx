@@ -1,6 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { render } from "gfm/mod.ts";
 import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
@@ -47,7 +46,6 @@ export const handler: Handlers<Props, ServerState> = {
 
 export default function Page({ data }: PageProps<Required<Props>>) {
   const { page } = data;
-  const body = render(page.content);
 
   return (
     <>
@@ -62,7 +60,7 @@ export default function Page({ data }: PageProps<Required<Props>>) {
         <PageHeader title={page.title} updated={page.updated} />
         <div
           class="markdown-body"
-          dangerouslySetInnerHTML={{ __html: body }}
+          dangerouslySetInnerHTML={{ __html: page.html }}
         >
         </div>
       </article>
