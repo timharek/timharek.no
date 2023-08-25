@@ -228,5 +228,53 @@
       "bg": "#006aae",
       "text": "white"
     }
+  },
+  {
+    "name": "Henrique Dias",
+    "description": "Software engineer from Portugal.",
+    "tags": [
+      "Technology",
+      "IndieWeb"
+    ],
+    "type": "blog",
+    "url": "https://hacdias.com/",
+    "rss": "https://hacdias.com/feed.json",
+    "color": {
+      "bg": "#0060df",
+      "text": "white"
+    }
+  },
+  {
+    "name": "Dave Rupert",
+    "description": "Developer",
+    "tags": [
+      "Developer",
+      "Writer",
+      "Web components"
+    ],
+    "type": "blog",
+    "url": "https://daverupert.com/",
+    "rss": "https://daverupert.com/atom.xml",
+    "color": {
+      "bg": "#c83d37",
+      "text": "white"
+    }
+  },
+  {
+    "name": "taylor.town",
+    "description": "Developer",
+    "tags": [
+      "Developer",
+      "Software",
+      "Writer",
+      "Humor"
+    ],
+    "type": "blog",
+    "url": "https://taylor.town/",
+    "rss": "https://taylor.town/feed.xml",
+    "color": {
+      "bg": "#84ec57",
+      "text": "white"
+    }
   }
 ]
