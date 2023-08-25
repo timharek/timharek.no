@@ -11,3 +11,4 @@ updated = 2023-08-21
 - Add unit tests for sitemap.xml
 - Add unit tests for rss.xml
 - Add `sourceUrl` to `/.well-known/links`
+- Add support for Asciinema
