@@ -45,7 +45,8 @@
   "fmt": {
     "exclude": [
       "**/*.md",
-      "_fresh"
+      "_fresh",
+      "**/*.json"
     ],
     "useTabs": false,
     "lineWidth": 80,
