@@ -16,12 +16,14 @@ interface PostAttrs extends Attrs {
 }
 
 type SectionProp = "main" | string;
+
 interface Page {
   title: string;
   slug: string;
   path: string;
   /** Markdown */
   content: string;
+  html: string;
   wordCount: number;
   readingTime: number;
   description?: string;
@@ -29,6 +31,10 @@ interface Page {
   draft?: boolean;
   /** title */
   section: SectionProp;
+  links?: {
+    external?: string[];
+    internal?: string[];
+  };
 }
 
 interface Post extends Page {

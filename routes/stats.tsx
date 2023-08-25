@@ -1,6 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { render } from "gfm/mod.ts";
 import { getGlobalStats, getPage, Stats } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
@@ -46,7 +45,7 @@ export const handler: Handlers<Props, ServerState> = {
 
 export default function Page({ data }: PageProps<Required<Props>>) {
   const { page, stats } = data;
-  const body = render(page.content);
+  const body = page.html;
 
   const TOP_LINKS_COUNT = 10;
   const external = stats.links.external?.slice(0, TOP_LINKS_COUNT);

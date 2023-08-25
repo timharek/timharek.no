@@ -11,8 +11,9 @@ import { parse } from "https://esm.sh/tldts@6.0.14";
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
 
 export async function getPage(
-  { slug, prefix = "../content", section }: {
+  { slug, prefix = "../content", section, baseUrl = config.base_url }: {
     slug: string;
+    baseUrl?: string;
     prefix?: string;
     section?: SectionProp;
   },
@@ -25,6 +26,9 @@ export async function getPage(
   );
   const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
 
+  const html = render(body, { baseUrl });
+  const links = getLinks(html);
+
   return {
     title: attrs.title,
     path: section ? `${section}/${slug}` : slug,
@@ -32,16 +36,19 @@ export async function getPage(
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
     content: body,
+    html,
     section: section ? section : "main",
     ...(attrs.description && { description: attrs.description }),
     ...(attrs.updated && { updated: new Date(attrs.updated) }),
     ...(attrs.draft && { draft: attrs.draft }),
+    ...(links && { links }),
   };
 }
 
 export async function getSection(
   sectionName: string,
   prefix = "../content",
+  baseUrl = config.base_url,
 ): Promise<Section> {
   const sectionPath = new URL(
     `${prefix}/${sectionName}/_index.md`,
@@ -51,6 +58,8 @@ export async function getSection(
   const subSections = await getSubSections(sectionName, prefix);
 
   const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
+  const html = render(body, { baseUrl });
+  const links = getLinks(html);
 
   return {
     title: attrs.title,
@@ -59,11 +68,13 @@ export async function getSection(
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
     content: body,
+    html,
     ...(pages && { pages }),
     ...(subSections && { subSections }),
     ...(attrs.description && { description: attrs.description }),
     ...(attrs.updated && { updated: new Date(attrs.updated) }),
     ...(attrs.draft && { draft: attrs.draft }),
+    ...(links && { links }),
   };
 }
 
@@ -201,6 +212,7 @@ export async function getTag(slug: string): Promise<Tag | null> {
 async function getPagesFromSection(
   sectionSlug: SectionProp,
   prefix = "../content",
+  baseUrl = config.base_url,
 ): Promise<Page[] | Post[]> {
   const pages: (Page | Post)[] = [];
   const commonPath = `${prefix}/${sectionSlug}`;
@@ -227,12 +239,16 @@ async function getPagesFromSection(
 
       const { attrs, body } = await getMarkdownFile<PostAttrs>(postPath);
 
+      const html = render(body, { baseUrl });
+      const links = getLinks(html);
+
       pages.push({
         title: attrs.title,
         date: new Date(postDate),
         slug,
         path: `${sectionSlug}/${slug}`,
         content: body,
+        html,
         wordCount: getWordCount(body),
         readingTime: getReadingTime(body),
         section: sectionSlug,
@@ -252,6 +268,7 @@ async function getPagesFromSection(
         ...(attrs.description && { description: attrs.description }),
         ...(attrs.updated && { updated: new Date(attrs.updated) }),
         ...(attrs.draft && { draft: attrs.draft }),
+        ...(links && { links }),
       });
       pages.sort((a, b) =>
         (b as Post).date.toISOString().localeCompare(
@@ -337,41 +354,20 @@ interface Links {
 }
 export async function getAllLinks(
   prefix = "../content",
-  baseUrl = config.base_url,
 ): Promise<Links | null> {
   const allPages = await getAllPages(prefix);
 
-  const allContent = allPages.flatMap((page) =>
-    render(page.content, { baseUrl })
-  ).join(
-    "\n",
-  );
+  const externalAnchors = allPages.filter((page) =>
+    page.links && page.links.external && page.links.external?.length > 0
+  ).flatMap((page) => page.links?.external) as string[];
 
-  const dom = new DOMParser().parseFromString(allContent, "text/html");
-  const anchors = dom?.getElementsByTagName("a");
-
-  if (!anchors) {
-    return null;
-  }
-
-  const internalAnchors = anchors.filter((link) => {
-    const href = link.getAttribute("href") as string;
-    const isInternalAnchor = href.indexOf("#") > -1;
-    const isHeadingAnchor = link.className.includes("anchor");
-
-    return href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
-  }).map((link) => new URL(link.getAttribute("href") as string));
-  const externalAnchors = anchors.filter((link) => {
-    const href = link.getAttribute("href") as string;
-    const isInternalAnchor = href.indexOf("#") > -1;
-    const isHeadingAnchor = link.className.includes("anchor");
-
-    return !href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
-  }).map((link) => new URL(link.getAttribute("href") as string));
+  const internalAnchors = allPages.filter((page) =>
+    page.links && page.links.internal && page.links.internal?.length > 0
+  ).flatMap((page) => page.links?.internal) as string[];
 
   const externalGroup = groupBy(
     externalAnchors,
-    (link) => parse(link.host).domain,
+    (link) => parse(new URL(link).host).domain,
   );
   const external: ExternalLink[] = Object.keys(externalGroup).map((domain) => {
     return {
@@ -387,7 +383,7 @@ export async function getAllLinks(
 
   const internalGroup = groupBy(
     internalAnchors,
-    (link) => link.pathname,
+    (link) => new URL(link).pathname,
   );
 
   const internal = Object.keys(internalGroup).map((pathname) => {
@@ -399,4 +395,34 @@ export async function getAllLinks(
     internal,
     external,
   };
+}
+
+function getLinks(
+  html: string,
+  baseUrl = config.base_url,
+): { internal: string[]; external: string[] } | null {
+  const dom = new DOMParser().parseFromString(html, "text/html");
+  const anchors = dom?.getElementsByTagName("a");
+
+  if (!anchors) {
+    return null;
+  }
+
+  const internal = anchors.filter((link) => {
+    const href = link.getAttribute("href") as string;
+    const isInternalAnchor = href.indexOf("#") > -1;
+    const isHeadingAnchor = link.className.includes("anchor");
+
+    return href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
+  }).map((link) => link.getAttribute("href") as string);
+
+  const external = anchors.filter((link) => {
+    const href = link.getAttribute("href") as string;
+    const isInternalAnchor = href.indexOf("#") > -1;
+    const isHeadingAnchor = link.className.includes("anchor");
+
+    return !href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
+  }).map((link) => link.getAttribute("href") as string);
+
+  return { internal, external };
 }
