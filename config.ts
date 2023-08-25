@@ -10,9 +10,11 @@ export const config = {
   base_url: HOSTNAME != "localhost"
     ? "https://timharek.no"
     : `http://localhost:${PORT}`,
-  author: "Tim Hårek Andreassen",
-  author_img: "img/me.jpeg",
-  email: "tim@harek.no",
+  author: {
+    name: "Tim Hårek Andreassen",
+    avatar: "/.well-known/avatar?size=250&quality=90",
+    email: "tim@harek.no",
+  },
   logo: "img/logo.svg",
   cover: "img/cover.png",
   navigation: {

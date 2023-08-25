@@ -30,14 +30,14 @@ function generateRssFeed(posts: Post[]): string {
     const content = escapeHtml(`${post.html}
 ${
       sanitizeHtml(
-        `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,
+        `<a href="mailto:${config.author.email}?subject=${post.title}">Reply via e-mail</a>`,
       ).toString()
     }`);
     return `<entry xml:lang="en">
 	<title>${sanitizeHtml(post.title)}</title>
 	<author>
-		<name>${config.author}</name>
-		<email>${config.email}</email>
+		<name>${config.author.name}</name>
+		<email>${config.author.email}</email>
 		<uri>${config.base_url}</uri>
 		</author>
 	<published>${post.date.toISOString()}</published>

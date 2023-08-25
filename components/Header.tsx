@@ -55,11 +55,11 @@ function HCard() {
       <a href={config.base_url} class="u-uid u-url p-name">
         {config.author}
       </a>
-      <a class="u-photo" href={`${config.base_url}/${config.author_img}`}>
+      <a class="u-photo" href={config.author.avatar}>
         (Photo)
       </a>
-      <a href={`mailto:${config.email}`} rel="me" class="u-email">
-        {config.email}
+      <a href={`mailto:${config.author.email}`} rel="me" class="u-email">
+        {config.author.email}
       </a>
       <a class="u-key" href={`${config.base_url}/public-key.asc`}>PGP key</a>
     </div>

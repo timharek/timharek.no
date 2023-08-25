@@ -74,9 +74,9 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
     home_page_url: new URL(config.base_url),
     feed_url: new URL(`${config.base_url}/feed.json`),
     authors: [{
-      name: config.author,
+      name: config.author.name,
       url: new URL(config.base_url),
-      avatar: new URL(`${config.base_url}/${config.author_img}`),
+      avatar: new URL(`${config.base_url}${config.author.avatar}`),
     }],
     items: posts.map((post) => {
       return {
@@ -87,7 +87,7 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
         ...(post.updated && { date_modified: post.updated }),
         content_html: `${post.html} ${
           sanitizeHtml(
-            `<a href="mailto:${config.email}?subject=${post.title}">Reply via e-mail</a>`,
+            `<a href="mailto:${config.author.email}?subject=${post.title}">Reply via e-mail</a>`,
           ).toString()
         }`,
         ...(post.taxonomies?.tags &&
