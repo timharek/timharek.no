@@ -20,9 +20,9 @@ interface Feed {
     text: string;
   };
 }
-interface FeedrollProps extends ServerState {
-  entries?: Feed[];
-  page?: Page;
+interface FeedrollProps {
+  entries: Feed[];
+  page: Page;
 }
 
 export const handler: Handlers<FeedrollProps, ServerState> = {
@@ -31,7 +31,7 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
     const page = await getPage({ slug: "logs/feedroll" });
 
     if (!page) {
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
 
     const files = ["../../static/api/blogroll.json"];
@@ -69,18 +69,18 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(logs, null, 2));
       }
-      return ctx.render({ ...ctx.state, page, entries: logs });
+      return ctx.render({ page, entries: logs });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
         return new Response(JSON.stringify({ message: "error" }, null, 2));
       }
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
   },
 };
 
-export default function Page({ data }: PageProps<Required<FeedrollProps>>) {
+export default function Page({ data }: PageProps<FeedrollProps>) {
   const { entries, page } = data;
 
   const groupedBy = groupBy(entries, (feed) => feed.type);

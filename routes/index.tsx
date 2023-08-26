@@ -11,7 +11,7 @@ export const handler: Handlers<HomeProps, ServerState> = {
   async GET(_req, ctx) {
     const posts = (await getSection("blog")).pages as Post[];
 
-    return ctx.render({ ...ctx.state, posts: posts.slice(0, 5) });
+    return ctx.render({ posts: posts.slice(0, 5) });
   },
 };
 export default function Home({ data }: PageProps<HomeProps>) {

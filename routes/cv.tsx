@@ -114,7 +114,7 @@ export const handler: Handlers<CVProps, ServerState> = {
           current: true,
         },
       ];
-      return ctx.render({ ...ctx.state, cv });
+      return ctx.render({ cv });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
@@ -125,7 +125,7 @@ export const handler: Handlers<CVProps, ServerState> = {
   },
 };
 
-export default function CV({ data }: PageProps<CVProps & ServerState>) {
+export default function CV({ data }: PageProps<CVProps>) {
   const { cv } = data;
   return (
     <div class="max-w-screen-md mx-auto px-4 mb-4 prose">

@@ -44,7 +44,7 @@ export const handler: Handlers<TagPageProps, ServerState> = {
     ];
     ctx.state.description = `Posts tagged with ${tag.title}.`;
 
-    return ctx.render({ ...ctx.state, tag, posts });
+    return ctx.render({ tag, posts });
   },
 };
 

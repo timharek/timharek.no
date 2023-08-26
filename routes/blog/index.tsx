@@ -29,7 +29,7 @@ export const handler: Handlers<BlogProps, ServerState> = {
       },
     ];
 
-    return ctx.render({ ...ctx.state, posts });
+    return ctx.render({ posts });
   },
 };
 

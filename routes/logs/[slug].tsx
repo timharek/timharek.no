@@ -17,9 +17,9 @@ const availableLogs: AvailableLogs = {
   travel: ["travel.json"],
 };
 
-interface LogProps extends ServerState {
-  entries?: Log.Entry[];
-  page?: Page;
+interface LogProps {
+  entries: Log.Entry[];
+  page: Page;
 }
 
 export const handler: Handlers<LogProps, ServerState> = {
@@ -30,13 +30,13 @@ export const handler: Handlers<LogProps, ServerState> = {
     const rating = url.searchParams.get("rating");
 
     if (!Object.keys(availableLogs).includes(slug)) {
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
 
     const page = await getPage({ slug: `logs/${slug}` });
 
     if (!page) {
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
 
     const files = availableLogs[slug].map((file) => `../../static/api/${file}`);
@@ -85,18 +85,18 @@ export const handler: Handlers<LogProps, ServerState> = {
         );
       }
 
-      return ctx.render({ ...ctx.state, page, entries: logs });
+      return ctx.render({ page, entries: logs });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
         return new Response(JSON.stringify({ message: "error" }, null, 2));
       }
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
   },
 };
 
-export default function Page({ data }: PageProps<Required<LogProps>>) {
+export default function Page({ data }: PageProps<LogProps>) {
   const { entries, page } = data;
 
   const groupedEntries = groupBy(

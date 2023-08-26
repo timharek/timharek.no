@@ -6,8 +6,8 @@ import { PageHeader } from "../../../components/PageHeader.tsx";
 import { Link } from "../../../components/Link.tsx";
 import { css } from "../../../src/markdown.ts";
 
-interface Props extends ServerState {
-  section?: Section;
+interface Props {
+  section: Section;
 }
 
 export const handler: Handlers<Props, ServerState> = {
@@ -17,7 +17,7 @@ export const handler: Handlers<Props, ServerState> = {
     const section = await getSection(`garden/${sectionSlug}`);
 
     if (!section) {
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
 
     ctx.state.title = `${section.title} - ${ctx.state.title}`;
@@ -40,11 +40,11 @@ export const handler: Handlers<Props, ServerState> = {
       },
     ];
 
-    return ctx.render({ ...ctx.state, section });
+    return ctx.render({ section });
   },
 };
 
-export default function GardenSection({ data }: PageProps<Required<Props>>) {
+export default function GardenSection({ data }: PageProps<Props>) {
   const { section } = data;
 
   return (

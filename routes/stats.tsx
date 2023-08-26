@@ -8,9 +8,9 @@ import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
 import { ChartColors, transparentize } from "$fresh_charts/utils.ts";
 
-interface Props extends ServerState {
-  page?: Page;
-  stats?: Stats;
+interface Props {
+  page: Page;
+  stats: Stats;
 }
 
 export const handler: Handlers<Props, ServerState> = {
@@ -20,7 +20,7 @@ export const handler: Handlers<Props, ServerState> = {
     const stats = await getGlobalStats();
 
     if (!page) {
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
 
     ctx.state.title = `${page.title} - ${ctx.state.title}`;
@@ -39,11 +39,11 @@ export const handler: Handlers<Props, ServerState> = {
       },
     ];
 
-    return ctx.render({ ...ctx.state, page, stats });
+    return ctx.render({ page, stats });
   },
 };
 
-export default function Page({ data }: PageProps<Required<Props>>) {
+export default function Page({ data }: PageProps<Props>) {
   const { page, stats } = data;
 
   const TOP_LINKS_COUNT = 10;

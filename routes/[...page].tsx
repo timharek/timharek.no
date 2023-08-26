@@ -5,8 +5,8 @@ import { ServerState } from "./_middleware.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { css } from "../src/markdown.ts";
 
-interface Props extends ServerState {
-  page?: Page;
+interface Props {
+  page: Page;
 }
 
 export const handler: Handlers<Props, ServerState> = {
@@ -36,15 +36,15 @@ export const handler: Handlers<Props, ServerState> = {
         },
       ];
 
-      return ctx.render({ ...ctx.state, page });
+      return ctx.render({ page });
     } catch (error) {
       console.error(error);
-      return ctx.renderNotFound({ ...ctx.state });
+      return ctx.renderNotFound();
     }
   },
 };
 
-export default function Page({ data }: PageProps<Required<Props>>) {
+export default function Page({ data }: PageProps<Props>) {
   const { page } = data;
 
   return (

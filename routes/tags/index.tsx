@@ -37,7 +37,7 @@ export const handler: Handlers<TagsProps, ServerState> = {
       }),
     );
 
-    return ctx.render({ ...ctx.state, tags });
+    return ctx.render({ tags });
   },
 };
 

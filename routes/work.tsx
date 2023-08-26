@@ -69,7 +69,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
         );
       }
 
-      return ctx.render({ ...ctx.state, projects, page, filter });
+      return ctx.render({ projects, page, filter });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {

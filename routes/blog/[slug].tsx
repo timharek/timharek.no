@@ -46,7 +46,7 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
       },
     ];
 
-    const resp = ctx.render({ ...ctx.state, post });
+    const resp = ctx.render({ post });
     return resp;
   },
 };
