@@ -10,10 +10,10 @@ export interface ServerState {
 }
 
 export async function handler(
-  _req: Request,
+  req: Request,
   ctx: MiddlewareHandlerContext<ServerState>,
 ) {
-  const url = new URL(_req.url);
+  const url = new URL(req.url);
   const redirects: Redirect = JSON.parse(
     await Deno.readTextFile(new URL("../redirects.json", import.meta.url)),
   );
