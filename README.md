@@ -4,6 +4,8 @@
 
 [![builds.sr.ht status](https://builds.sr.ht/~timharek/timharek.no.svg)](https://builds.sr.ht/~timharek/timharek.no)
 
+[![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
+
 # [timharek.no](https://timharek.no)
 
 My personal website, made with [Deno Fresh](https://fresh.deno.dev).
@@ -13,9 +15,7 @@ My personal website, made with [Deno Fresh](https://fresh.deno.dev).
 - Blog
 - CV
 - Logs
-
-The CV-page is generated from a simple JSON-file, `static/api/cv.json`, it's
-loosely based on [JSON Resume schema](https://jsonresume.org/schema/).
+- CLI for updating logs
 
 ## License
 
