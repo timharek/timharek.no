@@ -131,7 +131,7 @@ function Project({ project }: { project: Project }) {
       {project.sources && (
         <Link href={project.sources[0]} label="Source code" target="_blank" />
       )}
-      <ul class="flex gap-2">
+      <ul class="flex flex-wrap gap-2">
         {project.keywords.map((keyword) => (
           <li class="">#{keyword.toLowerCase().replaceAll(" ", "-")}</li>
         ))}
