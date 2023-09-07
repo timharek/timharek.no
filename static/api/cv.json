@@ -346,6 +346,7 @@
         "Tech lead"
       ],
       "description": "New website made with HubSpot CMS for an Norwegian SaaS company.",
+      "startDate": "2022-12-05",
       "endDate": "2023-04-14",
       "keywords": [
         "HubSpot CMS",
@@ -362,6 +363,7 @@
         "Developer"
       ],
       "description": "New website made with HubSpot CMS for an accounting agency.",
+      "startDate": "2022-10-10",
       "endDate": "2022-12-06",
       "keywords": [
         "Website",
@@ -377,6 +379,7 @@
         "UX-designer"
       ],
       "description": "Designed components for their internal datasheet creation.",
+      "startDate": "2022-05-23",
       "endDate": "2022-09-30",
       "keywords": [
         "Website",
@@ -393,6 +396,7 @@
         "Developer"
       ],
       "description": "Developed a new webiste with Ghost CMS with memberships and payment model.",
+      "startDate": "2022-02-21",
       "endDate": "2022-04-21",
       "keywords": [
         "Website",
@@ -409,6 +413,7 @@
         "Developer"
       ],
       "description": "Upgrade website from Craft CMS 2 to Craft CMS 3 including migration of plugins and new setup for donations.",
+      "startDate": "2022-06-27",
       "endDate": "2022-07-08",
       "keywords": [
         "Website",
@@ -427,6 +432,7 @@
         "UX designer"
       ],
       "description": "Developed a new website for a traveling agency with API-integration to their exisiting booking system. Built with Craft CMS 3.",
+      "startDate": "2022-01-03",
       "endDate": "2022-06-26",
       "keywords": [
         "Website",
@@ -445,6 +451,7 @@
         "Developer"
       ],
       "description": "Assiting the client with developing a new frontend using Vue3 and other modern frontend-frameworks.",
+      "startDate": "2021-10-04",
       "endDate": "2022-09-01",
       "keywords": [
         "Vue",
@@ -458,6 +465,7 @@
         "Developer"
       ],
       "description": "A website built with Next.js using API from Havforskningsinstituttet with live-data coming from a sea vessal.",
+      "startDate": "2021-05-31",
       "endDate": "2021-09-22",
       "keywords": [
         "Website",
@@ -477,6 +485,7 @@
         "Developer"
       ],
       "description": "Optimize website, reduced page-size from ~18 MB down to ~1.2 MB.",
+      "startDate": "2021-10-18",
       "endDate": "2021-10-21",
       "keywords": [
         "Website",
@@ -493,6 +502,7 @@
         "Developer"
       ],
       "description": "Assisted other developers with development of new webiste.",
+      "startDate": "2021-09-01",
       "endDate": "2021-09-14",
       "keywords": [
         "Website",
@@ -509,6 +519,7 @@
         "Developer"
       ],
       "description": "Upgraded from Craft CMS v2 to v3. Developed custom Craft CMS-modules for getting data from the official Norwegian fond-register.",
+      "startDate": "2021-06-28",
       "endDate": "2021-07-14",
       "keywords": [
         "Website",
@@ -525,6 +536,7 @@
         "Developer"
       ],
       "description": "My first project at Netlife Bergen. We developed a new website for Arts and Crafts for teach-students.",
+      "startDate": "2021-04-28",
       "endDate": "2021-06-14",
       "keywords": [
         "Website",
@@ -537,7 +549,7 @@
     {
       "name": "wcarbon",
       "description": "Access Website Carbon's API with Deno.",
-      "endDate": "2022-06-26",
+      "startDate": "2022-06-26",
       "keywords": [
         "Tool",
         "CLI",
@@ -553,7 +565,7 @@
     {
       "name": "d-yr",
       "description": "Access Yr.no's weather API with Deno.",
-      "endDate": "2022-03-07",
+      "startDate": "2022-03-07",
       "keywords": [
         "Tool",
         "CLI",
@@ -569,7 +581,8 @@
     {
       "name": "everyday-privacy.com",
       "description": "Educate people about privacy and security with an interactive static-site.",
-      "endDate": "2021-02-11",
+      "startDate": "2021-02-11",
+      "endDate": "2023-03-03",
       "keywords": [
         "Website",
         "Privacy",
@@ -583,7 +596,7 @@
     {
       "name": "5545.no",
       "description": "Weather website for a local zip-code in Norway, built with Svelte using Yr's API. ",
-      "endDate": "2021-05-03",
+      "startDate": "2021-05-03",
       "keywords": [
         "Website",
         "API",
@@ -599,7 +612,8 @@
     {
       "name": "sbanken.sh",
       "description": "Shell-script with options to access Sbanken and see your banking details.",
-      "endDate": "2021-11-15",
+      "startDate": "2021-11-15",
+      "endDate": "2022-08-05",
       "keywords": [
         "API",
         "Shell",
@@ -613,7 +627,7 @@
       "name": "fribyte.no",
       "client": "friByte",
       "description": "Static generated website made with Zola.",
-      "endDate": "2021-04-06",
+      "startDate": "2021-02-06",
       "keywords": [
         "Website",
         "Zola"
@@ -630,7 +644,8 @@
         "Developer"
       ],
       "description": "Static generated website made with Jekyll.",
-      "endDate": "2020-01-07",
+      "startDate": "2021-01-07",
+      "endDate": "2021-02-22",
       "keywords": [
         "Website",
         "Jekyll"
@@ -640,7 +655,7 @@
     {
       "name": "deno-omdb",
       "description": "Access OMDb's API for getting details about movies and TV shows with Deno.",
-      "endDate": "2023-01-29",
+      "startDate": "2022-06-23",
       "keywords": [
         "Tool",
         "CLI",
@@ -657,7 +672,7 @@
     {
       "name": "deno-books",
       "description": "Access OpenLibrary's API with Deno.",
-      "endDate": "2023-01-29",
+      "startDate": "2023-01-15",
       "keywords": [
         "Tool",
         "CLI",
@@ -674,7 +689,7 @@
     {
       "name": "deno-linkding",
       "description": "Access your Linkding instance's API with Deno.",
-      "endDate": "2023-02-05",
+      "startDate": "2022-11-28",
       "keywords": [
         "Tool",
         "CLI",
@@ -695,6 +710,7 @@
         "Tech lead"
       ],
       "description": "Developed a web daemon that listens to a webhook from an LMS that updates an old MS-SQL database made in the late 90s. Also made the daemon to be scalable to a full-fledged front-end API for future use.",
+      "startDate": "2022-12-06",
       "endDate": "2023-02-27",
       "keywords": [
         "API",
@@ -708,11 +724,12 @@
     {
       "name": "Hima",
       "description": "Home Inventory system built with Deno Fresh using PocketBase as a backend.",
-      "endDate": "2023-04-06",
+      "startDate": "2023-03-05",
       "keywords": [
         "API",
         "Database",
         "Deno",
+        "Personal",
         "PocketBase",
         "Tailwind",
         "TypeScript"
@@ -725,11 +742,12 @@
     {
       "name": "filmpolitiet-api",
       "description": "API for NRK P3 Filmpolitiet's reviews. Made using Deno, Fresh and PocketBase.",
-      "endDate": "2023-06-15",
+      "startDate": "2023-05-31",
       "keywords": [
         "API",
         "Database",
         "Deno",
+        "Personal",
         "PocketBase",
         "Tailwind",
         "TypeScript"
