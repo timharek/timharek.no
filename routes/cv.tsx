@@ -49,7 +49,8 @@ export interface Project {
   client: string;
   roles: string[];
   description: string;
-  endDate: string;
+  startDate: string;
+  endDate?: string;
   keywords: string[];
   url: string;
   sources?: string[];

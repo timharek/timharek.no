@@ -51,12 +51,12 @@ export const handler: Handlers<WorkProps, ServerState> = {
         },
       ];
       let projects = cv.projects.sort((a, b) =>
-        b.endDate.localeCompare(a.endDate)
+        b.startDate.localeCompare(a.startDate)
       );
 
       if (filter.year) {
         projects = projects.filter((project) =>
-          new Date(project.endDate).getFullYear().toString() === filter.year
+          new Date(project.startDate).getFullYear().toString() === filter.year
         );
       }
 
@@ -102,7 +102,7 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
               Showing {projects.length} results:
             </p>
           )}
-        <ul class="space-y-4">
+        <ul class="space-y-4 divide-y-2 divide-slate-600">
           {projects.map((project) => (
             <li>
               <Project project={project} />
@@ -115,13 +115,18 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
 }
 
 function Project({ project }: { project: Project }) {
+  const dates = {
+    start: new Date(project.startDate),
+    end: project.endDate ? new Date(project.endDate) : undefined,
+  };
   return (
-    <div class="space-y-4 bg-slate-800 rounded-lg p-4">
+    <div class="space-y-4 py-2">
       <h2 class="text-xl">
         {project.url
           ? <Link href={project.url} label={project.name} target="_blank" />
           : project.name}
       </h2>
+      <ProjectDates start={dates.start} end={dates.end} />
       <p class="">{project.description}</p>
       {project.sources && (
         <Link href={project.sources[0]} label="Source code" target="_blank" />
@@ -131,6 +136,42 @@ function Project({ project }: { project: Project }) {
           <li class="">#{keyword.toLowerCase().replaceAll(" ", "-")}</li>
         ))}
       </ul>
+    </div>
+  );
+}
+
+function ProjectDates({ start, end }: { start: Date; end?: Date }) {
+  if (end && start.getFullYear() === end.getFullYear()) {
+    return (
+      <time
+        dateTime={start.toISOString()}
+        aria-label={`From ${start.toISOString()}`}
+        title={`From ${start.toISOString()}`}
+      >
+        {start.getFullYear()}
+      </time>
+    );
+  }
+  return (
+    <div class="">
+      <time
+        dateTime={start.toISOString()}
+        aria-label={`From ${start.toISOString()}`}
+        title={`From ${start.toISOString()}`}
+      >
+        {start.getFullYear()}
+      </time>{" "}
+      – {end
+        ? (
+          <time
+            dateTime={end.toISOString()}
+            aria-label={`To ${end.toISOString()}`}
+            title={`To ${end.toISOString()}`}
+          >
+            {end.getFullYear()}
+          </time>
+        )
+        : "present"}
     </div>
   );
 }
