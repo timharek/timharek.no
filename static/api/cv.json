@@ -774,6 +774,51 @@
         "Netlife"
       ],
       "url": "https://europan.no/"
+    },
+    {
+      "name": "Value 360",
+      "client": "Value Group",
+      "roles": [
+        "Tech lead",
+        "Developer"
+      ],
+      "description": "Internal tool for handling accounting tasks and customers",
+      "startDate": "2023-02-28",
+      "keywords": [
+        "API",
+        "BettyBlocks",
+        "Craft CMS",
+        "GCP",
+        "MUI",
+        "Netlife",
+        "Next.js",
+        "Tailwind",
+        "Value",
+        "Website"
+      ]
+    },
+    {
+      "name": "API client",
+      "client": "Gaitline",
+      "roles": [
+        "Tech lead",
+        "Developer"
+      ],
+      "description": "API client interacting with multiple APIs. Writing EDIFACT files via email and SFTP.",
+      "startDate": "2023-01-24",
+      "keywords": [
+        "API",
+        "BettyBlocks",
+        "Craft CMS",
+        "Deno",
+        "GCP",
+        "MUI",
+        "Netlife",
+        "Oak",
+        "Tailwind",
+        "Value",
+        "Website"
+      ]
     }
   ]
 }
