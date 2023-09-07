@@ -144,6 +144,7 @@ function ProjectDates({ start, end }: { start: Date; end?: Date }) {
   if (end && start.getFullYear() === end.getFullYear()) {
     return (
       <time
+        class="block"
         dateTime={start.toISOString()}
         aria-label={`From ${start.toISOString()}`}
         title={`From ${start.toISOString()}`}
