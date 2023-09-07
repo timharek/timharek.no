@@ -124,7 +124,7 @@ function Project({ project }: { project: Project }) {
       <h2 class="text-xl">
         {project.url
           ? <Link href={project.url} label={project.name} target="_blank" />
-          : project.name}
+          : project.name} {project.client && "- " + project.client}
       </h2>
       <ProjectDates start={dates.start} end={dates.end} />
       <p class="">{project.description}</p>
