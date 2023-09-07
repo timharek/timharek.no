@@ -102,7 +102,7 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
               Showing {projects.length} results:
             </p>
           )}
-        <ul class="space-y-4 divide-y-2 divide-slate-600">
+        <ul class="divide-y-2 divide-slate-600">
           {projects.map((project) => (
             <li>
               <Project project={project} />
@@ -120,7 +120,7 @@ function Project({ project }: { project: Project }) {
     end: project.endDate ? new Date(project.endDate) : undefined,
   };
   return (
-    <div class="space-y-4 py-2">
+    <div class="space-y-4 py-4">
       <h2 class="text-xl">
         {project.url
           ? <Link href={project.url} label={project.name} target="_blank" />
