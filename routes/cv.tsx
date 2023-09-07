@@ -46,7 +46,7 @@ interface Interest {
 }
 export interface Project {
   name: string;
-  client: string;
+  client?: string;
   roles: string[];
   description: string;
   startDate: string;
