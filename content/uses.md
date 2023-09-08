@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2023-01-29
+updated = 2023-09-08
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -24,11 +24,12 @@ some snapshots of my current workspace.
 
 ## Hardware
 
-- **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
-- **iPhone 13 Pro**. Superb battery life and camera.
+- **MacBook Pro 14" M2 16GB**. Powerful, and excellent battery.
+- **iPhone 13 Mini**. Great form-factor.
 - **Apple Watch Ultra**. Overkill watch for everyday exercise.
 - [ZSA Moonlander Mark I][moonlander]. Ergonomic split keyboard.
 
+<!-- TODO: Add new photo of new setup --->
 <figure>
   <img
     src="/img/uses/hardware.webp"
@@ -46,8 +47,9 @@ some snapshots of my current workspace.
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
-- **Ender 3 S1**. 3D-printer.
+- **Original Prusa MK4**. 3D-printer.
 
+<!-- TODO: Add new photo of new setup --->
 <figure>
   <img
     src="/img/uses/3d-pegboard.webp"
@@ -68,25 +70,18 @@ This is software that I use on my devices.
 - Apple Mail. E-mail client of choice.
 - Apple Podcasts. Simple podcast app.
 - [Bitwarden][bitwarden]. Open source password manager.
-- [Dozer][dozer]. Hide icons from the menu bar on macOS.
 - [Firefox][firefox]. Highly customizable browser.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
-- [Figma][figma]. Design editor I use at work.
-- [Helix][helix]. New editor I'm trying out.
+- [Helix][helix]. Favorite text-editor.
 - [Insomnia][insomnia]. Open source API-client.
 - [iTerm2][iterm]. Fast, native terminal for macOS.
 - [Lulu][lulu]. Network monitor for macOS.
 - [MacUpdater][macupdater]. Keeping my Mac up to date.
-- [Mattermost][mattermost]. A great open source alternative to Slack.
-- [Neovim][neovim]. My favorite text-editor.
-  - [emmet.vim][emmet]. A must-have for webdev.
-  - [telescope.nvim][telescope]. File browser and much more.
 - [NetNewsWire][netnewswire]. RSS Reader.
 - [Numi][numi]. Quick-access calculator.
 - [Signal][signal]. Favorite messaging application.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
-- [Slack][slack]. Communication at work.
 - [VSCodium][vscodium]. For work.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
 - [yabai][yabai]. Tiling window manager for macOS.
