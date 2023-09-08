@@ -28,6 +28,10 @@ export const config = {
         path: "/connect",
       },
       {
+        title: "More",
+        path: "/more",
+      },
+      {
         title: "About",
         path: "/about",
       },
@@ -42,12 +46,8 @@ export const config = {
         path: "/privacy",
       },
       {
-        title: "Sitemap",
-        path: "/sitemap",
-      },
-      {
-        title: "RSS",
-        path: "/feed.xml",
+        title: "Subscribe",
+        path: "/subscribe",
       },
     ],
   },
