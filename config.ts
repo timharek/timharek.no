@@ -24,16 +24,12 @@ export const config = {
         path: "/blog",
       },
       {
-        title: "Connect",
-        path: "/connect",
+        title: "About",
+        path: "/about",
       },
       {
         title: "More",
         path: "/more",
-      },
-      {
-        title: "About",
-        path: "/about",
       },
     ],
     footer: [
@@ -44,6 +40,10 @@ export const config = {
       {
         title: "Privacy",
         path: "/privacy",
+      },
+      {
+        title: "Connect",
+        path: "/connect",
       },
       {
         title: "Subscribe",
