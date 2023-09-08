@@ -6,12 +6,6 @@ import { PageHeader } from "../../components/PageHeader.tsx";
 import { config } from "../../config.ts";
 import { Link } from "../../components/Link.tsx";
 import { Icon } from "../../components/Icons.tsx";
-
-// Syntax highlighting
-import "https://esm.sh/prismjs@1.29.0/components/prism-typescript?no-check";
-import "https://esm.sh/prismjs@1.29.0/components/prism-bash?no-check";
-import "https://esm.sh/prismjs@1.29.0/components/prism-json?no-check";
-import "https://esm.sh/prismjs@1.29.0/components/prism-systemd?no-check";
 import { css } from "../../src/markdown.ts";
 
 interface BlogPostProps {

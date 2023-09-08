@@ -1,17 +1,13 @@
-import { render } from "gfm/mod.ts";
+import { marked, Token, Tokens, TokensList } from "npm:marked@8.0.1";
 import { groupBy } from "./group_by.ts";
 import { getMarkdownFile } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
-import {
-  DOMParser,
-} from "https://deno.land/x/deno_dom@v0.1.38/deno-dom-wasm.ts";
-import { config } from "../config.ts";
 import { parse } from "https://esm.sh/tldts@6.0.14";
 
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
 
 export async function getPage(
-  { slug, prefix = "../content", section, baseUrl = config.base_url }: {
+  { slug, prefix = "../content", section }: {
     slug: string;
     baseUrl?: string;
     prefix?: string;
@@ -26,8 +22,8 @@ export async function getPage(
   );
   const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
 
-  const html = render(body, { baseUrl });
-  const links = getLinks(html);
+  const html = marked.parse(body, { gfm: true });
+  const links = getLinks(body);
 
   return {
     title: attrs.title,
@@ -47,7 +43,6 @@ export async function getPage(
 export async function getSection(
   sectionName: string,
   prefix = "../content",
-  baseUrl = config.base_url,
 ): Promise<Section> {
   const sectionPath = new URL(
     `${prefix}/${sectionName}/_index.md`,
@@ -57,8 +52,9 @@ export async function getSection(
   const subSections = await getSubSections(sectionName, prefix);
 
   const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
-  const html = render(body, { baseUrl });
-  const links = getLinks(html);
+  // const html = render(body, { baseUrl });
+  const html = marked.parse(body, { gfm: true });
+  const links = getLinks(body);
 
   return {
     title: attrs.title,
@@ -208,7 +204,6 @@ export async function getTag(slug: string): Promise<Tag | null> {
 async function getPagesFromSection(
   sectionSlug: SectionProp,
   prefix = "../content",
-  baseUrl = config.base_url,
 ): Promise<Page[] | Post[]> {
   const pages: (Page | Post)[] = [];
   const commonPath = `${prefix}/${sectionSlug}`;
@@ -235,8 +230,9 @@ async function getPagesFromSection(
 
       const { attrs, body } = await getMarkdownFile<PostAttrs>(postPath);
 
-      const html = render(body, { baseUrl });
-      const links = getLinks(html);
+      // const html = render(body, { baseUrl });
+      const html = marked.parse(body, { gfm: true });
+      const links = getLinks(body);
 
       pages.push({
         title: attrs.title,
@@ -332,7 +328,7 @@ interface ExternalLink {
   domain: string;
   count: number;
   links: {
-    sourceUrl?: string;
+    sourceUrl: string[];
     targetUrl: string;
   }[];
 }
@@ -371,15 +367,15 @@ export async function getAllLinks(
       links: externalGroup[domain].map((link) => {
         return {
           targetUrl: link.toString(),
+          sourceUrl: allPages.filter((page) =>
+            page.links?.external?.includes(link.toString())
+          ).flatMap((page) => `/${page.path}`) as string[],
         };
       }),
     };
   }).sort((a, b) => b.count - a.count);
 
-  const internalGroup = groupBy(
-    internalAnchors,
-    (link) => new URL(link).pathname,
-  );
+  const internalGroup = groupBy(internalAnchors, (link) => link);
 
   const internal = Object.keys(internalGroup).map((pathname) => {
     return { pathname, count: internalGroup[pathname].length };
@@ -392,32 +388,50 @@ export async function getAllLinks(
   };
 }
 
-function getLinks(
-  html: string,
-  baseUrl = config.base_url,
-): { internal: string[]; external: string[] } | null {
-  const dom = new DOMParser().parseFromString(html, "text/html");
-  const anchors = dom?.getElementsByTagName("a");
+function getLinks(body: string) {
+  const tokens = marked.lexer(body);
+  const links = getLinksFromTokens(tokens);
+  links.push(...Object.values(tokens.links) as Tokens.Link[]);
 
-  if (!anchors) {
-    return null;
+  const internal = new Set<string>();
+  const external = new Set<string>();
+
+  for (const link of links) {
+    if ((link.href as string).includes("mailto:")) {
+      continue;
+    }
+    if ((link.href as string).startsWith("#")) {
+      continue;
+    }
+    if ((link.href as string).startsWith("/")) {
+      internal.add(link.href);
+      continue;
+    }
+    external.add(link.href);
   }
 
-  const internal = anchors.filter((link) => {
-    const href = link.getAttribute("href") as string;
-    const isInternalAnchor = href.indexOf("#") > -1;
-    const isHeadingAnchor = link.className.includes("anchor");
+  return {
+    internal: Array.from(internal),
+    external: Array.from(external),
+  };
+}
 
-    return href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
-  }).map((link) => link.getAttribute("href") as string);
+function getLinksFromTokens(tokens: TokensList | Token[]) {
+  const links: (Tokens.Link | Tokens.Generic)[] = [];
 
-  const external = anchors.filter((link) => {
-    const href = link.getAttribute("href") as string;
-    const isInternalAnchor = href.indexOf("#") > -1;
-    const isHeadingAnchor = link.className.includes("anchor");
+  for (const token of tokens) {
+    if (token.type === "link") {
+      links.push(token);
+    }
 
-    return !href.includes(baseUrl) && !isInternalAnchor && !isHeadingAnchor;
-  }).map((link) => link.getAttribute("href") as string);
+    if ("items" in token) {
+      links.push(...getLinksFromTokens(token.items as Token[]));
+    }
 
-  return { internal, external };
+    if ("tokens" in token) {
+      links.push(...getLinksFromTokens(token.tokens as Token[]));
+    }
+  }
+
+  return links;
 }
