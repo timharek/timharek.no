@@ -45,7 +45,7 @@ away a lot of unnecessary bits that other source-forges has.
 
 [^1]: Short for: Continuous Integration / Continuous Deployment
 
-[earlier_post]: blog/what-should-you-choose-for-deployment
+[earlier_post]: /blog/what-should-you-choose-for-deployment
 [git_hooks_repo]: https://github.com/timharek/git-hooks
 [sourcehut]: https://sourcehut.org
 [srht_images]: https://man.sr.ht/builds.sr.ht/compatibility.md
