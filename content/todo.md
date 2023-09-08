@@ -1,12 +1,11 @@
 +++
 title = "TODOs"
 description = "Todos for timharek.no"
-updated = 2023-08-21
+updated = 2023-09-08
 +++
 
 - Update layout/design
 - Add backlinks
-- Add more page
 - Add automatic share cover-image
 - Add unit tests for sitemap.xml
 - Add unit tests for rss.xml
