@@ -10,6 +10,7 @@ Currently watching:
 - Barry S4
 - Ashoka S1
 - Platonic S1
+- Foundation S1
 
 <details>
   <summary>Legend</summary>
