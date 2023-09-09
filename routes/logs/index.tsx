@@ -18,7 +18,6 @@ export const handler: Handlers<Props, ServerState> = {
     if (!section) {
       return ctx.renderNotFound();
     }
-    console.log(section);
 
     ctx.state.title = `${section.title} - ${ctx.state.title}`;
     if (section.description) {
