@@ -52,7 +52,6 @@ export async function getSection(
   const subSections = await getSubSections(sectionName, prefix);
 
   const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
-  // const html = render(body, { baseUrl });
   const html = marked.parse(body, { gfm: true });
   const links = getLinks(body);
 
