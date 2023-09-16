@@ -11,6 +11,7 @@ Currently watching:
 - Ashoka S1
 - Platonic S1
 - Foundation S1
+- Succession S1
 
 <details>
   <summary>Legend</summary>
