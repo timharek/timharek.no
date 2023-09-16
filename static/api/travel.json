@@ -421,5 +421,21 @@
       ]
     },
     "occasion": "business"
+  },
+  {
+    "type": "travel",
+    "title": "Work meetings",
+    "date": "2023-09-14",
+    "to_date": "2023-09-14",
+    "occasion": "business",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
+      },
+      "cities": [
+        "Oslo"
+      ]
+    }
   }
 ]
