@@ -928,5 +928,22 @@
       "Drama"
     ],
     "season": 1
+  },
+  {
+    "type": "tv",
+    "title": "Foundation",
+    "date": "2023-09-19T00:00:00.000Z",
+    "genres": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 4
+    },
+    "season": "1",
+    "director": [
+      "N/A"
+    ]
   }
 ]
