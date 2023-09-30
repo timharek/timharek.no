@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2023-09-08
+updated = 2023-09-30
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -42,6 +42,8 @@ some snapshots of my current workspace.
 ### Homelab
 
 - **Custom built computer**. Mostly used for gaming.
+- **Steam Deck**. For on the go gaming.
+- **Valve Index**. For VR gaming, not much used anymore.
 - **Intel NUC**. For my homelab.
 - **Home Assistant (RPi 4B)**. Home automation without the need for multiple
   bridges.
@@ -49,13 +51,12 @@ some snapshots of my current workspace.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
 - **Original Prusa MK4**. 3D-printer.
 
-<!-- TODO: Add new photo of new setup --->
 <figure>
   <img
     src="/img/uses/3d-pegboard.webp"
     alt="Server-cabinet and 3D-printer setup with filaments. Photo">
   <figcaption>
-    Server-cabinet and 3D-printer setup with filaments.
+    3D-printer setup with filaments.
   </figcaption>
 </figure>
 
@@ -74,7 +75,6 @@ This is software that I use on my devices.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
 - [Helix][helix]. Favorite text-editor.
-- [Insomnia][insomnia]. Open source API-client.
 - [iTerm2][iterm]. Fast, native terminal for macOS.
 - [Lulu][lulu]. Network monitor for macOS.
 - [MacUpdater][macupdater]. Keeping my Mac up to date.
@@ -105,21 +105,14 @@ This is software that I use on my devices.
 [multia]:
   https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
 [mattermost]: https://mattermost.com
-[neovim]: https://neovim.io
-[telescope]: https://github.com/nvim-telescope/telescope.nvim
-[emmet]: https://github.com/mattn/emmet-vim
 [netnewswire]: https://netnewswire.com
-[dozer]: https://github.com/Mortennn/Dozer
 [nextcloud]: https://nextcloud.com
 [numi]: https://numi.app
-[rectangle]: https://github.com/rxhanson/Rectangle
 [signal]: https://signal.org
 [iterm]: https://iterm2.com/
 [skhd]: https://github.com/koekeishiya/skhd
-[slack]: https://slack.com
 [spotify]: https://spotify.com
 [vscodium]: https://github.com/VSCodium/vscodium
-[darkroom]: https://apps.apple.com/us/app/a-dark-room/id736683061
 [wireguard]: https://www.wireguard.com
 [yr]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
@@ -134,7 +127,6 @@ This is software that I use on my devices.
 [moonlander]: https://www.zsa.io/moonlander/
 [spaceman]: https://github.com/Jaysce/Spaceman
 [usesthis]: https://usesthis.com/
-[insomnia]: https://insomnia.rest/
 [sourcehut]: https://sourcehut.org
 [helix]: https://helix-editor.com/
 [linkding]: https://github.com/sissbruecker/linkding
