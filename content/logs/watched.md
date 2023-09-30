@@ -10,7 +10,7 @@ Currently watching:
 - Barry S4
 - Ashoka S1
 - Platonic S1
-- Succession S1
+- Succession S2
 
 <details>
   <summary>Legend</summary>

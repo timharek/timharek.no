@@ -945,5 +945,22 @@
     "director": [
       "N/A"
     ]
+  },
+  {
+    "type": "tv",
+    "title": "Succession",
+    "date": "2023-09-29T00:00:00.000Z",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 5
+    },
+    "season": "1",
+    "director": [
+      "N/A"
+    ]
   }
 ]
