@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2023-01-29
+updated = 2023-09-30
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -24,11 +24,12 @@ some snapshots of my current workspace.
 
 ## Hardware
 
-- **MacBook Pro 13" M1 16GB**. Powerful, and excellent battery.
-- **iPhone 13 Pro**. Superb battery life and camera.
+- **MacBook Pro 14" M2 16GB**. Powerful, and excellent battery.
+- **iPhone 13 Mini**. Great form-factor.
 - **Apple Watch Ultra**. Overkill watch for everyday exercise.
 - [ZSA Moonlander Mark I][moonlander]. Ergonomic split keyboard.
 
+<!-- TODO: Add new photo of new setup --->
 <figure>
   <img
     src="/img/uses/hardware.webp"
@@ -41,19 +42,21 @@ some snapshots of my current workspace.
 ### Homelab
 
 - **Custom built computer**. Mostly used for gaming.
+- **Steam Deck**. For on the go gaming.
+- **Valve Index**. For VR gaming, not much used anymore.
 - **Intel NUC**. For my homelab.
 - **Home Assistant (RPi 4B)**. Home automation without the need for multiple
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
-- **Ender 3 S1**. 3D-printer.
+- **Original Prusa MK4**. 3D-printer.
 
 <figure>
   <img
     src="/img/uses/3d-pegboard.webp"
     alt="Server-cabinet and 3D-printer setup with filaments. Photo">
   <figcaption>
-    Server-cabinet and 3D-printer setup with filaments.
+    3D-printer setup with filaments.
   </figcaption>
 </figure>
 
@@ -68,25 +71,17 @@ This is software that I use on my devices.
 - Apple Mail. E-mail client of choice.
 - Apple Podcasts. Simple podcast app.
 - [Bitwarden][bitwarden]. Open source password manager.
-- [Dozer][dozer]. Hide icons from the menu bar on macOS.
 - [Firefox][firefox]. Highly customizable browser.
   - [uBlock Origin][ublock]
   - [Multi-Account containers][multia]
-- [Figma][figma]. Design editor I use at work.
-- [Helix][helix]. New editor I'm trying out.
-- [Insomnia][insomnia]. Open source API-client.
+- [Helix][helix]. Favorite text-editor.
 - [iTerm2][iterm]. Fast, native terminal for macOS.
 - [Lulu][lulu]. Network monitor for macOS.
 - [MacUpdater][macupdater]. Keeping my Mac up to date.
-- [Mattermost][mattermost]. A great open source alternative to Slack.
-- [Neovim][neovim]. My favorite text-editor.
-  - [emmet.vim][emmet]. A must-have for webdev.
-  - [telescope.nvim][telescope]. File browser and much more.
 - [NetNewsWire][netnewswire]. RSS Reader.
 - [Numi][numi]. Quick-access calculator.
 - [Signal][signal]. Favorite messaging application.
 - [skhd][skhd]. Keyboard shortcuts for macOS.
-- [Slack][slack]. Communication at work.
 - [VSCodium][vscodium]. For work.
 - [Wireguard][wireguard]. Connecting to my home network remotely.
 - [yabai][yabai]. Tiling window manager for macOS.
@@ -110,21 +105,14 @@ This is software that I use on my devices.
 [multia]:
   https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
 [mattermost]: https://mattermost.com
-[neovim]: https://neovim.io
-[telescope]: https://github.com/nvim-telescope/telescope.nvim
-[emmet]: https://github.com/mattn/emmet-vim
 [netnewswire]: https://netnewswire.com
-[dozer]: https://github.com/Mortennn/Dozer
 [nextcloud]: https://nextcloud.com
 [numi]: https://numi.app
-[rectangle]: https://github.com/rxhanson/Rectangle
 [signal]: https://signal.org
 [iterm]: https://iterm2.com/
 [skhd]: https://github.com/koekeishiya/skhd
-[slack]: https://slack.com
 [spotify]: https://spotify.com
 [vscodium]: https://github.com/VSCodium/vscodium
-[darkroom]: https://apps.apple.com/us/app/a-dark-room/id736683061
 [wireguard]: https://www.wireguard.com
 [yr]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
@@ -139,7 +127,6 @@ This is software that I use on my devices.
 [moonlander]: https://www.zsa.io/moonlander/
 [spaceman]: https://github.com/Jaysce/Spaceman
 [usesthis]: https://usesthis.com/
-[insomnia]: https://insomnia.rest/
 [sourcehut]: https://sourcehut.org
 [helix]: https://helix-editor.com/
 [linkding]: https://github.com/sissbruecker/linkding
