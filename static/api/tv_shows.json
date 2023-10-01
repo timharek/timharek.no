@@ -962,5 +962,23 @@
     "director": [
       "N/A"
     ]
+  },
+  {
+    "type": "tv",
+    "title": "Barry",
+    "date": "2023-09-30T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 5
+    },
+    "season": "4",
+    "director": [
+      "N/A"
+    ]
   }
 ]
