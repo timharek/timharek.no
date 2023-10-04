@@ -9,5 +9,4 @@ updated = 2023-09-08
 - Add automatic share cover-image
 - Add unit tests for sitemap.xml
 - Add unit tests for rss.xml
-- Add `sourceUrl` to `/.well-known/links`
 - Add support for Asciinema
