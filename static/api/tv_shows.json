@@ -980,5 +980,23 @@
     "director": [
       "N/A"
     ]
+  },
+  {
+    "type": "tv",
+    "title": "Ahsoka",
+    "date": "2023-10-04T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 4
+    },
+    "season": "1",
+    "director": [
+      "N/A"
+    ]
   }
 ]
