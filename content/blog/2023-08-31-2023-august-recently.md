@@ -1,13 +1,14 @@
 +++
 title = "August 2023"
 description = "What I've been up to since July."
+updated = 2023-10-04
 [taxonomies]
 tags = ["Recently", "100 days to offload"]
 +++
 
 This month was been a big one! I did a complete rewrite of my website of my
-website using Deno and Fresh. I also started in a new job, at Value Group. And
-to top it all, I became a dad! So yeah, this month has been quite something.
+website using Deno and Fresh. I also started in a new job, at Value Tech. And to
+top it all, I became a dad! So yeah, this month has been quite something.
 
 ## 💪 Health
 
