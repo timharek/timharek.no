@@ -3,6 +3,7 @@ import { PostList } from "../../components/PostList.tsx";
 import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { groupBy } from "../../src/group_by.ts";
+import { PageHeader } from "../../components/PageHeader.tsx";
 
 interface BlogProps {
   posts: Post[];
@@ -39,7 +40,7 @@ export default function BlogIndex({ data }: PageProps<BlogProps>) {
 
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">
-      <h1 class="text-4xl font-semibold mb-4">Blog</h1>
+      <PageHeader title="Blog" />
       {Object.keys(groupedPosts).sort((a, b) => b.localeCompare(a)).map((
         year,
       ) => (
