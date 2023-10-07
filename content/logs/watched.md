@@ -9,6 +9,7 @@ Currently watching:
 
 - Platonic S1
 - Succession S2
+- Loki S2
 
 <details>
   <summary>Legend</summary>
