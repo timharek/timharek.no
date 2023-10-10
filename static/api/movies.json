@@ -4608,5 +4608,21 @@
     "director": [
       "Josef Fares"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "Thomas mot Thomas",
+    "date": "2023-10-07T00:00:00.000Z",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 3
+    },
+    "director": [
+      "Jakob Rørvik"
+    ]
   }
 ]
