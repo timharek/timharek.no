@@ -8,3 +8,6 @@ public
 .env.local
 
 last_deploy
+
+# Fresh build directory
+_fresh/
