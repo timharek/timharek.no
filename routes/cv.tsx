@@ -112,7 +112,6 @@ export const handler: Handlers<CVProps, ServerState> = {
         {
           title: "CV",
           path: url.pathname,
-          current: true,
         },
       ];
       return ctx.render({ cv });

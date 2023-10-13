@@ -26,7 +26,6 @@ export const handler: Handlers<BlogProps, ServerState> = {
       {
         title: "Blog",
         path: url.pathname,
-        current: true,
       },
     ];
 

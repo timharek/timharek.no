@@ -23,9 +23,7 @@ export function Footer({ currentPath, lastDeploy }: FooterProps) {
         <ul class="flex gap-4">
           {navigation.map((item) => (
             <li>
-              {item.current
-                ? <span class="font-semibold">{item.title}</span>
-                : <Link href={item.path} label={item.title} />}
+              <Link href={item.path} label={item.title} />
             </li>
           ))}
         </ul>

@@ -47,7 +47,6 @@ export const handler: Handlers<WorkProps, ServerState> = {
         {
           title: page.title,
           path: url.pathname,
-          current: true,
         },
       ];
       let projects = cv.projects.sort((a, b) =>

@@ -9,7 +9,9 @@ export function Link(props: LinkProps) {
   return (
     <a
       {...propsWithoutLabel}
-      class={`text-primary hover:underline font-semibold ${className}`}
+      class={`text-primary hover:underline data-[current]:text-white font-semibold${
+        className ? ` ${className}` : ""
+      }`}
     >
       {label}
     </a>

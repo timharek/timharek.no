@@ -30,7 +30,6 @@ export const handler: Handlers<Props, ServerState> = {
       {
         title: section.title,
         path: `/${section.path}`,
-        current: true,
       },
     ];
 

@@ -40,7 +40,6 @@ export const handler: Handlers<TagPageProps, ServerState> = {
       {
         title: tag.title,
         path: url.pathname,
-        current: true,
       },
     ];
     ctx.state.description = `Posts tagged with ${tag.title}.`;

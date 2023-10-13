@@ -57,7 +57,6 @@ export const handler: Handlers<LogProps, ServerState> = {
       {
         title: page.title,
         path: url.pathname,
-        current: true,
       },
     ];
 

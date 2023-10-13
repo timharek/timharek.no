@@ -35,7 +35,6 @@ export const handler: Handlers<Props, ServerState> = {
       {
         title: page.title,
         path: url.pathname,
-        current: true,
       },
     ];
 

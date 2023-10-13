@@ -24,7 +24,6 @@ export const handler: Handlers<TagsProps, ServerState> = {
       {
         title: "Tags",
         path: url.pathname,
-        current: true,
       },
     ];
 

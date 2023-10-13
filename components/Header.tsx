@@ -35,9 +35,7 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
           <ul class="flex gap-4">
             {navigation.map((item) => (
               <li>
-                {item.current
-                  ? <span class="font-semibold">{item.title}</span>
-                  : <Link href={item.path} label={item.title} />}
+                <Link href={item.path} label={item.title} />
               </li>
             ))}
           </ul>
