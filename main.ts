@@ -12,8 +12,6 @@ import manifest from "./fresh.gen.ts";
 import twindPlugin from "$fresh/plugins/twindv1.ts";
 import twindConfig from "./twind.config.ts";
 
-import "$std/dotenv/load.ts";
-
 Deno.env.set("HOSTNAME", Deno.env.get("HOSTNAME") ?? "localhost");
 Deno.env.set("PORT", Deno.env.get("PORT") ?? "8000");
 
