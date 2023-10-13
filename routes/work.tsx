@@ -49,9 +49,22 @@ export const handler: Handlers<WorkProps, ServerState> = {
           path: url.pathname,
         },
       ];
-      let projects = cv.projects.sort((a, b) =>
-        b.startDate.localeCompare(a.startDate)
-      );
+      let projects = cv.projects.sort((a, b) => {
+        if (!a.endDate && !b.endDate) {
+          return 0;
+        }
+        if (!a.endDate) {
+          return 1;
+        }
+        if (!b.endDate) {
+          return -1;
+        }
+
+        const dateA = new Date(a.endDate);
+        const dateB = new Date(b.endDate);
+
+        return dateA.getTime() - dateB.getTime();
+      }).reverse();
 
       if (filter.year) {
         projects = projects.filter((project) =>
