@@ -13,6 +13,10 @@ export async function handler(
   req: Request,
   ctx: MiddlewareHandlerContext<ServerState>,
 ) {
+  if (ctx.destination != "route") {
+    return await ctx.next();
+  }
+
   const url = new URL(req.url);
   const redirects: Redirect = JSON.parse(
     await Deno.readTextFile(new URL("../redirects.json", import.meta.url)),
