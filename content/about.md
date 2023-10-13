@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
-updated = 2023-08-13
+updated = 2023-10-14 
 +++
 
 I'm Tim Hårek Andreassen, a technologist, developer, UX designer, hiker and
@@ -23,7 +23,7 @@ You can always reach me at
 
 ## Colophon
 
-This website is built using [Deno Fresh][deno_fresh] by yours truly.
+This website is built using [Deno][deno] and [Fresh][deno_fresh] by yours truly.
 
 Proud member of:
 
@@ -33,6 +33,7 @@ Proud member of:
 Source code is available on [SourceHut][sourcehut].
 
 [1984]: https://1984hosting.com
+[deno]: https://deno.com/
 [deno_fresh]: https://fresh.deno.dev/
 [1mb]: https://1mb.club
 [512kb]: https://512kb.club
