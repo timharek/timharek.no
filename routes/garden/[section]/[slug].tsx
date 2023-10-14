@@ -44,7 +44,6 @@ export const handler: Handlers<Props, ServerState> = {
         path: url.pathname,
       },
     ];
-    console.log("page", page);
     if (page.language) {
       ctx.state.language = page.language;
     }
