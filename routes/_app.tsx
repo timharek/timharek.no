@@ -11,7 +11,7 @@ export default function App(props: AppProps<unknown, ServerState>) {
   const currentPath = new URL(props.url).pathname;
 
   return (
-    <html lang="en">
+    <html lang={state.language}>
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

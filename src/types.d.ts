@@ -6,10 +6,12 @@ interface Attrs {
 
 interface PageAttrs extends Attrs {
   updated?: string;
+  language?: string;
 }
 
 interface PostAttrs extends Attrs {
   updated?: string;
+  language?: string;
   taxonomies?: {
     tags: string[];
   };
@@ -25,6 +27,7 @@ interface Page {
   wordCount: number;
   readingTime: number;
   description?: string;
+  language?: string;
   updated?: Date;
   draft?: boolean;
   /** title */

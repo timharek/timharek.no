@@ -10,5 +10,4 @@ updated = 2023-09-08
 - Add unit tests for sitemap.xml
 - Add unit tests for rss.xml
 - Add support for Asciinema
-- Add i18n
 - Remove need for `extra.` notation in Markdown-files

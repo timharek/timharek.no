@@ -13,7 +13,7 @@ export function PostList({ posts }: Props) {
             <div class="flex gap-2">
               <Link
                 href={`/${post.path}`}
-                label={post.title}
+                label={post.language === "no" ? `🇳🇴 ${post.title}` : post.title}
                 className="p-name u-url"
               />
               {post.draft &&

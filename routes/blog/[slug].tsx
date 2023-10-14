@@ -38,6 +38,9 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
         path: url.pathname,
       },
     ];
+    if (post.language) {
+      ctx.state.language = post.language;
+    }
 
     const resp = ctx.render({ post });
     return resp;
