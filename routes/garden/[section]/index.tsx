@@ -30,7 +30,7 @@ export const handler: Handlers<Props, ServerState> = {
         path: "/",
       },
       {
-        title: "Garden",
+        title: "Digital Garden",
         path: "/garden",
       },
       {
