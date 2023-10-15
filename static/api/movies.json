@@ -4624,5 +4624,22 @@
     "director": [
       "Jakob Rørvik"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "Promising Young Woman",
+    "date": "2023-10-14T00:00:00.000Z",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "release_year": 2020,
+    "review": {
+      "rating": 5
+    },
+    "director": [
+      "Emerald Fennell"
+    ]
   }
 ]
