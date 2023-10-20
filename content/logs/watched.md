@@ -8,7 +8,7 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Platonic S1
-- Succession S2
+- Succession S3
 - Loki S2
 
 <details>
