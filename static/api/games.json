@@ -294,7 +294,7 @@
   {
     "type": "game",
     "title": "Dredge",
-    "platform": "PC",
+    "platform": "Steam Deck",
     "release_year": 2023,
     "date": "2023-04-06T00:00:00.000Z",
     "review": {
@@ -322,6 +322,89 @@
       "Platformer",
       "Single-Player",
       "Sci-Fi"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Deathloop",
+    "platform": "PS5",
+    "release_year": 2021,
+    "date": "2021-09-22",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Single-Player",
+      "FPS"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Hogwarts Legacy",
+    "platform": "PS5",
+    "release_year": 2023,
+    "date": "2023-02-23",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Single-Player"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Elden Ring",
+    "platform": "PS5",
+    "release_year": 2022,
+    "date": "2023-09-03",
+    "review": {
+      "rating": 3
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Single-Player"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Starfield",
+    "platform": "PC",
+    "release_year": 2023,
+    "date": "2023-10-20",
+    "review": {
+      "rating": 3,
+      "description": "Didn't even finish the thing. It became too boring in the long run. Played for 38 hours."
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "RPG",
+      "Single-Player"
+    ]
+  },
+  {
+    "type": "game",
+    "title": "Zelda: Tears of Kingdom",
+    "platform": "Nintendo Switch",
+    "release_year": 2023,
+    "date": "2023-10-20",
+    "review": {
+      "rating": 4,
+      "description": "Didn't finish. Life came before it. But there was like something missing. It wasn't fun after a 20 hours or so."
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Single-Player"
     ]
   }
 ]
