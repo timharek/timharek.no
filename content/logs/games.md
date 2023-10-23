@@ -8,7 +8,6 @@ Video games I've finished. Not a complete list.
 Currently playing:
 
 - Dave the Diver on the Steam Deck
-- Spider-Man 2 on PS5
 
 <details>
   <summary>Legend</summary>

@@ -406,5 +406,16 @@
       "Fantasy",
       "Single-Player"
     ]
+  },
+  {
+    "title": "Spider-Man 2",
+    "type": "game",
+    "date": "2023-10-22",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
+    "genres": [],
+    "platform": "PS5"
   }
 ]
