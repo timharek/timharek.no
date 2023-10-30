@@ -19,13 +19,14 @@ export default function App(props: AppProps<unknown, ServerState>) {
           name="description"
           content={state.description}
         />
-        <script
-          async
-          defer
-          data-domain="timharek.no"
-          src="https://timharek.no/js/script.js"
-        >
-        </script>
+        {!config.base_url.includes("localhost") && (
+          <script
+            async
+            defer
+            data-domain="timharek.no"
+            src="https://timharek.no/js/script.js"
+          />
+        )}
         {config["rel=me"].map((item) => <link rel="me" href={item} />)}
         <link
           rel="alternate"
