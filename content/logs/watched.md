@@ -8,7 +8,9 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Platonic S1
-- Succession S3
+- Succession S4
+- Gen V S1
+- Invincible S2
 - Loki S2
 
 <details>

@@ -1015,5 +1015,22 @@
     "director": [
       "N/A"
     ]
+  },
+  {
+    "type": "tv",
+    "title": "Succession",
+    "date": "2023-11-02T00:00:00.000Z",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 4
+    },
+    "season": "3",
+    "director": [
+      "N/A"
+    ]
   }
 ]
