@@ -814,6 +814,23 @@
         "Oak",
         "Value"
       ]
+    },
+    {
+      "name": "Bergen Open Source Website",
+      "client": "friByte",
+      "roles": [
+        "Developer"
+      ],
+      "description": "Website for friByte's Open Source conference.",
+      "startDate": "2023-09-20",
+      "keywords": [
+        "Zola",
+        "Website"
+      ],
+      "url": "https://boskonf.no",
+      "sources": [
+        "https://github.com/fribyte-code/boskonf.no/"
+      ]
     }
   ]
 }
