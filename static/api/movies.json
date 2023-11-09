@@ -4641,5 +4641,22 @@
     "director": [
       "Emerald Fennell"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "The Marvels",
+    "date": "2023-11-08T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
+    "director": [
+      "Nia DaCosta"
+    ]
   }
 ]
