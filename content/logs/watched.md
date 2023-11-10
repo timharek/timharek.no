@@ -9,7 +9,6 @@ Currently watching:
 
 - Platonic S1
 - Succession S4
-- Gen V S1
 - Invincible S2
 - Loki S2
 

@@ -1032,5 +1032,23 @@
     "director": [
       "N/A"
     ]
+  },
+  {
+    "type": "tv",
+    "title": "Gen V",
+    "date": "2023-11-09T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 4
+    },
+    "season": "1",
+    "director": [
+      "N/A"
+    ]
   }
 ]
