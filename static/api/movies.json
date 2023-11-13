@@ -4658,5 +4658,22 @@
     "director": [
       "Nia DaCosta"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "The Killer",
+    "date": "2023-11-11T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "David Fincher"
+    ]
   }
 ]

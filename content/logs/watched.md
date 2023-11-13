@@ -10,7 +10,6 @@ Currently watching:
 - Platonic S1
 - Succession S4
 - Invincible S2
-- Loki S2
 
 <details>
   <summary>Legend</summary>

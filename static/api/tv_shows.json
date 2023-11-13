@@ -1050,5 +1050,23 @@
     "director": [
       "N/A"
     ]
+  },
+  {
+    "type": "tv",
+    "title": "Loki",
+    "date": "2023-11-11T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "release_year": null,
+    "review": {
+      "rating": 4
+    },
+    "season": "2",
+    "director": [
+      "N/A"
+    ]
   }
 ]
