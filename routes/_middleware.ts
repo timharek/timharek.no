@@ -14,7 +14,7 @@ export async function handler(
   req: Request,
   ctx: MiddlewareHandlerContext<ServerState>,
 ) {
-  if (ctx.destination != "route") {
+  if (ctx.destination !== "route") {
     return await ctx.next();
   }
 
