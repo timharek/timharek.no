@@ -1,7 +1,8 @@
 import { Input, Number, prompt } from "../deps.ts";
+import { Entry } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
 
-export async function logGame(): Promise<Log.Entry> {
+export async function logGame(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const result = await prompt([{

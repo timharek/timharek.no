@@ -1,7 +1,8 @@
 import { Input, List, prompt, Select } from "../deps.ts";
+import { Entry, Log } from "../schemas.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 
-export async function logTrip(): Promise<Log.Entry> {
+export async function logTrip(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const { title, departure, arrival, occasion, country, countryEmoji, cities } =
@@ -62,7 +63,7 @@ export async function logTrip(): Promise<Log.Entry> {
     title: title,
     date: departure,
     to_date: arrival,
-    occasion: occasion as Log.Occasion,
+    occasion: Log.Occassion.parse(occasion),
     location: {
       country: { name: country, emoji: countryEmoji },
       cities: cities,

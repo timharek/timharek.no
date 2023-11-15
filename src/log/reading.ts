@@ -7,8 +7,9 @@ import type {
   OpenLibrary,
 } from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
+import { Entry } from "../schemas.ts";
 
-export async function logBook(): Promise<Log.Entry> {
+export async function logBook(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const { title, author } = await prompt([

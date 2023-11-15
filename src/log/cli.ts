@@ -1,9 +1,11 @@
 import { logPath, Select } from "../deps.ts";
+import { Entry, Log } from "../schemas.ts";
 import { selectKeys } from "../utils.ts";
 import { log } from "./index.ts";
+import { z } from "zod";
 
 interface TypeSelector {
-  [key: string]: (type: Log.Entry["type"]) => Promise<Log.Entry>;
+  [key: string]: (type: Entry["type"]) => Promise<Entry>;
 }
 
 const typeSelector: TypeSelector = {
@@ -26,14 +28,16 @@ const type = await Select.prompt<Log.Entry["type"]>({
   ],
   search: true,
   keys: selectKeys,
-}) as Log.Entry["type"];
+}) as Entry["type"];
 
 const newEntry = await typeSelector[type](type);
 
 writeNewEntryToFile(logPath[type], newEntry);
 
-async function writeNewEntryToFile(path: string, entry: Log.Entry) {
-  const json: Log.Entry[] = JSON.parse(await Deno.readTextFile(path));
-  json.push(entry);
-  await Deno.writeTextFile(path, JSON.stringify(json, null, 2));
+async function writeNewEntryToFile(path: string, entry: Entry) {
+  const json = JSON.parse(await Deno.readTextFile(path));
+  const allEntries = z.array(Log.Entry).parse(json);
+  allEntries.push(entry);
+  console.log(allEntries);
+  await Deno.writeTextFile(path, JSON.stringify(allEntries, null, 2));
 }

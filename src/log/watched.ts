@@ -1,10 +1,11 @@
 import { getMovie, Input, Number, prompt } from "../deps.ts";
 import type { OMDB } from "../deps.ts";
+import { Entry } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
 
 export async function logMovieOrTv(
-  logType: Log.Entry["type"],
-): Promise<Log.Entry> {
+  logType: Entry["type"],
+): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const { title, date, rating, season } = await prompt([
@@ -65,7 +66,7 @@ export async function logMovieOrTv(
     title: entry.title,
     date: new Date(date as string),
     genres: entry.genre,
-    release_year: entry.year,
+    release_year: entry.year ?? null,
     review: { rating },
     season,
     ...(entry.director && { director: entry.director }),
