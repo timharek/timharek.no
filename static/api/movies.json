@@ -1236,7 +1236,7 @@
   {
     "type": "movie",
     "title": "Birdman",
-    "release_year": null,
+    "release_year": 2014,
     "date": "2014-01-01T00:00:00.000Z",
     "review": {
       "rating": 3
