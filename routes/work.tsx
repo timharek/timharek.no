@@ -132,22 +132,24 @@ function Project({ project }: { project: Project }) {
     end: project.endDate ? new Date(project.endDate) : undefined,
   };
   return (
-    <div class="space-y-4 py-4">
-      <h2 class="text-xl">
-        {project.url
-          ? <Link href={project.url} label={project.name} target="_blank" />
-          : project.name} {project.client && "- " + project.client}
-      </h2>
+    <div class="py-4 md:grid grid-cols-[0.25fr_1fr]">
       <ProjectDates start={dates.start} end={dates.end} />
-      <p class="">{project.description}</p>
-      {project.sources && (
-        <Link href={project.sources[0]} label="Source code" target="_blank" />
-      )}
-      <ul class="flex flex-wrap gap-2">
-        {project.keywords.map((keyword) => (
-          <li class="">#{keyword.toLowerCase().replaceAll(" ", "-")}</li>
-        ))}
-      </ul>
+      <div class="space-y-4">
+        <h2 class="text-xl">
+          {project.url
+            ? <Link href={project.url} label={project.name} target="_blank" />
+            : project.name} {project.client && "- " + project.client}
+        </h2>
+        <p class="">{project.description}</p>
+        {project.sources && (
+          <Link href={project.sources[0]} label="Source code" target="_blank" />
+        )}
+        <ul class="flex flex-wrap gap-2">
+          {project.keywords.map((keyword) => (
+            <li class="">#{keyword.toLowerCase().replaceAll(" ", "-")}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
