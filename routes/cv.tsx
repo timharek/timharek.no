@@ -220,7 +220,7 @@ function Education({ edu }: { edu: z.infer<typeof Edu> }) {
   );
 }
 
-function Dates({ start, end }: { start: string; end?: string }) {
+function Dates({ start, end }: { start: string; end?: string | null }) {
   return (
     <>
       <time title={start} dateTime={start}>{formatDate(start)}</time> - {end

@@ -1,7 +1,8 @@
 import { Input, prompt, Select } from "../deps.ts";
+import { Entry } from "../schemas.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 
-export async function logLifeEvent(): Promise<Log.Entry> {
+export async function logLifeEvent(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const { title, description, date, category } = await prompt([

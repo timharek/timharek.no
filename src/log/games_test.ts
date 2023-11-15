@@ -1,5 +1,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
+import { Entry } from "../schemas.ts";
 import { logGame } from "./games.ts";
 
 Deno.test("Log a game", async () => {
@@ -13,7 +14,7 @@ Deno.test("Log a game", async () => {
 
   const entry = await logGame();
 
-  const expected: Log.Entry = {
+  const expected: Entry = {
     title: "A video game",
     type: "game",
     date: "2012-12-26",

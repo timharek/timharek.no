@@ -1,5 +1,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
+import { Entry } from "../schemas.ts";
 import { LifeTesting, logLifeEvent } from "./life.ts";
 
 Deno.test("Log a life event", async () => {
@@ -12,7 +13,7 @@ Deno.test("Log a life event", async () => {
 
   const entry = await logLifeEvent();
 
-  const expected: Log.Entry = {
+  const expected: Entry = {
     title: "Minor life change",
     type: "life",
     description: "A description",
@@ -44,7 +45,7 @@ Deno.test("Log a life event with custom prefix", async () => {
 
   const entry = await logLifeEvent();
 
-  const expected: Log.Entry = {
+  const expected: Entry = {
     title: "Major life change",
     type: "life",
     description: "A description",

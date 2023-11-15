@@ -1,5 +1,6 @@
 import { assertEquals } from "$std/testing/asserts.ts";
 import { inject } from "../deps.ts";
+import { Entry } from "../schemas.ts";
 import { logTrip } from "./travel.ts";
 
 Deno.test("Log a trip", async () => {
@@ -15,7 +16,7 @@ Deno.test("Log a trip", async () => {
 
   const entry = await logTrip();
 
-  const expected: Log.Entry = {
+  const expected: Entry = {
     title: "Travel through time",
     type: "travel",
     date: "0001-01-01",
