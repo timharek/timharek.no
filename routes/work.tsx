@@ -2,7 +2,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
-import { CV, Project } from "./cv.tsx";
+import { CVSchema, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";
 import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
@@ -30,7 +30,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
     try {
       const cvPath = new URL("../static/api/cv.json", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
-      const cv = JSON.parse(cvRaw) as CV;
+      const cv = CVSchema.parse(JSON.parse(cvRaw));
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }

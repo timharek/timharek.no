@@ -18,8 +18,7 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "types": [
-      "./src/types.d.ts",
-      "./src/log/mod.d.ts"
+      "./src/types.d.ts"
     ]
   },
   "imports": {

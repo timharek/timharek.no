@@ -82,3 +82,7 @@ export const Log = {
 };
 
 export type Entry = z.infer<typeof Entry>;
+
+export type BookEntry = z.infer<typeof BookEntry>;
+export type GameEntry = z.infer<typeof GameEntry>;
+export type MovieEntry = z.infer<typeof MovieEntry>;

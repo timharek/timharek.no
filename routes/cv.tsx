@@ -2,92 +2,96 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { Link } from "../components/Link.tsx";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { ServerState } from "./_middleware.ts";
+import { z } from "zod";
 
-interface Work {
-  name: string;
-  position: string;
-  url?: string;
-  startDate: string;
-  endDate?: string;
-  highlights: string[];
-}
-interface Education {
-  insitution: string;
-  url: string;
-  area: string;
-  studyType: string;
-  startDate: string;
-  endDate?: string;
-  logo: string;
-  courses: string[];
-  summary: string;
-}
-interface Certificate {
-  name: string;
-  date: string;
-  issuer: {
-    company: string;
-    person: string;
-  };
-  url?: string;
-}
-interface Skill {
-  name: string;
-  level: string | null;
-  keywords: string[];
-}
-interface Language {
-  language: string;
-  fluency: "Native speaker" | "Fluent" | "Beginner";
-}
-interface Interest {
-  name: string;
-  keywords: string[];
-}
-export interface Project {
-  name: string;
-  client?: string;
-  roles: string[];
-  description: string;
-  startDate: string;
-  endDate?: string;
-  keywords: string[];
-  url: string;
-  sources?: string[];
-}
-export interface CV {
-  last_update: string;
-  basics: {
-    name: string;
-    label: string;
-    image: string;
-    email: string;
-    phone: string;
-    url: string;
-    summary: string;
-    location: {
-      city: string;
-      countryCode: string;
-    };
-    profiles: {
-      network: string;
-      username: string;
-      url: string;
-    }[];
-  };
-  work: Work[];
-  volunteer: Work[];
-  education: Education[];
-  awards: [];
-  certificates: Certificate[];
-  publications: [];
-  skills: Skill[];
-  language: Language[];
-  interest: Interest[];
-  projects: Project[];
-}
+const WorkExp = z.object({
+  name: z.string(),
+  position: z.string(),
+  url: z.string().optional().nullable(),
+  startDate: z.string(),
+  endDate: z.string().optional().nullable(),
+  highlights: z.array(z.string()),
+});
+
+const Edu = z.object({
+  insitution: z.string(),
+  url: z.string(),
+  area: z.string(),
+  studyType: z.string(),
+  startDate: z.string(),
+  endDate: z.string().optional(),
+  logo: z.string(),
+  courses: z.array(z.string()),
+  summary: z.string(),
+});
+const Certificate = z.object({
+  name: z.string(),
+  date: z.string(),
+  issuer: z.object({
+    company: z.string(),
+    person: z.string(),
+  }),
+  url: z.string().optional().nullable(),
+});
+const SkillItem = z.object({
+  name: z.string(),
+  level: z.string().nullable(),
+  keywords: z.array(z.string()),
+});
+const Language = z.object({
+  language: z.string(),
+  fluency: z.enum(["Native speaker", "Fluent", "Beginner"]),
+});
+const Interest = z.object({
+  name: z.string(),
+  keywords: z.array(z.string()),
+});
+const Project = z.object({
+  name: z.string(),
+  client: z.string().optional(),
+  roles: z.array(z.string()).optional(),
+  description: z.string(),
+  startDate: z.string(),
+  endDate: z.string().optional().nullable(),
+  keywords: z.array(z.string()),
+  url: z.string().optional(),
+  sources: z.array(z.string()).optional(),
+});
+export type Project = z.infer<typeof Project>;
+export const CVSchema = z.object({
+  last_update: z.string(),
+  basics: z.object({
+    name: z.string(),
+    label: z.string(),
+    image: z.string(),
+    email: z.string(),
+    phone: z.string(),
+    url: z.string(),
+    summary: z.string(),
+    location: z.object({
+      city: z.string(),
+      countryCode: z.string(),
+    }),
+    profiles: z.array(z.object({
+      network: z.string(),
+      username: z.string(),
+      url: z.string(),
+    })),
+  }),
+  work: z.array(WorkExp),
+  volunteer: z.array(WorkExp),
+  education: z.array(Edu),
+  awards: z.array(z.unknown()),
+  certificates: z.array(Certificate),
+  publications: z.array(z.unknown()),
+  skills: z.array(SkillItem),
+  languages: z.array(Language),
+  interests: z.array(Interest),
+  projects: z.array(Project),
+});
+
 interface CVProps {
-  cv: CV;
+  cv: z.infer<typeof CVSchema>;
 }
 
 export const handler: Handlers<CVProps, ServerState> = {
@@ -98,7 +102,7 @@ export const handler: Handlers<CVProps, ServerState> = {
     try {
       const cvPath = new URL("../static/api/cv.json", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
-      const cv = JSON.parse(cvRaw);
+      const cv = CVSchema.parse(JSON.parse(cvRaw));
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
@@ -125,7 +129,7 @@ export const handler: Handlers<CVProps, ServerState> = {
   },
 };
 
-export default function CV({ data }: PageProps<CVProps>) {
+export default function CVPage({ data }: PageProps<CVProps>) {
   const { cv } = data;
   return (
     <div class="max-w-screen-md mx-auto px-4 mb-4 prose">
@@ -182,7 +186,7 @@ export default function CV({ data }: PageProps<CVProps>) {
   );
 }
 
-function Work({ work }: { work: Work }) {
+function Work({ work }: { work: z.infer<typeof WorkExp> }) {
   return (
     <div class="space-y-2">
       <header class="flex flex-wrap gap-4 items-center justify-between">
@@ -199,7 +203,7 @@ function Work({ work }: { work: Work }) {
   );
 }
 
-function Education({ edu }: { edu: Education }) {
+function Education({ edu }: { edu: z.infer<typeof Edu> }) {
   return (
     <div class="space-y-2">
       <header class="flex flex-wrap gap-4 items-center justify-between">
@@ -226,7 +230,7 @@ function Dates({ start, end }: { start: string; end?: string }) {
   );
 }
 
-function Skill({ skill }: { skill: Skill }) {
+function Skill({ skill }: { skill: z.infer<typeof SkillItem> }) {
   return (
     <div class="md:flex justify-between gap-4">
       <h4 class="md:w-1/2 text-lg font-semibold">{skill.name}</h4>

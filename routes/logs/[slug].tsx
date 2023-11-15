@@ -6,6 +6,14 @@ import { ServerState } from "../_middleware.ts";
 import { groupBy } from "../../src/group_by.ts";
 import { ComponentChildren } from "preact";
 import { css } from "../../src/markdown.ts";
+import {
+  BookEntry,
+  Entry,
+  GameEntry,
+  Log,
+  MovieEntry,
+} from "../../src/schemas.ts";
+import { z } from "zod";
 
 interface AvailableLogs {
   [key: string]: string[];
@@ -18,7 +26,7 @@ const availableLogs: AvailableLogs = {
 };
 
 interface LogProps {
-  entries: Log.Entry[];
+  entries: Entry[];
   page: Page;
 }
 
@@ -63,11 +71,11 @@ export const handler: Handlers<LogProps, ServerState> = {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
     try {
-      let logs: Log.Entry[] = [];
+      let logs = [];
       for (const file of files) {
         const logPath = new URL(file, import.meta.url);
-        const logRaw = await Deno.readTextFile(logPath);
-        const log = JSON.parse(logRaw) as Log.Entry[];
+        const logRaw = JSON.parse(await Deno.readTextFile(logPath));
+        const log = z.array(Log.Entry).parse(logRaw);
         logs.push(...log);
       }
       logs.sort((a, b) => b.date.localeCompare(a.date));
@@ -142,7 +150,7 @@ export default function Page({ data }: PageProps<LogProps>) {
 }
 
 interface ItemProps {
-  item: Log.Entry;
+  item: Entry;
 }
 
 function Item({ item }: ItemProps) {
@@ -262,6 +270,6 @@ function getStars(rating: number) {
 
 function hasReview(
   entry: unknown,
-): entry is Log.BookEntry | Log.GameEntry | Log.MovieEntry {
+): entry is BookEntry | GameEntry | MovieEntry {
   return "review" in (entry as never);
 }
