@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2023-09-30
+updated = 2023-11-15
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -42,10 +42,10 @@ some snapshots of my current workspace.
 ### Homelab
 
 - **Custom built computer**. Mostly used for gaming.
-- **Steam Deck**. For on the go gaming.
-- **Valve Index**. For VR gaming, not much used anymore.
-- **Intel NUC**. For my homelab.
-- **Home Assistant (RPi 4B)**. Home automation without the need for multiple
+- **Steam Deck**. On-the-go gaming.
+- **Valve Index**. VR, not much used anymore.
+- **Intel NUC**. My homelab hub.
+- **Home Assistant (RPi 4B)**. Home automation without the need for multiple IoT
   bridges.
 - **Pi-hole (RPi 4B)**. Block ads on the network.
 - **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
@@ -68,8 +68,8 @@ This is software that I use on my devices.
 
 - [Affinity Designer][affinity]. My vector editor.
 - [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
-- Apple Mail. E-mail client of choice.
-- Apple Podcasts. Simple podcast app.
+- Mail.app. E-mail client of choice.
+- Podcasts.app. Simple podcast app.
 - [Bitwarden][bitwarden]. Open source password manager.
 - [Firefox][firefox]. Highly customizable browser.
   - [uBlock Origin][ublock]
@@ -94,7 +94,6 @@ This is software that I use on my devices.
 - [Linkding][linkding]. Self-hosted bookmarking.
 - [Migadu][migadu]. Amazing email provider ([my review][migadu_review]).
 - [Nextcloud][nextcloud]. Self-hosted cloud.
-- [Plausible][plausible]. Privacy-first analytics.
 - [SourceHut][sourcehut]. Source-forge for all my personal Git-repositories.
 - [Spotify][spotify]. Current music-service of choice.
 
@@ -122,7 +121,6 @@ This is software that I use on my devices.
 [lulu]: https://objective-see.com/products/lulu.html
 [appcleaner]: https://freemacsoft.net/appcleaner/
 [macupdater]: https://www.corecode.io/macupdater/
-[plausible]: https://plausible.io
 [dotfiles]: https://github.com/timharek/dotfiles
 [moonlander]: https://www.zsa.io/moonlander/
 [spaceman]: https://github.com/Jaysce/Spaceman
