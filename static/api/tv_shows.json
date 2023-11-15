@@ -725,7 +725,7 @@
   {
     "type": "tv",
     "title": "The Legend of Vox Machina",
-    "release_year": null,
+    "release_year": 2022,
     "date": "2023-01-27T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -740,7 +740,7 @@
   {
     "type": "tv",
     "title": "The Legend of Vox Machina",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-02-10T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -755,7 +755,7 @@
   {
     "type": "tv",
     "title": "The Last of Us",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-03-14T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -770,7 +770,7 @@
   {
     "type": "tv",
     "title": "Beef",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-05-22T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -784,7 +784,7 @@
   {
     "type": "tv",
     "title": "Black Mirror S6: Jaun is Awful",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-06-15T00:00:00.000Z",
     "review": {
       "rating": 3
@@ -799,7 +799,7 @@
   {
     "type": "tv",
     "title": "Black Mirror S6: Loch Henry",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-06-16T00:00:00.000Z",
     "review": {
       "rating": 4
@@ -814,7 +814,7 @@
   {
     "type": "tv",
     "title": "Black Mirror S6: Beyond the Sea",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-06-17T00:00:00.000Z",
     "review": {
       "rating": 4
@@ -829,7 +829,7 @@
   {
     "type": "tv",
     "title": "Black Mirror S6: Demon 79",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-06-18T00:00:00.000Z",
     "review": {
       "rating": 4
@@ -844,7 +844,7 @@
   {
     "type": "tv",
     "title": "Silo",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-06-30T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -858,7 +858,7 @@
   {
     "type": "tv",
     "title": "Barry",
-    "release_year": null,
+    "release_year": 2018,
     "date": "2023-07-11T00:00:00.000Z",
     "review": {
       "rating": 4
@@ -873,7 +873,7 @@
   {
     "type": "tv",
     "title": "Barry",
-    "release_year": null,
+    "release_year": 2019,
     "date": "2023-07-22T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -888,7 +888,7 @@
   {
     "type": "tv",
     "title": "The Bear",
-    "release_year": null,
+    "release_year": 2023,
     "date": "2023-07-24T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -902,7 +902,7 @@
   {
     "type": "tv",
     "title": "Barry",
-    "release_year": null,
+    "release_year": 2022,
     "date": "2023-07-26T00:00:00.000Z",
     "review": {
       "rating": 5
@@ -937,11 +937,11 @@
       "Drama",
       "Sci-Fi"
     ],
-    "release_year": null,
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
-    "season": "1",
+    "season": 1,
     "director": [
       "N/A"
     ]
@@ -954,11 +954,11 @@
       "Comedy",
       "Drama"
     ],
-    "release_year": null,
+    "release_year": 2018,
     "review": {
       "rating": 5
     },
-    "season": "1",
+    "season": 1,
     "director": [
       "N/A"
     ]
@@ -972,11 +972,11 @@
       "Comedy",
       "Crime"
     ],
-    "release_year": null,
+    "release_year": 2023,
     "review": {
       "rating": 5
     },
-    "season": "4",
+    "season": 4,
     "director": [
       "N/A"
     ]
@@ -990,11 +990,11 @@
       "Adventure",
       "Drama"
     ],
-    "release_year": null,
+    "release_year": 2023,
     "review": {
       "rating": 4
     },
-    "season": "1",
+    "season": 1,
     "director": [
       "N/A"
     ]
@@ -1007,11 +1007,11 @@
       "Comedy",
       "Drama"
     ],
-    "release_year": null,
+    "release_year": 2019,
     "review": {
       "rating": 4
     },
-    "season": "2",
+    "season": 2,
     "director": [
       "N/A"
     ]
@@ -1024,11 +1024,11 @@
       "Comedy",
       "Drama"
     ],
-    "release_year": null,
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
-    "season": "3",
+    "season": 3,
     "director": [
       "N/A"
     ]
@@ -1042,11 +1042,11 @@
       "Adventure",
       "Comedy"
     ],
-    "release_year": null,
+    "release_year": 2023,
     "review": {
       "rating": 4
     },
-    "season": "1",
+    "season": 1,
     "director": [
       "N/A"
     ]
@@ -1060,11 +1060,11 @@
       "Adventure",
       "Fantasy"
     ],
-    "release_year": null,
+    "release_year": 2023,
     "review": {
       "rating": 4
     },
-    "season": "2",
+    "season": 2,
     "director": [
       "N/A"
     ]
