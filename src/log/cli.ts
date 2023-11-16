@@ -16,7 +16,7 @@ const typeSelector: TypeSelector = {
   travel: log.trip,
 };
 
-const type = await Select.prompt<Log.Entry["type"]>({
+const type = await Select.prompt<Entry["type"]>({
   message: "What do you want to log?",
   options: [
     { name: "Movie", value: "movie" },

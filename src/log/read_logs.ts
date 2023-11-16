@@ -1,4 +1,6 @@
+import { z } from "zod";
 import { Confirm, logPath, Select } from "../deps.ts";
+import { Log } from "../schemas.ts";
 import { selectKeys } from "../utils.ts";
 
 type Type = "movie" | "tv" | "game" | "book" | "life" | "travel";
@@ -20,7 +22,9 @@ async function readFile() {
 
   const fileToRead = logPath[type];
 
-  const file: Log.Entry[] = JSON.parse(await Deno.readTextFile(fileToRead));
+  const file = z.array(Log.Entry).parse(
+    JSON.parse(await Deno.readTextFile(fileToRead)),
+  );
 
   const titles = file.map((item) => {
     return { name: `${item.title}`, value: `${item.title}` };
