@@ -38,6 +38,6 @@ async function writeNewEntryToFile(path: string, entry: Entry) {
   const json = JSON.parse(await Deno.readTextFile(path));
   const allEntries = z.array(Log.Entry).parse(json);
   allEntries.push(entry);
-  console.log(allEntries);
+  console.log(entry);
   await Deno.writeTextFile(path, JSON.stringify(allEntries, null, 2));
 }
