@@ -1,5 +1,4 @@
 import { getMovie, Input, Number, prompt } from "../deps.ts";
-import type { OMDB } from "../deps.ts";
 import { Entry } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
 
@@ -8,7 +7,12 @@ export async function logMovieOrTv(
 ): Promise<Entry> {
   const currentDate = getCurrentDate();
 
-  const { title, date, rating, season } = await prompt([
+  const { title, date, rating, season }: {
+    title: string;
+    date: string;
+    rating: number;
+    season: number;
+  } = await prompt([
     {
       name: "title",
       message: "What did you watch?",
@@ -34,7 +38,7 @@ export async function logMovieOrTv(
     },
     {
       name: "rating",
-      message: "How many stars for ${title}? (1-5)",
+      message: "How many stars? (1-5)",
       type: Number,
       min: 1,
       max: 5,
@@ -43,33 +47,31 @@ export async function logMovieOrTv(
 
   const options = {
     api: Deno.env.get("OMDB_API") ?? "",
-    verbose: 3,
     titleOrId: title as string,
   };
 
-  const entry: OMDB.Response = await getMovie(options);
+  const entry = await getMovie(options);
 
   if (logType === "movie") {
     return {
       type: "movie",
-      title: entry.title,
-      date: new Date(date as string).toISOString(),
-      genres: entry.genre,
-      release_year: entry.year,
+      title: entry.Title,
+      date: new Date(date as string).toISOString().split("T")[0],
+      genres: entry.Genre.split(", "),
+      release_year: parseInt(entry.Year),
       review: { rating },
-      ...(entry.director && { director: entry.director }),
+      director: entry.Director.split(", "),
     };
   }
 
   return {
     type: "tv",
-    title: entry.title,
-    date: new Date(date as string),
-    genres: entry.genre,
-    release_year: entry.year ?? null,
+    title: entry.Title,
+    date: new Date(date as string).toISOString().split("T")[0],
+    genres: entry.Genre.split(", "),
+    release_year: parseInt(entry.Year) ?? null,
     review: { rating },
     season,
-    ...(entry.director && { director: entry.director }),
-    ...(entry.creator && { creator: entry.creator }),
+    director: entry.Director.split(", "),
   };
 }
