@@ -382,7 +382,7 @@ name = "wcarbon"
 url = "https://deno.land/x/wcarbon"
 description = "Access Website Carbon's API with Deno."
 startDate = 2022-06-26
-keywords = ["Tool", "CLI", "Deno", "API", "Personal"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
 sources = ["https://github.com/timharek/wcarbon"]
 
 [[projects]]
@@ -390,7 +390,7 @@ name = "d-yr"
 url = "https://deno.land/x/dyr"
 description = "Access Yr.no's weather API with Deno."
 startDate = 2022-03-07
-keywords = ["Tool", "CLI", "Deno", "API", "Personal"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
 sources = ["https://github.com/timharek/d-yr"]
 
 [[projects]]
@@ -399,7 +399,7 @@ url = "https://everyday-privacy.com"
 description = "Educate people about privacy and security with an interactive static-site."
 startDate = 2021-02-11
 endDate = 2023-03-03
-keywords = ["Website", "Privacy", "Personal"]
+keywords = ["Website", "Privacy", "Personal", "Open source"]
 sources = ["https://github.com/timharek/everyday-privacy"]
 
 [[projects]]
@@ -408,7 +408,7 @@ url = "https://5545.no"
 description = "Weather website for a local zip-code in Norway, built with Svelte using Yr's API. "
 startDate = 2021-05-03
 endDate = 2022-05-28
-keywords = ["Website", "API", "Svelte", "Personal", "Tailwind"]
+keywords = ["Website", "API", "Svelte", "Personal", "Tailwind", "Open source"]
 sources = ["https://github.com/timharek/5545.no-svelte"]
 
 [[projects]]
@@ -416,7 +416,7 @@ name = "sbanken.sh"
 description = "Shell-script with options to access Sbanken and see your banking details."
 startDate = 2021-11-15
 endDate = 2022-08-05
-keywords = ["API", "Shell", "Personal"]
+keywords = ["API", "Shell", "Personal", "Open source"]
 sources = ["https://github.com/timharek/sbanken.sh"]
 
 [[projects]]
@@ -426,7 +426,7 @@ url = "https://fribyte.no"
 description = "Static generated website made with Zola."
 startDate = 2021-02-06
 endDate = 2023-10-04
-keywords = ["Website", "Zola"]
+keywords = ["Website", "Zola", "Open source"]
 sources = ["https://github.com/fribyte-code/fribyte.no"]
 
 [[projects]]
@@ -444,7 +444,7 @@ name = "deno-omdb"
 url = "https://deno.land/x/omdb"
 description = "Access OMDb's API for getting details about movies and TV shows with Deno."
 startDate = 2022-06-23
-keywords = ["Tool", "CLI", "Deno", "API", "Personal"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
 sources = [
   "https://github.com/timharek/deno-omdb",
   "https://git.sr.ht/~timharek/deno-omdb",
@@ -455,21 +455,23 @@ name = "deno-books"
 url = "https://deno.land/x/deno_books"
 description = "Access OpenLibrary's API with Deno."
 startDate = 2023-01-15
-keywords = ["Tool", "CLI", "Deno", "API", "Personal"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
 sources = [
   "https://github.com/timharek/deno-books",
   "https://git.sr.ht/~timharek/deno-books",
 ]
+
 [[projects]]
 name = "deno-linkding"
 url = "https://deno.land/x/linkding"
 description = "Access your Linkding instance's API with Deno."
 startDate = 2022-11-28
-keywords = ["Tool", "CLI", "Deno", "API", "Personal"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
 sources = [
   "https://github.com/timharek/deno-linkding",
   "https://git.sr.ht/~timharek/deno-linkding",
 ]
+
 [[projects]]
 name = "Web daemon"
 client = "Institutt for Journalistikk"
@@ -492,6 +494,7 @@ keywords = [
   "PocketBase",
   "Tailwind",
   "TypeScript",
+  "Open source"
 ]
 sources = ["https://git.sr.ht/~timharek/hima"]
 
@@ -508,6 +511,7 @@ keywords = [
   "PocketBase",
   "Tailwind",
   "TypeScript",
+  "Open source"
 ]
 sources = ["https://git.sr.ht/~timharek/filmpolitiet-api"]
 
@@ -556,6 +560,6 @@ roles = ["Developer"]
 description = "Website for friByte's Open Source conference."
 startDate = 2023-09-20
 endDate = 2023-11-05
-keywords = ["Zola", "Website"]
+keywords = ["Zola", "Website", "Open source"]
 sources = ["https://github.com/fribyte-code/boskonf.no/"]
 
