@@ -147,7 +147,11 @@ function Project({ project }: { project: Project }) {
         )}
         <ul class="flex flex-wrap gap-2">
           {project.keywords.map((keyword) => (
-            <li class="">#{keyword.toLowerCase().replaceAll(" ", "-")}</li>
+            <li class="">
+              <a href={`/work?tag=${keyword.toLowerCase()}`}>
+                #{keyword.toLowerCase().replaceAll(" ", "-")}
+              </a>
+            </li>
           ))}
         </ul>
       </div>
