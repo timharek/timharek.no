@@ -12,6 +12,7 @@ const WorkExp = z.object({
   startDate: z.date(),
   endDate: z.date().optional().nullable(),
   highlights: z.array(z.string()),
+  hide: z.boolean().optional(),
 });
 
 const Edu = z.object({
@@ -99,10 +100,11 @@ export const handler: Handlers<CVProps, ServerState> = {
     try {
       const cvPath = new URL("../static/api/cv.toml", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
-      const cv = CVSchema.parse(TOML.parse(cvRaw));
+      let cv = CVSchema.parse(TOML.parse(cvRaw));
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
+      const { searchParams } = url;
       ctx.state.title = `CV - ${ctx.state.title}`;
       ctx.state.description = "Tim Hårek's CV.";
       ctx.state.breadcrumbs = [
@@ -115,6 +117,12 @@ export const handler: Handlers<CVProps, ServerState> = {
           path: url.pathname,
         },
       ];
+      if (!searchParams.has("all")) {
+        cv = {
+          ...cv,
+          work: cv.work.filter((item) => !item.hide),
+        };
+      }
       return ctx.render({ cv });
     } catch (error) {
       console.error(error);

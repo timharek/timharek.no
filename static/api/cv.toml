@@ -91,6 +91,7 @@ highlights = [
   "Provided technical support for students and lecturers.",
   "Part-time job beside my bachelors-degree.",
 ]
+hide = true
 
 [[work]]
 name = "InfoCare"
@@ -102,6 +103,7 @@ highlights = [
   "Computer-repair of Dell and Lenovo computers, both laptops and desktops.",
   "IT support at ABB Bergen, Kokstad.",
 ]
+hide = true
 
 [[work]]
 name = "Appex"
@@ -123,6 +125,7 @@ highlights = [
   "Responsible for maintaining Norwegian alcohol laws.",
   "Part-time job as a bouncer beside my studies in Bergen.",
 ]
+hide = true
 
 [[work]]
 name = "Forsvaret"
@@ -134,6 +137,7 @@ highlights = [
   "Compulsory military service stationed at Ulsnes, Hundvåg, Stavanger.",
   "Responsible for seven other soldiers.",
 ]
+hide = true
 
 [[volunteer]]
 name = "friByte"
