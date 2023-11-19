@@ -3,39 +3,36 @@ import { Link } from "../components/Link.tsx";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { ServerState } from "./_middleware.ts";
 import { z } from "zod";
+import * as TOML from "$std/toml/mod.ts";
 
 const WorkExp = z.object({
   name: z.string(),
   position: z.string(),
   url: z.string().optional().nullable(),
-  startDate: z.string(),
-  endDate: z.string().optional().nullable(),
+  startDate: z.date(),
+  endDate: z.date().optional().nullable(),
   highlights: z.array(z.string()),
 });
 
 const Edu = z.object({
-  insitution: z.string(),
+  institituon: z.string(),
   url: z.string(),
   area: z.string(),
   studyType: z.string(),
-  startDate: z.string(),
-  endDate: z.string().optional(),
-  logo: z.string(),
+  startDate: z.date(),
+  endDate: z.date().optional(),
   courses: z.array(z.string()),
   summary: z.string(),
 });
 const Certificate = z.object({
   name: z.string(),
-  date: z.string(),
-  issuer: z.object({
-    company: z.string(),
-    person: z.string(),
-  }),
+  date: z.date(),
+  issuer: z.string(),
   url: z.string().optional().nullable(),
 });
 const SkillItem = z.object({
   name: z.string(),
-  level: z.string().nullable(),
+  level: z.string().nullable().optional(),
   keywords: z.array(z.string()),
 });
 const Language = z.object({
@@ -51,15 +48,15 @@ const Project = z.object({
   client: z.string().optional(),
   roles: z.array(z.string()).optional(),
   description: z.string(),
-  startDate: z.string(),
-  endDate: z.string().optional().nullable(),
+  startDate: z.date(),
+  endDate: z.date().optional().nullable(),
   keywords: z.array(z.string()),
   url: z.string().optional(),
   sources: z.array(z.string()).optional(),
 });
 export type Project = z.infer<typeof Project>;
 export const CVSchema = z.object({
-  last_update: z.string(),
+  last_update: z.date(),
   basics: z.object({
     name: z.string(),
     label: z.string(),
@@ -76,14 +73,14 @@ export const CVSchema = z.object({
       network: z.string(),
       username: z.string(),
       url: z.string(),
-    })),
+    })).optional(),
   }),
   work: z.array(WorkExp),
   volunteer: z.array(WorkExp),
   education: z.array(Edu),
-  awards: z.array(z.unknown()),
+  awards: z.array(z.unknown()).optional(),
   certificates: z.array(Certificate),
-  publications: z.array(z.unknown()),
+  publications: z.array(z.unknown()).optional(),
   skills: z.array(SkillItem),
   languages: z.array(Language),
   interests: z.array(Interest),
@@ -100,9 +97,9 @@ export const handler: Handlers<CVProps, ServerState> = {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
     try {
-      const cvPath = new URL("../static/api/cv.json", import.meta.url);
+      const cvPath = new URL("../static/api/cv.toml", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
-      const cv = CVSchema.parse(JSON.parse(cvRaw));
+      const cv = CVSchema.parse(TOML.parse(cvRaw));
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
@@ -209,7 +206,7 @@ function Education({ edu }: { edu: z.infer<typeof Edu> }) {
       <header class="flex flex-wrap gap-4 items-center justify-between">
         <div class="flex flex-wrap gap-4 items-center">
           <h3 class="text-xl font-semibold">{edu.studyType} in {edu.area}</h3>
-          <Link href={edu.url} label={edu.insitution} />
+          <Link href={edu.url} label={edu.institituon} />
         </div>
         <div class="text-gray-400">
           <Dates start={edu.startDate} end={edu.endDate} />
@@ -220,11 +217,20 @@ function Education({ edu }: { edu: z.infer<typeof Edu> }) {
   );
 }
 
-function Dates({ start, end }: { start: string; end?: string | null }) {
+function Dates({ start, end }: { start: Date; end?: Date | null }) {
+  const startString = start.toISOString();
+  const endString = end?.toISOString() ?? null;
   return (
     <>
-      <time title={start} dateTime={start}>{formatDate(start)}</time> - {end
-        ? <time title={end} dateTime={end}>{formatDate(end)}</time>
+      <time title={startString} dateTime={startString}>
+        {formatDate(startString)}
+      </time>{" "}
+      - {endString
+        ? (
+          <time title={endString} dateTime={endString}>
+            {formatDate(endString)}
+          </time>
+        )
         : "present"}
     </>
   );

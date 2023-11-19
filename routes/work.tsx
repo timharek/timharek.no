@@ -6,6 +6,7 @@ import { CVSchema, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";
 import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
+import * as TOML from "$std/toml/mod.ts";
 
 interface WorkProps {
   page: Page;
@@ -28,9 +29,9 @@ export const handler: Handlers<WorkProps, ServerState> = {
     const isRequestingHtml = headers?.includes("text/html");
 
     try {
-      const cvPath = new URL("../static/api/cv.json", import.meta.url);
+      const cvPath = new URL("../static/api/cv.toml", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
-      const cv = CVSchema.parse(JSON.parse(cvRaw));
+      const cv = CVSchema.parse(TOML.parse(cvRaw));
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
