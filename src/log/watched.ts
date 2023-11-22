@@ -21,7 +21,7 @@ export async function logMovieOrTv(
     {
       name: "season",
       message: "Which season?",
-      type: Input,
+      type: Number,
       before: async (_, next) => {
         if (logType === "tv") {
           await next();
