@@ -1,9 +1,9 @@
 [
   {
-    "type": "tv",
     "title": "Daredevil",
-    "release_year": 2015,
     "date": "2015-04-11T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2015,
     "review": {
       "rating": 5
     },
@@ -21,10 +21,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Daredevil",
-    "release_year": 2016,
     "date": "2016-03-19T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2016,
     "review": {
       "rating": 5
     },
@@ -42,10 +42,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Atypical",
-    "release_year": 2017,
     "date": "2017-08-17T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2017,
     "review": {
       "rating": 4
     },
@@ -59,10 +59,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Atypical",
-    "release_year": 2018,
     "date": "2018-10-07T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2018,
     "review": {
       "rating": 4
     },
@@ -76,10 +76,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Daredevil",
-    "release_year": 2018,
     "date": "2018-10-29T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2018,
     "review": {
       "rating": 5
     },
@@ -97,10 +97,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Bodyguard",
-    "release_year": 2018,
     "date": "2018-11-08T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2018,
     "review": {
       "rating": 5
     },
@@ -115,10 +115,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Atypical",
-    "release_year": 2019,
     "date": "2019-11-03T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2019,
     "review": {
       "rating": 4
     },
@@ -132,10 +132,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Witcher",
-    "release_year": 2019,
     "date": "2019-12-25T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2019,
     "review": {
       "rating": 4
     },
@@ -152,10 +152,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Westworld",
-    "release_year": 2020,
     "date": "2020-05-09T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2020,
     "review": {
       "rating": 3
     },
@@ -171,10 +171,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Space Force",
-    "release_year": 2020,
     "date": "2020-06-03T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2020,
     "review": {
       "rating": 3
     },
@@ -188,10 +188,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Atypical",
-    "release_year": 2021,
     "date": "2021-07-20T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 3
     },
@@ -205,10 +205,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Rick and Morty",
-    "release_year": 2021,
     "date": "2021-08-09T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -226,10 +226,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Sex Education",
-    "release_year": 2021,
     "date": "2021-10-13T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -243,10 +243,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Hawkeye",
-    "release_year": 2021,
     "date": "2021-12-22T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -262,10 +262,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Witcher",
-    "release_year": 2021,
     "date": "2022-01-09T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -282,10 +282,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Dexter: New Blood",
-    "release_year": 2021,
     "date": "2022-01-11T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -300,10 +300,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Book of Boba Fett",
-    "release_year": 2021,
     "date": "2022-02-11T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -318,10 +318,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Peacemaker",
-    "release_year": 2021,
     "date": "2022-02-18T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -340,10 +340,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Euphoria",
-    "release_year": 2022,
     "date": "2022-03-02T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -356,10 +356,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Reacher",
-    "release_year": 2022,
     "date": "2022-03-03T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -374,10 +374,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Dopesick",
-    "release_year": 2021,
     "date": "2022-04-10T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 5
     },
@@ -392,10 +392,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Moon Knight",
-    "release_year": 2022,
     "date": "2022-05-04T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -411,10 +411,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Maid",
-    "release_year": 2021,
     "date": "2022-05-09T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 5
     },
@@ -427,10 +427,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Severance",
-    "release_year": 2022,
     "date": "2022-05-28T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -446,10 +446,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Clark",
-    "release_year": 2022,
     "date": "2022-05-28T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -467,10 +467,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Dropout",
-    "release_year": 2022,
     "date": "2022-05-28T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -484,10 +484,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Atlanta",
-    "release_year": 2022,
     "date": "2022-06-17T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -502,10 +502,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Kärleik och anarki",
-    "release_year": 2022,
     "date": "2022-06-17T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 3
     },
@@ -520,10 +520,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Obi-Wan Kenobi",
-    "release_year": 2022,
     "date": "2022-06-22T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -538,10 +538,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Ms. Marvel",
-    "release_year": 2022,
     "date": "2022-07-14T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 1
     },
@@ -557,10 +557,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Boys",
-    "release_year": 2021,
     "date": "2022-07-22T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2021,
     "review": {
       "rating": 4
     },
@@ -577,10 +577,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Boys",
-    "release_year": 2022,
     "date": "2022-07-31T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -597,10 +597,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Better Call Saul",
-    "release_year": 2022,
     "date": "2022-08-18T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -614,10 +614,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Bear",
-    "release_year": 2022,
     "date": "2022-09-27T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -630,10 +630,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "She-Hulk: Attorney at Law",
-    "release_year": 2022,
     "date": "2022-10-13T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 2
     },
@@ -649,10 +649,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Dahmer - Monster: The Jeffrey Dahmer Story",
-    "release_year": 2022,
     "date": "2022-10-15T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -668,10 +668,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "House of the Dragon",
-    "release_year": 2022,
     "date": "2022-10-24T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -687,10 +687,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Black Bird",
-    "release_year": 2022,
     "date": "2022-12-06T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -705,10 +705,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Andor",
-    "release_year": 2022,
     "date": "2023-01-01T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 4
     },
@@ -723,10 +723,10 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Legend of Vox Machina",
-    "release_year": 2022,
     "date": "2023-01-27T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -738,10 +738,10 @@
     "season": 1
   },
   {
-    "type": "tv",
     "title": "The Legend of Vox Machina",
-    "release_year": 2023,
     "date": "2023-02-10T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 5
     },
@@ -753,10 +753,10 @@
     "season": 2
   },
   {
-    "type": "tv",
     "title": "The Last of Us",
-    "release_year": 2023,
     "date": "2023-03-14T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 5
     },
@@ -768,10 +768,10 @@
     "season": 1
   },
   {
-    "type": "tv",
     "title": "Beef",
-    "release_year": 2023,
     "date": "2023-05-22T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 5
     },
@@ -782,10 +782,10 @@
     "season": 1
   },
   {
-    "type": "tv",
     "title": "Black Mirror S6: Jaun is Awful",
-    "release_year": 2023,
     "date": "2023-06-15T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 3
     },
@@ -797,10 +797,10 @@
     "season": 6
   },
   {
-    "type": "tv",
     "title": "Black Mirror S6: Loch Henry",
-    "release_year": 2023,
     "date": "2023-06-16T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 4
     },
@@ -812,10 +812,10 @@
     "season": 6
   },
   {
-    "type": "tv",
     "title": "Black Mirror S6: Beyond the Sea",
-    "release_year": 2023,
     "date": "2023-06-17T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 4
     },
@@ -827,10 +827,10 @@
     "season": 6
   },
   {
-    "type": "tv",
     "title": "Black Mirror S6: Demon 79",
-    "release_year": 2023,
     "date": "2023-06-18T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 4
     },
@@ -842,10 +842,10 @@
     "season": 6
   },
   {
-    "type": "tv",
     "title": "Silo",
-    "release_year": 2023,
     "date": "2023-06-30T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 5
     },
@@ -856,10 +856,10 @@
     "season": 1
   },
   {
-    "type": "tv",
     "title": "Barry",
-    "release_year": 2018,
     "date": "2023-07-11T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2018,
     "review": {
       "rating": 4
     },
@@ -871,10 +871,10 @@
     "season": 1
   },
   {
-    "type": "tv",
     "title": "Barry",
-    "release_year": 2019,
     "date": "2023-07-22T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2019,
     "review": {
       "rating": 5
     },
@@ -886,10 +886,10 @@
     "season": 2
   },
   {
-    "type": "tv",
     "title": "The Bear",
-    "release_year": 2023,
     "date": "2023-07-24T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 5
     },
@@ -900,10 +900,10 @@
     "season": 2
   },
   {
-    "type": "tv",
     "title": "Barry",
-    "release_year": 2022,
     "date": "2023-07-26T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
     "review": {
       "rating": 5
     },
@@ -915,10 +915,10 @@
     "season": 3
   },
   {
-    "type": "tv",
     "title": "Secret Invasion",
-    "release_year": 2023,
     "date": "2023-07-26T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
     "review": {
       "rating": 3
     },
@@ -930,141 +930,159 @@
     "season": 1
   },
   {
-    "type": "tv",
     "title": "Foundation",
     "date": "2023-09-19T00:00:00.000Z",
-    "genres": [
-      "Drama",
-      "Sci-Fi"
-    ],
+    "type": "tv",
     "release_year": 2021,
     "review": {
       "rating": 4
     },
+    "genres": [
+      "Drama",
+      "Sci-Fi"
+    ],
     "season": 1,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Succession",
     "date": "2023-09-29T00:00:00.000Z",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
+    "type": "tv",
     "release_year": 2018,
     "review": {
       "rating": 5
     },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "season": 1,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Barry",
     "date": "2023-09-30T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
+    "review": {
+      "rating": 5
+    },
     "genres": [
       "Action",
       "Comedy",
       "Crime"
     ],
-    "release_year": 2023,
-    "review": {
-      "rating": 5
-    },
     "season": 4,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Ahsoka",
     "date": "2023-10-04T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Action",
       "Adventure",
       "Drama"
     ],
-    "release_year": 2023,
-    "review": {
-      "rating": 4
-    },
     "season": 1,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Succession",
     "date": "2023-10-12T00:00:00.000Z",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
+    "type": "tv",
     "release_year": 2019,
     "review": {
       "rating": 4
     },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "season": 2,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Succession",
     "date": "2023-11-02T00:00:00.000Z",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
+    "type": "tv",
     "release_year": 2021,
     "review": {
       "rating": 4
     },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "season": 3,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Gen V",
     "date": "2023-11-09T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Action",
       "Adventure",
       "Comedy"
     ],
-    "release_year": 2023,
-    "review": {
-      "rating": 4
-    },
     "season": 1,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Loki",
     "date": "2023-11-11T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Action",
       "Adventure",
       "Fantasy"
     ],
+    "season": 2,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Scavengers Reign",
+    "date": "2023-11-22",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 5
     },
-    "season": 2,
+    "season": 1,
     "director": [
       "N/A"
     ]
