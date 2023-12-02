@@ -10,6 +10,7 @@ Currently watching:
 - Platonic S1
 - Succession S4
 - Invincible S2
+- Monarch: Legacy of Monsters S1
 
 <details>
   <summary>Legend</summary>
