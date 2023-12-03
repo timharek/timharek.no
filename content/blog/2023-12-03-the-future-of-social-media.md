@@ -10,8 +10,8 @@ What?][video], and it made me reflect on social media as a whole.
 
 I know for myself that I have blamed social media for the polarization and
 extremism we see in society today, but I thought it was because people were
-enganging with each other in echo chambers. But after watching the video, and
-checking their [sources][sources], I see that way not actually be the case.
+engaging with each other in echo chambers. But after watching the video, and
+checking their [sources][sources], I see that may not actually be the case.
 
 [video]: https://www.youtube.com/watch?v=fuFlMtZmvY0
 [sources]: https://sites.google.com/view/sources-why-we-hate-each-other/
@@ -19,28 +19,28 @@ checking their [sources][sources], I see that way not actually be the case.
 There are conflicting studies for the argument of echo chambers and filter
 bubbles, but a common trait is that a lot of studies agree that the algorithms
 on social media aims to keep people online and engaged for the longest amount of
-time. They keep you engaged by showing enganging content. Angry and extreme
-opinions that keeps people enganged.
+time. They keep you engaged by showing engaging content. Angry and extreme
+opinions that keeps people engaged.
 
 And because we sort people into "groups" based on worldviews and find
 disagreement threatening, social media continues to feed us shit. It keeps us
-enganged. It's an endless circle.
+engaged. It's an endless circle.
 
 And I keep thinking back to before I deleted my social media accounts. I
 remember I stopped engaging with content, because it made me feel like shit and
 that someone else were either always better or had a higher apprecited opinion.
-When I decieded not to engange with stuff anymore, just to browse, I managed to
+When I decieded not to engage with stuff anymore, just to browse, I managed to
 escape the need to keep up with everything and I was able to put it away after I
 was done, to a degree. I still ended up deleting my accounts, because of privacy
 and taking back control of my time.
 
-I think we need to start looking at the Internet more like we did before social
-media. We should mirror real life. Keeping stuff in smaller silos. Smaller,
-separated online communities that allow people to curate their experiences
-instead of a single large town square.
+I believe we need to start looking at the Internet more like we did before
+social media. We should mirror real life. Keeping stuff in smaller silos.
+Smaller, separated online communities that allow people to curate their
+experiences instead of a single large town square.
 
 The communties doesn't have to be place where people collectively post and
-engage, it can be as simple as a blog. You can create engangement by having
+engage, it can be as simple as a blog. You can create engagement by having
 people share their opinion via email, or a mailing list. Like [Erik][erik]
 wrotes in his [The future of social media][erik_post]:
 
