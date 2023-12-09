@@ -4677,20 +4677,38 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Howl's Moving Castle",
     "date": "2023-11-17",
+    "type": "movie",
+    "release_year": 2004,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Adventure",
       "Family"
     ],
-    "release_year": 2004,
-    "review": {
-      "rating": 4
-    },
     "director": [
       "Hayao Miyazaki"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Klaus",
+    "date": "2023-12-09",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "release_year": 2019,
+    "review": {
+      "rating": 5
+    },
+    "director": [
+      "Sergio Pablos",
+      "Carlos Martínez López"
     ]
   }
 ]
