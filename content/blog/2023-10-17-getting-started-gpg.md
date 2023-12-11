@@ -1,6 +1,7 @@
 +++
 title = "Getting started with GPG"
 description = "How to use GPG for secure email, Git commits, and passwords, ensuring data integrity and authenticity."
+updated = 2023-12-11
 [taxonomies]
 tags = ["100 days to offload", "Tutorial", "GPG", "Tools", "Git", "Passwords", "Email"]
 +++
@@ -32,7 +33,7 @@ Now, you have a newly generated GPG key!
 To list our newly generated key:
 
 ```bash
-gpg --K
+gpg -K
 ```
 
 ```output
