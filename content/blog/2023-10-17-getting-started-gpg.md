@@ -173,11 +173,21 @@ message, you can use the following command to decrypt:
 gpg --decrypt doc.txt.gpg
 ```
 
+### Exporting public keys
+
+In order to export your public key, you can run the following command:
+
+```bash
+gpg --armor --export <fingerprint_or_email>
+```
+
+Remember to add this as an attachment to your email so that people can respond.
+
 ### Testing
 
 You can try to send me an encrypted email, and I will reply with an encrypted
 reply if you were successful. My key, with instructions, is available on my
-[Connect-page](/connect).
+[Connect-page](/connect). Remeber to add your public key as well :)
 
 ## Summary
 
