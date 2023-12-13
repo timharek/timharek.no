@@ -25,4 +25,13 @@ export const css = `
     .markdown-body figure {
       margin-block: 1rem;
     }
+    .markdown-body a {
+      text-decoration: underline;
+    }
+    .markdown-body a:hover {
+      text-decoration: underline;
+      text-decoration-color: var(--color-accent-fg);
+      background-color: var(--color-accent-fg);
+      color: black;
+    }
   `;
