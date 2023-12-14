@@ -2,6 +2,10 @@ import extract from "$std/front_matter/any.ts";
 import { CSS } from "gfm/mod.ts";
 import { Extract } from "$std/front_matter/mod.ts";
 
+const highlight = await (await fetch(
+  "https://esm.sh/highlight.js@11.9.0/styles/atom-one-dark.min.css",
+)).text();
+
 export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
   const fileContent = await Deno.readTextFile(path);
   const markdownFile = extract<T>(fileContent);
@@ -11,6 +15,9 @@ export async function getMarkdownFile<T>(path: URL): Promise<Extract<T>> {
 
 export const css = `
     ${CSS}
+
+    ${highlight}
+
     .markdown-body {
       /* bg-zinc-900 */
       --color-canvas-default: rgba(24,24,27,var(--tw-bg-opacity)) !important; 

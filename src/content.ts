@@ -1,10 +1,23 @@
-import { marked, Token, Tokens, TokensList } from "npm:marked@8.0.1";
+import { Marked, Token, Tokens, TokensList } from "npm:marked@8.0.1";
+import { markedHighlight } from "npm:marked-highlight@2.0.9";
+import hljs from "npm:highlight.js@11.9.0";
 import { groupBy } from "./group_by.ts";
 import { getMarkdownFile } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 import { parse } from "https://esm.sh/tldts@6.0.14";
 
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
+
+const marked = new Marked(
+  markedHighlight({
+    async: true,
+    langPrefix: "language-",
+    highlight(code, lang) {
+      const language = hljs.getLanguage(lang) ? lang : "plaintext";
+      return hljs.highlight(code, { language }).value;
+    },
+  }),
+);
 
 export async function getPage(
   { slug, prefix = "../content", section }: {
@@ -22,7 +35,7 @@ export async function getPage(
   );
   const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
 
-  const html = marked.parse(body, { gfm: true });
+  const html = await marked.parse(body, { gfm: true });
   const links = getLinks(body);
 
   return {
@@ -53,7 +66,7 @@ export async function getSection(
   const subSections = await getSubSections(sectionName, prefix);
 
   const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
-  const html = marked.parse(body, { gfm: true });
+  const html = await marked.parse(body, { gfm: true });
   const links = getLinks(body);
 
   return {
@@ -230,8 +243,7 @@ async function getPagesFromSection(
 
       const { attrs, body } = await getMarkdownFile<PostAttrs>(postPath);
 
-      // const html = render(body, { baseUrl });
-      const html = marked.parse(body, { gfm: true });
+      const html = await marked.parse(body, { gfm: true });
       const links = getLinks(body);
 
       pages.push({
