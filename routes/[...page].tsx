@@ -19,6 +19,14 @@ export const handler: Handlers<Props, ServerState> = {
       if (!page) {
         return ctx.renderNotFound();
       }
+      const headers = req.headers.get("accept");
+      const isRequestionJSON = headers?.includes("application/json");
+
+      if (isRequestionJSON) {
+        return new Response(JSON.stringify(page, null, 2), {
+          headers: { "Content-Type": "application/json" },
+        });
+      }
 
       ctx.state.title = `${page.title} - ${ctx.state.title}`;
       if (page.description) {

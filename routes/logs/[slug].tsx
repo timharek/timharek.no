@@ -69,7 +69,8 @@ export const handler: Handlers<LogProps, ServerState> = {
     ];
 
     const headers = req.headers.get("accept");
-    const isRequestingHtml = headers?.includes("text/html");
+    const isRequestionJSON = headers?.includes("application/json");
+
     try {
       let logs = [];
       for (const file of files) {
@@ -79,8 +80,11 @@ export const handler: Handlers<LogProps, ServerState> = {
         logs.push(...log);
       }
       logs.sort((a, b) => b.date.localeCompare(a.date));
-      if (!isRequestingHtml) {
-        return new Response(JSON.stringify(logs, null, 2));
+
+      if (isRequestionJSON) {
+        return new Response(JSON.stringify(logs, null, 2), {
+          headers: { "Content-Type": "application/json" },
+        });
       }
 
       if (type) {
@@ -95,8 +99,10 @@ export const handler: Handlers<LogProps, ServerState> = {
       return ctx.render({ page, entries: logs });
     } catch (error) {
       console.error(error);
-      if (!isRequestingHtml) {
-        return new Response(JSON.stringify({ message: "error" }, null, 2));
+      if (isRequestionJSON) {
+        return new Response(JSON.stringify({ message: "error" }, null, 2), {
+          headers: { "Content-Type": "application/json" },
+        });
       }
       return ctx.renderNotFound();
     }

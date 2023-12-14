@@ -21,6 +21,14 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
     if (!post) {
       return ctx.renderNotFound();
     }
+    const headers = req.headers.get("accept");
+    const isRequestionJSON = headers?.includes("application/json");
+
+    if (isRequestionJSON) {
+      return new Response(JSON.stringify(post, null, 2), {
+        headers: { "Content-Type": "application/json" },
+      });
+    }
 
     const url = new URL(req.url);
     ctx.state.title = `${post.title} - ${ctx.state.title}`;

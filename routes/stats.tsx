@@ -23,6 +23,15 @@ export const handler: Handlers<Props, ServerState> = {
       return ctx.renderNotFound();
     }
 
+    const headers = req.headers.get("accept");
+    const isRequestionJSON = headers?.includes("application/json");
+
+    if (isRequestionJSON) {
+      return new Response(JSON.stringify(stats, null, 2), {
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
     ctx.state.title = `${page.title} - ${ctx.state.title}`;
     if (page.description) {
       ctx.state.description = page.description;

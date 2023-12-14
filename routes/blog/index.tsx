@@ -15,6 +15,16 @@ export const handler: Handlers<BlogProps, ServerState> = {
     const blog = await getSection("blog");
     const posts = blog.pages as Post[];
     ctx.state.title = `${blog.title} - ${ctx.state.title}`;
+
+    const headers = req.headers.get("accept");
+    const isRequestionJSON = headers?.includes("application/json");
+
+    if (isRequestionJSON) {
+      return new Response(JSON.stringify(posts, null, 2), {
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
     if (blog.description) {
       ctx.state.description = blog.description;
     }
