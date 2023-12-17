@@ -41,4 +41,18 @@ export const css = `
       background-color: var(--color-accent-fg);
       color: black;
     }
+    .markdown-body table {
+      border: none;
+    }
+    .markdown-body table tr,
+    .markdown-body table th,
+    .markdown-body table td {
+      border: none;
+      background: none !important;
+    }
+    .markdown-body table th:empty,
+    .markdown-body table td:empty {
+      margin: 0;
+      padding: 0;
+    }
   `;
