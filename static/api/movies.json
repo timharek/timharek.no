@@ -4694,21 +4694,40 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Klaus",
     "date": "2023-12-09",
+    "type": "movie",
+    "release_year": 2019,
+    "review": {
+      "rating": 5
+    },
     "genres": [
       "Animation",
       "Adventure",
       "Comedy"
     ],
-    "release_year": 2019,
-    "review": {
-      "rating": 5
-    },
     "director": [
       "Sergio Pablos",
       "Carlos Martínez López"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Leo",
+    "date": "2023-12-17",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Robert Marianetti",
+      "Robert Smigel",
+      "David Wachtenheim"
     ]
   }
 ]
