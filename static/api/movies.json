@@ -4712,22 +4712,39 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Leo",
     "date": "2023-12-17",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Comedy",
       "Family"
+    ],
+    "director": [
+      "Robert Marianetti",
+      "Robert Smigel",
+      "David Wachtenheim"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Chicken Run: Dawn of the Nugget",
+    "date": "2023-12-19",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
     ],
     "release_year": 2023,
     "review": {
       "rating": 4
     },
     "director": [
-      "Robert Marianetti",
-      "Robert Smigel",
-      "David Wachtenheim"
+      "Sam Fell"
     ]
   }
 ]
