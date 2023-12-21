@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2023-11-15
+updated = 2023-12-21
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -24,10 +24,12 @@ some snapshots of my current workspace.
 
 ## Hardware
 
-- **MacBook Pro 14" M2 16GB**. Powerful, and excellent battery.
-- **iPhone 13 Mini**. Great form-factor.
-- **Apple Watch Ultra**. Overkill watch for everyday exercise.
-- [ZSA Moonlander Mark I][moonlander]. Ergonomic split keyboard.
+|          |                                     |
+| -------: | :---------------------------------- |
+| Computer | MacBook Pro 14" M2 16GB             |
+|    Phone | iPhone 13 Mini                      |
+|    Watch | Apple Watch Ultra                   |
+| Keyboard | [ZSA Moonlander Mark I][moonlander] |
 
 <!-- TODO: Add new photo of new setup --->
 <figure>
@@ -41,15 +43,14 @@ some snapshots of my current workspace.
 
 ### Homelab
 
-- **Custom built computer**. Mostly used for gaming.
-- **Steam Deck**. On-the-go gaming.
-- **Valve Index**. VR, not much used anymore.
-- **Intel NUC**. My homelab hub.
-- **Home Assistant (RPi 4B)**. Home automation without the need for multiple IoT
-  bridges.
-- **Pi-hole (RPi 4B)**. Block ads on the network.
-- **Decommissioned ThinkCentre**. Hosts my Nextcloud instance.
-- **Original Prusa MK4**. 3D-printer.
+|            |                                                                  |
+| ---------: | :--------------------------------------------------------------- |
+|  Gaming PC | Custom built                                                     |
+|  Hand-held | Steam Deck 512GB                                                 |
+|   Consoles | PlayStation 5 disc, Nintendo Switch OLED                         |
+|         VR | Valve Index                                                      |
+|    Servers | Intel NUC i5, Raspberry Pi 4B 4GB x2, decommissioned ThinkCentre |
+| 3D-printer | Original Prusa MK4                                               |
 
 <figure>
   <img
@@ -64,40 +65,57 @@ some snapshots of my current workspace.
 
 For a more frequently updated overview you can checkout my [dotfiles][dotfiles].
 
-This is software that I use on my devices.
+This is software that I use on my devices. Inspired by
+[App defaults](https://defaults.rknight.me/).
 
-- [Affinity Designer][affinity]. My vector editor.
-- [AppCleaner][appcleaner]. When I delete apps, I want to get rid of everything.
-- Mail.app. E-mail client of choice.
-- Podcasts.app. Simple podcast app.
-- [Bitwarden][bitwarden]. Open source password manager.
-- [Firefox][firefox]. Highly customizable browser.
-  - [uBlock Origin][ublock]
-  - [Multi-Account containers][multia]
-- [Helix][helix]. Favorite text-editor.
-- [iTerm2][iterm]. Fast, native terminal for macOS.
-- [Lulu][lulu]. Network monitor for macOS.
-- [MacUpdater][macupdater]. Keeping my Mac up to date.
-- [NetNewsWire][netnewswire]. RSS Reader.
-- [Numi][numi]. Quick-access calculator.
-- [Signal][signal]. Favorite messaging application.
-- [skhd][skhd]. Keyboard shortcuts for macOS.
-- [VSCodium][vscodium]. For work.
-- [Wireguard][wireguard]. Connecting to my home network remotely.
-- [yabai][yabai]. Tiling window manager for macOS.
-- [Yr.no][yr]. Simple weather app.
+|                |                                   |
+| -------------: | :-------------------------------- |
+|    Mail client | Mail.app                          |
+|          Notes | [Helix][helix] with Markdown      |
+|           Todo | Physicial, field notes            |
+|       Calendar | Calendar.app                      |
+|            RSS | [NetNewsWire][netnewswire]        |
+|       Contacts | Contacts.app                      |
+|        Browser | [Firefox][firefox] (& Safari iOS) |
+|           Chat | [Signal][signal] & iMessage       |
+|  Shopping List | Reminders.app                     |
+|        Podcast | Podcasts.app                      |
+|  Photo editing | [Affinity Photo][affinity_photo]  |
+| Vector editing | [Affinity Designer][affinity_des] |
+|         Editor | [Helix][helix]                    |
+|       Terminal | [iTerm2][iterm]                   |
+|     Calculator | [Numi][numi]                      |
+|            VPN | [WireGuard][wireguard]            |
+
+### Utilities
+
+|                    |                          |
+| -----------------: | :----------------------- |
+|    App uninstaller | [AppCleaner][appcleaner] |
+|     Window manager | [Yabai][yabai]           |
+| Keyboard shortcuts | [SKHD][skhd]             |
+|       Color picker | [Pika][pika]             |
+|       Productivity | [Alfred][alfred]         |
+|       App switcher | [AltTab][alttab]         |
+|            Updater | [MacUpdater][macupdater] |
+|    Network monitor | [Lulu][lulu]             |
 
 ## Services
 
-- [1984 Hosting][1984]. Privacy-first VPS service.
-- [Bitwarden][bitwarden]. Open source password manager.
-- [Linkding][linkding]. Self-hosted bookmarking.
-- [Migadu][migadu]. Amazing email provider ([my review][migadu_review]).
-- [Nextcloud][nextcloud]. Self-hosted cloud.
-- [SourceHut][sourcehut]. Source-forge for all my personal Git-repositories.
-- [Spotify][spotify]. Current music-service of choice.
+|                     |                                                 |
+| ------------------: | :---------------------------------------------- |
+|         Mail server | [Migadu][migadu]                                |
+|    Photo management | [Nextcloud][nextcloud] + Photos.app             |
+|  Cloud File Storage | [Nextcloud][nextcloud]                          |
+|       Read-it-later | [Linkding][linkding]                            |
+| Password management | [Bitwarden][bitwarden] & [1Password][1password] |
+|             Weather | [Yr.no][yr]                                     |
+|               Music | [Spotify][spotify]                              |
+|        Source forge | [SourceHut][sourcehut]                          |
+|        VPS provider | [1984 Hosting][1984]                            |
 
-[affinity]: https://affinity.serif.com/en-us/designer
+[affinity_des]: https://affinity.serif.com/en-us/designer
+[affinity_photo]: https://affinity.serif.com/en-us/photo
 [firefox]: https://www.mozilla.org/en-US/firefox/new
 [bitwarden]: https://bitwarden.com
 [ublock]: https://ublockorigin.com
@@ -129,3 +147,7 @@ This is software that I use on my devices.
 [helix]: https://helix-editor.com/
 [linkding]: https://github.com/sissbruecker/linkding
 [figma]: https://www.figma.com/
+[1password]: https://1password.com
+[pika]: https://superhighfives.com/pika
+[alfred]: https://www.alfredapp.com/
+[alttab]: https://alt-tab-macos.netlify.app/
