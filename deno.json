@@ -9,8 +9,7 @@
     "read": "deno run --allow-read=./static/api --allow-write=./static/api src/log/read_logs.ts",
     "blog": "deno run --allow-write=./content/blog src/blog.ts",
     "setup:hooks": "deno run -A -r https://deno.land/x/githooks/githooks.ts",
-    "check": "deno fmt --check && deno lint",
-    "check:types": "deno check **/*.tsx && deno check **/*.ts",
+    "check": "deno fmt --check && deno lint && deno check **/*.tsx && deno check **/*.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts"
   },
@@ -22,10 +21,10 @@
     ]
   },
   "imports": {
-    "$fresh/": "https://deno.land/x/fresh@1.5.4/",
+    "$fresh/": "https://deno.land/x/fresh@1.6.1/",
     "$fresh_charts/": "https://deno.land/x/fresh_charts@0.3.1/",
-    "preact": "https://esm.sh/preact@10.18.1",
-    "preact/": "https://esm.sh/preact@10.18.1/",
+    "preact": "https://esm.sh/preact@10.19.2",
+    "preact/": "https://esm.sh/preact@10.19.2/",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",

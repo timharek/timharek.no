@@ -2,60 +2,62 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/.well-known/avatar.ts";
-import * as $1 from "./routes/.well-known/links.ts";
-import * as $2 from "./routes/.well-known/logo.ts";
-import * as $3 from "./routes/[...page].tsx";
-import * as $4 from "./routes/_404.tsx";
-import * as $5 from "./routes/_app.tsx";
-import * as $6 from "./routes/_middleware.ts";
-import * as $7 from "./routes/blog/[slug].tsx";
-import * as $8 from "./routes/blog/index.tsx";
-import * as $9 from "./routes/cv.tsx";
-import * as $10 from "./routes/feed.json/index.ts";
-import * as $11 from "./routes/feed.xml/index.ts";
-import * as $12 from "./routes/garden/[section]/[slug].tsx";
-import * as $13 from "./routes/garden/[section]/index.tsx";
-import * as $14 from "./routes/garden/index.tsx";
-import * as $15 from "./routes/index.tsx";
-import * as $16 from "./routes/logs/[slug].tsx";
-import * as $17 from "./routes/logs/feedroll.tsx";
-import * as $18 from "./routes/logs/index.tsx";
-import * as $19 from "./routes/sitemap.xml/index.ts";
-import * as $20 from "./routes/stats.tsx";
-import * as $21 from "./routes/tags/[slug].tsx";
-import * as $22 from "./routes/tags/index.tsx";
-import * as $23 from "./routes/work.tsx";
+import * as $_well_known_avatar from "./routes/.well-known/avatar.ts";
+import * as $_well_known_links from "./routes/.well-known/links.ts";
+import * as $_well_known_logo from "./routes/.well-known/logo.ts";
+import * as $_page_ from "./routes/[...page].tsx";
+import * as $_404 from "./routes/_404.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $_middleware from "./routes/_middleware.ts";
+import * as $blog_slug_ from "./routes/blog/[slug].tsx";
+import * as $blog_index from "./routes/blog/index.tsx";
+import * as $cv from "./routes/cv.tsx";
+import * as $feed_json_index from "./routes/feed.json/index.ts";
+import * as $feed_xml_index from "./routes/feed.xml/index.ts";
+import * as $garden_section_slug_ from "./routes/garden/[section]/[slug].tsx";
+import * as $garden_section_index from "./routes/garden/[section]/index.tsx";
+import * as $garden_index from "./routes/garden/index.tsx";
+import * as $index from "./routes/index.tsx";
+import * as $logs_slug_ from "./routes/logs/[slug].tsx";
+import * as $logs_feedroll from "./routes/logs/feedroll.tsx";
+import * as $logs_index from "./routes/logs/index.tsx";
+import * as $sitemap_xml_index from "./routes/sitemap.xml/index.ts";
+import * as $stats from "./routes/stats.tsx";
+import * as $tags_slug_ from "./routes/tags/[slug].tsx";
+import * as $tags_index from "./routes/tags/index.tsx";
+import * as $work from "./routes/work.tsx";
+
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/.well-known/avatar.ts": $0,
-    "./routes/.well-known/links.ts": $1,
-    "./routes/.well-known/logo.ts": $2,
-    "./routes/[...page].tsx": $3,
-    "./routes/_404.tsx": $4,
-    "./routes/_app.tsx": $5,
-    "./routes/_middleware.ts": $6,
-    "./routes/blog/[slug].tsx": $7,
-    "./routes/blog/index.tsx": $8,
-    "./routes/cv.tsx": $9,
-    "./routes/feed.json/index.ts": $10,
-    "./routes/feed.xml/index.ts": $11,
-    "./routes/garden/[section]/[slug].tsx": $12,
-    "./routes/garden/[section]/index.tsx": $13,
-    "./routes/garden/index.tsx": $14,
-    "./routes/index.tsx": $15,
-    "./routes/logs/[slug].tsx": $16,
-    "./routes/logs/feedroll.tsx": $17,
-    "./routes/logs/index.tsx": $18,
-    "./routes/sitemap.xml/index.ts": $19,
-    "./routes/stats.tsx": $20,
-    "./routes/tags/[slug].tsx": $21,
-    "./routes/tags/index.tsx": $22,
-    "./routes/work.tsx": $23,
+    "./routes/.well-known/avatar.ts": $_well_known_avatar,
+    "./routes/.well-known/links.ts": $_well_known_links,
+    "./routes/.well-known/logo.ts": $_well_known_logo,
+    "./routes/[...page].tsx": $_page_,
+    "./routes/_404.tsx": $_404,
+    "./routes/_app.tsx": $_app,
+    "./routes/_middleware.ts": $_middleware,
+    "./routes/blog/[slug].tsx": $blog_slug_,
+    "./routes/blog/index.tsx": $blog_index,
+    "./routes/cv.tsx": $cv,
+    "./routes/feed.json/index.ts": $feed_json_index,
+    "./routes/feed.xml/index.ts": $feed_xml_index,
+    "./routes/garden/[section]/[slug].tsx": $garden_section_slug_,
+    "./routes/garden/[section]/index.tsx": $garden_section_index,
+    "./routes/garden/index.tsx": $garden_index,
+    "./routes/index.tsx": $index,
+    "./routes/logs/[slug].tsx": $logs_slug_,
+    "./routes/logs/feedroll.tsx": $logs_feedroll,
+    "./routes/logs/index.tsx": $logs_index,
+    "./routes/sitemap.xml/index.ts": $sitemap_xml_index,
+    "./routes/stats.tsx": $stats,
+    "./routes/tags/[slug].tsx": $tags_slug_,
+    "./routes/tags/index.tsx": $tags_index,
+    "./routes/work.tsx": $work,
   },
   islands: {},
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;

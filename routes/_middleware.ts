@@ -1,4 +1,4 @@
-import { MiddlewareHandlerContext, Status } from "$fresh/server.ts";
+import { FreshContext, STATUS_CODE } from "$fresh/server.ts";
 import { Breadcrumbs } from "../components/Breadcrumbs.tsx";
 import { config } from "../config.ts";
 
@@ -10,10 +10,7 @@ export interface ServerState {
   lastDeploy: string;
 }
 
-export async function handler(
-  req: Request,
-  ctx: MiddlewareHandlerContext<ServerState>,
-) {
+export async function handler(req: Request, ctx: FreshContext<ServerState>) {
   if (ctx.destination !== "route") {
     return await ctx.next();
   }
@@ -36,7 +33,7 @@ export async function handler(
   const redirect = redirects[url.pathname];
   if (redirect) {
     return new Response(null, {
-      status: Status.SeeOther,
+      status: STATUS_CODE.SeeOther,
       headers: {
         Location: redirect,
       },
