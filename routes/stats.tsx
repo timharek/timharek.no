@@ -97,36 +97,39 @@ export default function Page({ data }: PageProps<Props>) {
               showBullet
             />
           </dl>
-          <Chart
-            type="bar"
-            options={{
-              devicePixelRatio: 1,
-              scales: { y: { beginAtZero: true } },
-            }}
-            data={{
-              labels: Object.keys(stats.blogByYear),
-              datasets: [{
-                label: "Posts per year",
-                data: Object.keys(stats.blogByYear).map((year) =>
-                  stats.blogByYear[year].length
-                ),
-                borderColor: ChartColors.Blue,
-                backgroundColor: transparentize(ChartColors.Blue, 0.5),
-                borderWidth: 1,
-              }, {
-                label: "Words per year (1,000s)",
-                type: "line",
-                data: Object.keys(stats.blogByYear).map((
-                  year,
-                ) => (getWordCountFromArray(
-                  stats.blogByYear[year],
-                  true,
-                ) as number / 1000)),
-                borderColor: ChartColors.Blue,
-                borderWidth: 1,
-              }],
-            }}
-          />
+          <div class="w-full">
+            <Chart
+              svgClass="w-full"
+              type="bar"
+              options={{
+                devicePixelRatio: 1,
+                scales: { y: { beginAtZero: true } },
+              }}
+              data={{
+                labels: Object.keys(stats.blogByYear),
+                datasets: [{
+                  label: "Posts per year",
+                  data: Object.keys(stats.blogByYear).map((year) =>
+                    stats.blogByYear[year].length
+                  ),
+                  borderColor: ChartColors.Blue,
+                  backgroundColor: transparentize(ChartColors.Blue, 0.5),
+                  borderWidth: 1,
+                }, {
+                  label: "Words per year (1,000s)",
+                  type: "line",
+                  data: Object.keys(stats.blogByYear).map((
+                    year,
+                  ) => (getWordCountFromArray(
+                    stats.blogByYear[year],
+                    true,
+                  ) as number / 1000)),
+                  borderColor: ChartColors.Blue,
+                  borderWidth: 1,
+                }],
+              }}
+            />
+          </div>
           <h3 class="text-2xl font-semibold">Posts / Words Per Year</h3>
           <dl class="columns-2 space-y-2">
             {Object.keys(stats.blogByYear).map((year) => (
