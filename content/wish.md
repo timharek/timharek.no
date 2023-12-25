@@ -35,7 +35,6 @@ when possible!_
 |           |                                                                                                                                                                                               |
 | --------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 16 490 kr | [Miele dishwasher](https://www.komplett.no/product/1197120/hvitevarer/oppvaskmaskin/miele-g-7277-scvi-xxl-integrert-oppvaskmaskin?channable=01e1fe696400313139373132307a&_Home_White_goods=#) |
-|    999 kr | [Waffel iron](https://www.kitchn.no/kjokken/kjokkenapparater/vaffeljern/wilfa-bell-was-623-vaffeljern-enkelt-6-hjerter/)                                                                      |
 |         ? | Coffee table                                                                                                                                                                                  |
 
 <!--
