@@ -75,13 +75,13 @@ Deno.test("Get page from section", async () => {
 
 Deno.test("Get post from blog", async () => {
   const prefix = "./testdata/markdown/content";
-  const slug = "test-post1";
+  const slug = "test-post";
   const section = "blog";
 
   const post = await getPost(slug, section, prefix);
 
   assert(post);
-  assertEquals(post.title, "Test post 1");
+  assertEquals(post.title, "Test post");
 });
 
 Deno.test("Get tags from blog", async () => {
@@ -142,7 +142,7 @@ Deno.test("Get stats", async () => {
 
   assertEquals(stats.posts, 2);
   assertEquals(stats.tags, 2);
-  assertEquals(stats.words, "37");
+  assertEquals(stats.words, "35");
   assertEquals(Object.keys(stats.blogByYear).length, 1);
 });
 
