@@ -14,9 +14,6 @@ import * as $blog_index from "./routes/blog/index.tsx";
 import * as $cv from "./routes/cv.tsx";
 import * as $feed_json_index from "./routes/feed.json/index.ts";
 import * as $feed_xml_index from "./routes/feed.xml/index.ts";
-import * as $garden_section_slug_ from "./routes/garden/[section]/[slug].tsx";
-import * as $garden_section_index from "./routes/garden/[section]/index.tsx";
-import * as $garden_index from "./routes/garden/index.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $logs_slug_ from "./routes/logs/[slug].tsx";
 import * as $logs_feedroll from "./routes/logs/feedroll.tsx";
@@ -43,9 +40,6 @@ const manifest = {
     "./routes/cv.tsx": $cv,
     "./routes/feed.json/index.ts": $feed_json_index,
     "./routes/feed.xml/index.ts": $feed_xml_index,
-    "./routes/garden/[section]/[slug].tsx": $garden_section_slug_,
-    "./routes/garden/[section]/index.tsx": $garden_section_index,
-    "./routes/garden/index.tsx": $garden_index,
     "./routes/index.tsx": $index,
     "./routes/logs/[slug].tsx": $logs_slug_,
     "./routes/logs/feedroll.tsx": $logs_feedroll,
