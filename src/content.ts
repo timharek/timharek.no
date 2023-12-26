@@ -1,3 +1,4 @@
+import "$std/dotenv/load.ts";
 import { Marked, Token, Tokens, TokensList } from "npm:marked@8.0.1";
 import { markedHighlight } from "npm:marked-highlight@2.0.9";
 import hljs from "npm:highlight.js@11.9.0";
@@ -7,6 +8,8 @@ import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 import { parse } from "https://esm.sh/tldts@6.0.14";
 
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
+
+const SHOW_DRAFTS = Deno.env.get("SHOW_DRAFTS") === "true" ? true : false;
 
 const marked = new Marked(
   markedHighlight({
@@ -62,8 +65,12 @@ export async function getSection(
     `${prefix}/${sectionName}/_index.md`,
     import.meta.url,
   );
-  const pages = await getPagesFromSection(sectionName, prefix);
+  let pages = await getPagesFromSection(sectionName, prefix);
   const subSections = await getSubSections(sectionName, prefix);
+
+  if (!SHOW_DRAFTS) {
+    pages = pages.filter((page) => !page.draft);
+  }
 
   const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
   const html = await marked.parse(body, { gfm: true });
@@ -119,6 +126,10 @@ export async function getPost(
   const posts = blogSection.pages as Post[];
 
   const post = posts.find((post) => post.slug === slug);
+
+  if (!SHOW_DRAFTS && post?.draft) {
+    return null;
+  }
 
   return post ? post : null;
 }
