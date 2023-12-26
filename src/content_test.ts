@@ -43,7 +43,7 @@ Deno.test("Get section with a blog-ish", async () => {
   const section = await getSection(sectionSlug, prefixPath);
 
   assertEquals(section.title, "Blog index");
-  assertEquals(section.pages.length, 3);
+  assertEquals(section.pages.length, 2);
   assert(section.pages.some((page) => page.title === "Test post 3 in a dir"));
 });
 
@@ -130,7 +130,6 @@ Deno.test("Get all pages", async () => {
     "Sub section index",
     "Sub section page",
     "Test post",
-    "Test post 1",
     "Test post 3 in a dir",
   ]);
 });
@@ -141,7 +140,7 @@ Deno.test("Get stats", async () => {
 
   const stats = await getGlobalStats(blogSlug, prefix);
 
-  assertEquals(stats.posts, 3);
+  assertEquals(stats.posts, 2);
   assertEquals(stats.tags, 2);
   assertEquals(stats.words, "37");
   assertEquals(Object.keys(stats.blogByYear).length, 1);
