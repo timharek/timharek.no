@@ -1,15 +1,10 @@
 +++
-updated = 2022-06-19
 title = "Git tips & tricks"
 description = "Useful tips and tricks I've picked up from using Git for a few years."
+updated = 2023-12-26
 [taxonomies]
 tags = ["Tutorial", "Git", "Dotfiles"]
 +++
-
-## UPDATE: 2022-04-03
-
-I've added a seperate page which I will update whenever I discover something new
-about Git in my [digital garden (Git)](/garden/tools/git)
 
 [Git](https://git-scm.com) is an extremely useful tool that I use almost every
 day. I'm very thankful that it exists and work as well as it does.
