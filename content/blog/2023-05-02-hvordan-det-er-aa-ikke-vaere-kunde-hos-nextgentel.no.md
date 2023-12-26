@@ -1,6 +1,7 @@
 +++
 title = "Hvordan det er å ikke være kunde hos NextGenTel"
 description = "Ja, du leste riktig."
+language = "no"
 +++
 
 Ja, du leste riktig. Jeg tror nemlig jeg har svaret.
