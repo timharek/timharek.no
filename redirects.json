@@ -30,5 +30,6 @@
   "/garden/security/password": "/blog/passwords",
   "/garden/security/password.no": "/blog/passwords",
   "/garden/tools/gpg": "/blog/getting-started-gpg",
-  "/garden/tools/git": "/blog/git-tips-and-tricks"
+  "/garden/tools/git": "/blog/git-tips-and-tricks",
+  "/garden/tools/zint": "/blog/qr-codes"
 }
