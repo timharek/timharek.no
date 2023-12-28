@@ -7,4 +7,5 @@ Books that I've read.
 
 Currently reading:
 
-- How the world really works, Vaclav Smil
+- How the world really works, Vaclav Smil.
+- Pragmatic Programmers, Andrew Hunt and David Thomas.

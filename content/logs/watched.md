@@ -7,10 +7,9 @@ Movies and TV shows that I've watched. Not a complete list.
 
 Currently watching:
 
-- Platonic S1
 - Succession S4
 - Invincible S2
-- Monarch: Legacy of Monsters S1
+- What if S2
 
 <details>
   <summary>Legend</summary>
