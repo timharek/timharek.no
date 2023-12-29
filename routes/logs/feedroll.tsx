@@ -4,24 +4,40 @@ import { PageHeader } from "../../components/PageHeader.tsx";
 import { getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { Link } from "../../components/Link.tsx";
-import { groupBy } from "../../src/group_by.ts";
-import { capitalize } from "../../src/utils.ts";
 import { css } from "../../src/markdown.ts";
+import { parse } from "https://deno.land/x/xml@2.1.3/mod.ts";
 
-interface Feed {
-  name: string;
-  description: string;
-  tags: string[];
-  type: "blog" | "podcast";
-  url: string;
-  feed: string;
-  color?: {
-    bg: string;
-    text: string;
+interface OPMLOutlineItem {
+  "@text": string;
+  "@title": string;
+  "@description": string | null;
+  "@type": string;
+  "@version": string;
+  "@htmlUrl": string;
+  "@xmlUrl": string;
+  "#text": string | null;
+}
+interface OPMLOutline {
+  "@text": string;
+  "@title": string;
+  "@nnw_externalID": string;
+  outline: OPMLOutlineItem[];
+}
+interface OPML {
+  xml: {
+    "@version": number;
+    "@encoding": "UTF-8";
+  };
+  opml: {
+    "@version": number;
+    head: { title: "iCloud" };
+    body: {
+      outline: OPMLOutline[];
+    };
   };
 }
 interface FeedrollProps {
-  entries: Feed[];
+  entries: OPMLOutline[];
   page: Page;
 }
 
@@ -34,7 +50,10 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
       return ctx.renderNotFound();
     }
 
-    const files = ["../../static/api/blogroll.json"];
+    const feedsFilePath = new URL(
+      "../../static/api/feeds.opml",
+      import.meta.url,
+    );
 
     ctx.state.title = `${page.title} - ${ctx.state.title}`;
     if (page.description) {
@@ -58,17 +77,13 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
     const headers = req.headers.get("accept");
     const isRequestingHtml = headers?.includes("text/html");
     try {
-      const logs = [];
-      for (const file of files) {
-        const logPath = new URL(file, import.meta.url);
-        const logRaw = await Deno.readTextFile(logPath);
-        const log = JSON.parse(logRaw) as Feed[];
-        logs.push(...log);
-      }
+      const feedsRaw = await Deno.readTextFile(feedsFilePath);
+      const feedsObj = parse(feedsRaw) as unknown as OPML;
+      const feeds = feedsObj.opml.body.outline;
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify(logs, null, 2));
+        return new Response(JSON.stringify(feeds, null, 2));
       }
-      return ctx.render({ page, entries: logs });
+      return ctx.render({ page, entries: feeds });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
@@ -81,8 +96,6 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
 
 export default function Page({ data }: PageProps<FeedrollProps>) {
   const { entries, page } = data;
-
-  const groupedBy = groupBy(entries, (feed) => feed.type);
 
   return (
     <>
@@ -100,11 +113,13 @@ export default function Page({ data }: PageProps<FeedrollProps>) {
             dangerouslySetInnerHTML={{ __html: page.html }}
           />
         </article>
-        {Object.keys(groupedBy).map((type) => (
+        {entries.map((type) => (
           <section class="space-y-4">
-            <h2 class="text-3xl font-semibold">{capitalize(type)}s</h2>
-            <ul class="space-y-2 md:columns-2">
-              {groupedBy[type].sort((a, b) => a.name.localeCompare(b.name)).map(
+            <h2 class="text-3xl font-semibold">{type["@title"]}</h2>
+            <ul class="space-y-2 list-disc md:columns-2">
+              {type.outline.sort((a, b) =>
+                a["@title"].localeCompare(b["@title"])
+              ).map(
                 (
                   item,
                   index,
@@ -119,16 +134,14 @@ export default function Page({ data }: PageProps<FeedrollProps>) {
 }
 
 interface ItemProps {
-  item: Feed;
+  item: OPMLOutlineItem;
 }
 
 function Item({ item }: ItemProps) {
-  const bg = item.color && item.color.bg ? item.color.bg : "white";
   return (
-    <li
-      class={`before:(content-[''] bg-[${bg}] w-2 h-2 rounded-full inline-block) flex items-center gap-2`}
-    >
-      <Link href={item.url} label={item.name} />
+    <li class={`flex items-center gap-2`}>
+      <Link href={item["@htmlUrl"]} label={item["@title"]} /> {" - "}
+      <Link href={item["@xmlUrl"]} label="RSS" />
     </li>
   );
 }
