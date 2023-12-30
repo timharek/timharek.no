@@ -4731,20 +4731,38 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Chicken Run: Dawn of the Nugget",
     "date": "2023-12-19",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Adventure",
       "Comedy"
+    ],
+    "director": [
+      "Sam Fell"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+    "date": "2023-12-30",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
     ],
     "release_year": 2023,
     "review": {
       "rating": 4
     },
     "director": [
-      "Sam Fell"
+      "Jeff Rowe",
+      "Kyler Spears"
     ]
   }
 ]
