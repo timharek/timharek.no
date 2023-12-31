@@ -7,7 +7,14 @@ Video games I've finished. Not a complete list.
 
 Currently playing:
 
-- Dave the Diver on the Steam Deck
+- Dave the Diver (2023), the Steam Deck
+- Jusant (2023), Steam Deck
+
+Want to play:
+
+- Cocoon (2023)
+- Planet of Lana (2023)
+- Fears to Fathom - Ironbark Lookout (2023)
 
 <details>
   <summary>Legend</summary>
