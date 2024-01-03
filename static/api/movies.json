@@ -4748,21 +4748,54 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
     "date": "2023-12-30",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Action",
       "Adventure"
+    ],
+    "director": [
+      "Jeff Rowe",
+      "Kyler Spears"
+    ]
+  },
+  {
+    "title": "The Holdovers",
+    "date": "2024-01-01",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": [
+      "Alexander Payne"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "BlackBerry",
+    "date": "2024-01-01",
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Drama"
     ],
     "release_year": 2023,
     "review": {
       "rating": 4
     },
     "director": [
-      "Jeff Rowe",
-      "Kyler Spears"
+      "Matt Johnson"
     ]
   }
 ]

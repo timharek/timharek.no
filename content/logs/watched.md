@@ -16,9 +16,7 @@ Watchlist:
 
 - May December (2023)
 - Showing Up (2023)
-- BlackBerry (2023)
 - Past Lives (2023)
-- The Holdovers (2023)
 - The Creator (2023)
 - Asteroid City (2023)
 - Cocaine Bear (2023)
