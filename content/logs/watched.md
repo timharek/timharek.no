@@ -9,7 +9,6 @@ Currently watching:
 
 - Succession S4
 - Invincible S2
-- What if S2
 - Reacher S2
 
 Watchlist:
@@ -17,7 +16,6 @@ Watchlist:
 - May December (2023)
 - Showing Up (2023)
 - Past Lives (2023)
-- The Creator (2023)
 - Asteroid City (2023)
 - Cocaine Bear (2023)
 - Saltburn (2023)
