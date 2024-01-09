@@ -4799,20 +4799,37 @@
     ]
   },
   {
-    "type": "movie",
     "title": "The Creator",
     "date": "2024-01-03",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
     "genres": [
       "Action",
       "Adventure",
       "Drama"
+    ],
+    "director": [
+      "Gareth Edwards"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Saltburn",
+    "date": "2024-01-09",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
     ],
     "release_year": 2023,
     "review": {
       "rating": 3
     },
     "director": [
-      "Gareth Edwards"
+      "Emerald Fennell"
     ]
   }
 ]

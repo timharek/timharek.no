@@ -18,7 +18,6 @@ Watchlist:
 - Past Lives (2023)
 - Asteroid City (2023)
 - Cocaine Bear (2023)
-- Saltburn (2023)
 
 <details>
   <summary>Legend</summary>
