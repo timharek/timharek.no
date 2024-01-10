@@ -37,13 +37,11 @@ when possible!_
 | 16 490 kr | [Miele dishwasher](https://www.komplett.no/product/1197120/hvitevarer/oppvaskmaskin/miele-g-7277-scvi-xxl-integrert-oppvaskmaskin?channable=01e1fe696400313139373132307a&_Home_White_goods=#) |
 |         ? | Coffee table                                                                                                                                                                                  |
 
-<!--
 ## Art
 
-|     |     |
-| --: | :-- |
-|   0 | hei |
--->
+|          |                                                                                 |
+| -------: | :------------------------------------------------------------------------------ |
+| € 15–150 | [Simon Stålenhag artwork](https://www.redbubble.com/people/simonstalenhag/shop) |
 
 ## Fashion
 
