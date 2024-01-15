@@ -1088,19 +1088,37 @@
     ]
   },
   {
-    "type": "tv",
     "title": "What If...?",
     "date": "2024-01-07",
+    "type": "tv",
+    "release_year": 2021,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Action",
       "Adventure"
     ],
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
     "season": 2,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Echo",
+    "date": "2024-01-14",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
+    "season": 1,
     "director": [
       "N/A"
     ]
