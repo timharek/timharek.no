@@ -1,12 +1,13 @@
 +++
 title = "December 2023"
 description = "What I've been up to since November."
+updated = 2024-01-15
 [taxonomies]
 tags = ["Recently", "100 days to offload"]
 +++
 
 You may have thought that I wasn't going to do a post for December after my
-[2023 Year in review]()-post, but here I am!
+[2023 Year in review](/blog/2023-year-in-review)-post, but here I am!
 
 December has mostly been about preparation for the holidays and the holidays. We
 have had visitors from afar, and we have been spending lots of time with family
