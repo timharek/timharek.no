@@ -51,7 +51,7 @@
 		<outline text="N O D E" title="N O D E" description="" type="rss" version="RSS" htmlUrl="https://N-O-D-E.net/" xmlUrl="https://n-o-d-e.net/rss/rss.xml"/>
 		<outline text="Nils Norman Haukås" title="Nils Norman Haukås" description="" type="rss" version="RSS" htmlUrl="https://nilsnh.no/" xmlUrl="https://nilsnh.no/index.xml"/>
 		<outline text="Personvernbloggen" title="Personvernbloggen" description="" type="rss" version="RSS" htmlUrl="https://www.personvernbloggen.no/" xmlUrl="https://www.personvernbloggen.no/feed/"/>
-		<outline text="Peter Cammeraat" title="Peter Cammeraat" description="" type="rss" version="RSS" htmlUrl="https://petercammeraat.net/" xmlUrl="https://5am.is/index.xml"/>
+		<outline text="Peter Cammeraat" title="Peter Cammeraat" description="" type="rss" version="RSS" htmlUrl="https://petercammeraat.net/" xmlUrl="https://petercammeraat.net/index.xml"/>
 		<outline text="Public Notebook" title="Public Notebook" description="" type="rss" version="RSS" htmlUrl="https://notebook.hew.tt/" xmlUrl="https://natehn.com/index.xml"/>
 		<outline text="Robin Rendle" title="Robin Rendle" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://robinrendle.com/feed.xml"/>
 		<outline text="Scott Nesbit - Open Source Musings" title="Scott Nesbit - Open Source Musings" description="" type="rss" version="RSS" htmlUrl="https://opensourcemusings.com/" xmlUrl="https://opensourcemusings.com/feed/"/>
