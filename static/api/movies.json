@@ -4833,18 +4833,51 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Office Space",
     "date": "2024-01-12",
-    "genres": [
-      "Comedy"
-    ],
+    "type": "movie",
     "release_year": 1999,
     "review": {
       "rating": 3
     },
+    "genres": [
+      "Comedy"
+    ],
     "director": [
       "Mike Judge"
+    ]
+  },
+  {
+    "title": "Månelyst i Flåklypa",
+    "date": "2024-01-19",
+    "type": "movie",
+    "release_year": 2018,
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "director": [
+      "Rasmus A. Sivertsen"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "May December",
+    "date": "2024-01-20",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
+    "director": [
+      "Todd Haynes"
     ]
   }
 ]

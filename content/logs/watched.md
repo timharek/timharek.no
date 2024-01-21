@@ -13,7 +13,6 @@ Currently watching:
 
 Watchlist:
 
-- May December (2023)
 - Showing Up (2023)
 - Past Lives (2023)
 - Asteroid City (2023)
