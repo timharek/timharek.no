@@ -9,7 +9,6 @@ Currently watching:
 
 - Succession S4
 - Invincible S2
-- Reacher S2
 
 Watchlist:
 

@@ -1106,19 +1106,37 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Echo",
     "date": "2024-01-14",
+    "type": "tv",
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
     "genres": [
       "Action",
       "Adventure",
       "Crime"
     ],
-    "release_year": 2023,
-    "review": {
-      "rating": 3
-    },
     "season": 1,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Reacher",
+    "date": "2024-01-21",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 4
+    },
+    "season": 2,
     "director": [
       "N/A"
     ]
