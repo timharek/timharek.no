@@ -8,7 +8,10 @@ export function PostList({ posts }: Props) {
   return (
     <ul class="space-y-4">
       {posts.map((post) => (
-        <li class="h-entry border-l-4 border-primary pl-2 w-full">
+        <li
+          class="h-entry border-l-4 border-primary pl-2 w-full"
+          lang={post.language === "no" ? "no" : "en"}
+        >
           <div class="flex flex-wrap-reverse gap-2 justify-between">
             <div class="flex gap-2">
               <Link
