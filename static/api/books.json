@@ -1,15 +1,15 @@
 [
   {
-    "type": "book",
     "title": "Essentialism: The Disciplined Pursuit of Less",
-    "author": [
-      "Greg McKeown"
-    ],
-    "publish_year": 2014,
     "date": "2018-12-14T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2014,
     "review": {
       "rating": 4
     },
+    "author": [
+      "Greg McKeown"
+    ],
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -19,16 +19,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "How To Win Friends And Influence People",
-    "author": [
-      "Dale Carnegie"
-    ],
-    "publish_year": 1936,
     "date": "2019-08-06T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 1936,
     "review": {
       "rating": 4
     },
+    "author": [
+      "Dale Carnegie"
+    ],
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -40,35 +40,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Sapiens: A Brief History of Humankind",
-    "author": [
-      "Yuval Noah Harari"
-    ],
-    "publish_year": 2011,
     "date": "2019-08-08T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2011,
     "review": {
       "rating": 5
     },
-    "genres": [
-      "Nonfiction",
-      "Science",
-      "History",
-      "Anthropology",
-      "Sociology"
-    ]
-  },
-  {
-    "type": "book",
-    "title": "Homo Deus: A Breif History of Tomorrow",
     "author": [
       "Yuval Noah Harari"
     ],
-    "publish_year": 2015,
-    "date": "2019-09-22T00:00:00.000Z",
-    "review": {
-      "rating": 5
-    },
     "genres": [
       "Nonfiction",
       "Science",
@@ -78,16 +59,35 @@
     ]
   },
   {
-    "type": "book",
-    "title": "Norse Mythology",
-    "author": [
-      "Neil Gaiman"
-    ],
-    "publish_year": 2017,
+    "title": "Homo Deus: A Breif History of Tomorrow",
     "date": "2019-09-22T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2015,
+    "review": {
+      "rating": 5
+    },
+    "author": [
+      "Yuval Noah Harari"
+    ],
+    "genres": [
+      "Nonfiction",
+      "Science",
+      "History",
+      "Anthropology",
+      "Sociology"
+    ]
+  },
+  {
+    "title": "Norse Mythology",
+    "date": "2019-09-22T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2017,
     "review": {
       "rating": 4
     },
+    "author": [
+      "Neil Gaiman"
+    ],
     "genres": [
       "Fantasy",
       "Fiction",
@@ -97,16 +97,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "21 Lessons for the 21st Century",
-    "author": [
-      "Yuval Noah Harari"
-    ],
-    "publish_year": 2018,
     "date": "2019-11-19T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2018,
     "review": {
       "rating": 4
     },
+    "author": [
+      "Yuval Noah Harari"
+    ],
     "genres": [
       "Nonfiction",
       "Science",
@@ -116,16 +116,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Digital Minimalism",
-    "author": [
-      "Cal Newport"
-    ],
-    "publish_year": 2019,
     "date": "2019-12-08T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2019,
     "review": {
       "rating": 4
     },
+    "author": [
+      "Cal Newport"
+    ],
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -136,16 +136,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Permanent Record",
-    "author": [
-      "Edward Snowden"
-    ],
-    "publish_year": 2019,
     "date": "2020-01-14T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2019,
     "review": {
       "rating": 5
     },
+    "author": [
+      "Edward Snowden"
+    ],
     "genres": [
       "Nonfiction",
       "Biography",
@@ -155,16 +155,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "1984",
-    "author": [
-      "George Orwell"
-    ],
-    "publish_year": 1949,
     "date": "2021-04-03T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 1949,
     "review": {
       "rating": 5
     },
+    "author": [
+      "George Orwell"
+    ],
     "genres": [
       "Fiction",
       "Science Fiction",
@@ -172,16 +172,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "The Subtle Art of Not Giving a Fuck: A Counterintuitive Approach to Living a Good Life",
+    "date": "2021-04-27T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2016,
+    "review": {
+      "rating": 3
+    },
     "author": [
       "Mark Manson"
     ],
-    "publish_year": 2016,
-    "date": "2021-04-27T00:00:00.000Z",
-    "review": {
-      "rating": 3
-    },
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -191,16 +191,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Talk Like TED",
+    "date": "2021-05-30T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2017,
+    "review": {
+      "rating": 3
+    },
     "author": [
       "Carmine Gallo"
     ],
-    "publish_year": 2017,
-    "date": "2021-05-30T00:00:00.000Z",
-    "review": {
-      "rating": 3
-    },
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -210,16 +210,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Atomic Habits",
-    "author": [
-      "James Clear"
-    ],
-    "publish_year": 2018,
     "date": "2021-12-18T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2018,
     "review": {
       "rating": 5
     },
+    "author": [
+      "James Clear"
+    ],
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -228,16 +228,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "New Dark Age",
-    "author": [
-      "James Bridle"
-    ],
-    "publish_year": 2018,
     "date": "2022-03-10T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2018,
     "review": {
       "rating": 4
     },
+    "author": [
+      "James Bridle"
+    ],
     "genres": [
       "Nonfiction",
       "Science",
@@ -248,16 +248,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Lost Connections",
-    "author": [
-      "Johann Hari"
-    ],
-    "publish_year": 2018,
     "date": "2022-03-22T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2018,
     "review": {
       "rating": 4
     },
+    "author": [
+      "Johann Hari"
+    ],
     "genres": [
       "Nonfiction",
       "Science",
@@ -268,16 +268,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Thor: The God of Thunder #1 - #11",
-    "author": [
-      "Jason Aaron"
-    ],
-    "publish_year": 2013,
     "date": "2022-07-06T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2013,
     "review": {
       "rating": 5
     },
+    "author": [
+      "Jason Aaron"
+    ],
     "genres": [
       "Comicbook",
       "Adventure",
@@ -286,16 +286,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "Ruined by Design",
-    "author": [
-      "Mike Monteiro"
-    ],
-    "publish_year": 2019,
     "date": "2022-07-22T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2019,
     "review": {
       "rating": 5
     },
+    "author": [
+      "Mike Monteiro"
+    ],
     "genres": [
       "Nonfiction",
       "Design",
@@ -306,16 +306,16 @@
     ]
   },
   {
-    "type": "book",
     "title": "The Phoenix Project",
-    "author": [
-      "Gene Kim"
-    ],
-    "publish_year": 2013,
     "date": "2022-10-30T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2013,
     "review": {
       "rating": 5
     },
+    "author": [
+      "Gene Kim"
+    ],
     "genres": [
       "Fiction",
       "Technology",
@@ -326,69 +326,91 @@
     ]
   },
   {
-    "type": "book",
     "title": "Kang the Conqueror",
+    "date": "2023-01-15T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2022,
+    "review": {
+      "rating": 4
+    },
     "author": [
       "Carlos Magno",
       "Collin Kelly",
       "Jackson Lanzing"
     ],
-    "publish_year": 2022,
-    "date": "2023-01-15T00:00:00.000Z",
-    "review": {
-      "rating": 4
-    },
     "genres": [
       "Comicbook"
     ]
   },
   {
-    "type": "book",
     "title": "Crossover: Volume 1",
+    "date": "2023-06-17T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2022,
+    "review": {
+      "rating": 4
+    },
     "author": [
       "Scott Snyder"
     ],
-    "publish_year": 2022,
-    "date": "2023-06-17T00:00:00.000Z",
-    "review": {
-      "rating": 4
-    },
     "genres": [
       "Comicbook"
     ]
   },
   {
-    "type": "book",
     "title": "Skriv godt, bli forstått",
+    "date": "2023-07-04T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2021,
+    "review": {
+      "rating": 5
+    },
     "author": [
       "Christine Calvert",
       "Ove Dalen"
     ],
-    "publish_year": 2021,
-    "date": "2023-07-04T00:00:00.000Z",
-    "review": {
-      "rating": 5
-    },
     "genres": [
       "Writing",
       "Language"
     ]
   },
   {
-    "type": "book",
     "title": "Frontiersman, Volume 1",
+    "date": "2023-08-09T00:00:00.000Z",
+    "type": "book",
+    "publish_year": 2022,
+    "review": {
+      "rating": 4
+    },
     "author": [
       "Patrick Kindlon",
       "Marco Ferrari",
       "Maurizio Rosenzweig"
     ],
-    "publish_year": 2022,
-    "date": "2023-08-09T00:00:00.000Z",
+    "genres": [
+      "Comicbook"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "The Pragmatic Programmer",
+    "date": "2024-01-22",
+    "publish_year": 1999,
+    "author": [
+      "Andy Hunt",
+      "David Thomas",
+      "Dave Thomas",
+      "Andrew Hunt"
+    ],
     "review": {
       "rating": 4
     },
     "genres": [
-      "Comicbook"
+      "Programming",
+      "Computer-Science",
+      "Technology",
+      "Nonfiction",
+      "Software"
     ]
   }
 ]

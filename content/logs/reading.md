@@ -8,7 +8,6 @@ Books that I've read.
 Currently reading:
 
 - How the world really works (2022), Vaclav Smil.
-- The Pragmatic Programmer (1999), Andrew Hunt and David Thomas.
 
 Reading list:
 
