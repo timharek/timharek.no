@@ -4865,19 +4865,35 @@
     ]
   },
   {
-    "type": "movie",
     "title": "May December",
     "date": "2024-01-20",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
     "genres": [
       "Comedy",
       "Drama"
+    ],
+    "director": [
+      "Todd Haynes"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Cocaine Bear",
+    "date": "2024-01-27",
+    "genres": [
+      "Comedy",
+      "Thriller"
     ],
     "release_year": 2023,
     "review": {
       "rating": 3
     },
     "director": [
-      "Todd Haynes"
+      "Elizabeth Banks"
     ]
   }
 ]
