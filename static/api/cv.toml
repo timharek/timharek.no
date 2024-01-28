@@ -11,7 +11,7 @@ summary = """
 I'm a developer from the west coast of Norway. I care about creating solutions 
 that respects people, in terms of privacy, security and user experience. I have
 a bachelors degree in informatics, specifically Computer Security. Presently I'm
-working as a developer at Value Tech, and I'm also an IT manager for an
+working as a developer at Value Technology, and I'm also an IT manager for an
 offshore-service company, Vest Kontakt.
 """
 
@@ -35,13 +35,14 @@ username = "timharek"
 url = "https://www.printables.com/@timharek_543206"
 
 [[work]]
-name = "Value Tech"
+name = "Value Technology"
 position = "Developer"
 url = "https://valuegroup.no"
 startDate = 2023-08-07
 highlights = [
   "Full-stack applications with Next.js and Google Cloud Run.",
-  "Integration work with Deno using Oak to parse data from 24SevenOffice's SOAP API.",
+  "Integrate with different ERP- and accounting-solutions.",
+  "Normalize accouting data with Raw technologies."
 ]
 
 [[work]]

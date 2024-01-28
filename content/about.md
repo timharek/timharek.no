@@ -8,8 +8,8 @@ I'm Tim Hårek Andreassen, a technologist, developer, UX designer, hiker and
 dog-person from the west coast of Norway. I care about creating solutions that
 respects people, in terms of privacy, security and user experience.
 
-I work as a developer at Value Tech where I dabble with full stack development,
-architecture, accessibility and UX design.
+I work as a developer at Value Technology where I dabble with full stack
+development, architecture, accessibility and UX design.
 
 During my my free time I learn about new technologies, automate my everyday and
 hike with my dog! 🐕
