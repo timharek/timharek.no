@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2023-12-21
+updated = 2024-01-29
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -48,7 +48,6 @@ some snapshots of my current workspace.
 |  Gaming PC | Custom built                                                     |
 |  Hand-held | Steam Deck 512GB                                                 |
 |   Consoles | PlayStation 5 disc, Nintendo Switch OLED                         |
-|         VR | Valve Index                                                      |
 |    Servers | Intel NUC i5, Raspberry Pi 4B 4GB x2, decommissioned ThinkCentre |
 | 3D-printer | Original Prusa MK4                                               |
 
