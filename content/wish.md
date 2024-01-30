@@ -18,10 +18,13 @@ when possible!_
 
 ## Books
 
-|        |                                                                                                                          |
-| -----: | :----------------------------------------------------------------------------------------------------------------------- |
-| 370 kr | [The Unicorn Project](https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/the-unicorn-project)          |
-| 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer) |
+|        |                                                                                                                                   |
+| -----: | :-------------------------------------------------------------------------------------------------------------------------------- |
+| 370 kr | [The Unicorn Project](https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/the-unicorn-project)                   |
+| 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer)          |
+| 199 kr | [The Internet Con](https://www.norli.no/boker/fagboker/samfunnsvitenskap/statsvitenskap-politikk-og-forvaltning/the-internet-con) |
+| 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)                    |
+| 265 kr | [Ada & Zangemann](https://www.norli.no/boker/barneboker/ada-zangemann)                                                            |
 
 ## DIY
 
