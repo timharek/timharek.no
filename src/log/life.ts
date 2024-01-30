@@ -1,11 +1,29 @@
 import { Input, prompt, Select } from "../deps.ts";
 import { Entry } from "../schemas.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
+import { z } from "zod";
+
+const lifeSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  date: z.string().transform((value) =>
+    new Date(value).toISOString().split("T")[0]
+  ),
+  category: z.enum([
+    "Health",
+    "Hobby",
+    "Milestone",
+    "Writing",
+    "Career",
+    "Custom",
+    "0",
+  ]),
+});
 
 export async function logLifeEvent(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
-  const { title, description, date, category } = await prompt([
+  const lifePrompt = await prompt([
     {
       name: "title",
       message: "Which life event do you want to log?",
@@ -40,16 +58,14 @@ export async function logLifeEvent(): Promise<Entry> {
     },
   ]);
 
-  if (!title || !description || !date) {
-    throw new Error("Missing some fields");
-  }
+  const { title, description, date, category } = lifeSchema.parse(lifePrompt);
 
   return {
     type: "life",
     title,
     description,
     date: date,
-    ...(category && category != "0" && {
+    ...(category && category !== "0" && {
       category: await getCategory(category),
     }),
   };
@@ -57,12 +73,12 @@ export async function logLifeEvent(): Promise<Entry> {
 
 async function getCategory(prefix: string): Promise<string> {
   if (prefix === "custom") {
-    const { prefix } = await prompt([{
+    const { prefix }: { prefix: string } = await prompt([{
       name: "prefix",
       message: "Enter category",
       type: Input,
     }]);
-    return prefix as string;
+    return prefix;
   }
   return prefix;
 }

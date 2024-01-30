@@ -8,11 +8,26 @@ import type {
 } from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 import { Entry } from "../schemas.ts";
+import { z } from "zod";
+
+const titleAuthorSchema = z.object({
+  title: z.string(),
+  author: z.string(),
+});
+
+const metadataSchema = z.object({
+  date: z.string().transform((value) =>
+    new Date(value).toISOString().split("T")[0]
+  ),
+  genres: z.array(z.string()),
+  rating: z.number(),
+  selectedResult: z.string(),
+});
 
 export async function logBook(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
-  const { title, author } = await prompt([
+  const titleAuthorPrompt = await prompt([
     {
       name: "title",
       message: "What did you read?",
@@ -24,6 +39,8 @@ export async function logBook(): Promise<Entry> {
       type: Input,
     },
   ]);
+
+  const { title, author } = titleAuthorSchema.parse(titleAuthorPrompt);
 
   const searchResult: OpenLibrary.ISearch = await searchBook(
     `${title} ${author}`,
@@ -43,7 +60,7 @@ export async function logBook(): Promise<Entry> {
     },
   );
 
-  const { date, rating, genres, selectedResult } = await prompt([
+  const metadataPrompt = await prompt([
     {
       name: "selectedResult",
       message: "Which book is correct?",
@@ -70,9 +87,11 @@ export async function logBook(): Promise<Entry> {
     },
   ]);
 
-  const book: OpenLibrary.IBook = await getBook(
-    (selectedResult as string).split("/")[2],
+  const { date, genres, rating, selectedResult } = metadataSchema.parse(
+    metadataPrompt,
   );
+
+  const book: OpenLibrary.IBook = await getBook(selectedResult.split("/")[2]);
   const bookFields =
     selectOptions.filter((book: Record<string, string>) =>
       book.value === selectedResult
@@ -81,10 +100,10 @@ export async function logBook(): Promise<Entry> {
   return {
     type: "book",
     title: book.title,
-    date: date as string,
+    date,
     publish_year: bookFields.publishYear,
     author: bookFields.author,
-    review: { rating: rating as number },
-    genres: genres as string[],
+    review: { rating },
+    genres,
   };
 }

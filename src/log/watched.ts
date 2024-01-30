@@ -1,18 +1,23 @@
 import { getMovie, Input, Number, prompt } from "../deps.ts";
 import { Entry } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
+import { z } from "zod";
+
+const movieOrTVSchema = z.object({
+  title: z.string(),
+  season: z.number().optional(),
+  date: z.string().transform((value) =>
+    new Date(value).toISOString().split("T")[0]
+  ),
+  rating: z.number().max(5).min(1),
+});
 
 export async function logMovieOrTv(
   logType: Entry["type"],
 ): Promise<Entry> {
   const currentDate = getCurrentDate();
 
-  const { title, date, rating, season }: {
-    title: string;
-    date: string;
-    rating: number;
-    season: number;
-  } = await prompt([
+  const movieOrTVPrompt = await prompt([
     {
       name: "title",
       message: "What did you watch?",
@@ -45,9 +50,13 @@ export async function logMovieOrTv(
     },
   ]);
 
+  const { title, season, rating, date } = movieOrTVSchema.parse(
+    movieOrTVPrompt,
+  );
+
   const options = {
     api: Deno.env.get("OMDB_API") ?? "",
-    titleOrId: title as string,
+    titleOrId: title,
   };
 
   const entry = await getMovie(options);
@@ -56,7 +65,7 @@ export async function logMovieOrTv(
     return {
       type: "movie",
       title: entry.Title,
-      date: new Date(date as string).toISOString().split("T")[0],
+      date,
       genres: entry.Genre.split(", "),
       release_year: parseInt(entry.Year),
       review: { rating },
@@ -67,11 +76,11 @@ export async function logMovieOrTv(
   return {
     type: "tv",
     title: entry.Title,
-    date: new Date(date as string).toISOString().split("T")[0],
+    date,
     genres: entry.Genre.split(", "),
     release_year: parseInt(entry.Year) ?? null,
     review: { rating },
-    season,
+    season: season ?? 0,
     director: entry.Director.split(", "),
   };
 }
