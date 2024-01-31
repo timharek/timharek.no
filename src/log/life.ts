@@ -10,12 +10,12 @@ const lifeSchema = z.object({
     new Date(value).toISOString().split("T")[0]
   ),
   category: z.enum([
-    "Health",
-    "Hobby",
-    "Milestone",
-    "Writing",
-    "Career",
-    "Custom",
+    "💪 Health",
+    "🖲️ Hobby",
+    "🪨 Milestone",
+    "✍️ Writing",
+    "💼 Career",
+    "custom",
     "0",
   ]),
 });
