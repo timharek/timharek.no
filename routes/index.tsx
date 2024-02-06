@@ -1,21 +1,8 @@
-import { Handlers, PageProps } from "$fresh/server.ts";
 import { PostList } from "../components/PostList.tsx";
 import { getSection } from "../src/content.ts";
-import { ServerState } from "./_middleware.ts";
 
-interface HomeProps {
-  posts: Post[];
-}
-
-export const handler: Handlers<HomeProps, ServerState> = {
-  async GET(_req, ctx) {
-    const posts = (await getSection("blog")).pages as Post[];
-
-    return ctx.render({ posts: posts.slice(0, 5) });
-  },
-};
-export default function Home({ data }: PageProps<HomeProps>) {
-  const { posts } = data;
+export default async function Home() {
+  const posts = (await getSection("blog")).pages as Post[];
   return (
     <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
       <section class="space-y-4 md:space-y-4">
@@ -28,7 +15,7 @@ export default function Home({ data }: PageProps<HomeProps>) {
       </section>
       <section class="space-y-4 md:space-y-4">
         <h2 class="text-3xl font-semibold">Latest posts</h2>
-        <PostList posts={posts} />
+        <PostList posts={posts.slice(0, 5)} />
       </section>
     </div>
   );
