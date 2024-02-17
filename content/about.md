@@ -1,29 +1,35 @@
 +++
 title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
-updated = 2023-10-14 
+updated = 2024-02-17
 +++
 
-I'm Tim Hårek Andreassen, a technologist, developer, UX designer, hiker and
-dog-person from the west coast of Norway. I care about creating solutions that
-respects people, in terms of privacy, security and user experience.
+Hi, I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway that
+likes to write about my learnings, design, programming, [logging](/logs),
+[note-taking](/tags/note-taking) and so on… I care about creating solutions that
+respects people's privacy, security and user experience.
 
-I work as a developer at Value Technology where I dabble with full stack
-development, architecture, accessibility and UX design.
+I work as a software engineer at Value Technology, where I dabble with full
+stack development, architecture, accessibility and UX design.
 
-During my my free time I learn about new technologies, automate my everyday and
-hike with my dog! 🐕
+During my my free time I learn about new technologies, write the occocional
+blogpost, automate my everyday, 3D-print something I (definitely) need and hike
+with my dog! 🐕
 
-Check out my [now](/now)-page for what I'm up to now.
+Check out my [now](/now)-page for what I'm up to now, or my [more](/more)-page
+to check out more stuff on my website.
 
 ## Contact
 
 You can always reach me at
 <a href="mailto:tim@harek.no" rel="me">tim@harek.no</a>.
 
+More details can be found under [connect](/connect).
+
 ## Colophon
 
 This website is built using [Deno][deno] and [Fresh][deno_fresh] by yours truly.
+It's hosted on a [1984 Hosting][1984] VPS.
 
 Proud member of:
 
