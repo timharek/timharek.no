@@ -6,7 +6,7 @@ const PORT = Deno.env.get("PORT");
 export const config = {
   title: "Tim Hårek",
   description:
-    "Technologist from Norway that cares about creating solutions that respects people in terms of privacy, security and user experience.",
+    "A technologist from Norway that cares about creating solutions that respects people's privacy, security and user experience.",
   base_url: HOSTNAME != "localhost"
     ? "https://timharek.no"
     : `http://localhost:${PORT}`,

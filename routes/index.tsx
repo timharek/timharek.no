@@ -9,8 +9,8 @@ export default async function Home() {
         <h1 class="text-4xl font-semibold">Hi, I'm Tim Hårek 👋</h1>
         <p class="max-w-prose">
           I'm a technologist from Norway. I care about creating solutions that
-          respects people in terms of privacy, security and user experience.
-          This is my corner on the interwebs, have a look around.
+          respects people's privacy, security and user experience. This is my
+          corner on the interwebs, have a look around.
         </p>
       </section>
       <section class="space-y-4 md:space-y-4">
