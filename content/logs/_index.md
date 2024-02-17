@@ -1,10 +1,10 @@
 +++
 title = "Logs"
-description = "All my logs, where I keep track of movies, TV shows, video games, places I've visited and so much more."
+description = "My logs, where I keep track of movies, TV shows, video games, places I've visited and so on."
 +++
 
-All my logs, where I keep track of movies, TV shows, video games, places I've
-visited and so much more.
+My logs, where I keep track of movies, TV shows, video games, places I've
+visited and so on.
 
-I don't use any third-party services for my logs, I store everything in a
-JSON-format for this website.
+I don't use third-party services for my logs, I store everything in plaintext
+formats.
