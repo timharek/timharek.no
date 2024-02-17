@@ -1,18 +1,20 @@
-last_update = 2023-11-19
+last_update = 2024-02-17
 
 [basics]
 name = "Tim Hårek Andreassen"
-label = "Full-stack developer"
+label = "Software engineer"
 image = "https://timharek.no/.well-known/avatar"
 email = "tim@harek.no"
 phone = "+47 400 43 672"
 url = "https://timharek.no"
 summary = """
-I'm a developer from the west coast of Norway. I care about creating solutions 
-that respects people, in terms of privacy, security and user experience. I have
-a bachelors degree in informatics, specifically Computer Security. Presently I'm
-working as a developer at Value Technology, and I'm also an IT manager for an
-offshore-service company, Vest Kontakt.
+I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway that
+likes to write about my learnings, design, programming, logging, note-taking and
+so on… I care about creating solutions that respects people's privacy, security
+and user experience. I have a bachelors degree in informatics, specifically
+Computer Security. Presently I'm working as a software engineer at Value
+Technology, and I'm also an IT manager for an offshore-service company, Vest
+Kontakt.
 """
 
 [basics.location]
@@ -36,13 +38,16 @@ url = "https://www.printables.com/@timharek_543206"
 
 [[work]]
 name = "Value Technology"
-position = "Developer"
+position = "Software engineer & partner"
 url = "https://valuegroup.no"
 startDate = 2023-08-07
 highlights = [
-  "Full-stack applications with Next.js and Google Cloud Run.",
+  "Full-stack Node- and Deno-applications.",
+  "Managing and automating infrastructure running in Google Cloud Platform.",
+  "Maintaining and designing full-stack applications.",
   "Integrate with different ERP- and accounting-solutions.",
-  "Normalize accouting data with Raw technologies."
+  "Normalize data with Raw technologies.",
+  "Develop and maintain Value 360 using modern technologies and practices."
 ]
 
 [[work]]
@@ -65,10 +70,10 @@ position = "IT Manager"
 url = "https://vestkontakt.no"
 startDate = 2012-12-24
 highlights = [
-  "Transitioned manual processes to a digital medium, i.e. CRM, accouting software, etc.",
-  "Provided IT support for employees, both remote and on-site.",
-  "Re-designed their website, with modern technologies.",
-  "Created a more efficient system for their annual inventory.",
+  "Digitalized manual processes, eg. CRM, accouting software, etc.",
+  "Provided IT support for employees, remote and on-site.",
+  "Re-designed website, using modern technologies and deployment.",
+  "Automated parts of the annual inventory routine.",
 ]
 
 [[work]]
@@ -197,7 +202,7 @@ keywords = ["Java", "C#", "Python", "HTML", "CSS", "JavaScript", "PHP"]
 [[skills]]
 name = "Libraries and frameworks"
 keywords = [
-  "Deno Fresh",
+  "Fresh",
   "Deno",
   "Express.js",
   "Jekyll",
@@ -209,6 +214,7 @@ keywords = [
   "Zola",
   "jQuery",
   "Oak",
+  "Zod"
 ]
 
 [[skills]]
@@ -217,11 +223,11 @@ keywords = ["Ansible", "Docker", "Git", "Helix", "UNIX", "Vim"]
 
 [[skills]]
 name = "Cloud infrastructure"
-keywords = ["AWS Amplify", "Azure", "Google Cloud Run"]
+keywords = ["AWS Amplify", "Azure", "Google Cloud Platform"]
 
 [[skills]]
 name = "CI/CD"
-keywords = ["GitHub Actions", "GitLab CI/CD", "Buddy works", "SourceHut builds"]
+keywords = ["GitHub Actions", "GitLab CI/CD", "Buddy.works", "SourceHut builds"]
 
 [[skills]]
 name = "Platforms"
@@ -517,6 +523,33 @@ keywords = [
 sources = ["https://git.sr.ht/~timharek/filmpolitiet-api"]
 
 [[projects]]
+name = "Integrate Front Systems with Raw"
+client = "Raw Technologies"
+roles = ["Developer"]
+description = "Integrate Front Systems sales items into Raw."
+startDate = 2024-01-08
+endDate = 2024-02-12
+keywords = ["Value", "Integration", "Raw"]
+
+[[projects]]
+name = "Integrate Tripletex with Raw"
+client = "Raw Technologies"
+roles = ["Developer"]
+description = "Integrate Tripletex's general ledger into Raw."
+startDate = 2023-10-01
+endDate = 2024-01-14
+keywords = ["Value", "Integration", "Raw"]
+
+[[projects]]
+name = "Integrate Voss of Norway with Raw"
+client = "Voss of Norway"
+roles = ["Developer"]
+description = "Integrate Voss of Norway's general ledger and work orders from Business Central into Raw."
+startDate = 2023-09-01
+endDate = 2024-01-14
+keywords = ["Value", "Integration", "Raw"]
+
+[[projects]]
 name = "europan.no"
 client = "Europan Norway"
 url = "https://europan.no/"
@@ -530,11 +563,12 @@ keywords = ["Website", "Craft CMS", "Tailwind", "Netlife"]
 name = "Value 360"
 client = "Value Group"
 roles = ["Tech lead", "Developer"]
-description = "Internal tool for handling accounting tasks and customers"
+description = "Quality assurance system for agencies. Automating tasks and routines for accountants and team leaders."
 startDate = 2023-02-28
 keywords = [
   "API",
-  "BettyBlocks",
+  "PostgreSQL",
+  "Prisma",
   "GCP",
   "MUI",
   "Netlife",
