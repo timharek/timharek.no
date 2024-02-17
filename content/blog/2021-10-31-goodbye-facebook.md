@@ -4,7 +4,7 @@ title = "Goodbye Facebook"
 description = """
 Finally saying goodbye to Facebook, for good."""
 [taxonomies]
-tags = ["Social Media", "Privacy"] 
+tags = ["Social media", "Privacy"] 
 +++
 
 I decided to deactivate my Facebook profile this summer and I haven't looked
@@ -45,6 +45,9 @@ Reach out to me by e-mail for my phone number in order to contact me on Signal.
 
 I'm putting my account up for deletion on the 5th of November 2021.
 
-[^1]: [Privacy concerns with Facebook - Wikipedia](https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook)
+[^1]:
+    [Privacy concerns with Facebook - Wikipedia](https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook)
 
-[^2]: Signal is a privacy-first, free open-source, non-profit messaging application: [signal.org](https://signal.org)
+[^2]:
+    Signal is a privacy-first, free open-source, non-profit messaging
+    application: [signal.org](https://signal.org)

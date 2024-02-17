@@ -3,7 +3,7 @@ updated = 2022-07-22
 title = "How to keep your e-mail organized"
 description = "A few tips and tricks that I use everyday to keep things tidy."
 [taxonomies]
-tags = ["Email", "Tips & tricks"]
+tags = ["Email", "Tutorial"]
 +++
 
 First of all, this is how I do things and it works for me, it may or may not
@@ -97,4 +97,3 @@ for:
 - Welcome / sign up / thank you
 
 And then delete them as you see fit!
-

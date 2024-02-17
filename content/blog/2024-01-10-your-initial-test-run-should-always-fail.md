@@ -2,7 +2,7 @@
 title = "Your initial test run should always fail"
 description = "When you write tests for your code, your initial run should always fail."
 [taxonomies]
-tags = ["Thoughts", "Testing", "Development"]
+tags = ["Thoughts", "Testing", "Programming"]
 +++
 
 If you write tests for your code and you use unit-tests, your first initial run

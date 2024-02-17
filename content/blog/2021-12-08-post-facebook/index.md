@@ -3,7 +3,7 @@ updated = 2022-06-19
 title = "Post-Facebook"
 description = "Do I regret leaving Facebook? What happens now?"
 [taxonomies]
-tags = ["Social Media", "Privacy"] 
+tags = ["Social media", "Privacy"] 
 +++
 
 > Do you regret leaving Facebook?

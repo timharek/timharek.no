@@ -2,7 +2,7 @@
 title = "Why I don't use LinkedIn"
 description = "How I used LinkedIn in the past, my interactions and why I deleted my account i 2020."
 [taxonomies]
-tags = ["Social Media", "Privacy"]
+tags = ["Social media", "Privacy"]
 +++
 
 I created my LinkedIn-profile back in 2013-2014, back when I actually didn't

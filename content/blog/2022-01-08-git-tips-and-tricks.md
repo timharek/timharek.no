@@ -3,7 +3,7 @@ title = "Git tips & tricks"
 description = "Useful tips and tricks I've picked up from using Git for a few years."
 updated = 2023-12-26
 [taxonomies]
-tags = ["Tutorial", "Git", "Dotfiles"]
+tags = ["Tutorial", "Git"]
 +++
 
 [Git](https://git-scm.com) is an extremely useful tool that I use almost every

@@ -2,7 +2,7 @@
 title = "Removing analytics"
 description = "After having analytics since 2020 I'm removing it."
 [taxonomies]
-tags = ["Thoughts", "Analytics"]
+tags = ["Thoughts", "Analytics", "Meta"]
 +++
 
 As of today, November 15th, I have removed my analytics. I canceled my
