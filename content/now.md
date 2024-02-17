@@ -1,11 +1,11 @@
 +++
 title = "What I'm doing now"
-updated = 2024-01-28
+updated = 2024-02-17
 +++
 
-- Just started at in a new job, at Value Technology in Bergen.
+- Paternal leave from work, taking care of our daughter.
 - Working on [Hima][hima] & [Filmpolitiet API][fp_api].
-- Taking care of our newborn.
+- Fixing stuff around the house with 3D printing.
 
 [hima]: https://sr.ht/~timharek/hima/
 [fp_api]: https://sr.ht/~timharek/filmpolitiet-api/
