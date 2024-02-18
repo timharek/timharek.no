@@ -1,6 +1,6 @@
 +++
 title = "Not going to work for 158 days"
-description = "Embarking long (short) journey."
+description = "Embarking a long (short) journey."
 [taxonomies]
 tags = []
 +++
