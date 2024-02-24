@@ -4897,19 +4897,37 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Erin Brockovich",
     "date": "2024-02-03",
-    "genres": [
-      "Biography",
-      "Drama"
-    ],
+    "type": "movie",
     "release_year": 2000,
     "review": {
       "rating": 4
     },
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
     "director": [
       "Steven Soderbergh"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Ballad of Buster Scruggs",
+    "date": "2024-02-24",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Musical"
+    ],
+    "release_year": 2018,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Ethan Coen",
+      "Joel Coen"
     ]
   }
 ]
