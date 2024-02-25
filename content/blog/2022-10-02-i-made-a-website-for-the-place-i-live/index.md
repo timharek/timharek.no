@@ -2,7 +2,7 @@
 title = "I made a website for the place I live"
 description = "Why would I do such a thing?"
 [taxonomies]
-tags = [] 
+tags = ["Projects"] 
 +++
 
 I live in a condominium (it's called a sameie in Norwegian). The building is not

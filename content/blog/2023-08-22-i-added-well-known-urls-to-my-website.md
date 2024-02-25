@@ -2,7 +2,7 @@
 title = "I added well-known URLs to my website"
 description = "Both for the sake of just doing it, and being able to see stuff at a glance."
 [taxonomies]
-tags = ["Domain", "Meta", "100 days to offload"]
+tags = ["Domain", "Meta", "100 days to offload", "Projects"]
 +++
 
 I've been reading [Jim Nielsen's blog][jim_blog] for a while. He writes about
