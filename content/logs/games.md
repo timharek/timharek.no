@@ -9,6 +9,7 @@ Currently playing:
 
 - Dave the Diver (2023), the Steam Deck
 - Jusant (2023), Steam Deck
+- Pacific Drive (2024), PC
 
 Want to play:
 
