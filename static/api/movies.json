@@ -4913,21 +4913,38 @@
     ]
   },
   {
-    "type": "movie",
     "title": "The Ballad of Buster Scruggs",
     "date": "2024-02-24",
+    "type": "movie",
+    "release_year": 2018,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Comedy",
       "Drama",
       "Musical"
     ],
-    "release_year": 2018,
-    "review": {
-      "rating": 4
-    },
     "director": [
       "Ethan Coen",
       "Joel Coen"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Wonka",
+    "date": "2024-03-02",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
+    "director": [
+      "Paul King"
     ]
   }
 ]
