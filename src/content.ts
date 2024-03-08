@@ -364,10 +364,8 @@ async function getPagesFromSection(
   return pages;
 }
 
-export interface Stats {
-  blogByYear: {
-    [key: string]: Post[];
-  };
+export type Stats = {
+  blogByYear: Record<string, Post[]>;
   posts: number;
   words: string;
   tags: number;
@@ -375,7 +373,7 @@ export interface Stats {
     internal?: InternalLink[];
     external?: ExternalLink[];
   };
-}
+};
 
 function parseTags(attrs: PostAttrs): Tag[] {
   if (!attrs.taxonomies) {
