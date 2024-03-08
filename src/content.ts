@@ -60,25 +60,79 @@ export async function getPage(
   );
   const { attrs: attrsRaw, body } = await getMarkdownFile<Attrs>(fullPath);
   const attrs = Attrs.parse(attrsRaw);
-  console.log("attrs", attrs);
 
+  const path = section ? `${section}/${slug}` : slug;
+  const page = await getProps<Page>({
+    kind: "page",
+    attrs,
+    body,
+    path,
+    slug,
+    section: section ?? "",
+  });
+
+  return page;
+}
+
+type PropsPage = {
+  kind: "page";
+  section: string;
+};
+type PropsPost = {
+  kind: "post";
+  date: Date;
+  section: string;
+};
+type PropsSection = {
+  kind: "section";
+  pages: (Page | Post)[];
+  subSections: Section[] | null;
+};
+type Props = {
+  attrs: Attrs;
+  body: string;
+  slug: string;
+  path: string;
+} & (PropsPage | PropsPost | PropsSection);
+
+async function getProps<T extends Page | Post | Section>(
+  props: Props,
+): Promise<T> {
+  const { attrs, body, slug, path } = props;
   const html = await marked.parse(body, { gfm: true });
   const links = getLinks(body);
-
-  return {
-    title: attrs.title,
-    path: section ? `${section}/${slug}` : slug,
+  const initial: Omit<Page, "section"> = {
+    ...attrs,
     slug,
+    path,
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
     html,
-    section: section ? section : "main",
-    language: attrs.language,
-    updated: attrs.updated,
-    draft: attrs.draft,
-    ...(attrs.description && { description: attrs.description }),
     ...(links && { links }),
   };
+
+  switch (props.kind) {
+    case "page":
+      return {
+        ...initial,
+        section: props.section,
+      } satisfies Page as T;
+    case "post":
+      return {
+        ...initial,
+        section: props.section,
+        date: props.date,
+        taxonomies: { tags: parseTags(attrs) },
+      } satisfies Post as T;
+    case "section":
+      return {
+        ...initial,
+        pages: props.pages,
+        ...(props.subSections && { subSections: props.subSections }),
+      } satisfies Section as T;
+    default:
+      throw new Error("Unknown page kind, not possible.");
+  }
 }
 
 export async function getSection(
@@ -97,23 +151,18 @@ export async function getSection(
   }
 
   const { attrs, body } = await getMarkdownFile<Attrs>(sectionPath);
-  const html = await marked.parse(body, { gfm: true });
-  const links = getLinks(body);
+  const path = sectionName.includes("/") ? sectionName : "";
 
-  return {
-    title: attrs.title,
-    path: sectionName.includes("/") ? sectionName : "",
+  const section = await getProps<Section>({
+    kind: "section",
+    attrs,
+    body,
+    path,
     slug: sectionName,
-    readingTime: getReadingTime(body),
-    wordCount: getWordCount(body),
-    html,
-    ...(pages && { pages }),
-    ...(subSections && { subSections }),
-    ...(attrs.description && { description: attrs.description }),
-    ...(attrs.updated && { updated: new Date(attrs.updated) }),
-    ...(attrs.draft && { draft: attrs.draft }),
-    ...(links && { links }),
-  };
+    pages,
+    subSections,
+  });
+  return section;
 }
 
 async function getSubSections(
@@ -277,38 +326,20 @@ async function getPagesFromSection(
       );
 
       const { attrs, body } = await getMarkdownFile<PostAttrs>(postPath);
+      const path = `${sectionSlug}/${slug}`;
 
-      const html = await marked.parse(body, { gfm: true });
-      const links = getLinks(body);
-
-      pages.push({
-        title: attrs.title,
-        date: new Date(postDate),
+      const post = await getProps<Post>({
+        kind: "post",
+        attrs,
+        body,
         slug,
-        path: `${sectionSlug}/${slug}`,
-        html,
-        wordCount: getWordCount(body),
-        readingTime: getReadingTime(body),
+        path,
+        date: new Date(postDate),
         section: sectionSlug,
-        ...(attrs.taxonomies &&
-          {
-            taxonomies: {
-              tags: attrs.taxonomies.tags.map((tag: string) => {
-                const slug = slugify(tag);
-                return {
-                  title: tag,
-                  slug,
-                  path: `tags/${slug}`,
-                };
-              }),
-            },
-          }),
-        ...(attrs.description && { description: attrs.description }),
-        ...(attrs.language && { language: attrs.language }),
-        ...(attrs.updated && { updated: new Date(attrs.updated) }),
-        ...(attrs.draft && { draft: attrs.draft }),
-        ...(links && { links }),
       });
+
+      pages.push(post);
+      // TODO: This shouldn't be here. It runs every time for every loop.
       pages.sort((a, b) =>
         (b as Post).date.toISOString().localeCompare(
           (a as Post).date.toISOString(),
@@ -339,6 +370,20 @@ export interface Stats {
     internal?: InternalLink[];
     external?: ExternalLink[];
   };
+}
+
+function parseTags(attrs: PostAttrs): Tag[] {
+  if (!attrs.taxonomies) {
+    return [];
+  }
+  return attrs.taxonomies.tags.map((tag: string) => {
+    const slug = slugify(tag);
+    return {
+      title: tag,
+      slug,
+      path: `tags/${slug}`,
+    };
+  });
 }
 
 export async function getGlobalStats(
