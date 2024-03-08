@@ -16,6 +16,7 @@ export async function handler(req: Request, ctx: FreshContext<ServerState>) {
   }
 
   const url = new URL(req.url);
+  // TODO: Use Zod for validation
   const redirects: Redirect = JSON.parse(
     await Deno.readTextFile(new URL("../redirects.json", import.meta.url)),
   );
