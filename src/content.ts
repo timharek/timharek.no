@@ -125,7 +125,7 @@ async function getProps<T extends Page | Post | Section>(
       return {
         ...initial,
         section: props.section,
-        date: props.date,
+        createdAt: props.date,
         tags: parseTags(attrs),
       } satisfies Post as T;
     case "section":
@@ -349,8 +349,8 @@ async function getPagesFromSection(
       pages.push(post);
       // TODO: This shouldn't be here. It runs every time for every loop.
       pages.sort((a, b) =>
-        (b as Post).date.toISOString().localeCompare(
-          (a as Post).date.toISOString(),
+        (b as Post).createdAt.toISOString().localeCompare(
+          (a as Post).createdAt.toISOString(),
         )
       );
       continue;
@@ -406,7 +406,7 @@ export async function getGlobalStats(
 
   const blogByYear = groupBy<string, Post>(
     blog.pages as Post[],
-    (post: Post) => post.date.getFullYear().toString(),
+    (post: Post) => post.createdAt.getFullYear().toString(),
   );
 
   const links = await getAllLinks(prefix);

@@ -26,13 +26,13 @@ export function PostList({ posts }: Props) {
                   </div>
                 )}
             </div>
-            {post.date && (
+            {post.createdAt && (
               <time
                 class="dt-published text-gray-400 font-mono"
-                dateTime={post.date.toISOString()}
-                title={post.date.toISOString()}
+                dateTime={post.createdAt.toISOString()}
+                title={post.createdAt.toISOString()}
               >
-                {post.date.toISOString().split("T")[0]}
+                {post.createdAt.toISOString().split("T")[0]}
               </time>
             )}
           </div>

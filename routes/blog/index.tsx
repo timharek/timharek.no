@@ -45,7 +45,7 @@ export const handler: Handlers<BlogProps, ServerState> = {
 
 export default function BlogIndex({ data }: PageProps<BlogProps>) {
   const { posts } = data;
-  const groupedPosts = groupBy(posts, (post) => post.date.getFullYear());
+  const groupedPosts = groupBy(posts, (post) => post.createdAt.getFullYear());
 
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">

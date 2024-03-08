@@ -20,7 +20,7 @@ interface Page {
 }
 
 interface Post extends Page {
-  date: Date;
+  createdAt: Date;
   tags: Tag[];
 }
 

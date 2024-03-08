@@ -40,9 +40,9 @@ ${
 		<email>${config.author.email}</email>
 		<uri>${config.base_url}</uri>
 		</author>
-	<published>${post.date.toISOString()}</published>
+	<published>${post.createdAt.toISOString()}</published>
 	<updated>${
-      post.updated ? post.updated.toISOString() : post.date.toISOString()
+      post.updated ? post.updated.toISOString() : post.createdAt.toISOString()
     }</updated>
 	<link rel="alternate" href="${config.base_url}/${post.path}" type="text/html"/>
 	<id>${config.base_url}/${post.path}</id>
@@ -63,7 +63,7 @@ ${
 	<updated>${
     posts[0].updated
       ? posts[0].updated.toISOString()
-      : posts[0].date.toISOString()
+      : posts[0].createdAt.toISOString()
   }</updated>
 	<id>${feedUrl}</id>
 	${postsRss.join("\n")}

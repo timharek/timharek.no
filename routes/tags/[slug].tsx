@@ -50,7 +50,7 @@ export const handler: Handlers<TagPageProps, ServerState> = {
 
 export default function TagPage({ data }: PageProps<TagPageProps>) {
   const { tag, posts } = data;
-  const groupedPosts = groupBy(posts, (post) => post.date.getFullYear());
+  const groupedPosts = groupBy(posts, (post) => post.createdAt.getFullYear());
 
   return (
     <div class="max-w-screen-md mx-auto px-4 prose">

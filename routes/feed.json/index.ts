@@ -83,7 +83,7 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
         title: post.title,
         id: post.path,
         url: new URL(`${config.base_url}/${post.path}`),
-        date_published: post.date,
+        date_published: post.createdAt,
         ...(post.updated && { date_modified: post.updated }),
         content_html: `${post.html} ${
           sanitizeHtml(
