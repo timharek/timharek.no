@@ -1,4 +1,4 @@
-import extract from "$std/front_matter/any.ts";
+import { extract } from "$std/front_matter/any.ts";
 import { CSS } from "gfm/mod.ts";
 import { Extract } from "$std/front_matter/mod.ts";
 
