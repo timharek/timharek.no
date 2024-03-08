@@ -1,13 +1,7 @@
+import { toKebabCase } from "$std/text/mod.ts";
+
 export function slugify(text: string): string {
-  return text
-    .toString() // Cast to string (optional)
-    .normalize("NFKD") // The normalize() using NFKD method returns the Unicode Normalization Form of a given string.
-    .toLowerCase() // Convert the string to lowercase letters
-    .trim() // Remove whitespace from both sides of a string (optional)
-    .replace(/\./g, "-") // Replace spaces with -
-    .replace(/\s+/g, "-") // Replace whitespaces with -
-    .replace(/\//g, "-") // Replace forward slash with -
-    .replace(/\-\-+/g, "-"); // Replace multiple - with single -
+  return toKebabCase(text);
 }
 
 export function getWordCount(input: string): number {
