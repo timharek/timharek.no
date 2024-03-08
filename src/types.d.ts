@@ -26,6 +26,7 @@ interface Post extends Page {
   };
 }
 
+// TODO: `section` shouldn't actually be omitted. It's useful to see parents etc.
 type Section = Omit<Page, "section"> & {
   pages: Page[] | Post[];
   subSections?: Section[];
@@ -37,6 +38,4 @@ interface Tag {
   path: string;
 }
 
-interface Redirect {
-  [key: string]: string;
-}
+type Redirect = Record<string, string>;
