@@ -1,7 +1,7 @@
 +++
 title = "August 2023"
 description = "What I've been up to since July."
-updated = 2023-10-04
+updatedAt = 2023-10-04
 tags = ["Recently", "100 days to offload"]
 +++
 

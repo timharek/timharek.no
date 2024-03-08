@@ -68,7 +68,7 @@ export default function Page({ data }: PageProps<Props>) {
         data-dark-theme="dark"
         class="max-w-screen-md mx-auto px-4 space-y-4"
       >
-        <PageHeader title={page.title} updated={page.updated} />
+        <PageHeader title={page.title} updated={page.updatedAt} />
         <div
           class="markdown-body"
           dangerouslySetInnerHTML={{ __html: page.html }}

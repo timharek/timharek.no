@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updated = 2023-12-17
+updatedAt = 2023-12-17
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not

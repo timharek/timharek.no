@@ -1,8 +1,8 @@
 +++
-updated = 2022-07-17
 title = "Goodbye Facebook"
 description = """
 Finally saying goodbye to Facebook, for good."""
+updatedAt = 2022-07-17
 tags = ["Social media", "Privacy"] 
 +++
 

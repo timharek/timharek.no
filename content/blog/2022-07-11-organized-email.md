@@ -1,7 +1,7 @@
 +++
-updated = 2022-07-22
 title = "How to keep your e-mail organized"
 description = "A few tips and tricks that I use everyday to keep things tidy."
+updatedAt = 2022-07-22
 tags = ["Email", "Tutorial"]
 +++
 

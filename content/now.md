@@ -1,6 +1,6 @@
 +++
 title = "What I'm doing now"
-updated = 2024-02-17
+updatedAt = 2024-02-17
 +++
 
 - Paternal leave from work, taking care of our daughter.

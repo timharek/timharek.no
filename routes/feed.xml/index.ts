@@ -42,7 +42,9 @@ ${
 		</author>
 	<published>${post.createdAt.toISOString()}</published>
 	<updated>${
-      post.updated ? post.updated.toISOString() : post.createdAt.toISOString()
+      post.updatedAt
+        ? post.updatedAt.toISOString()
+        : post.createdAt.toISOString()
     }</updated>
 	<link rel="alternate" href="${config.base_url}/${post.path}" type="text/html"/>
 	<id>${config.base_url}/${post.path}</id>
@@ -61,8 +63,8 @@ ${
 	<link href="${feedUrl}" rel="self" type="application/atom+xml"/>
   <link href="${config.base_url}"/>
 	<updated>${
-    posts[0].updated
-      ? posts[0].updated.toISOString()
+    posts[0].updatedAt
+      ? posts[0].updatedAt.toISOString()
       : posts[0].createdAt.toISOString()
   }</updated>
 	<id>${feedUrl}</id>

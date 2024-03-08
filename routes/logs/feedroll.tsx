@@ -107,7 +107,7 @@ export default function Page({ data }: PageProps<FeedrollProps>) {
           data-color-mode="dark"
           data-dark-theme="dark"
         >
-          <PageHeader title={page.title} updated={page.updated} />
+          <PageHeader title={page.title} updated={page.updatedAt} />
           <div
             class="markdown-body mb-4"
             dangerouslySetInnerHTML={{ __html: page.html }}

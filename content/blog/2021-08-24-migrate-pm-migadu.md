@@ -1,7 +1,7 @@
 +++
 title = "Migadu > ProtonMail"
-updated = 2021-12-12
 description = "Why I decided against continuing using ProtonMail and migrate over to Migadu. Not a direct comparison nor a review of the services."
+updatedAt = 2021-12-12
 tags = ["Email", "Privacy", "ProtonMail", "Migadu"] 
 +++
 

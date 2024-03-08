@@ -1,7 +1,7 @@
 +++
 title = "Deno is great"
 description = "What is Deno, how do I use it and should you even consider it?"
-updated = 2023-01-25
+updatedAt = 2023-01-25
 tags = ["Deno", "Software", "100 days to offload"]
 +++
 

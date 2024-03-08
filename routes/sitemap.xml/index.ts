@@ -22,7 +22,7 @@ function generateSitemap(pages: SitemapProps["pages"]): string {
     return `<url>
         <loc>${config.base_url}/${page.path}</loc>
         ${
-      page.updated ? `<lastmod>${page.updated.toISOString()}</lastmod>` : ""
+      page.updatedAt ? `<lastmod>${page.updatedAt.toISOString()}</lastmod>` : ""
     }
     </url>`;
   });

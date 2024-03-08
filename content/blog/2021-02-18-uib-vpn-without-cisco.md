@@ -2,7 +2,7 @@
 title = "How to connect to UiB VPN without Cisco AnyConnect" 
 description = """Tutorial on how to setup OpenConnect to connect to
 University of Bergen's new VPN."""
-updated = 2022-07-07
+updatedAt = 2022-07-07
 tags = ["Tutorial", "VPN"]
 +++
 

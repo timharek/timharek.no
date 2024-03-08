@@ -1,7 +1,7 @@
 +++
 title = "Casual gaming is getting boring"
 description = "For the last 22-23 years I've played video-games regularly, but now it's getting boring..."
-updated = 2022-11-01
+updatedAt = 2022-11-01
 tags = ["Thoughts", "Gaming"] 
 +++
 

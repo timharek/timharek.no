@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updated = 2024-01-29
+updatedAt = 2024-01-29
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read

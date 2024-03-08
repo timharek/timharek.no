@@ -1,7 +1,7 @@
 +++
 title = "Privacy"
 description = "Tim Hårek's privacy policy. No personal data is collected."
-updated = 2023-11-15
+updatedAt = 2023-11-15
 +++
 
 No tracking. No cookies. This website will always respect your privacy. I will

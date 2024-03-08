@@ -1,7 +1,7 @@
 +++
 title = "Nettsiden finnes nå også på norsk"
 description = "Jeg har laget en norsk-versjon av nettsiden min!"
-updated = 2023-08-14
+updatedAt = 2023-08-14
 language = "no"
 tags = ["Meta"]
 +++

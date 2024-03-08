@@ -3,7 +3,7 @@ title = "What should you choose for depolying your static websites?"
 description = """
 Should you use GitHub Pages/Actions, `scp/rsync`, Sourcehut, GitLab?
 """
-updated = 2022-12-08
+updatedAt = 2022-12-08
 tags = ["DevOps", "Git", "CI/CD", "GitHub", "GitLab", "SourceHut", "rsync"]
 +++
 

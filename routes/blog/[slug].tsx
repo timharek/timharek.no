@@ -75,7 +75,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
         <PageHeader
           title={title}
           date={post.createdAt}
-          updated={post.updated}
+          updated={post.updatedAt}
           readingTime={post.readingTime}
         />
         <div

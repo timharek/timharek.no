@@ -2,7 +2,7 @@
 title = "Deploy a static site to production using git-hooks"
 description = """
 How to deploy a static site to production (any kind of Linux-server)."""
-updated = 2023-06-18
+updatedAt = 2023-06-18
 tags = ["Git", "DevOps", "Tutorial", "CI/CD"] 
 +++
 

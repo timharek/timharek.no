@@ -9,7 +9,7 @@ interface Page {
   readingTime: number;
   description?: string;
   language?: string;
-  updated?: Date;
+  updatedAt?: Date;
   draft?: boolean;
   /** title */
   section: SectionProp;

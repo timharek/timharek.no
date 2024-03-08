@@ -1,7 +1,7 @@
 +++
 title = "Launching Everyday Privacy"
-updated = 2021-10-10
 description = "Launching a project I worked on my last semester, spring 2021, at the University of Bergen, helping educate everyday people about privacy and security."
+updatedAt = 2021-10-10
 tags = ["Projects", "Privacy", "FOSS"] 
 +++
 

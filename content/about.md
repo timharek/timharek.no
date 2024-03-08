@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
-updated = 2024-02-17
+updatedAt = 2024-02-17
 +++
 
 Hi, I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway that

@@ -1,8 +1,8 @@
 +++
-updated = 2022-01-09
 title = "Trying out aerc"
 description = """
 After using Apple Mail for a while, I'm trying aerc as my new email client."""
+updatedAt = 2022-01-09
 tags = ["Email", "FOSS", "Software", "Tools"] 
 +++
 

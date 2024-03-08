@@ -84,7 +84,7 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
         id: post.path,
         url: new URL(`${config.base_url}/${post.path}`),
         date_published: post.createdAt,
-        ...(post.updated && { date_modified: post.updated }),
+        ...(post.updatedAt && { date_modified: post.updatedAt }),
         content_html: `${post.html} ${
           sanitizeHtml(
             `<a href="mailto:${config.author.email}?subject=${post.title}">Reply via e-mail</a>`,

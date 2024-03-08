@@ -3,7 +3,7 @@ title = "Owning my own logs"
 description = """
 Not having someone else own your logs is very nice, especially when you can organize them with "magic".
 """
-updated = 2022-09-16
+updatedAt = 2022-09-16
 tags = ["Privacy", "IndieWeb"]
 +++
 

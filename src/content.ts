@@ -32,7 +32,7 @@ const Attrs = z.object({
   title: z.string(),
   description: z.string().optional(),
   draft: z.boolean().default(false),
-  updated: z.date().optional(),
+  updatedAt: z.date().optional(),
   language: z.enum(["en", "no"]).default("en"),
 });
 
@@ -122,6 +122,7 @@ async function getProps<T extends Page | Post | Section>(
         section: props.section,
       } satisfies Page as T;
     case "post":
+      console.log("attrs", attrs);
       return {
         ...initial,
         section: props.section,
