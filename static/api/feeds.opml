@@ -10,7 +10,7 @@
 		<outline text="Arne Bahlo" title="Arne Bahlo" description="" type="rss" version="RSS" htmlUrl="https://arne.me/" xmlUrl="https://arne.me/atom.xml"/>
 		<outline text="Ben Kuhn" title="Ben Kuhn" description="" type="rss" version="RSS" htmlUrl="https://www.benkuhn.net/" xmlUrl="https://www.benkuhn.net/index.xml"/>
 		<outline text="Björn Rust" title="Björn Rust" description="" type="rss" version="RSS" htmlUrl="https://bjornrust.com/" xmlUrl="https://bjornrust.com/feed/feed.json"/>
-		<outline text="Bjørn Stærk" title="Bjørn Stærk" description="" type="rss" version="RSS" htmlUrl="https://bearstrong.net/" xmlUrl="https://bearstrong.net/index.xml"/>
+		<outline text="Bjørn Stærk" title="Bjørn Stærk" description="" type="rss" version="RSS" htmlUrl="http:///" xmlUrl="https://bearstrong.net/index.xml"/>
 		<outline text="Brian Koberlein" title="Brian Koberlein" description="" type="rss" version="RSS" htmlUrl="https://briankoberlein.com/" xmlUrl="https://briankoberlein.com/index.xml"/>
 		<outline text="Brian Lovin" title="Brian Lovin" description="" type="rss" version="RSS" htmlUrl="https://overthought.ghost.io/" xmlUrl="https://brianlovin.com/writing/rss"/>
 		<outline text="Caffeinspiration" title="Caffeinspiration" description="" type="rss" version="RSS" htmlUrl="https://alexanderell.is/" xmlUrl="https://alexanderell.is/index.xml"/>
@@ -35,22 +35,25 @@
 		<outline text="IntelTechniques" title="IntelTechniques" description="" type="rss" version="RSS" htmlUrl="https://inteltechniques.com/blog" xmlUrl="https://inteltechniques.com/blog/feed/"/>
 		<outline text="Interconnected" title="Interconnected" description="" type="rss" version="RSS" htmlUrl="https://interconnected.org/home" xmlUrl="https://interconnected.org/home/feed"/>
 		<outline text="Jake Lazaroff" title="Jake Lazaroff" description="" type="rss" version="RSS" htmlUrl="https://jakelazaroff.com/" xmlUrl="https://jakelazaroff.com/rss.xml"/>
+		<outline text="Jan-Lukas Else" title="Jan-Lukas Else" description="" type="rss" version="RSS" htmlUrl="https://jlelse.blog/" xmlUrl="https://jlelse.blog/.rss"/>
 		<outline text="Jim Nielsen" title="Jim Nielsen" description="" type="rss" version="RSS" htmlUrl="https://blog.jim-nielsen.com/" xmlUrl="https://blog.jim-nielsen.com/feed.json"/>
 		<outline text="Joshleeb" title="Joshleeb" description="" type="rss" version="RSS" htmlUrl="https://joshleeb.com/" xmlUrl="https://joshleeb.com/index.xml"/>
 		<outline text="Julian Lehr" title="Julian Lehr" description="" type="rss" version="RSS" htmlUrl="https://julian.digital/" xmlUrl="http://www.julian.digital/feed"/>
 		<outline text="Kev Quirk" title="Kev Quirk" description="" type="rss" version="RSS" htmlUrl="https://kevquirk.com/" xmlUrl="https://kevq.uk/feed/"/>
 		<outline text="Knut Magnus Aasrud" title="Knut Magnus Aasrud" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kmaasrud.com/atom.xml"/>
 		<outline text="Low-tech magazine" title="Low-tech magazine" description="" type="rss" version="RSS" htmlUrl="https://solar.lowtechmagazine.com/posts/" xmlUrl="https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"/>
-		<outline text="Luke Harris" title="Luke Harris" description="" type="rss" version="RSS" htmlUrl="https://www.lkhrs.com/" xmlUrl="https://www.lkhrs.com/index.xml"/>
+		<outline text="Luke Harris" title="Luke Harris" description="" type="rss" version="RSS" htmlUrl="https://www.lkhrs.com/blog/" xmlUrl="https://www.lkhrs.com/index.xml"/>
 		<outline text="Manuel Moreale" title="Manuel Moreale" description="" type="rss" version="RSS" htmlUrl="https://manuelmoreale.com/" xmlUrl="https://manuelmoreale.com/feed"/>
 		<outline text="Marc" title="Marc" description="" type="rss" version="RSS" htmlUrl="https://atthis.link/" xmlUrl="https://atthis.link/rss.xml"/>
 		<outline text="Marius Hauken" title="Marius Hauken" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://hauken.io/atom.xml"/>
 		<outline text="Martin Koksrud Bekkelund" title="Martin Koksrud Bekkelund" description="" type="rss" version="RSS" htmlUrl="https://www.bekkelund.net/" xmlUrl="https://www.bekkelund.net/feed/"/>
 		<outline text="Mathias Haugsbø" title="Mathias Haugsbø" description="" type="rss" version="RSS" htmlUrl="https://mathiash98.github.io/posts/" xmlUrl="https://mathiash98.github.io/posts/index.xml"/>
 		<outline text="Mats BS" title="Mats BS" description="" type="rss" version="RSS" htmlUrl="https://matsbs.com/" xmlUrl="https://matsbs.com/rss/"/>
+		<outline text="Max Bernstein's Blog" title="Max Bernstein's Blog" description="" type="rss" version="RSS" htmlUrl="https://bernsteinbear.com/" xmlUrl="https://bernsteinbear.com/feed.xml"/>
 		<outline text="Maxime Vaillancourt" title="Maxime Vaillancourt" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://maximevaillancourt.com/rss.xml"/>
 		<outline text="My Privacy is None of Your Business" title="My Privacy is None of Your Business" description="" type="rss" version="RSS" htmlUrl="https://noyb.eu/en" xmlUrl="https://noyb.eu/en/rss"/>
 		<outline text="N O D E" title="N O D E" description="" type="rss" version="RSS" htmlUrl="https://N-O-D-E.net/" xmlUrl="https://n-o-d-e.net/rss/rss.xml"/>
+		<outline text="Nick Scialli" title="Nick Scialli" description="" type="rss" version="RSS" htmlUrl="https://nick.scialli.me/" xmlUrl="https://nick.scialli.me/feed/feed.json"/>
 		<outline text="Nils Norman Haukås" title="Nils Norman Haukås" description="" type="rss" version="RSS" htmlUrl="https://nilsnh.no/" xmlUrl="https://nilsnh.no/index.xml"/>
 		<outline text="PaulStamatiou.com - Technology, Design and Photography" title="PaulStamatiou.com - Technology, Design and Photography" description="" type="rss" version="RSS" htmlUrl="https://paulstamatiou.com/" xmlUrl="https://paulstamatiou.com/posts.xml"/>
 		<outline text="Personvernbloggen" title="Personvernbloggen" description="" type="rss" version="RSS" htmlUrl="https://www.personvernbloggen.no/" xmlUrl="https://www.personvernbloggen.no/feed/"/>
@@ -93,6 +96,7 @@
 		<outline text="JS Party" title="JS Party" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/jsparty" xmlUrl="https://changelog.com/jsparty/feed"/>
 		<outline text="Kortslutning" title="Kortslutning" description="" type="rss" version="RSS" htmlUrl="https://kortslutning.fun/" xmlUrl="https://feeds.simplecast.com/UBBVMPjb"/>
 		<outline text="Linux Unplugged" title="Linux Unplugged" description="" type="rss" version="RSS" htmlUrl="https://linuxunplugged.com/" xmlUrl="https://linuxunplugged.com/rss"/>
+		<outline text="localfirst.fm" title="localfirst.fm" description="" type="rss" version="RSS" htmlUrl="https://www.localfirst.fm/" xmlUrl="https://www.localfirst.fm/feed"/>
 		<outline text="Self-Hosted" title="Self-Hosted" description="" type="rss" version="RSS" htmlUrl="https://selfhosted.show/" xmlUrl="https://selfhosted.show/rss"/>
 		<outline text="The Changelog" title="The Changelog" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/podcast" xmlUrl="https://changelog.com/podcast/feed"/>
 		<outline text="The Rework Podcast" title="The Rework Podcast" description="" type="rss" version="RSS" htmlUrl="https://37signals.com/podcast" xmlUrl="https://feeds.buzzsprout.com/2260539.rss"/>
