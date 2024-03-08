@@ -32,7 +32,7 @@ const Attrs = z.object({
   title: z.string(),
   description: z.string().optional(),
   draft: z.boolean().default(false),
-  updated: z.date().default(new Date()),
+  updated: z.date().optional(),
   language: z.enum(["en", "no"]).default("en"),
 });
 
