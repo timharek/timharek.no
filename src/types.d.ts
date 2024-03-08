@@ -1,22 +1,3 @@
-interface Attrs {
-  title: string;
-  description?: string;
-  draft?: boolean;
-}
-
-interface PageAttrs extends Attrs {
-  updated?: string;
-  language?: string;
-}
-
-interface PostAttrs extends Attrs {
-  updated?: string;
-  language?: string;
-  taxonomies?: {
-    tags: string[];
-  };
-}
-
 type SectionProp = "main" | string;
 
 interface Page {

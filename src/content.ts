@@ -6,6 +6,7 @@ import { groupBy } from "./group_by.ts";
 import { getMarkdownFile } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 import { parse } from "https://esm.sh/tldts@6.0.14";
+import { z } from "zod";
 
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
 
@@ -22,6 +23,27 @@ const marked = new Marked(
   }),
 );
 
+const Attrs = z.object({
+  title: z.string(),
+  description: z.string().optional(),
+  draft: z.boolean().default(false),
+  updated: z.date().default(new Date()),
+  language: z.enum(["en", "no"]).default("en"),
+});
+
+type Attrs = z.infer<typeof Attrs>;
+
+const PostAttrs = z.intersection(
+  Attrs,
+  z.object({
+    taxonomies: z.object({
+      tags: z.array(z.string()),
+    }).optional(),
+  }),
+);
+
+type PostAttrs = z.infer<typeof PostAttrs>;
+
 export async function getPage(
   { slug, prefix = "../content", section }: {
     slug: string;
@@ -36,7 +58,9 @@ export async function getPage(
     }.md`,
     import.meta.url,
   );
-  const { attrs, body } = await getMarkdownFile<PageAttrs>(fullPath);
+  const { attrs: attrsRaw, body } = await getMarkdownFile<Attrs>(fullPath);
+  const attrs = Attrs.parse(attrsRaw);
+  console.log("attrs", attrs);
 
   const html = await marked.parse(body, { gfm: true });
   const links = getLinks(body);
@@ -49,10 +73,10 @@ export async function getPage(
     wordCount: getWordCount(body),
     html,
     section: section ? section : "main",
+    language: attrs.language,
+    updated: attrs.updated,
+    draft: attrs.draft,
     ...(attrs.description && { description: attrs.description }),
-    ...(attrs.language && { language: attrs.language }),
-    ...(attrs.updated && { updated: new Date(attrs.updated) }),
-    ...(attrs.draft && { draft: attrs.draft }),
     ...(links && { links }),
   };
 }
@@ -72,7 +96,7 @@ export async function getSection(
     pages = pages.filter((page) => !page.draft);
   }
 
-  const { attrs, body } = await getMarkdownFile<PageAttrs>(sectionPath);
+  const { attrs, body } = await getMarkdownFile<Attrs>(sectionPath);
   const html = await marked.parse(body, { gfm: true });
   const links = getLinks(body);
 
