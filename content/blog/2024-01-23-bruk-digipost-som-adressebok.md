@@ -2,7 +2,6 @@
 title = "Bruk Digipost som adressebok"
 description = "Visste du at du kan bruke Digipost til å slå opp adressene til folk?"
 language = "no"
-[taxonomies]
 tags = ["Privacy", "Thoughts", "Software"]
 +++
 

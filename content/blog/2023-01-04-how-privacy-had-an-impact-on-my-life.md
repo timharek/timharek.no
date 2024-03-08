@@ -1,7 +1,6 @@
 +++
 title = "How privacy had an impact on my life"
 description = "Everything took a turn in 2018, during my second year at the university."
-[taxonomies]
 tags = ["100 days to offload", "Privacy"]
 +++
 

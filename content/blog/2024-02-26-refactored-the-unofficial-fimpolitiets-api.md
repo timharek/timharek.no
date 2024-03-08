@@ -1,7 +1,6 @@
 +++
 title = "Refactored the unofficial Fimpolitiet's API"
 description = "Last year I made a frontend for Filmpolitiet's reviews, now the code has been refactored..."
-[taxonomies]
 tags = ["Programming", "Projects", "Deno", "Deno Fresh"]
 +++
 

@@ -4,7 +4,6 @@ description = """
 I've been using an Apple Watch exclusively for the last three years. Now I'm
 going to switch things up.
 """
-[taxonomies]
 tags = ["Apple Watch", "Apple", "Hardware"]
 +++
 
@@ -53,4 +52,4 @@ I'm really looking forward to see how this turns out. Will I become harder to
 get a hold of? Will I spend less time on my phone responding to messages? Time
 will tell (pun intended).
 
-Hopefully I’ll write a follow up to this within a year! 
+Hopefully I’ll write a follow up to this within a year!

@@ -1,7 +1,6 @@
 +++
 title = "I made a website for the place I live"
 description = "Why would I do such a thing?"
-[taxonomies]
 tags = ["Projects"] 
 +++
 

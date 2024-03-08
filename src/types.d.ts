@@ -21,9 +21,7 @@ interface Page {
 
 interface Post extends Page {
   date: Date;
-  taxonomies?: {
-    tags: Tag[];
-  };
+  tags: Tag[];
 }
 
 // TODO: `section` shouldn't actually be omitted. It's useful to see parents etc.

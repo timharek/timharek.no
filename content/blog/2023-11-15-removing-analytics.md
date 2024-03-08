@@ -1,7 +1,6 @@
 +++
 title = "Removing analytics"
 description = "After having analytics since 2020 I'm removing it."
-[taxonomies]
 tags = ["Thoughts", "Analytics", "Meta"]
 +++
 

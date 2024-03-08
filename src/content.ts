@@ -38,13 +38,12 @@ const Attrs = z.object({
 
 type Attrs = z.infer<typeof Attrs>;
 
+const PostAttrProps = z.object({
+  tags: z.array(z.string()).optional(),
+});
 const PostAttrs = z.intersection(
   Attrs,
-  z.object({
-    taxonomies: z.object({
-      tags: z.array(z.string()),
-    }).optional(),
-  }),
+  PostAttrProps,
 );
 
 type PostAttrs = z.infer<typeof PostAttrs>;
@@ -127,7 +126,7 @@ async function getProps<T extends Page | Post | Section>(
         ...initial,
         section: props.section,
         date: props.date,
-        taxonomies: { tags: parseTags(attrs) },
+        tags: parseTags(attrs),
       } satisfies Post as T;
     case "section":
       return {
@@ -155,7 +154,8 @@ export async function getSection(
     pages = pages.filter((page) => !page.draft);
   }
 
-  const { attrs, body } = await getMarkdownFile<Attrs>(sectionPath);
+  const { attrs: attrsRaw, body } = await getMarkdownFile<Attrs>(sectionPath);
+  const attrs = Attrs.parse(attrsRaw);
   const path = sectionName.includes("/") ? sectionName : "";
 
   const section = await getProps<Section>({
@@ -220,7 +220,7 @@ export async function getPostsByTag(
   const allPosts = (await getSection(blogSlug, prefix)).pages as Post[];
 
   const postsByTag = allPosts.filter((post) =>
-    post.taxonomies && post.taxonomies.tags.find((tag) => tag.slug === tagSlug)
+    post && post.tags.find((tag) => tag.slug === tagSlug)
   );
 
   return postsByTag.length > 0 ? postsByTag : null;
@@ -283,8 +283,8 @@ export async function getAllTags(
 ): Promise<Tag[]> {
   const posts = (await getSection(blogSlug, prefix)).pages as Post[];
   const tagsNotUnique = posts.flatMap((post) => {
-    if (post.taxonomies && post.taxonomies?.tags.length > 0) {
-      return post.taxonomies.tags;
+    if (post && post.tags.length > 0) {
+      return post.tags;
     }
     return [];
   });
@@ -330,7 +330,10 @@ async function getPagesFromSection(
         import.meta.url,
       );
 
-      const { attrs, body } = await getMarkdownFile<PostAttrs>(postPath);
+      const { attrs: attrsRaw, body } = await getMarkdownFile<PostAttrs>(
+        postPath,
+      );
+      const attrs = PostAttrs.parse(attrsRaw);
       const path = `${sectionSlug}/${slug}`;
 
       const post = await getProps<Post>({
@@ -376,10 +379,10 @@ export type Stats = {
 };
 
 function parseTags(attrs: PostAttrs): Tag[] {
-  if (!attrs.taxonomies) {
+  if (!attrs.tags) {
     return [];
   }
-  return attrs.taxonomies.tags.map((tag: string) => {
+  return attrs.tags.map((tag: string) => {
     const slug = slugify(tag);
     return {
       title: tag,

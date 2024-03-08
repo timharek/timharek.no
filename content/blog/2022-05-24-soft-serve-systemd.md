@@ -2,7 +2,6 @@
 title = "How to setup soft-serve as a systemd-service"
 description = "Setting up and using soft-serve from charm.sh as a Git-server."
 updated = 2023-01-15
-[taxonomies]
 tags = ["Tutorial", "Git", "Software", "DevOps"]
 +++
 

@@ -1,7 +1,6 @@
 +++
 title = "How to mirror from SourceHut to GitHub"
 description = "And other source forges."
-[taxonomies]
 tags = ["Git", "SourceHut", "CI/CD", "DevOps", "100 days to offload"]
 +++
 

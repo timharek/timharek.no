@@ -1,7 +1,6 @@
 +++
 title = "The future of social media"
 description = "Is social media part of the future?"
-[taxonomies]
 tags = ["100 days to offload", "Thoughts", "Social media"]
 +++
 

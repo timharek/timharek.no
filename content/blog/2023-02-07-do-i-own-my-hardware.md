@@ -1,7 +1,6 @@
 +++
 title = "Do I own my hardware?"
 description = "A discussion about who owns our hardware with some examples."
-[taxonomies]
 tags = ["Thoughts", "Hardware", "100 days to offload"]
 +++
 

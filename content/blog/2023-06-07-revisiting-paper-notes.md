@@ -1,7 +1,6 @@
 +++
 title = "Revisting paper notes"
 description = "What has happend after writing paper notes for more than a year."
-[taxonomies]
 tags = ["Note-taking", "100 days to offload"]
 +++
 

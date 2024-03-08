@@ -1,7 +1,6 @@
 +++
 title = "I didn't buy anything on Black Friday"
 description = "Why does that matter?"
-[taxonomies]
 tags = ["Thoughts"]
 +++
 

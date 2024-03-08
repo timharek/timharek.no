@@ -1,7 +1,6 @@
 +++
 title = "Use Markdown with Markdown"
 description = "And what I learned when I didn't."
-[taxonomies]
 tags = ["Markdown", "Thoughts", "100 days to offload"]
 +++
 

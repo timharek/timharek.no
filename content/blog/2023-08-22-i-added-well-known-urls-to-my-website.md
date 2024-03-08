@@ -1,7 +1,6 @@
 +++
 title = "I added well-known URLs to my website"
 description = "Both for the sake of just doing it, and being able to see stuff at a glance."
-[taxonomies]
 tags = ["Domain", "Meta", "100 days to offload", "Projects"]
 +++
 

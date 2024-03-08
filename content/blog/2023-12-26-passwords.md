@@ -1,7 +1,6 @@
 +++
 title = "Passwords"
 description = "Passwords and password management."
-[taxonomies]
 tags = ["100 days to offload", "Security"]
 +++
 

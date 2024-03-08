@@ -1,7 +1,6 @@
 +++
 title = "My thoughts on Helix after 6 months"
 description = "What I like and don't like."
-[taxonomies]
 tags = ["100 days to offload", "Software", "Tools", "Helix", "Thoughts"]
 +++
 

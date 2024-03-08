@@ -84,7 +84,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
         >
         </div>
         <Metadata
-          tags={post.taxonomies?.tags}
+          tags={post.tags}
           postTitle={title}
           wordCount={post.wordCount}
         />

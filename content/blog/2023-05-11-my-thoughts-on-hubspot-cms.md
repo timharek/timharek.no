@@ -1,7 +1,6 @@
 +++
 title = "My thoughts on HubSpot CMS"
 description = "What I've been up to since December."
-[taxonomies]
 tags = ["100 days to offload", "Thoughts", "CMS"]
 +++
 

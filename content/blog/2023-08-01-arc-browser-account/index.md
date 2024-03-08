@@ -1,7 +1,6 @@
 +++
 title = "Why do I need an account to browse the web? (Arc browser)"
 description = "The Arc browser just went out of a invite-only beta, and I wanted to try it out."
-[taxonomies]
 tags = ["Thoughts", "Browser", "Arc", "Privacy", "100 days to offload"]
 +++
 

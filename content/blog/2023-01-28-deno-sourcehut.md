@@ -2,7 +2,6 @@
 title = "How to run Deno on Sourcehut"
 description = "How to run Deno on Sourcehut (sr.ht) with their build system."
 updated = 2023-06-18
-[taxonomies]
 tags = ["100 days to offload", "DevOps", "SourceHut", "Deno"]
 +++
 

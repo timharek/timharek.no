@@ -1,7 +1,6 @@
 +++
 title = "Why you should stop taking photos of documents (and receipts)"
 description = "Please stop taking photos of physical documents."
-[taxonomies]
 tags = ["Thoughts"]
 +++
 

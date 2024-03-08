@@ -1,7 +1,6 @@
 +++
 title = "October 2022"
 description = "What I've been up to since September."
-[taxonomies]
 tags = ["Recently"]
 +++
 

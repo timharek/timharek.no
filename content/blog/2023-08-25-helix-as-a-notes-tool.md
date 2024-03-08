@@ -1,7 +1,6 @@
 +++
 title = "Helix as a notes tool"
 description = "Maybe you don't need Obsidian, Notion etc."
-[taxonomies]
 tags = ["Thoughts", "Note-taking", "100 days to offload", "Helix", "Markdown"]
 +++
 

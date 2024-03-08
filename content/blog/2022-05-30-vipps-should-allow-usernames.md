@@ -2,7 +2,6 @@
 updated = 2022-06-19
 title = "Vipps should allow usernames"
 description = "Today Vipps doesn't allow usernames for individuals, and that could be concerning for some people."
-[taxonomies]
 tags = ["Privacy", "Thoughts"]
 +++
 

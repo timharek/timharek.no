@@ -90,8 +90,8 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
             `<a href="mailto:${config.author.email}?subject=${post.title}">Reply via e-mail</a>`,
           ).toString()
         }`,
-        ...(post.taxonomies?.tags &&
-          { tags: post.taxonomies?.tags.map((tag) => tag.title) }),
+        ...(post.tags.length > 0 &&
+          { tags: post.tags.map((tag) => tag.title) }),
       };
     }),
   };

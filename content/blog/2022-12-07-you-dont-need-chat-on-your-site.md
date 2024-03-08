@@ -1,7 +1,6 @@
 +++
 title = "You don't need live chat on your website"
 description = "Why you (probably) don't need live chat on your website."
-[taxonomies]
 tags = ["Thoughts"]
 +++
 

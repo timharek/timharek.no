@@ -1,7 +1,6 @@
 +++
 title = "How to self-host Deno Fresh"
 description = "How I self-host Deno Fresh on my own VPS."
-[taxonomies]
 tags = ["Deno", "Tutorial", "DevOps", "100 days to offload", "Deno Fresh"]
 +++
 

@@ -2,7 +2,6 @@
 updated = 2022-07-22
 title = "My thoughts on Ghost CMS"
 description = "I recently used Ghost CMS for the first time, this is about what I've learned while using it."
-[taxonomies]
 tags = ["Ghost CMS", "CMS", "Thoughts"]
 +++
 

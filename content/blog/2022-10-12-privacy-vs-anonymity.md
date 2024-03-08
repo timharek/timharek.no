@@ -1,7 +1,6 @@
 +++
 title = "Privacy vs. Anonymity"
 description = "What's the difference, and why I care."
-[taxonomies]
 tags = ["Privacy"] 
 +++
 
@@ -28,4 +27,3 @@ As I mentioned before, I want to be in control of my own stuff. I don't want
 anyone else to have control and then inevitably lose that control when something
 happens. I don't want my stuff floating around the interwebs out of my reach and
 control, and I can still achieve this without having to be anonymous.
-

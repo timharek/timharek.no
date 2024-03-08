@@ -4,7 +4,6 @@ description = """
 Should you use GitHub Pages/Actions, `scp/rsync`, Sourcehut, GitLab?
 """
 updated = 2022-12-08
-[taxonomies]
 tags = ["DevOps", "Git", "CI/CD", "GitHub", "GitLab", "SourceHut", "rsync"]
 +++
 

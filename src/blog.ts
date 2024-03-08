@@ -47,7 +47,6 @@ const file = `+++
 title = "${title}"
 description = "${description}"
 draft = true
-[taxonomies]
 tags = [${tags && tags.map((tag) => `"${tag}"`).join(", ")}]
 +++
 `;

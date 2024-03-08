@@ -2,7 +2,6 @@
 title = "Switching to SourceHut Builds"
 description = "Earlier this year I started using git-hooks for CI/CD, but now I'm switching to SourceHut."
 updated = 2023-06-18
-[taxonomies]
 tags = ["Git", "DevOps", "SourceHut", "CI/CD"]
 +++
 

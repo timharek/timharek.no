@@ -1,7 +1,6 @@
 +++
 title = "My ideal development workflow"
 description = "How I like to work in order to get things done."
-[taxonomies]
 tags = ["100 days to offload", "Thoughts", "Git", "DevOps"]
 +++
 

@@ -2,7 +2,6 @@
 title = "Trying out Helix (editor)"
 updated = 2023-01-21
 description = "After two years of Vim and Neovim, I discovered a new rabbit hole."
-[taxonomies]
 tags = ["100 days to offload", "Software", "Tools", "Helix"]
 +++
 

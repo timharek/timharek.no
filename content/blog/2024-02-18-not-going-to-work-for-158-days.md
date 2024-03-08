@@ -1,8 +1,6 @@
 +++
 title = "Not going to work for 158 days"
 description = "Embarking a long (short) journey."
-[taxonomies]
-tags = []
 +++
 
 This Thursday was the first day of my paternal leave from work. I will be

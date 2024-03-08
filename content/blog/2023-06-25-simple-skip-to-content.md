@@ -1,7 +1,6 @@
 +++
 title = 'How to add a simple "Skip to content"-button to your website'
 description = 'Two example of how to add a simple "Skip to content"-button for your website, one with HTML/CSS and one with Tailwind.'
-[taxonomies]
 tags = ["Tutorial", "CSS", "Tailwind", "HTML"]
 +++
 

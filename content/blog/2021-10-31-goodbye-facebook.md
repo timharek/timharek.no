@@ -3,7 +3,6 @@ updated = 2022-07-17
 title = "Goodbye Facebook"
 description = """
 Finally saying goodbye to Facebook, for good."""
-[taxonomies]
 tags = ["Social media", "Privacy"] 
 +++
 

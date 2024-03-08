@@ -23,7 +23,7 @@ export const handler: Handlers<RSSProps, ServerState> = {
 
 function generateRssFeed(posts: Post[]): string {
   const postsRss = posts.map((post) => {
-    const tags = post.taxonomies?.tags.map((tag) => {
+    const tags = post.tags.map((tag) => {
       return `<category term="${sanitizeHtml(tag.title)}" />`;
     }).filter((tag) => tag !== undefined);
 

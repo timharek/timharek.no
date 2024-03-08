@@ -2,7 +2,6 @@
 title = "Migadu review 2023"
 description = "After using the service for more than two years."
 updated = 2023-07-11
-[taxonomies]
 tags = ["Email", "Review", "Privacy", "Migadu", "100 days to offload"]
 +++
 
