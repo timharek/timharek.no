@@ -1,5 +1,5 @@
 import { Handlers } from "$fresh/server.ts";
-import { getAllLinks } from "../../src/content.ts";
+import { getAllLinks } from "../../src/content_links.ts";
 
 export const handler: Handlers = {
   async GET(req, _ctx) {

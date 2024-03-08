@@ -1,6 +1,5 @@
 import { assert, assertEquals } from "$std/testing/asserts.ts";
 import {
-  getAllLinks,
   getAllPages,
   getAllTags,
   getGlobalStats,
@@ -144,14 +143,4 @@ Deno.test("Get stats", async () => {
   assertEquals(stats.tags, 2);
   assertEquals(stats.words, "35");
   assertEquals(Object.keys(stats.blogByYear).length, 1);
-});
-
-Deno.test("Get all links", async () => {
-  const prefix = "./testdata/markdown/content";
-
-  const links = await getAllLinks(prefix);
-
-  assertEquals(links?.count, 2);
-  assertEquals(links?.internal?.length, 1);
-  assertEquals(links?.external?.length, 1);
 });
