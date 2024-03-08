@@ -1,9 +1,6 @@
 import "$std/dotenv/load.ts";
-import { Marked } from "npm:marked@8.0.1";
-import { markedHighlight } from "npm:marked-highlight@2.0.9";
-import hljs from "npm:highlight.js@11.9.0";
 import { groupBy } from "./group_by.ts";
-import { getMarkdownFile } from "./markdown.ts";
+import { getMarkdownFile, marked } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
 import { z } from "zod";
 import {
@@ -16,17 +13,6 @@ import {
 const YYYY_MM_DD_REGEX = new RegExp(/^\d{4}-\d{2}-\d{2}/);
 
 const SHOW_DRAFTS = Deno.env.get("SHOW_DRAFTS") === "true" ? true : false;
-
-export const marked = new Marked(
-  markedHighlight({
-    async: true,
-    langPrefix: "language-",
-    highlight(code, lang) {
-      const language = hljs.getLanguage(lang) ? lang : "plaintext";
-      return hljs.highlight(code, { language }).value;
-    },
-  }),
-);
 
 const Attrs = z.object({
   title: z.string(),
