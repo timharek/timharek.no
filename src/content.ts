@@ -340,7 +340,7 @@ async function getPagesFromSection(
     pages.push(page);
   }
 
-  if ("createdAt" in pages[0]) {
+  if (pages.length > 0 && "createdAt" in pages[0]) {
     pages.sort((a, b) =>
       (b as Post).createdAt.toISOString().localeCompare(
         (a as Post).createdAt.toISOString(),
