@@ -11,7 +11,7 @@ type Page = {
   language?: string;
   updatedAt?: Date;
   draft?: boolean;
-  /** title */
+  /** section slug */
   section: SectionProp;
   links?: {
     external?: string[];
