@@ -104,7 +104,6 @@ async function getProps<T extends Page | Post | Section>(
         ...initial,
       } satisfies Page as T;
     case "post":
-      console.log("attrs", attrs);
       return {
         ...initial,
         createdAt: props.date,
