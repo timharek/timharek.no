@@ -317,8 +317,6 @@ async function getPagesFromSection(
       const { attrs: attrsRaw, body } = await getMarkdownFile<PostAttrs>(
         postPath,
       );
-      console.log("slug", slug);
-      console.log("attrsRaw", attrsRaw);
       const attrs = PostAttrs.parse(attrsRaw);
       const path = `${sectionSlug}/${slug}`;
 
@@ -333,12 +331,6 @@ async function getPagesFromSection(
       });
 
       pages.push(post);
-      // TODO: This shouldn't be here. It runs every time for every loop.
-      pages.sort((a, b) =>
-        (b as Post).createdAt.toISOString().localeCompare(
-          (a as Post).createdAt.toISOString(),
-        )
-      );
       continue;
     }
 
@@ -348,6 +340,14 @@ async function getPagesFromSection(
     const page = await getPage({ slug, section: sectionSlug, prefix });
 
     pages.push(page);
+  }
+
+  if ("createdAt" in pages[0]) {
+    pages.sort((a, b) =>
+      (b as Post).createdAt.toISOString().localeCompare(
+        (a as Post).createdAt.toISOString(),
+      )
+    );
   }
 
   return pages;
