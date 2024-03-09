@@ -1,7 +1,6 @@
 +++
 title = "Hello world #29"
 description = "Hello world. I am Tim Hårek, you have found my corner on the interwebs. This is my humble blog beginnings, welcome." 
-author = "Tim Hårek"
 tags = ["Meta"]
 +++
 

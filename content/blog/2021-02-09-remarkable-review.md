@@ -1,7 +1,6 @@
 +++
 title = "reMarkable 2 reView (sort of)"
 description = "A small review from the past few weeks I have been using the tablet."
-aliases = ["/blog/remarkeable-review"]
 tags = ["Preview", "Review", "Hardware", "Note-taking"] 
 +++
 

@@ -20,17 +20,14 @@ const Attrs = z.object({
   draft: z.boolean().default(false),
   updatedAt: z.date().optional(),
   language: z.enum(["en", "no"]).default("en"),
-});
+}).strict();
 
 type Attrs = z.infer<typeof Attrs>;
 
 const PostAttrProps = z.object({
   tags: z.array(z.string()).optional(),
 });
-const PostAttrs = z.intersection(
-  Attrs,
-  PostAttrProps,
-);
+const PostAttrs = PostAttrProps.merge(Attrs).strict();
 
 type PostAttrs = z.infer<typeof PostAttrs>;
 
@@ -320,6 +317,8 @@ async function getPagesFromSection(
       const { attrs: attrsRaw, body } = await getMarkdownFile<PostAttrs>(
         postPath,
       );
+      console.log("slug", slug);
+      console.log("attrsRaw", attrsRaw);
       const attrs = PostAttrs.parse(attrsRaw);
       const path = `${sectionSlug}/${slug}`;
 
