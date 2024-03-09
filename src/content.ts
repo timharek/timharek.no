@@ -63,12 +63,10 @@ export async function getPage(
 
 type PropsPage = {
   kind: "page";
-  section: string;
 };
 type PropsPost = {
   kind: "post";
   date: Date;
-  section: string;
 };
 type PropsSection = {
   kind: "section";
@@ -80,18 +78,20 @@ type Props = {
   body: string;
   slug: string;
   path: string;
+  section: string;
 } & (PropsPage | PropsPost | PropsSection);
 
 async function getProps<T extends Page | Post | Section>(
   props: Props,
 ): Promise<T> {
-  const { attrs, body, slug, path } = props;
+  const { attrs, body, slug, path, section } = props;
   const html = await marked.parse(body, { gfm: true });
   const links = getLinks(body);
-  const initial: Omit<Page, "section"> = {
+  const initial: Page = {
     ...attrs,
     slug,
     path,
+    section,
     readingTime: getReadingTime(body),
     wordCount: getWordCount(body),
     html,
@@ -102,13 +102,11 @@ async function getProps<T extends Page | Post | Section>(
     case "page":
       return {
         ...initial,
-        section: props.section,
       } satisfies Page as T;
     case "post":
       console.log("attrs", attrs);
       return {
         ...initial,
-        section: props.section,
         createdAt: props.date,
         tags: parseTags(attrs),
       } satisfies Post as T;
@@ -148,6 +146,7 @@ export async function getSection(
     body,
     path,
     slug: sectionName,
+    section: sectionName,
     pages,
     subSections,
   });

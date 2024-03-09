@@ -24,11 +24,10 @@ type Post = {
   tags: Tag[];
 } & Page;
 
-// TODO: `section` shouldn't actually be omitted. It's useful to see parents etc.
-type Section = Omit<Page, "section"> & {
+type Section = {
   pages: Page[] | Post[];
   subSections?: Section[];
-};
+} & Page;
 
 type Tag = {
   title: string;
