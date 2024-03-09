@@ -1,6 +1,6 @@
 type SectionProp = "main" | string;
 
-interface Page {
+type Page = {
   title: string;
   slug: string;
   path: string;
@@ -17,12 +17,12 @@ interface Page {
     external?: string[];
     internal?: string[];
   };
-}
+};
 
-interface Post extends Page {
+type Post = {
   createdAt: Date;
   tags: Tag[];
-}
+} & Page;
 
 // TODO: `section` shouldn't actually be omitted. It's useful to see parents etc.
 type Section = Omit<Page, "section"> & {
@@ -30,10 +30,8 @@ type Section = Omit<Page, "section"> & {
   subSections?: Section[];
 };
 
-interface Tag {
+type Tag = {
   title: string;
   slug: string;
   path: string;
-}
-
-type Redirect = Record<string, string>;
+};
