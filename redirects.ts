@@ -1,4 +1,4 @@
-{
+export const redirects: Record<string, string> = {
   "/about/cv": "/cv",
   "/about/uses": "/uses",
   "/blogroll": "/feedroll",
@@ -17,7 +17,8 @@
   "/no/sitemap": "/sitemap",
   "/no/stats": "/stats",
   "/no/work": "/work",
-  "/no/blog/hvordan-det-er-aa-ikke-vaere-kunde-hos-nextgentel": "/blog/hvordan-det-er-aa-ikke-vaere-kunde-hos-nextgentel.no",
+  "/no/blog/hvordan-det-er-aa-ikke-vaere-kunde-hos-nextgentel":
+    "/blog/hvordan-det-er-aa-ikke-vaere-kunde-hos-nextgentel.no",
   "/no/blog/oversatt-til-norsk": "/blog/oversatt-til-norsk.no",
   "/projects": "/work",
   "/read": "/logs/reading",
@@ -31,5 +32,5 @@
   "/garden/security/password.no": "/blog/passwords",
   "/garden/tools/gpg": "/blog/getting-started-gpg",
   "/garden/tools/git": "/blog/git-tips-and-tricks",
-  "/garden/tools/zint": "/blog/qr-codes"
-}
+  "/garden/tools/zint": "/blog/qr-codes",
+} as const;
