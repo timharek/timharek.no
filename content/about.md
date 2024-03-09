@@ -33,8 +33,8 @@ It's hosted on a [1984 Hosting][1984] VPS.
 
 Proud member of:
 
-- [1MB club][1mb].
-- [512KB club][512kb].
+- [1MB club][1mb]
+- [512KB club][512kb]
 
 Source code is available on [SourceHut][sourcehut].
 
