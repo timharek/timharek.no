@@ -13,7 +13,9 @@ export const handler: Handlers<SitemapProps, ServerState> = {
 
     const sitemap = generateSitemap([...pages]);
 
-    return new Response(sitemap, { headers: { "content-type": "text/xml" } });
+    return new Response(sitemap, {
+      headers: { "Content-Type": "text/xml; charset=utf-8" },
+    });
   },
 };
 
