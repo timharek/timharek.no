@@ -4931,20 +4931,37 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Wonka",
     "date": "2024-03-02",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 3
+    },
     "genres": [
       "Adventure",
       "Comedy",
       "Family"
     ],
-    "release_year": 2023,
-    "review": {
-      "rating": 3
-    },
     "director": [
       "Paul King"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Dune: Part Two",
+    "date": "2024-03-09",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Denis Villeneuve"
     ]
   }
 ]
