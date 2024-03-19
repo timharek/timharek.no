@@ -1124,19 +1124,37 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Reacher",
     "date": "2024-01-21",
+    "type": "tv",
+    "release_year": 2022,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Action",
       "Crime",
       "Drama"
     ],
-    "release_year": 2022,
-    "review": {
-      "rating": 4
-    },
     "season": 2,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "The Gentlemen",
+    "date": "2024-03-15",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 5
+    },
+    "season": 1,
     "director": [
       "N/A"
     ]
