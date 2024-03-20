@@ -9,7 +9,7 @@ Currently watching:
 
 - Succession S4
 - Invincible S2
-- The Gentlement S1
+- Shōgun S1
 
 Watchlist:
 
