@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-01-29
+updatedAt = 2024-03-22
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -113,6 +113,17 @@ This is software that I use on my devices. Inspired by
 |        Source forge | [SourceHut][sourcehut]                          |
 |        VPS provider | [1984 Hosting][1984]                            |
 
+## Note-taking
+
+Over the years I've become more particular when it comes to how note-taking, and
+this is what I use daily.
+
+|                |                                           |
+| -------------: | :---------------------------------------- |
+|       Notebook | [Field notes][field_notes] - dotgrid      |
+| Notebook cover | [Everyday inspiration][field_notes_cover] |
+|            Pen | [Artline 200 Fine 0.4][pen]               |
+
 [affinity_des]: https://affinity.serif.com/en-us/designer
 [affinity_photo]: https://affinity.serif.com/en-us/photo
 [firefox]: https://www.mozilla.org/en-US/firefox/new
@@ -150,3 +161,7 @@ This is software that I use on my devices. Inspired by
 [pika]: https://superhighfives.com/pika
 [alfred]: https://www.alfredapp.com/
 [alttab]: https://alt-tab-macos.netlify.app/
+[field_notes]: https://fieldnotesbrand.com/
+[field_notes_cover]:
+  https://fieldnotesbrand.com/products/everyday-inspiration-leather-notebook-cover
+[pen]: https://www.amazon.com/Artline-Black-Fineliner-point-0-4mm/dp/B003UH1A40
