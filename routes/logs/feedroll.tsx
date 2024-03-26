@@ -6,40 +6,47 @@ import { ServerState } from "../_middleware.ts";
 import { Link } from "../../components/Link.tsx";
 import { css } from "../../src/markdown.ts";
 import { parse } from "xml";
+import { z } from "zod";
 
-interface OPMLOutlineItem {
-  "@text": string;
-  "@title": string;
-  "@description": string | null;
-  "@type": string;
-  "@version": string;
-  "@htmlUrl": string;
-  "@xmlUrl": string;
-  "#text": string | null;
-}
-interface OPMLOutline {
-  "@text": string;
-  "@title": string;
-  "@nnw_externalID": string;
-  outline: OPMLOutlineItem[];
-}
-interface OPML {
-  xml: {
-    "@version": number;
-    "@encoding": "UTF-8";
-  };
-  opml: {
-    "@version": number;
-    head: { title: "iCloud" };
-    body: {
-      outline: OPMLOutline[];
-    };
-  };
-}
-interface FeedrollProps {
+const OPMLOutlineItem = z.object({
+  "@text": z.string(),
+  "@title": z.string(),
+  "@description": z.string().nullable(),
+  "@type": z.string(),
+  "@version": z.string(),
+  "@htmlUrl": z.string().nullable(),
+  "@xmlUrl": z.string(),
+  "#text": z.string().nullable(),
+});
+type OPMLOutlineItem = z.infer<typeof OPMLOutlineItem>;
+
+const OPMLOutline = z.object({
+  "@text": z.string(),
+  "@title": z.string(),
+  "@nnw_externalID": z.string(),
+  outline: z.array(OPMLOutlineItem),
+});
+
+type OPMLOutline = z.infer<typeof OPMLOutline>;
+
+const OPML = z.object({
+  xml: z.object({
+    "@version": z.number(),
+    "@encoding": z.literal("UTF-8"),
+  }),
+  opml: z.object({
+    "@version": z.number(),
+    head: z.object({ title: z.literal("iCloud") }),
+    body: z.object({
+      outline: z.array(OPMLOutline),
+    }),
+  }),
+});
+
+type FeedrollProps = {
   entries: OPMLOutline[];
   page: Page;
-}
+};
 
 export const handler: Handlers<FeedrollProps, ServerState> = {
   async GET(req, ctx) {
@@ -78,7 +85,7 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
     const isRequestingHtml = headers?.includes("text/html");
     try {
       const feedsRaw = await Deno.readTextFile(feedsFilePath);
-      const feedsObj = parse(feedsRaw) as unknown as OPML;
+      const feedsObj = OPML.parse(parse(feedsRaw));
       const feeds = feedsObj.opml.body.outline;
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(feeds, null, 2));
