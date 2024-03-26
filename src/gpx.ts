@@ -1,6 +1,6 @@
 import { parse } from "https://deno.land/x/xml@2.1.3/mod.ts";
+import { z } from "zod";
 
-// Define types for GPX data
 interface Point {
   lat: number;
   lon: number;
@@ -11,19 +11,35 @@ interface Coordinates {
   y: number;
 }
 
-// Read GPX file
+const gpxSchema = z.object({
+  xml: z.object({
+    "@version": z.number(),
+    "@encoding": z.literal("UTF-8"),
+  }),
+  gpx: z.object({
+    "@version": z.number(),
+    "@creator": z.string(),
+    "@xmlns": z.string().url(),
+    "@xmlns:xsi": z.string().url(),
+    "@xsi:schemaLocation": z.string(),
+    trk: z.object({
+      trkseg: z.object({
+        trkpt: z.array(z.object({ "@lat": z.number(), "@lon": z.number() })),
+      }),
+    }),
+  }),
+});
+
 async function readGPX(filePath: string): Promise<Point[]> {
   const gpxData = await Deno.readTextFile(filePath);
-  const xml = parse(gpxData);
-  // console.log(JSON.stringify(xml, null, 2));
-  // console.log("xml", xml.gpx);
+  const xml = gpxSchema.parse(parse(gpxData));
 
   const points: Point[] = [];
 
-  const trkptElements = xml.gpx?.trk?.trkseg?.trkpt;
+  const trkptElements = xml.gpx.trk.trkseg.trkpt;
   for (const trkptElement of trkptElements) {
-    const lat = parseFloat(trkptElement["@lat"] || "0");
-    const lon = parseFloat(trkptElement["@lon"] || "0");
+    const lat = trkptElement["@lat"] || 0;
+    const lon = trkptElement["@lon"] || 0;
     points.push({ lat, lon });
   }
 
