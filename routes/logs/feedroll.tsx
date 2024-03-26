@@ -5,7 +5,7 @@ import { getPage } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { Link } from "../../components/Link.tsx";
 import { css } from "../../src/markdown.ts";
-import { parse } from "https://deno.land/x/xml@2.1.3/mod.ts";
+import { parse } from "xml";
 
 interface OPMLOutlineItem {
   "@text": string;

@@ -1,4 +1,4 @@
-import { parse } from "https://deno.land/x/xml@2.1.3/mod.ts";
+import { parse } from "xml";
 import { z } from "zod";
 
 interface Point {
