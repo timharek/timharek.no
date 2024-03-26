@@ -140,15 +140,22 @@ export default function Page({ data }: PageProps<FeedrollProps>) {
   );
 }
 
-interface ItemProps {
+type ItemProps = {
   item: OPMLOutlineItem;
-}
+};
 
 function Item({ item }: ItemProps) {
+  let url = item["@htmlUrl"];
+  const rss = item["@xmlUrl"];
+
+  if (!url) {
+    const tmpUrl = new URL(rss);
+    url = tmpUrl.origin;
+  }
   return (
-    <li class={`flex items-center gap-2`}>
-      <Link href={item["@htmlUrl"]} label={item["@title"]} /> {" - "}
-      <Link href={item["@xmlUrl"]} label="RSS" />
+    <li class="flex items-center gap-2">
+      <Link href={url} label={item["@title"]} /> {" - "}
+      <Link href={rss} label="RSS" />
     </li>
   );
 }
