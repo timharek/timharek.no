@@ -1,4 +1,4 @@
-import { defineConfig, Preset, ThemeConfig } from "@twind/core@1.1.3";
+import { defineConfig, Preset, ThemeConfig } from "@twind/core";
 import presetTailwind from "@twind/preset-tailwind@1.1.4";
 
 export default {
