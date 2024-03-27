@@ -10,6 +10,7 @@ Currently watching:
 - Succession S4
 - Invincible S2
 - Shōgun S1
+- Pantheon S1
 
 Watchlist:
 
