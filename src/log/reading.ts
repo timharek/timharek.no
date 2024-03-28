@@ -1,11 +1,5 @@
 import { Input, List, Number, prompt, Select } from "../deps.ts";
-import {
-  getBook,
-  searchBook,
-} from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.ts";
-import type {
-  OpenLibrary,
-} from "https://git.sr.ht/~timharek/deno-books/blob/main/mod.d.ts";
+import { getBook, searchBook } from "books";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 import { Entry } from "../schemas.ts";
 import { z } from "zod";
@@ -42,16 +36,14 @@ export async function logBook(): Promise<Entry> {
 
   const { title, author } = titleAuthorSchema.parse(titleAuthorPrompt);
 
-  const searchResult: OpenLibrary.ISearch = await searchBook(
-    `${title} ${author}`,
-  );
+  const searchResult = await searchBook(`${title} ${author}`);
   const selectOptions = searchResult.docs.map(
-    (book: Record<string, string | string[]>) => {
+    (book) => {
       return {
         name: `${book.title} (${book.first_publish_year}) by ${
           typeof book.author_name === "string"
             ? book.author_name
-            : book.author_name.join(", ")
+            : book.author_name?.join(", ")
         }`,
         publishYear: book.first_publish_year,
         author: book.author_name,
@@ -91,18 +83,16 @@ export async function logBook(): Promise<Entry> {
     metadataPrompt,
   );
 
-  const book: OpenLibrary.IBook = await getBook(selectedResult.split("/")[2]);
+  const book = await getBook(selectedResult.split("/")[2]);
   const bookFields =
-    selectOptions.filter((book: Record<string, string>) =>
-      book.value === selectedResult
-    )[0];
+    selectOptions.filter((book) => book.value === selectedResult)[0];
 
   return {
     type: "book",
     title: book.title,
     date,
-    publish_year: bookFields.publishYear,
-    author: bookFields.author,
+    publish_year: bookFields.publishYear ?? 0,
+    author: bookFields.author ?? [],
     review: { rating },
     genres,
   };
