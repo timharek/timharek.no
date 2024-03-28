@@ -118,7 +118,7 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
         <ul class="divide-y-2 divide-slate-600">
           {projects.map((project) => (
             <li>
-              <Project project={project} />
+              <ProjectWrapper project={project} />
             </li>
           ))}
         </ul>
@@ -127,7 +127,7 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
   );
 }
 
-function Project({ project }: { project: Project }) {
+function ProjectWrapper({ project }: { project: Project }) {
   const dates = {
     start: new Date(project.startDate),
     end: project.endDate ? new Date(project.endDate) : undefined,
