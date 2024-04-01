@@ -64,7 +64,7 @@ home-lab shenanigans.
   somewhere. It was a really cool show that explores one of the most intriguing
   parts of humans and technology, and how that might work in the future.
 
-Started watching **Shōgun S1** this month, it's really good so far (ep7)! And
+Started watching **Shōgun S1** this month, it's really good so far (ep6)! And
 **Invincible S2** is back, and what a rollercoaster. Looking forward to
 **Fallout S1** next month, from the first trailer it looks promising!
 
