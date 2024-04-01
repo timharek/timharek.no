@@ -11,10 +11,10 @@ Currently watching:
 - Invincible S2
 - Shōgun S1
 - Pantheon S2
+- Tokyo Vice S1
 
 Watchlist:
 
-- Showing Up (2023)
 - Past Lives (2023)
 - Asteroid City (2023)
 
