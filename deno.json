@@ -5,7 +5,7 @@
     "start": "deno run -A main.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update .",
     "log": "deno run --allow-net=www.omdbapi.com,openlibrary.org --allow-read=./static/api --allow-write=./static/api --allow-env src/log/cli.ts",
-    "blog": "deno run --allow-write=./content/blog src/blog.ts",
+    "blog": "deno run -A src/blog.ts",
     "setup:hooks": "deno run -A -r https://deno.land/x/githooks/githooks.ts",
     "check": "deno fmt --check && deno lint && deno check **/*.tsx && deno check **/*.ts",
     "build": "deno run -A dev.ts build",

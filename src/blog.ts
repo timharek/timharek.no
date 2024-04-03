@@ -1,3 +1,4 @@
+import { getAllTags } from "./content.ts";
 import { Input, List, prompt } from "./deps.ts";
 import { getCurrentDate } from "./utils.ts";
 import { slugify } from "./utils.ts";
@@ -48,6 +49,9 @@ const blogPrompt = async (titleInput?: string) => {
       name: "tags",
       message: "Tags",
       type: List,
+      list: true,
+      info: true,
+      suggestions: (await getAllTags()).map((tag) => tag.title),
     },
   ]);
 };
