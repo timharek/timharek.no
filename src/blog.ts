@@ -13,37 +13,52 @@ const blogSchema = z.object({
   tags: z.array(z.string()),
 });
 
-const blogPrompt = await prompt([
-  {
-    name: "title",
-    message: "Post title",
-    type: Input,
-  },
-  {
-    name: "slug",
-    message: "Slug",
-    type: Input,
-  },
-  {
-    name: "description",
-    message: "Description",
-    type: Input,
-  },
-  {
-    name: "date",
-    message: "Date",
-    suggestions: [getCurrentDate()],
-    type: Input,
-  },
-  {
-    name: "tags",
-    message: "Tags",
-    type: List,
-  },
-]);
-const { title, description, slug, date, tags } = blogSchema.parse(blogPrompt);
+const blogPrompt = async (titleInput?: string) => {
+  return await prompt([
+    {
+      name: "title",
+      message: "Post title",
+      type: Input,
+      before: async (result, next) => {
+        if (titleInput) {
+          result.title = titleInput;
+          await next("slug");
+        } else {
+          await next();
+        }
+      },
+    },
+    {
+      name: "slug",
+      message: "Slug",
+      type: Input,
+    },
+    {
+      name: "description",
+      message: "Description",
+      type: Input,
+    },
+    {
+      name: "date",
+      message: "Date",
+      suggestions: [getCurrentDate()],
+      type: Input,
+    },
+    {
+      name: "tags",
+      message: "Tags",
+      type: List,
+    },
+  ]);
+};
 
-const file = `+++
+if (import.meta.main) {
+  const titleInput = Deno.args[0];
+  const { title, description, slug, date, tags } = blogSchema.parse(
+    await blogPrompt(titleInput),
+  );
+
+  const file = `+++
 title = "${title}"
 description = "${description}"
 draft = true
@@ -51,8 +66,9 @@ tags = [${tags && tags.map((tag) => `"${tag}"`).join(", ")}]
 +++
 `;
 
-const slugifiedSlug = slugify(slug ? slug : title);
-const filename = `${date}-${slugifiedSlug}.md`;
+  const slugifiedSlug = slugify(slug ? slug : title);
+  const filename = `${date}-${slugifiedSlug}.md`;
 
-const path = new URL(`../content/blog/${filename}`, import.meta.url);
-await Deno.writeTextFile(path, file);
+  const path = new URL(`../content/blog/${filename}`, import.meta.url);
+  await Deno.writeTextFile(path, file);
+}
