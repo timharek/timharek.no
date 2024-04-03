@@ -11,7 +11,6 @@
 		<outline text="Ben Kuhn" title="Ben Kuhn" description="" type="rss" version="RSS" htmlUrl="https://www.benkuhn.net/" xmlUrl="https://www.benkuhn.net/index.xml"/>
 		<outline text="Björn Rust" title="Björn Rust" description="" type="rss" version="RSS" htmlUrl="https://bjornrust.com/" xmlUrl="https://bjornrust.com/feed/feed.json"/>
 		<outline text="Bjørn Stærk" title="Bjørn Stærk" description="" type="rss" version="RSS" htmlUrl="http:///" xmlUrl="https://bearstrong.net/index.xml"/>
-		<outline text="Brian Koberlein" title="Brian Koberlein" description="" type="rss" version="RSS" htmlUrl="https://briankoberlein.com/" xmlUrl="https://briankoberlein.com/index.xml"/>
 		<outline text="Brian Lovin" title="Brian Lovin" description="" type="rss" version="RSS" htmlUrl="https://overthought.ghost.io/" xmlUrl="https://brianlovin.com/writing/rss"/>
 		<outline text="Caffeinspiration" title="Caffeinspiration" description="" type="rss" version="RSS" htmlUrl="https://alexanderell.is/" xmlUrl="https://alexanderell.is/index.xml"/>
 		<outline text="Carl Barenbrug" title="Carl Barenbrug" description="" type="rss" version="RSS" htmlUrl="https://carlbarenbrug.com/" xmlUrl="https://carlbarenbrug.com/feed/rss"/>
@@ -28,6 +27,7 @@
 		<outline text="FIGBERT" title="FIGBERT" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://figbert.com/atom.xml"/>
 		<outline text="Fran Velasco" title="Fran Velasco" description="" type="rss" version="RSS" htmlUrl="https://franvelas.co/" xmlUrl="https://franvelas.co/feed.xml"/>
 		<outline text="friByte" title="friByte" description="" type="rss" version="RSS" htmlUrl="https://fribyte.no/" xmlUrl="http://fribyte.no/rss.xml"/>
+		<outline text="garrit.xyz" title="garrit.xyz" description="" type="rss" version="RSS" htmlUrl="https://garrit.xyz/" xmlUrl="https://garrit.xyz/rss.xml"/>
 		<outline text="Henrique Dias" title="Henrique Dias" description="" type="rss" version="RSS" htmlUrl="https://hacdias.com/" xmlUrl="https://hacdias.com/feed.json"/>
 		<outline text="Hugo" title="Hugo" description="" type="rss" version="RSS" htmlUrl="https://hugo.md/" xmlUrl="https://hugo.md/index.xml"/>
 		<outline text="icyphox" title="icyphox" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://icyphox.sh/blog/feed.xml"/>
@@ -97,6 +97,7 @@
 		<outline text="Kortslutning" title="Kortslutning" description="" type="rss" version="RSS" htmlUrl="https://kortslutning.fun/" xmlUrl="https://feeds.simplecast.com/UBBVMPjb"/>
 		<outline text="Linux Unplugged" title="Linux Unplugged" description="" type="rss" version="RSS" htmlUrl="https://linuxunplugged.com/" xmlUrl="https://linuxunplugged.com/rss"/>
 		<outline text="localfirst.fm" title="localfirst.fm" description="" type="rss" version="RSS" htmlUrl="https://www.localfirst.fm/" xmlUrl="https://www.localfirst.fm/feed"/>
+		<outline text="Plattformpodden" title="Plattformpodden" description="" type="rss" version="RSS" htmlUrl="https://plattformpodden.no/" xmlUrl="https://feeds.transistor.fm/plattformpodden"/>
 		<outline text="Self-Hosted" title="Self-Hosted" description="" type="rss" version="RSS" htmlUrl="https://selfhosted.show/" xmlUrl="https://selfhosted.show/rss"/>
 		<outline text="The Changelog" title="The Changelog" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/podcast" xmlUrl="https://changelog.com/podcast/feed"/>
 		<outline text="The Rework Podcast" title="The Rework Podcast" description="" type="rss" version="RSS" htmlUrl="https://37signals.com/podcast" xmlUrl="https://feeds.buzzsprout.com/2260539.rss"/>
