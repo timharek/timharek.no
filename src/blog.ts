@@ -33,6 +33,7 @@ const blogPrompt = async (titleInput?: string) => {
       name: "slug",
       message: "Slug",
       type: Input,
+      suggestions: titleInput ? [slugify(titleInput)] : [],
     },
     {
       name: "description",
