@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-03-22
+updatedAt = 2024-04-04
 +++
 
 Inspired by what other people uses from [Uses This][usesthis], I like to read
@@ -27,19 +27,11 @@ some snapshots of my current workspace.
 |          |                                     |
 | -------: | :---------------------------------- |
 | Computer | MacBook Pro 14" M2 16GB             |
-|    Phone | iPhone 13 Mini                      |
+|    Phone | iPhone 15 Pro                       |
 |    Watch | Apple Watch Ultra                   |
 | Keyboard | [ZSA Moonlander Mark I][moonlander] |
 
 <!-- TODO: Add new photo of new setup --->
-<figure>
-  <img
-    src="/img/uses/hardware.webp"
-    alt="My MacBook, iPhone and Apple Watch. Photo">
-  <figcaption>
-    My MacBook, iPhone and Apple Watch. (Yes, I watch Kurzgesagt)
-  </figcaption>
-</figure>
 
 ### Homelab
 
