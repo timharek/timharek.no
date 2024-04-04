@@ -1160,21 +1160,39 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Pantheon",
     "date": "2024-03-30",
+    "type": "tv",
+    "release_year": 2022,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Action",
       "Drama"
     ],
-    "release_year": 2022,
-    "review": {
-      "rating": 4
-    },
     "season": 1,
     "director": [
       "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Tokyo Vice",
+    "date": "2024-04-03",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 5
+    },
+    "season": 1,
+    "director": [
+      "Anthony Mandler"
     ]
   }
 ]
