@@ -1178,21 +1178,39 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Tokyo Vice",
     "date": "2024-04-03",
+    "type": "tv",
+    "release_year": 2022,
+    "review": {
+      "rating": 5
+    },
     "genres": [
       "Crime",
       "Drama",
       "Thriller"
     ],
-    "release_year": 2022,
-    "review": {
-      "rating": 5
-    },
     "season": 1,
     "director": [
       "Anthony Mandler"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Invincible",
+    "date": "2024-04-04",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "release_year": 2021,
+    "review": {
+      "rating": 5
+    },
+    "season": 2,
+    "director": [
+      "N/A"
     ]
   }
 ]
