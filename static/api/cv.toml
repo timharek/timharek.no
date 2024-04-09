@@ -1,4 +1,4 @@
-last_update = 2024-02-17
+last_update = 2024-04-09
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -150,6 +150,7 @@ name = "friByte"
 url = "https://fribyte.no"
 position = "Member"
 startDate = 2020-09-08
+endDate = 2024-04-09
 highlights = [
   "Maintenance and operation of IT systems for student organizations in Bergen.",
   "Set up of different services for automatic deployment of other services.",
@@ -197,7 +198,7 @@ issuer = "Prosessarbeid AS (Målfrid J. Ågotnes)"
 
 [[skills]]
 name = "Programming langauges"
-keywords = ["Java", "C#", "Python", "HTML", "CSS", "JavaScript", "PHP"]
+keywords = ["Java", "C#", "Python", "HTML", "CSS", "JavaScript", "PHP", "SQL"]
 
 [[skills]]
 name = "Libraries and frameworks"
