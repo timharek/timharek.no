@@ -1,15 +1,10 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
-import { ServerState } from "../_middleware.ts";
 import { sanitizeHtml } from "gfm/deps.ts";
 export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
 
-interface RSSProps {
-  posts: Post[];
-}
-
-export const handler: Handlers<RSSProps, ServerState> = {
+export const handler: Handlers = {
   async GET(_req, _ctx) {
     const posts = (await getSection("blog")).pages as Post[];
     const POST_COUNT = 15;
