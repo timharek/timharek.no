@@ -2,7 +2,6 @@ import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
 import { sanitizeHtml } from "gfm/deps.ts";
-export { default as sanitizeHtml } from "https://esm.sh/sanitize-html@2.8.1?target=esnext";
 
 export const handler: Handlers = {
   async GET(_req, _ctx) {
@@ -17,12 +16,12 @@ export const handler: Handlers = {
   },
 };
 
-interface Author {
+type Author = {
   name?: string;
   url?: URL;
   avatar?: URL;
-}
-interface Item {
+};
+type Item = {
   title: string;
   id: string;
   url: URL;
@@ -35,15 +34,15 @@ interface Item {
   authors?: Author[];
   tags?: string[];
   language?: string;
-}
-interface Attachment {
+};
+type Attachment = {
   url: URL;
   mime_type: string;
   title?: string;
   size_in_bytes?: number;
   duration_in_seconds?: number;
-}
-interface JSONFeed {
+};
+type JSONFeed = {
   version: "https://www.jsonfeed.org/version/1.1/";
   user_comment: string;
   title: string;
@@ -57,7 +56,7 @@ interface JSONFeed {
   expired?: boolean;
   items: Item[];
   attachments?: Attachment[];
-}
+};
 
 function generateJsonFeed(posts: Post[]): JSONFeed {
   return {
