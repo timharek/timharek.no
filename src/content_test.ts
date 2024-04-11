@@ -1,4 +1,4 @@
-import { assert, assertEquals } from "$std/testing/asserts.ts";
+import { assert, assertEquals } from "$std/assert/mod.ts";
 import {
   getAllPages,
   getAllTags,

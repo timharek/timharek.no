@@ -1,4 +1,4 @@
-import { assertEquals } from "$std/testing/asserts.ts";
+import { assertEquals } from "$std/assert/mod.ts";
 import { getReadingTime, getRelativeTime, getWordCount } from "./utils.ts";
 
 Deno.test("Get word count from Markdown", () => {

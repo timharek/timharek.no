@@ -1,4 +1,4 @@
-import { assertEquals } from "$std/testing/asserts.ts";
+import { assertEquals } from "$std/assert/mod.ts";
 import { groupBy, groupByMap } from "./group_by.ts";
 
 type Category = "refactor" | "thought";
