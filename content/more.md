@@ -10,4 +10,4 @@ list is not a complete list of all the pages, the rest is for you to find!
 - [Logs](/logs)
 - [Now](/now)
 - [Uses](/uses)
-- [Work](/work)
+- [Projects](/projects)

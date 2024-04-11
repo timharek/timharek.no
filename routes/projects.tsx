@@ -8,7 +8,7 @@ import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
 import * as TOML from "$std/toml/mod.ts";
 
-interface WorkProps {
+interface Projects {
   page: Page;
   projects: Project[];
   filter: {
@@ -17,7 +17,7 @@ interface WorkProps {
   };
 }
 
-export const handler: Handlers<WorkProps, ServerState> = {
+export const handler: Handlers<Projects, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const filter = {
@@ -35,7 +35,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
       if (!isRequestingHtml) {
         return new Response(JSON.stringify(cv, null, 2));
       }
-      const page = await getPage({ slug: "work" });
+      const page = await getPage({ slug: "projects" });
       ctx.state.title = `${page.title} - ${ctx.state.title}`;
       if (page.description) {
         ctx.state.description = page.description;
@@ -93,7 +93,7 @@ export const handler: Handlers<WorkProps, ServerState> = {
   },
 };
 
-export default function CV({ data }: PageProps<WorkProps & ServerState>) {
+export default function CV({ data }: PageProps<Projects & ServerState>) {
   const { projects, page, filter } = data;
 
   return (
@@ -102,7 +102,7 @@ export default function CV({ data }: PageProps<WorkProps & ServerState>) {
         <style dangerouslySetInnerHTML={{ __html: css }} />
       </Head>
       <div class="max-w-screen-md mx-auto px-4 mb-4 space-y-4">
-        <PageHeader title="Work" />
+        <PageHeader title="Projects" />
         <div
           data-color-mode="dark"
           data-dark-theme="dark"
@@ -148,7 +148,7 @@ function ProjectWrapper({ project }: { project: Project }) {
         <ul class="flex flex-wrap gap-2">
           {project.keywords.map((keyword) => (
             <li class="">
-              <a href={`/work?tag=${keyword.toLowerCase()}`}>
+              <a href={`/projects?tag=${keyword.toLowerCase()}`}>
                 #{keyword.toLowerCase().replaceAll(" ", "-")}
               </a>
             </li>

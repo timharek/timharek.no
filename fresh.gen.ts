@@ -18,11 +18,11 @@ import * as $index from "./routes/index.tsx";
 import * as $logs_slug_ from "./routes/logs/[slug].tsx";
 import * as $logs_feedroll from "./routes/logs/feedroll.tsx";
 import * as $logs_index from "./routes/logs/index.tsx";
+import * as $projects from "./routes/projects.tsx";
 import * as $sitemap_xml_index from "./routes/sitemap.xml/index.ts";
 import * as $stats from "./routes/stats.tsx";
 import * as $tags_slug_ from "./routes/tags/[slug].tsx";
 import * as $tags_index from "./routes/tags/index.tsx";
-import * as $work from "./routes/work.tsx";
 
 import { type Manifest } from "$fresh/server.ts";
 
@@ -44,11 +44,11 @@ const manifest = {
     "./routes/logs/[slug].tsx": $logs_slug_,
     "./routes/logs/feedroll.tsx": $logs_feedroll,
     "./routes/logs/index.tsx": $logs_index,
+    "./routes/projects.tsx": $projects,
     "./routes/sitemap.xml/index.ts": $sitemap_xml_index,
     "./routes/stats.tsx": $stats,
     "./routes/tags/[slug].tsx": $tags_slug_,
     "./routes/tags/index.tsx": $tags_index,
-    "./routes/work.tsx": $work,
   },
   islands: {},
   baseUrl: import.meta.url,

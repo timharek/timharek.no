@@ -16,11 +16,11 @@ export const redirects: Record<string, string> = {
   "/no/privacy": "/privacy",
   "/no/sitemap": "/sitemap",
   "/no/stats": "/stats",
-  "/no/work": "/work",
+  "/no/work": "/projects",
   "/no/blog/hvordan-det-er-aa-ikke-vaere-kunde-hos-nextgentel":
     "/blog/hvordan-det-er-aa-ikke-vaere-kunde-hos-nextgentel.no",
   "/no/blog/oversatt-til-norsk": "/blog/oversatt-til-norsk.no",
-  "/projects": "/work",
+  "/work": "/projects",
   "/read": "/logs/reading",
   "/reading": "/logs/reading",
   "/resume": "/cv",
