@@ -1,4 +1,4 @@
-last_update = 2024-04-09
+last_update = 2024-04-11
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -266,7 +266,7 @@ roles = ["Tech lead"]
 description = "New website made with HubSpot CMS for an Norwegian SaaS company."
 startDate = 2022-12-05
 endDate = 2023-04-14
-keywords = ["HubSpot CMS", "Netlife", "Tailwind", "Website"]
+keywords = ["HubSpot CMS", "Netlife", "Tailwind", "Website", "Work"]
 
 [[projects]]
 name = "valuegroup.no"
@@ -276,7 +276,7 @@ roles = ["Tech lead"]
 description = "New website made with HubSpot CMS for an accounting agency."
 startDate = 2022-10-10
 endDate = 2022-12-06
-keywords = ["HubSpot CMS", "Netlife", "Website"]
+keywords = ["HubSpot CMS", "Netlife", "Website", "Work"]
 
 [[projects]]
 name = "ren.no"
@@ -286,7 +286,7 @@ roles = ["UX-designer"]
 description = "Designed components for their internal datasheet creation."
 startDate = 2022-05-23
 endDate = 2022-09-30
-keywords = ["Figma", "Netlife", "Website", "UX"]
+keywords = ["Figma", "Netlife", "Website", "UX", "Work"]
 
 [[projects]]
 name = "ypper.no"
@@ -296,7 +296,7 @@ roles = ["Tech lead"]
 description = "Developed a new webiste with Ghost CMS with memberships and payment model."
 startDate = 2022-02-21
 endDate = 2022-04-21
-keywords = ["Ghost CMS", "Netlife", "Website", "Tailwind"]
+keywords = ["Ghost CMS", "Netlife", "Website", "Tailwind", "Work"]
 
 [[projects]]
 name = "Upgrade kolibricarf.no"
@@ -306,7 +306,7 @@ roles = ["Developer"]
 description = "Upgrade website from Craft CMS 2 to Craft CMS 3 including migration of plugins and new setup for donations."
 startDate = 2022-06-27
 endDate = 2022-07-08
-keywords = ["Website", "Craft CMS", "Upgrade", "Netlife"]
+keywords = ["Website", "Craft CMS", "Upgrade", "Netlife", "Work"]
 
 [[projects]]
 name = "viljareiser.no"
@@ -316,7 +316,7 @@ roles = ["Tech lead", "Developer", "UX designer"]
 description = "Developed a new website for a traveling agency with API-integration to their exisiting booking system. Built with Craft CMS 3."
 startDate = 2022-01-03
 endDate = 2022-06-26
-keywords = ["Website", "Craft CMS", "Tailwind", "API", "Netlife"]
+keywords = ["Website", "Craft CMS", "Tailwind", "API", "Netlife", "Work"]
 
 [[projects]]
 name = "Frontend and UX assistance"
@@ -325,7 +325,7 @@ roles = ["Tech lead", "Developer"]
 description = "Assiting the client with developing a new frontend using Vue3 and other modern frontend-frameworks."
 startDate = 2021-10-04
 endDate = 2022-09-01
-keywords = ["Vue", "Netlife"]
+keywords = ["Vue", "Netlife", "Work"]
 
 [[projects]]
 name = "oneoceanexpedition.com"
@@ -343,6 +343,7 @@ keywords = [
   "Next.js",
   "API",
   "Netlife",
+  "Work"
 ]
 
 [[projects]]
@@ -353,7 +354,7 @@ roles = ["Developer"]
 description = "Optimize website, reduced page-size from ~18 MB down to ~1.2 MB."
 startDate = 2021-10-18
 endDate = 2021-10-21
-keywords = ["Website", "Craft CMS", "Optimze", "Netlife"]
+keywords = ["Website", "Craft CMS", "Optimze", "Netlife", "Work"]
 
 [[projects]]
 name = "verdighetsenteret.no"
@@ -363,7 +364,7 @@ roles = ["Developer"]
 description = "Assisted other developers with development of new webiste."
 startDate = 2021-09-01
 endDate = 2021-09-14
-keywords = ["Website", "Craft CMS", "Tailwind", "Netlife"]
+keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
 
 [[projects]]
 name = "Upgrade vff.no"
@@ -373,7 +374,7 @@ roles = ["Developer"]
 description = "Upgraded from Craft CMS v2 to v3. Developed custom Craft CMS-modules for getting data from the official Norwegian fond-register."
 startDate = 2021-06-28
 endDate = 2021-07-14
-keywords = ["Website", "Craft CMS", "Upgrade", "Netlife"]
+keywords = ["Website", "Craft CMS", "Upgrade", "Netlife", "Work"]
 
 [[projects]]
 name = "khdele.no"
@@ -383,7 +384,7 @@ roles = ["Developer"]
 description = "My first project at Netlife Bergen. We developed a new website for Arts and Crafts for teach-students."
 startDate = 2021-04-28
 endDate = 2021-06-14
-keywords = ["Website", "Craft CMS", "Tailwind", "Netlife"]
+keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
 
 [[projects]]
 name = "wcarbon"
@@ -487,7 +488,7 @@ roles = ["Tech lead"]
 description = "Developed a web daemon that listens to a webhook from an LMS that updates an old MS-SQL database made in the late 90s. Also made the daemon to be scalable to a full-fledged front-end API for future use."
 startDate = 2022-12-06
 endDate = 2023-02-27
-keywords = ["API", "Database", "Node.js", "Express.js", "TypeScript", "Netlife"]
+keywords = ["API", "Database", "Node.js", "Express.js", "TypeScript", "Netlife", "Work"]
 
 [[projects]]
 name = "Hima"
@@ -530,7 +531,7 @@ roles = ["Developer"]
 description = "Integrate Front Systems sales items into Raw."
 startDate = 2024-01-08
 endDate = 2024-02-12
-keywords = ["Value", "Integration", "Raw"]
+keywords = ["Value", "Integration", "Raw", "Work"]
 
 [[projects]]
 name = "Integrate Tripletex with Raw"
@@ -539,7 +540,7 @@ roles = ["Developer"]
 description = "Integrate Tripletex's general ledger into Raw."
 startDate = 2023-10-01
 endDate = 2024-01-14
-keywords = ["Value", "Integration", "Raw"]
+keywords = ["Value", "Integration", "Raw", "Work"]
 
 [[projects]]
 name = "Integrate Voss of Norway with Raw"
@@ -548,7 +549,7 @@ roles = ["Developer"]
 description = "Integrate Voss of Norway's general ledger and work orders from Business Central into Raw."
 startDate = 2023-09-01
 endDate = 2024-01-14
-keywords = ["Value", "Integration", "Raw"]
+keywords = ["Value", "Integration", "Raw", "Work"]
 
 [[projects]]
 name = "europan.no"
@@ -558,7 +559,7 @@ roles = ["Tech lead", "Developer"]
 description = "New website for Europan Norway, a competition for architects."
 startDate = 2023-04-28
 endDate = 2023-08-04
-keywords = ["Website", "Craft CMS", "Tailwind", "Netlife"]
+keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
 
 [[projects]]
 name = "Value 360"
@@ -577,6 +578,7 @@ keywords = [
   "Tailwind",
   "Value",
   "Website",
+  "Work"
 ]
 
 [[projects]]
@@ -586,7 +588,7 @@ roles = ["Tech lead", "Developer"]
 description = "API client interacting with multiple APIs. Writing EDIFACT files via email and SFTP."
 startDate = 2023-01-24
 endDate = 2023-05-16
-keywords = ["API", "Deno", "GCP", "Netlife", "Oak", "Value"]
+keywords = ["API", "Deno", "GCP", "Netlife", "Oak", "Value", "Work"]
 
 [[projects]]
 name = "Bergen Open Source Website"
