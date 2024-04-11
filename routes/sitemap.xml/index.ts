@@ -1,17 +1,13 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getAllPages } from "../../src/content.ts";
-import { ServerState } from "../_middleware.ts";
+import { stringify } from "xml";
 
-interface SitemapProps {
-  pages: Page[];
-}
-
-export const handler: Handlers<SitemapProps, ServerState> = {
+export const handler: Handlers = {
   async GET(_req, _ctx) {
     const pages = await getAllPages();
 
-    const sitemap = generateSitemap([...pages]);
+    const sitemap = generateSitemapXML([...pages]);
 
     return new Response(sitemap, {
       headers: { "Content-Type": "text/xml; charset=utf-8" },
@@ -19,20 +15,20 @@ export const handler: Handlers<SitemapProps, ServerState> = {
   },
 };
 
-function generateSitemap(pages: SitemapProps["pages"]): string {
-  const pagesXml = pages.map((page) => {
-    return `<url>
-        <loc>${config.base_url}/${page.path}</loc>
-        ${
-      page.updatedAt ? `<lastmod>${page.updatedAt.toISOString()}</lastmod>` : ""
-    }
-    </url>`;
+function generateSitemapXML(pages: Page[]): string {
+  const sitemapXML = stringify({
+    xml: {
+      "@version": "1.0",
+      "@encoding": "UTF-8",
+    },
+    urlset: {
+      "@xmlns": "https://www.sitemaps.org/schemas/sitemap/0.9",
+      url: pages.map((page) => ({
+        loc: `${config.base_url}/${page.path}`,
+        ...(page.updatedAt && { lastmod: page.updatedAt.toISOString() }),
+      })),
+    },
   });
 
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-    ${pagesXml.join("\n")}
-</urlset>`;
-
-  return sitemap;
+  return sitemapXML;
 }
