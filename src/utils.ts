@@ -1,7 +1,7 @@
 import { toKebabCase } from "$std/text/mod.ts";
 
 export function slugify(text: string): string {
-  return toKebabCase(text);
+  return toKebabCase(text.toLowerCase());
 }
 
 export function getWordCount(input: string): number {

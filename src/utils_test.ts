@@ -1,5 +1,10 @@
 import { assertEquals } from "$std/assert/mod.ts";
-import { getReadingTime, getRelativeTime, getWordCount } from "./utils.ts";
+import {
+  getReadingTime,
+  getRelativeTime,
+  getWordCount,
+  slugify,
+} from "./utils.ts";
 
 Deno.test("Get word count from Markdown", () => {
   const input = `
@@ -92,4 +97,16 @@ Deno.test("Get relative time format for 2023-08-16T10:00:00 vs 2023-08-16T12:00:
 
   const relativeTime = getRelativeTime(comparisonDate, initialDate);
   assertEquals(relativeTime, "2 hours ago");
+});
+
+Deno.test("Slugify 'Deno Fresh' to 'deno-fresh'", () => {
+  const result = slugify("Deno Fresh");
+
+  assertEquals(result, "deno-fresh");
+});
+
+Deno.test("Slugify 'VPN' to 'vpn'", () => {
+  const result = slugify("VPN");
+
+  assertEquals(result, "vpn");
 });
