@@ -1,12 +1,12 @@
-import { logPath, Select } from "../deps.ts";
+import { Select } from "cliffy";
 import { Entry, Log } from "../schemas.ts";
 import { selectKeys } from "../utils.ts";
 import { log } from "./index.ts";
 import { z } from "zod";
 
-interface TypeSelector {
+type TypeSelector = {
   [key: string]: (type: Entry["type"]) => Promise<Entry>;
-}
+};
 
 const typeSelector: TypeSelector = {
   movie: log.movieTv,
@@ -31,6 +31,16 @@ const type = await Select.prompt<Entry["type"]>({
 }) as Entry["type"];
 
 const newEntry = await typeSelector[type](type);
+
+const commonPath = "./static/api";
+export const logPath: Record<string, string> = {
+  movie: `${commonPath}/movies.json`,
+  tv: `${commonPath}/tv_shows.json`,
+  game: `${commonPath}/games.json`,
+  book: `${commonPath}/books.json`,
+  travel: `${commonPath}/travel.json`,
+  life: `${commonPath}/life.json`,
+};
 
 writeNewEntryToFile(logPath[type], newEntry);
 

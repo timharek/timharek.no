@@ -37,7 +37,9 @@
     "xml": "https://deno.land/x/xml@2.1.3/mod.ts",
     "@twind/core": "https://esm.sh/@twind/core@1.1.3",
     "@twind/preset-tailwind": "https://esm.sh/@twind/preset-tailwind@1.1.4/",
-    "books": "https://deno.land/x/deno_books@v1.1.0/mod.ts"
+    "books": "https://deno.land/x/deno_books@v1.1.0/mod.ts",
+    "cliffy": "https://deno.land/x/cliffy@v1.0.0-rc.3/prompt/mod.ts",
+    "omdb": "https://deno.land/x/omdb@v2.0.0/mod.ts"
   },
   "lint": {
     "rules": {

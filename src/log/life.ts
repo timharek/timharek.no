@@ -1,4 +1,4 @@
-import { Input, prompt, Select } from "../deps.ts";
+import { Input, prompt, Select } from "cliffy";
 import { Entry } from "../schemas.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 import { z } from "zod";

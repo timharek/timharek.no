@@ -1,5 +1,5 @@
 import { getAllTags } from "./content.ts";
-import { Input, List, prompt } from "./deps.ts";
+import { Input, List, prompt } from "cliffy";
 import { getCurrentDate } from "./utils.ts";
 import { slugify } from "./utils.ts";
 import { z } from "zod";

@@ -1,4 +1,5 @@
-import { getMovie, Input, Number, prompt } from "../deps.ts";
+import { Input, Number, prompt } from "cliffy";
+import { getMovie } from "omdb";
 import { Entry } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
 import { z } from "zod";

@@ -1,5 +1,5 @@
 import { assertEquals } from "$std/assert/mod.ts";
-import { inject } from "../deps.ts";
+import { inject } from "cliffy";
 import { Entry } from "../schemas.ts";
 import { logTrip } from "./travel.ts";
 
