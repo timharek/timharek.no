@@ -28,7 +28,7 @@ export const config = {
         path: "/about",
       },
       {
-        title: "More",
+        title: "More…",
         path: "/more",
       },
     ],
