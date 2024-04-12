@@ -1,6 +1,7 @@
 +++
 title = "I switched from Wireguard to headscale"
 description = "On why I switched from using just Wireguard to a self-hosted headscale (tailscale-server)."
+updatedAt = 2024-04-13
 tags = ["Thoughts", "VPN", "Software", "Homelab"]
 +++
 
@@ -14,7 +15,9 @@ and endorsements must mean that this is indeed a great service. But having to
 use a third-party identity provider kept me from trying it. I don't want to have
 to rely on a third-party for another service to function, I get from a business
 standpoint and also a security standpoint. They have even written about it on
-their [SSO provider docs][tailscale-sso].
+their [SSO provider docs][tailscale-sso]. However, they do provide an option for
+[Custom OpenID Connect (OIDC) providers], but I'm not familiar with how that
+works (and I didn't try it before I went with `headscale`).
 
 But then I heard about an open source implentation of the Tailscale-server,
 [headscale]. I can't remember where I heard about it, could have been from the
@@ -75,6 +78,10 @@ jellyfin.example.org {
 And I have used this as a template for more services that I self-host and
 manage.
 
+Note: When I access my Jellyfin-instance via `jellyfin.example.org`, data has to
+travel back and forth using the VPS as an intermediate. With the
+Tailscale-service you can use their [`tailscale funnel` command].
+
 Disclaimer: I haven't tried to set it up for multiple, yet. It's something I'm
 going to look into so that my <abbr title="significant other">SO</abbr> also can
 check and update Home Assistant.
@@ -88,11 +95,19 @@ I highly recommend checking out [headscale] if you:
 
 What are you using for your homelab?
 
+## Update: 2024-04-13
+
+Added more details about OIDC for Tailscale, and a note for using a VPS as a way
+to not having to have open ports on your home network. Thanks you, [Jan-Lukas
+Else] for telling me about it! :)
+
 [Wireguard]: https://www.wireguard.com/
 [Tailscale]: https://tailscale.com
 [headscale]: https://github.com/juanfont/headscale
 [tailscale-sso]:
   https://tailscale.com/kb/1013/sso-providers#signing-up-with-an-email-address
+[Custom OpenID Connect (OIDC) providers]:
+  https://tailscale.com/kb/1240/sso-custom-oidc
 [Linux Unplugged]: https://linuxunplugged.com/
 [sh]: https://selfhosted.show/
 [tailnet]: https://tailscale.com/kb/1136/tailnet
@@ -103,3 +118,5 @@ What are you using for your homelab?
 [reverse-proxy]: https://en.wikipedia.org/wiki/Reverse_proxy
 [magicdns]: https://tailscale.com/kb/1081/magicdns
 [jellyfin]: https://jellyfin.org/
+[Jan-Lukas Else]: https://jlelse.blog/
+[`tailscale funnel` command]: https://tailscale.com/kb/1311/tailscale-funnel
