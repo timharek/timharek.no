@@ -1,11 +1,11 @@
 import { Head } from "$fresh/runtime.ts";
-import { AppProps } from "$fresh/server.ts";
+import { PageProps } from "$fresh/server.ts";
 import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { ServerState } from "./_middleware.ts";
 import { config } from "../config.ts";
 
-export default function App(props: AppProps<unknown, ServerState>) {
+export default function App(props: PageProps<unknown, ServerState>) {
   const Component = props.Component;
   const state = props.state;
   const currentPath = new URL(props.url).pathname;
