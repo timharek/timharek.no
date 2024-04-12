@@ -56,6 +56,6 @@ export const config = {
     "https://sr.ht/~timharek",
     "mailto:tim@harek.no",
     "/public-key.asc",
-    "https://www.printables.com/@timharek_543206",
+    "https://www.printables.com/@timharek",
   ],
 };
