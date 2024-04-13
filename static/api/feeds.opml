@@ -29,6 +29,7 @@
 		<outline text="friByte" title="friByte" description="" type="rss" version="RSS" htmlUrl="https://fribyte.no/" xmlUrl="http://fribyte.no/rss.xml"/>
 		<outline text="garrit.xyz" title="garrit.xyz" description="" type="rss" version="RSS" htmlUrl="https://garrit.xyz/" xmlUrl="https://garrit.xyz/rss.xml"/>
 		<outline text="Henrique Dias" title="Henrique Dias" description="" type="rss" version="RSS" htmlUrl="https://hacdias.com/" xmlUrl="https://hacdias.com/feed.json"/>
+		<outline text="HeydonWorks" title="HeydonWorks" description="" type="rss" version="RSS" htmlUrl="https://heydonworks.com/" xmlUrl="https://heydonworks.com/feed.xml"/>
 		<outline text="Hugo" title="Hugo" description="" type="rss" version="RSS" htmlUrl="https://hugo.md/" xmlUrl="https://hugo.md/index.xml"/>
 		<outline text="icyphox" title="icyphox" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://icyphox.sh/blog/feed.xml"/>
 		<outline text="Ink &amp; Switch" title="Ink &amp; Switch" description="" type="rss" version="RSS" htmlUrl="https://www.inkandswitch.com/" xmlUrl="https://www.inkandswitch.com/index.xml"/>
@@ -41,6 +42,7 @@
 		<outline text="Julian Lehr" title="Julian Lehr" description="" type="rss" version="RSS" htmlUrl="https://julian.digital/" xmlUrl="http://www.julian.digital/feed"/>
 		<outline text="Kev Quirk" title="Kev Quirk" description="" type="rss" version="RSS" htmlUrl="https://kevquirk.com/" xmlUrl="https://kevq.uk/feed/"/>
 		<outline text="Knut Magnus Aasrud" title="Knut Magnus Aasrud" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://kmaasrud.com/atom.xml"/>
+		<outline text="localhost (testing)" title="localhost (testing)" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="http://localhost:8000/feed.xml"/>
 		<outline text="Low-tech magazine" title="Low-tech magazine" description="" type="rss" version="RSS" htmlUrl="https://solar.lowtechmagazine.com/posts/" xmlUrl="https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"/>
 		<outline text="Luke Harris" title="Luke Harris" description="" type="rss" version="RSS" htmlUrl="https://www.lkhrs.com/blog/" xmlUrl="https://www.lkhrs.com/index.xml"/>
 		<outline text="Manuel Moreale" title="Manuel Moreale" description="" type="rss" version="RSS" htmlUrl="https://manuelmoreale.com/" xmlUrl="https://manuelmoreale.com/feed"/>
@@ -84,6 +86,7 @@
 	<outline text="News" title="News" nnw_externalID="8B7604D8-AFAB-44A8-9EE3-32D4B6B48294">
 		<outline text="Changelog posts" title="Changelog posts" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/posts" xmlUrl="https://changelog.com/posts/feed"/>
 		<outline text="Filmpolitiet" title="Filmpolitiet" description="" type="rss" version="RSS" htmlUrl="https://p3.no/" xmlUrl="https://p3.no/filmpolitiet/feed/"/>
+		<outline text="Filmpolitiet API" title="Filmpolitiet API" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://filmpolitiet.wyd.no/feed.xml"/>
 		<outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="https://hnrss.org/frontpage"/>
 		<outline text="kode24" title="kode24" description="" type="rss" version="RSS" htmlUrl="https://rss.kode24.no/" xmlUrl="https://rss.kode24.no/"/>
 		<outline text="Lobsters" title="Lobsters" description="" type="rss" version="RSS" htmlUrl="https://lobste.rs/" xmlUrl="https://lobste.rs/rss"/>
