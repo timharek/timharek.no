@@ -11,7 +11,6 @@ Currently watching:
 - Shōgun S1
 - Pantheon S2
 - Tokyo Vice S2
-- Fallout S1
 
 Watchlist:
 
