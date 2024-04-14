@@ -23,7 +23,6 @@ type OPMLOutlineItem = z.infer<typeof OPMLOutlineItem>;
 const OPMLOutline = z.object({
   "@text": z.string(),
   "@title": z.string(),
-  "@nnw_externalID": z.string(),
   outline: z.array(OPMLOutlineItem),
 });
 
@@ -36,7 +35,7 @@ const OPML = z.object({
   }),
   opml: z.object({
     "@version": z.number(),
-    head: z.object({ title: z.literal("iCloud") }),
+    head: z.object({ title: z.string() }),
     body: z.object({
       outline: z.array(OPMLOutline),
     }),
