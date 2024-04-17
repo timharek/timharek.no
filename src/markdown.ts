@@ -3,6 +3,7 @@ import { CSS } from "gfm/mod.ts";
 import { Extract } from "$std/front_matter/mod.ts";
 import { Marked } from "npm:marked@8.0.1";
 import { markedHighlight } from "npm:marked-highlight@2.0.9";
+import { gfmHeadingId } from "npm:marked-gfm-heading-id@3.1.3";
 import hljs from "npm:highlight.js@11.9.0";
 
 const highlight = await (await fetch(
@@ -69,4 +70,5 @@ export const marked = new Marked(
       return hljs.highlight(code, { language }).value;
     },
   }),
+  gfmHeadingId(),
 );
