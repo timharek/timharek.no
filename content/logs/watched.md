@@ -10,7 +10,6 @@ Currently watching:
 - Succession S4
 - Shōgun S1
 - Pantheon S2
-- Tokyo Vice S2
 
 Watchlist:
 
