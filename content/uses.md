@@ -1,11 +1,11 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-04-04
+updatedAt = 2024-04-19
 +++
 
-Inspired by what other people uses from [Uses This][usesthis], I like to read
-about what tools others use to get through their day to day.
+Inspired by what other people uses from [Uses This], I like to read about what
+tools others use to get through their day to day.
 
 This page contains lists of different technologies that I use, hardware,
 software and services.
@@ -54,56 +54,56 @@ some snapshots of my current workspace.
 
 ## Software
 
-For a more frequently updated overview you can checkout my [dotfiles][dotfiles].
+For a more frequently updated overview you can checkout my [dotfiles].
 
-This is software that I use on my devices. Inspired by
-[App defaults](https://defaults.rknight.me/).
+This is software that I use on my devices. Inspired by [App defaults].
 
-|                |                                   |
-| -------------: | :-------------------------------- |
-|    Mail client | Mail.app                          |
-|          Notes | [Helix][helix] with Markdown      |
-|           Todo | Physicial, field notes            |
-|       Calendar | Calendar.app                      |
-|            RSS | [NetNewsWire][netnewswire]        |
-|       Contacts | Contacts.app                      |
-|        Browser | [Firefox][firefox] (& Safari iOS) |
-|           Chat | [Signal][signal] & iMessage       |
-|  Shopping List | Reminders.app                     |
-|        Podcast | Podcasts.app                      |
-|  Photo editing | [Affinity Photo][affinity_photo]  |
-| Vector editing | [Affinity Designer][affinity_des] |
-|         Editor | [Helix][helix]                    |
-|       Terminal | [iTerm2][iterm]                   |
-|     Calculator | [Numi][numi]                      |
-|            VPN | [WireGuard][wireguard]            |
+|                |                                                     |
+| -------------: | :-------------------------------------------------- |
+|    Mail client | Mail.app                                            |
+|          Notes | [Helix] with Markdown, or [physicial](#note-taking) |
+|           Todo | [Physicial book](#note-taking)                      |
+|       Calendar | Calendar.app                                        |
+|            RSS | [NetNewsWire]                                       |
+|       Contacts | Contacts.app                                        |
+|        Browser | [Firefox][firefox] (& Safari iOS)                   |
+|           Chat | [Signal][signal] & iMessage                         |
+|  Shopping List | Reminders.app                                       |
+|        Podcast | Podcasts.app                                        |
+|  Photo editing | [Affinity Photo]                                    |
+| Vector editing | [Affinity Designer]                                 |
+|         Editor | [Helix]                                             |
+|       Terminal | [iTerm2]                                            |
+|     Calculator | [Numi]                                              |
+|            VPN | [`headscale`]                                       |
 
 ### Utilities
 
-|                    |                          |
-| -----------------: | :----------------------- |
-|    App uninstaller | [AppCleaner][appcleaner] |
-|     Window manager | [Yabai][yabai]           |
-| Keyboard shortcuts | [SKHD][skhd]             |
-|       Color picker | [Pika][pika]             |
-|       Productivity | [Alfred][alfred]         |
-|       App switcher | [AltTab][alttab]         |
-|            Updater | [MacUpdater][macupdater] |
-|    Network monitor | [Lulu][lulu]             |
+|                    |              |
+| -----------------: | :----------- |
+|    App uninstaller | [AppCleaner] |
+|     Window manager | [Yabai]      |
+| Keyboard shortcuts | [SKHD]       |
+|       Color picker | [Pika]       |
+|       Productivity | [Alfred]     |
+|       App switcher | [AltTab]     |
+|            Updater | [MacUpdater] |
+|    Network monitor | [Lulu]       |
 
 ## Services
 
-|                     |                                                 |
-| ------------------: | :---------------------------------------------- |
-|         Mail server | [Migadu][migadu]                                |
-|    Photo management | [Nextcloud][nextcloud] + Photos.app             |
-|  Cloud File Storage | [Nextcloud][nextcloud]                          |
-|       Read-it-later | [Linkding][linkding]                            |
-| Password management | [Bitwarden][bitwarden] & [1Password][1password] |
-|             Weather | [Yr.no][yr]                                     |
-|               Music | [Spotify][spotify]                              |
-|        Source forge | [SourceHut][sourcehut]                          |
-|        VPS provider | [1984 Hosting][1984]                            |
+|                     |                           |
+| ------------------: | :------------------------ |
+|         Mail server | [Migadu]                  |
+|    Photo management | [Nextcloud] + Photos.app  |
+|  Cloud File Storage | [Nextcloud]               |
+|           Bookmarks | [Linkding]                |
+|       Read-it-later | [Linkding]                |
+| Password management | [Bitwarden] & [1Password] |
+|             Weather | [Yr.no]                   |
+|               Music | [Spotify]                 |
+|        Source forge | [SourceHut]               |
+|        VPS provider | [1984 Hosting][1984]      |
 
 ## Note-taking
 
@@ -112,48 +112,44 @@ this is what I use daily.
 
 |                |                                           |
 | -------------: | :---------------------------------------- |
-|       Notebook | [Field notes][field_notes] - dotgrid      |
+|       Notebook | [Field notes] - dotgrid                   |
 | Notebook cover | [Everyday inspiration][field_notes_cover] |
 |            Pen | [Artline 200 Fine 0.4][pen]               |
 
-[affinity_des]: https://affinity.serif.com/en-us/designer
-[affinity_photo]: https://affinity.serif.com/en-us/photo
-[firefox]: https://www.mozilla.org/en-US/firefox/new
-[bitwarden]: https://bitwarden.com
-[ublock]: https://ublockorigin.com
-[multia]:
-  https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
-[mattermost]: https://mattermost.com
-[netnewswire]: https://netnewswire.com
-[nextcloud]: https://nextcloud.com
-[numi]: https://numi.app
-[signal]: https://signal.org
-[iterm]: https://iterm2.com/
-[skhd]: https://github.com/koekeishiya/skhd
-[spotify]: https://spotify.com
-[vscodium]: https://github.com/VSCodium/vscodium
-[wireguard]: https://www.wireguard.com
-[yr]: https://apps.apple.com/jo/app/yr-no/id490989206
+[Affinity Designer]: https://affinity.serif.com/en-us/designer
+[Affinity Photo]: https://affinity.serif.com/en-us/photo
+[Firefox]: https://www.mozilla.org/en-US/firefox/new
+[Bitwarden]: https://bitwarden.com
+[Mattermost]: https://mattermost.com
+[NetNewsWire]: https://netnewswire.com
+[Nextcloud]: https://nextcloud.com
+[Numi]: https://numi.app
+[Signal]: https://signal.org
+[iTerm2]: https://iterm2.com/
+[SKHD]: https://github.com/koekeishiya/skhd
+[Spotify]: https://spotify.com
+[VSCodium]: https://github.com/VSCodium/vscodium
+[`headscale`]: https://github.com/juanfont/headscale
+[Yr.no]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
-[migadu]: https://migadu.com
+[Migadu]: https://migadu.com
 [migadu_review]: /blog/migadu-review
-[yabai]: https://github.com/koekeishiya/yabai
-[lulu]: https://objective-see.com/products/lulu.html
-[appcleaner]: https://freemacsoft.net/appcleaner/
-[macupdater]: https://www.corecode.io/macupdater/
-[dotfiles]: https://github.com/timharek/dotfiles
-[moonlander]: https://www.zsa.io/moonlander/
-[spaceman]: https://github.com/Jaysce/Spaceman
-[usesthis]: https://usesthis.com/
-[sourcehut]: https://sourcehut.org
-[helix]: https://helix-editor.com/
-[linkding]: https://github.com/sissbruecker/linkding
-[figma]: https://www.figma.com/
-[1password]: https://1password.com
-[pika]: https://superhighfives.com/pika
-[alfred]: https://www.alfredapp.com/
-[alttab]: https://alt-tab-macos.netlify.app/
-[field_notes]: https://fieldnotesbrand.com/
+[Yabai]: https://github.com/koekeishiya/yabai
+[LuLu]: https://objective-see.com/products/lulu.html
+[AppCleaner]: https://freemacsoft.net/appcleaner/
+[MacUpdater]: https://www.corecode.io/macupdater/
+[dotfiles]: https://git.sr.ht/~timharek/dotfiles
+[Moonlander]: https://www.zsa.io/moonlander/
+[Uses this]: https://usesthis.com/
+[SourceHut]: https://sourcehut.org
+[Helix]: https://helix-editor.com/
+[Linkding]: https://github.com/sissbruecker/linkding
+[1Password]: https://1password.com
+[Pika]: https://superhighfives.com/pika
+[Alfred]: https://www.alfredapp.com/
+[AltTab]: https://alt-tab-macos.netlify.app/
+[Field notes]: https://fieldnotesbrand.com/
 [field_notes_cover]:
   https://fieldnotesbrand.com/products/everyday-inspiration-leather-notebook-cover
 [pen]: https://www.amazon.com/Artline-Black-Fineliner-point-0-4mm/dp/B003UH1A40
+[App defaults]: https://defaults.rknight.me/
