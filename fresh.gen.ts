@@ -11,12 +11,12 @@ import * as $_app from "./routes/_app.tsx";
 import * as $_middleware from "./routes/_middleware.ts";
 import * as $blog_slug_ from "./routes/blog/[slug].tsx";
 import * as $blog_index from "./routes/blog/index.tsx";
+import * as $blogroll from "./routes/blogroll.tsx";
 import * as $cv from "./routes/cv.tsx";
 import * as $feed_json_index from "./routes/feed.json/index.ts";
 import * as $feed_xml_index from "./routes/feed.xml/index.ts";
 import * as $index from "./routes/index.tsx";
 import * as $logs_slug_ from "./routes/logs/[slug].tsx";
-import * as $logs_feedroll from "./routes/logs/feedroll.tsx";
 import * as $logs_index from "./routes/logs/index.tsx";
 import * as $projects from "./routes/projects.tsx";
 import * as $sitemap_xml_index from "./routes/sitemap.xml/index.ts";
@@ -37,12 +37,12 @@ const manifest = {
     "./routes/_middleware.ts": $_middleware,
     "./routes/blog/[slug].tsx": $blog_slug_,
     "./routes/blog/index.tsx": $blog_index,
+    "./routes/blogroll.tsx": $blogroll,
     "./routes/cv.tsx": $cv,
     "./routes/feed.json/index.ts": $feed_json_index,
     "./routes/feed.xml/index.ts": $feed_xml_index,
     "./routes/index.tsx": $index,
     "./routes/logs/[slug].tsx": $logs_slug_,
-    "./routes/logs/feedroll.tsx": $logs_feedroll,
     "./routes/logs/index.tsx": $logs_index,
     "./routes/projects.tsx": $projects,
     "./routes/sitemap.xml/index.ts": $sitemap_xml_index,

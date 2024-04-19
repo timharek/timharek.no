@@ -10,7 +10,7 @@
     "check": "deno fmt --check && deno lint && deno check **/*.tsx && deno check **/*.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
-    "feedsroll:update": "cp \"$(deno eval --env='.env' 'console.log(Deno.env.get(`NETNEWSWIRE_PATH`))')\" $INIT_CWD/static/api/feeds.opml"
+    "blogroll:update": "cp \"$(deno eval --env='.env' 'console.log(Deno.env.get(`NETNEWSWIRE_PATH`))')\" $INIT_CWD/static/api/feeds.opml"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

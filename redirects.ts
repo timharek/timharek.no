@@ -1,7 +1,8 @@
 export const redirects: Record<string, string> = {
   "/about/cv": "/cv",
   "/about/uses": "/uses",
-  "/blogroll": "/feedroll",
+  "/feedroll": "/blogroll",
+  "/logs/feedroll": "/blogroll",
   "/bookmarks": "/logs",
   "/contact": "/connect",
   "/games": "/logs/games",

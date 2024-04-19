@@ -1,10 +1,10 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
-import { PageHeader } from "../../components/PageHeader.tsx";
-import { getPage } from "../../src/content.ts";
-import { ServerState } from "../_middleware.ts";
-import { Link } from "../../components/Link.tsx";
-import { css } from "../../src/markdown.ts";
+import { PageHeader } from "../components/PageHeader.tsx";
+import { getPage } from "../src/content.ts";
+import { ServerState } from "./_middleware.ts";
+import { Link } from "../components/Link.tsx";
+import { css } from "../src/markdown.ts";
 import { parse } from "xml";
 import { z } from "zod";
 
@@ -42,22 +42,22 @@ const OPML = z.object({
   }),
 });
 
-type FeedrollProps = {
+type Props = {
   entries: OPMLOutline[];
   page: Page;
 };
 
-export const handler: Handlers<FeedrollProps, ServerState> = {
+export const handler: Handlers<Props, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const page = await getPage({ slug: "logs/feedroll" });
+    const page = await getPage({ slug: "blogroll" });
 
     if (!page) {
       return ctx.renderNotFound();
     }
 
     const feedsFilePath = new URL(
-      "../../static/api/feeds.opml",
+      "../static/api/feeds.opml",
       import.meta.url,
     );
 
@@ -69,10 +69,6 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
       {
         title: "Index",
         path: "/",
-      },
-      {
-        title: "Logs",
-        path: "/logs",
       },
       {
         title: page.title,
@@ -100,7 +96,7 @@ export const handler: Handlers<FeedrollProps, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<FeedrollProps>) {
+export default function Page({ data }: PageProps<Props>) {
   const { entries, page } = data;
 
   return (

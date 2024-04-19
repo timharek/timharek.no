@@ -1,5 +1,5 @@
 +++
-title = "Feedroll"
+title = "Blogroll"
 description = "My favorite blogs, that I read whenever I can."
 +++
 
