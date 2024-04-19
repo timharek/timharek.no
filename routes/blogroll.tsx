@@ -148,9 +148,9 @@ function Item({ item }: ItemProps) {
     url = tmpUrl.origin;
   }
   return (
-    <li class="flex items-center gap-2">
-      <Link href={url} label={item["@title"]} /> {" - "}
-      <Link href={rss} label="RSS" />
+    <li class="flex items-center justify-between gap-2 border border-gray-700 rounded p-2">
+      <Link href={url} label={item["@title"]} className="block" />
+      <Link href={rss} label="RSS" className="block" />
     </li>
   );
 }
