@@ -1,4 +1,4 @@
-last_update = 2024-04-11
+last_update = 2024-04-19
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -34,7 +34,7 @@ url = "https://sr.ht/timharek"
 [[basics.profiles]]
 network = "Printables"
 username = "timharek"
-url = "https://www.printables.com/@timharek_543206"
+url = "https://www.printables.com/@timharek"
 
 [[work]]
 name = "Value Technology"
@@ -510,14 +510,14 @@ sources = ["https://git.sr.ht/~timharek/hima"]
 [[projects]]
 name = "filmpolitiet-api"
 url = "https://filmpolitiet.wyd.no"
-description = "API for NRK P3 Filmpolitiet's reviews. Made using Deno, Fresh and PocketBase."
+description = "API for NRK P3 Filmpolitiet's reviews. Made using Deno, Fresh and SQLite."
 startDate = 2023-05-31
 keywords = [
   "API",
   "Database",
   "Deno",
   "Personal",
-  "PocketBase",
+  "SQLite",
   "Tailwind",
   "TypeScript",
   "Open source"
