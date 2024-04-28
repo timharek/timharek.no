@@ -1232,21 +1232,39 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Tokyo Vice",
     "date": "2024-04-18",
+    "type": "tv",
+    "release_year": 2022,
+    "review": {
+      "rating": 5
+    },
     "genres": [
       "Crime",
       "Drama",
       "Thriller"
     ],
-    "release_year": 2022,
-    "review": {
-      "rating": 5
-    },
     "season": 2,
     "director": [
       "Anthony Mandler"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Shogun",
+    "date": "2024-04-27",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "History"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 5
+    },
+    "season": 1,
+    "director": [
+      "N/A"
     ]
   }
 ]
