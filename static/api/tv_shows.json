@@ -1250,17 +1250,34 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Shogun",
     "date": "2024-04-27",
+    "type": "tv",
+    "release_year": 2024,
+    "review": {
+      "rating": 5
+    },
     "genres": [
       "Adventure",
       "Drama",
       "History"
     ],
+    "season": 1,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Baby Reindeer",
+    "date": "2024-05-05",
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
     "release_year": 2024,
     "review": {
-      "rating": 5
+      "rating": 4
     },
     "season": 1,
     "director": [

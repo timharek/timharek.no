@@ -4981,19 +4981,36 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Late Night with the Devil",
     "date": "2024-05-03",
+    "type": "movie",
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Horror"
+    ],
+    "director": [
+      "Cameron Cairnes",
+      "Colin Cairnes"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Dream Scenario",
+    "date": "2024-05-05",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
     ],
     "release_year": 2023,
     "review": {
       "rating": 4
     },
     "director": [
-      "Cameron Cairnes",
-      "Colin Cairnes"
+      "Kristoffer Borgli"
     ]
   }
 ]
