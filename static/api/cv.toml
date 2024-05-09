@@ -1,4 +1,4 @@
-last_update = 2024-04-19
+last_update = 2024-05-08
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -220,7 +220,7 @@ keywords = [
 
 [[skills]]
 name = "Tools"
-keywords = ["Ansible", "Docker", "Git", "Helix", "UNIX", "Vim"]
+keywords = ["Ansible", "Docker", "Git", "Helix", "UNIX", "Vim", "SQLite", "PostgreSQL", "MariaDB/MySQL"]
 
 [[skills]]
 name = "Cloud infrastructure"
