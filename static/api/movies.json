@@ -5012,5 +5012,20 @@
     "director": [
       "Kristoffer Borgli"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "Secrets of the Neanderthals",
+    "date": "2024-05-08",
+    "genres": [
+      "Documentary"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 3
+    },
+    "director": [
+      "Ashley Gething"
+    ]
   }
 ]
