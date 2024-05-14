@@ -64,7 +64,7 @@ This is software that I use on my devices. Inspired by [App defaults].
 |          Notes | [Helix] with Markdown, or [physicial](#note-taking) |
 |           Todo | [Physicial book](#note-taking)                      |
 |       Calendar | Calendar.app                                        |
-|            RSS | [NetNewsWire]                                       |
+|            RSS | [NetNewsWire] + [Feedbin]                           |
 |       Contacts | Contacts.app                                        |
 |        Browser | [Firefox][firefox] (& Safari iOS)                   |
 |           Chat | [Signal][signal] & iMessage                         |
@@ -122,6 +122,7 @@ this is what I use daily.
 [Bitwarden]: https://bitwarden.com
 [Mattermost]: https://mattermost.com
 [NetNewsWire]: https://netnewswire.com
+[Feedbin]: https://feedbin.com
 [Nextcloud]: https://nextcloud.com
 [Numi]: https://numi.app
 [Signal]: https://signal.org
