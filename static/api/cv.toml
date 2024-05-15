@@ -387,16 +387,16 @@ endDate = 2021-06-14
 keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
 
 [[projects]]
-name = "wcarbon"
-url = "https://deno.land/x/wcarbon"
+name = "wcarbon module"
+url = "https://jsr.io/@timharek/wcarbon"
 description = "Access Website Carbon's API with Deno."
 startDate = 2022-06-26
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
 sources = ["https://github.com/timharek/wcarbon"]
 
 [[projects]]
-name = "d-yr"
-url = "https://deno.land/x/dyr"
+name = "d-yr module"
+url = "https://jsr.io/@timharek/dyr"
 description = "Access Yr.no's weather API with Deno."
 startDate = 2022-03-07
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
@@ -449,8 +449,8 @@ endDate = 2021-02-22
 keywords = ["Website", "Jekyll"]
 
 [[projects]]
-name = "deno-omdb"
-url = "https://deno.land/x/omdb"
+name = "omdb module"
+url = "https://jsr.io/@timharek/omdb"
 description = "Access OMDb's API for getting details about movies and TV shows with Deno."
 startDate = 2022-06-23
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
@@ -460,8 +460,8 @@ sources = [
 ]
 
 [[projects]]
-name = "deno-books"
-url = "https://deno.land/x/deno_books"
+name = "openlibrary module"
+url = "https://jsr.io/@timharek/openlibrary"
 description = "Access OpenLibrary's API with Deno."
 startDate = 2023-01-15
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
@@ -471,8 +471,8 @@ sources = [
 ]
 
 [[projects]]
-name = "deno-linkding"
-url = "https://deno.land/x/linkding"
+name = "linkding module"
+url = "https://jsr.io/@timharek/linkding"
 description = "Access your Linkding instance's API with Deno."
 startDate = 2022-11-28
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
