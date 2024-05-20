@@ -5029,22 +5029,39 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Turbo Kid",
     "date": "2024-05-09",
+    "type": "movie",
+    "release_year": 2015,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Action",
       "Adventure",
       "Comedy"
     ],
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
     "director": [
       "François Simard",
       "Anouk Whissell",
       "Yoann-Karl Whissell"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Kingdom of the Planet of the Apes",
+    "date": "2024-05-20",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Wes Ball"
     ]
   }
 ]
