@@ -1285,19 +1285,35 @@
     ]
   },
   {
-    "type": "tv",
     "title": "X-Men '97",
     "date": "2024-05-15",
+    "type": "tv",
+    "release_year": 2024,
+    "review": {
+      "rating": 5
+    },
     "genres": [
       "Animation",
       "Action",
       "Adventure"
     ],
-    "release_year": 2024,
-    "review": {
-      "rating": 5
-    },
     "season": 1,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Hvite gutter",
+    "date": "2024-05-24",
+    "genres": [
+      "Comedy"
+    ],
+    "release_year": 2018,
+    "review": {
+      "rating": 4
+    },
+    "season": 7,
     "director": [
       "N/A"
     ]
