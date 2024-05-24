@@ -148,7 +148,11 @@ export default function Page({ data }: PageProps<Props>) {
                 <h3 class="text-2xl font-semibold">Top external links</h3>
                 <ol class="list-decima pl-6 columns-2 space-y-2">
                   {external.map((link) => (
-                    <li class="">{link.domain}: {link.count}</li>
+                    <li class="">
+                      <span className="font-mono">
+                        {link.domain}
+                      </span>: {link.count}
+                    </li>
                   ))}
                 </ol>
               </>
@@ -159,7 +163,11 @@ export default function Page({ data }: PageProps<Props>) {
                 <h3 class="text-2xl font-semibold">Top internal links</h3>
                 <ol class="list-decima pl-6 columns-2 space-y-2">
                   {internal.map((link) => (
-                    <li class="">{link.pathname}: {link.count}</li>
+                    <li class="">
+                      <span className="font-mono">
+                        {link.pathname}
+                      </span>: {link.count}
+                    </li>
                   ))}
                 </ol>
               </>
