@@ -5065,20 +5065,36 @@
     ]
   },
   {
-    "type": "movie",
     "title": "The Fall Guy",
     "date": "2024-05-22",
+    "type": "movie",
+    "release_year": 2024,
+    "review": {
+      "rating": 3
+    },
     "genres": [
       "Action",
       "Comedy",
       "Drama"
     ],
-    "release_year": 2024,
-    "review": {
-      "rating": 3
-    },
     "director": [
       "David Leitch"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Ministry of Ungentlemanly Warfare",
+    "date": "2024-05-24",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Guy Ritchie"
     ]
   }
 ]
