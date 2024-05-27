@@ -1,8 +1,18 @@
 +++
 title = "Playdate review"
 description = "A review of Panic's Playdate."
-tags = ["Review", "Hardware"]
+tags = ["Review", "Hardware", "Gaming"]
+updatedAt = 2024-05-27
 +++
+
+<figure>
+  <img
+    src="/img/blog/2024-05-24-playdate-review/playdate.webp"
+    alt="Painc's Playdate handheld. Photo">
+  <figcaption>
+    What the Playdate looks like.
+  </figcaption>
+</figure>
 
 [Playdate] is a tiny handheld gaming system, with a 1-bit screen and a physical
 crank. It's made by [Panic], the same developers that are known for their editor
@@ -66,6 +76,15 @@ There is a limited amount of buttons, so the UI is limited in that regard, but I
 have nothing bad to say about it. It looks and feels really polished, and it
 reminded me of my first [Game Boy Color], but much better.
 
+<figure>
+  <img
+    src="/img/blog/2024-05-24-playdate-review/settings.webp"
+    alt="The Playdate's settings. Photo">
+  <figcaption>
+    The Playdate's settings.
+  </figcaption>
+</figure>
+
 The settings on the Playdate is straight forward, you can manage your games,
 Wi-Fi, lock screen and much more. There isn't much customizability you can do to
 the UI other than having your games/apps on the home screen displayed as a list
@@ -81,6 +100,15 @@ It's really cool.
 [Casual Birder]: https://play.date/games/casual-birder/
 
 The system update process is straight forward, even with a cool UI for it.
+
+<figure>
+  <img
+    src="/img/blog/2024-05-24-playdate-review/update.webp"
+    alt="Update interface. Photo">
+  <figcaption>
+    Update interface.
+  </figcaption>
+</figure>
 
 ## Gaming experience
 
@@ -99,6 +127,15 @@ I have bought the following games:
 - [A joke that's worth $ 0.99](https://play.date/games/a-joke-thats-worth-99c/)
 - [Eyeland](https://play.date/games/eyeland/)
 
+<figure>
+  <img
+    src="/img/blog/2024-05-24-playdate-review/soko.webp"
+    alt="Playing Soko on the Playdate. Photo">
+  <figcaption>
+    Playing Soko.
+  </figcaption>
+</figure>
+
 For all of the games that I've played the gaming experience has been excellent.
 And like I mentioned in [Performance and hardware](#performance-and-hardware),
 the performance has been good. The controls and responsiveness has been very
@@ -113,6 +150,15 @@ It uses USB-C to charge and connect to the computer.
 There is Wi-Fi on the Playdate, and it's been reliable. However, typing in a
 long, secure password wasn't so fun, but you are not supposed to type on the
 thing all the time anyway.
+
+<figure>
+  <img
+    src="/img/blog/2024-05-24-playdate-review/wifi.webp"
+    alt="Interface for typing in a password. Photo">
+  <figcaption>
+    Interface for typing in a password.
+  </figcaption>
+</figure>
 
 And the Wi-Fi isn't a requirement after the initial setup, so the device works
 perfectly offline. I have been using it during travels and I have only connected
