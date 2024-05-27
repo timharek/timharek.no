@@ -1,8 +1,9 @@
 [
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2012-11-29T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2012-12-03T00:00:00.000Z",
     "location": {
       "country": {
@@ -12,13 +13,13 @@
       "cities": [
         "Dubai"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Wedding in Spain",
     "date": "2013-10-09T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2013-10-15T00:00:00.000Z",
     "location": {
       "country": {
@@ -28,13 +29,13 @@
       "cities": [
         "Torrevieja"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2013-12-19T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2014-01-02T00:00:00.000Z",
     "location": {
       "country": {
@@ -44,13 +45,13 @@
       "cities": [
         "Dubai"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Christmas",
     "date": "2013-12-23T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2013-12-29T00:00:00.000Z",
     "location": {
       "country": {
@@ -60,13 +61,13 @@
       "cities": [
         "Manilla"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2014-07-11T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2014-07-27T00:00:00.000Z",
     "location": {
       "country": {
@@ -78,13 +79,13 @@
         "Los Angeles",
         "San Diego"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2015-07-13T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2014-07-27T00:00:00.000Z",
     "location": {
       "country": {
@@ -96,13 +97,13 @@
         "Chiang Mai",
         "Chiang Rai"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2016-02-08T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2016-02-16T00:00:00.000Z",
     "location": {
       "country": {
@@ -112,13 +113,13 @@
       "cities": [
         "Dubai"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2017-07-16T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2017-07-31T00:00:00.000Z",
     "location": {
       "country": {
@@ -128,13 +129,13 @@
       "cities": [
         "Johor"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2018-06-09T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2018-06-16T00:00:00.000Z",
     "location": {
       "country": {
@@ -144,13 +145,13 @@
       "cities": [
         "Rhodes"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Weekend",
     "date": "2018-07-13T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2018-07-15T00:00:00.000Z",
     "location": {
       "country": {
@@ -160,13 +161,13 @@
       "cities": [
         "Oslo"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Weekend on Svalbard",
     "date": "2019-02-01T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2019-02-04T00:00:00.000Z",
     "location": {
       "country": {
@@ -176,13 +177,13 @@
       "cities": [
         "Svalbard"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Weekend in Copenhagen",
     "date": "2019-10-24T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2019-10-28T00:00:00.000Z",
     "location": {
       "country": {
@@ -192,13 +193,13 @@
       "cities": [
         "Copenhagen"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Visting my SO",
     "date": "2021-07-22T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2021-07-27T00:00:00.000Z",
     "location": {
       "country": {
@@ -208,13 +209,13 @@
       "cities": [
         "Svalbard"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Meetings",
     "date": "2021-08-18T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2021-08-18T00:00:00.000Z",
     "location": {
       "country": {
@@ -224,13 +225,13 @@
       "cities": [
         "Oslo"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "WAX-kon",
     "date": "2021-11-08T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2021-11-10T00:00:00.000Z",
     "location": {
       "country": {
@@ -240,13 +241,13 @@
       "cities": [
         "Nesbyen"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Meeting with Try",
     "date": "2021-11-18T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2021-11-18T00:00:00.000Z",
     "location": {
       "country": {
@@ -256,13 +257,13 @@
       "cities": [
         "Oslo"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Quick Holiday in NYC",
     "date": "2021-12-18T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2021-12-24T00:00:00.000Z",
     "location": {
       "country": {
@@ -272,13 +273,13 @@
       "cities": [
         "New York"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Show in Oslo",
     "date": "2022-03-04T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2022-03-06T00:00:00.000Z",
     "location": {
       "country": {
@@ -288,13 +289,13 @@
       "cities": [
         "Oslo"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Ski trip",
     "date": "2022-03-25T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2022-03-27T00:00:00.000Z",
     "location": {
       "country": {
@@ -304,13 +305,13 @@
       "cities": [
         "Trondheim"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Holiday",
     "date": "2022-08-13T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2022-08-28T00:00:00.000Z",
     "location": {
       "country": {
@@ -321,13 +322,13 @@
         "Pattaya, Koh Samet",
         "Bangkok"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Y Oslo",
     "date": "2022-10-19T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2022-10-21T00:00:00.000Z",
     "location": {
       "country": {
@@ -337,13 +338,13 @@
       "cities": [
         "Oslo"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Meetings",
     "date": "2022-11-03T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2022-11-04T00:00:00.000Z",
     "location": {
       "country": {
@@ -353,13 +354,13 @@
       "cities": [
         "Trondheim"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Meetings",
     "date": "2022-11-15T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2022-11-17T00:00:00.000Z",
     "location": {
       "country": {
@@ -369,13 +370,13 @@
       "cities": [
         "Trondheim"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Visiting friends",
     "date": "2022-12-16T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "pleasure",
     "to_date": "2022-12-21T00:00:00.000Z",
     "location": {
       "country": {
@@ -387,13 +388,13 @@
         "Lisburn",
         "Portrush"
       ]
-    },
-    "occasion": "pleasure"
+    }
   },
   {
-    "type": "travel",
     "title": "Meetings",
     "date": "2023-01-18T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2023-01-19T00:00:00.000Z",
     "location": {
       "country": {
@@ -403,13 +404,13 @@
       "cities": [
         "Trondheim"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Meetings",
     "date": "2023-01-23T00:00:00.000Z",
+    "type": "travel",
+    "occasion": "business",
     "to_date": "2023-01-23T00:00:00.000Z",
     "location": {
       "country": {
@@ -419,15 +420,14 @@
       "cities": [
         "Kristiansand"
       ]
-    },
-    "occasion": "business"
+    }
   },
   {
-    "type": "travel",
     "title": "Work meetings",
     "date": "2023-09-14",
-    "to_date": "2023-09-14",
+    "type": "travel",
     "occasion": "business",
+    "to_date": "2023-09-14",
     "location": {
       "country": {
         "name": "Norway",
@@ -435,6 +435,54 @@
       },
       "cities": [
         "Oslo"
+      ]
+    }
+  },
+  {
+    "title": "Meetings",
+    "date": "2024-01-17",
+    "type": "travel",
+    "occasion": "business",
+    "to_date": "2024-01-17",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
+      },
+      "cities": [
+        "Larvik"
+      ]
+    }
+  },
+  {
+    "title": "Meetings",
+    "date": "2024-05-15",
+    "type": "travel",
+    "occasion": "business",
+    "to_date": "2024-05-15",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
+      },
+      "cities": [
+        "Oslo"
+      ]
+    }
+  },
+  {
+    "type": "travel",
+    "title": "Family wedding",
+    "date": "2024-03-15",
+    "to_date": "2024-03-17",
+    "occasion": "pleasure",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
+      },
+      "cities": [
+        "Stavanger"
       ]
     }
   }
