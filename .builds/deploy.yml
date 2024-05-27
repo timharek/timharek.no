@@ -1,23 +1,17 @@
-image: ubuntu/lts
+image: alpine/edge
 packages:
-  - unzip
+  - deno
   - rsync
 environment:
   deploy: tim@vps.tukler.no
 secrets:
   - 0323bc6f-a046-4b96-8496-2bac6e7ee107
-sources:
-  - git+ssh://git@git.sr.ht/~timharek/timharek.no
 triggers:
   - action: email
     condition: failure
     to: tim@harek.no
 tasks:
-  - install-deno: |
-      curl -fsSL https://deno.land/x/install/install.sh | sh
   - test: |
-      DENO_INSTALL="/home/build/.deno"
-      PATH="$DENO_INSTALL/bin:$PATH"
       cd timharek.no
       deno test -A
       deno task check
