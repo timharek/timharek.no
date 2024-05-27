@@ -2,6 +2,7 @@
 title = "You don't need live chat on your website"
 description = "Why you (probably) don't need live chat on your website."
 tags = ["Thoughts"]
+updatedAt = 2024-05-27
 +++
 
 More and more website has started adding "Live chat" to their websites. It
@@ -33,3 +34,5 @@ So if you need to have a "Live chat" on your website, you probably need to do
 something about your website's content, because most likely people are having a
 hard time finding what they're looking for. Your website should solve a problem
 for your visitors, not add more.
+
+[Discussion on Hacker News](https://news.ycombinator.com/item?id=33904017)
