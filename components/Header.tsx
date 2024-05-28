@@ -27,8 +27,16 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
         class="print:hidden max-w-screen-md mx-auto px-4 flex justify-between items-center my-4"
         aria-label="Main navigation"
       >
-        <a class="w-16 h-16" rel="me" href="/" aria-label="Home">
-          <Logo />
+        <a
+          class="group flex gap-2 items-center hover:opacity-90"
+          rel="me"
+          href="/"
+          aria-label="Home"
+        >
+          <Logo className="w-16 h-16" />
+          <span className="group-hover:underline bg-primary h-max text-black font-bold p-1">
+            Tim Hårek
+          </span>
         </a>
 
         <nav>

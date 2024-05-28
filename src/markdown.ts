@@ -26,6 +26,7 @@ export const css = `
       /* bg-zinc-900 */
       --color-canvas-default: rgba(24,24,27,var(--tw-bg-opacity)) !important; 
       --color-fg-default: white !important;
+      --color-accent-fg: #0098fd;
     }
     .markdown-body ul {
       list-style: disc;
@@ -38,6 +39,7 @@ export const css = `
     }
     .markdown-body a {
       text-decoration: underline;
+      font-weight: 500;
     }
     .markdown-body a:hover {
       text-decoration: underline;

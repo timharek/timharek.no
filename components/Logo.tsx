@@ -1,4 +1,4 @@
-export function Logo() {
+export function Logo({ className }: { className?: string }) {
   return (
     <svg
       clip-rule="evenodd"
@@ -8,6 +8,7 @@ export function Logo() {
       stroke-miterlimit="1.5"
       viewBox="0 0 461 461"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <title>Tim Hårek's logo</title>
       <path d="m.5.192h460v460h-460z" fill="none" />

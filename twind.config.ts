@@ -7,7 +7,7 @@ export default {
     theme: {
       extend: {
         colors: {
-          primary: "#70a3f3",
+          primary: "#0098fd",
           // zinc-900
           bg: "rgb(24, 24, 27)",
         },
