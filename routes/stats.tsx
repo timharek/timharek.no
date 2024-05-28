@@ -6,7 +6,7 @@ import { PageHeader } from "../components/PageHeader.tsx";
 import { css } from "../src/markdown.ts";
 import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
-import { ChartColors, transparentize } from "$fresh_charts/utils.ts";
+import { transparentize } from "$fresh_charts/utils.ts";
 
 interface Props {
   page: Page;
@@ -58,6 +58,7 @@ export default function Page({ data }: PageProps<Props>) {
   const external = stats.links.external?.slice(0, TOP_LINKS_COUNT);
   const internal = stats.links.internal?.slice(0, TOP_LINKS_COUNT);
 
+  const primaryBlue = "#0098fd";
   return (
     <>
       <Head>
@@ -112,8 +113,8 @@ export default function Page({ data }: PageProps<Props>) {
                   data: Object.keys(stats.blogByYear).map((year) =>
                     stats.blogByYear[year].length
                   ),
-                  borderColor: ChartColors.Blue,
-                  backgroundColor: transparentize(ChartColors.Blue, 0.5),
+                  borderColor: primaryBlue,
+                  backgroundColor: transparentize(primaryBlue, 0.5),
                   borderWidth: 1,
                 }, {
                   label: "Words per year (1,000s)",
@@ -124,7 +125,7 @@ export default function Page({ data }: PageProps<Props>) {
                     stats.blogByYear[year],
                     true,
                   ) as number / 1000)),
-                  borderColor: ChartColors.Blue,
+                  borderColor: primaryBlue,
                   borderWidth: 1,
                 }],
               }}
