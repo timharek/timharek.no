@@ -34,7 +34,7 @@ export default function App(props: PageProps<unknown, ServerState>) {
         />
         <title>{state.title}</title>
       </Head>
-      <body class="bg-bg text-white">
+      <body class="bg-bg text-white border-t-4 border-primary">
         <Header currentPath={currentPath} breadcrumbs={state.breadcrumbs} />
         <main id="main">
           <Component />
