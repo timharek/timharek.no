@@ -601,3 +601,10 @@ endDate = 2023-11-05
 keywords = ["Zola", "Website", "Open source"]
 sources = ["https://github.com/fribyte-code/boskonf.no/"]
 
+[[projects]]
+name = "gpx-to-svg module"
+url = "https://jsr.io/@timharek/gpx-to-svg"
+description = "A simple module to make a GPX route into a minimal SVG."
+startDate = 2024-05-28
+keywords = ["Tool", "Deno", "API", "Personal", "Open source"]
+sources = ["https://git.sr.ht/~timharek/gpx-to-svg"]
