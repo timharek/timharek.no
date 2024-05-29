@@ -28,15 +28,17 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
         aria-label="Main navigation"
       >
         <a
-          class="group flex gap-2 items-center hover:opacity-90"
+          class="group flex gap-2 items-center"
           rel="me"
           href="/"
           aria-label="Home"
         >
           <Logo className="w-16 h-16" />
-          <span className="group-hover:underline bg-primary h-max text-black font-bold p-1">
-            Tim Hårek
-          </span>
+          <div className="md:border-4 border-bg md:p-1 md:group-hover:border-primary transition-all">
+            <div className="group-hover:underline bg-primary h-max text-black font-bold p-1">
+              Tim Hårek
+            </div>
+          </div>
         </a>
 
         <nav>
