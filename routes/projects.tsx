@@ -132,6 +132,8 @@ function ProjectWrapper({ project }: { project: Project }) {
     start: new Date(project.startDate),
     end: project.endDate ? new Date(project.endDate) : undefined,
   };
+
+  const isJSRModule = project.keywords.includes("JSR");
   return (
     <div class="py-4 md:grid grid-cols-[0.25fr_1fr]">
       <ProjectDates start={dates.start} end={dates.end} />
@@ -141,6 +143,7 @@ function ProjectWrapper({ project }: { project: Project }) {
             ? <Link href={project.url} label={project.name} target="_blank" />
             : project.name} {project.client && "- " + project.client}
         </h2>
+        {isJSRModule && project.url && <JSRDetails url={project.url} />}
         <p class="">{project.description}</p>
         {project.sources && (
           <Link href={project.sources[0]} label="Source code" target="_blank" />
@@ -192,6 +195,30 @@ function ProjectDates({ start, end }: { start: Date; end?: Date }) {
           </time>
         )
         : "present"}
+    </div>
+  );
+}
+
+function JSRDetails({ url }: { url: string }) {
+  const scopeRegex = /@([^/]+)/;
+  const scopeMatch = url.match(scopeRegex);
+  const scope = scopeMatch ? scopeMatch[0] : null;
+
+  const moduleRegex = /\/([^/]+)$/;
+  const moduleMatch = url.match(moduleRegex);
+  const module = moduleMatch ? moduleMatch[1] : null;
+
+  const versionBadgeURL = `https://jsr.io/badges/${scope}/${module}`;
+  const scoreBadgeURL = `${versionBadgeURL}/score`;
+
+  return (
+    <div className="flex gap-2">
+      <a href={url}>
+        <img src={versionBadgeURL} alt="" />
+      </a>
+      <a href={url}>
+        <img src={scoreBadgeURL} alt="" />
+      </a>
     </div>
   );
 }

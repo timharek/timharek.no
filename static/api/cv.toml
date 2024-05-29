@@ -1,4 +1,4 @@
-last_update = 2024-05-08
+last_update = 2024-05-28
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -47,7 +47,7 @@ highlights = [
   "Maintaining and designing full-stack applications.",
   "Integrate with different ERP- and accounting-solutions.",
   "Normalize data with Raw technologies.",
-  "Develop and maintain Value 360 using modern technologies and practices."
+  "Develop and maintain Value 360 using modern technologies and practices.",
 ]
 
 [[work]]
@@ -215,12 +215,22 @@ keywords = [
   "Zola",
   "jQuery",
   "Oak",
-  "Zod"
+  "Zod",
 ]
 
 [[skills]]
 name = "Tools"
-keywords = ["Ansible", "Docker", "Git", "Helix", "UNIX", "Vim", "SQLite", "PostgreSQL", "MariaDB/MySQL"]
+keywords = [
+  "Ansible",
+  "Docker",
+  "Git",
+  "Helix",
+  "UNIX",
+  "Vim",
+  "SQLite",
+  "PostgreSQL",
+  "MariaDB/MySQL",
+]
 
 [[skills]]
 name = "Cloud infrastructure"
@@ -343,7 +353,7 @@ keywords = [
   "Next.js",
   "API",
   "Netlife",
-  "Work"
+  "Work",
 ]
 
 [[projects]]
@@ -391,15 +401,15 @@ name = "wcarbon module"
 url = "https://jsr.io/@timharek/wcarbon"
 description = "Access Website Carbon's API with Deno."
 startDate = 2022-06-26
-keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://github.com/timharek/wcarbon"]
 
 [[projects]]
 name = "d-yr module"
-url = "https://jsr.io/@timharek/dyr"
+url = "https://jsr.io/@timharek/d-yr"
 description = "Access Yr.no's weather API with Deno."
 startDate = 2022-03-07
-keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://github.com/timharek/d-yr"]
 
 [[projects]]
@@ -453,7 +463,7 @@ name = "omdb module"
 url = "https://jsr.io/@timharek/omdb"
 description = "Access OMDb's API for getting details about movies and TV shows with Deno."
 startDate = 2022-06-23
-keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
   "https://github.com/timharek/deno-omdb",
   "https://git.sr.ht/~timharek/deno-omdb",
@@ -464,7 +474,7 @@ name = "openlibrary module"
 url = "https://jsr.io/@timharek/openlibrary"
 description = "Access OpenLibrary's API with Deno."
 startDate = 2023-01-15
-keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
   "https://github.com/timharek/deno-books",
   "https://git.sr.ht/~timharek/deno-books",
@@ -475,7 +485,7 @@ name = "linkding module"
 url = "https://jsr.io/@timharek/linkding"
 description = "Access your Linkding instance's API with Deno."
 startDate = 2022-11-28
-keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source"]
+keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
   "https://github.com/timharek/deno-linkding",
   "https://git.sr.ht/~timharek/deno-linkding",
@@ -488,7 +498,15 @@ roles = ["Tech lead"]
 description = "Developed a web daemon that listens to a webhook from an LMS that updates an old MS-SQL database made in the late 90s. Also made the daemon to be scalable to a full-fledged front-end API for future use."
 startDate = 2022-12-06
 endDate = 2023-02-27
-keywords = ["API", "Database", "Node.js", "Express.js", "TypeScript", "Netlife", "Work"]
+keywords = [
+  "API",
+  "Database",
+  "Node.js",
+  "Express.js",
+  "TypeScript",
+  "Netlife",
+  "Work",
+]
 
 [[projects]]
 name = "Hima"
@@ -503,7 +521,7 @@ keywords = [
   "PocketBase",
   "Tailwind",
   "TypeScript",
-  "Open source"
+  "Open source",
 ]
 sources = ["https://git.sr.ht/~timharek/hima"]
 
@@ -520,7 +538,7 @@ keywords = [
   "SQLite",
   "Tailwind",
   "TypeScript",
-  "Open source"
+  "Open source",
 ]
 sources = ["https://git.sr.ht/~timharek/filmpolitiet-api"]
 
@@ -578,7 +596,7 @@ keywords = [
   "Tailwind",
   "Value",
   "Website",
-  "Work"
+  "Work",
 ]
 
 [[projects]]
@@ -606,5 +624,5 @@ name = "gpx-to-svg module"
 url = "https://jsr.io/@timharek/gpx-to-svg"
 description = "A simple module to make a GPX route into a minimal SVG."
 startDate = 2024-05-28
-keywords = ["Tool", "Deno", "API", "Personal", "Open source"]
+keywords = ["Tool", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://git.sr.ht/~timharek/gpx-to-svg"]
