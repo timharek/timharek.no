@@ -30,11 +30,11 @@ type OPMLOutline = z.infer<typeof OPMLOutline>;
 
 const OPML = z.object({
   xml: z.object({
-    "@version": z.number(),
+    "@version": z.coerce.number(),
     "@encoding": z.literal("UTF-8"),
-  }),
+  }).optional(),
   opml: z.object({
-    "@version": z.number(),
+    "@version": z.coerce.number(),
     head: z.object({ title: z.string() }),
     body: z.object({
       outline: z.array(OPMLOutline),
