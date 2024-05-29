@@ -1,5 +1,5 @@
-import { Input, Number, prompt } from "cliffy";
-import { getMovie } from "omdb";
+import { Input, Number, prompt } from "@cliffy/prompt";
+import { getTitle } from "@timharek/omdb";
 import { Entry } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
 import { z } from "zod";
@@ -60,17 +60,21 @@ export async function logMovieOrTv(
     titleOrId: title,
   };
 
-  const entry = await getMovie(options);
+  const entry = await getTitle({ titleOrId: options.titleOrId });
+
+  if (!entry) {
+    throw new Error("Couldn't find title.");
+  }
 
   if (logType === "movie") {
     return {
       type: "movie",
       title: entry.Title,
       date,
-      genres: entry.Genre.split(", "),
+      genres: entry.Genre,
       release_year: parseInt(entry.Year),
       review: { rating },
-      director: entry.Director.split(", "),
+      director: entry.Director,
     };
   }
 
@@ -78,10 +82,10 @@ export async function logMovieOrTv(
     type: "tv",
     title: entry.Title,
     date,
-    genres: entry.Genre.split(", "),
+    genres: entry.Genre,
     release_year: parseInt(entry.Year) ?? null,
     review: { rating },
     season: season ?? 0,
-    director: entry.Director.split(", "),
+    director: entry.Director,
   };
 }

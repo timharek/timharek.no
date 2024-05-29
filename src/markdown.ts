@@ -1,5 +1,5 @@
 import { extract } from "@std/front-matter/any";
-import { CSS } from "gfm/mod.ts";
+import { CSS } from "@deno/gfm";
 import { Extract } from "@std/front-matter";
 import { Marked } from "npm:marked@8.0.1";
 import { markedHighlight } from "npm:marked-highlight@2.0.9";

@@ -5,7 +5,7 @@ import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
-import { parse } from "xml";
+import { parse } from "@libs/xml";
 import { z } from "zod";
 
 const OPMLOutlineItem = z.object({

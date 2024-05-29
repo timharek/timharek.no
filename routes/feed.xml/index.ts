@@ -1,7 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
-import { stringify } from "xml";
+import { stringify } from "@libs/xml";
 
 export const handler: Handlers = {
   async GET(_req, _ctx) {

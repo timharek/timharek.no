@@ -1,5 +1,5 @@
-import { Input, List, Number, prompt, Select } from "cliffy";
-import { getBook, searchBook } from "books";
+import { Input, List, Number, prompt, Select } from "@cliffy/prompt";
+import { getBook, searchBook } from "@timharek/openlibrary";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 import { Entry } from "../schemas.ts";
 import { z } from "zod";

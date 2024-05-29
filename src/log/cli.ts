@@ -1,4 +1,4 @@
-import { Select } from "cliffy";
+import { Select } from "@cliffy/prompt";
 import { Entry, Log } from "../schemas.ts";
 import { selectKeys } from "../utils.ts";
 import { log } from "./index.ts";

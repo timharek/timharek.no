@@ -1,5 +1,5 @@
 import { assertEquals } from "@std/assert";
-import { inject } from "cliffy";
+import { inject } from "@cliffy/prompt";
 import { Entry } from "../schemas.ts";
 import { logGame } from "./games.ts";
 
