@@ -12,7 +12,8 @@ E-mail: [tim@harek.no](mailto:tim@harek.no)
 
 - [SourceHut](https://sr.ht/~timharek)
 - [GitHub](https://github.com/timharek)
-- [Printables](https://www.printables.com/@timharek_543206)
+- [Printables](https://www.printables.com/@timharek)
+- [JSR](https://jsr.io/@timharek)
 
 ## PGP
 
