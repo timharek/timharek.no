@@ -1,7 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
-import sanitizeHtml from "sanitize-html";
+import { escape } from "@std/html/entities";
 
 export const handler: Handlers = {
   async GET(_req, _ctx) {
@@ -80,7 +80,7 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
         date_published: post.createdAt,
         ...(post.updatedAt && { date_modified: post.updatedAt }),
         content_html: `${post.html} ${
-          sanitizeHtml(
+          escape(
             `<a href="mailto:${config.author.email}?subject=${post.title}">Reply via e-mail</a>`,
           ).toString()
         }`,
