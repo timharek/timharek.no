@@ -9,7 +9,7 @@ export function Link(props: LinkProps) {
   return (
     <a
       {...propsWithoutLabel}
-      class={`text-primary underline hover:(bg-primary text-black decoration-primary) data-[current]:(text-white hover:text-black) font-semibold${
+      class={`text-primary underline hover:bg-primary hover:text-black hover:decoration-primary data-[current]:text-white data-[current]:hover:text-black font-semibold${
         className ? ` ${className}` : ""
       }`}
     >
