@@ -6,7 +6,7 @@ import { CVSchema, Project } from "./cv.tsx";
 import { Head } from "$fresh/runtime.ts";
 import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
-import * as TOML from "$std/toml/mod.ts";
+import * as TOML from "@std/toml";
 
 interface Projects {
   page: Page;

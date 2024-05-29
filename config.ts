@@ -1,4 +1,4 @@
-import "$std/dotenv/load.ts";
+import "@std/dotenv/load";
 
 const HOSTNAME = Deno.env.get("HOSTNAME");
 const PORT = Deno.env.get("PORT");

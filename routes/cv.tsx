@@ -3,7 +3,7 @@ import { Link } from "../components/Link.tsx";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { ServerState } from "./_middleware.ts";
 import { z } from "zod";
-import * as TOML from "$std/toml/mod.ts";
+import * as TOML from "@std/toml";
 
 const WorkExp = z.object({
   name: z.string(),

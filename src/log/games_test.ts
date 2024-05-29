@@ -1,4 +1,4 @@
-import { assertEquals } from "$std/assert/mod.ts";
+import { assertEquals } from "@std/assert";
 import { inject } from "cliffy";
 import { Entry } from "../schemas.ts";
 import { logGame } from "./games.ts";

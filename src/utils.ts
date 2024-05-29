@@ -1,4 +1,4 @@
-import { toKebabCase } from "$std/text/mod.ts";
+import { toKebabCase } from "@std/text";
 
 export function slugify(text: string): string {
   return toKebabCase(text.toLowerCase());

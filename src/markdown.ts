@@ -1,6 +1,6 @@
-import { extract } from "$std/front_matter/any.ts";
+import { extract } from "@std/front-matter/any";
 import { CSS } from "gfm/mod.ts";
-import { Extract } from "$std/front_matter/mod.ts";
+import { Extract } from "@std/front-matter";
 import { Marked } from "npm:marked@8.0.1";
 import { markedHighlight } from "npm:marked-highlight@2.0.9";
 import { gfmHeadingId } from "npm:marked-gfm-heading-id@3.1.3";

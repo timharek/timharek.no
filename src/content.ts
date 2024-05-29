@@ -1,4 +1,4 @@
-import "$std/dotenv/load.ts";
+import "@std/dotenv/load";
 import { groupBy } from "./group_by.ts";
 import { getMarkdownFile, marked } from "./markdown.ts";
 import { getReadingTime, getWordCount, slugify } from "./utils.ts";
