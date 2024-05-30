@@ -39,7 +39,7 @@ url = "https://www.printables.com/@timharek"
 [[work]]
 name = "Value Technology"
 position = "Software engineer & partner"
-url = "https://valuegroup.no"
+url = "https://value.no"
 startDate = 2023-08-07
 highlights = [
   "Full-stack Node- and Deno-applications.",
