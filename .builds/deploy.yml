@@ -31,6 +31,6 @@ tasks:
       cd timharek.no
       git --no-pager log -1 --format=%ci > last_deploy
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avrP --exclude "last_deploy" . $deploy:/var/www/timharek.no
+      rsync --rsh="$sshopts" -avrP --exclude "last_deploy" --exclude "node_modules" --exclude ".env*" --delete . $deploy:/var/www/timharek.no
       rsync --rsh="$sshopts" -avrP last_deploy $deploy:/var/www/timharek.no/last_deploy
 
