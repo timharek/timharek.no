@@ -1,5 +1,7 @@
-import { getAllTags } from "./content.ts";
+import type { Bookmark } from "@timharek/linkding";
 import { Input, List, prompt } from "@cliffy/prompt";
+import { bookmarks } from "@timharek/linkding";
+import { getAllTags } from "./content.ts";
 import { getCurrentDate } from "./utils.ts";
 import { slugify } from "./utils.ts";
 import { z } from "zod";
@@ -57,18 +59,76 @@ const blogPrompt = async (titleInput?: string) => {
   ]);
 };
 
+async function getRecentBookmarks() {
+  const today = new Date();
+  const todaysYearAndMonth = `${today.getFullYear()}-${
+    new Intl.DateTimeFormat("en-US", { month: "2-digit" }).format(today)
+  }`;
+  const recentBookmarks = await bookmarks({ limit: 150 });
+  const recentBookmarksFromThisMonth = recentBookmarks.results.filter((
+    bookmark: Bookmark,
+  ) =>
+    bookmark.date_modified.includes(todaysYearAndMonth) &&
+    bookmark.unread === false && bookmark.notes
+  );
+
+  return recentBookmarksFromThisMonth;
+}
+
+function makeBookmarksIntoLinkList(bookmarks: Bookmark[]) {
+  const markdownList = bookmarks.map((bookmark) =>
+    `- [${bookmark.website_title}] – ${bookmark.notes}`
+  );
+  const footerLinks = bookmarks.map((bookmark) =>
+    `[${bookmark.website_title}]: ${bookmark.url}`
+  );
+
+  return `## 🌐 Links
+
+${markdownList.join("\n")}
+
+${footerLinks.join("\n")}`;
+}
+
+async function recentlyPost() {
+  const bookmarks = await getRecentBookmarks();
+
+  return `
+<!-- TODO: Add brief intro -->
+
+## 🍀 Life
+
+<!-- TODO: What has been going on -->
+
+## 💪 Health
+
+<!-- TODO: Have you been keeping active? -->
+
+## 🧑‍💻 Development
+
+<!-- TODO: What have you programming as of late? -->
+
+## 🎬 Entertainment
+
+<!-- TODO: What have you been watching this past month -->
+
+${makeBookmarksIntoLinkList(bookmarks)}`;
+}
+
 if (import.meta.main) {
   const titleInput = Deno.args[0];
   const { title, description, slug, date, tags } = blogSchema.parse(
     await blogPrompt(titleInput),
   );
 
+  const isRecentlyPost = tags.includes("Recently");
   const file = `+++
 title = "${title}"
 description = "${description}"
 draft = true
 tags = [${tags && tags.map((tag) => `"${tag}"`).join(", ")}]
 +++
+${isRecentlyPost ? await recentlyPost() : ""}
 `;
 
   const slugifiedSlug = slugify(slug ? slug : title);

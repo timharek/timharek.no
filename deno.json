@@ -34,6 +34,7 @@
     "@std/html": "jsr:@std/html@^0.224.1",
     "@std/text": "jsr:@std/text@^0.224.1",
     "@std/toml": "jsr:@std/toml@^0.224.0",
+    "@timharek/linkding": "jsr:@timharek/linkding@^2.0.3",
     "@timharek/omdb": "jsr:@timharek/omdb@^3.0.2",
     "@timharek/openlibrary": "jsr:@timharek/openlibrary@^1.4.1",
     "icons/": "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/",
