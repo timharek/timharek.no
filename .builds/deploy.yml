@@ -17,7 +17,6 @@ tasks:
       cd timharek.no
       deno test -A
       deno task check
-      deno task build
   - check: |
       cd timharek.no
       if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
