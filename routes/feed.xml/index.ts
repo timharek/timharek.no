@@ -45,30 +45,32 @@ function generateXML(posts: Post[]): string {
   });
   const feedUrl = `${config.base_url}/feed.xml`;
   const feedXML = stringify({
-    xml: {
-      "@version": "1.0",
-      "@encoding": "UTF-8",
-    },
-    feed: {
-      "@xmlns": "http://www.w3.org/2005/Atom",
-      "@xml:lang": "en",
-      title: config.title,
-      subtitle: config.description,
-      link: [
-        {
-          "@href": feedUrl,
-          "@rel": "self",
-          "@type": "application/atom+xml",
-        },
-        {
-          "@href": config.base_url,
-        },
-      ],
-      updated: posts[0].updatedAt
-        ? posts[0].updatedAt.toISOString()
-        : posts[0].createdAt.toISOString(),
-      id: feedUrl,
-      entry: entries,
+    root: {
+      xml: {
+        "@version": "1.0",
+        "@encoding": "UTF-8",
+      },
+      feed: {
+        "@xmlns": "http://www.w3.org/2005/Atom",
+        "@xml:lang": "en",
+        title: config.title,
+        subtitle: config.description,
+        link: [
+          {
+            "@href": feedUrl,
+            "@rel": "self",
+            "@type": "application/atom+xml",
+          },
+          {
+            "@href": config.base_url,
+          },
+        ],
+        updated: posts[0].updatedAt
+          ? posts[0].updatedAt.toISOString()
+          : posts[0].createdAt.toISOString(),
+        id: feedUrl,
+        entry: entries,
+      },
     },
   });
 
