@@ -2,6 +2,7 @@
 title = "How to mirror from SourceHut to GitHub"
 description = "And other source forges."
 tags = ["Git", "SourceHut", "CI/CD", "DevOps", "100 days to offload"]
+updatedAt = 2024-06-01
 +++
 
 Last year I started to use [SourceHut][srht] for all my personal projects and I
@@ -32,18 +33,19 @@ image: alpine/edge
 secrets:
   - <your-hashed-secret>
 sources:
-  - git+ssh://git@git.sr.ht/~<username>/<repo>
+  - git@git.sr.ht/~<username>/<repo>
+environment:
+  GIT_SSH_COMMAND: ssh -o StrictHostKeyChecking=no
 tasks:
+  - setup: |
+      # This is for not having to cd into your <repo> for each task
+      echo 'cd <repo>' >> ~/.buildenv
   - check: |
-      cd <repo>
       if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
         complete-build; \
       fi
   - mirror: |
-      cd <repo>
-      git remote add github git@github.com:<github_username>/<github_repo>.git
-      ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-      git push github main
+      git push --force --mirror git@github.com:<github_username>/<github_repo>.git
 ```
 
 Remember to change:
