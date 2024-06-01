@@ -7,28 +7,24 @@ environment:
 secrets:
   - 0323bc6f-a046-4b96-8496-2bac6e7ee107
 sources:
-  - git@git.sr.ht:~timharek/timharek.no
+  - https://git.sr.ht/~timharek/timharek.no
 triggers:
   - action: email
     condition: failure
     to: tim@harek.no
 tasks:
+  - setup: |
+      echo 'cd timharek.no' >> ~/.buildenv
   - test: |
-      cd timharek.no
       deno test -A
       deno task check
   - check: |
-      cd timharek.no
       if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
         complete-build; \
       fi
   - mirror: |
-      cd timharek.no
-      git remote add github git@github.com:timharek/timharek.no.git
-      ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-      git push -f github main
+      git push --force --mirror git@github.com:timharek/timharek.no.git
   - deploy: |
-      cd timharek.no
       git --no-pager log -1 --format=%ci > last_deploy
       sshopts="ssh -o StrictHostKeyChecking=no"
       rsync --rsh="$sshopts" -avrP --exclude "last_deploy" --exclude ".git" --exclude "node_modules" --exclude ".env*" --delete . $deploy:/var/www/timharek.no
