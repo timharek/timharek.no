@@ -25,7 +25,8 @@ tasks:
       fi
   - mirror: |
       git push --force --mirror git@github.com:timharek/timharek.no.git
-      git push --force --mirror git@codeberg.org:timharek/timharek.no.git
+      # FIXME: There is a problem with Codeberg unless pushed after SSHing onto the failed build
+      # git push --force --mirror git@codeberg.org:timharek/timharek.no.git
   - deploy: |
       git --no-pager log -1 --format=%ci > last_deploy
       sshopts="ssh -o StrictHostKeyChecking=no"
