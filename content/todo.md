@@ -9,4 +9,4 @@ updatedAt = 2024-03-08
 - Add unit tests for sitemap.xml
 - Add unit tests for rss.xml
 - Add support for Asciinema, through web components.
-- Automate "Recently" posts, gather this months posts, links and entertainment.
+- Add colophon-page
