@@ -8,15 +8,35 @@
 
 # [timharek.no](https://timharek.no)
 
-My personal website, made with [Deno Fresh](https://fresh.deno.dev).
+My personal website and blog.
+
+It's made with [Fresh](https://fresh.deno.dev).
 
 ## Features
 
-- Blog
-- CV
-- Logs
-- CLI for updating logs
+- A bunch of [different pages]
+- [Blog] with [tags]
+- [Blogroll] based on [OPML]
+- [CV]
+  - Based on [JSON schema], but with TOML
+  - Seperate [projects]-page with filter
+- [Logs]
+  - Watched movies, TV shows
+  - Read books
+  - Played video games
+  - Travels
+  - Custom CLI for updating the logs
 
 ## License
 
 [MIT](LICENSE) &copy; [Tim Hårek](https://timharek.no)
+
+[different pages]: https://timharek.no/more
+[blog]: https://timharek.no/blog
+[tags]: https://timharek.no/tags
+[cv]: https://timharek.no/cv
+[projects]: https://timharek.no/projects
+[logs]: https://timharek.no/logs
+[json schema]: https://jsonresume.org/
+[blogroll]: https://timharek.no/blogroll
+[opml]: https://opml.org/spec2.opml
