@@ -5,6 +5,7 @@ export const redirects: Record<string, string> = {
   "/logs/feedroll": "/blogroll",
   "/bookmarks": "/logs",
   "/contact": "/connect",
+  "/hello": "/connect",
   "/games": "/logs/games",
   "/logs/timeline": "/logs",
   "/no": "/",
@@ -34,4 +35,9 @@ export const redirects: Record<string, string> = {
   "/garden/tools/gpg": "/blog/getting-started-gpg",
   "/garden/tools/git": "/blog/git-tips-and-tricks",
   "/garden/tools/zint": "/blog/qr-codes",
+  "/follow": "/subscribe",
+  "/feeds": "/subscribe",
+  "/podroll": "/blogroll#podcasts",
+  "/defaults": "/uses",
+  "/wishlist": "/wish",
 } as const;
