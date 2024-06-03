@@ -56,13 +56,11 @@ when possible!_
 
 ## Tech
 
-|            |                                                                                                           |
-| ---------: | :-------------------------------------------------------------------------------------------------------- |
-|       $199 | [Playdate](https://shop.play.date/)                                                                       |
-|       $189 | [uConsole](https://www.clockworkpi.com/product-page/uconsole-kit-rpi-cm4-lite)                            |
-|       $189 | [Zimaboard 432](https://shop.zimaboard.com/products/zimaboard-single-board-server?variant=39283928432838) |
-| 131 360 kr | [Shining 3D Einscan HX](https://3dnet.no/collections/3d-scanner/products/shining-3d-einscan-hx)           |
-| 700 000 kr | Volkswagen ID Buzz                                                                                        |
+|            |                                                                                                 |
+| ---------: | :---------------------------------------------------------------------------------------------- |
+|       $189 | [uConsole](https://www.clockworkpi.com/product-page/uconsole-kit-rpi-cm4-lite)                  |
+| 131 360 kr | [Shining 3D Einscan HX](https://3dnet.no/collections/3d-scanner/products/shining-3d-einscan-hx) |
+| 700 000 kr | Volkswagen ID Buzz                                                                              |
 
 ## Credits
 
