@@ -107,7 +107,9 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
           {tags && (
             <>
               <div class="flex gap-2">
-                {tags?.length > 1 ? <Icon.Tags /> : <Icon.Tag />}
+                {tags?.length > 1
+                  ? <Icon.Tags aria-hidden="true" />
+                  : <Icon.Tag aria-hidden="true" />}
                 <h2>Tagged with</h2>
               </div>
               <ul class="flex gap-1 flex-wrap">
@@ -127,7 +129,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
           )}
         </div>
         <div class="flex gap-2">
-          <Icon.Script />
+          <Icon.Script aria-hidden="true" />
           <h2>{wordCount} words</h2>
         </div>
       </div>
@@ -136,7 +138,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
         href={`mailto:${config.author.email}?subject=RE: ${postTitle}`}
       >
         <span class="flex gap-2">
-          <Icon.Mail />
+          <Icon.Mail aria-hidden="true" />
           Reply via email
         </span>
       </a>
