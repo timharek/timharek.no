@@ -58,4 +58,4 @@ export const config = {
     "/public-key.asc",
     "https://www.printables.com/@timharek",
   ],
-};
+} as const;
