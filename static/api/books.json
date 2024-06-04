@@ -392,25 +392,70 @@
     ]
   },
   {
-    "type": "book",
     "title": "The Pragmatic Programmer",
     "date": "2024-01-22",
+    "type": "book",
     "publish_year": 1999,
+    "review": {
+      "rating": 4
+    },
     "author": [
       "Andy Hunt",
       "David Thomas",
       "Dave Thomas",
       "Andrew Hunt"
     ],
-    "review": {
-      "rating": 4
-    },
     "genres": [
       "Programming",
       "Computer-Science",
       "Technology",
       "Nonfiction",
       "Software"
+    ]
+  },
+  {
+    "title": "All Systems Red",
+    "date": "2024-05-31",
+    "type": "book",
+    "publish_year": 2017,
+    "review": {
+      "rating": 5
+    },
+    "author": [
+      "Martha Wells"
+    ],
+    "genres": [
+      "Sci-Fi"
+    ]
+  },
+  {
+    "title": "Artificial condition",
+    "date": "2024-06-01",
+    "type": "book",
+    "publish_year": 2018,
+    "review": {
+      "rating": 5
+    },
+    "author": [
+      "Martha Wells"
+    ],
+    "genres": [
+      "Sci-Fi"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "Rouge Protocol & Exit Strategy",
+    "date": "2024-06-04",
+    "publish_year": 2020,
+    "author": [
+      "Martha Wells"
+    ],
+    "review": {
+      "rating": 4
+    },
+    "genres": [
+      "Sci-Fi"
     ]
   }
 ]
