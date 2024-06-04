@@ -1,5 +1,5 @@
 import { Input, List, Number, prompt, Select } from "@cliffy/prompt";
-import { getBook, searchBook } from "@timharek/openlibrary";
+import { book } from "@timharek/openlibrary";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 import { Entry } from "../schemas.ts";
 import { z } from "zod";
@@ -36,7 +36,7 @@ export async function logBook(): Promise<Entry> {
 
   const { title, author } = titleAuthorSchema.parse(titleAuthorPrompt);
 
-  const searchResult = await searchBook(`${title} ${author}`);
+  const searchResult = await book.search(`${title} ${author}`);
   const selectOptions = searchResult.docs.map(
     (book) => {
       return {
@@ -83,13 +83,13 @@ export async function logBook(): Promise<Entry> {
     metadataPrompt,
   );
 
-  const book = await getBook(selectedResult.split("/")[2]);
+  const result = await book.get(selectedResult.split("/")[2]);
   const bookFields =
     selectOptions.filter((book) => book.value === selectedResult)[0];
 
   return {
     type: "book",
-    title: book.title,
+    title: result.title,
     date,
     publish_year: bookFields.publishYear ?? 0,
     author: bookFields.author ?? [],
