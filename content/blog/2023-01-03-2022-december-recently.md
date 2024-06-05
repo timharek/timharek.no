@@ -2,6 +2,7 @@
 title = "December 2022"
 description = "What I've been up to since November."
 tags = ["Recently", "100 days to offload"]
+updatedAt = 2024-06-05
 +++
 
 December, the month that feels so short since you need to do some much stuff
@@ -61,14 +62,14 @@ ended.
 
 ### TV
 
-Finished **Black Bird** &mdash; Great show, with amazing performances!
+Finished **Black Bird** – Great show, with amazing performances!
 
 ### Movies
 
-- **Glass Onion: A Knives Out Mystery** &mdash; Not impressed, the first one is
-  a proper detective movie - this was just a hollywood-showoff.
-- **Verdens verste menneske (The Worst Person in the World)** &mdash; A
-  Norwegian movie, a great watch - highly recommend!
+- **Glass Onion: A Knives Out Mystery** – Not impressed, the first one is a
+  proper detective movie - this was just a hollywood-showoff.
+- **Verdens verste menneske (The Worst Person in the World)** – A Norwegian
+  movie, a great watch - highly recommend!
 
 [srht_post]: /blog/switching-to-sourcehut-builds
 [livechat_post]: /blog/you-dont-need-chat-on-your-site

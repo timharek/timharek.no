@@ -53,19 +53,20 @@ soon though!
 
 ### Movies
 
-- Marriage Story: OK film about an American couple going through a divorce. Very
-  American IMO.
-- I Don't Feel at Home in This World Anymore: OK film to watch, nothing speical.
-- Colleteral: A rewatch, it's been ages since my first viewing and I'm not sure
-  the movie has aged that well - it felt too slow for me.
+- **Marriage Story** – OK film about an American couple going through a divorce.
+  Very American IMO.
+- **I Don't Feel at Home in This World Anymore** – OK film to watch, nothing
+  speical.
+- **Colleteral** – A rewatch, it's been ages since my first viewing and I'm not
+  sure the movie has aged that well - it felt too slow for me.
 
 ### TV
 
-- Letterkenny: Currently watching this, it's funny, but I'm not going to
+- **Letterkenny** – Currently watching this, it's funny, but I'm not going to
   bingewatch this one.
-- The Last of Us: It's been really great, very impressed with the first three
-  episodes even though I've played both games.
-- The Legend of Vox Machina: A friend of mine recommended this and I'm
+- **The Last of Us** – It's been really great, very impressed with the first
+  three episodes even though I've played both games.
+- **The Legend of Vox Machina** – A friend of mine recommended this and I'm
   impressed, short and entertaining episodes! Watched season 1 and half-way
   through season 2.
 

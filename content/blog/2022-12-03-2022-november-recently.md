@@ -2,6 +2,7 @@
 title = "November 2022"
 description = "What I've been up to since October."
 tags = ["Recently"]
+updatedAt = 2024-06-05
 +++
 
 ## ✍️ Blog
@@ -68,15 +69,15 @@ Apple TV+ and I'm impressed so far into two episodes.
 
 ### Movies
 
-- **Barbarian** &mdash; Wow, finally a horror movie that actually delivers! I
-  felt like I was constantly surprised at every turn, it wasn't super scary, it
-  was smart!
-- **Black Panther: Wakanda Forever** &mdash; Disspointed. Namor was cool, but
-  the story didn't really work.
-- **Krigsseileren** (War Sailor) &mdash; Sad and devastating movie. It was
-  difficult to watch, especially since it's so close to home. Some of the movie
-  is based in the town where I live during World War 2.
-- **The Guardians of the Galaxy Holiday Special** &mdash; Meh, it had some cool
+- **Barbarian** – Wow, finally a horror movie that actually delivers! I felt
+  like I was constantly surprised at every turn, it wasn't super scary, it was
+  smart!
+- **Black Panther: Wakanda Forever** – Disspointed. Namor was cool, but the
+  story didn't really work.
+- **Krigsseileren** (War Sailor) – Sad and devastating movie. It was difficult
+  to watch, especially since it's so close to home. Some of the movie is based
+  in the town where I live during World War 2.
+- **The Guardians of the Galaxy Holiday Special** – Meh, it had some cool
   details, and I felt like _I had to_ watch it.
 
 [black_friday_post]: /blog/i-didnt-buy-anything-on-black-friday

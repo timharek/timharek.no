@@ -36,9 +36,9 @@ and a few updates to my actual set up.
 
 Still watching _Ashoka_, and started watching _Succession_ this month as well.
 
-- Succession S1 - What a great show! The family dynamic in this show is so
+- **Succession S1** – What a great show! The family dynamic in this show is so
   intriguing and fucked up.
-- Foundation S1 - I had really high hopes for this show. The first half was
+- **Foundation S1** – I had really high hopes for this show. The first half was
   really good, but some of the acting really tore it back down. We tried to
   watch S2, but the storyline following Gaal and Sal was so boring. It's a
   shame, because the world is so interesting and Lee Pace really brought his

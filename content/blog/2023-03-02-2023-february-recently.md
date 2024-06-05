@@ -28,14 +28,14 @@ bugfixes.
 
 ### Movies
 
-- Ant-Man 3 - A letdown. The MCU is becoming stale, I was really excited for
+- **Ant–Man 3** – A letdown. The MCU is becoming stale, I was really excited for
   Kang... but I was let down, again.
-- The Whale - Such a powerful movie, Brendan Fraser's performance was
+- **The Whale** – Such a powerful movie, Brendan Fraser's performance was
   phenomenal. At the end of the movie I was sitting on the edge of my seat with
   so many thoughts and feelings flowing through my head. Everyone needs to watch
   it!
-- Weird: The Al Yankovic Story - A funny and self-aware movie. I've always known
-  of Weird Al's name, but I never knew what he actually was.
+- **Weird: The Al Yankovic Story** – A funny and self–aware movie. I've always
+  known of Weird Al's name, but I never knew what he actually was.
 
 ### TV
 

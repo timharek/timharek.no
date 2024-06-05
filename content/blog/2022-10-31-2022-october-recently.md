@@ -2,6 +2,7 @@
 title = "October 2022"
 description = "What I've been up to since September."
 tags = ["Recently"]
+updatedAt = 2024-06-05
 +++
 
 ## ✍️ Blog
@@ -49,20 +50,20 @@ what was going on at all times. I think I need to find more books like this
 
 ### TV
 
-- She-Hulk &mdash; A big letdown, story felt rushed, it had no pace and the only
+- **She-Hulk** – A big letdown, story felt rushed, it had no pace and the only
   cool thing about the show was Daredevil.
-- House of the Dragon &mdash; Great show, interesting characters and intriguing
+- **House of the Dragon** – Great show, interesting characters and intriguing
   conflicts, highly recommend!
-- Dahmer - Monster: The Jeffrey Dahmer Story &mdash; Great! Evan Peters nailed
-  all the weird vibes!
+- **Dahmer - Monster: The Jeffrey Dahmer Story** – Great! Evan Peters nailed all
+  the weird vibes!
 
 ### Movies
 
-- Werewolf by Night &mdash; A breath of fresh air from Marvel Studios, it was a
+- **Werewolf by Night** – A breath of fresh air from Marvel Studios, it was a
   short film introducing us to the monsters of the
   <abbr title="Marvel Cinematic Universe">MCU</abbr> and Ted was my favorite.
-- The Naked Gun: From the Files of Police Squad! &mdash; Showed my SO a great
-  old slapstick-movie, comedies was different.
+- **The Naked Gun: From the Files of Police Squad!** – Showed my SO a great old
+  slapstick-movie, comedies was different.
 
 Looking forward to Black Panther: Wakanda Forever in November, I really hope
 Marvel Studios delivers on this one!

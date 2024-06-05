@@ -33,19 +33,19 @@ I've been reading a bunch of blogposts lately, and I think I should start to
 summaries them here (eventually), and I also managed to read a new comicbook and
 continue reading "How the world really works", by Vaclav Smil.
 
-- Wolverine: Black, white & blood - An OK read. I thought the comicbook was
+- **Wolverine: Black, white & blood** – An OK read. I thought the comicbook was
   going to be chronological, but it was a bunch of different ones.
 
 ## 🎬 Entertainment
 
 ### TV
 
-The new Star Wars show Ashoka started last week. I think it has been great for
-the first three episodes. I also started to watch Platonic, it's fine, not great
-nor bad.
+The new Star Wars show **Ashoka** started last week. I think it has been great
+for the first three episodes. I also started to watch Platonic, it's fine, not
+great nor bad.
 
 ### Movies
 
-- Kopps - A great old Swedish slapstick cop-movie!
-- Tetris - This one was really great! I thought the trailer look cool, but I
+- **Kopps** – A great old Swedish slapstick cop-movie!
+- **Tetris** – This one was really great! I thought the trailer look cool, but I
   didn't expect the movie to be so entertaining.

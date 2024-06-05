@@ -65,10 +65,11 @@ works.
 
 ### Movies
 
-- Aftersun - A very quiet movie about a father and daughter. The movie itself
-  could be looked at as a bit boring, but the story it told was interesting.
-- John Wick: Chapter 4 - Action, action and more action. Keanu is doing what he
-  does best. There were a few super cool action moments and the bird-eye-view
+- **Aftersun** – A very quiet movie about a father and daughter. The movie
+  itself could be looked at as a bit boring, but the story it told was
+  interesting.
+- **John Wick: Chapter 4** – Action, action and more action. Keanu is doing what
+  he does best. There were a few super cool action moments and the bird-eye-view
   one-shot scene was really cool!
 
 ### TV
