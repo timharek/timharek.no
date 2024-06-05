@@ -419,7 +419,8 @@
     "type": "book",
     "publish_year": 2017,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "Short, but very entertaining!"
     },
     "author": [
       "Martha Wells"
@@ -434,7 +435,8 @@
     "type": "book",
     "publish_year": 2018,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "Everyone needs ART in their life!"
     },
     "author": [
       "Martha Wells"
@@ -445,14 +447,15 @@
   },
   {
     "type": "book",
-    "title": "Rouge Protocol & Exit Strategy",
+    "title": "Rouge Protocol",
     "date": "2024-06-04",
     "publish_year": 2020,
     "author": [
       "Martha Wells"
     ],
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "The intense corridors, the scaning, talking, everything."
     },
     "genres": [
       "Sci-Fi"

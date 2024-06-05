@@ -4043,7 +4043,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "A breath of fresh air from Marvel Studios, it was a short film introducing us to the monsters of the MCU and Ted was my favorite."
     },
     "genres": [
       "Action",
@@ -4060,7 +4061,8 @@
     "type": "movie",
     "release_year": 1988,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Showed my SO a great old slapstick-movie, comedies was different."
     },
     "genres": [
       "Comedy",
@@ -4076,7 +4078,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Wow, finally a horror movie that actually delivers! I felt like I was constantly surprised at every turn, it wasn't super scary, it was smart!"
     },
     "genres": [
       "Horror",
@@ -4092,7 +4095,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Disspointed. Namor was cool, but the story didn't really work."
     },
     "genres": [
       "Action",
@@ -4109,7 +4113,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "Sad and devastating movie. It was difficult to watch, especially since it's so close to home. Some of the movie is based in the town where I live during World War 2."
     },
     "genres": [
       "Drama",
@@ -4125,7 +4130,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Meh, it had some cool details, and I felt like _I had to_ watch it."
     },
     "genres": [
       "Action",
@@ -4145,7 +4151,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Not impressed, the first one is a proper detective movie - this was just a hollywood-showoff."
     },
     "genres": [
       "Comedy",
@@ -4162,7 +4169,8 @@
     "type": "movie",
     "release_year": 2021,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "A Norwegian movie, a great watch – highly recommend!"
     },
     "genres": [
       "Comedy",
@@ -4196,7 +4204,8 @@
     "type": "movie",
     "release_year": 2019,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "OK film about an American couple going through a divorce. Very American IMO."
     },
     "genres": [
       "Drama",
@@ -4212,7 +4221,8 @@
     "type": "movie",
     "release_year": 2017,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "OK film to watch, nothing speical."
     },
     "genres": [
       "Comedy",
@@ -4229,7 +4239,8 @@
     "type": "movie",
     "release_year": 2004,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "A rewatch, it's been ages since my first viewing and I'm not sure the movie has aged that well - it felt too slow for me."
     },
     "genres": [
       "Action",
@@ -4280,7 +4291,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "A letdown. The MCU is becoming stale, I was really excited for Kang... but I was let down, again."
     },
     "genres": [
       "Action",
@@ -4297,7 +4309,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "Such a powerful movie, Brendan Fraser's performance was phenomenal. At the end of the movie I was sitting on the edge of my seat with so many thoughts and feelings flowing through my head. Everyone needs to watch it!"
     },
     "genres": [
       "Drama"
@@ -4312,7 +4325,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "A funny and self-aware movie. I've always known of Weird Al's name, but I never knew what he actually was."
     },
     "genres": [
       "Biography",
@@ -4329,7 +4343,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "A very quiet movie about a father and daughter. The movie itself could be looked at as a bit boring, but the story it told was interesting."
     },
     "genres": [
       "Drama"
@@ -4344,7 +4359,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Action, action and more action. Keanu is doing what he does best. There were a few super cool action moments and the bird-eye-view one-shot scene was really cool!"
     },
     "genres": [
       "Action",
@@ -4361,7 +4377,8 @@
     "type": "movie",
     "release_year": 2019,
     "review": {
-      "rating": 2
+      "rating": 2,
+      "comment": "A movie, we watched in the easter break with family."
     },
     "genres": [
       "Action",
@@ -4378,7 +4395,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 2
+      "rating": 2,
+      "comment": "A bit better than the first one, again we watched it with family."
     },
     "genres": [
       "Action",
@@ -4395,7 +4413,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "This was a nostaliga trip for me, it was a decent movie with a lot of throwbacks."
     },
     "genres": [
       "Animation",
@@ -4414,7 +4433,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Finally a good MCU movie again. The story wasn't super original, but the performances and the small story archs made the movie very enjoyable."
     },
     "genres": [
       "Action",
@@ -4431,7 +4451,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Basically Finnish John Wick. A decent movie with a Norwegian cast."
     },
     "genres": [
       "Action",
@@ -4447,7 +4468,8 @@
     "type": "movie",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Great movie, the story was sad and really made you think how people had it back in the day."
     },
     "genres": [
       "Drama"
@@ -4462,7 +4484,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "This can easliy be one of my favorite animated movies. It was so much fun! And visuals are stunning!"
     },
     "genres": [
       "Animation",
@@ -4481,7 +4504,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "This was a super \"meh\"-movie..."
     },
     "genres": [
       "Action",
@@ -4515,7 +4539,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "Great movie! Lots of fantastic effects and the audio design with the visual effects was superb!"
     },
     "genres": [
       "Biography",
@@ -4532,7 +4557,8 @@
     "type": "movie",
     "release_year": 1995,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Old classic that I have somehow never seen before. It was a fun watch."
     },
     "genres": [
       "Adventure",
@@ -4548,7 +4574,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Had to see this because of the hype. It was a good movie, I liked how self-aware the movie was."
     },
     "genres": [
       "Adventure",
@@ -4565,7 +4592,8 @@
     "type": "movie",
     "release_year": 2003,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "A great old Swedish slapstick cop-movie!"
     },
     "genres": [
       "Action",
@@ -4581,7 +4609,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "This one was really great! I thought the trailer look cool, but I didn't expect the movie to be so entertaining."
     },
     "genres": [
       "Biography",
@@ -4631,7 +4660,8 @@
     "type": "movie",
     "release_year": 2020,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "Excellent movie. It was eerie and funny at the same time, and the acting performances was really good."
     },
     "genres": [
       "Crime",
@@ -4648,7 +4678,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Not a very bad movie, but not a great one either. It had a couple of moments of fun, but why do they set up so much around other characters if they end up ignoring the storyarcs?"
     },
     "genres": [
       "Action",
@@ -4665,7 +4696,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Excellent film. I felt like I was watching a regular movie, no bullshit, just a great movie that happend to be directed by David Fincher."
     },
     "genres": [
       "Action",
@@ -4682,7 +4714,8 @@
     "type": "movie",
     "release_year": 2004,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Great movie! Can't believe I never saw this!"
     },
     "genres": [
       "Animation",
@@ -4699,7 +4732,8 @@
     "type": "movie",
     "release_year": 2019,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "A really fun Christmas-movie! I never knew I needed a Santa Claus origin story."
     },
     "genres": [
       "Animation",
@@ -4717,7 +4751,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Such a delight of a animated movie. Good humor and voice acting!"
     },
     "genres": [
       "Animation",
@@ -4736,7 +4771,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Very good! I still remember the original like it was yesterday!"
     },
     "genres": [
       "Animation",
@@ -4753,7 +4789,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Awesome animated movie! The pacing and story was really good. And the animation was impressive, I was expecting more of the same style as the Spider-Verse movies, but this felt much more comicbook-like."
     },
     "genres": [
       "Animation",
@@ -4771,7 +4808,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Excellent movie and performances. Touching story."
     },
     "genres": [
       "Comedy",
@@ -4787,7 +4825,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Great movie! I thought I knew some of the history, but I learned a lot and it was a fun way of learning the history of BlackBerry."
     },
     "genres": [
       "Biography",
@@ -4804,7 +4843,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Dissapointing. I had high expectaions to this because a lot of critics were praising the movie. But the only thing I really liked was the setting and the design of the robots."
     },
     "genres": [
       "Action",
@@ -4821,7 +4861,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "WTF"
     },
     "genres": [
       "Comedy",
@@ -4838,7 +4879,8 @@
     "type": "movie",
     "release_year": 1999,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Fun and relevant movie."
     },
     "genres": [
       "Comedy"
@@ -4853,7 +4895,8 @@
     "type": "movie",
     "release_year": 2018,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Great Norwegian stop-motion movie! We had a great time."
     },
     "genres": [
       "Animation",
@@ -4870,7 +4913,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "It was fine."
     },
     "genres": [
       "Comedy",
@@ -4886,7 +4930,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Fun movie, but nothing more nothing less."
     },
     "genres": [
       "Comedy",
@@ -4902,7 +4947,8 @@
     "type": "movie",
     "release_year": 2000,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Great movie! Can't believe I haven't watch this before now!"
     },
     "genres": [
       "Biography",
@@ -4918,7 +4964,8 @@
     "type": "movie",
     "release_year": 2018,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Funny and interesting movie. Lots of great stories."
     },
     "genres": [
       "Comedy",
@@ -4936,7 +4983,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Meh movie. Not my type of movie, but the choclate looked really nice."
     },
     "genres": [
       "Adventure",
@@ -4953,7 +5001,8 @@
     "type": "movie",
     "release_year": 2024,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Great movie, I felt more immersed in the movie-setting in this one and I liked how most of the characters from the previous movie got more screen-time and dialogoue."
     },
     "genres": [
       "Action",
@@ -4970,7 +5019,8 @@
     "type": "movie",
     "release_year": 2024,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "meh movie. Some of the fighting was really cool, but the story..."
     },
     "genres": [
       "Action",
@@ -4986,7 +5036,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Really cool, and different horror movie. It was more like a thriller to me, but enjoyed it!"
     },
     "genres": [
       "Horror"
@@ -5002,7 +5053,8 @@
     "type": "movie",
     "release_year": 2023,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "This was so weird and thought-provoking that it was really funny and scary at the same time. Bonus, Norwegian director and writer"
     },
     "genres": [
       "Comedy",
@@ -5019,7 +5071,8 @@
     "type": "movie",
     "release_year": 2024,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "Boring Netflix documentary."
     },
     "genres": [
       "Documentary"
@@ -5034,7 +5087,8 @@
     "type": "movie",
     "release_year": 2015,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "Gave it a watch just because of the soundtrack and I do not regret it, recommended!"
     },
     "genres": [
       "Action",
@@ -5053,7 +5107,8 @@
     "type": "movie",
     "release_year": 2024,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "I didn't miss Andy Serkis that much, and it was fun to see where all the apes were 300 years after the last movie."
     },
     "genres": [
       "Action",
@@ -5070,7 +5125,8 @@
     "type": "movie",
     "release_year": 2024,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": "I had high hopes for this one after Bullet Train, it was bland. The fight-scenes were cool, but there weren't enough of it to make it a good movie."
     },
     "genres": [
       "Action",
@@ -5091,7 +5147,8 @@
     ],
     "release_year": 2024,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": "A cool war-movie about _real_ events, recommended!"
     },
     "director": [
       "Guy Ritchie"
