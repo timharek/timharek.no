@@ -12,8 +12,10 @@ import {
   GameEntry,
   Log,
   MovieEntry,
+  Review,
 } from "../../src/schemas.ts";
 import { z } from "zod";
+import { consumeMediaParam } from "https://deno.land/std@0.216.0/media_types/_util.ts";
 
 interface AvailableLogs {
   [key: string]: string[];
@@ -195,6 +197,7 @@ function Item({ item }: ItemProps) {
         <div class="md:justify-self-end">
           <DateT dateString={item.date} />
         </div>
+        <ReviewComment comment={item.review.comment} />
       </ItemWrapper>
     );
   }
@@ -206,6 +209,7 @@ function Item({ item }: ItemProps) {
         <div class="md:justify-self-end">
           <DateT dateString={item.date} />
         </div>
+        <ReviewComment comment={item.review.comment} />
       </ItemWrapper>
     );
   }
@@ -221,6 +225,7 @@ function Item({ item }: ItemProps) {
         <div class="md:justify-self-end">
           <DateT dateString={item.date} />
         </div>
+        <ReviewComment comment={item.review.comment} />
       </ItemWrapper>
     );
   }
@@ -249,6 +254,17 @@ function DateT({ dateString }: { dateString: string }) {
     <time dateTime={date.toISOString()} title={date.toISOString()}>
       {formattedDate}
     </time>
+  );
+}
+
+function ReviewComment({ comment }: { comment: Review["comment"] }) {
+  if (!comment) {
+    return <></>;
+  }
+  return (
+    <p className="row-start-3 md:row-start-2 md:col-start-3 md:col-span-2">
+      {comment}
+    </p>
   );
 }
 
