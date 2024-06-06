@@ -43,7 +43,7 @@ type Attachment = {
   duration_in_seconds?: number;
 };
 type JSONFeed = {
-  version: "https://www.jsonfeed.org/version/1.1/";
+  version: "https://www.jsonfeed.org/version/1.1";
   user_comment: string;
   title: string;
   icon?: URL;
