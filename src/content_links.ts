@@ -1,5 +1,5 @@
-import { Token, Tokens, TokensList } from "npm:marked@8.0.1";
-import { parse } from "https://esm.sh/tldts@6.0.14";
+import { Token, Tokens, TokensList } from "marked";
+import { parse } from "tldts";
 import { getAllPages } from "./content.ts";
 import { groupBy } from "./group_by.ts";
 import { marked } from "./markdown.ts";

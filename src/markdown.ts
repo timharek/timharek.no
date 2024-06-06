@@ -1,10 +1,10 @@
 import { extract } from "@std/front-matter/any";
 import { CSS } from "@deno/gfm";
 import { Extract } from "@std/front-matter";
-import { Marked } from "npm:marked@8.0.1";
-import { markedHighlight } from "npm:marked-highlight@2.0.9";
-import { gfmHeadingId } from "npm:marked-gfm-heading-id@3.1.3";
-import hljs from "npm:highlight.js@11.9.0";
+import { Marked } from "marked";
+import { markedHighlight } from "marked-highlight";
+import { gfmHeadingId } from "marked-gfm-heading";
+import hljs from "highlight.js";
 
 const highlight = await (await fetch(
   "https://esm.sh/highlight.js@11.9.0/styles/atom-one-dark.min.css",
