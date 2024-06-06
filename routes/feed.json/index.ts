@@ -43,7 +43,7 @@ type Attachment = {
   duration_in_seconds?: number;
 };
 type JSONFeed = {
-  version: "https://www.jsonfeed.org/version/1.1";
+  version: "https://jsonfeed.org/version/1.1";
   user_comment: string;
   title: string;
   icon?: URL;
@@ -60,7 +60,7 @@ type JSONFeed = {
 
 function generateJsonFeed(posts: Post[]): JSONFeed {
   return {
-    version: "https://www.jsonfeed.org/version/1.1",
+    version: "https://jsonfeed.org/version/1.1",
     user_comment:
       `"This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — ${config.base_url}/feed.json — and add it your reader."`,
     title: config.title,
