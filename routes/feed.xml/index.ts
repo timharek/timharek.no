@@ -10,7 +10,9 @@ export const handler: Handlers = {
 
     const rss = generateXML(posts.slice(0, POST_COUNT));
 
-    return new Response(rss, { headers: { "content-type": "text/xml" } });
+    return new Response(rss, {
+      headers: { "content-type": "text/xml; charset=utf-8" },
+    });
   },
 };
 
@@ -55,6 +57,11 @@ function generateXML(posts: Post[]): string {
           "@href": feedUrl,
           "@rel": "self",
           "@type": "application/atom+xml",
+        },
+        {
+          "@href": feedUrl.replace("xml", "json"),
+          "@rel": "alternate",
+          "@type": "application/json",
         },
         {
           "@href": config.base_url,

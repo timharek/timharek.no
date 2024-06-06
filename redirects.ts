@@ -30,6 +30,8 @@ export const redirects: Record<string, string> = {
   "/watched": "/logs/watched",
   "/watching": "/logs/watched",
   "/rss.xml": "/feed.xml",
+  "/feed": "/feed.xml",
+  "/rss": "/feed.xml",
   "/garden/security/password": "/blog/passwords",
   "/garden/security/password.no": "/blog/passwords",
   "/garden/tools/gpg": "/blog/getting-started-gpg",

@@ -23,15 +23,8 @@ export default function App(props: PageProps<unknown, ServerState>) {
         {config["rel=me"].map((item) => <link rel="me" href={item} />)}
         <link
           rel="alternate"
-          type="application/rss+xml"
+          type="application/atom+xml"
           href="/feed.xml"
-          title="RSS feed"
-        />
-        <link
-          rel="alternate"
-          type="application/json"
-          href="/feed.json"
-          title="JSON feed"
         />
         <title>{state.title}</title>
       </Head>
