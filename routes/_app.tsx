@@ -26,6 +26,11 @@ export default function App(props: PageProps<unknown, ServerState>) {
           type="application/atom+xml"
           href="/feed.xml"
         />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="/feed.json"
+        />
         <title>{state.title}</title>
       </Head>
       <body class="bg-bg text-white border-t-4 border-primary">
