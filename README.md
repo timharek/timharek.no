@@ -27,6 +27,8 @@ It's made with [Fresh](https://fresh.deno.dev).
   - Travels
   - Custom CLI for updating the logs
 
+More details in my [colophon].
+
 ## License
 
 [MIT](LICENSE) &copy; [Tim Hårek](https://timharek.no)
@@ -40,3 +42,4 @@ It's made with [Fresh](https://fresh.deno.dev).
 [json schema]: https://jsonresume.org/
 [blogroll]: https://timharek.no/blogroll
 [opml]: https://opml.org/spec2.opml
+[colophon]: https://timharek.no/colophon

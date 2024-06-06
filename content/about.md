@@ -28,19 +28,12 @@ More details can be found under [connect](/connect).
 
 ## Colophon
 
-This website is built using [Deno][deno] and [Fresh][deno_fresh] by yours truly.
-It's hosted on a [1984 Hosting][1984] VPS.
+This website is built using [Deno] and [Fresh] by yours truly. It's hosted on a
+[1984 Hosting] VPS.
 
-Proud member of:
+More details on my [colophon]-page.
 
-- [1MB club][1mb]
-- [512KB club][512kb]
-
-Source code is available on [SourceHut][sourcehut].
-
-[1984]: https://1984hosting.com
-[deno]: https://deno.com/
-[deno_fresh]: https://fresh.deno.dev/
-[1mb]: https://1mb.club
-[512kb]: https://512kb.club
-[sourcehut]: https://git.sr.ht/~timharek/timharek.no
+[1984 Hosting]: https://1984hosting.com
+[Deno]: https://deno.com/
+[Fresh]: https://fresh.deno.dev/
+[colophon]: /colophon
