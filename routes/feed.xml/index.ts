@@ -18,8 +18,8 @@ export const handler: Handlers = {
 
 function generateXML(posts: Post[]): string {
   const entries = posts.map((post) => {
-    const replyViaEmail =
-      `<a href="mailto:${config.author.email}?subject=${post.title}">Reply via e-mail</a>`;
+    const contentFooter =
+      `<a href="mailto:${config.author.email}?subject=RE:${post.title}">Reply via e-mail</a>`;
     return {
       "@xml:lang": "en",
       title: post.title,
@@ -41,7 +41,7 @@ function generateXML(posts: Post[]): string {
       category: post.tags.map((tag) => ({ "@term": tag.title })),
       content: {
         "@type": "html",
-        "#text": post.html + replyViaEmail,
+        "#text": post.html + contentFooter,
       },
     };
   });
