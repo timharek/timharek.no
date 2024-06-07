@@ -13,8 +13,7 @@ import * as $blog_slug_ from "./routes/blog/[slug].tsx";
 import * as $blog_index from "./routes/blog/index.tsx";
 import * as $blogroll from "./routes/blogroll.tsx";
 import * as $cv from "./routes/cv.tsx";
-import * as $feed_json_index from "./routes/feed.json/index.ts";
-import * as $feed_xml_index from "./routes/feed.xml/index.ts";
+import * as $feed_ext_ from "./routes/feed.[ext].ts";
 import * as $index from "./routes/index.tsx";
 import * as $logs_slug_ from "./routes/logs/[slug].tsx";
 import * as $logs_index from "./routes/logs/index.tsx";
@@ -39,8 +38,7 @@ const manifest = {
     "./routes/blog/index.tsx": $blog_index,
     "./routes/blogroll.tsx": $blogroll,
     "./routes/cv.tsx": $cv,
-    "./routes/feed.json/index.ts": $feed_json_index,
-    "./routes/feed.xml/index.ts": $feed_xml_index,
+    "./routes/feed.[ext].ts": $feed_ext_,
     "./routes/index.tsx": $index,
     "./routes/logs/[slug].tsx": $logs_slug_,
     "./routes/logs/index.tsx": $logs_index,
