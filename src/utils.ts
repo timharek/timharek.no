@@ -74,3 +74,14 @@ export const selectKeys = {
   next: ["down", "tab"],
   previous: ["up", "shift"],
 };
+
+export function getReplyToHTMLString(email: string, title: string): string {
+  return `<a href="${getReplyToLink(email, title)}">Reply via e-mail</a>`;
+}
+
+/**
+ * Including subject
+ */
+export function getReplyToLink(email: string, title: string): string {
+  return `mailto:${email}?subject=RE: ${title}`;
+}

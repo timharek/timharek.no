@@ -2,6 +2,7 @@ import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
 import { stringify } from "@libs/xml";
+import { getReplyToHTMLString } from "../../src/utils.ts";
 
 export const handler: Handlers = {
   async GET(_req, _ctx) {
@@ -18,8 +19,7 @@ export const handler: Handlers = {
 
 function generateXML(posts: Post[]): string {
   const entries = posts.map((post) => {
-    const contentFooter =
-      `<a href="mailto:${config.author.email}?subject=RE:${post.title}">Reply via e-mail</a>`;
+    const contentFooter = getReplyToHTMLString(config.author.email, post.title);
     return {
       "@xml:lang": "en",
       title: post.title,

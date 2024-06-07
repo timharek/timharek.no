@@ -7,6 +7,7 @@ import { config } from "../../config.ts";
 import { Link } from "../../components/Link.tsx";
 import { Icon } from "../../components/Icons.tsx";
 import { css } from "../../src/markdown.ts";
+import { getReplyToLink } from "../../src/utils.ts";
 
 interface BlogPostProps {
   post: Post;
@@ -135,7 +136,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
       </div>
       <a
         class="print:hidden border border-primary px-3 py-2 rounded-lg text-(primary hover:black) bg-(hover:primary) transition-all duration-150"
-        href={`mailto:${config.author.email}?subject=RE: ${postTitle}`}
+        href={getReplyToLink(config.author.email, postTitle)}
       >
         <span class="flex gap-2">
           <Icon.Mail aria-hidden="true" />

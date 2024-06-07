@@ -1,6 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 import { config } from "../../config.ts";
 import { getSection } from "../../src/content.ts";
+import { getReplyToHTMLString } from "../../src/utils.ts";
 
 export const handler: Handlers = {
   async GET(_req, _ctx) {
@@ -78,8 +79,9 @@ function generateJsonFeed(posts: Post[]): JSONFeed {
         url: new URL(`${config.base_url}/${post.path}`),
         date_published: post.createdAt,
         ...(post.updatedAt && { date_modified: post.updatedAt }),
-        content_html:
-          `${post.html} ${`<a href="mailto:${config.author.email}?subject=RE:${post.title}">Reply via e-mail</a>`}`,
+        content_html: `${post.html} ${
+          getReplyToHTMLString(config.author.email, post.title)
+        }`,
         ...(post.tags.length > 0 &&
           { tags: post.tags.map((tag) => tag.title) }),
       };
