@@ -446,16 +446,31 @@
     ]
   },
   {
-    "type": "book",
     "title": "Rouge Protocol",
     "date": "2024-06-04",
+    "type": "book",
     "publish_year": 2020,
+    "review": {
+      "rating": 4,
+      "comment": "The intense corridors, the scaning, talking, everything."
+    },
+    "author": [
+      "Martha Wells"
+    ],
+    "genres": [
+      "Sci-Fi"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "Exit strategy",
+    "date": "2024-06-07",
+    "publish_year": 2018,
     "author": [
       "Martha Wells"
     ],
     "review": {
-      "rating": 4,
-      "comment": "The intense corridors, the scaning, talking, everything."
+      "rating": 4
     },
     "genres": [
       "Sci-Fi"
