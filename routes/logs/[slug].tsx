@@ -15,7 +15,6 @@ import {
   Review,
 } from "../../src/schemas.ts";
 import { z } from "zod";
-import { consumeMediaParam } from "https://deno.land/std@0.216.0/media_types/_util.ts";
 
 interface AvailableLogs {
   [key: string]: string[];
