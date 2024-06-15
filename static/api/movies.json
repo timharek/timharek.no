@@ -5138,20 +5138,36 @@
     ]
   },
   {
-    "type": "movie",
     "title": "The Ministry of Ungentlemanly Warfare",
     "date": "2024-05-24",
-    "genres": [
-      "Drama",
-      "War"
-    ],
+    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "A cool war-movie about _real_ events, recommended!"
     },
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "director": [
       "Guy Ritchie"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Hit Man",
+    "date": "2024-06-15",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Richard Linklater"
     ]
   }
 ]
