@@ -11,6 +11,7 @@ Currently watching:
 - Pantheon S2
 - The Boys S4
 - Clarkson Farm S1
+- House of the Dragon S2
 
 Watchlist:
 
