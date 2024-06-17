@@ -19,7 +19,7 @@ const typeSelector: TypeSelector = {
 };
 
 const commonPath = "./static/api";
-export const logPath: Record<Entry["type"], string> = {
+const logPath: Record<Entry["type"], string> = {
   movie: `${commonPath}/movies.json`,
   tv: `${commonPath}/tv_shows.json`,
   game: `${commonPath}/games.json`,
