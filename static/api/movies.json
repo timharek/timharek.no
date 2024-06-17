@@ -5169,5 +5169,21 @@
     "director": [
       "Richard Linklater"
     ]
+  },
+  {
+    "type": "movie",
+    "title": "The Antisocial Network",
+    "date": "2024-06-16",
+    "genres": [
+      "Documentary"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Giorgio Angelini",
+      "Arthur Jones"
+    ]
   }
 ]

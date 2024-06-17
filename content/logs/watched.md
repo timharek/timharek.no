@@ -7,8 +7,10 @@ Movies and TV shows that I've watched. Not a complete list.
 
 Currently watching:
 
-- Succession S4
+- Succession S4 (not sure when we'll finish this one...)
 - Pantheon S2
+- The Boys S4
+- Clarkson Farm S1
 
 Watchlist:
 
