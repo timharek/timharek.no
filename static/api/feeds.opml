@@ -8,6 +8,7 @@
 	<outline text="Blogs" title="Blogs">
 		<outline text="Alan Norbauer" title="Alan Norbauer" description="" type="rss" version="RSS" htmlUrl="https://alan.norbauer.com/" xmlUrl="https://alan.norbauer.com/rss.xml"/>
 		<outline text="Arne Bahlo" title="Arne Bahlo" description="" type="rss" version="RSS" htmlUrl="https://arne.me/" xmlUrl="https://arne.me/feed.xml"/>
+		<outline text="Arne’s Weekly" title="Arne’s Weekly" description="" type="rss" version="RSS" htmlUrl="https://arne.me/weekly" xmlUrl="https://arne.me/weekly/feed.xml"/>
 		<outline text="Ben Kuhn" title="Ben Kuhn" description="" type="rss" version="RSS" htmlUrl="https://www.benkuhn.net/" xmlUrl="https://www.benkuhn.net/index.xml"/>
 		<outline text="Björn Rust" title="Björn Rust" description="" type="rss" version="RSS" htmlUrl="https://bjornrust.com/" xmlUrl="https://bjornrust.com/feed/feed.json"/>
 		<outline text="Bjørn Stærk" title="Bjørn Stærk" description="" type="rss" version="RSS" htmlUrl="https://bearstrong.net/" xmlUrl="https://bearstrong.net/index.xml"/>
@@ -55,6 +56,7 @@
 		<outline text="Nick Scialli" title="Nick Scialli" description="" type="rss" version="RSS" htmlUrl="https://nick.scialli.me/" xmlUrl="https://nick.scialli.me/feed/feed.json"/>
 		<outline text="Nils Norman Haukås" title="Nils Norman Haukås" description="" type="rss" version="RSS" htmlUrl="https://nilsnh.no/" xmlUrl="https://nilsnh.no/index.xml"/>
 		<outline text="NOYB.eu" title="NOYB.eu" description="" type="rss" version="RSS" htmlUrl="https://noyb.eu/en" xmlUrl="https://noyb.eu/en/rss"/>
+		<outline text="Out of the Software Crisis (Newsletter)" title="Out of the Software Crisis (Newsletter)" description="" type="rss" version="RSS" htmlUrl="https://softwarecrisis.dev/" xmlUrl="https://softwarecrisis.dev/feed.xml"/>
 		<outline text="Paul Stamatiou" title="Paul Stamatiou" description="" type="rss" version="RSS" htmlUrl="https://paulstamatiou.com/" xmlUrl="https://paulstamatiou.com/posts.xml"/>
 		<outline text="Personvernbloggen" title="Personvernbloggen" description="" type="rss" version="RSS" htmlUrl="https://www.personvernbloggen.no/" xmlUrl="https://www.personvernbloggen.no/feed/"/>
 		<outline text="Peter Cammeraat" title="Peter Cammeraat" description="" type="rss" version="RSS" htmlUrl="https://petercammeraat.net/" xmlUrl="https://petercammeraat.net/index.xml"/>
