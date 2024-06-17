@@ -55,12 +55,7 @@ export async function logMovieOrTv(
     movieOrTVPrompt,
   );
 
-  const options = {
-    api: Deno.env.get("OMDB_API") ?? "",
-    titleOrId: title,
-  };
-
-  const entry = await getTitle({ titleOrId: options.titleOrId });
+  const entry = await getTitle({ titleOrId: title });
 
   if (!entry) {
     throw new Error("Couldn't find title.");
