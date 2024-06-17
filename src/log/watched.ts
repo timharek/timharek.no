@@ -16,6 +16,10 @@ const movieOrTVSchema = z.object({
 export async function logMovieOrTv(
   logType: Entry["type"],
 ): Promise<Entry> {
+  if (logType !== "movie" && logType !== "tv") {
+    throw new Error("Must be either movie or TV");
+  }
+
   const currentDate = getCurrentDate();
 
   const movieOrTVPrompt = await prompt([
