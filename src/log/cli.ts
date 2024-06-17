@@ -1,7 +1,10 @@
-import { Select } from "@cliffy/prompt";
 import { Entry, Log } from "../schemas.ts";
+import { Select } from "@cliffy/prompt";
+import { logGame } from "./games.ts";
+import { logRead } from "./reading.ts";
+import { logTravel } from "./travel.ts";
+import { logWatched } from "./watched.ts";
 import { selectKeys } from "../utils.ts";
-import { log } from "./index.ts";
 import { z } from "zod";
 
 type TypeSelector = Record<
@@ -10,12 +13,11 @@ type TypeSelector = Record<
 >;
 
 const typeSelector: TypeSelector = {
-  movie: log.movieTv,
-  tv: log.movieTv,
-  game: log.game,
-  book: log.book,
-  travel: log.trip,
-  life: log.life,
+  movie: logWatched,
+  tv: logWatched,
+  game: logGame,
+  book: logRead,
+  travel: logTravel,
 };
 
 const commonPath = "./static/api";
@@ -25,7 +27,6 @@ const logPath: Record<Entry["type"], string> = {
   game: `${commonPath}/games.json`,
   book: `${commonPath}/books.json`,
   travel: `${commonPath}/travel.json`,
-  life: `${commonPath}/life.json`,
 };
 
 async function writeNewEntryToFile(path: string, entry: Entry) {
@@ -45,7 +46,6 @@ if (import.meta.main) {
       { name: "Game", value: "game" },
       { name: "Book", value: "book" },
       { name: "Travel", value: "travel" },
-      { name: "Life event", value: "life" },
     ],
     search: true,
     keys: selectKeys,

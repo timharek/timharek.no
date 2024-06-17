@@ -2,7 +2,7 @@ import { Input, List, prompt, Select } from "@cliffy/prompt";
 import { Entry, Log } from "../schemas.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 
-export async function logTrip(): Promise<Entry> {
+export async function logTravel(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const { title, departure, arrival, occasion, country, countryEmoji, cities } =

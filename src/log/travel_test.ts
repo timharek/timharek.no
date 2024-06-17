@@ -1,7 +1,7 @@
 import { assertEquals } from "@std/assert";
 import { inject } from "@cliffy/prompt";
 import { Entry } from "../schemas.ts";
-import { logTrip } from "./travel.ts";
+import { logTravel } from "./travel.ts";
 
 Deno.test("Log a trip", async () => {
   inject({
@@ -14,7 +14,7 @@ Deno.test("Log a trip", async () => {
     title: "Travel through time",
   });
 
-  const entry = await logTrip();
+  const entry = await logTravel();
 
   const expected: Entry = {
     title: "Travel through time",

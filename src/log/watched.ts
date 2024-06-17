@@ -13,7 +13,7 @@ const movieOrTVSchema = z.object({
   rating: z.number().max(5).min(1),
 });
 
-export async function logMovieOrTv(
+export async function logWatched(
   logType: Entry["type"],
 ): Promise<Entry> {
   if (logType !== "movie" && logType !== "tv") {

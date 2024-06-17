@@ -18,7 +18,7 @@ const metadataSchema = z.object({
   selectedResult: z.string(),
 });
 
-export async function logBook(): Promise<Entry> {
+export async function logRead(): Promise<Entry> {
   const currentDate = getCurrentDate();
 
   const titleAuthorPrompt = await prompt([

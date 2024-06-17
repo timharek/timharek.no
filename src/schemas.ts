@@ -55,12 +55,6 @@ const TravelEntry = z.object({
   }),
 });
 
-const LifeEventEntry = z.object({
-  type: z.enum(["life"]),
-  description: z.string(),
-  category: z.string().optional(),
-});
-
 const Entry = z.intersection(
   z.object({
     title: z.string(),
@@ -72,7 +66,6 @@ const Entry = z.intersection(
     GameEntry,
     BookEntry,
     TravelEntry,
-    LifeEventEntry,
   ]),
 );
 
