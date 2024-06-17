@@ -6,7 +6,7 @@ const Review = z.object({
 });
 
 const MovieEntry = z.object({
-  type: z.enum(["movie"]),
+  type: z.literal("movie"),
   release_year: z.number(),
   review: Review,
   genres: z.array(z.string()).optional(),
@@ -14,7 +14,7 @@ const MovieEntry = z.object({
 });
 
 const TVEntry = z.object({
-  type: z.enum(["tv"]),
+  type: z.literal("tv"),
   release_year: z.number().nullable(),
   review: Review,
   genres: z.array(z.string()).optional(),
@@ -25,7 +25,7 @@ const TVEntry = z.object({
 });
 
 const GameEntry = z.object({
-  type: z.enum(["game"]),
+  type: z.literal("game"),
   release_year: z.number(),
   review: Review,
   genres: z.array(z.string()).optional(),
@@ -33,7 +33,7 @@ const GameEntry = z.object({
 });
 
 const BookEntry = z.object({
-  type: z.enum(["book"]),
+  type: z.literal("book"),
   publish_year: z.number(),
   review: Review,
   author: z.array(z.string()),
@@ -43,7 +43,7 @@ const BookEntry = z.object({
 const Occassion = z.enum(["business", "pleasure"]);
 
 const TravelEntry = z.object({
-  type: z.enum(["travel"]),
+  type: z.literal("travel"),
   occasion: Occassion,
   to_date: z.string(),
   location: z.object({
