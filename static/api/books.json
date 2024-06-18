@@ -462,15 +462,30 @@
     ]
   },
   {
-    "type": "book",
     "title": "Exit strategy",
     "date": "2024-06-07",
+    "type": "book",
     "publish_year": 2018,
+    "review": {
+      "rating": 4
+    },
+    "author": [
+      "Martha Wells"
+    ],
+    "genres": [
+      "Sci-Fi"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "Network Effect",
+    "date": "2024-06-18",
+    "publish_year": 2020,
     "author": [
       "Martha Wells"
     ],
     "review": {
-      "rating": 4
+      "rating": 5
     },
     "genres": [
       "Sci-Fi"
