@@ -1335,18 +1335,36 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Hvite gutter",
     "date": "2024-05-24",
-    "genres": [
-      "Comedy"
-    ],
+    "type": "tv",
     "release_year": 2018,
     "review": {
       "rating": 4,
       "comment": "Norwegian show about some rich/spolied white dudes that only parties, it has its moments."
     },
+    "genres": [
+      "Comedy"
+    ],
     "season": 7,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Clarkson's Farm",
+    "date": "2024-06-19",
+    "genres": [
+      "Documentary",
+      "Comedy",
+      "Reality-TV"
+    ],
+    "release_year": 2021,
+    "review": {
+      "rating": 4
+    },
+    "season": 1,
     "director": [
       "N/A"
     ]
