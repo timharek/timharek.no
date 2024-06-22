@@ -10,7 +10,7 @@ Currently watching:
 - Succession S4 (not sure when we'll finish this one...)
 - Pantheon S2
 - The Boys S4
-- Clarkson Farm S2
+- Clarkson Farm S3
 - House of the Dragon S2
 
 Watchlist:
