@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updatedAt = 2023-12-17
+updatedAt = 2024-06-22
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not
@@ -18,13 +18,14 @@ when possible!_
 
 ## Books
 
-|        |                                                                                                                                   |
-| -----: | :-------------------------------------------------------------------------------------------------------------------------------- |
-| 370 kr | [The Unicorn Project](https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/the-unicorn-project)                   |
-| 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer)          |
-| 199 kr | [The Internet Con](https://www.norli.no/boker/fagboker/samfunnsvitenskap/statsvitenskap-politikk-og-forvaltning/the-internet-con) |
-| 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)                    |
-| 265 kr | [Ada & Zangemann](https://www.norli.no/boker/barneboker/ada-zangemann)                                                            |
+|        |                                                                                                                                                              |
+| -----: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 370 kr | [The Unicorn Project](https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/the-unicorn-project)                                              |
+| 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer)                                     |
+| 199 kr | [The Internet Con](https://www.norli.no/boker/fagboker/samfunnsvitenskap/statsvitenskap-politikk-og-forvaltning/the-internet-con)                            |
+| 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)                                               |
+| 265 kr | [Ada & Zangemann](https://www.norli.no/boker/barneboker/ada-zangemann)                                                                                       |
+| 879 kr | [The Murderbot Diaries collection (first 4)](https://www.outland.no/the-murderbot-diaries-all-systems-red-artificial-condition-rogue-protocol-exit-strategy) |
 
 ## DIY
 
@@ -35,10 +36,9 @@ when possible!_
 
 ## Home
 
-|           |                                                                                                                                                                                               |
-| --------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 16 490 kr | [Miele dishwasher](https://www.komplett.no/product/1197120/hvitevarer/oppvaskmaskin/miele-g-7277-scvi-xxl-integrert-oppvaskmaskin?channable=01e1fe696400313139373132307a&_Home_White_goods=#) |
-|         ? | Coffee table                                                                                                                                                                                  |
+|     |              |
+| --: | :----------- |
+|   ? | Coffee table |
 
 ## Art
 
