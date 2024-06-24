@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-04-19
+updatedAt = 2024-06-24
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -35,13 +35,13 @@ some snapshots of my current workspace.
 
 ### Homelab
 
-|            |                                                                  |
-| ---------: | :--------------------------------------------------------------- |
-|  Gaming PC | Custom built                                                     |
-|  Hand-held | Steam Deck 512GB                                                 |
-|   Consoles | PlayStation 5 disc, Nintendo Switch OLED                         |
-|    Servers | Intel NUC i5, Raspberry Pi 4B 4GB x2, decommissioned ThinkCentre |
-| 3D-printer | Original Prusa MK4                                               |
+|            |                                          |
+| ---------: | :--------------------------------------- |
+|  Gaming PC | Custom built                             |
+|  Hand-held | Steam Deck 512GB                         |
+|   Consoles | PlayStation 5 disc, Nintendo Switch OLED |
+|     Server | Zimaboard 432                            |
+| 3D-printer | Original Prusa MK4                       |
 
 <figure>
   <img
