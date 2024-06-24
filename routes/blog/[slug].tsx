@@ -78,6 +78,7 @@ export default function BlogPost({ data }: PageProps<BlogPostProps>) {
           date={post.createdAt}
           updated={post.updatedAt}
           readingTime={post.readingTime}
+          draft={post.draft}
         />
         <div
           class="markdown-body e-content"

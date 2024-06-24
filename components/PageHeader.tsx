@@ -1,18 +1,22 @@
-interface PageHeaderProps {
+import { Badge } from "./Badge.tsx";
+
+type PageHeaderProps = {
   title: string;
   date?: Date;
   updated?: Date;
   readingTime?: number;
-}
+  draft?: boolean;
+};
 
 export function PageHeader(
-  { title, date, updated, readingTime }: PageHeaderProps,
+  { title, date, updated, readingTime, draft }: PageHeaderProps,
 ) {
   return (
     <div class="mb-4">
       <h1 class="p-name text-4xl font-semibold mb-4">{title}</h1>
-      {(date || updated || readingTime) && (
+      {(date || updated || readingTime || draft) && (
         <div class="space-y-1">
+          {draft && <Badge label="Draft" />}
           {date && (
             <DateBlock date={date} text="Published" className="dt-published" />
           )}
