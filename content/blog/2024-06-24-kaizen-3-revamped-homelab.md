@@ -1,7 +1,6 @@
 +++
 title = "Kaizen #3: Revamped homelab"
 description = "How I revamped my homelab."
-draft = true
 tags = ["Kaizen", "Homelab"]
 +++
 
