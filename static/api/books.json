@@ -477,15 +477,30 @@
     ]
   },
   {
-    "type": "book",
     "title": "Network Effect",
     "date": "2024-06-18",
+    "type": "book",
     "publish_year": 2020,
+    "review": {
+      "rating": 5
+    },
+    "author": [
+      "Martha Wells"
+    ],
+    "genres": [
+      "Sci-Fi"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "Fugitive Telemetry",
+    "date": "2024-06-22",
+    "publish_year": 2021,
     "author": [
       "Martha Wells"
     ],
     "review": {
-      "rating": 5
+      "rating": 4
     },
     "genres": [
       "Sci-Fi"
