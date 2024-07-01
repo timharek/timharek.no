@@ -449,7 +449,7 @@
     "title": "Rouge Protocol",
     "date": "2024-06-04",
     "type": "book",
-    "publish_year": 2020,
+    "publish_year": 2018,
     "review": {
       "rating": 4,
       "comment": "The intense corridors, the scaning, talking, everything."
@@ -482,7 +482,8 @@
     "type": "book",
     "publish_year": 2020,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": "This entry was so full of detail, like the previous ones, but on a different level. It had so much exciting going on!"
     },
     "author": [
       "Martha Wells"
