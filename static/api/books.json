@@ -493,15 +493,31 @@
     ]
   },
   {
-    "type": "book",
     "title": "Fugitive Telemetry",
     "date": "2024-06-22",
+    "type": "book",
     "publish_year": 2021,
+    "review": {
+      "rating": 4
+    },
+    "author": [
+      "Martha Wells"
+    ],
+    "genres": [
+      "Sci-Fi"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "System Collapse",
+    "date": "2024-07-02",
+    "publish_year": 2023,
     "author": [
       "Martha Wells"
     ],
     "review": {
-      "rating": 4
+      "rating": 5,
+      "comment": "Excellent! The action-parts feels like a cinematic experience in book/audiobook-form."
     },
     "genres": [
       "Sci-Fi"
