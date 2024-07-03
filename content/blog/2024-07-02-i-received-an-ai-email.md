@@ -62,6 +62,9 @@ GitHub-profile now, but they can probably get it from my Git-log anyway...
 
 Thanks Raymond, I hate spam.
 
+- [Discussion on Hacker News](https://news.ycombinator.com/item?id=40862865)
+- [Discussion on Lobsters](https://lobste.rs/s/ruwqar/i_received_ai_email)
+
 [How I Use AI Agents to Send 1000 Personalized Email for Outreach]:
   https://www.wisp.blog/blog/how-i-use-ai-agents-to-send-1000-personalized-email-for-outreach
 [last month]: /blog/2024-june-recently
