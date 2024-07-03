@@ -1,7 +1,7 @@
 +++
 title = "I received an AI email"
 description = "At first I thought it was from a reader."
-tags = ["AI", "Email"]
+tags = ["AI", "Email", "Rant"]
 updatedAt = 2024-07-03
 +++
 
