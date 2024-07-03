@@ -1,7 +1,8 @@
 +++
 title = "I received an AI email"
 description = "At first I thought it was from a reader."
-tags = ["AI", "Thoughts"]
+tags = ["AI", "Email"]
+updatedAt = 2024-07-03
 +++
 
 Yesterday, July 1st, I received an email from a "Raymond":
@@ -23,7 +24,7 @@ Yesterday, July 1st, I received an email from a "Raymond":
 
 At first I thought this was from a reader, because of the first sentence, that
 happened to work on a CMS called Wisp. But something was off, since they saw
-that I used Deno Fresh for my blog I assumed that they must have dove a bit
+that I used Deno Fresh for my blog I assumed that they must have dug a bit
 deeper before saying a CMS is "perfect for your needs". But if they had made an
 effort they could have found out that I use plaintext Markdown and that I enjoy
 that workflow because it's set up using CI/CD.
@@ -31,15 +32,15 @@ that workflow because it's set up using CI/CD.
 I went to check out Wisp CMS and saw that it was headless CMS, alright. Then I
 went straight to their blog, and saw that the latest blogpost, from today July
 2nd, was "[How I Use AI Agents to Send 1000 Personalized Email for Outreach]".
-And right there in the featured image of the post was almost excately the email
-I had received.
+And right there in the featured image of the post was almost exactly the email I
+had received.
 
 And then I remembered one of the links from [last month], a blogpost by Neven
 Mrgan: [How it feels to get an AI email from a friend]
 
 I don't think this is the one and the same, but there are similarities. If
 "Raymond" had made an effort to write this email and showed me how their CMS
-would solve something for my particilar blog, I would most likely checked it out
+would solve something for my particular blog, I would most likely checked it out
 with an open mind, but they didn't do that.
 
 And their blogpost starts of with:
