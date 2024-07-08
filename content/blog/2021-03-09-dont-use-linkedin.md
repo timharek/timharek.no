@@ -2,31 +2,31 @@
 title = "Why I don't use LinkedIn"
 description = "How I used LinkedIn in the past, my interactions and why I deleted my account i 2020."
 tags = ["Social media", "Privacy"]
+updatedAt = 2024-07-08
 +++
 
-I created my LinkedIn-profile back in 2013-2014, back when I actually didn't
-have any job experience other than my part-time holiday job at Vest Kontakt
-(same place I'm the IT manager today). I cannot remember why I decided to join
-so early, but I guess it had to do with the FOMO, especially since I was 16-18
-years old back then.
+I started using LinkedIn in 2013/2014, when I didn't have any job experience
+other than part-time while I went to senior high school. I don't recall why I
+joined, I guess it had to do with the FOMO, especially since I was 16–18 years
+old back then.
 
-I also want to add that not everything with LinkedIn is necessarily a bad thing,
-but I believe everyone is able to live without any need for social network where
-the primary focus is "work". I've had a few interesting interaction on the
-platform myself, but nothing ever came of it.
+And I want to preface that not everything with LinkedIn is necessarily bad , but
+I believe everyone is able to live without any need for social network where the
+primary focus is "work". I've had a few interesting interaction on the platform
+myself, but nothing ever came of it.
 
 ## My interactions
 
 Back in 2016, when I still didn't have any real experience nor a education
 higher than senior high school, I was contacted by a recruiting agency by phone.
 They were looking for developers for a local startup, and asked if they could
-interview me because of my relevant profile on LinkedIn. I remember back then, I
-was really stoked that someone found my profile and actually wanted to interview
-for an actual job... but how did they conclude that a teenager without a degree
-was a good fit? I remember I asked them that, and they replied that they might
-have misunderstood my profile or something along those lines. But I told them
-straight up that I was not qualified for a job like that, even though I really
-wanted to get a job as a developer.
+interview me because of my "relevant profile" on LinkedIn. I remember back then,
+I was really stoked that someone found my profile and actually wanted to
+interview for an actual job... but how did they conclude that a teenager without
+a degree was a good fit? I remember I asked them that, and they replied that
+they might have misunderstood my profile or something along those lines. But I
+told them straight up that I was not qualified for a job like that, even though
+I really wanted to get a job as a developer.
 
 In 2018, a week after I updated my profile with my part-time job as an
 IT-assistant at the University of Bergen, I received a message from an IT
@@ -43,28 +43,28 @@ that this was "standard procedure" at their company... ehm, wtf, it's normal to
 ask complete strangers to do their biddings? I told him that I still thought it
 sounded sketchy, and he said he would be able to pay me 100 USD for the job, if
 I could do it the next day. Long story short, I never did the job for them, I
-didn't trust them at all. I even contacted the "real" company via email to find
-out if this was legit, and to my suprise, the same lady that messaged me on
-LinkedIn replied to my email, even though she was not listed on their website.
+didn't trust them. I even contacted the "real" company via email to find out if
+this was legit, and to my suprise, the same lady that messaged me on LinkedIn
+replied to my email, even though she was not listed on their website.
 
-The last two years, 2019-2020, I received a few more short messages, from
-recuriters who didn't bother to read my profile, asking me if I wanted to attend
-their courses, seminars and even a few interviews. But none of them was ever
-relevant to anything on my profile, and when I asked them about it, they simply
-said "Sorry, have a nice day".
+During 2019 and 2020, I received a more shorter messages, from recuriters who
+didn't bother to read my profile, asking me if I wanted to attend their courses,
+seminars and even a few interviews. But none of them was ever relevant to
+anything on my profile, and when I asked them about it, they simply said "Sorry,
+have a nice day".
 
 ## Why I deleted my account
 
-Most of my interactions, got me nowhere. They added more anxiety and stress to
-my life, by showing an interest in me, when they really didn't, because they
-didn't pay attention to the people they contacted.
+Most of my interactions got me nowhere. They added more anxiety and stress to my
+life, by showing an interest in me, when they really didn't, because they didn't
+pay attention to the people they contacted.
 
 Earlier, I always hoped that someone would notice me on the internet, and
 realize that I had potential just by looking at my LinkedIn-profile... but this
 is just an odd thing to hope for. My work experience might stand out a bit, with
-the varied background that I have, but there world is probably filled with
-people with more relevant experience on their LinkedIn for the kind of work I'm
-looking for.
+the varied background that I have, but the world is probably filled with people
+with more relevant experience on their LinkedIn for the kind of work I'm looking
+for.
 
 When I realized this in 2020, I thought to myself, it would be much cooler to
 have my own custom-built resume on my website, that is also a printable PDF
@@ -89,5 +89,5 @@ beforehand, instead of just including me in a mass-message chain.
 
 ## Sidenote
 
-My website (including my resume) is open source, feel free to fork it on
+My website (including my CV/resume) is open source, feel free to fork it on
 [GitHub](https://github.com/timharek/timharek.no) and create something awesome!
