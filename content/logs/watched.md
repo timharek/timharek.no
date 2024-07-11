@@ -20,6 +20,11 @@ Watchlist:
 - The Sweet East (2023)
 - Civil War (2024)
 - Killers of the Flower Moon (2023)
+- Spermageddon (2024)
+- The Mauritanian (2021)
+- The Legend of Vox Machina S3
+- Silo S2
+- Severance S2
 
 <details>
   <summary>Legend</summary>

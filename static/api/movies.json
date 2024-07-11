@@ -5155,37 +5155,55 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Hit Man",
     "date": "2024-06-15",
-    "genres": [
-      "Action",
-      "Comedy"
-    ],
+    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "It felt like a real movie, and the setting was really interesting. There were a lot of funny moments, highly recommend a watch!"
     },
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
     "director": [
       "Richard Linklater"
     ]
   },
   {
-    "type": "movie",
     "title": "The Antisocial Network",
     "date": "2024-06-16",
-    "genres": [
-      "Documentary"
-    ],
+    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "I wasn't aware that 4chan was behind so much of how the 'modern' internet is today, and how bad things have gotten because of it."
     },
+    "genres": [
+      "Documentary"
+    ],
     "director": [
       "Giorgio Angelini",
       "Arthur Jones"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Inside Out",
+    "date": "2024-07-10",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "release_year": 2015,
+    "review": {
+      "rating": 4
+    },
+    "director": [
+      "Pete Docter",
+      "Ronnie Del Carmen"
     ]
   }
 ]
