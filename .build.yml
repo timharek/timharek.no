@@ -6,7 +6,8 @@ environment:
   deploy: tim@vps.tukler.no
   GIT_SSH_COMMAND: ssh -o StrictHostKeyChecking=no
 secrets:
-  - 0323bc6f-a046-4b96-8496-2bac6e7ee107
+  - 0323bc6f-a046-4b96-8496-2bac6e7ee107 # SSH
+  - 907ce8b2-6e34-47d4-839f-bf097bde15bd # OMDB
 sources:
   - https://git.sr.ht/~timharek/timharek.no
 triggers:
@@ -17,6 +18,9 @@ tasks:
   - setup: |
       echo 'cd timharek.no' >> ~/.buildenv
   - test: |
+      set +x
+      export OMDB_API=$(cat ~/OMDB_API)
+      set -x
       deno test -A
       deno task check
   - nopr: |
