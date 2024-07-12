@@ -9,6 +9,7 @@ Deno.test("Log a game", async () => {
     platform: "PC",
     releaseYear: 2012,
     date: "2012-12-26",
+    comment: "",
     rating: "5",
   });
 
@@ -19,7 +20,7 @@ Deno.test("Log a game", async () => {
     type: "game",
     date: "2012-12-26",
     release_year: 2012,
-    review: { rating: 5 },
+    review: { rating: 5, comment: "" },
     genres: [],
     platform: "PC",
   };
