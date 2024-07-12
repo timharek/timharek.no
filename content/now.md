@@ -1,12 +1,12 @@
 +++
 title = "What I'm doing now"
-updatedAt = 2024-06-06
+updatedAt = 2024-07-12
 +++
 
 - Paternal leave from work, taking care of our daughter.
 - Making [Hima][hima] easier to use and develop, simplify.
 - Fixing stuff around the house with 3D printing.
-- Making a personal logging tool, [sekk]
+- ~Making a personal logging tool, [sekk]~
 
 ## Recent
 
