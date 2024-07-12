@@ -5189,21 +5189,39 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Inside Out",
     "date": "2024-07-10",
+    "type": "movie",
+    "release_year": 2015,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Animation",
       "Adventure",
       "Comedy"
     ],
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
     "director": [
       "Pete Docter",
       "Ronnie Del Carmen"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Inside Out 2",
+    "date": "2024-07-12",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 3,
+      "comment": "It felt too much, not as great as the first one."
+    },
+    "director": [
+      "Kelsey Mann"
     ]
   }
 ]
