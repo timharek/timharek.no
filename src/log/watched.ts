@@ -11,6 +11,7 @@ const movieOrTVSchema = z.object({
     new Date(value).toISOString().split("T")[0]
   ),
   rating: z.number().max(5).min(1),
+  comment: z.string().optional(),
 });
 
 export async function logWatched(
@@ -47,6 +48,11 @@ export async function logWatched(
       type: Input,
     },
     {
+      name: "comment",
+      message: "Comment, what did you think?",
+      type: Input,
+    },
+    {
       name: "rating",
       message: "How many stars? (1-5)",
       type: Number,
@@ -55,7 +61,7 @@ export async function logWatched(
     },
   ]);
 
-  const { title, season, rating, date } = movieOrTVSchema.parse(
+  const { title, season, rating, date, comment } = movieOrTVSchema.parse(
     movieOrTVPrompt,
   );
 
@@ -72,7 +78,7 @@ export async function logWatched(
       date,
       genres: entry.Genre,
       release_year: parseInt(entry.Year),
-      review: { rating },
+      review: { rating, comment },
       director: entry.Director,
     };
   }
@@ -83,7 +89,7 @@ export async function logWatched(
     date,
     genres: entry.Genre,
     release_year: parseInt(entry.Year) ?? null,
-    review: { rating },
+    review: { rating, comment },
     season: season ?? 0,
     director: entry.Director,
   };

@@ -15,6 +15,7 @@ const metadataSchema = z.object({
   ),
   genres: z.array(z.string()),
   rating: z.number(),
+  comment: z.string().optional(),
   selectedResult: z.string(),
 });
 
@@ -73,15 +74,21 @@ export async function logRead(): Promise<Entry> {
       suggestions: [currentDate],
     },
     {
+      name: "comment",
+      message: "Comment, what did you think?",
+      type: Input,
+    },
+    {
       name: "rating",
       message: "How many stars? (1-5)",
       type: Number,
     },
   ]);
 
-  const { date, genres, rating, selectedResult } = metadataSchema.parse(
-    metadataPrompt,
-  );
+  const { date, genres, rating, selectedResult, comment } = metadataSchema
+    .parse(
+      metadataPrompt,
+    );
 
   const result = await book.get(selectedResult.split("/")[2]);
   const bookFields =
@@ -93,7 +100,7 @@ export async function logRead(): Promise<Entry> {
     date,
     publish_year: bookFields.publishYear ?? 0,
     author: bookFields.author ?? [],
-    review: { rating },
+    review: { rating, comment },
     genres,
   };
 }
