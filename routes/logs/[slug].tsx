@@ -237,7 +237,7 @@ function ItemWrapper(
   },
 ) {
   return (
-    <li class="py-4 grid md:grid-cols-4 grid-cols-1 gap-4">
+    <li class="py-4 grid md:grid-cols-4 grid-cols-1 gap-4 hover:bg-zinc-800">
       {children}
     </li>
   );
