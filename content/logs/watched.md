@@ -25,6 +25,7 @@ Watchlist:
 - The Legend of Vox Machina S3
 - Silo S2
 - Severance S2
+- The Wild Robot (2024)
 
 <details>
   <summary>Legend</summary>
