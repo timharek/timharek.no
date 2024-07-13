@@ -5207,21 +5207,39 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Inside Out 2",
     "date": "2024-07-12",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
+    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 3,
       "comment": "It felt too much, not as great as the first one."
     },
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
     "director": [
       "Kelsey Mann"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Zone of Interest",
+    "date": "2024-07-12",
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 3,
+      "comment": "Too abstract/artsy for me. I like the sentiment the movie tells, but it was slow."
+    },
+    "director": [
+      "Jonathan Glazer"
     ]
   }
 ]
