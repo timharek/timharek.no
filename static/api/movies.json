@@ -5225,21 +5225,38 @@
     ]
   },
   {
-    "type": "movie",
     "title": "The Zone of Interest",
     "date": "2024-07-12",
-    "genres": [
-      "Drama",
-      "History",
-      "War"
-    ],
+    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "Too abstract/artsy for me. I like the sentiment the movie tells, but it was slow."
     },
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
     "director": [
       "Jonathan Glazer"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "The Bikeriders",
+    "date": "2024-07-15",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "release_year": 2023,
+    "review": {
+      "rating": 4,
+      "comment": "Cool movie with an interesting setting."
+    },
+    "director": [
+      "Jeff Nichols"
     ]
   }
 ]
