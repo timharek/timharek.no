@@ -1352,55 +1352,74 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Clarkson's Farm",
     "date": "2024-06-19",
+    "type": "tv",
+    "release_year": 2021,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Documentary",
       "Comedy",
       "Reality-TV"
     ],
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
     "season": 1,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Clarkson's Farm",
     "date": "2024-06-21",
+    "type": "tv",
+    "release_year": 2021,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Documentary",
       "Comedy",
       "Reality-TV"
     ],
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
     "season": 2,
     "director": [
       "N/A"
     ]
   },
   {
-    "type": "tv",
     "title": "Clarkson's Farm",
     "date": "2024-06-25",
+    "type": "tv",
+    "release_year": 2021,
+    "review": {
+      "rating": 4
+    },
     "genres": [
       "Documentary",
       "Comedy",
       "Reality-TV"
     ],
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
     "season": 3,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "The Acolyte",
+    "date": "2024-07-17",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Cool show. Some of the characters decisions were weird, and the flashbacks felt rushed."
+    },
+    "season": 1,
     "director": [
       "N/A"
     ]
