@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #2563eb;
+    /* slate-100 */
+    --color-bg: rgb(241, 245, 249);
+    /* zinc-900 */
+    --color-text: rgb(24, 24, 27);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-primary: #0098fd;
+      /* zinc-900 */
+      --color-bg: rgb(24, 24, 27);
+      /* slate-100 */
+      --color-text: rgb(241, 245, 249);
+    }
+  }
+}

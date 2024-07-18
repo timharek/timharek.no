@@ -18,7 +18,7 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
   return (
     <>
       <a
-        class="print:hidden transition left-0 bg-primary text-black absolute p-3 m-3 -translate-y-32 focus:translate-y-0"
+        class="print:hidden transition left-0 bg-primary text-bg font-semibold absolute p-3 m-3 -translate-y-32 focus:translate-y-0"
         href="#main"
       >
         Skip to content
@@ -35,7 +35,7 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
         >
           <Logo className="w-16 h-16" />
           <div className="md:border-4 border-bg md:p-1 md:group-hover:border-primary transition-all">
-            <div className="group-hover:underline bg-primary h-max text-black font-bold p-1">
+            <div className="group-hover:underline bg-primary h-max text-bg font-bold p-1">
               Tim Hårek
             </div>
           </div>

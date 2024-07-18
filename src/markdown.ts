@@ -23,10 +23,9 @@ export const css = `
     ${highlight}
 
     .markdown-body {
-      /* bg-zinc-900 */
-      --color-canvas-default: rgba(24,24,27,var(--tw-bg-opacity)) !important; 
-      --color-fg-default: white !important;
-      --color-accent-fg: #0098fd;
+      --color-canvas-default: hsl(var(--color-bg) / var(--tw-bg-opacity)) !important; 
+      --color-fg-default: var(--color-text) !important;
+      --color-accent-fg: var(--color-primary);
     }
     .markdown-body ul {
       list-style: disc;
@@ -45,7 +44,7 @@ export const css = `
       text-decoration: underline;
       text-decoration-color: var(--color-accent-fg);
       background-color: var(--color-accent-fg);
-      color: black;
+      color: var(--color-bg);
     }
     .markdown-body table {
       border: none;

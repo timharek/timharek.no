@@ -136,7 +136,7 @@ function Metadata({ tags, postTitle, wordCount }: MetadataProps) {
         </div>
       </div>
       <a
-        class="print:hidden border border-primary px-3 py-2 rounded-lg text-(primary hover:black) bg-(hover:primary) transition-all duration-150"
+        class="print:hidden border-2 border-primary px-3 py-2 rounded-lg text-primary hover:text-bg hover:bg-primary transition-all duration-150"
         href={getReplyToLink(config.author.email, postTitle)}
       >
         <span class="flex gap-2">
