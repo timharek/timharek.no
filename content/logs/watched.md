@@ -9,7 +9,6 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - Pantheon S2
-- The Boys S4
 - House of the Dragon S2
 
 Watchlist:

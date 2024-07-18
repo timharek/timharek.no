@@ -1406,20 +1406,39 @@
     ]
   },
   {
-    "type": "tv",
     "title": "The Acolyte",
     "date": "2024-07-17",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
+    "type": "tv",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Cool show. Some of the characters decisions were weird, and the flashbacks felt rushed."
     },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
     "season": 1,
+    "director": [
+      "N/A"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "The Boys",
+    "date": "2024-07-18",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "release_year": 2019,
+    "review": {
+      "rating": 4,
+      "comment": "Overall I enjoyed this season. I thought it would have a totally different ending."
+    },
+    "season": 4,
     "director": [
       "N/A"
     ]
