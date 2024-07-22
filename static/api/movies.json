@@ -5243,20 +5243,38 @@
     ]
   },
   {
-    "type": "movie",
     "title": "The Bikeriders",
     "date": "2024-07-15",
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
+    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "Cool movie with an interesting setting."
     },
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
     "director": [
       "Jeff Nichols"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "Logan",
+    "date": "2024-07-21",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "release_year": 2017,
+    "review": {
+      "rating": 5,
+      "comment": "A rewatch to prepare myself for Deadpool & Wolverine."
+    },
+    "director": [
+      "James Mangold"
     ]
   }
 ]
