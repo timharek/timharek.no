@@ -15,7 +15,6 @@ Watchlist:
 
 - Past Lives (2023)
 - Asteroid City (2023)
-- Deadpool & Wolverine (2024)
 - The Sweet East (2023)
 - Civil War (2024)
 - Killers of the Flower Moon (2023)
