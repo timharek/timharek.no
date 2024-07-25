@@ -24,6 +24,7 @@ Watchlist:
 - Silo S2
 - Severance S2
 - The Wild Robot (2024)
+- Speak No Evil (2024)
 
 <details>
   <summary>Legend</summary>
