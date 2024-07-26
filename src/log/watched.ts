@@ -1,7 +1,7 @@
-import { Input, Number, prompt } from "@cliffy/prompt";
-import { getTitle } from "@timharek/omdb";
+import { Input, Number, prompt, Select } from "@cliffy/prompt";
+import { Movie, TVShow } from "@timharek/tmdb";
 import { Entry } from "../schemas.ts";
-import { getCurrentDate } from "../utils.ts";
+import { getCurrentDate, selectKeys } from "../utils.ts";
 import { z } from "zod";
 
 const movieOrTVSchema = z.object({
@@ -61,36 +61,105 @@ export async function logWatched(
     },
   ]);
 
-  const { title, season, rating, date, comment } = movieOrTVSchema.parse(
+  const { title, season = 1, rating, date, comment } = movieOrTVSchema.parse(
     movieOrTVPrompt,
   );
 
-  const entry = await getTitle({ titleOrId: title });
-
-  if (!entry) {
-    throw new Error("Couldn't find title.");
-  }
-
   if (logType === "movie") {
+    const searchResult = await Movie.search({ query: title });
+
+    if (
+      !searchResult || searchResult.results === undefined ||
+      searchResult.results.length === 0
+    ) {
+      throw new Error("Couldn't find movie.");
+    }
+    const options = searchResult.results.filter((
+      result,
+    ): result is { title: string; id: number; release_date: string } =>
+      result.title !== undefined && result.id !== undefined &&
+      result.release_date !== undefined
+    ).map((res) => ({
+      name: `${res.title} (${new Date(res.release_date).getFullYear()})`,
+      value: String(res.id),
+    }));
+
+    const { movieId } = await prompt([{
+      name: "movieId",
+      message: "Which movie?",
+      type: Select,
+      options,
+      ...(searchResult.results.length > 10 && { search: true }),
+      keys: selectKeys,
+    }]);
+
+    if (!movieId) {
+      throw new Error("You didn't select any title");
+    }
+
+    const movie = await Movie.get(parseInt(movieId));
+
+    if (!movie) {
+      throw new Error(`Movie with id ${movieId} doesn't exist`);
+    }
+
     return {
       type: "movie",
-      title: entry.Title,
+      title: movie.title,
       date,
-      genres: entry.Genre,
-      release_year: parseInt(entry.Year),
+      genres: movie.genres,
+      release_year: movie.release_year,
       review: { rating, comment },
-      director: entry.Director,
+      director: movie.directors,
     };
+  }
+
+  const searchResult = await TVShow.search({ query: title });
+
+  if (
+    !searchResult || searchResult.results === undefined ||
+    searchResult.results.length === 0
+  ) {
+    throw new Error("Couldn't find TV show.");
+  }
+  const options = searchResult.results.filter((
+    result,
+  ): result is { name: string; id: number; first_air_date: string } =>
+    result.name !== undefined && result.id !== undefined &&
+    result.first_air_date !== undefined
+  ).map((res) => ({
+    name: `${res.name} (${new Date(res.first_air_date).getFullYear()})`,
+    value: String(res.id),
+  }));
+
+  const { seriesId } = await prompt([{
+    name: "seriesId",
+    message: "Which TV show?",
+    type: Select,
+    options,
+    ...(searchResult.results.length > 10 && { search: true }),
+    keys: selectKeys,
+  }]);
+
+  if (!seriesId) {
+    throw new Error("You didn't select any title");
+  }
+
+  const tvShow = await TVShow.get(parseInt(seriesId));
+
+  if (!tvShow) {
+    throw new Error(`Movie with id ${seriesId} doesn't exist`);
   }
 
   return {
     type: "tv",
-    title: entry.Title,
+    title: tvShow.title,
     date,
-    genres: entry.Genre,
-    release_year: parseInt(entry.Year) ?? null,
+    genres: tvShow.genres,
+    release_year: tvShow.release_year,
     review: { rating, comment },
-    season: season ?? 0,
-    director: entry.Director,
+    season: season,
+    director: await TVShow.seasonDirectors(tvShow.id, season),
+    creator: tvShow.creators,
   };
 }
