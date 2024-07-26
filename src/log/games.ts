@@ -50,9 +50,9 @@ export async function logGame(): Promise<Entry> {
   return {
     title: title,
     type: "game",
-    date: date,
+    date: new Date(date),
     release_year: releaseYear,
-    review: { rating, comment },
+    review: { rating, comment: comment ?? null },
     genres: [], // TODO: Might need to use an API to get neccessary data
     platform: platform,
   };

@@ -16,7 +16,7 @@ Deno.test("Watched: Spider-Man (2002)", async () => {
   const expected: Entry = {
     title: "Spider-Man",
     type: "movie",
-    date: "2024-07-12",
+    date: new Date("2024-07-12"),
     release_year: 2002,
     review: { rating: 5, comment: "The best!" },
     genres: ["Action", "Adventure", "Sci-Fi"],
@@ -39,7 +39,7 @@ Deno.test("Watched: Spider-Man 3 (2007)", async () => {
   const expected: Entry = {
     title: "Spider-Man 3",
     type: "movie",
-    date: "2024-07-12",
+    date: new Date("2024-07-12"),
     release_year: 2007,
     review: { rating: 4.5, comment: "Almost" },
     genres: ["Action", "Adventure", "Sci-Fi"],
@@ -63,12 +63,13 @@ Deno.test("Watched: Mr Robot S1", async () => {
   const expected: Entry = {
     title: "Mr. Robot",
     type: "tv",
-    date: "2024-07-12",
+    date: new Date("2024-07-12"),
     release_year: 2015,
     review: { rating: 5, comment: "Fantastic!" },
     genres: ["Crime", "Drama", "Thriller"],
     directors: ["N/A"],
     season: 1,
+    episode_count: null,
   };
 
   assertEquals(entry, expected);

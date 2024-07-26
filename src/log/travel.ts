@@ -61,8 +61,8 @@ export async function logTravel(): Promise<Entry> {
   return {
     type: "travel",
     title: title,
-    date: departure,
-    to_date: arrival,
+    date: new Date(departure),
+    to_date: new Date(arrival),
     occasion: Log.Occassion.parse(occasion),
     location: {
       country: { name: country, emoji: countryEmoji },
