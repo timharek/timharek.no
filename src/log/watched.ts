@@ -16,6 +16,7 @@ const movieOrTVSchema = z.object({
 
 export async function logWatched(
   logType: Entry["type"],
+  skipCheck = false,
 ): Promise<Entry> {
   if (logType !== "movie" && logType !== "tv") {
     throw new Error("Must be either movie or TV");
@@ -84,14 +85,15 @@ export async function logWatched(
       value: String(res.id),
     }));
 
-    const { movieId } = await prompt([{
-      name: "movieId",
-      message: "Which movie?",
-      type: Select,
-      options,
-      ...(searchResult.results.length > 10 && { search: true }),
-      keys: selectKeys,
-    }]);
+    let movieId: string | undefined = String(searchResult.results[0].id);
+    if (!skipCheck) {
+      movieId = await Select.prompt({
+        message: "Which movie?",
+        options,
+        ...(searchResult.results.length > 10 && { search: true }),
+        keys: selectKeys,
+      });
+    }
 
     if (!movieId) {
       throw new Error("You didn't select any title");
@@ -132,14 +134,15 @@ export async function logWatched(
     value: String(res.id),
   }));
 
-  const { seriesId } = await prompt([{
-    name: "seriesId",
-    message: "Which TV show?",
-    type: Select,
-    options,
-    ...(searchResult.results.length > 10 && { search: true }),
-    keys: selectKeys,
-  }]);
+  let seriesId: string | undefined = String(searchResult.results[0].id);
+  if (!skipCheck) {
+    seriesId = await Select.prompt({
+      message: "Which TV show?",
+      options,
+      ...(searchResult.results.length > 10 && { search: true }),
+      keys: selectKeys,
+    });
+  }
 
   if (!seriesId) {
     throw new Error("You didn't select any title");

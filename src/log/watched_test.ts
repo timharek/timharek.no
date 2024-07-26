@@ -11,7 +11,7 @@ Deno.test("Watched: Spider-Man (2002)", async () => {
     comment: "The best!",
   });
 
-  const entry = await logWatched("movie");
+  const entry = await logWatched("movie", true);
 
   const expected: Entry = {
     title: "Spider-Man",
@@ -19,7 +19,7 @@ Deno.test("Watched: Spider-Man (2002)", async () => {
     date: new Date("2024-07-12"),
     release_year: 2002,
     review: { rating: 5, comment: "The best!" },
-    genres: ["Action", "Adventure", "Sci-Fi"],
+    genres: ["Action", "Science Fiction"],
     directors: ["Sam Raimi"],
   };
 
@@ -34,7 +34,7 @@ Deno.test("Watched: Spider-Man 3 (2007)", async () => {
     comment: "Almost",
   });
 
-  const entry = await logWatched("movie");
+  const entry = await logWatched("movie", true);
 
   const expected: Entry = {
     title: "Spider-Man 3",
@@ -42,7 +42,7 @@ Deno.test("Watched: Spider-Man 3 (2007)", async () => {
     date: new Date("2024-07-12"),
     release_year: 2007,
     review: { rating: 4.5, comment: "Almost" },
-    genres: ["Action", "Adventure", "Sci-Fi"],
+    genres: ["Action", "Adventure", "Science Fiction"],
     directors: ["Sam Raimi"],
   };
 
@@ -58,7 +58,7 @@ Deno.test("Watched: Mr Robot S1", async () => {
     comment: "Fantastic!",
   });
 
-  const entry = await logWatched("tv");
+  const entry = await logWatched("tv", true);
 
   const expected: Entry = {
     title: "Mr. Robot",
@@ -66,8 +66,17 @@ Deno.test("Watched: Mr Robot S1", async () => {
     date: new Date("2024-07-12"),
     release_year: 2015,
     review: { rating: 5, comment: "Fantastic!" },
-    genres: ["Crime", "Drama", "Thriller"],
-    directors: ["N/A"],
+    genres: ["Crime", "Drama"],
+    creators: ["Sam Esmail"],
+    directors: [
+      "Sam Esmail",
+      "Jim McKay",
+      "Nisha Ganatra",
+      "Deborah Chow",
+      "Christoph Schrewe",
+      "Niels Arden Oplev",
+      "Tricia Brock",
+    ],
     season: 1,
     episode_count: null,
   };
