@@ -80,7 +80,9 @@ export const handler: Handlers<LogProps, ServerState> = {
         const log = z.array(Log.Entry).parse(logRaw);
         logs.push(...log);
       }
-      logs.sort((a, b) => b.date.localeCompare(a.date));
+      logs.sort((a, b) =>
+        b.date.toISOString().localeCompare(a.date.toISOString())
+      );
 
       if (isRequestionJSON) {
         return new Response(JSON.stringify(logs, null, 2), {
@@ -176,12 +178,12 @@ function Item({ item }: ItemProps) {
           </span>
         </div>
         <div class="md:justify-self-end">
-          <DateT dateString={item.date} />
+          <DateT date={item.date} />
           {item.to_date != item.date &&
             (
               <>
                 {" - "}
-                <DateT dateString={item.to_date} />
+                <DateT date={item.to_date} />
               </>
             )}
         </div>
@@ -194,7 +196,7 @@ function Item({ item }: ItemProps) {
         <h3 class="md:col-span-2">{item.title} ({item.platform})</h3>
         <Stars rating={item.review.rating} />
         <div class="md:justify-self-end">
-          <DateT dateString={item.date} />
+          <DateT date={item.date} />
         </div>
         <ReviewComment comment={item.review.comment} />
       </ItemWrapper>
@@ -206,7 +208,7 @@ function Item({ item }: ItemProps) {
         <h3 class="md:col-span-2">{item.title}</h3>
         <Stars rating={item.review.rating} />
         <div class="md:justify-self-end">
-          <DateT dateString={item.date} />
+          <DateT date={item.date} />
         </div>
         <ReviewComment comment={item.review.comment} />
       </ItemWrapper>
@@ -222,7 +224,7 @@ function Item({ item }: ItemProps) {
         </h3>
         <Stars rating={item.review.rating} />
         <div class="md:justify-self-end">
-          <DateT dateString={item.date} />
+          <DateT date={item.date} />
         </div>
         <ReviewComment comment={item.review.comment} />
       </ItemWrapper>
@@ -243,8 +245,7 @@ function ItemWrapper(
   );
 }
 
-function DateT({ dateString }: { dateString: string }) {
-  const date = new Date(dateString);
+function DateT({ date }: { date: Date }) {
   const formattedDate = new Intl.DateTimeFormat("en-US", {
     day: "numeric",
     month: "short",

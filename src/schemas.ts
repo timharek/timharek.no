@@ -2,7 +2,7 @@ import { z } from "zod";
 
 const Review = z.object({
   rating: z.number(),
-  comment: z.string().optional(),
+  comment: z.string().nullable(),
 });
 
 const MovieEntry = z.object({
@@ -10,7 +10,7 @@ const MovieEntry = z.object({
   release_year: z.number(),
   review: Review,
   genres: z.array(z.string()).optional(),
-  director: z.array(z.string()).optional(),
+  directors: z.array(z.string()).optional(),
 });
 
 const TVEntry = z.object({
@@ -19,9 +19,9 @@ const TVEntry = z.object({
   review: Review,
   genres: z.array(z.string()).optional(),
   season: z.number(),
-  episode_count: z.number().optional(),
-  director: z.array(z.string()).optional(),
-  creator: z.array(z.string()).optional(),
+  episode_count: z.number().nullable(),
+  directors: z.array(z.string()).optional(),
+  creators: z.array(z.string()).optional(),
 });
 
 const GameEntry = z.object({
@@ -45,7 +45,7 @@ const Occassion = z.enum(["business", "pleasure"]);
 const TravelEntry = z.object({
   type: z.literal("travel"),
   occasion: Occassion,
-  to_date: z.string(),
+  to_date: z.coerce.date(),
   location: z.object({
     country: z.object({
       name: z.string(),
@@ -58,7 +58,7 @@ const TravelEntry = z.object({
 const Entry = z.intersection(
   z.object({
     title: z.string(),
-    date: z.string(),
+    date: z.coerce.date(),
   }),
   z.discriminatedUnion("type", [
     MovieEntry,

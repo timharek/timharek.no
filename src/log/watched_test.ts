@@ -20,7 +20,7 @@ Deno.test("Watched: Spider-Man (2002)", async () => {
     release_year: 2002,
     review: { rating: 5, comment: "The best!" },
     genres: ["Action", "Adventure", "Sci-Fi"],
-    director: ["Sam Raimi"],
+    directors: ["Sam Raimi"],
   };
 
   assertEquals(entry, expected);
@@ -43,7 +43,7 @@ Deno.test("Watched: Spider-Man 3 (2007)", async () => {
     release_year: 2007,
     review: { rating: 4.5, comment: "Almost" },
     genres: ["Action", "Adventure", "Sci-Fi"],
-    director: ["Sam Raimi"],
+    directors: ["Sam Raimi"],
   };
 
   assertEquals(entry, expected);
@@ -67,7 +67,7 @@ Deno.test("Watched: Mr Robot S1", async () => {
     release_year: 2015,
     review: { rating: 5, comment: "Fantastic!" },
     genres: ["Crime", "Drama", "Thriller"],
-    director: ["N/A"],
+    directors: ["N/A"],
     season: 1,
   };
 

@@ -106,11 +106,11 @@ export async function logWatched(
     return {
       type: "movie",
       title: movie.title,
-      date,
+      date: new Date(date),
       genres: movie.genres,
       release_year: movie.release_year,
-      review: { rating, comment },
-      director: movie.directors,
+      review: { rating, comment: comment ?? null },
+      directors: movie.directors,
     };
   }
 
@@ -154,12 +154,13 @@ export async function logWatched(
   return {
     type: "tv",
     title: tvShow.title,
-    date,
+    date: new Date(date),
     genres: tvShow.genres,
     release_year: tvShow.release_year,
-    review: { rating, comment },
+    review: { rating, comment: comment ?? null },
     season: season,
-    director: await TVShow.seasonDirectors(tvShow.id, season),
-    creator: tvShow.creators,
+    episode_count: null,
+    directors: await TVShow.seasonDirectors(tvShow.id, season),
+    creators: tvShow.creators,
   };
 }

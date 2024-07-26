@@ -1,3307 +1,3634 @@
 [
   {
-    "title": "Inception",
-    "date": "2010-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Inception",
+    "date": "2010-01-01",
     "release_year": 2010,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Science Fiction",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Christopher Nolan"
-    ]
+    ],
+    "tmdbId": 27205
   },
   {
-    "title": "Shutter Island",
-    "date": "2010-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Shutter Island",
+    "date": "2010-01-01",
     "release_year": 2010,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "tmdbId": 11324
+  },
+  {
+    "type": "movie",
+    "title": "Kick-Ass",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "directors": [
+      "Matthew Vaughn"
+    ],
+    "tmdbId": 23483
+  },
+  {
+    "type": "movie",
+    "title": "The Social Network",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      "David Fincher"
+    ],
+    "tmdbId": 37799
+  },
+  {
+    "type": "movie",
+    "title": "Iron Man 2",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Jon Favreau"
+    ],
+    "tmdbId": 10138
+  },
+  {
+    "type": "movie",
+    "title": "The Expendables",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
+      "Adventure",
+      "Action"
+    ],
+    "directors": [
+      "Sylvester Stallone"
+    ],
+    "tmdbId": 27578
+  },
+  {
+    "type": "movie",
+    "title": "Prince of Persia: The Sands of Time",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "directors": [
+      "Mike Newell"
+    ],
+    "tmdbId": 9543
+  },
+  {
+    "type": "movie",
+    "title": "127 Hours",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Danny Boyle"
+    ],
+    "tmdbId": 44115
+  },
+  {
+    "type": "movie",
+    "title": "Salt",
+    "date": "2010-01-01",
+    "release_year": 2010,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
       "Mystery",
       "Thriller"
     ],
-    "director": [
-      "Martin Scorsese"
-    ]
-  },
-  {
-    "title": "Kick-Ass",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Matthew Vaughn"
-    ]
-  },
-  {
-    "title": "The Social Network",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Drama"
-    ],
-    "director": [
-      "David Fincher"
-    ]
-  },
-  {
-    "title": "Iron Man 2",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Jon Favreau"
-    ]
-  },
-  {
-    "title": "The Expendables",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Thriller"
-    ],
-    "director": [
-      "Sylvester Stallone"
-    ]
-  },
-  {
-    "title": "Prince of Persia: The Sands of Time",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": [
-      "Mike Newell"
-    ]
-  },
-  {
-    "title": "127 Hours",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Drama"
-    ],
-    "director": [
-      "Danny Boyle"
-    ]
-  },
-  {
-    "title": "Salt",
-    "date": "2010-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "director": [
+    "directors": [
       "Phillip Noyce"
-    ]
+    ],
+    "tmdbId": 27576
   },
   {
-    "title": "Due Date",
-    "date": "2010-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Due Date",
+    "date": "2010-01-01",
     "release_year": 2010,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Todd Phillips"
-    ]
+    ],
+    "tmdbId": 41733
   },
   {
-    "title": "Repo Men",
-    "date": "2010-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Repo Men",
+    "date": "2010-01-01",
     "release_year": 2010,
     "review": {
-      "rating": 2
+      "rating": 2,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Sci-Fi",
-      "Thriller"
+      "Science Fiction",
+      "Thriller",
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Miguel Sapochnik"
-    ]
+    ],
+    "tmdbId": 31867
   },
   {
+    "type": "movie",
     "title": "Drive",
-    "date": "2011-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Action",
-      "Drama"
+      "Drama",
+      "Thriller",
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Nicolas Winding Refn"
-    ]
+    ],
+    "tmdbId": 64690
   },
   {
+    "type": "movie",
     "title": "Captain America: The First Avenger",
-    "date": "2011-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Joe Johnston"
-    ]
+    ],
+    "tmdbId": 1771
   },
   {
+    "type": "movie",
     "title": "Thor",
-    "date": "2011-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Action",
       "Adventure",
-      "Fantasy"
+      "Fantasy",
+      "Action"
     ],
-    "director": [
+    "directors": [
       "Kenneth Branagh"
-    ]
+    ],
+    "tmdbId": 10195
   },
   {
-    "title": "X-Men: First Class",
-    "date": "2011-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "X-Men: First Class",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Science Fiction",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Matthew Vaughn"
-    ]
+    ],
+    "tmdbId": 49538
   },
   {
-    "title": "Limitless",
-    "date": "2011-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Limitless",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Sci-Fi",
-      "Thriller"
+      "Thriller",
+      "Mystery",
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Neil Burger"
-    ]
+    ],
+    "tmdbId": 51876
   },
   {
-    "title": "Horrible Bosses",
-    "date": "2011-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Horrible Bosses",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Crime"
     ],
-    "director": [
+    "directors": [
       "Seth Gordon"
-    ]
+    ],
+    "tmdbId": 51540
   },
   {
-    "title": "The Hangover Part II",
-    "date": "2011-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "The Hangover Part II",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Todd Phillips"
-    ]
+    ],
+    "tmdbId": 45243
   },
   {
+    "type": "movie",
     "title": "Fast Five",
-    "date": "2011-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Crime",
-      "Thriller"
+      "Thriller",
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Justin Lin"
-    ]
+    ],
+    "tmdbId": 51497
   },
   {
-    "title": "Real Steel",
-    "date": "2011-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Real Steel",
+    "date": "2011-01-01",
     "release_year": 2011,
     "review": {
-      "rating": 2
+      "rating": 2,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Drama",
-      "Sci-Fi"
+      "Science Fiction",
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Shawn Levy"
-    ]
+    ],
+    "tmdbId": 39254
   },
   {
-    "title": "Django Unchained",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Django Unchained",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Drama",
       "Western"
     ],
-    "director": [
+    "directors": [
       "Quentin Tarantino"
-    ]
+    ],
+    "tmdbId": 68718
   },
   {
+    "type": "movie",
     "title": "The Dark Knight Rises",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Drama"
+      "Crime",
+      "Drama",
+      "Thriller"
     ],
-    "director": [
+    "directors": [
       "Christopher Nolan"
-    ]
+    ],
+    "tmdbId": 49026
   },
   {
+    "type": "movie",
     "title": "The Hobbit: An Unexpected Journey",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 2
+      "rating": 2,
+      "comment": null
     },
     "genres": [
       "Adventure",
-      "Fantasy"
+      "Fantasy",
+      "Action"
     ],
-    "director": [
+    "directors": [
       "Peter Jackson"
-    ]
+    ],
+    "tmdbId": 49051
   },
   {
-    "title": "The Avengers",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "The Avengers",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
+      "Science Fiction",
       "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Joss Whedon"
-    ]
+    ],
+    "tmdbId": 24428
   },
   {
-    "title": "21 Jump Street",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "21 Jump Street",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Comedy",
       "Crime"
     ],
-    "director": [
+    "directors": [
       "Phil Lord",
       "Christopher Miller"
-    ]
+    ],
+    "tmdbId": 64688
   },
   {
+    "type": "movie",
     "title": "Skyfall",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Sam Mendes"
-    ]
+    ],
+    "tmdbId": 37724
   },
   {
+    "type": "movie",
     "title": "Prometheus",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
+      "Science Fiction",
       "Adventure",
-      "Mystery",
-      "Sci-Fi"
+      "Mystery"
     ],
-    "director": [
+    "directors": [
       "Ridley Scott"
-    ]
+    ],
+    "tmdbId": 70981
   },
   {
+    "type": "movie",
     "title": "Looper",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Drama",
-      "Sci-Fi"
+      "Thriller",
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Rian Johnson"
-    ]
+    ],
+    "tmdbId": 59967
   },
   {
+    "type": "movie",
     "title": "The Amazing Spider-Man",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Marc Webb"
-    ]
+    ],
+    "tmdbId": 1930
   },
   {
-    "title": "Ted",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Ted",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Comedy"
+      "Comedy",
+      "Fantasy"
     ],
-    "director": [
+    "directors": [
       "Seth MacFarlane"
-    ]
+    ],
+    "tmdbId": 72105
   },
   {
-    "title": "The Bourne Legacy",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "The Bourne Legacy",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Tony Gilroy"
-    ]
+    ],
+    "tmdbId": 49040
   },
   {
+    "type": "movie",
     "title": "The Dictator",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Larry Charles"
-    ]
-  },
-  {
-    "title": "That's My Boy",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2012,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Comedy"
     ],
-    "director": [
-      "Sean Anders"
-    ]
+    "tmdbId": 76493
   },
   {
-    "title": "Battleship",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "That's My Boy",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 1
+      "rating": 4,
+      "comment": null
     },
     "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Sean Anders"
+    ],
+    "tmdbId": 87428
+  },
+  {
+    "type": "movie",
+    "title": "Battleship",
+    "date": "2012-01-01",
+    "release_year": 2012,
+    "review": {
+      "rating": 1,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Peter Berg"
-    ]
-  },
-  {
-    "title": "Project-X",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2010,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Horror",
-      "Sci-Fi"
     ],
-    "director": [
-      "Jose F. Sanchez"
-    ]
+    "tmdbId": 44833
   },
   {
-    "title": "Brave",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Brave",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Animation",
       "Adventure",
-      "Comedy"
-    ],
-    "director": [
-      "Mark Andrews",
-      "Brenda Chapman",
-      "Steve Purcell"
-    ]
-  },
-  {
-    "title": "Chronicle",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2012,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
+      "Comedy",
+      "Family",
       "Action",
-      "Drama",
-      "Sci-Fi"
+      "Fantasy"
     ],
-    "director": [
-      "Josh Trank"
-    ]
+    "directors": [
+      "Brenda Chapman",
+      "Mark Andrews"
+    ],
+    "tmdbId": 62177
   },
   {
-    "title": "American Reunion",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Chronicle",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Josh Trank"
+    ],
+    "tmdbId": 76726
+  },
+  {
+    "type": "movie",
+    "title": "American Reunion",
+    "date": "2012-01-01",
+    "release_year": 2012,
+    "review": {
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Jon Hurwitz",
       "Hayden Schlossberg"
-    ]
+    ],
+    "tmdbId": 71552
   },
   {
+    "type": "movie",
     "title": "Taken 2",
-    "date": "2012-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 1
+      "rating": 1,
+      "comment": null
     },
     "genres": [
       "Action",
       "Crime",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Olivier Megaton"
-    ]
+    ],
+    "tmdbId": 82675
   },
   {
-    "title": "Safe",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Safe",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Crime",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Boaz Yakin"
-    ]
+    ],
+    "tmdbId": 72387
   },
   {
-    "title": "Kon-Tiki",
-    "date": "2012-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Kon-Tiki",
+    "date": "2012-01-01",
     "release_year": 2012,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Action",
       "Adventure",
-      "Biography"
+      "History"
     ],
-    "director": [
+    "directors": [
       "Joachim Rønning",
       "Espen Sandberg"
-    ]
+    ],
+    "tmdbId": 70667
   },
   {
+    "type": "movie",
+    "title": "Project X",
+    "date": "2012-01-01",
+    "release_year": 2012,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "directors": [
+      "Nima Nourizadeh"
+    ],
+    "tmdbId": 57214
+  },
+  {
+    "type": "movie",
     "title": "The Wolf of Wall Street",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Biography",
-      "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Martin Scorsese"
-    ]
-  },
-  {
-    "title": "Her",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
+      "Crime",
       "Drama",
+      "Comedy"
+    ],
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "tmdbId": 106646
+  },
+  {
+    "type": "movie",
+    "title": "Her",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
       "Romance",
-      "Sci-Fi"
+      "Science Fiction",
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Spike Jonze"
-    ]
+    ],
+    "tmdbId": 152601
   },
   {
+    "type": "movie",
     "title": "Man of Steel",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Zack Snyder"
-    ]
+    ],
+    "tmdbId": 49521
   },
   {
-    "title": "Oblivion",
-    "date": "2013-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Oblivion",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
+      "Science Fiction",
       "Adventure",
-      "Sci-Fi"
+      "Mystery"
     ],
-    "director": [
+    "directors": [
       "Joseph Kosinski"
-    ]
+    ],
+    "tmdbId": 75612
   },
   {
-    "title": "We're the Millers",
-    "date": "2013-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "We're the Millers",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Crime"
     ],
-    "director": [
+    "directors": [
       "Rawson Marshall Thurber"
-    ]
+    ],
+    "tmdbId": 138832
   },
   {
-    "title": "12 Years a Slave",
-    "date": "2013-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "12 Years a Slave",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Biography",
       "Drama",
       "History"
     ],
-    "director": [
+    "directors": [
       "Steve McQueen"
-    ]
+    ],
+    "tmdbId": 76203
   },
   {
+    "type": "movie",
     "title": "Iron Man 3",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Shane Black"
-    ]
+    ],
+    "tmdbId": 68721
   },
   {
+    "type": "movie",
     "title": "World War Z",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Horror"
+      "Drama",
+      "Horror",
+      "Science Fiction",
+      "Thriller"
     ],
-    "director": [
+    "directors": [
       "Marc Forster"
-    ]
+    ],
+    "tmdbId": 72190
   },
   {
+    "type": "movie",
     "title": "The Secret Life of Walter Mitty",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Adventure",
       "Comedy",
-      "Drama"
+      "Drama",
+      "Fantasy"
     ],
-    "director": [
+    "directors": [
       "Ben Stiller"
-    ]
+    ],
+    "tmdbId": 116745
   },
   {
+    "type": "movie",
     "title": "The Internship",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Shawn Levy"
-    ]
+    ],
+    "tmdbId": 116741
   },
   {
+    "type": "movie",
     "title": "This Is the End",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy",
-      "Fantasy"
-    ],
-    "director": [
-      "Evan Goldberg",
-      "Seth Rogen"
-    ]
-  },
-  {
-    "title": "Enemy",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Thriller"
-    ],
-    "director": [
-      "Denis Villeneuve"
-    ]
-  },
-  {
-    "title": "Pacific Rim",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 2
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Guillermo del Toro"
-    ]
-  },
-  {
-    "title": "Kick-Ass 2",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Jeff Wadlow"
-    ]
-  },
-  {
-    "title": "Rush",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Biography",
-      "Drama"
-    ],
-    "director": [
-      "Ron Howard"
-    ]
-  },
-  {
-    "title": "Thor: The Dark World",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": [
-      "Alan Taylor"
-    ]
-  },
-  {
-    "title": "Warm Bodies",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Comedy",
-      "Horror",
-      "Romance"
-    ],
-    "director": [
-      "Jonathan Levine"
-    ]
-  },
-  {
-    "title": "The Purge",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 1
-    },
-    "genres": [
-      "Horror",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "director": [
-      "James DeMonaco"
-    ]
-  },
-  {
-    "title": "R.I.P.D.",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
       "Comedy"
     ],
-    "director": [
-      "Robert Schwentke"
-    ]
+    "directors": [
+      "Seth Rogen",
+      "Evan Goldberg"
+    ],
+    "tmdbId": 109414
   },
   {
-    "title": "Don Jon",
-    "date": "2013-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Pacific Rim",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
+      "rating": 2,
+      "comment": null
     },
     "genres": [
-      "Comedy",
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Guillermo del Toro"
+    ],
+    "tmdbId": 68726
+  },
+  {
+    "type": "movie",
+    "title": "Kick-Ass 2",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ],
+    "directors": [
+      "Jeff Wadlow"
+    ],
+    "tmdbId": 59859
+  },
+  {
+    "type": "movie",
+    "title": "Rush",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
       "Drama",
+      "Action"
+    ],
+    "directors": [
+      "Ron Howard"
+    ],
+    "tmdbId": 96721
+  },
+  {
+    "type": "movie",
+    "title": "Thor: The Dark World",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "Alan Taylor"
+    ],
+    "tmdbId": 76338
+  },
+  {
+    "type": "movie",
+    "title": "Enemy",
+    "date": "2013-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "tmdbId": 181886
+  },
+  {
+    "type": "movie",
+    "title": "Locke",
+    "date": "2013-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Steven Knight"
+    ],
+    "tmdbId": 210479
+  },
+  {
+    "type": "movie",
+    "title": "Warm Bodies",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Horror",
+      "Comedy",
       "Romance"
     ],
-    "director": [
-      "Joseph Gordon-Levitt"
-    ]
+    "directors": [
+      "Jonathan Levine"
+    ],
+    "tmdbId": 82654
   },
   {
-    "title": "Pain & Gain",
-    "date": "2013-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "The Purge",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
+      "rating": 1,
+      "comment": null
     },
     "genres": [
+      "Science Fiction",
+      "Horror",
+      "Thriller"
+    ],
+    "directors": [
+      "James DeMonaco"
+    ],
+    "tmdbId": 158015
+  },
+  {
+    "type": "movie",
+    "title": "R.I.P.D.",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Fantasy",
       "Action",
+      "Comedy"
+    ],
+    "directors": [
+      "Robert Schwentke"
+    ],
+    "tmdbId": 49524
+  },
+  {
+    "type": "movie",
+    "title": "Don Jon",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Romance",
       "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Michael Bay"
-    ]
-  },
-  {
-    "title": "Elysium",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Neill Blomkamp"
-    ]
-  },
-  {
-    "title": "The World's End",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Edgar Wright"
-    ]
-  },
-  {
-    "title": "The Wolverine",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Sci-Fi"
-    ],
-    "director": [
-      "James Mangold"
-    ]
-  },
-  {
-    "title": "Locke",
-    "date": "2013-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
       "Drama"
     ],
-    "director": [
-      "Steven Knight"
-    ]
+    "directors": [
+      "Joseph Gordon-Levitt"
+    ],
+    "tmdbId": 138697
   },
   {
-    "title": "The Hangover Part III",
-    "date": "2013-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Pain & Gain",
+    "date": "2013-01-01",
     "release_year": 2013,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Todd Phillips"
-    ]
-  },
-  {
-    "title": "Interstellar",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Christopher Nolan"
-    ]
-  },
-  {
-    "title": "John Wick",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 4
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Crime",
-      "Thriller"
+      "Comedy"
     ],
-    "director": [
-      "Chad Stahelski",
-      "David Leitch"
-    ]
+    "directors": [
+      "Michael Bay"
+    ],
+    "tmdbId": 134374
   },
   {
-    "title": "Whiplash",
-    "date": "2014-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Elysium",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Neill Blomkamp"
+    ],
+    "tmdbId": 68724
+  },
+  {
+    "type": "movie",
+    "title": "The World's End",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Edgar Wright"
+    ],
+    "tmdbId": 107985
+  },
+  {
+    "type": "movie",
+    "title": "The Wolverine",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "James Mangold"
+    ],
+    "tmdbId": 76170
+  },
+  {
+    "type": "movie",
+    "title": "The Hangover Part III",
+    "date": "2013-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "directors": [
+      "Todd Phillips"
+    ],
+    "tmdbId": 109439
+  },
+  {
+    "type": "movie",
+    "title": "Interstellar",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "tmdbId": 157336
+  },
+  {
+    "type": "movie",
+    "title": "Birdman",
+    "date": "2014-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      "Guy Bolongaro"
+    ],
+    "tmdbId": 435092
+  },
+  {
+    "type": "movie",
+    "title": "John Wick",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Chad Stahelski"
+    ],
+    "tmdbId": 245891
+  },
+  {
+    "type": "movie",
+    "title": "Whiplash",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Drama",
       "Music"
     ],
-    "director": [
+    "directors": [
       "Damien Chazelle"
-    ]
+    ],
+    "tmdbId": 244786
   },
   {
+    "type": "movie",
     "title": "Guardians of the Galaxy",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Comedy"
+      "Science Fiction",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "James Gunn"
-    ]
+    ],
+    "tmdbId": 118340
   },
   {
-    "title": "Kingsman: The Secret Service",
-    "date": "2014-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Kingsman: The Secret Service",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
+      "Crime",
+      "Comedy",
       "Action",
-      "Adventure",
-      "Comedy"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Matthew Vaughn"
-    ]
+    ],
+    "tmdbId": 207703
   },
   {
-    "title": "Nightcrawler",
-    "date": "2014-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Nightcrawler",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Crime",
       "Drama",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Dan Gilroy"
-    ]
+    ],
+    "tmdbId": 242582
   },
   {
+    "type": "movie",
     "title": "Edge of Tomorrow",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Doug Liman"
-    ]
-  },
-  {
-    "title": "Birdman",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Animation",
-      "Action",
-      "Adventure"
     ],
-    "director": [
-      "N/A"
-    ]
+    "tmdbId": 137113
   },
   {
-    "title": "Captain America: The Winter Soldier",
-    "date": "2014-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Captain America: The Winter Soldier",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Anthony Russo",
       "Joe Russo"
-    ]
+    ],
+    "tmdbId": 100402
   },
   {
+    "type": "movie",
     "title": "Big Hero 6",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
+      "Adventure",
+      "Family",
       "Animation",
       "Action",
-      "Adventure"
+      "Comedy"
     ],
-    "director": [
-      "Don Hall",
-      "Chris Williams"
-    ]
+    "directors": [
+      "Chris Williams",
+      "Don Hall"
+    ],
+    "tmdbId": 177572
   },
   {
-    "title": "NATURE VS MAN: Godzilla (1954)/Godzilla (2014)",
-    "date": "2014-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 1954,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Talk-Show"
-    ],
-    "director": [
-      "N/A"
-    ]
-  },
-  {
     "title": "X-Men: Days of Future Past",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Bryan Singer"
-    ]
+    ],
+    "tmdbId": 127585
   },
   {
+    "type": "movie",
     "title": "The Lego Movie",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2014-01-01",
     "release_year": 2014,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Animation",
-      "Action",
-      "Adventure"
-    ],
-    "director": [
-      "Phil Lord",
-      "Christopher Miller"
-    ]
-  },
-  {
-    "title": "The Amazing Spider-Man 2",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Marc Webb"
-    ]
-  },
-  {
-    "title": "22 Jump Street",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Phil Lord",
-      "Christopher Miller"
-    ]
-  },
-  {
-    "title": "300: Rise of an Empire",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Drama"
-    ],
-    "director": [
-      "Noam Murro"
-    ]
-  },
-  {
-    "title": "The Interview",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": [
-      "Evan Goldberg",
-      "Seth Rogen"
-    ]
-  },
-  {
-    "title": "The Theory of Everything",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Drama",
-      "Romance"
-    ],
-    "director": [
-      "James Marsh"
-    ]
-  },
-  {
-    "title": "The Fault in Our Stars",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "director": [
-      "Josh Boone"
-    ]
-  },
-  {
-    "title": "Lucy",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "director": [
-      "Luc Besson"
-    ]
-  },
-  {
-    "title": "Boyhood",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Drama"
-    ],
-    "director": [
-      "Richard Linklater"
-    ]
-  },
-  {
-    "title": "Neighbors",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy"
-    ],
-    "director": [
-      "Nicholas Stoller"
-    ]
-  },
-  {
-    "title": "Dawn of the Planet of the Apes",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "director": [
-      "Matt Reeves"
-    ]
-  },
-  {
-    "title": "Prisoners",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2013,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Crime",
-      "Drama",
-      "Mystery"
-    ],
-    "director": [
-      "Denis Villeneuve"
-    ]
-  },
-  {
-    "title": "The Imitation Game",
-    "date": "2014-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2014,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Drama",
-      "Thriller"
-    ],
-    "director": [
-      "Morten Tyldum"
-    ]
-  },
-  {
-    "title": "The Man from U.N.C.L.E.",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": [
-      "Guy Ritchie"
-    ]
-  },
-  {
-    "title": "Sicario",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Denis Villeneuve"
-    ]
-  },
-  {
-    "title": "Mad Max: Fury Road",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "George Miller"
-    ]
-  },
-  {
-    "title": "Star Wars: Episode VII - The Force Awakens",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "J.J. Abrams"
-    ]
-  },
-  {
-    "title": "The Hateful Eight",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Crime",
-      "Drama",
-      "Mystery"
-    ],
-    "director": [
-      "Quentin Tarantino"
-    ]
-  },
-  {
-    "title": "Jurassic World",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Colin Trevorrow"
-    ]
-  },
-  {
-    "title": "Avengers: Age of Ultron",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Joss Whedon"
-    ]
-  },
-  {
-    "title": "Legend",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Brian Helgeland"
-    ]
-  },
-  {
-    "title": "The Martian",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Ridley Scott"
-    ]
-  },
-  {
-    "title": "Everest",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Biography"
-    ],
-    "director": [
-      "Baltasar Kormákur"
-    ]
-  },
-  {
-    "title": "Straight Outta Compton",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Drama",
-      "History"
-    ],
-    "director": [
-      "F. Gary Gray"
-    ]
-  },
-  {
-    "title": "Demolition",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "director": [
-      "Jean-Marc Vallée"
-    ]
-  },
-  {
-    "title": "Chappie",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Neill Blomkamp"
-    ]
-  },
-  {
-    "title": "Dope",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
+      "Family",
       "Adventure",
       "Comedy",
-      "Crime"
-    ],
-    "director": [
-      "Rick Famuyiwa"
-    ]
-  },
-  {
-    "title": "Hardcore Henry",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Ilya Naishuller"
-    ]
-  },
-  {
-    "title": "Deus Ex-machina",
-    "date": "2015-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 1995,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Short"
-    ],
-    "director": [
-      "Carlos Gerbase"
-    ]
-  },
-  {
-    "title": "Rogue One: A Star Wars Story",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Gareth Edwards"
-    ]
-  },
-  {
-    "title": "Nocturnal Animals",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Drama",
-      "Thriller"
-    ],
-    "director": [
-      "Tom Ford"
-    ]
-  },
-  {
-    "title": "Split",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "director": [
-      "M. Night Shyamalan"
-    ]
-  },
-  {
-    "title": "Deadpool",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": [
-      "Tim Miller"
-    ]
-  },
-  {
-    "title": "Arrival",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Denis Villeneuve"
-    ]
-  },
-  {
-    "title": "Hell or High Water",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": [
-      "David Mackenzie"
-    ]
-  },
-  {
-    "title": "Captain Fantastic",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "director": [
-      "Matt Ross"
-    ]
-  },
-  {
-    "title": "Sausage Party",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy"
-    ],
-    "director": [
-      "Greg Tiernan",
-      "Conrad Vernon"
-    ]
-  },
-  {
-    "title": "10 Cloverfield Lane",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Drama",
-      "Horror",
-      "Mystery"
-    ],
-    "director": [
-      "Dan Trachtenberg"
-    ]
-  },
-  {
-    "title": "Why Him?",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy"
-    ],
-    "director": [
-      "John Hamburg"
-    ]
-  },
-  {
-    "title": "Snowden",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Oliver Stone"
-    ]
-  },
-  {
-    "title": "Spotlight",
-    "date": "2016-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Biography",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Tom McCarthy"
-    ]
-  },
-  {
-    "title": "Batman v Superman: Dawn of Justice",
-    "date": "2016-03-22T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Zack Snyder"
-    ]
-  },
-  {
-    "title": "Captain America: Civil War",
-    "date": "2016-04-26T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Russo Brothers"
-    ]
-  },
-  {
-    "title": "X-Men: Apocalypse",
-    "date": "2016-05-20T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Bryan Singer"
-    ]
-  },
-  {
-    "title": "Warcraft",
-    "date": "2016-05-27T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 1
-    },
-    "genres": [
-      "Action",
-      "Adventure",
       "Fantasy"
     ],
-    "director": [
-      "Duncan Jones"
-    ]
+    "directors": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "tmdbId": 137106
   },
   {
-    "title": "War Dogs",
-    "date": "2016-08-19T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2016,
+    "title": "The Amazing Spider-Man 2",
+    "date": "2014-01-01",
+    "release_year": 2014,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Biography",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Marc Webb"
+    ],
+    "tmdbId": 102382
+  },
+  {
+    "type": "movie",
+    "title": "22 Jump Street",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
       "Crime",
       "Comedy",
+      "Action"
+    ],
+    "directors": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "tmdbId": 187017
+  },
+  {
+    "type": "movie",
+    "title": "300: Rise of an Empire",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
       "Drama",
       "War"
     ],
-    "director": [
-      "Todd Phillips"
-    ]
+    "directors": [
+      "Noam Murro"
+    ],
+    "tmdbId": 53182
   },
   {
-    "title": "Doctor Strange",
-    "date": "2016-11-04T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2016,
+    "title": "The Interview",
+    "date": "2014-01-01",
+    "release_year": 2014,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook",
-      "Fantasy"
+      "Comedy"
     ],
-    "director": [
-      "Scott Derrickson"
-    ]
+    "directors": [
+      "Evan Goldberg",
+      "Seth Rogen"
+    ],
+    "tmdbId": 228967
   },
   {
-    "title": "Blade Runner 2049",
-    "date": "2017-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2017,
+    "title": "The Theory of Everything",
+    "date": "2014-01-01",
+    "release_year": 2014,
     "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Drama",
-      "Mystery"
-    ],
-    "director": [
-      "Denis Villeneuve"
-    ]
-  },
-  {
-    "title": "Get Out",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Horror",
-      "Mystery",
-      "Thriller"
-    ],
-    "director": [
-      "Jordan Peele"
-    ]
-  },
-  {
-    "title": "John Wick: Chapter 2",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "director": [
-      "Chad Stahelski"
-    ]
-  },
-  {
-    "title": "Star Wars: Episode VIII - The Last Jedi",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": [
-      "Rian Johnson"
-    ]
-  },
-  {
-    "title": "Baby Driver",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Edgar Wright"
-    ]
-  },
-  {
-    "title": "It (2017)",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy",
-      "Talk-Show"
-    ],
-    "director": [
-      "Sol Harris",
-      "Allen Turing"
-    ]
-  },
-  {
-    "title": "Wonder Woman",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "director": [
-      "Patty Jenkins"
-    ]
-  },
-  {
-    "title": "The Shape of Water",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Drama",
-      "Fantasy",
       "Romance"
     ],
-    "director": [
-      "Guillermo del Toro"
-    ]
+    "directors": [
+      "James Marsh"
+    ],
+    "tmdbId": 266856
   },
   {
-    "title": "Kong: Skull Island",
-    "date": "2017-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2017,
+    "title": "The Fault in Our Stars",
+    "date": "2014-01-01",
+    "release_year": 2014,
     "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "directors": [
+      "Josh Boone"
+    ],
+    "tmdbId": 222935
+  },
+  {
+    "type": "movie",
+    "title": "Lucy",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Luc Besson"
+    ],
+    "tmdbId": 240832
+  },
+  {
+    "type": "movie",
+    "title": "Boyhood",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      "Richard Linklater"
+    ],
+    "tmdbId": 85350
+  },
+  {
+    "type": "movie",
+    "title": "Neighbors",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "directors": [
+      "Nicholas Stoller"
+    ],
+    "tmdbId": 195589
+  },
+  {
+    "type": "movie",
+    "title": "Dawn of the Planet of the Apes",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "tmdbId": 119450
+  },
+  {
+    "type": "movie",
+    "title": "Prisoners",
+    "date": "2014-01-01",
+    "release_year": 2013,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "tmdbId": 146233
+  },
+  {
+    "type": "movie",
+    "title": "The Imitation Game",
+    "date": "2014-01-01",
+    "release_year": 2014,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "History",
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "directors": [
+      "Morten Tyldum"
+    ],
+    "tmdbId": 205596
+  },
+  {
+    "type": "movie",
+    "title": "The Man from U.N.C.L.E.",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Action",
+      "Adventure"
+    ],
+    "directors": [
+      "Guy Ritchie"
+    ],
+    "tmdbId": 203801
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Force Awakens",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "J.J. Abrams"
+    ],
+    "tmdbId": 140607
+  },
+  {
+    "type": "movie",
+    "title": "Sicario",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "tmdbId": 273481
+  },
+  {
+    "type": "movie",
+    "title": "Mad Max: Fury Road",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Fantasy"
+      "Science Fiction"
     ],
-    "director": [
-      "Jordan Vogt-Roberts"
-    ]
+    "directors": [
+      "George Miller"
+    ],
+    "tmdbId": 76341
   },
   {
-    "title": "Good-Time Girl",
-    "date": "2017-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 1948,
+    "title": "Ex-Machina",
+    "date": "2015-01-01",
+    "release_year": 2015,
     "review": {
-      "rating": 3
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Alex Garland"
+    ],
+    "tmdbId": 264660
+  },
+  {
+    "type": "movie",
+    "title": "The Hateful Eight",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Western"
+    ],
+    "directors": [
+      "Quentin Tarantino"
+    ],
+    "tmdbId": 273248
+  },
+  {
+    "type": "movie",
+    "title": "Jurassic World",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "directors": [
+      "Colin Trevorrow"
+    ],
+    "tmdbId": 135397
+  },
+  {
+    "type": "movie",
+    "title": "Avengers: Age of Ultron",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Joss Whedon"
+    ],
+    "tmdbId": 99861
+  },
+  {
+    "type": "movie",
+    "title": "Legend",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Crime",
-      "Drama"
+      "Thriller"
     ],
-    "director": [
-      "David MacDonald"
-    ]
+    "directors": [
+      "Brian Helgeland"
+    ],
+    "tmdbId": 276907
   },
   {
-    "title": "War for the Planet of the Apes",
-    "date": "2017-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2017,
+    "title": "The Martian",
+    "date": "2015-01-01",
+    "release_year": 2015,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Action",
+      "Drama",
       "Adventure",
-      "Drama"
+      "Science Fiction"
     ],
-    "director": [
-      "Matt Reeves"
-    ]
+    "directors": [
+      "Ridley Scott"
+    ],
+    "tmdbId": 286217
   },
   {
-    "title": "The Disaster Artist",
-    "date": "2017-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2017,
+    "title": "Everest",
+    "date": "2015-01-01",
+    "release_year": 2015,
     "review": {
-      "rating": 3
+      "rating": 2,
+      "comment": null
     },
     "genres": [
-      "Biography",
-      "Comedy",
-      "Drama"
-    ],
-    "director": [
-      "James Franco"
-    ]
-  },
-  {
-    "title": "13 Hours",
-    "date": "2017-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2016,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
+      "Adventure",
       "Drama",
       "History"
     ],
-    "director": [
-      "Michael Bay"
-    ]
+    "directors": [
+      "Baltasar Kormákur"
+    ],
+    "tmdbId": 253412
   },
   {
-    "title": "Paper Towns",
-    "date": "2017-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Straight Outta Compton",
+    "date": "2015-01-01",
     "release_year": 2015,
     "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Adventure",
+      "Drama",
+      "Music",
+      "History"
+    ],
+    "directors": [
+      "F. Gary Gray"
+    ],
+    "tmdbId": 277216
+  },
+  {
+    "type": "movie",
+    "title": "Demolition",
+    "date": "2015-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
       "Comedy",
       "Drama"
     ],
-    "director": [
-      "Jake Schreier"
-    ]
+    "directors": [
+      "Jean-Marc Vallée"
+    ],
+    "tmdbId": 303991
   },
   {
-    "title": "Logan",
-    "date": "2017-03-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2017,
+    "title": "Chappie",
+    "date": "2015-01-01",
+    "release_year": 2015,
     "review": {
-      "rating": 5
+      "rating": 4,
+      "comment": null
     },
     "genres": [
+      "Crime",
       "Action",
-      "Drama",
-      "Sci-Fi",
-      "Comicbook",
-      "Thriller"
+      "Science Fiction"
     ],
-    "director": [
-      "James Mangold"
-    ]
+    "directors": [
+      "Neill Blomkamp"
+    ],
+    "tmdbId": 198184
   },
   {
-    "title": "Guardians of the Galaxy Vol. 2",
-    "date": "2017-04-26T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2017,
+    "title": "Dope",
+    "date": "2015-01-01",
+    "release_year": 2015,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook",
-      "Comedy"
-    ],
-    "director": [
-      "James Gunn"
-    ]
-  },
-  {
-    "title": "Spider-Man: Homecoming ",
-    "date": "2017-07-07T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Jon Watts"
-    ]
-  },
-  {
-    "title": "Thor: Ragnarok",
-    "date": "2017-10-27T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Sci-Fi",
-      "Comicbook",
-      "Comedy"
-    ],
-    "director": [
-      "Taika Watiti"
-    ]
-  },
-  {
-    "title": "Justice League",
-    "date": "2017-11-15T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Zack Snyder",
-      "Josh Whedon"
-    ]
-  },
-  {
-    "title": "Wind River",
-    "date": "2017-11-29T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2017,
-    "review": {
-      "rating": 4
+      "rating": 2,
+      "comment": null
     },
     "genres": [
       "Crime",
       "Drama",
-      "Mystery"
+      "Comedy"
     ],
-    "director": [
-      "Taylor Sheridan"
-    ]
+    "directors": [
+      "Rick Famuyiwa"
+    ],
+    "tmdbId": 308639
   },
   {
-    "title": "Black Panther",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Hardcore Henry",
+    "date": "2015-01-01",
+    "release_year": 2015,
     "review": {
-      "rating": 4
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
-      "Ryan Coogler"
-    ]
+    "directors": [
+      "Ilya Naishuller"
+    ],
+    "tmdbId": 325348
   },
   {
-    "title": "A Quiet Place",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Rogue One: A Star Wars Story",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 5
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Gareth Edwards"
+    ],
+    "tmdbId": 330459
+  },
+  {
+    "type": "movie",
+    "title": "Nocturnal Animals",
+    "date": "2016-01-01",
+    "release_year": 2016,
+    "review": {
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Drama",
-      "Horror",
-      "Sci-Fi"
+      "Thriller"
     ],
-    "director": [
-      "John Krasinski"
-    ]
+    "directors": [
+      "Tom Ford"
+    ],
+    "tmdbId": 340666
   },
   {
-    "title": "Avengers: Infinity War",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Split",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 4
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
+      "Fantasy",
+      "Drama",
+      "Thriller",
+      "Crime"
     ],
-    "director": [
-      "Anthony Russo",
-      "Joe Russo"
-    ]
+    "directors": [
+      "Deborah Kampmeier"
+    ],
+    "tmdbId": 358364
   },
   {
-    "title": "Ready Player One",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Deadpool",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Steven Spielberg"
-    ]
-  },
-  {
-    "title": "Deadpool 2",
-    "date": "2018-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2018,
-    "review": {
-      "rating": 4
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
       "Comedy"
     ],
-    "director": [
-      "David Leitch"
-    ]
+    "directors": [
+      "Tim Miller"
+    ],
+    "tmdbId": 293660
   },
   {
-    "title": "Aquaman",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Arrival",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 3
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Action",
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "tmdbId": 329865
+  },
+  {
+    "type": "movie",
+    "title": "Hell or High Water",
+    "date": "2016-01-01",
+    "release_year": 2016,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Western",
+      "Crime",
+      "Drama"
+    ],
+    "directors": [
+      "David Mackenzie"
+    ],
+    "tmdbId": 338766
+  },
+  {
+    "type": "movie",
+    "title": "Captain Fantastic",
+    "date": "2016-01-01",
+    "release_year": 2016,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
       "Adventure",
+      "Drama"
+    ],
+    "directors": [
+      "Matt Ross"
+    ],
+    "tmdbId": 334533
+  },
+  {
+    "type": "movie",
+    "title": "Sausage Party",
+    "date": "2016-01-01",
+    "release_year": 2016,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
       "Fantasy"
     ],
-    "director": [
-      "James Wan"
-    ]
+    "directors": [
+      "Conrad Vernon",
+      "Greg Tiernan"
+    ],
+    "tmdbId": 223702
   },
   {
-    "title": "Annihilation",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "10 Cloverfield Lane",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Adventure",
+      "Thriller",
+      "Science Fiction",
       "Drama",
       "Horror"
     ],
-    "director": [
-      "Alex Garland"
-    ]
+    "directors": [
+      "Dan Trachtenberg"
+    ],
+    "tmdbId": 333371
   },
   {
-    "title": "Game Night",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Why Him?",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 2
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Action",
-      "Adventure",
       "Comedy"
     ],
-    "director": [
-      "John Francis Daley",
-      "Jonathan Goldstein"
-    ]
+    "directors": [
+      "John Hamburg"
+    ],
+    "tmdbId": 356305
   },
   {
-    "title": "Venom",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Snowden",
+    "date": "2016-01-01",
+    "release_year": 2016,
     "review": {
-      "rating": 2
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "History",
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Oliver Stone"
+    ],
+    "tmdbId": 302401
+  },
+  {
+    "type": "movie",
+    "title": "Spotlight",
+    "date": "2016-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Tom McCarthy"
+    ],
+    "tmdbId": 314365
+  },
+  {
+    "type": "movie",
+    "title": "Batman v Superman: Dawn of Justice",
+    "date": "2016-03-22",
+    "release_year": 2016,
+    "review": {
+      "rating": 2,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi"
+      "Fantasy"
     ],
-    "director": [
-      "Ruben Fleischer"
-    ]
+    "directors": [
+      "Zack Snyder"
+    ],
+    "tmdbId": 209112
   },
   {
-    "title": "BlacKkKlansman",
-    "date": "2018-01-01T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2018,
+    "title": "Captain America: Civil War",
+    "date": "2016-04-26",
+    "release_year": 2016,
     "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Biography",
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "tmdbId": 271110
+  },
+  {
+    "type": "movie",
+    "title": "X-Men: Apocalypse",
+    "date": "2016-05-20",
+    "release_year": 2016,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction",
+      "Fantasy"
+    ],
+    "directors": [
+      "Bryan Singer"
+    ],
+    "tmdbId": 246655
+  },
+  {
+    "type": "movie",
+    "title": "Warcraft",
+    "date": "2016-05-27",
+    "release_year": 2016,
+    "review": {
+      "rating": 1,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "Duncan Jones"
+    ],
+    "tmdbId": 68735
+  },
+  {
+    "type": "movie",
+    "title": "War Dogs",
+    "date": "2016-08-19",
+    "release_year": 2016,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "directors": [
+      "Todd Phillips"
+    ],
+    "tmdbId": 308266
+  },
+  {
+    "type": "movie",
+    "title": "Doctor Strange",
+    "date": "2016-11-04",
+    "release_year": 2016,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "Scott Derrickson"
+    ],
+    "tmdbId": 284052
+  },
+  {
+    "type": "movie",
+    "title": "Blade Runner 2049",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Drama"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "tmdbId": 335984
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Last Jedi",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Rian Johnson"
+    ],
+    "tmdbId": 181808
+  },
+  {
+    "type": "movie",
+    "title": "13 Hours: The Secret Soldiers of Benghazi",
+    "date": "2017-01-01",
+    "release_year": 2016,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "War",
+      "Action",
+      "History",
+      "Drama"
+    ],
+    "directors": [
+      "Michael Bay"
+    ],
+    "tmdbId": 300671
+  },
+  {
+    "type": "movie",
+    "title": "Get Out",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Horror"
+    ],
+    "directors": [
+      "Jordan Peele"
+    ],
+    "tmdbId": 419430
+  },
+  {
+    "type": "movie",
+    "title": "John Wick: Chapter 2",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "directors": [
+      "Chad Stahelski"
+    ],
+    "tmdbId": 324552
+  },
+  {
+    "type": "movie",
+    "title": "Baby Driver",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "directors": [
+      "Edgar Wright"
+    ],
+    "tmdbId": 339403
+  },
+  {
+    "type": "movie",
+    "title": "It",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Horror"
+    ],
+    "directors": [
+      "Andy Muschietti"
+    ],
+    "tmdbId": 346364
+  },
+  {
+    "type": "movie",
+    "title": "Wonder Woman",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "Patty Jenkins"
+    ],
+    "tmdbId": 297762
+  },
+  {
+    "type": "movie",
+    "title": "The Shape of Water",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "directors": [
+      "Guillermo del Toro"
+    ],
+    "tmdbId": 399055
+  },
+  {
+    "type": "movie",
+    "title": "Kong: Skull Island",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "Jordan Vogt-Roberts"
+    ],
+    "tmdbId": 293167
+  },
+  {
+    "type": "movie",
+    "title": "War for the Planet of the Apes",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "War"
+    ],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "tmdbId": 281338
+  },
+  {
+    "type": "movie",
+    "title": "The Disaster Artist",
+    "date": "2017-01-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "James Franco"
+    ],
+    "tmdbId": 371638
+  },
+  {
+    "type": "movie",
+    "title": "Paper Towns",
+    "date": "2017-01-01",
+    "release_year": 2015,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Romance"
+    ],
+    "directors": [
+      "Jake Schreier"
+    ],
+    "tmdbId": 286565
+  },
+  {
+    "type": "movie",
+    "title": "Logan",
+    "date": "2017-03-01",
+    "release_year": 2017,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ],
+    "directors": [
+      "James Mangold"
+    ],
+    "tmdbId": 263115
+  },
+  {
+    "type": "movie",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "date": "2017-04-26",
+    "release_year": 2017,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "directors": [
+      "James Gunn"
+    ],
+    "tmdbId": 283995
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: Homecoming",
+    "date": "2017-07-07",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction",
+      "Drama"
+    ],
+    "directors": [
+      "Jon Watts"
+    ],
+    "tmdbId": 315635
+  },
+  {
+    "type": "movie",
+    "title": "Thor: Ragnarok",
+    "date": "2017-10-27",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Taika Waititi"
+    ],
+    "tmdbId": 284053
+  },
+  {
+    "type": "movie",
+    "title": "Justice League",
+    "date": "2017-11-15",
+    "release_year": 2017,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Zack Snyder",
+      "Joss Whedon"
+    ],
+    "tmdbId": 141052
+  },
+  {
+    "type": "movie",
+    "title": "Wind River",
+    "date": "2017-11-29",
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Taylor Sheridan"
+    ],
+    "tmdbId": 395834
+  },
+  {
+    "type": "movie",
+    "title": "Black Panther",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Ryan Coogler"
+    ],
+    "tmdbId": 284054
+  },
+  {
+    "type": "movie",
+    "title": "A Quiet Place",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Horror",
+      "Drama",
+      "Science Fiction"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "tmdbId": 447332
+  },
+  {
+    "type": "movie",
+    "title": "Avengers: Infinity War",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "tmdbId": 299536
+  },
+  {
+    "type": "movie",
+    "title": "Ready Player One",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Action",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "tmdbId": 333339
+  },
+  {
+    "type": "movie",
+    "title": "Deadpool 2",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Adventure"
+    ],
+    "directors": [
+      "David Leitch"
+    ],
+    "tmdbId": 383498
+  },
+  {
+    "type": "movie",
+    "title": "Aquaman",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "James Wan"
+    ],
+    "tmdbId": 297802
+  },
+  {
+    "type": "movie",
+    "title": "Annihilation",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Horror"
+    ],
+    "directors": [
+      "Alex Garland"
+    ],
+    "tmdbId": 300668
+  },
+  {
+    "type": "movie",
+    "title": "Game Night",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Mystery",
       "Comedy",
       "Crime"
     ],
-    "director": [
-      "Spike Lee"
-    ]
-  },
-  {
-    "title": "Upgrade",
-    "date": "2018-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2018,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Sci-Fi",
-      "Thriller"
+    "directors": [
+      "John Francis Daley",
+      "Jonathan Goldstein"
     ],
-    "director": [
-      "Leigh Whannell"
-    ]
+    "tmdbId": 445571
   },
   {
-    "title": "Ant-Man and The Wasp",
-    "date": "2018-07-04T00:00:00.000Z",
     "type": "movie",
+    "title": "Venom",
+    "date": "2018-01-01",
     "release_year": 2018,
     "review": {
-      "rating": 3
+      "rating": 2,
+      "comment": null
     },
     "genres": [
-      "Action",
-      "Adventure",
+      "Science Fiction",
+      "Action"
+    ],
+    "directors": [
+      "Ruben Fleischer"
+    ],
+    "tmdbId": 335983
+  },
+  {
+    "type": "movie",
+    "title": "BlacKkKlansman",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
       "Comedy",
-      "Sci-Fi",
-      "Comicbook"
+      "Crime",
+      "Drama"
     ],
-    "director": [
+    "directors": [
+      "Spike Lee"
+    ],
+    "tmdbId": 487558
+  },
+  {
+    "type": "movie",
+    "title": "Upgrade",
+    "date": "2018-01-01",
+    "release_year": 2018,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Leigh Whannell"
+    ],
+    "tmdbId": 500664
+  },
+  {
+    "type": "movie",
+    "title": "Ant-Man and the Wasp",
+    "date": "2018-07-04",
+    "release_year": 2018,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
       "Peyton Reed"
-    ]
+    ],
+    "tmdbId": 363088
   },
   {
+    "type": "movie",
     "title": "Mission: Impossible - Fallout",
-    "date": "2018-08-14T00:00:00.000Z",
-    "type": "movie",
+    "date": "2018-08-14",
     "release_year": 2018,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Thriller"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Christopher McQuarrie"
-    ]
+    ],
+    "tmdbId": 353081
   },
   {
+    "type": "movie",
     "title": "Incredibles 2",
-    "date": "2018-08-24T00:00:00.000Z",
-    "type": "movie",
+    "date": "2018-08-24",
     "release_year": 2018,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi",
-      "Comicbook",
-      "Family",
-      "Animation"
+      "Animation",
+      "Family"
     ],
-    "director": [
+    "directors": [
       "Brad Bird"
-    ]
+    ],
+    "tmdbId": 260513
   },
   {
-    "title": "Spider-Man: Into The Spider-Verse",
-    "date": "2018-12-17T00:00:00.000Z",
     "type": "movie",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "date": "2018-12-17",
     "release_year": 2018,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
+      "Animation",
       "Action",
       "Adventure",
-      "Sci-Fi",
-      "Comicbook",
-      "Fantasy",
-      "Animation"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Bob Persichetti",
       "Peter Ramsey",
       "Rodney Rothman"
-    ]
+    ],
+    "tmdbId": 324857
   },
   {
-    "title": "Once Upon a Time in Hollywood",
-    "date": "2019-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Once Upon a Time... in Hollywood",
+    "date": "2018-12-17",
     "release_year": 2019,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
       "Comedy",
-      "Drama"
+      "Drama",
+      "Thriller"
     ],
-    "director": [
+    "directors": [
       "Quentin Tarantino"
-    ]
+    ],
+    "tmdbId": 466272
   },
   {
+    "type": "movie",
     "title": "Midsommar",
-    "date": "2019-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2019-01-01",
     "release_year": 2019,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Drama",
       "Horror",
+      "Drama",
       "Mystery"
     ],
-    "director": [
+    "directors": [
       "Ari Aster"
-    ]
+    ],
+    "tmdbId": 530385
   },
   {
+    "type": "movie",
     "title": "John Wick: Chapter 3 - Parabellum",
-    "date": "2019-01-01T00:00:00.000Z",
-    "type": "movie",
+    "date": "2019-01-01",
     "release_year": 2019,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "director": [
-      "Chad Stahelski"
-    ]
-  },
-  {
-    "title": "Captain Marvel",
-    "date": "2019-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Anna Boden",
-      "Ryan Fleck"
-    ]
-  },
-  {
-    "title": "El Camino: A Breaking Bad Movie",
-    "date": "2019-01-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Vince Gilligan"
-    ]
-  },
-  {
-    "title": "Avengers: Endgame",
-    "date": "2019-04-24T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook",
-      "Drama"
-    ],
-    "director": [
-      "Russo Brothers"
-    ]
-  },
-  {
-    "title": "Spider-Man: Far From Home",
-    "date": "2019-07-04T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Jon Watts"
-    ]
-  },
-  {
-    "title": "Joker",
-    "date": "2019-10-04T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Crime",
-      "Drama",
-      "Thriller"
-    ],
-    "director": [
-      "Todd Phillips"
-    ]
-  },
-  {
-    "title": "Toy Story 4",
-    "date": "2019-10-07T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Comedy",
-      "Family",
-      "Fantasy"
-    ],
-    "director": [
-      "Josh Cooley"
-    ]
-  },
-  {
-    "title": "Knives Out",
-    "date": "2019-12-06T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Mystery",
-      "Crime",
-      "Thriller"
-    ],
-    "director": [
-      "Rian Johnson"
-    ]
-  },
-  {
-    "title": "1917",
-    "date": "2020-02-05T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2020,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Drama",
-      "War"
-    ],
-    "director": [
-      "Sam Mendes"
-    ]
-  },
-  {
-    "title": "Birds of Prey",
-    "date": "2020-02-08T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2020,
-    "review": {
-      "rating": 2
-    },
-    "genres": [
-      "Comedy",
-      "Action",
-      "Adventure",
-      "Crime",
-      "Comicbook"
-    ],
-    "director": [
-      "Cathy Yan"
-    ]
-  },
-  {
-    "title": "Parasite",
-    "date": "2020-02-22T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Thriller"
-    ],
-    "director": [
-      "Bong Joon Ho"
-    ]
-  },
-  {
-    "title": "Jojo Rabbit",
-    "date": "2020-03-04T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Comedy",
-      "Drama",
-      "War"
-    ],
-    "director": [
-      "Taika Watiti"
-    ]
-  },
-  {
-    "title": "The Invisible Man",
-    "date": "2020-03-30T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2020,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Drama",
-      "Horror",
       "Thriller",
-      "Sci-Fi",
-      "Mystery"
-    ],
-    "director": [
-      "Leigh Whannell"
-    ]
-  },
-  {
-    "title": "The Gentlemen",
-    "date": "2020-04-03T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Comedy",
       "Crime"
     ],
-    "director": [
-      "Guy Ritchie"
-    ]
+    "directors": [
+      "Chad Stahelski"
+    ],
+    "tmdbId": 458156
   },
   {
-    "title": "Spies in Disguise",
-    "date": "2020-04-07T00:00:00.000Z",
     "type": "movie",
+    "title": "Captain Marvel",
+    "date": "2019-01-01",
     "release_year": 2019,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Comedy",
       "Adventure",
-      "Animation",
-      "Family",
-      "Fantasy",
-      "Thriller",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
-      "Nick Bruno",
-      "Troy Quane"
-    ]
+    "directors": [
+      "Ryan Fleck",
+      "Anna Boden"
+    ],
+    "tmdbId": 299537
   },
   {
-    "title": "Bad Boys For Life",
-    "date": "2020-04-10T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2020,
+    "title": "El Camino: A Breaking Bad Movie",
+    "date": "2019-01-01",
+    "release_year": 2019,
     "review": {
-      "rating": 3
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Action",
-      "Comedy",
       "Crime",
+      "Drama",
       "Thriller"
     ],
-    "director": [
-      "Adil El Arbi",
-      "Bilall Fallah"
-    ]
+    "directors": [
+      "Vince Gilligan"
+    ],
+    "tmdbId": 559969
   },
   {
-    "title": "The Big Sick",
-    "date": "2020-04-17T00:00:00.000Z",
     "type": "movie",
+    "title": "Avengers: Endgame",
+    "date": "2019-04-24",
+    "release_year": 2019,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Adventure",
+      "Science Fiction",
+      "Action"
+    ],
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "tmdbId": 299534
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: Far From Home",
+    "date": "2019-07-04",
+    "release_year": 2019,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Jon Watts"
+    ],
+    "tmdbId": 429617
+  },
+  {
+    "type": "movie",
+    "title": "Joker",
+    "date": "2019-10-04",
+    "release_year": 2019,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "directors": [
+      "Todd Phillips"
+    ],
+    "tmdbId": 475557
+  },
+  {
+    "type": "movie",
+    "title": "Toy Story 4",
+    "date": "2019-10-07",
+    "release_year": 2019,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Family",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Fantasy"
+    ],
+    "directors": [
+      "Josh Cooley"
+    ],
+    "tmdbId": 301528
+  },
+  {
+    "type": "movie",
+    "title": "Knives Out",
+    "date": "2019-12-06",
+    "release_year": 2019,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "directors": [
+      "Rian Johnson"
+    ],
+    "tmdbId": 546554
+  },
+  {
+    "type": "movie",
+    "title": "1917",
+    "date": "2020-02-05",
+    "release_year": 2019,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "War",
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Sam Mendes"
+    ],
+    "tmdbId": 530915
+  },
+  {
+    "type": "movie",
+    "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+    "date": "2020-02-08",
+    "release_year": 2020,
+    "review": {
+      "rating": 2,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "directors": [
+      "Cathy Yan"
+    ],
+    "tmdbId": 495764
+  },
+  {
+    "type": "movie",
+    "title": "Parasite",
+    "date": "2020-02-22",
+    "release_year": 2019,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "directors": [
+      "Bong Joon-ho"
+    ],
+    "tmdbId": 496243
+  },
+  {
+    "type": "movie",
+    "title": "Jojo Rabbit",
+    "date": "2020-03-04",
+    "release_year": 2019,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "War",
+      "Drama"
+    ],
+    "directors": [
+      "Taika Waititi"
+    ],
+    "tmdbId": 515001
+  },
+  {
+    "type": "movie",
+    "title": "The Invisible Man",
+    "date": "2020-03-30",
+    "release_year": 2020,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
+      "Science Fiction",
+      "Horror"
+    ],
+    "directors": [
+      "Leigh Whannell"
+    ],
+    "tmdbId": 570670
+  },
+  {
+    "type": "movie",
+    "title": "The Gentlemen",
+    "date": "2020-03-30",
+    "release_year": 2020,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Comedy"
+    ],
+    "directors": [
+      "Guy Ritchie"
+    ],
+    "tmdbId": 522627
+  },
+  {
+    "type": "movie",
+    "title": "Spies in Disguise",
+    "date": "2020-04-07",
+    "release_year": 2019,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "directors": [
+      "Troy Quane",
+      "Nick Bruno"
+    ],
+    "tmdbId": 431693
+  },
+  {
+    "type": "movie",
+    "title": "Bad Boys for Life",
+    "date": "2020-04-10",
+    "release_year": 2020,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
+      "Action",
+      "Crime"
+    ],
+    "directors": [
+      "Bilall Fallah",
+      "Adil El Arbi"
+    ],
+    "tmdbId": 38700
+  },
+  {
+    "type": "movie",
+    "title": "The Big Sick",
+    "date": "2020-04-17",
     "release_year": 2017,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Drama",
       "Romance"
     ],
-    "director": [
+    "directors": [
       "Michael Showalter"
-    ]
+    ],
+    "tmdbId": 416477
   },
   {
-    "title": "Johnny English Strikes Again",
-    "date": "2020-06-05T00:00:00.000Z",
     "type": "movie",
+    "title": "Johnny English Strikes Again",
+    "date": "2020-06-05",
     "release_year": 2018,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy",
-      "Action",
-      "Adventure"
-    ],
-    "director": [
-      "David Kerr"
-    ]
-  },
-  {
-    "title": "Minority Report",
-    "date": "2020-06-06T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2002,
-    "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Crime",
-      "Mystery",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Steven Spielberg"
-    ]
-  },
-  {
-    "title": "Mean Girls",
-    "date": "2020-06-07T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2004,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
+      "Adventure",
       "Comedy"
     ],
-    "director": [
-      "Mark Waters"
-    ]
+    "directors": [
+      "David Kerr"
+    ],
+    "tmdbId": 463272
   },
   {
-    "title": "The King of Staten Island",
-    "date": "2020-06-15T00:00:00.000Z",
     "type": "movie",
+    "title": "Minority Report",
+    "date": "2020-06-06",
+    "release_year": 2002,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "tmdbId": 180
+  },
+  {
+    "type": "movie",
+    "title": "Mean Girls",
+    "date": "2020-06-07",
+    "release_year": 2004,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "directors": [
+      "Mark Waters"
+    ],
+    "tmdbId": 10625
+  },
+  {
+    "type": "movie",
+    "title": "The King of Staten Island",
+    "date": "2020-06-15",
     "release_year": 2020,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Judd Apatow"
-    ]
+    ],
+    "tmdbId": 579583
   },
   {
-    "title": "Extraction",
-    "date": "2020-07-20T00:00:00.000Z",
     "type": "movie",
+    "title": "Extraction",
+    "date": "2020-07-20",
     "release_year": 2020,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Sam Hargrave"
-    ]
+    ],
+    "tmdbId": 545609
   },
   {
-    "title": "The Rental",
-    "date": "2020-07-30T00:00:00.000Z",
     "type": "movie",
+    "title": "The Rental",
+    "date": "2020-07-30",
     "release_year": 2020,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Drama",
       "Horror",
-      "Thriller",
-      "Mystery"
+      "Mystery",
+      "Thriller"
     ],
-    "director": [
+    "directors": [
       "Dave Franco"
-    ]
+    ],
+    "tmdbId": 587496
   },
   {
-    "title": "Uncut Gems",
-    "date": "2020-08-19T00:00:00.000Z",
     "type": "movie",
+    "title": "Uncut Gems",
+    "date": "2020-08-19",
     "release_year": 2019,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Crime",
       "Drama",
-      "Thriller"
+      "Thriller",
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Benny Safdie",
       "Josh Safdie"
-    ]
+    ],
+    "tmdbId": 473033
   },
   {
-    "title": "Room",
-    "date": "2020-08-23T00:00:00.000Z",
     "type": "movie",
+    "title": "Room",
+    "date": "2020-08-23",
     "release_year": 2015,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Drama",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Lenny Abrahamson"
-    ]
+    ],
+    "tmdbId": 264644
   },
   {
-    "title": "Tenet",
-    "date": "2020-08-26T00:00:00.000Z",
     "type": "movie",
+    "title": "Tenet",
+    "date": "2020-08-26",
     "release_year": 2020,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
-      "Sci-Fi",
-      "Thriller"
+      "Thriller",
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Christopher Nolan"
-    ]
+    ],
+    "tmdbId": 577922
   },
   {
-    "title": "Onward",
-    "date": "2020-08-28T00:00:00.000Z",
     "type": "movie",
+    "title": "Onward",
+    "date": "2020-08-28",
     "release_year": 2020,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
+      "Family",
       "Animation",
       "Adventure",
-      "Fantasy",
       "Comedy",
-      "Family"
+      "Fantasy"
     ],
-    "director": [
+    "directors": [
       "Dan Scanlon"
-    ]
+    ],
+    "tmdbId": 508439
   },
   {
-    "title": "The Incredible Journey",
-    "date": "2020-09-20T00:00:00.000Z",
     "type": "movie",
+    "title": "The Incredible Journey",
+    "date": "2020-09-20",
     "release_year": 1963,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Adventure",
-      "Drama",
       "Family"
     ],
-    "director": [
+    "directors": [
       "Fletcher Markle"
-    ]
+    ],
+    "tmdbId": 37969
   },
   {
-    "title": "Borat Subsequent Moviefilm",
-    "date": "2020-10-23T00:00:00.000Z",
     "type": "movie",
+    "title": "Borat Subsequent Moviefilm",
+    "date": "2020-10-23",
     "release_year": 2020,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Jason Woliner"
-    ]
+    ],
+    "tmdbId": 740985
   },
   {
-    "title": "Love and Monsters",
-    "date": "2020-10-29T00:00:00.000Z",
     "type": "movie",
+    "title": "Love and Monsters",
+    "date": "2020-10-29",
     "release_year": 2020,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
+      "Comedy",
       "Action",
       "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Michael Matthews"
-    ]
+    ],
+    "tmdbId": 590223
   },
   {
-    "title": "Yesterday",
-    "date": "2021-02-19T00:00:00.000Z",
     "type": "movie",
+    "title": "Yesterday",
+    "date": "2021-02-19",
     "release_year": 2019,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy",
@@ -3309,738 +3636,764 @@
       "Music",
       "Romance"
     ],
-    "director": [
+    "directors": [
       "Danny Boyle"
-    ]
+    ],
+    "tmdbId": 515195
   },
   {
-    "title": "This is 40",
-    "date": "2021-02-28T00:00:00.000Z",
     "type": "movie",
+    "title": "This Is 40",
+    "date": "2021-02-28",
     "release_year": 2012,
     "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "director": [
-      "Judd Apatow"
-    ]
-  },
-  {
-    "title": "Zack Snyder's Justice League",
-    "date": "2021-03-18T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Zack Snyder"
-    ]
-  },
-  {
-    "title": "Deadly Illusions",
-    "date": "2021-03-26T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 1
-    },
-    "genres": [
-      "Drama",
-      "Thriller"
-    ],
-    "director": [
-      "Anna Elizabeth James"
-    ]
-  },
-  {
-    "title": "Bad Trip",
-    "date": "2021-03-28T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Comedy"
     ],
-    "director": [
-      "Kitao Sakurai"
-    ]
-  },
-  {
-    "title": "Stowaway",
-    "date": "2021-04-24T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Adventure",
-      "Sci-Fi",
-      "Thriller"
+    "directors": [
+      "Judd Apatow"
     ],
-    "director": [
-      "Joe Penna"
-    ]
+    "tmdbId": 89492
   },
   {
-    "title": "Bo Burnham: Inside",
-    "date": "2021-06-07T00:00:00.000Z",
     "type": "movie",
+    "title": "Zack Snyder's Justice League",
+    "date": "2021-03-18",
     "release_year": 2021,
     "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Music"
-    ],
-    "director": [
-      "Bo Burnhamn"
-    ]
-  },
-  {
-    "title": "A Quiet Place Part II",
-    "date": "2021-06-09T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Drama",
-      "Sci-Fi",
-      "Horror",
-      "Thriller"
-    ],
-    "director": [
-      "John Krasinski"
-    ]
-  },
-  {
-    "title": "Black Widow",
-    "date": "2021-07-07T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "Cate Shortland"
-    ]
-  },
-  {
-    "title": "The Suicide Squad",
-    "date": "2021-08-06T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi",
-      "Comicbook"
-    ],
-    "director": [
-      "James Gunn"
-    ]
-  },
-  {
-    "title": "Free Guy",
-    "date": "2021-08-21T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Shawn Levy"
-    ]
-  },
-  {
-    "title": "Shang-Chi and the Legend of the Ten Rings",
-    "date": "2021-09-01T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Fantasy",
-      "Comicbook"
-    ],
-    "director": [
-      "Destin Daniel Cretton"
-    ]
-  },
-  {
-    "title": "Dune",
-    "date": "2021-10-11T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Drama"
-    ],
-    "director": [
-      "Denis Villeneuve"
-    ]
-  },
-  {
-    "title": "Eternals",
-    "date": "2021-11-03T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi",
-      "Comicbook",
       "Fantasy"
     ],
-    "director": [
-      "Chloé Zhao"
-    ]
+    "directors": [
+      "Zack Snyder"
+    ],
+    "tmdbId": 791373
   },
   {
-    "title": "Venom: Let There Be Carnage",
-    "date": "2021-11-13T00:00:00.000Z",
     "type": "movie",
+    "title": "Deadly Illusions",
+    "date": "2021-03-26",
     "release_year": 2021,
     "review": {
-      "rating": 3
+      "rating": 1,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "directors": [
+      "Anna Elizabeth James"
+    ],
+    "tmdbId": 802443
+  },
+  {
+    "type": "movie",
+    "title": "Bad Trip",
+    "date": "2021-03-28",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy"
+    ],
+    "directors": [
+      "Kitao Sakurai"
+    ],
+    "tmdbId": 578908
+  },
+  {
+    "type": "movie",
+    "title": "Stowaway",
+    "date": "2021-04-24",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Thriller",
+      "Adventure"
+    ],
+    "directors": [
+      "Joe Penna"
+    ],
+    "tmdbId": 559581
+  },
+  {
+    "type": "movie",
+    "title": "Bo Burnham: Inside",
+    "date": "2021-06-07",
+    "release_year": 2021,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Bo Burnham"
+    ],
+    "tmdbId": 823754
+  },
+  {
+    "type": "movie",
+    "title": "A Quiet Place Part II",
+    "date": "2021-06-09",
+    "release_year": 2021,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Thriller",
+      "Horror"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "tmdbId": 520763
+  },
+  {
+    "type": "movie",
+    "title": "Black Widow",
+    "date": "2021-07-07",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Sci-Fi",
-      "Comicbook",
-      "Thriller"
+      "Science Fiction"
     ],
-    "director": [
-      "Andy Serkis"
-    ]
+    "directors": [
+      "Cate Shortland"
+    ],
+    "tmdbId": 497698
   },
   {
-    "title": "Love Hard",
-    "date": "2021-11-27T00:00:00.000Z",
     "type": "movie",
+    "title": "The Suicide Squad",
+    "date": "2021-08-06",
     "release_year": 2021,
     "review": {
-      "rating": 3
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Adventure"
+    ],
+    "directors": [
+      "James Gunn"
+    ],
+    "tmdbId": 436969
+  },
+  {
+    "type": "movie",
+    "title": "Free Guy",
+    "date": "2021-08-21",
+    "release_year": 2021,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Shawn Levy"
+    ],
+    "tmdbId": 550988
+  },
+  {
+    "type": "movie",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "date": "2021-09-01",
+    "release_year": 2021,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "Destin Daniel Cretton"
+    ],
+    "tmdbId": 566525
+  },
+  {
+    "type": "movie",
+    "title": "Dune",
+    "date": "2021-10-11",
+    "release_year": 2021,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "tmdbId": 438631
+  },
+  {
+    "type": "movie",
+    "title": "Eternals",
+    "date": "2021-11-03",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "directors": [
+      "Chloé Zhao"
+    ],
+    "tmdbId": 524434
+  },
+  {
+    "type": "movie",
+    "title": "Venom: Let There Be Carnage",
+    "date": "2021-11-13",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "directors": [
+      "Andy Serkis"
+    ],
+    "tmdbId": 580489
+  },
+  {
+    "type": "movie",
+    "title": "Love Hard",
+    "date": "2021-11-27",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Romance"
     ],
-    "director": [
-      "Hernan Jimenez"
-    ]
+    "directors": [
+      "Hernán Jiménez"
+    ],
+    "tmdbId": 734265
   },
   {
-    "title": "Atomic Blonde",
-    "date": "2021-12-17T00:00:00.000Z",
     "type": "movie",
+    "title": "Atomic Blonde",
+    "date": "2021-12-17",
     "release_year": 2017,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "director": [
-      "David Leitch"
-    ]
-  },
-  {
-    "title": "Spider-Man: No Way Home",
-    "date": "2021-12-19T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 5
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Comedy",
-      "Comicbook"
+      "Thriller"
     ],
-    "director": [
-      "Jon Watts"
-    ]
+    "directors": [
+      "David Leitch"
+    ],
+    "tmdbId": 341013
   },
   {
-    "title": "The Green Knight",
-    "date": "2022-01-09T00:00:00.000Z",
     "type": "movie",
+    "title": "Spider-Man: No Way Home",
+    "date": "2021-12-19",
     "release_year": 2021,
     "review": {
-      "rating": 3
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Jon Watts"
+    ],
+    "tmdbId": 634649
+  },
+  {
+    "type": "movie",
+    "title": "The Green Knight",
+    "date": "2022-01-09",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Adventure",
       "Drama",
       "Fantasy"
     ],
-    "director": [
+    "directors": [
       "David Lowery"
-    ]
+    ],
+    "tmdbId": 559907
   },
   {
-    "title": "The Matrix Resurrections",
-    "date": "2022-01-15T00:00:00.000Z",
     "type": "movie",
+    "title": "The Matrix Resurrections",
+    "date": "2022-01-15",
     "release_year": 2021,
     "review": {
-      "rating": 2
+      "rating": 2,
+      "comment": null
     },
     "genres": [
+      "Science Fiction",
       "Action",
-      "Sci-Fi"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Lana Wachowski"
-    ]
+    ],
+    "tmdbId": 624860
   },
   {
-    "title": "Ant-Man",
-    "date": "2022-02-06T00:00:00.000Z",
     "type": "movie",
+    "title": "Ant-Man",
+    "date": "2022-02-06",
     "release_year": 2015,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
+      "Science Fiction",
       "Action",
-      "Adventure",
-      "Comedy",
-      "Sci-Fi",
-      "Comicbook"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Peyton Reed"
-    ]
+    ],
+    "tmdbId": 102899
   },
   {
-    "title": "Chicken Run",
-    "date": "2022-02-06T00:00:00.000Z",
     "type": "movie",
+    "title": "Chicken Run",
+    "date": "2022-02-06",
     "release_year": 2000,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Animation",
-      "Adventure",
       "Comedy",
-      "Drama",
       "Family"
     ],
-    "director": [
+    "directors": [
       "Peter Lord",
       "Nick Park"
-    ]
+    ],
+    "tmdbId": 7443
   },
   {
-    "title": "The Tinder Swindler",
-    "date": "2022-02-07T00:00:00.000Z",
     "type": "movie",
+    "title": "The Tinder Swindler",
+    "date": "2022-02-07",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Documentary",
       "Crime"
     ],
-    "director": [
+    "directors": [
       "Felicity Morris"
-    ]
+    ],
+    "tmdbId": 923632
   },
   {
-    "title": "Red Notice",
-    "date": "2022-02-19T00:00:00.000Z",
     "type": "movie",
+    "title": "Red Notice",
+    "date": "2022-02-19",
     "release_year": 2021,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Action",
       "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Rawson Marshall Thurber"
+    ],
+    "tmdbId": 512195
+  },
+  {
+    "type": "movie",
+    "title": "The Batman",
+    "date": "2022-03-06",
+    "release_year": 2022,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Crime",
+      "Mystery",
       "Thriller"
     ],
-    "director": [
-      "Rawson Marshall Thurber"
-    ]
-  },
-  {
-    "title": "The Batman",
-    "date": "2022-03-06T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2022,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama",
-      "Mystery",
-      "Comicbook"
-    ],
-    "director": [
+    "directors": [
       "Matt Reeves"
-    ]
+    ],
+    "tmdbId": 414906
   },
   {
-    "title": "The Adam Project",
-    "date": "2022-03-18T00:00:00.000Z",
     "type": "movie",
+    "title": "The Adam Project",
+    "date": "2022-03-18",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Action",
       "Adventure",
-      "Comedy",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Shawn Levy"
-    ]
+    ],
+    "tmdbId": 696806
   },
   {
-    "title": "Trollhunter",
-    "date": "2022-04-13T00:00:00.000Z",
     "type": "movie",
+    "title": "Troll Hunter",
+    "date": "2022-04-13",
     "release_year": 2010,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Drama",
       "Fantasy",
-      "Horror",
-      "Sci-Fi",
-      "Thriller"
+      "Horror"
     ],
-    "director": [
+    "directors": [
       "André Øvredal"
-    ]
+    ],
+    "tmdbId": 46146
   },
   {
+    "type": "movie",
     "title": "The Northman",
-    "date": "2022-04-15T00:00:00.000Z",
-    "type": "movie",
+    "date": "2022-04-15",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Drama",
-      "Fantasy",
-      "History",
-      "Thriller"
+      "Fantasy"
     ],
-    "director": [
+    "directors": [
       "Robert Eggers"
-    ]
+    ],
+    "tmdbId": 639933
   },
   {
-    "title": "Doctor Strange in the Multiverse of Madness",
-    "date": "2022-05-04T00:00:00.000Z",
     "type": "movie",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "date": "2022-05-04",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
-      "Action",
-      "Adventure",
       "Fantasy",
-      "Sci-Fi",
-      "Horror",
-      "Comicbook"
+      "Action",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Sam Raimi"
-    ]
+    ],
+    "tmdbId": 453395
   },
   {
-    "title": "Chip 'n Dale: Rescue Rangers",
-    "date": "2022-05-21T00:00:00.000Z",
     "type": "movie",
+    "title": "Chip 'n Dale: Rescue Rangers",
+    "date": "2022-05-21",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Animation",
-      "Adventure",
-      "Comedy",
       "Family",
+      "Comedy",
+      "Adventure",
       "Mystery"
     ],
-    "director": [
+    "directors": [
       "Akiva Schaffer"
-    ]
+    ],
+    "tmdbId": 420821
   },
   {
-    "title": "Everything Everywhere All At Once",
-    "date": "2022-05-25T00:00:00.000Z",
     "type": "movie",
+    "title": "Everything Everywhere All at Once",
+    "date": "2022-05-25",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Action",
       "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Sci-Fi"
+      "Science Fiction"
     ],
-    "director": [
-      "Dan Kwan",
-      "Daniel Scheinert"
-    ]
+    "directors": [
+      "Daniel Scheinert",
+      "Daniel Kwan"
+    ],
+    "tmdbId": 545611
   },
   {
-    "title": "Pleasure",
-    "date": "2022-06-16T00:00:00.000Z",
     "type": "movie",
+    "title": "Pleasure",
+    "date": "2022-06-16",
     "release_year": 2021,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Ninja Thyberg"
-    ]
+    ],
+    "tmdbId": 592695
   },
   {
-    "title": "Thor: Love and Thunder",
-    "date": "2022-07-07T00:00:00.000Z",
     "type": "movie",
+    "title": "Thor: Love and Thunder",
+    "date": "2022-07-07",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
+      "Fantasy",
       "Action",
-      "Adventure",
-      "Comedy",
-      "Comicbook"
+      "Comedy"
     ],
-    "director": [
-      "Taika Watiti"
-    ]
+    "directors": [
+      "Taika Waititi"
+    ],
+    "tmdbId": 616037
   },
   {
-    "title": "American History X",
-    "date": "2022-07-23T00:00:00.000Z",
     "type": "movie",
+    "title": "American History X",
+    "date": "2022-07-23",
     "release_year": 1998,
     "review": {
-      "rating": 5
+      "rating": 5,
+      "comment": null
     },
     "genres": [
-      "Crime",
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Tony Kaye"
-    ]
+    ],
+    "tmdbId": 73
   },
   {
-    "title": "The Witches (2020)",
-    "date": "2022-07-25T00:00:00.000Z",
     "type": "movie",
-    "release_year": 2020,
+    "title": "Jumper",
+    "date": "2022-07-31",
+    "release_year": 2008,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
+      "Action",
       "Adventure",
-      "Comedy",
-      "Family",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Doug Liman"
+    ],
+    "tmdbId": 8247
+  },
+  {
+    "type": "movie",
+    "title": "The Last Duel",
+    "date": "2022-08-13",
+    "release_year": 2021,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "History",
+      "Drama",
+      "Action"
+    ],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "tmdbId": 617653
+  },
+  {
+    "type": "movie",
+    "title": "C'mon C'mon",
+    "date": "2022-08-13",
+    "release_year": 2021,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      "Mike Mills"
+    ],
+    "tmdbId": 632617
+  },
+  {
+    "type": "movie",
+    "title": "Ghostbusters: Afterlife",
+    "date": "2022-08-20",
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
       "Fantasy",
+      "Comedy",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Jason Reitman"
+    ],
+    "tmdbId": 425909
+  },
+  {
+    "type": "movie",
+    "title": "Bullet Train",
+    "date": "2022-08-23",
+    "release_year": 2022,
+    "review": {
+      "rating": 5,
+      "comment": null
+    },
+    "genres": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "directors": [
+      "David Leitch"
+    ],
+    "tmdbId": 718930
+  },
+  {
+    "type": "movie",
+    "title": "Bodies Bodies Bodies",
+    "date": "2022-09-24",
+    "release_year": 2022,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
       "Horror",
       "Mystery"
     ],
-    "director": [
-      "Robert Zemeckis"
-    ]
-  },
-  {
-    "title": "Jumper",
-    "date": "2022-07-31T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2008,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Action",
-      "Adventure",
-      "Sci-Fi"
-    ],
-    "director": [
-      "Doug Liman"
-    ]
-  },
-  {
-    "title": "The Last Duel",
-    "date": "2022-08-13T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Action",
-      "Drama",
-      "History"
-    ],
-    "director": [
-      "Ridley Scott"
-    ]
-  },
-  {
-    "title": "C'mon C'mon",
-    "date": "2022-08-13T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Drama"
-    ],
-    "director": [
-      "Mike Mills"
-    ]
-  },
-  {
-    "title": "Ghostbusters: Afterlife",
-    "date": "2022-08-20T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2021,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "director": [
-      "Jason Reitman"
-    ]
-  },
-  {
-    "title": "Bullet Train",
-    "date": "2022-08-23T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2022,
-    "review": {
-      "rating": 5
-    },
-    "genres": [
-      "Action",
-      "Comedy",
-      "Thriller"
-    ],
-    "director": [
-      "David Leitch"
-    ]
-  },
-  {
-    "title": "Bodies Bodies Bodies",
-    "date": "2022-09-24T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2022,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Horror",
-      "Comedy",
-      "Thriller"
-    ],
-    "director": [
+    "directors": [
       "Halina Reijn"
-    ]
+    ],
+    "tmdbId": 520023
   },
   {
-    "title": "Nope",
-    "date": "2022-09-25T00:00:00.000Z",
     "type": "movie",
+    "title": "Nope",
+    "date": "2022-09-25",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Horror",
-      "Mystery",
-      "Sci-Fi"
+      "Science Fiction",
+      "Mystery"
     ],
-    "director": [
+    "directors": [
       "Jordan Peele"
-    ]
+    ],
+    "tmdbId": 762504
   },
   {
-    "title": "Werewolf by Night",
-    "date": "2022-10-08T00:00:00.000Z",
     "type": "movie",
+    "title": "Werewolf by Night",
+    "date": "2022-10-08",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -4048,17 +4401,18 @@
     },
     "genres": [
       "Action",
-      "Adventure",
-      "Comedy"
+      "Fantasy",
+      "Horror"
     ],
-    "director": [
+    "directors": [
       "Michael Giacchino"
-    ]
+    ],
+    "tmdbId": 894205
   },
   {
-    "title": "The Naked Gun: From the Files of Police Squad!",
-    "date": "2022-10-22T00:00:00.000Z",
     "type": "movie",
+    "title": "The Naked Gun: From the Files of Police Squad!",
+    "date": "2022-10-22",
     "release_year": 1988,
     "review": {
       "rating": 4,
@@ -4068,14 +4422,15 @@
       "Comedy",
       "Crime"
     ],
-    "director": [
+    "directors": [
       "David Zucker"
-    ]
+    ],
+    "tmdbId": 37136
   },
   {
-    "title": "Barbarian",
-    "date": "2022-11-04T00:00:00.000Z",
     "type": "movie",
+    "title": "Barbarian",
+    "date": "2022-11-04",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -4083,16 +4438,18 @@
     },
     "genres": [
       "Horror",
+      "Mystery",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Zach Cregger"
-    ]
+    ],
+    "tmdbId": 913290
   },
   {
-    "title": "Black Panther: Wakanda Forever",
-    "date": "2022-11-09T00:00:00.000Z",
     "type": "movie",
+    "title": "Black Panther: Wakanda Forever",
+    "date": "2022-11-09",
     "release_year": 2022,
     "review": {
       "rating": 3,
@@ -4101,16 +4458,17 @@
     "genres": [
       "Action",
       "Adventure",
-      "Drama"
+      "Science Fiction"
     ],
-    "director": [
-      "Ryan Coggler"
-    ]
+    "directors": [
+      "Ryan Coogler"
+    ],
+    "tmdbId": 505642
   },
   {
-    "title": "Krigsseileren",
-    "date": "2022-11-19T00:00:00.000Z",
     "type": "movie",
+    "title": "War Sailor",
+    "date": "2022-11-19",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -4118,37 +4476,37 @@
     },
     "genres": [
       "Drama",
-      "War"
+      "War",
+      "History"
     ],
-    "director": [
+    "directors": [
       "Gunnar Vikene"
-    ]
+    ],
+    "tmdbId": 924154
   },
   {
-    "title": "The Guardians of the Galaxy Holiday Special",
-    "date": "2022-11-25T00:00:00.000Z",
     "type": "movie",
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "date": "2022-11-25",
     "release_year": 2022,
     "review": {
       "rating": 4,
       "comment": "Meh, it had some cool details, and I felt like _I had to_ watch it."
     },
     "genres": [
-      "Action",
-      "Adventure",
       "Comedy",
-      "Fantasy",
-      "Sci-Fi",
-      "Comicbook"
+      "Science Fiction",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "James Gunn"
-    ]
+    ],
+    "tmdbId": 774752
   },
   {
-    "title": "Glass Onion: A Knives Out Mystery",
-    "date": "2022-12-25T00:00:00.000Z",
     "type": "movie",
+    "title": "Glass Onion: A Knives Out Mystery",
+    "date": "2022-12-25",
     "release_year": 2022,
     "review": {
       "rating": 3,
@@ -4157,138 +4515,150 @@
     "genres": [
       "Comedy",
       "Crime",
-      "Drama"
+      "Mystery"
     ],
-    "director": [
+    "directors": [
       "Rian Johnson"
-    ]
+    ],
+    "tmdbId": 661374
   },
   {
-    "title": "Verdens verste menneske",
-    "date": "2022-12-30T00:00:00.000Z",
     "type": "movie",
+    "title": "The Worst Person in the World",
+    "date": "2022-12-30",
     "release_year": 2021,
     "review": {
       "rating": 4,
       "comment": "A Norwegian movie, a great watch – highly recommend!"
     },
     "genres": [
-      "Comedy",
       "Drama",
-      "Romance"
+      "Romance",
+      "Comedy"
     ],
-    "director": [
+    "directors": [
       "Joachim Trier"
-    ]
+    ],
+    "tmdbId": 660120
   },
   {
-    "title": "Avatar: The Way of Water",
-    "date": "2023-01-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Avatar: The Way of Water",
+    "date": "2023-01-01",
     "release_year": 2022,
     "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
-      "Action",
+      "Science Fiction",
       "Adventure",
-      "Fantasy"
+      "Action"
     ],
-    "director": [
+    "directors": [
       "James Cameron"
-    ]
+    ],
+    "tmdbId": 76600
   },
   {
-    "title": "Marriage Story",
-    "date": "2023-01-13T00:00:00.000Z",
     "type": "movie",
+    "title": "Marriage Story",
+    "date": "2023-01-13",
     "release_year": 2019,
     "review": {
       "rating": 3,
       "comment": "OK film about an American couple going through a divorce. Very American IMO."
     },
     "genres": [
-      "Drama",
-      "Romance"
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Noah Baumbach"
-    ]
+    ],
+    "tmdbId": 492188
   },
   {
-    "title": "I Don't Feel at Home in This World Anymore",
-    "date": "2023-01-14T00:00:00.000Z",
     "type": "movie",
+    "title": "I Don't Feel at Home in This World Anymore",
+    "date": "2023-01-14",
     "release_year": 2017,
     "review": {
       "rating": 3,
       "comment": "OK film to watch, nothing speical."
     },
     "genres": [
-      "Comedy",
+      "Thriller",
+      "Drama",
       "Crime",
-      "Drama"
+      "Comedy"
     ],
-    "director": [
+    "directors": [
       "Macon Blair"
-    ]
+    ],
+    "tmdbId": 425591
   },
   {
-    "title": "Collateral",
-    "date": "2023-01-21T00:00:00.000Z",
     "type": "movie",
+    "title": "Collateral",
+    "date": "2023-01-21",
     "release_year": 2004,
     "review": {
       "rating": 3,
       "comment": "A rewatch, it's been ages since my first viewing and I'm not sure the movie has aged that well - it felt too slow for me."
     },
     "genres": [
-      "Action",
+      "Drama",
       "Crime",
-      "Drama"
-    ],
-    "director": [
-      "Michael Mann"
-    ]
-  },
-  {
-    "title": "The Lighthouse",
-    "date": "2023-02-03T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2019,
-    "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Fantasy"
-    ],
-    "director": [
-      "Robert Eggers"
-    ]
-  },
-  {
-    "title": "Gattaca",
-    "date": "2023-02-05T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 1997,
-    "review": {
-      "rating": 4
-    },
-    "genres": [
-      "Drama",
-      "Sci-Fi",
       "Thriller"
     ],
-    "director": [
-      "Andrew Niccol"
-    ]
+    "directors": [
+      "Michael Mann"
+    ],
+    "tmdbId": 1538
   },
   {
-    "title": "Ant-Man and the Wasp: Quantumania",
-    "date": "2023-02-16T00:00:00.000Z",
     "type": "movie",
+    "title": "The Lighthouse",
+    "date": "2023-02-03",
+    "release_year": 2019,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Thriller"
+    ],
+    "directors": [
+      "Robert Eggers"
+    ],
+    "tmdbId": 503919
+  },
+  {
+    "type": "movie",
+    "title": "Gattaca",
+    "date": "2023-02-05",
+    "release_year": 1997,
+    "review": {
+      "rating": 4,
+      "comment": null
+    },
+    "genres": [
+      "Thriller",
+      "Science Fiction",
+      "Mystery",
+      "Romance"
+    ],
+    "directors": [
+      "Andrew Niccol"
+    ],
+    "tmdbId": 782
+  },
+  {
+    "type": "movie",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "date": "2023-02-16",
     "release_year": 2023,
     "review": {
       "rating": 3,
@@ -4297,16 +4667,17 @@
     "genres": [
       "Action",
       "Adventure",
-      "Comedy"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Peyton Reed"
-    ]
+    ],
+    "tmdbId": 640146
   },
   {
-    "title": "The Whale",
-    "date": "2023-02-23T00:00:00.000Z",
     "type": "movie",
+    "title": "The Whale",
+    "date": "2023-02-23",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -4315,32 +4686,34 @@
     "genres": [
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Darren Aronofsky"
-    ]
+    ],
+    "tmdbId": 785084
   },
   {
-    "title": "Weird: The Al Yankovic Story",
-    "date": "2023-02-25T00:00:00.000Z",
     "type": "movie",
+    "title": "Weird: The Al Yankovic Story",
+    "date": "2023-02-25",
     "release_year": 2022,
     "review": {
       "rating": 3,
       "comment": "A funny and self-aware movie. I've always known of Weird Al's name, but I never knew what he actually was."
     },
     "genres": [
-      "Biography",
+      "Music",
       "Comedy",
-      "Music"
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Eric Appel"
-    ]
+    ],
+    "tmdbId": 928344
   },
   {
-    "title": "Aftersun",
-    "date": "2023-03-04T00:00:00.000Z",
     "type": "movie",
+    "title": "Aftersun",
+    "date": "2023-03-04",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -4349,14 +4722,15 @@
     "genres": [
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Charlotte Wells"
-    ]
+    ],
+    "tmdbId": 965150
   },
   {
-    "title": "John Wick: Chapter 4",
-    "date": "2023-04-04T00:00:00.000Z",
     "type": "movie",
+    "title": "John Wick: Chapter 4",
+    "date": "2023-04-04",
     "release_year": 2023,
     "review": {
       "rating": 3,
@@ -4364,17 +4738,18 @@
     },
     "genres": [
       "Action",
-      "Crime",
-      "Thriller"
+      "Thriller",
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Chad Stahelski"
-    ]
+    ],
+    "tmdbId": 603692
   },
   {
-    "title": "Murder Mystery",
-    "date": "2023-04-07T00:00:00.000Z",
     "type": "movie",
+    "title": "Murder Mystery",
+    "date": "2023-04-07",
     "release_year": 2019,
     "review": {
       "rating": 2,
@@ -4383,34 +4758,36 @@
     "genres": [
       "Action",
       "Comedy",
-      "Crime"
+      "Mystery"
     ],
-    "director": [
+    "directors": [
       "Kyle Newacheck"
-    ]
+    ],
+    "tmdbId": 514999
   },
   {
-    "title": "Murder Mystery 2",
-    "date": "2023-04-10T00:00:00.000Z",
     "type": "movie",
+    "title": "Murder Mystery 2",
+    "date": "2023-04-10",
     "release_year": 2023,
     "review": {
       "rating": 2,
       "comment": "A bit better than the first one, again we watched it with family."
     },
     "genres": [
-      "Action",
+      "Mystery",
       "Comedy",
       "Crime"
     ],
-    "director": [
+    "directors": [
       "Jeremy Garelick"
-    ]
+    ],
+    "tmdbId": 638974
   },
   {
-    "title": "The Super Mario Bros. Movie",
-    "date": "2023-04-15T00:00:00.000Z",
     "type": "movie",
+    "title": "The Super Mario Bros. Movie",
+    "date": "2023-04-15",
     "release_year": 2023,
     "review": {
       "rating": 3,
@@ -4418,37 +4795,40 @@
     },
     "genres": [
       "Animation",
+      "Family",
       "Adventure",
+      "Fantasy",
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Aaron Horvath",
-      "Michael Jelenic",
-      "Pierre Leduc"
-    ]
+      "Michael Jelenic"
+    ],
+    "tmdbId": 502356
   },
   {
-    "title": "Guardians of the Galaxy Vol. 3",
-    "date": "2023-05-03T00:00:00.000Z",
     "type": "movie",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "date": "2023-05-03",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "Finally a good MCU movie again. The story wasn't super original, but the performances and the small story archs made the movie very enjoyable."
     },
     "genres": [
-      "Action",
+      "Science Fiction",
       "Adventure",
-      "Comedy"
+      "Action"
     ],
-    "director": [
+    "directors": [
       "James Gunn"
-    ]
+    ],
+    "tmdbId": 447365
   },
   {
-    "title": "Sisu",
-    "date": "2023-05-19T00:00:00.000Z",
     "type": "movie",
+    "title": "Sisu",
+    "date": "2023-05-19",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -4456,16 +4836,18 @@
     },
     "genres": [
       "Action",
-      "War"
+      "War",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Jalmari Helander"
-    ]
+    ],
+    "tmdbId": 840326
   },
   {
-    "title": "The Quiet Girl",
-    "date": "2023-05-27T00:00:00.000Z",
     "type": "movie",
+    "title": "The Quiet Girl",
+    "date": "2023-05-27",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -4474,14 +4856,15 @@
     "genres": [
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Colm Bairéad"
-    ]
+    ],
+    "tmdbId": 916405
   },
   {
-    "title": "Spider-Man: Across the Spider-Verse",
-    "date": "2023-06-02T00:00:00.000Z",
     "type": "movie",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "date": "2023-06-02",
     "release_year": 2023,
     "review": {
       "rating": 5,
@@ -4490,18 +4873,20 @@
     "genres": [
       "Animation",
       "Action",
-      "Adventure"
+      "Adventure",
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Joaquim Dos Santos",
       "Kemp Powers",
       "Justin K. Thompson"
-    ]
+    ],
+    "tmdbId": 569094
   },
   {
-    "title": "Extraction 2",
-    "date": "2023-06-17T00:00:00.000Z",
     "type": "movie",
+    "title": "Extraction 2",
+    "date": "2023-06-17",
     "release_year": 2023,
     "review": {
       "rating": 3,
@@ -4511,85 +4896,88 @@
       "Action",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Sam Hargrave"
-    ]
+    ],
+    "tmdbId": 697843
   },
   {
-    "title": "Luck",
-    "date": "2023-07-01T00:00:00.000Z",
     "type": "movie",
+    "title": "Luck",
+    "date": "2023-07-01",
     "release_year": 2022,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Animation",
       "Adventure",
-      "Comedy"
+      "Comedy",
+      "Fantasy"
     ],
-    "director": [
-      "Peggy Holmes",
-      "Javier Abad"
-    ]
+    "directors": [
+      "Peggy Holmes"
+    ],
+    "tmdbId": 585511
   },
   {
-    "title": "Oppenheimer",
-    "date": "2023-07-23T00:00:00.000Z",
     "type": "movie",
+    "title": "Oppenheimer",
+    "date": "2023-07-23",
     "release_year": 2023,
     "review": {
       "rating": 5,
       "comment": "Great movie! Lots of fantastic effects and the audio design with the visual effects was superb!"
     },
     "genres": [
-      "Biography",
       "Drama",
       "History"
     ],
-    "director": [
+    "directors": [
       "Christopher Nolan"
-    ]
+    ],
+    "tmdbId": 872585
   },
   {
-    "title": "Tommy Boy",
-    "date": "2023-07-28T00:00:00.000Z",
     "type": "movie",
+    "title": "Tommy Boy",
+    "date": "2023-07-28",
     "release_year": 1995,
     "review": {
       "rating": 3,
       "comment": "Old classic that I have somehow never seen before. It was a fun watch."
     },
     "genres": [
-      "Adventure",
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Peter Segal"
-    ]
+    ],
+    "tmdbId": 11381
   },
   {
-    "title": "Barbie",
-    "date": "2023-07-30T00:00:00.000Z",
     "type": "movie",
+    "title": "Barbie",
+    "date": "2023-07-30",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "Had to see this because of the hype. It was a good movie, I liked how self-aware the movie was."
     },
     "genres": [
-      "Adventure",
       "Comedy",
-      "Fantasy"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Greta Gerwig"
-    ]
+    ],
+    "tmdbId": 346698
   },
   {
-    "title": "Kopps",
-    "date": "2023-08-11T00:00:00.000Z",
     "type": "movie",
+    "title": "Kopps",
+    "date": "2023-08-11",
     "release_year": 2003,
     "review": {
       "rating": 4,
@@ -4599,137 +4987,145 @@
       "Action",
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Josef Fares"
-    ]
+    ],
+    "tmdbId": 9256
   },
   {
-    "title": "Tetris",
-    "date": "2023-08-12T00:00:00.000Z",
     "type": "movie",
+    "title": "Tetris",
+    "date": "2023-08-12",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "This one was really great! I thought the trailer look cool, but I didn't expect the movie to be so entertaining."
     },
     "genres": [
-      "Biography",
-      "Drama",
-      "History"
+      "Thriller",
+      "History",
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Jon S. Baird"
-    ]
+    ],
+    "tmdbId": 726759
   },
   {
-    "title": "Jalla! Jalla!",
-    "date": "2023-08-22T00:00:00.000Z",
     "type": "movie",
+    "title": "The Best Man's Wedding",
+    "date": "2023-08-22",
     "release_year": 2000,
     "review": {
-      "rating": 3
-    },
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ],
-    "director": [
-      "Josef Fares"
-    ]
-  },
-  {
-    "title": "Thomas mot Thomas",
-    "date": "2023-10-07T00:00:00.000Z",
-    "type": "movie",
-    "release_year": 2022,
-    "review": {
-      "rating": 3
+      "rating": 3,
+      "comment": null
     },
     "genres": [
       "Comedy",
       "Drama"
     ],
-    "director": [
-      "Jakob Rørvik"
-    ]
+    "directors": [
+      "Josef Fares"
+    ],
+    "tmdbId": 10978
   },
   {
-    "title": "Promising Young Woman",
-    "date": "2023-10-14T00:00:00.000Z",
     "type": "movie",
+    "title": "Thomas vs. Thomas (A Sensational Theory Regarding an Insignificant Life in the Multiverse)",
+    "date": "2023-10-07",
+    "release_year": 2022,
+    "review": {
+      "rating": 3,
+      "comment": null
+    },
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Jakob Rørvik"
+    ],
+    "tmdbId": 1015756
+  },
+  {
+    "type": "movie",
+    "title": "Promising Young Woman",
+    "date": "2023-10-14",
     "release_year": 2020,
     "review": {
       "rating": 5,
       "comment": "Excellent movie. It was eerie and funny at the same time, and the acting performances was really good."
     },
     "genres": [
+      "Thriller",
       "Crime",
-      "Drama",
-      "Mystery"
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Emerald Fennell"
-    ]
+    ],
+    "tmdbId": 582014
   },
   {
-    "title": "The Marvels",
-    "date": "2023-11-08T00:00:00.000Z",
     "type": "movie",
+    "title": "The Marvels",
+    "date": "2023-11-08",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "Not a very bad movie, but not a great one either. It had a couple of moments of fun, but why do they set up so much around other characters if they end up ignoring the storyarcs?"
     },
     "genres": [
-      "Action",
+      "Science Fiction",
       "Adventure",
-      "Fantasy"
+      "Action"
     ],
-    "director": [
+    "directors": [
       "Nia DaCosta"
-    ]
+    ],
+    "tmdbId": 609681
   },
   {
-    "title": "The Killer",
-    "date": "2023-11-11T00:00:00.000Z",
     "type": "movie",
+    "title": "The Killer",
+    "date": "2023-11-11",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "Excellent film. I felt like I was watching a regular movie, no bullshit, just a great movie that happend to be directed by David Fincher."
     },
     "genres": [
-      "Action",
-      "Adventure",
-      "Crime"
+      "Crime",
+      "Thriller"
     ],
-    "director": [
+    "directors": [
       "David Fincher"
-    ]
+    ],
+    "tmdbId": 800158
   },
   {
+    "type": "movie",
     "title": "Howl's Moving Castle",
     "date": "2023-11-17",
-    "type": "movie",
     "release_year": 2004,
     "review": {
       "rating": 4,
       "comment": "Great movie! Can't believe I never saw this!"
     },
     "genres": [
+      "Fantasy",
       "Animation",
-      "Adventure",
-      "Family"
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Hayao Miyazaki"
-    ]
+    ],
+    "tmdbId": 4935
   },
   {
+    "type": "movie",
     "title": "Klaus",
     "date": "2023-12-09",
-    "type": "movie",
     "release_year": 2019,
     "review": {
       "rating": 5,
@@ -4737,18 +5133,20 @@
     },
     "genres": [
       "Animation",
+      "Family",
       "Adventure",
-      "Comedy"
+      "Comedy",
+      "Fantasy"
     ],
-    "director": [
-      "Sergio Pablos",
-      "Carlos Martínez López"
-    ]
+    "directors": [
+      "Sergio Pablos"
+    ],
+    "tmdbId": 508965
   },
   {
+    "type": "movie",
     "title": "Leo",
     "date": "2023-12-17",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
@@ -4759,34 +5157,37 @@
       "Comedy",
       "Family"
     ],
-    "director": [
-      "Robert Marianetti",
+    "directors": [
       "Robert Smigel",
+      "Robert Marianetti",
       "David Wachtenheim"
-    ]
+    ],
+    "tmdbId": 1075794
   },
   {
+    "type": "movie",
     "title": "Chicken Run: Dawn of the Nugget",
     "date": "2023-12-19",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "Very good! I still remember the original like it was yesterday!"
     },
     "genres": [
+      "Family",
       "Animation",
       "Adventure",
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Sam Fell"
-    ]
+    ],
+    "tmdbId": 520758
   },
   {
+    "type": "movie",
     "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
     "date": "2023-12-30",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
@@ -4794,18 +5195,19 @@
     },
     "genres": [
       "Animation",
+      "Comedy",
       "Action",
-      "Adventure"
+      "Science Fiction"
     ],
-    "director": [
-      "Jeff Rowe",
-      "Kyler Spears"
-    ]
+    "directors": [
+      "Jeff Rowe"
+    ],
+    "tmdbId": 614930
   },
   {
+    "type": "movie",
     "title": "The Holdovers",
     "date": "2024-01-01",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
@@ -4815,32 +5217,34 @@
       "Comedy",
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Alexander Payne"
-    ]
+    ],
+    "tmdbId": 840430
   },
   {
+    "type": "movie",
     "title": "BlackBerry",
     "date": "2024-01-01",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
       "comment": "Great movie! I thought I knew some of the history, but I learned a lot and it was a fun way of learning the history of BlackBerry."
     },
     "genres": [
-      "Biography",
+      "Drama",
       "Comedy",
-      "Drama"
+      "History"
     ],
-    "director": [
+    "directors": [
       "Matt Johnson"
-    ]
+    ],
+    "tmdbId": 1016084
   },
   {
+    "type": "movie",
     "title": "The Creator",
     "date": "2024-01-03",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
@@ -4849,34 +5253,36 @@
     "genres": [
       "Action",
       "Adventure",
-      "Drama"
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "Gareth Edwards"
-    ]
+    ],
+    "tmdbId": 670292
   },
   {
+    "type": "movie",
     "title": "Saltburn",
     "date": "2024-01-09",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "WTF"
     },
     "genres": [
-      "Comedy",
       "Drama",
+      "Comedy",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Emerald Fennell"
-    ]
+    ],
+    "tmdbId": 930564
   },
   {
+    "type": "movie",
     "title": "Office Space",
     "date": "2024-01-12",
-    "type": "movie",
     "release_year": 1999,
     "review": {
       "rating": 3,
@@ -4885,138 +5291,145 @@
     "genres": [
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Mike Judge"
-    ]
+    ],
+    "tmdbId": 1542
   },
   {
-    "title": "Månelyst i Flåklypa",
-    "date": "2024-01-19",
     "type": "movie",
+    "title": "Louis & Luca: Mission to the Moon",
+    "date": "2024-01-19",
     "release_year": 2018,
     "review": {
       "rating": 4,
       "comment": "Great Norwegian stop-motion movie! We had a great time."
     },
     "genres": [
+      "Adventure",
       "Animation",
-      "Comedy",
       "Family"
     ],
-    "director": [
+    "directors": [
       "Rasmus A. Sivertsen"
-    ]
+    ],
+    "tmdbId": 444101
   },
   {
+    "type": "movie",
     "title": "May December",
     "date": "2024-01-20",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "It was fine."
     },
     "genres": [
-      "Comedy",
-      "Drama"
+      "Drama",
+      "Comedy"
     ],
-    "director": [
+    "directors": [
       "Todd Haynes"
-    ]
+    ],
+    "tmdbId": 839369
   },
   {
+    "type": "movie",
     "title": "Cocaine Bear",
     "date": "2024-01-27",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "Fun movie, but nothing more nothing less."
     },
     "genres": [
+      "Thriller",
       "Comedy",
-      "Thriller"
+      "Crime"
     ],
-    "director": [
+    "directors": [
       "Elizabeth Banks"
-    ]
+    ],
+    "tmdbId": 804150
   },
   {
+    "type": "movie",
     "title": "Erin Brockovich",
     "date": "2024-02-03",
-    "type": "movie",
     "release_year": 2000,
     "review": {
       "rating": 4,
       "comment": "Great movie! Can't believe I haven't watch this before now!"
     },
     "genres": [
-      "Biography",
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Steven Soderbergh"
-    ]
+    ],
+    "tmdbId": 462
   },
   {
+    "type": "movie",
     "title": "The Ballad of Buster Scruggs",
     "date": "2024-02-24",
-    "type": "movie",
     "release_year": 2018,
     "review": {
       "rating": 4,
       "comment": "Funny and interesting movie. Lots of great stories."
     },
     "genres": [
+      "Western",
       "Comedy",
-      "Drama",
-      "Musical"
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Ethan Coen",
       "Joel Coen"
-    ]
+    ],
+    "tmdbId": 537996
   },
   {
+    "type": "movie",
     "title": "Wonka",
     "date": "2024-03-02",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "Meh movie. Not my type of movie, but the choclate looked really nice."
     },
     "genres": [
-      "Adventure",
       "Comedy",
-      "Family"
+      "Family",
+      "Fantasy"
     ],
-    "director": [
+    "directors": [
       "Paul King"
-    ]
+    ],
+    "tmdbId": 787699
   },
   {
+    "type": "movie",
     "title": "Dune: Part Two",
     "date": "2024-03-09",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Great movie, I felt more immersed in the movie-setting in this one and I liked how most of the characters from the previous movie got more screen-time and dialogoue."
     },
     "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
+      "Science Fiction",
+      "Adventure"
     ],
-    "director": [
+    "directors": [
       "Denis Villeneuve"
-    ]
+    ],
+    "tmdbId": 693134
   },
   {
+    "type": "movie",
     "title": "Road House",
     "date": "2024-03-22",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 3,
@@ -5026,15 +5439,16 @@
       "Action",
       "Thriller"
     ],
-    "director": [
+    "directors": [
       "Doug Liman"
-    ]
+    ],
+    "tmdbId": 359410
   },
   {
+    "type": "movie",
     "title": "Late Night with the Devil",
     "date": "2024-05-03",
-    "type": "movie",
-    "release_year": 2023,
+    "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Really cool, and different horror movie. It was more like a thriller to me, but enjoyed it!"
@@ -5042,15 +5456,16 @@
     "genres": [
       "Horror"
     ],
-    "director": [
+    "directors": [
       "Cameron Cairnes",
       "Colin Cairnes"
-    ]
+    ],
+    "tmdbId": 938614
   },
   {
+    "type": "movie",
     "title": "Dream Scenario",
     "date": "2024-05-05",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 4,
@@ -5058,17 +5473,17 @@
     },
     "genres": [
       "Comedy",
-      "Drama",
       "Fantasy"
     ],
-    "director": [
+    "directors": [
       "Kristoffer Borgli"
-    ]
+    ],
+    "tmdbId": 823482
   },
   {
+    "type": "movie",
     "title": "Secrets of the Neanderthals",
     "date": "2024-05-08",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 3,
@@ -5077,14 +5492,15 @@
     "genres": [
       "Documentary"
     ],
-    "director": [
+    "directors": [
       "Ashley Gething"
-    ]
+    ],
+    "tmdbId": 1255030
   },
   {
+    "type": "movie",
     "title": "Turbo Kid",
     "date": "2024-05-09",
-    "type": "movie",
     "release_year": 2015,
     "review": {
       "rating": 4,
@@ -5093,36 +5509,39 @@
     "genres": [
       "Action",
       "Adventure",
-      "Comedy"
+      "Comedy",
+      "Science Fiction"
     ],
-    "director": [
+    "directors": [
       "François Simard",
-      "Anouk Whissell",
-      "Yoann-Karl Whissell"
-    ]
+      "Yoann-Karl Whissell",
+      "Anouk Whissell"
+    ],
+    "tmdbId": 310135
   },
   {
+    "type": "movie",
     "title": "Kingdom of the Planet of the Apes",
     "date": "2024-05-20",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "I didn't miss Andy Serkis that much, and it was fun to see where all the apes were 300 years after the last movie."
     },
     "genres": [
-      "Action",
+      "Science Fiction",
       "Adventure",
-      "Sci-Fi"
+      "Action"
     ],
-    "director": [
+    "directors": [
       "Wes Ball"
-    ]
+    ],
+    "tmdbId": 653346
   },
   {
+    "type": "movie",
     "title": "The Fall Guy",
     "date": "2024-05-22",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 3,
@@ -5130,51 +5549,56 @@
     },
     "genres": [
       "Action",
-      "Comedy",
-      "Drama"
+      "Comedy"
     ],
-    "director": [
+    "directors": [
       "David Leitch"
-    ]
+    ],
+    "tmdbId": 746036
   },
   {
+    "type": "movie",
     "title": "The Ministry of Ungentlemanly Warfare",
     "date": "2024-05-24",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "A cool war-movie about _real_ events, recommended!"
     },
     "genres": [
-      "Drama",
-      "War"
+      "Action",
+      "Comedy",
+      "War",
+      "Drama"
     ],
-    "director": [
+    "directors": [
       "Guy Ritchie"
-    ]
+    ],
+    "tmdbId": 799583
   },
   {
+    "type": "movie",
     "title": "Hit Man",
     "date": "2024-06-15",
-    "type": "movie",
-    "release_year": 2023,
+    "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "It felt like a real movie, and the setting was really interesting. There were a lot of funny moments, highly recommend a watch!"
     },
     "genres": [
-      "Action",
-      "Comedy"
+      "Crime",
+      "Comedy",
+      "Romance"
     ],
-    "director": [
+    "directors": [
       "Richard Linklater"
-    ]
+    ],
+    "tmdbId": 974635
   },
   {
-    "title": "The Antisocial Network",
-    "date": "2024-06-16",
     "type": "movie",
+    "title": "The Antisocial Network: Memes to Mayhem",
+    "date": "2024-06-16",
     "release_year": 2024,
     "review": {
       "rating": 4,
@@ -5183,33 +5607,37 @@
     "genres": [
       "Documentary"
     ],
-    "director": [
+    "directors": [
       "Giorgio Angelini",
       "Arthur Jones"
-    ]
+    ],
+    "tmdbId": 1242384
   },
   {
+    "type": "movie",
     "title": "Inside Out",
     "date": "2024-07-10",
-    "type": "movie",
     "release_year": 2015,
     "review": {
-      "rating": 4
+      "rating": 4,
+      "comment": null
     },
     "genres": [
       "Animation",
+      "Family",
       "Adventure",
+      "Drama",
       "Comedy"
     ],
-    "director": [
-      "Pete Docter",
-      "Ronnie Del Carmen"
-    ]
+    "directors": [
+      "Pete Docter"
+    ],
+    "tmdbId": 150540
   },
   {
+    "type": "movie",
     "title": "Inside Out 2",
     "date": "2024-07-12",
-    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 3,
@@ -5217,36 +5645,39 @@
     },
     "genres": [
       "Animation",
+      "Family",
       "Adventure",
       "Comedy"
     ],
-    "director": [
+    "directors": [
       "Kelsey Mann"
-    ]
+    ],
+    "tmdbId": 1022789
   },
   {
+    "type": "movie",
     "title": "The Zone of Interest",
     "date": "2024-07-12",
-    "type": "movie",
     "release_year": 2023,
     "review": {
       "rating": 3,
       "comment": "Too abstract/artsy for me. I like the sentiment the movie tells, but it was slow."
     },
     "genres": [
-      "Drama",
       "History",
+      "Drama",
       "War"
     ],
-    "director": [
+    "directors": [
       "Jonathan Glazer"
-    ]
+    ],
+    "tmdbId": 467244
   },
   {
+    "type": "movie",
     "title": "The Bikeriders",
     "date": "2024-07-15",
-    "type": "movie",
-    "release_year": 2023,
+    "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Cool movie with an interesting setting."
@@ -5255,44 +5686,47 @@
       "Crime",
       "Drama"
     ],
-    "director": [
+    "directors": [
       "Jeff Nichols"
-    ]
+    ],
+    "tmdbId": 1008409
   },
   {
     "type": "movie",
     "title": "Logan",
     "date": "2024-07-21",
-    "genres": [
-      "Action",
-      "Drama",
-      "Sci-Fi"
-    ],
     "release_year": 2017,
     "review": {
       "rating": 5,
       "comment": "A rewatch to prepare myself for Deadpool & Wolverine."
     },
-    "director": [
+    "genres": [
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ],
+    "directors": [
       "James Mangold"
-    ]
+    ],
+    "tmdbId": 263115
   },
   {
     "type": "movie",
     "title": "Deadpool & Wolverine",
     "date": "2024-07-24",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Sci-Fi"
-    ],
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Went to the midnight premiere. I wasn't expecting this kind of nostaglia trip, having wat ched almost every single Marvel movie since 2000 I wasn't expecting this. It was a lot of fun, awesome to see Wolverine an d Deadpool finally interact on the big screen. I did go home feeling like this movie almost was self-contained eventhough it's set in the MCU."
     },
-    "director": [
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Comedy"
+    ],
+    "directors": [
       "Shawn Levy"
-    ]
+    ],
+    "tmdbId": 533535
   }
 ]
