@@ -1,6 +1,5 @@
 import { assertArrayIncludes, assertEquals, assertExists } from "@std/assert";
 import { inject } from "@cliffy/prompt";
-import { Entry } from "../schemas.ts";
 import { logWatched } from "./watched.ts";
 
 Deno.test("Watched: Spider-Man (2002)", async () => {
