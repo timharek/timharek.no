@@ -97,10 +97,10 @@ export async function logRead(): Promise<Entry> {
   return {
     type: "book",
     title: result.title,
-    date,
+    date: new Date(date),
     publish_year: bookFields.publishYear ?? 0,
     author: bookFields.author ?? [],
-    review: { rating, comment },
+    review: { rating, comment: comment ?? null },
     genres,
   };
 }
