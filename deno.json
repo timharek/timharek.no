@@ -36,7 +36,7 @@
     "@std/toml": "jsr:@std/toml@0.224.0",
     "@timharek/linkding": "jsr:@timharek/linkding@^2.0.3",
     "@timharek/openlibrary": "jsr:@timharek/openlibrary@^2.0.1",
-    "@timharek/tmdb": "../tmdb/mod.ts",
+    "@timharek/tmdb": "https://git.sr.ht/~timharek/tmdb/blob/main/mod.ts",
     "icons/": "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/",
     "preact": "https://esm.sh/preact@10.19.6",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
