@@ -201,7 +201,7 @@ function RatingInfo({ rating, text }: { rating: number; text: string }) {
   return (
     <div class="flex items-center gap-4">
       <div
-        class="flex w-full max-w-32 items-center justify-center aspect-square rounded-full p-1.5 bg-primary"
+        class="flex w-full max-w-32 h-full items-center justify-center aspect-square rounded-full p-2 bg-primary"
         style={`background-image: conic-gradient(transparent, transparent ${percentage}%, #e7e8e8 ${percentage}%)`}
       >
         <span class="rounded-full w-full h-full bg-bg text-text flex justify-center items-center text-center text-3xl font-bold">
