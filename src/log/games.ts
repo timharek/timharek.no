@@ -1,5 +1,5 @@
 import { Input, Number, prompt } from "@cliffy/prompt";
-import { Entry } from "../schemas.ts";
+import { Entry, RATING_MAX, RATING_MIN } from "../schemas.ts";
 import { getCurrentDate } from "../utils.ts";
 
 export async function logGame(): Promise<Entry> {
@@ -36,8 +36,8 @@ export async function logGame(): Promise<Entry> {
       name: "rating",
       message: "How many stars? (1-5)",
       type: Number,
-      min: 1,
-      max: 5,
+      min: RATING_MIN,
+      max: RATING_MAX,
     },
   ]);
 

@@ -1,6 +1,6 @@
 import { Input, Number, prompt, Select } from "@cliffy/prompt";
 import { Movie, TVShow } from "@timharek/tmdb";
-import { Entry } from "../schemas.ts";
+import { Entry, RATING_MAX, RATING_MIN } from "../schemas.ts";
 import { getCurrentDate, selectKeys } from "../utils.ts";
 import { z } from "zod";
 
@@ -57,8 +57,8 @@ export async function logWatched(
       name: "rating",
       message: "How many stars? (1-5)",
       type: Number,
-      min: 1,
-      max: 5,
+      min: RATING_MIN,
+      max: RATING_MAX,
     },
   ]);
 

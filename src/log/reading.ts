@@ -1,7 +1,7 @@
 import { Input, List, Number, prompt, Select } from "@cliffy/prompt";
 import { book } from "@timharek/openlibrary";
 import { getCurrentDate, selectKeys } from "../utils.ts";
-import { Entry } from "../schemas.ts";
+import { Entry, RATING_MAX, RATING_MIN } from "../schemas.ts";
 import { z } from "zod";
 
 const titleAuthorSchema = z.object({
@@ -82,6 +82,8 @@ export async function logRead(): Promise<Entry> {
       name: "rating",
       message: "How many stars? (1-5)",
       type: Number,
+      min: RATING_MIN,
+      max: RATING_MAX,
     },
   ]);
 
