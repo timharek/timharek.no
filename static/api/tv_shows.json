@@ -2213,19 +2213,19 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Black Mirror",
     "date": "2023-07-18T00:00:00.000Z",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Mystery"
-    ],
+    "type": "tv",
     "release_year": 2011,
     "review": {
       "rating": 4,
       "comment": ""
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Mystery"
+    ],
     "season": 6,
     "episode_count": null,
     "directors": [
@@ -2237,6 +2237,33 @@
     ],
     "creators": [
       "Charlie Brooker"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Game of Thrones",
+    "date": "2024-07-29T00:00:00.000Z",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "release_year": 2011,
+    "review": {
+      "rating": 5,
+      "comment": "Rewatch. It's a lot of fun!"
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [
+      "Daniel Minahan",
+      "Brian Kirk",
+      "Tim Van Patten",
+      "Alan Taylor"
+    ],
+    "creators": [
+      "David Benioff",
+      "D. B. Weiss"
     ]
   }
 ]
