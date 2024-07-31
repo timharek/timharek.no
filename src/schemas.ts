@@ -1,8 +1,11 @@
 import { z } from "zod";
 
+export const RATING_MAX = 5;
+export const RATING_MIN = 1;
+
 const Review = z.object({
-  rating: z.number(),
-  comment: z.string().nullable(),
+  rating: z.number().min(RATING_MIN).max(RATING_MAX),
+  comment: z.string().optional().nullable(),
 });
 
 const MovieEntry = z.object({
@@ -80,3 +83,4 @@ export type Review = z.infer<typeof Review>;
 export type BookEntry = z.infer<typeof BookEntry>;
 export type GameEntry = z.infer<typeof GameEntry>;
 export type MovieEntry = z.infer<typeof MovieEntry>;
+export type TVEntry = z.infer<typeof TVEntry>;

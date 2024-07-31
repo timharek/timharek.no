@@ -12,6 +12,7 @@ import {
   GameEntry,
   Log,
   MovieEntry,
+  RATING_MAX,
   Review,
 } from "../../src/schemas.ts";
 import { z } from "zod";
@@ -120,6 +121,10 @@ export default function Page({ data }: PageProps<LogProps>) {
     (entry) => new Date(entry.date).getFullYear(),
   );
 
+  const isWatched = entries.some((entry) =>
+    entry.type === "movie" || entry.type === "tv"
+  );
+
   return (
     <>
       <Head>
@@ -131,6 +136,7 @@ export default function Page({ data }: PageProps<LogProps>) {
           data-dark-theme="dark"
         >
           <PageHeader title={page.title} updated={page.updatedAt} />
+          {isWatched && <WatchedStats entries={entries} />}
           <div
             class="markdown-body mb-4"
             dangerouslySetInnerHTML={{ __html: page.html }}
@@ -155,6 +161,55 @@ export default function Page({ data }: PageProps<LogProps>) {
         </div>
       </div>
     </>
+  );
+}
+
+function WatchedStats({ entries }: { entries: Entry[] }) {
+  const isWatched = entries.some((entry) =>
+    entry.type === "movie" || entry.type === "tv"
+  );
+  if (!isWatched) return <></>;
+  const averageRatingMovie = averageRating(entries, "movie");
+  const averageRatingTV = averageRating(entries, "tv");
+  return (
+    <div class="flex flex-wrap gap-4 justify-between py-4">
+      <RatingInfo rating={averageRatingMovie} text="Average movie rating" />
+      <RatingInfo rating={averageRatingTV} text="Average TV rating" />
+    </div>
+  );
+}
+
+function averageRating(entries: Entry[], type: "movie" | "tv"): number {
+  const scoreRaw = entries.filter((entry) => entry.type === type)
+    .reduce((accumulator, entry, index, array) => {
+      if (entry.type !== "movie" && entry.type !== "tv") {
+        return accumulator;
+      }
+      accumulator += entry.review.rating;
+      if (index === array.length - 1) {
+        return accumulator / array.length;
+      }
+      return accumulator;
+    }, 0);
+
+  return Number(scoreRaw.toPrecision(2));
+}
+
+function RatingInfo({ rating, text }: { rating: number; text: string }) {
+  const percentage = (rating / RATING_MAX) * 100;
+
+  return (
+    <div class="flex items-center gap-4">
+      <div
+        class="flex w-full max-w-32 items-center justify-center aspect-square rounded-full p-1.5 bg-primary"
+        style={`background-image: conic-gradient(transparent, transparent ${percentage}%, #e7e8e8 ${percentage}%)`}
+      >
+        <span class="rounded-full w-full h-full bg-bg text-text flex justify-center items-center text-center text-3xl font-bold">
+          {rating} / {RATING_MAX}
+        </span>
+      </div>
+      <div class="text-2xl font-semibold">{text}</div>
+    </div>
   );
 }
 
