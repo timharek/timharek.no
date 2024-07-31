@@ -5,6 +5,8 @@ import { getAllTags } from "./content.ts";
 import { getCurrentDate } from "./utils.ts";
 import { slugify } from "./utils.ts";
 import { z } from "zod";
+import movies from "../static/api/movies.json" with { type: "json" };
+import tvShows from "../static/api/tv_shows.json" with { type: "json" };
 
 const blogSchema = z.object({
   title: z.string(),
@@ -59,23 +61,25 @@ const blogPrompt = async (titleInput?: string) => {
   ]);
 };
 
-async function getRecentBookmarks() {
-  const today = new Date();
-  const todaysYearAndMonth = `${today.getFullYear()}-${
-    new Intl.DateTimeFormat("en-US", { month: "2-digit" }).format(today)
-  }`;
+const today = new Date();
+/** YYYY-MM */
+const TODAY_YEAR_AND_MONTH = `${today.getFullYear()}-${
+  new Intl.DateTimeFormat("en-US", { month: "2-digit" }).format(today)
+}`;
+
+async function getRecentBookmarks(): Promise<Bookmark[]> {
   const recentBookmarks = await bookmarks({ limit: 150 });
   const recentBookmarksFromThisMonth = recentBookmarks.results.filter((
     bookmark: Bookmark,
   ) =>
-    bookmark.date_modified.includes(todaysYearAndMonth) &&
+    bookmark.date_modified.includes(TODAY_YEAR_AND_MONTH) &&
     bookmark.unread === false && bookmark.notes
   );
 
   return recentBookmarksFromThisMonth;
 }
 
-function makeBookmarksIntoLinkList(bookmarks: Bookmark[]) {
+function makeBookmarksIntoLinkList(bookmarks: Bookmark[]): string {
   const markdownList = bookmarks.map((bookmark) =>
     `- [${bookmark.website_title}] – ${bookmark.notes}`
   );
@@ -88,6 +92,36 @@ function makeBookmarksIntoLinkList(bookmarks: Bookmark[]) {
 ${markdownList.join("\n")}
 
 ${footerLinks.join("\n")}`;
+}
+
+function makeEntertainmentList(): string {
+  return `## 🎬 Entertainment
+
+From my [logs](/logs).
+
+<!-- TODO: What have you been watching this past month -->
+
+### Movies
+
+${
+    movies.length > 0 &&
+    movies.filter((movie) => movie.date.includes(TODAY_YEAR_AND_MONTH)).map((
+      movie,
+    ) =>
+      `- **${movie.title} (${movie.release_year})** – ${movie.review.comment}`
+    ).join("\n")
+  }
+
+### TV
+
+${
+    tvShows.length > 0 &&
+    tvShows.filter((show) => show.date.includes(TODAY_YEAR_AND_MONTH)).map((
+      show,
+    ) => `- **${show.title} S${show.season}** – ${show.review.comment}`).join(
+      "\n",
+    )
+  }`;
 }
 
 async function recentlyPost() {
@@ -108,9 +142,7 @@ async function recentlyPost() {
 
 <!-- TODO: What have you programming as of late? -->
 
-## 🎬 Entertainment
-
-<!-- TODO: What have you been watching this past month -->
+${makeEntertainmentList()}
 
 ${makeBookmarksIntoLinkList(bookmarks)}`;
 }
