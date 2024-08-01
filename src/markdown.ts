@@ -69,6 +69,10 @@ export const css = `
       padding: 0;
     }
 
+    .markdown-body pre {
+      color: white;
+    }
+
     .markdown-body .markdown-alert {
       border-left-width: 0.25rem;
       padding-left: 0.5rem;
