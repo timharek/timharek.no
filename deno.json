@@ -37,19 +37,20 @@
     "@timharek/linkding": "jsr:@timharek/linkding@^2.0.3",
     "@timharek/openlibrary": "jsr:@timharek/openlibrary@^2.0.1",
     "@timharek/tmdb": "https://git.sr.ht/~timharek/tmdb/blob/main/mod.ts",
+    "highlight.js": "npm:highlight.js@11.9.0",
     "icons/": "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/",
+    "marked": "npm:marked@8.0.1",
+    "marked-alert": "npm:marked-alert@^2.0.1",
+    "marked-gfm-heading": "npm:marked-gfm-heading-id@3.1.3",
+    "marked-highlight": "npm:marked-highlight@2.0.9",
     "preact": "https://esm.sh/preact@10.19.6",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
     "preact/": "https://esm.sh/preact@10.19.6/",
     "tailwindcss": "npm:tailwindcss@3.4.1",
     "tailwindcss/": "npm:/tailwindcss@3.4.1/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
-    "zod": "npm:zod@^3.23.8",
-    "marked": "npm:marked@8.0.1",
-    "marked-highlight": "npm:marked-highlight@2.0.9",
-    "marked-gfm-heading": "npm:marked-gfm-heading-id@3.1.3",
-    "highlight.js": "npm:highlight.js@11.9.0",
-    "tldts": "npm:tldts@6.0.14"
+    "tldts": "npm:tldts@6.0.14",
+    "zod": "npm:zod@^3.23.8"
   },
   "lint": {
     "rules": {

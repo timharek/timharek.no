@@ -4,6 +4,7 @@ import { Extract } from "@std/front-matter";
 import { Marked } from "marked";
 import { markedHighlight } from "marked-highlight";
 import { gfmHeadingId } from "marked-gfm-heading";
+import markedAlert from "marked-alert";
 import hljs from "highlight.js";
 
 const highlight = await (await fetch(
@@ -26,6 +27,13 @@ export const css = `
       --color-canvas-default: hsl(var(--color-bg) / var(--tw-bg-opacity)) !important; 
       --color-fg-default: var(--color-text) !important;
       --color-accent-fg: var(--color-primary);
+
+      --color-note: #539bf5;
+      --color-caution: #e5534b;
+      --color-tip: #57ab5a;
+      --color-important: #986ee2;
+      --color-warning: #c69026;
+    
     }
     .markdown-body ul {
       list-style: disc;
@@ -60,6 +68,71 @@ export const css = `
       margin: 0;
       padding: 0;
     }
+
+    .markdown-body .markdown-alert {
+      border-left-width: 0.25rem;
+      padding-left: 0.5rem;
+    }
+
+    .markdown-body .markdown-alert.markdown-alert-note {
+      border-left-color: var(--color-note);
+    }
+
+    .markdown-body .markdown-alert.markdown-alert-important {
+      border-left-color: var(--color-important);
+    }
+    .markdown-body .markdown-alert.markdown-alert-warning {
+      border-left-color: var(--color-warning);
+    }
+
+    .markdown-body .markdown-alert.markdown-alert-caution {
+      border-left-color: var(--color-warning);
+    }
+    .markdown-body .markdown-alert.markdown-alert-tip {
+      border-left-color: var(--color-tip);
+    }
+
+    .markdown-body .markdown-alert.markdown-alert-caution {
+      border-left-color: var(--color-caution);
+    }
+
+    .markdown-body .markdown-alert.markdown-alert-tip {
+      border-left-color: var(--color-tip);
+    }
+
+    .markdown-body .markdown-alert.markdown-alert-caution {
+      border-left-color: var(--color-caution);
+    }
+
+    .markdown-body .markdown-alert > .markdown-alert-title {
+      display: inline-flex;
+      align-items: center;
+      font-weight: 500;
+    }
+
+    .markdown-alert-note > .markdown-alert-title {
+      color: var(--color-note);
+    }
+
+    .markdown-alert-tip > .markdown-alert-title {
+      color: var(--color-tip);
+    }
+
+    .markdown-alert-important > .markdown-alert-title {
+      color: var(--color-important);
+    }
+
+    .markdown-alert-warning > .markdown-alert-title {
+      color: var(--color-warning);
+    }
+
+    .markdown-alert-caution > .markdown-alert-title {
+      color: var(--color-caution);
+    }
+
+    .mr-2 {
+      margin-right: 0.5rem;
+    }
   `;
 
 export const marked = new Marked(
@@ -72,4 +145,4 @@ export const marked = new Marked(
     },
   }),
   gfmHeadingId(),
-);
+).use(markedAlert());
