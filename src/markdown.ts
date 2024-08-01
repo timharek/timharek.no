@@ -71,6 +71,7 @@ export const css = `
 
     .markdown-body pre {
       color: white;
+      border: 0.1rem solid var(--color-primary);
     }
 
     .markdown-body .markdown-alert {
