@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-06-24
+updatedAt = 2024-08-02
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -75,7 +75,7 @@ This is software that I use on my devices. Inspired by [App defaults].
 |         Editor | [Helix]                                             |
 |       Terminal | [iTerm2]                                            |
 |     Calculator | [Numi]                                              |
-|            VPN | [`headscale`]                                       |
+|            VPN | [Tailscale]                                         |
 
 ### Utilities
 
@@ -130,7 +130,6 @@ this is what I use daily.
 [SKHD]: https://github.com/koekeishiya/skhd
 [Spotify]: https://spotify.com
 [VSCodium]: https://github.com/VSCodium/vscodium
-[`headscale`]: https://github.com/juanfont/headscale
 [Yr.no]: https://apps.apple.com/jo/app/yr-no/id490989206
 [1984]: https://1984hosting.com
 [Migadu]: https://migadu.com
@@ -154,3 +153,4 @@ this is what I use daily.
   https://fieldnotesbrand.com/products/everyday-inspiration-leather-notebook-cover
 [pen]: https://www.amazon.com/Artline-Black-Fineliner-point-0-4mm/dp/B003UH1A40
 [App defaults]: https://defaults.rknight.me/
+[Tailscale]: https://tailscale.com/
