@@ -11,6 +11,7 @@ Currently watching:
 - Pantheon S2
 - House of the Dragon S2
 - Game of Thrones S2
+- The Bear S3
 
 Watchlist:
 
