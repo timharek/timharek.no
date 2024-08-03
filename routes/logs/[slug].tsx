@@ -13,13 +13,11 @@ import {
   Log,
   MovieEntry,
   RATING_MAX,
-  Review,
 } from "../../src/schemas.ts";
 import { z } from "zod";
 
-interface AvailableLogs {
-  [key: string]: string[];
-}
+type AvailableLogs = Record<string, string[]>;
+
 const availableLogs: AvailableLogs = {
   watched: ["movies.json", "tv_shows.json"],
   reading: ["books.json"],
@@ -27,10 +25,10 @@ const availableLogs: AvailableLogs = {
   travel: ["travel.json"],
 };
 
-interface LogProps {
+type LogProps = {
   entries: Entry[];
   page: Page;
-}
+};
 
 export const handler: Handlers<LogProps, ServerState> = {
   async GET(req, ctx) {
@@ -153,7 +151,7 @@ export default function Page({ data }: PageProps<LogProps>) {
               </div>
               <ul class="divide-gray-700 divide-y-2">
                 {groupedEntries[year].map((item, index) => (
-                  <Item key={index} item={item} />
+                  <LogEntry key={index} item={item} />
                 ))}
               </ul>
             </div>
@@ -217,10 +215,10 @@ interface ItemProps {
   item: Entry;
 }
 
-function Item({ item }: ItemProps) {
+function LogEntry({ item }: ItemProps) {
   if (item.type === "travel") {
     return (
-      <ItemWrapper>
+      <LogEntryListItem>
         <h3 class="md:col-span-2">{item.title}</h3>
         <div>
           <span aria-label="Country">
@@ -242,36 +240,34 @@ function Item({ item }: ItemProps) {
               </>
             )}
         </div>
-      </ItemWrapper>
+      </LogEntryListItem>
     );
   }
   if (item.type === "game") {
     return (
-      <ItemWrapper>
+      <LogEntryListItem comment={item.review.comment}>
         <h3 class="md:col-span-2">{item.title} ({item.platform})</h3>
         <Stars rating={item.review.rating} />
         <div class="md:justify-self-end">
           <DateT date={item.date} />
         </div>
-        <ReviewComment comment={item.review.comment} />
-      </ItemWrapper>
+      </LogEntryListItem>
     );
   }
   if (item.type === "book") {
     return (
-      <ItemWrapper>
+      <LogEntryListItem comment={item.review.comment}>
         <h3 class="md:col-span-2">{item.title}</h3>
         <Stars rating={item.review.rating} />
         <div class="md:justify-self-end">
           <DateT date={item.date} />
         </div>
-        <ReviewComment comment={item.review.comment} />
-      </ItemWrapper>
+      </LogEntryListItem>
     );
   }
   if (item.type === "movie" || item.type === "tv") {
     return (
-      <ItemWrapper>
+      <LogEntryListItem comment={item.review.comment}>
         <h3 class="md:col-span-2">
           {item.title}
           {item.type === "tv" && ` S${item.season}`}
@@ -281,20 +277,37 @@ function Item({ item }: ItemProps) {
         <div class="md:justify-self-end">
           <DateT date={item.date} />
         </div>
-        <ReviewComment comment={item.review.comment} />
-      </ItemWrapper>
+      </LogEntryListItem>
     );
   }
   return <></>;
 }
 
-function ItemWrapper(
-  { children }: {
+const ITEM_WRAPPER_CLASS =
+  "py-4 grid md:grid-cols-4 grid-cols-1 gap-4 hover:bg-zinc-800";
+
+function LogEntryListItem(
+  { children, comment }: {
     children?: ComponentChildren;
+    comment?: string | null;
   },
 ) {
+  if (comment) {
+    return (
+      <li>
+        <details>
+          <summary class={ITEM_WRAPPER_CLASS + " cursor-pointer"}>
+            {children}
+          </summary>
+          <p className="py-2 pl-4">
+            {comment}
+          </p>
+        </details>
+      </li>
+    );
+  }
   return (
-    <li class="py-4 grid md:grid-cols-4 grid-cols-1 gap-4 hover:bg-zinc-800">
+    <li class={ITEM_WRAPPER_CLASS}>
       {children}
     </li>
   );
@@ -309,17 +322,6 @@ function DateT({ date }: { date: Date }) {
     <time dateTime={date.toISOString()} title={date.toISOString()}>
       {formattedDate}
     </time>
-  );
-}
-
-function ReviewComment({ comment }: { comment: Review["comment"] }) {
-  if (!comment) {
-    return <></>;
-  }
-  return (
-    <p className="row-start-3 md:row-start-2 md:col-start-3 md:col-span-2">
-      {comment}
-    </p>
   );
 }
 
