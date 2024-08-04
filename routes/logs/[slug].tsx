@@ -296,7 +296,10 @@ function LogEntryListItem(
     return (
       <li>
         <details>
-          <summary class={ITEM_WRAPPER_CLASS + " cursor-pointer"}>
+          <summary
+            class={ITEM_WRAPPER_CLASS +
+              " cursor-pointer list-none [&::-webkit-details-marker]:hidden"}
+          >
             {children}
           </summary>
           <p className="py-2 pl-4">
