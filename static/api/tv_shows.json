@@ -2240,19 +2240,19 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Game of Thrones",
     "date": "2024-07-29T00:00:00.000Z",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
+    "type": "tv",
     "release_year": 2011,
     "review": {
       "rating": 5,
       "comment": "Rewatch. It's a lot of fun!"
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
     "season": 1,
     "episode_count": null,
     "directors": [
@@ -2264,6 +2264,28 @@
     "creators": [
       "David Benioff",
       "D. B. Weiss"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "House of the Dragon",
+    "date": "2024-08-05T00:00:00.000Z",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 5,
+      "comment": "Slow season, the acting and world-building was fantastic!"
+    },
+    "season": 2,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "George R. R. Martin",
+      "Ryan Condal"
     ]
   }
 ]
