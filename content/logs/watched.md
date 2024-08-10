@@ -9,7 +9,7 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - Pantheon S2
-- Game of Thrones S2
+- Game of Thrones S3
 - The Bear S3
 
 Watchlist:
