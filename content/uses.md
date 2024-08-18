@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-08-02
+updatedAt = 2024-08-18
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -73,7 +73,7 @@ This is software that I use on my devices. Inspired by [App defaults].
 |  Photo editing | [Affinity Photo]                                    |
 | Vector editing | [Affinity Designer]                                 |
 |         Editor | [Helix]                                             |
-|       Terminal | [iTerm2]                                            |
+|       Terminal | [WezTerm]                                           |
 |     Calculator | [Numi]                                              |
 |            VPN | [Tailscale]                                         |
 
@@ -126,7 +126,7 @@ this is what I use daily.
 [Nextcloud]: https://nextcloud.com
 [Numi]: https://numi.app
 [Signal]: https://signal.org
-[iTerm2]: https://iterm2.com/
+[WezTerm]: https://wezfurlong.org/wezterm/
 [SKHD]: https://github.com/koekeishiya/skhd
 [Spotify]: https://spotify.com
 [VSCodium]: https://github.com/VSCodium/vscodium
