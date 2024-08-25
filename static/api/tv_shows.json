@@ -2289,19 +2289,19 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Game of Thrones",
     "date": "2024-08-08T00:00:00.000Z",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
+    "type": "tv",
     "release_year": 2011,
     "review": {
       "rating": 5,
       "comment": "Rewatching the whole show. I find the world and characters more and more interesting!"
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
     "season": 2,
     "episode_count": null,
     "directors": [
@@ -2310,6 +2310,55 @@
       "David Nutter",
       "Neil Marshall",
       "Alik Sakharov"
+    ],
+    "creators": [
+      "David Benioff",
+      "D. B. Weiss"
+    ]
+  },
+  {
+    "title": "Pantheon",
+    "date": "2024-08-24T00:00:00.000Z",
+    "type": "tv",
+    "release_year": 2022,
+    "review": {
+      "rating": 4,
+      "comment": "Slow start, but great ending!"
+    },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "season": 2,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Craig Silverstein"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Game of Thrones",
+    "date": "2024-08-16T00:00:00.000Z",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "release_year": 2011,
+    "review": {
+      "rating": 5,
+      "comment": "Rewatch! And now the fun begins!"
+    },
+    "season": 3,
+    "episode_count": null,
+    "directors": [
+      "Alex Graves",
+      "David Nutter",
+      "Michelle MacLaren",
+      "Daniel Minahan",
+      "Alik Sakharov",
+      "David Benioff"
     ],
     "creators": [
       "David Benioff",
