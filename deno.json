@@ -21,7 +21,7 @@
   },
   "nodeModulesDir": true,
   "imports": {
-    "$fresh/": "https://deno.land/x/fresh@1.6.8/",
+    "$fresh/": "https://deno.land/x/fresh@1.7.1/",
     "$fresh_charts/": "https://deno.land/x/fresh_charts@0.3.1/",
     "@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.4",
     "@deno/gfm": "jsr:@deno/gfm@^0.8.2",

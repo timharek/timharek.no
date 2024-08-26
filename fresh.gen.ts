@@ -23,7 +23,7 @@ import * as $stats from "./routes/stats.tsx";
 import * as $tags_slug_ from "./routes/tags/[slug].tsx";
 import * as $tags_index from "./routes/tags/index.tsx";
 
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
