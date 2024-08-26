@@ -1,4 +1,4 @@
-last_update = 2024-06-04
+last_update = 2024-08-26
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -53,7 +53,7 @@ highlights = [
 [[work]]
 name = "Netlife Bergen"
 position = "Technologist"
-url = "https://netlife.com"
+url = "https://netlifebergen.no"
 startDate = 2021-08-02
 endDate = 2023-08-04
 highlights = [
@@ -216,6 +216,7 @@ keywords = [
   "jQuery",
   "Oak",
   "Zod",
+  "MUI"
 ]
 
 [[skills]]
@@ -273,7 +274,10 @@ name = "sticos.no"
 client = "Sticos"
 url = "https://sticos.no"
 roles = ["Tech lead"]
-description = "New website made with HubSpot CMS for an Norwegian SaaS company."
+description = """
+We created a new website for Sticos using HubSpot CMS. We also integreated Docebo
+LMS for their courses pages, this was done using HubSpot's HubDB.
+"""
 startDate = 2022-12-05
 endDate = 2023-04-14
 keywords = ["HubSpot CMS", "Netlife", "Tailwind", "Website", "Work"]
@@ -283,7 +287,10 @@ name = "valuegroup.no"
 client = "Value Group"
 url = "https://valuegroup.no"
 roles = ["Tech lead"]
-description = "New website made with HubSpot CMS for an accounting agency."
+description = """
+We created a new website for Value Group using HubSpot CMS, where we had an
+interesting web-design inspired by spreadsheets.
+"""
 startDate = 2022-10-10
 endDate = 2022-12-06
 keywords = ["HubSpot CMS", "Netlife", "Website", "Work"]
@@ -293,7 +300,11 @@ name = "ren.no"
 client = "REN"
 url = "https://ren.no"
 roles = ["UX-designer"]
-description = "Designed components for their internal datasheet creation."
+description = """
+I took over the UX designer role for an existing project for the client REN. It
+was a big tidying job in Figma where I had to take existing non-components and
+make them into components.
+"""
 startDate = 2022-05-23
 endDate = 2022-09-30
 keywords = ["Figma", "Netlife", "Website", "UX", "Work"]
@@ -303,7 +314,12 @@ name = "ypper.no"
 client = "Ypper"
 url = "https://ypper.no"
 roles = ["Tech lead"]
-description = "Developed a new website with Ghost CMS with memberships and payment model."
+description = """
+We created a new website using Ghost CMS with paid memberships. Ypper wanted to 
+have an easy way to provide their members with exclusive content in one 
+interface where they can send newsletters and have everything live under one
+roof.
+"""
 startDate = 2022-02-21
 endDate = 2022-04-21
 keywords = ["Ghost CMS", "Netlife", "Website", "Tailwind", "Work"]
@@ -313,17 +329,24 @@ name = "Upgrade kolibricarf.no"
 client = "Kolibri CARF"
 url = "https://kolibricarf.no/"
 roles = ["Developer"]
-description = "Upgrade website from Craft CMS 2 to Craft CMS 3 including migration of plugins and new setup for donations."
+description = """
+I upgraded their website from Craft CMS v2 to v3. Their setup included a couple
+of plugins and one important plugin for donations. The donations plugin had to
+be replaced with Stripe.
+"""
 startDate = 2022-06-27
 endDate = 2022-07-08
-keywords = ["Website", "Craft CMS", "Upgrade", "Netlife", "Work"]
+keywords = ["Website", "Craft CMS", "Upgrade", "Netlife", "Work", "Stripe"]
 
 [[projects]]
 name = "viljareiser.no"
 client = "Vilja"
 url = "https://viljareiser.no/"
 roles = ["Tech lead", "Developer", "UX designer"]
-description = "Developed a new website for a traveling agency with API-integration to their exisiting booking system. Built with Craft CMS 3."
+description ="""
+We created a new website for a travel agency. We built our own custom 
+integration with their existing booking-system.
+"""
 startDate = 2022-01-03
 endDate = 2022-06-26
 keywords = ["Website", "Craft CMS", "Tailwind", "API", "Netlife", "Work"]
@@ -332,7 +355,11 @@ keywords = ["Website", "Craft CMS", "Tailwind", "API", "Netlife", "Work"]
 name = "Frontend and UX assistance"
 client = "Ambita"
 roles = ["Tech lead", "Developer"]
-description = "Assiting the client with developing a new frontend using Vue3 and other modern frontend-frameworks."
+description = """
+I helped the client lift their knowledge about frontend development, using Vue3,
+SASS, and best practises when it comes to UX. They needed assistance for their
+new version of their existing webapp made with Java and REST APIs. 
+"""
 startDate = 2021-10-04
 endDate = 2022-09-01
 keywords = ["Vue", "Netlife", "Work"]
@@ -342,7 +369,11 @@ name = "oneoceanexpedition.com"
 client = "Statsraad Lehmkuhl"
 url = "https://oneoceanexpedition.com/"
 roles = ["Developer"]
-description = "A website built with Next.js using API from Havforskningsinstituttet with live-data coming from a sea vessal."
+description = """
+We created a website with Next.js using data from Havforskningsinstituttet with
+live-data coming from a sea vessel, Statsraad Lehmkuhl. We added data-points to
+a map tracking the ships coordinates with Mapbox.
+"""
 startDate = 2021-05-31
 endDate = 2021-09-22
 keywords = [
@@ -361,7 +392,11 @@ name = "Optimze handelensmiljofond.no"
 client = "Handelens Miljøfond"
 url = "https://handelensmiljofond.no/"
 roles = ["Developer"]
-description = "Optimize website, reduced page-sizes from ~18 MB down to ~1.2 MB."
+description = """
+I optimized their website by optimizing the images, CSS, reducing the amount of
+JavaScript etc. I reduced the biggest pages from 18 MB down to approximately
+1.2 MB.
+"""
 startDate = 2021-10-18
 endDate = 2021-10-21
 keywords = ["Website", "Craft CMS", "Optimze", "Netlife", "Work"]
@@ -371,7 +406,10 @@ name = "verdighetsenteret.no"
 client = "Verdighetsenteret"
 url = "https://verdighetsenteret.no/"
 roles = ["Developer"]
-description = "Assisted other developers with development of new webiste."
+description = """
+Started the initial work on their new website. The work was taken over by
+coworkers because I was put on another project.
+"""
 startDate = 2021-09-01
 endDate = 2021-09-14
 keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
@@ -381,7 +419,10 @@ name = "Upgrade vff.no"
 client = "Verdipapirfondenes forening"
 url = "https://vff.no/"
 roles = ["Developer"]
-description = "Upgraded from Craft CMS v2 to v3. Developed custom Craft CMS-modules for getting data from the official Norwegian fond-register."
+description = """
+We upgraded their website from Craft CMS v2 to v3. We created a custom module
+for getting data from the national Norwegian fond-register.
+"""
 startDate = 2021-06-28
 endDate = 2021-07-14
 keywords = ["Website", "Craft CMS", "Upgrade", "Netlife", "Work"]
@@ -391,7 +432,10 @@ name = "khdele.no"
 client = "Høgskulen i Volda"
 url = "https://khdele.no/"
 roles = ["Developer"]
-description = "My first project at Netlife Bergen. We developed a new website for Arts and Crafts for teach-students."
+description = """
+We created a new website for the Arts and Crafts teacher-students at Høgskulen 
+i Volda. This was my first project at Netlife Bergen.
+"""
 startDate = 2021-04-28
 endDate = 2021-06-14
 keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
@@ -399,7 +443,9 @@ keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
 [[projects]]
 name = "wcarbon module"
 url = "https://jsr.io/@timharek/wcarbon"
-description = "Access Website Carbon's API with Deno."
+description = """
+API-client for Website Carbon's API.
+"""
 startDate = 2022-06-26
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://github.com/timharek/wcarbon"]
@@ -407,7 +453,9 @@ sources = ["https://github.com/timharek/wcarbon"]
 [[projects]]
 name = "d-yr module"
 url = "https://jsr.io/@timharek/d-yr"
-description = "Access Yr.no's weather API with Deno."
+description = """
+Access Yr.no's weather API with Deno. It's also a CLI.
+"""
 startDate = 2022-03-07
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://github.com/timharek/d-yr"]
@@ -415,16 +463,22 @@ sources = ["https://github.com/timharek/d-yr"]
 [[projects]]
 name = "everyday-privacy.com"
 url = "https://everyday-privacy.com"
-description = "Educate people about privacy and security with an interactive static-site."
+description = """
+Learn about privacy and security with an interactive statically generated 
+website. All data was available through an open source licence.
+"""
 startDate = 2021-02-11
 endDate = 2023-03-03
-keywords = ["Website", "Privacy", "Personal", "Open source"]
+keywords = ["Website", "Privacy", "Personal", "Open source", "Jekyll"]
 sources = ["https://github.com/timharek/everyday-privacy"]
 
 [[projects]]
 name = "5545.no"
 url = "https://5545.no"
-description = "Weather website for a local zip-code in Norway, built with Svelte using Yr's API. "
+description = """
+A weather website for a zip-code in Norway. A prototype-project made with
+SvelteKit using Yr.no's API.
+"""
 startDate = 2021-05-03
 endDate = 2022-05-28
 keywords = ["Website", "API", "Svelte", "Personal", "Tailwind", "Open source"]
@@ -432,7 +486,10 @@ sources = ["https://github.com/timharek/5545.no-svelte"]
 
 [[projects]]
 name = "sbanken.sh"
-description = "Shell-script with options to access Sbanken and see your banking details."
+description = """
+A shell-script for accessing and interacting with Sbanken's API. Used to see
+banking details. Not possible after DNB's acquisition.
+"""
 startDate = 2021-11-15
 endDate = 2022-08-05
 keywords = ["API", "Shell", "Personal", "Open source"]
@@ -442,7 +499,10 @@ sources = ["https://github.com/timharek/sbanken.sh"]
 name = "fribyte.no"
 client = "friByte"
 url = "https://fribyte.no"
-description = "Static generated website made with Zola."
+description = """
+I remade their PHP-based website with Jekyll, then I converted it to Zola. Now
+it has an automated deployment workflow.
+"""
 startDate = 2021-02-06
 endDate = 2023-10-04
 keywords = ["Website", "Zola", "Open source"]
@@ -453,7 +513,9 @@ name = "vestkontakt.no"
 client = "Vest Kontakt"
 url = "https://vestkontakt.no"
 roles = ["Developer"]
-description = "Static generated website made with Jekyll."
+description = """
+I created a new website using Jekyll.
+"""
 startDate = 2021-01-07
 endDate = 2021-02-22
 keywords = ["Website", "Jekyll"]
@@ -461,7 +523,10 @@ keywords = ["Website", "Jekyll"]
 [[projects]]
 name = "omdb module"
 url = "https://jsr.io/@timharek/omdb"
-description = "Access OMDb's API for getting details about movies and TV shows with Deno."
+description = """
+API-client for accessing OMDb's API for getting details about movie and TV show
+titles.
+"""
 startDate = 2022-06-23
 keywords = ["Tool", "CLI", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
@@ -472,7 +537,9 @@ sources = [
 [[projects]]
 name = "openlibrary module"
 url = "https://jsr.io/@timharek/openlibrary"
-description = " API client for OpenLibrary's API for searching books, authors etc."
+description = """
+API-client for accessing OpenLibrary's API for searching books, authors etc.
+"""
 startDate = 2023-01-15
 keywords = ["Tool", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
@@ -483,7 +550,9 @@ sources = [
 [[projects]]
 name = "linkding module"
 url = "https://jsr.io/@timharek/linkding"
-description = "API client for Linkding."
+description = """
+API-client for accessing Linkding's API. Used for accessing my bookmarks.
+"""
 startDate = 2022-11-28
 keywords = ["Tool", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
@@ -495,7 +564,10 @@ sources = [
 name = "Web daemon"
 client = "Institutt for Journalistikk"
 roles = ["Tech lead"]
-description = "Developed a web daemon that listens to a webhook from an LMS that updates an old MS-SQL database made in the late 90s. Also made the daemon to be scalable to a full-fledged front-end API for future use."
+description = """
+We developed a webservice that listens for webhooks from LearnWorld's LMS, that
+updates an old Microsoft SQL database from the late 90s.
+"""
 startDate = 2022-12-06
 endDate = 2023-02-27
 keywords = [
@@ -511,7 +583,9 @@ keywords = [
 [[projects]]
 name = "Hima"
 url = "https://sr.ht/~timharek/hima"
-description = "Home Inventory system built with Deno Fresh using PocketBase as a backend."
+description = """
+Home Inventory system built with Deno, Fresh, using PocketBase as a backend.
+"""
 startDate = 2023-03-05
 keywords = [
   "API",
@@ -528,7 +602,11 @@ sources = ["https://git.sr.ht/~timharek/hima"]
 [[projects]]
 name = "filmpolitiet-api"
 url = "https://filmpolitiet.wyd.no"
-description = "API for NRK P3 Filmpolitiet's reviews. Made using Deno, Fresh and SQLite."
+description = """
+Access Filmpolitiet's content through a filterable and sortable view. Also made
+publicly accessible through an API. Made by scraping Filmpolitiet's RSS feeds.
+Made using Deno, Fresh and SQLite.
+"""
 startDate = 2023-05-31
 keywords = [
   "API",
@@ -546,35 +624,44 @@ sources = ["https://git.sr.ht/~timharek/filmpolitiet-api"]
 name = "Integrate Front Systems with Raw"
 client = "Raw Technologies"
 roles = ["Developer"]
-description = "Integrate Front Systems sales items into Raw."
+description = """
+I integrated Front Systems sales items into Raw (rawdata.no) using Integreat.
+"""
 startDate = 2024-01-08
 endDate = 2024-02-12
-keywords = ["Value", "Integration", "Raw", "Work"]
+keywords = ["Value", "Integration", "Raw", "Work", "Integreat"]
 
 [[projects]]
 name = "Integrate Tripletex with Raw"
 client = "Raw Technologies"
 roles = ["Developer"]
-description = "Integrate Tripletex's general ledger into Raw."
+description = """
+I integrated Tripletex's general ledger into Raw (rawdata.no) using Integreat.
+"""
 startDate = 2023-10-01
 endDate = 2024-01-14
-keywords = ["Value", "Integration", "Raw", "Work"]
+keywords = ["Value", "Integration", "Raw", "Work", "Integreat"]
 
 [[projects]]
 name = "Integrate Voss of Norway with Raw"
 client = "Voss of Norway"
 roles = ["Developer"]
-description = "Integrate Voss of Norway's general ledger and work orders from Business Central into Raw."
+description = """
+I integrated Voss of Norway's general ledger and work order from Business
+Central into Raw (rawdata.no) using Integreat.
+"""
 startDate = 2023-09-01
 endDate = 2024-01-14
-keywords = ["Value", "Integration", "Raw", "Work"]
+keywords = ["Value", "Integration", "Raw", "Work", "Integreat"]
 
 [[projects]]
 name = "europan.no"
 client = "Europan Norway"
 url = "https://europan.no/"
 roles = ["Tech lead", "Developer"]
-description = "New website for Europan Norway, a competition for architects."
+description = """
+I created a new website for Europan Norway, a competition for architects.
+"""
 startDate = 2023-04-28
 endDate = 2023-08-04
 keywords = ["Website", "Craft CMS", "Tailwind", "Netlife", "Work"]
@@ -584,6 +671,10 @@ name = "Value 360"
 client = "Value Group"
 roles = ["Tech lead", "Developer"]
 description = "Quality assurance system for agencies. Automating tasks and routines for accountants and team leaders."
+description = """
+Quality assurance system for agencies. Automating tasks and routines for
+accountants and team leaders.
+"""
 startDate = 2023-02-28
 keywords = [
   "API",
@@ -600,20 +691,26 @@ keywords = [
 ]
 
 [[projects]]
-name = "API client"
+name = "Webservice"
 client = "Gaitline"
 roles = ["Tech lead", "Developer"]
-description = "API client interacting with multiple APIs. Writing EDIFACT files via email and SFTP."
+description = """
+We created a webservice that creates EDIFACT-files based on invoices and
+credit-notes. It runs as a cronjob periodically that sends its files to multiple
+recipients using email and SFTP (SSH).
+"""
 startDate = 2023-01-24
 endDate = 2023-05-16
-keywords = ["API", "Deno", "GCP", "Netlife", "Oak", "Value", "Work"]
+keywords = ["API", "Deno", "GCP", "Netlife", "Oak", "Value", "Work", "SFTP", "Email", "EDIFACT"]
 
 [[projects]]
 name = "Bergen Open Source Website"
 client = "friByte"
 url = "https://boskonf.no"
 roles = ["Developer"]
-description = "Website for friByte's Open Source conference."
+description = """
+Website for friByte's Open Source conference.
+"""
 startDate = 2023-09-20
 endDate = 2023-11-05
 keywords = ["Zola", "Website", "Open source"]
@@ -622,7 +719,9 @@ sources = ["https://github.com/fribyte-code/boskonf.no/"]
 [[projects]]
 name = "gpx-to-svg module"
 url = "https://jsr.io/@timharek/gpx-to-svg"
-description = "Generate SVGs from GPX routes."
+description = """
+Generate SVGs from GPX routes.  
+"""
 startDate = 2024-05-28
 keywords = ["Tool", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://git.sr.ht/~timharek/gpx-to-svg"]
