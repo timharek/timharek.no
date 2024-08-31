@@ -424,10 +424,10 @@
   },
   {
     "title": "Work meetings",
-    "date": "2023-09-14",
+    "date": "2023-09-14T00:00:00.000Z",
     "type": "travel",
     "occasion": "business",
-    "to_date": "2023-09-14",
+    "to_date": "2023-09-14T00:00:00.000Z",
     "location": {
       "country": {
         "name": "Norway",
@@ -440,10 +440,10 @@
   },
   {
     "title": "Meetings",
-    "date": "2024-01-17",
+    "date": "2024-01-17T00:00:00.000Z",
     "type": "travel",
     "occasion": "business",
-    "to_date": "2024-01-17",
+    "to_date": "2024-01-17T00:00:00.000Z",
     "location": {
       "country": {
         "name": "Norway",
@@ -456,10 +456,10 @@
   },
   {
     "title": "Meetings",
-    "date": "2024-05-15",
+    "date": "2024-05-15T00:00:00.000Z",
     "type": "travel",
     "occasion": "business",
-    "to_date": "2024-05-15",
+    "to_date": "2024-05-15T00:00:00.000Z",
     "location": {
       "country": {
         "name": "Norway",
@@ -471,11 +471,11 @@
     }
   },
   {
-    "type": "travel",
     "title": "Family wedding",
-    "date": "2024-03-15",
-    "to_date": "2024-03-17",
+    "date": "2024-03-15T00:00:00.000Z",
+    "type": "travel",
     "occasion": "pleasure",
+    "to_date": "2024-03-17T00:00:00.000Z",
     "location": {
       "country": {
         "name": "Norway",
@@ -483,6 +483,23 @@
       },
       "cities": [
         "Stavanger"
+      ]
+    }
+  },
+  {
+    "type": "travel",
+    "title": "Wedding abroad",
+    "date": "2024-08-28T00:00:00.000Z",
+    "to_date": "2024-08-31T00:00:00.000Z",
+    "occasion": "pleasure",
+    "location": {
+      "country": {
+        "name": "Northern Ireland",
+        "emoji": "🇬🇧"
+      },
+      "cities": [
+        "Belfast",
+        "Bangor"
       ]
     }
   }
