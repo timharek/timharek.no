@@ -5445,21 +5445,39 @@
     ]
   },
   {
-    "type": "movie",
     "title": "Twisters",
     "date": "2024-08-10T00:00:00.000Z",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
+    "type": "movie",
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Suspensful movie! Enjoyed it very much, not sure how realistic it was, but nonetheless."
     },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
     "directors": [
       "Lee Isaac Chung"
+    ]
+  },
+  {
+    "type": "movie",
+    "title": "30 Minutes or Less",
+    "date": "2024-08-28T00:00:00.000Z",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "release_year": 2011,
+    "review": {
+      "rating": 3,
+      "comment": "Easy watch, and a rewatch from many moons ago."
+    },
+    "directors": [
+      "Ruben Fleischer"
     ]
   }
 ]
