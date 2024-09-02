@@ -2337,19 +2337,19 @@
     ]
   },
   {
-    "type": "tv",
     "title": "Game of Thrones",
     "date": "2024-08-16T00:00:00.000Z",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
+    "type": "tv",
     "release_year": 2011,
     "review": {
       "rating": 5,
       "comment": "Rewatch! And now the fun begins!"
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
     "season": 3,
     "episode_count": null,
     "directors": [
@@ -2359,6 +2359,34 @@
       "Daniel Minahan",
       "Alik Sakharov",
       "David Benioff"
+    ],
+    "creators": [
+      "David Benioff",
+      "D. B. Weiss"
+    ]
+  },
+  {
+    "type": "tv",
+    "title": "Game of Thrones",
+    "date": "2024-09-01T00:00:00.000Z",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "release_year": 2011,
+    "review": {
+      "rating": 5,
+      "comment": "Rewatching the show. Having so much fun!"
+    },
+    "season": 4,
+    "episode_count": null,
+    "directors": [
+      "Alex Graves",
+      "Michelle MacLaren",
+      "Alik Sakharov",
+      "Neil Marshall",
+      "D. B. Weiss"
     ],
     "creators": [
       "David Benioff",
