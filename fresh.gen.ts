@@ -7,6 +7,7 @@ import * as $_well_known_links from "./routes/.well-known/links.ts";
 import * as $_well_known_logo from "./routes/.well-known/logo.ts";
 import * as $_page_ from "./routes/[...page].tsx";
 import * as $_404 from "./routes/_404.tsx";
+import * as $_500 from "./routes/_500.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_middleware from "./routes/_middleware.ts";
 import * as $blog_slug_ from "./routes/blog/[slug].tsx";
@@ -32,6 +33,7 @@ const manifest = {
     "./routes/.well-known/logo.ts": $_well_known_logo,
     "./routes/[...page].tsx": $_page_,
     "./routes/_404.tsx": $_404,
+    "./routes/_500.tsx": $_500,
     "./routes/_app.tsx": $_app,
     "./routes/_middleware.ts": $_middleware,
     "./routes/blog/[slug].tsx": $blog_slug_,

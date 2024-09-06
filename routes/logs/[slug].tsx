@@ -15,15 +15,22 @@ import {
   RATING_MAX,
 } from "../../src/schemas.ts";
 import { z } from "zod";
+import { zfd } from "zod-form-data";
 
-type AvailableLogs = Record<string, string[]>;
+const slugSchema = z.enum(["watched", "reading", "games", "travel"]);
+type AvailableLogs = Record<z.infer<typeof slugSchema>, string[]>;
 
 const availableLogs: AvailableLogs = {
   watched: ["movies.json", "tv_shows.json"],
   reading: ["books.json"],
   games: ["games.json"],
   travel: ["travel.json"],
-};
+} as const;
+
+const searchParamsSchema = zfd.formData({
+  type: z.string().optional(),
+  rating: z.coerce.number().optional(),
+});
 
 type LogProps = {
   entries: Entry[];
@@ -33,13 +40,21 @@ type LogProps = {
 export const handler: Handlers<LogProps, ServerState> = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const slug = ctx.params.slug;
-    const type = url.searchParams.get("type");
-    const rating = url.searchParams.get("rating");
-
-    if (!Object.keys(availableLogs).includes(slug)) {
+    const slugResult = slugSchema.safeParse(ctx.params.slug);
+    if (!slugResult.success) {
+      console.error("Invalid slug");
+      console.dir(slugResult.error);
       return ctx.renderNotFound();
     }
+    const slug = slugResult.data;
+
+    const searchParams = searchParamsSchema.safeParse(url.searchParams);
+    if (!searchParams.success) {
+      console.error("Invalid searchParams");
+      console.dir(searchParams.error);
+      throw new Error("Invalid searchParams");
+    }
+    const { type, rating } = searchParams.data;
 
     const page = await getPage({ slug: `logs/${slug}` });
 
@@ -54,18 +69,9 @@ export const handler: Handlers<LogProps, ServerState> = {
       ctx.state.description = page.description;
     }
     ctx.state.breadcrumbs = [
-      {
-        title: "Index",
-        path: "/",
-      },
-      {
-        title: "Logs",
-        path: "/logs",
-      },
-      {
-        title: page.title,
-        path: url.pathname,
-      },
+      { title: "Index", path: "/" },
+      { title: "Logs", path: "/logs" },
+      { title: page.title, path: url.pathname },
     ];
 
     const headers = req.headers.get("accept");
@@ -111,7 +117,8 @@ export const handler: Handlers<LogProps, ServerState> = {
   },
 };
 
-export default function Page({ data }: PageProps<LogProps>) {
+export default function Page({ data, url }: PageProps<LogProps>) {
+  const { rating: hasRatingParam } = searchParamsSchema.parse(url.searchParams);
   const { entries, page } = data;
 
   const groupedEntries = groupBy(
@@ -134,7 +141,7 @@ export default function Page({ data }: PageProps<LogProps>) {
           data-dark-theme="dark"
         >
           <PageHeader title={page.title} updated={page.updatedAt} />
-          {isWatched && <WatchedStats entries={entries} />}
+          {(isWatched && !hasRatingParam) && <WatchedStats entries={entries} />}
           <div
             class="markdown-body mb-4"
             dangerouslySetInnerHTML={{ __html: page.html }}
