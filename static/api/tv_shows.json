@@ -1,8 +1,8 @@
 [
   {
-    "title": "Marvel's Daredevil",
-    "date": "2015-04-11T00:00:00.000Z",
     "type": "tv",
+    "title": "Marvel's Daredevil",
+    "date": "2015-04-11",
     "release_year": 2015,
     "review": {
       "rating": 5,
@@ -12,44 +12,45 @@
       "Crime",
       "Drama",
       "Action & Adventure"
+    ],
+    "directors": [
+      "Phil Abraham",
+      "Stephen Surjik",
+      "Peter Hoar",
+      "Ken Girotti",
+      "Alex Garcia Lopez",
+      "Marc Jobst",
+      "Euros Lyn",
+      "Farren Blackburn",
+      "Jennifer Getzinger",
+      "Michael Uppendahl",
+      "Alex Zakrzewski",
+      "Lukas Ettlin",
+      "Sam Miller",
+      "Nelson McCormick",
+      "Steven S. DeKnight",
+      "Julian Holmes",
+      "Toa Fraser",
+      "Andy Goddard",
+      "Adam Kane",
+      "Jet Wilkinson",
+      "Guy Ferland",
+      "Floria Sigismondi",
+      "Brad Turner",
+      "Nick Gomez",
+      "Jennifer Lynch"
+    ],
+    "creators": [
+      "Drew Goddard"
     ],
     "season": 1,
     "episode_count": null,
-    "directors": [
-      "Phil Abraham",
-      "Stephen Surjik",
-      "Peter Hoar",
-      "Farren Blackburn",
-      "Ken Girotti",
-      "Marc Jobst",
-      "Euros Lyn",
-      "Alex Garcia Lopez",
-      "Jennifer Lynch",
-      "Nelson McCormick",
-      "Brad Turner",
-      "Steven S. DeKnight",
-      "Sam Miller",
-      "Michael Uppendahl",
-      "Toa Fraser",
-      "Julian Holmes",
-      "Adam Kane",
-      "Floria Sigismondi",
-      "Jennifer Getzinger",
-      "Guy Ferland",
-      "Nick Gomez",
-      "Jet Wilkinson",
-      "Andy Goddard",
-      "Lukas Ettlin",
-      "Alex Zakrzewski"
-    ],
-    "creators": [
-      "Drew Goddard"
-    ]
+    "tmdbId": 61889
   },
   {
-    "title": "Marvel's Daredevil",
-    "date": "2016-03-19T00:00:00.000Z",
     "type": "tv",
+    "title": "Marvel's Daredevil",
+    "date": "2016-03-19",
     "release_year": 2015,
     "review": {
       "rating": 5,
@@ -60,43 +61,44 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Phil Abraham",
       "Stephen Surjik",
       "Peter Hoar",
-      "Farren Blackburn",
       "Ken Girotti",
+      "Alex Garcia Lopez",
       "Marc Jobst",
       "Euros Lyn",
-      "Alex Garcia Lopez",
-      "Jennifer Lynch",
-      "Nelson McCormick",
-      "Brad Turner",
-      "Steven S. DeKnight",
-      "Sam Miller",
-      "Michael Uppendahl",
-      "Toa Fraser",
-      "Julian Holmes",
-      "Adam Kane",
-      "Floria Sigismondi",
+      "Farren Blackburn",
       "Jennifer Getzinger",
-      "Guy Ferland",
-      "Nick Gomez",
-      "Jet Wilkinson",
-      "Andy Goddard",
+      "Michael Uppendahl",
+      "Alex Zakrzewski",
       "Lukas Ettlin",
-      "Alex Zakrzewski"
+      "Sam Miller",
+      "Nelson McCormick",
+      "Steven S. DeKnight",
+      "Julian Holmes",
+      "Toa Fraser",
+      "Andy Goddard",
+      "Adam Kane",
+      "Jet Wilkinson",
+      "Guy Ferland",
+      "Floria Sigismondi",
+      "Brad Turner",
+      "Nick Gomez",
+      "Jennifer Lynch"
     ],
     "creators": [
       "Drew Goddard"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 61889
   },
   {
-    "title": "Atypical",
-    "date": "2017-08-17T00:00:00.000Z",
     "type": "tv",
+    "title": "Atypical",
+    "date": "2017-08-17",
     "release_year": 2017,
     "review": {
       "rating": 4,
@@ -106,39 +108,40 @@
       "Drama",
       "Comedy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Michael Patrick Jann",
       "Ryan Case",
       "Ken Whittingham",
       "Michael Medico",
-      "Rebecca Asher",
-      "Seth Gordon",
       "Silver Tree",
-      "Joe Kessler",
       "Victor Nelli Jr.",
       "Robia Rashid",
+      "Seth Gordon",
+      "Joe Kessler",
       "Wendey Stanzler",
-      "Tom Magill",
-      "Jennifer Arnold",
-      "Angela C. Tortu",
+      "Rebecca Asher",
       "Pam Thomas",
+      "Annabel Oakes",
+      "Angela C. Tortu",
+      "Geeta Patel",
+      "Pete Chatmon",
       "Heather Jack",
       "Fernando Sariñana",
-      "Annabel Oakes",
-      "Pete Chatmon",
-      "Geeta Patel",
-      "Kevin Rodney Sullivan"
+      "Jennifer Arnold",
+      "Kevin Rodney Sullivan",
+      "Tom Magill"
     ],
     "creators": [
       "Robia Rashid"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 71578
   },
   {
-    "title": "Atypical",
-    "date": "2018-10-07T00:00:00.000Z",
     "type": "tv",
+    "title": "Atypical",
+    "date": "2018-10-07",
     "release_year": 2017,
     "review": {
       "rating": 4,
@@ -148,39 +151,40 @@
       "Drama",
       "Comedy"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Michael Patrick Jann",
       "Ryan Case",
       "Ken Whittingham",
       "Michael Medico",
-      "Rebecca Asher",
-      "Seth Gordon",
       "Silver Tree",
-      "Joe Kessler",
       "Victor Nelli Jr.",
       "Robia Rashid",
+      "Seth Gordon",
+      "Joe Kessler",
       "Wendey Stanzler",
-      "Tom Magill",
-      "Jennifer Arnold",
-      "Angela C. Tortu",
+      "Rebecca Asher",
       "Pam Thomas",
+      "Annabel Oakes",
+      "Angela C. Tortu",
+      "Geeta Patel",
+      "Pete Chatmon",
       "Heather Jack",
       "Fernando Sariñana",
-      "Annabel Oakes",
-      "Pete Chatmon",
-      "Geeta Patel",
-      "Kevin Rodney Sullivan"
+      "Jennifer Arnold",
+      "Kevin Rodney Sullivan",
+      "Tom Magill"
     ],
     "creators": [
       "Robia Rashid"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 71578
   },
   {
-    "title": "Marvel's Daredevil",
-    "date": "2018-10-29T00:00:00.000Z",
     "type": "tv",
+    "title": "Marvel's Daredevil",
+    "date": "2018-10-29",
     "release_year": 2015,
     "review": {
       "rating": 5,
@@ -190,44 +194,45 @@
       "Crime",
       "Drama",
       "Action & Adventure"
+    ],
+    "directors": [
+      "Phil Abraham",
+      "Stephen Surjik",
+      "Peter Hoar",
+      "Ken Girotti",
+      "Alex Garcia Lopez",
+      "Marc Jobst",
+      "Euros Lyn",
+      "Farren Blackburn",
+      "Jennifer Getzinger",
+      "Michael Uppendahl",
+      "Alex Zakrzewski",
+      "Lukas Ettlin",
+      "Sam Miller",
+      "Nelson McCormick",
+      "Steven S. DeKnight",
+      "Julian Holmes",
+      "Toa Fraser",
+      "Andy Goddard",
+      "Adam Kane",
+      "Jet Wilkinson",
+      "Guy Ferland",
+      "Floria Sigismondi",
+      "Brad Turner",
+      "Nick Gomez",
+      "Jennifer Lynch"
+    ],
+    "creators": [
+      "Drew Goddard"
     ],
     "season": 3,
     "episode_count": null,
-    "directors": [
-      "Phil Abraham",
-      "Stephen Surjik",
-      "Peter Hoar",
-      "Farren Blackburn",
-      "Ken Girotti",
-      "Marc Jobst",
-      "Euros Lyn",
-      "Alex Garcia Lopez",
-      "Jennifer Lynch",
-      "Nelson McCormick",
-      "Brad Turner",
-      "Steven S. DeKnight",
-      "Sam Miller",
-      "Michael Uppendahl",
-      "Toa Fraser",
-      "Julian Holmes",
-      "Adam Kane",
-      "Floria Sigismondi",
-      "Jennifer Getzinger",
-      "Guy Ferland",
-      "Nick Gomez",
-      "Jet Wilkinson",
-      "Andy Goddard",
-      "Lukas Ettlin",
-      "Alex Zakrzewski"
-    ],
-    "creators": [
-      "Drew Goddard"
-    ]
+    "tmdbId": 61889
   },
   {
-    "title": "Bodyguard",
-    "date": "2018-11-08T00:00:00.000Z",
     "type": "tv",
+    "title": "Bodyguard",
+    "date": "2018-11-08",
     "release_year": 2018,
     "review": {
       "rating": 5,
@@ -238,20 +243,21 @@
       "Drama",
       "War & Politics"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Thomas Vincent",
       "John Strickland"
     ],
     "creators": [
       "Jed Mercurio"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 80307
   },
   {
-    "title": "Atypical",
-    "date": "2019-11-03T00:00:00.000Z",
     "type": "tv",
+    "title": "Atypical",
+    "date": "2019-11-03",
     "release_year": 2017,
     "review": {
       "rating": 4,
@@ -261,39 +267,40 @@
       "Drama",
       "Comedy"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Michael Patrick Jann",
       "Ryan Case",
       "Ken Whittingham",
       "Michael Medico",
-      "Rebecca Asher",
-      "Seth Gordon",
       "Silver Tree",
-      "Joe Kessler",
       "Victor Nelli Jr.",
       "Robia Rashid",
+      "Seth Gordon",
+      "Joe Kessler",
       "Wendey Stanzler",
-      "Tom Magill",
-      "Jennifer Arnold",
-      "Angela C. Tortu",
+      "Rebecca Asher",
       "Pam Thomas",
+      "Annabel Oakes",
+      "Angela C. Tortu",
+      "Geeta Patel",
+      "Pete Chatmon",
       "Heather Jack",
       "Fernando Sariñana",
-      "Annabel Oakes",
-      "Pete Chatmon",
-      "Geeta Patel",
-      "Kevin Rodney Sullivan"
+      "Jennifer Arnold",
+      "Kevin Rodney Sullivan",
+      "Tom Magill"
     ],
     "creators": [
       "Robia Rashid"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 71578
   },
   {
-    "title": "The Witcher",
-    "date": "2019-12-25T00:00:00.000Z",
     "type": "tv",
+    "title": "The Witcher",
+    "date": "2019-12-25",
     "release_year": 2019,
     "review": {
       "rating": 4,
@@ -304,29 +311,30 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Stephen Surjik",
       "Alik Sakharov",
-      "Edward Bazalgette",
-      "Bola Ogun",
-      "Sarah O'Gorman",
       "Charlotte Brändström",
       "Gandja Monteiro",
-      "Loni Peristere",
+      "Sarah O'Gorman",
       "Alex Garcia Lopez",
+      "Loni Peristere",
+      "Edward Bazalgette",
+      "Bola Ogun",
       "Louise Hooper",
       "Marc Jobst"
     ],
     "creators": [
       "Lauren Schmidt Hissrich"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 71912
   },
   {
-    "title": "Westworld",
-    "date": "2020-05-09T00:00:00.000Z",
     "type": "tv",
+    "title": "Westworld",
+    "date": "2020-05-09",
     "release_year": 2016,
     "review": {
       "rating": 3,
@@ -336,40 +344,41 @@
       "Sci-Fi & Fantasy",
       "Western"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Richard J. Lewis",
       "Fred Toye",
       "Jennifer Getzinger",
       "Craig William Macneill",
       "Stephen Williams",
-      "Paul Cameron",
       "Vincenzo Natali",
+      "Paul Cameron",
+      "Nicole Kassell",
       "Lisa Joy",
       "Uta Briesewitz",
-      "Nicole Kassell",
-      "Meera Menon",
-      "Craig Zobel",
-      "Jonny Campbell",
-      "Amanda Marsalis",
-      "Michelle MacLaren",
-      "Neil Marshall",
-      "Tarik Saleh",
-      "Anna Foerster",
       "Andrew Seklir",
+      "Craig Zobel",
       "Hanelle M. Culpepper",
-      "Helen Shaver"
+      "Tarik Saleh",
+      "Jonny Campbell",
+      "Anna Foerster",
+      "Meera Menon",
+      "Amanda Marsalis",
+      "Helen Shaver",
+      "Neil Marshall",
+      "Michelle MacLaren"
     ],
     "creators": [
       "Jonathan Nolan",
       "Lisa Joy"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 63247
   },
   {
-    "title": "Space Force",
-    "date": "2020-06-03T00:00:00.000Z",
     "type": "tv",
+    "title": "Space Force",
+    "date": "2020-06-03",
     "release_year": 2020,
     "review": {
       "rating": 3,
@@ -379,26 +388,27 @@
       "Comedy",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Ken Kwapis",
-      "Dee Rees",
-      "Tom Marshall",
       "Daina Reid",
       "Paul King",
-      "Jeffrey Blitz",
-      "David Rogers"
+      "Dee Rees",
+      "Tom Marshall",
+      "David Rogers",
+      "Jeffrey Blitz"
     ],
     "creators": [
       "Steve Carell",
       "Greg Daniels"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 85922
   },
   {
-    "title": "Atypical",
-    "date": "2021-07-20T00:00:00.000Z",
     "type": "tv",
+    "title": "Atypical",
+    "date": "2021-07-20",
     "release_year": 2017,
     "review": {
       "rating": 3,
@@ -408,39 +418,40 @@
       "Drama",
       "Comedy"
     ],
-    "season": 4,
-    "episode_count": null,
     "directors": [
       "Michael Patrick Jann",
       "Ryan Case",
       "Ken Whittingham",
       "Michael Medico",
-      "Rebecca Asher",
-      "Seth Gordon",
       "Silver Tree",
-      "Joe Kessler",
       "Victor Nelli Jr.",
       "Robia Rashid",
+      "Seth Gordon",
+      "Joe Kessler",
       "Wendey Stanzler",
-      "Tom Magill",
-      "Jennifer Arnold",
-      "Angela C. Tortu",
+      "Rebecca Asher",
       "Pam Thomas",
+      "Annabel Oakes",
+      "Angela C. Tortu",
+      "Geeta Patel",
+      "Pete Chatmon",
       "Heather Jack",
       "Fernando Sariñana",
-      "Annabel Oakes",
-      "Pete Chatmon",
-      "Geeta Patel",
-      "Kevin Rodney Sullivan"
+      "Jennifer Arnold",
+      "Kevin Rodney Sullivan",
+      "Tom Magill"
     ],
     "creators": [
       "Robia Rashid"
-    ]
+    ],
+    "season": 4,
+    "episode_count": null,
+    "tmdbId": 71578
   },
   {
-    "title": "Rick and Morty",
-    "date": "2021-08-09T00:00:00.000Z",
     "type": "tv",
+    "title": "Rick and Morty",
+    "date": "2021-08-09",
     "release_year": 2013,
     "review": {
       "rating": 4,
@@ -452,8 +463,6 @@
       "Sci-Fi & Fantasy",
       "Action & Adventure"
     ],
-    "season": 5,
-    "episode_count": null,
     "directors": [
       "Wes Archer",
       "Jacob Hair",
@@ -468,19 +477,22 @@
       "Stephen Sandoval",
       "Douglas Einar Olsen",
       "Jeff Myers",
-      "Fill Marc Sagadraca",
       "Justin Roiland",
-      "Eugene Huang"
+      "Eugene Huang",
+      "Fill Marc Sagadraca"
     ],
     "creators": [
       "Justin Roiland",
       "Dan Harmon"
-    ]
+    ],
+    "season": 5,
+    "episode_count": null,
+    "tmdbId": 60625
   },
   {
-    "title": "Sex Education",
-    "date": "2021-10-13T00:00:00.000Z",
     "type": "tv",
+    "title": "Sex Education",
+    "date": "2021-10-13",
     "release_year": 2019,
     "review": {
       "rating": 4,
@@ -490,24 +502,25 @@
       "Comedy",
       "Drama"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Ben Taylor",
-      "Runyararo Mapfumo",
       "Kate Herron",
-      "Sophie Goodhart",
+      "Runyararo Mapfumo",
       "Alice Seabright",
+      "Sophie Goodhart",
       "Dominic Leclerc"
     ],
     "creators": [
       "Laurie Nunn"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 81356
   },
   {
-    "title": "Hawkeye",
-    "date": "2021-12-22T00:00:00.000Z",
     "type": "tv",
+    "title": "Hawkeye",
+    "date": "2021-12-22",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -518,8 +531,6 @@
       "Comedy",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Rhys Thomas",
       "Bertie",
@@ -527,12 +538,15 @@
     ],
     "creators": [
       "Jonathan Igla"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 88329
   },
   {
-    "title": "The Witcher",
-    "date": "2022-01-09T00:00:00.000Z",
     "type": "tv",
+    "title": "The Witcher",
+    "date": "2022-01-09",
     "release_year": 2019,
     "review": {
       "rating": 4,
@@ -543,29 +557,30 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Stephen Surjik",
       "Alik Sakharov",
-      "Edward Bazalgette",
-      "Bola Ogun",
-      "Sarah O'Gorman",
       "Charlotte Brändström",
       "Gandja Monteiro",
-      "Loni Peristere",
+      "Sarah O'Gorman",
       "Alex Garcia Lopez",
+      "Loni Peristere",
+      "Edward Bazalgette",
+      "Bola Ogun",
       "Louise Hooper",
       "Marc Jobst"
     ],
     "creators": [
       "Lauren Schmidt Hissrich"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 71912
   },
   {
-    "title": "Dexter: New Blood",
-    "date": "2022-01-11T00:00:00.000Z",
     "type": "tv",
+    "title": "Dexter: New Blood",
+    "date": "2022-01-11",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -575,20 +590,21 @@
       "Drama",
       "Crime"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Marcos Siega",
       "Sanford Bookstaver"
     ],
     "creators": [
       "Clyde Phillips"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 131927
   },
   {
-    "title": "The Book of Boba Fett",
-    "date": "2022-02-11T00:00:00.000Z",
     "type": "tv",
+    "title": "The Book of Boba Fett",
+    "date": "2022-02-11",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -598,23 +614,24 @@
       "Action & Adventure",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Robert Rodriguez",
-      "Steph Green",
       "Dave Filoni",
-      "Bryce Dallas Howard",
-      "Kevin Tancharoen"
+      "Kevin Tancharoen",
+      "Steph Green",
+      "Bryce Dallas Howard"
     ],
     "creators": [
       "Jon Favreau"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 115036
   },
   {
-    "title": "Peacemaker",
-    "date": "2022-02-18T00:00:00.000Z",
     "type": "tv",
+    "title": "Peacemaker",
+    "date": "2022-02-18",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -625,22 +642,23 @@
       "Sci-Fi & Fantasy",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "James Gunn",
-      "Rosemary Rodriguez",
       "Brad Anderson",
+      "Rosemary Rodriguez",
       "Jody Hill"
     ],
     "creators": [
       "James Gunn"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 110492
   },
   {
-    "title": "Euphoria",
-    "date": "2022-03-02T00:00:00.000Z",
     "type": "tv",
+    "title": "Euphoria",
+    "date": "2022-03-02",
     "release_year": 2019,
     "review": {
       "rating": 5,
@@ -649,22 +667,23 @@
     "genres": [
       "Drama"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Sam Levinson",
-      "Augustine Frizzell",
       "Pippa Bianco",
-      "Jennifer Morrison"
+      "Jennifer Morrison",
+      "Augustine Frizzell"
     ],
     "creators": [
       "Sam Levinson"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 85552
   },
   {
-    "title": "Reacher",
-    "date": "2022-03-03T00:00:00.000Z",
     "type": "tv",
+    "title": "Reacher",
+    "date": "2022-03-03",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -675,53 +694,55 @@
       "Crime",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
-      "Sam Hill",
       "Omar Madha",
-      "Julian Holmes",
+      "Sam Hill",
       "Carol Banker",
-      "Thomas Vincent",
-      "Christine Moore",
+      "Julian Holmes",
       "Lin Oeding",
+      "Thomas Vincent",
       "Stephen Surjik",
+      "M.J. Bassett",
       "Norberto Barba",
-      "M.J. Bassett"
+      "Christine Moore"
     ],
     "creators": [
       "Nick Santora"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 108978
   },
   {
-    "title": "Dopesick",
-    "date": "2022-04-10T00:00:00.000Z",
     "type": "tv",
+    "title": "Dopesick",
+    "date": "2022-04-10",
     "release_year": 2021,
     "review": {
       "rating": 5,
       "comment": null
     },
     "genres": [
-      "Drama",
-      "Crime"
+      "Crime",
+      "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Danny Strong",
-      "Michael Cuesta",
+      "Patricia Riggen",
       "Barry Levinson",
-      "Patricia Riggen"
+      "Michael Cuesta"
     ],
     "creators": [
       "Danny Strong"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 110695
   },
   {
-    "title": "Moon Knight",
-    "date": "2022-05-04T00:00:00.000Z",
     "type": "tv",
+    "title": "Moon Knight",
+    "date": "2022-05-04",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -732,8 +753,6 @@
       "Sci-Fi & Fantasy",
       "Mystery"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Mohamed Diab",
       "Justin Benson",
@@ -741,12 +760,15 @@
     ],
     "creators": [
       "Jeremy Slater"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 92749
   },
   {
-    "title": "Maid",
-    "date": "2022-05-09T00:00:00.000Z",
     "type": "tv",
+    "title": "Maid",
+    "date": "2022-05-09",
     "release_year": 2021,
     "review": {
       "rating": 5,
@@ -755,23 +777,24 @@
     "genres": [
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "John Wells",
-      "Nzingha Stewart",
       "Helen Shaver",
-      "Quyen Tran",
-      "Lila Neugebauer"
+      "Nzingha Stewart",
+      "Lila Neugebauer",
+      "Quyen Tran"
     ],
     "creators": [
       "Molly Smith Metzler"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 111141
   },
   {
-    "title": "Severance",
-    "date": "2022-05-28T00:00:00.000Z",
     "type": "tv",
+    "title": "Severance",
+    "date": "2022-05-28",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -782,8 +805,6 @@
       "Mystery",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Ben Stiller",
       "Aoife McArdle",
@@ -791,12 +812,15 @@
     ],
     "creators": [
       "Dan Erickson"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 95396
   },
   {
-    "title": "Clark",
-    "date": "2022-05-28T00:00:00.000Z",
     "type": "tv",
+    "title": "Clark",
+    "date": "2022-05-28",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -806,19 +830,20 @@
       "Crime",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Jonas Åkerlund"
     ],
     "creators": [
       "Jonas Åkerlund"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 157008
   },
   {
-    "title": "The Dropout",
-    "date": "2022-05-28T00:00:00.000Z",
     "type": "tv",
+    "title": "The Dropout",
+    "date": "2022-05-28",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -827,8 +852,6 @@
     "genres": [
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Michael Showalter",
       "Francesca Gregorini",
@@ -836,12 +859,15 @@
     ],
     "creators": [
       "Elizabeth Meriwether"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 122066
   },
   {
-    "title": "Atlanta",
-    "date": "2022-06-17T00:00:00.000Z",
     "type": "tv",
+    "title": "Atlanta",
+    "date": "2022-06-17",
     "release_year": 2016,
     "review": {
       "rating": 5,
@@ -851,25 +877,26 @@
       "Comedy",
       "Drama"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Hiro Murai",
       "Donald Glover",
       "Amy Seimetz",
+      "Janicza Bravo",
       "Adamma Ebo",
-      "Ibra Ake",
       "Angela Barnes",
-      "Janicza Bravo"
+      "Ibra Ake"
     ],
     "creators": [
       "Donald Glover"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 65495
   },
   {
-    "title": "Obi-Wan Kenobi",
-    "date": "2022-06-22T00:00:00.000Z",
     "type": "tv",
+    "title": "Obi-Wan Kenobi",
+    "date": "2022-06-22",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -877,19 +904,21 @@
     },
     "genres": [
       "Sci-Fi & Fantasy",
-      "Action & Adventure"
+      "Action & Adventure",
+      "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Deborah Chow"
     ],
-    "creators": []
+    "creators": [],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 92830
   },
   {
-    "title": "Ms. Marvel",
-    "date": "2022-07-14T00:00:00.000Z",
     "type": "tv",
+    "title": "Ms. Marvel",
+    "date": "2022-07-14",
     "release_year": 2022,
     "review": {
       "rating": 1,
@@ -900,22 +929,23 @@
       "Action & Adventure",
       "Comedy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
-      "Bilall Fallah",
-      "Meera Menon",
       "Adil El Arbi",
-      "Sharmeen Obaid-Chinoy"
+      "Sharmeen Obaid-Chinoy",
+      "Bilall Fallah",
+      "Meera Menon"
     ],
     "creators": [
       "Bisha K. Ali"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 92782
   },
   {
-    "title": "The Boys",
-    "date": "2022-07-22T00:00:00.000Z",
     "type": "tv",
+    "title": "The Boys",
+    "date": "2022-07-22",
     "release_year": 2019,
     "review": {
       "rating": 4,
@@ -924,38 +954,39 @@
     "genres": [
       "Sci-Fi & Fantasy",
       "Action & Adventure"
+    ],
+    "directors": [
+      "Philip Sgriccia",
+      "Fred Toye",
+      "Karen Gaviola",
+      "Sarah Boyd",
+      "Eric Kripke",
+      "Nelson Cragg",
+      "Julian Holmes",
+      "Stefan Schwartz",
+      "Daniel Attias",
+      "Dan Trachtenberg",
+      "Catriona McKenzie",
+      "Shana Stein",
+      "Liz Friedlander",
+      "Batan Silva",
+      "Sarah Boyd",
+      "Steve Boyum",
+      "Alex Graves",
+      "Matt Shakman",
+      "Jennifer Phang"
+    ],
+    "creators": [
+      "Eric Kripke"
     ],
     "season": 2,
     "episode_count": null,
-    "directors": [
-      "Philip Sgriccia",
-      "Fred Toye",
-      "Stefan Schwartz",
-      "Sarah Boyd",
-      "Nelson Cragg",
-      "Karen Gaviola",
-      "Julian Holmes",
-      "Eric Kripke",
-      "Alex Graves",
-      "Shana Stein",
-      "Jennifer Phang",
-      "Sarah Boyd",
-      "Matt Shakman",
-      "Liz Friedlander",
-      "Catriona McKenzie",
-      "Batan Silva",
-      "Steve Boyum",
-      "Dan Trachtenberg",
-      "Daniel Attias"
-    ],
-    "creators": [
-      "Eric Kripke"
-    ]
+    "tmdbId": 76479
   },
   {
-    "title": "The Boys",
-    "date": "2022-07-31T00:00:00.000Z",
     "type": "tv",
+    "title": "The Boys",
+    "date": "2022-07-31",
     "release_year": 2019,
     "review": {
       "rating": 4,
@@ -965,37 +996,38 @@
       "Sci-Fi & Fantasy",
       "Action & Adventure"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Philip Sgriccia",
       "Fred Toye",
-      "Stefan Schwartz",
-      "Sarah Boyd",
-      "Nelson Cragg",
       "Karen Gaviola",
-      "Julian Holmes",
-      "Eric Kripke",
-      "Alex Graves",
-      "Shana Stein",
-      "Jennifer Phang",
       "Sarah Boyd",
-      "Matt Shakman",
-      "Liz Friedlander",
-      "Catriona McKenzie",
-      "Batan Silva",
-      "Steve Boyum",
+      "Eric Kripke",
+      "Nelson Cragg",
+      "Julian Holmes",
+      "Stefan Schwartz",
+      "Daniel Attias",
       "Dan Trachtenberg",
-      "Daniel Attias"
+      "Catriona McKenzie",
+      "Shana Stein",
+      "Liz Friedlander",
+      "Batan Silva",
+      "Sarah Boyd",
+      "Steve Boyum",
+      "Alex Graves",
+      "Matt Shakman",
+      "Jennifer Phang"
     ],
     "creators": [
       "Eric Kripke"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 76479
   },
   {
-    "title": "Better Call Saul",
-    "date": "2022-08-18T00:00:00.000Z",
     "type": "tv",
+    "title": "Better Call Saul",
+    "date": "2022-08-18",
     "release_year": 2015,
     "review": {
       "rating": 5,
@@ -1005,44 +1037,45 @@
       "Crime",
       "Drama"
     ],
-    "season": 6,
-    "episode_count": null,
     "directors": [
       "Vince Gilligan",
       "Thomas Schnauz",
       "Peter Gould",
       "Michael Morris",
       "Adam Bernstein",
+      "Colin Bucksey",
       "John Shiban",
       "Michelle MacLaren",
-      "Colin Bucksey",
-      "Melissa Bernstein",
       "Terry McDonough",
-      "Gordon Smith",
       "Larysa Kondracki",
       "Minkie Spiro",
       "Daniel Sackheim",
+      "Melissa Bernstein",
+      "Gordon Smith",
       "Jim McKay",
-      "Bronwen Hughes",
-      "Andrew Stanton",
       "Rhea Seehorn",
+      "Bronwen Hughes",
       "Nicole Kassell",
-      "Scott Winant",
-      "Giancarlo Esposito",
       "Keith Gordon",
-      "Michael Slovis",
       "Norberto Barba",
-      "Deborah Chow"
+      "Deborah Chow",
+      "Scott Winant",
+      "Andrew Stanton",
+      "Michael Slovis",
+      "Giancarlo Esposito"
     ],
     "creators": [
       "Peter Gould",
       "Vince Gilligan"
-    ]
+    ],
+    "season": 6,
+    "episode_count": null,
+    "tmdbId": 60059
   },
   {
-    "title": "The Bear",
-    "date": "2022-09-27T00:00:00.000Z",
     "type": "tv",
+    "title": "The Bear",
+    "date": "2022-09-27",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1052,23 +1085,24 @@
       "Drama",
       "Comedy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Duccio Fabbri",
       "Christopher Storer",
       "Joanna Calo",
-      "Ayo Edebiri",
-      "Ramy Youssef"
+      "Ramy Youssef",
+      "Ayo Edebiri"
     ],
     "creators": [
       "Christopher Storer"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 136315
   },
   {
-    "title": "She-Hulk: Attorney at Law",
-    "date": "2022-10-13T00:00:00.000Z",
     "type": "tv",
+    "title": "She-Hulk: Attorney at Law",
+    "date": "2022-10-13",
     "release_year": 2022,
     "review": {
       "rating": 2,
@@ -1078,20 +1112,21 @@
       "Comedy",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Kat Coiro",
       "Anu Valia"
     ],
     "creators": [
       "Jessica Gao"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 92783
   },
   {
-    "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
-    "date": "2022-10-15T00:00:00.000Z",
     "type": "tv",
+    "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
+    "date": "2022-10-15",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -1101,24 +1136,25 @@
       "Crime",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Jennifer Lynch",
-      "Paris Barclay",
       "Clement Virgo",
+      "Paris Barclay",
       "Gregg Araki",
       "Carl Franklin"
     ],
     "creators": [
       "Ryan Murphy",
       "Ian Brennan"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 113988
   },
   {
-    "title": "House of the Dragon",
-    "date": "2022-10-24T00:00:00.000Z",
     "type": "tv",
+    "title": "House of the Dragon",
+    "date": "2022-10-24",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1129,13 +1165,11 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Clare Kilner",
+      "Geeta Patel",
       "Miguel Sapochnik",
       "Greg Yaitanes",
-      "Geeta Patel",
       "Alan Taylor",
       "Andrij Parekh",
       "Loni Peristere"
@@ -1143,12 +1177,15 @@
     "creators": [
       "George R. R. Martin",
       "Ryan Condal"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 94997
   },
   {
-    "title": "Black Bird",
-    "date": "2022-12-06T00:00:00.000Z",
     "type": "tv",
+    "title": "Black Bird",
+    "date": "2022-12-06",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1158,8 +1195,6 @@
       "Drama",
       "Crime"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Michaël R. Roskam",
       "Joe Chappelle",
@@ -1167,12 +1202,15 @@
     ],
     "creators": [
       "Dennis Lehane"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 155537
   },
   {
-    "title": "Andor",
-    "date": "2023-01-01T00:00:00.000Z",
     "type": "tv",
+    "title": "Star Wars: Andor",
+    "date": "2023-01-01",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -1183,21 +1221,22 @@
       "Action & Adventure",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Toby Haynes",
-      "Susanna White",
-      "Benjamin Caron"
+      "Benjamin Caron",
+      "Susanna White"
     ],
     "creators": [
       "Tony Gilroy"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 83867
   },
   {
-    "title": "The Legend of Vox Machina",
-    "date": "2023-01-27T00:00:00.000Z",
     "type": "tv",
+    "title": "The Legend of Vox Machina",
+    "date": "2023-01-27",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1207,22 +1246,23 @@
       "Animation",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
-      "Alicia Chan",
       "Young Heller",
+      "Alicia Chan",
       "Stanley Von Medvey",
       "Eugene Lee"
     ],
     "creators": [
       "Chris Prynoski"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 135934
   },
   {
-    "title": "The Legend of Vox Machina",
-    "date": "2023-02-10T00:00:00.000Z",
     "type": "tv",
+    "title": "The Legend of Vox Machina",
+    "date": "2023-02-10",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1232,22 +1272,23 @@
       "Animation",
       "Sci-Fi & Fantasy"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
-      "Alicia Chan",
       "Young Heller",
+      "Alicia Chan",
       "Stanley Von Medvey",
       "Eugene Lee"
     ],
     "creators": [
       "Chris Prynoski"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 135934
   },
   {
-    "title": "The Last of Us",
-    "date": "2023-03-14T00:00:00.000Z",
     "type": "tv",
+    "title": "The Last of Us",
+    "date": "2023-03-14",
     "release_year": 2023,
     "review": {
       "rating": 5,
@@ -1256,26 +1297,28 @@
     "genres": [
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Jeremy Webb",
+      "Mark Mylod",
       "Ali Abbasi",
+      "Jasmila Žbanić",
       "Peter Hoar",
-      "Liza Johnson",
       "Neil Druckmann",
       "Craig Mazin",
-      "Jasmila Žbanić"
+      "Liza Johnson"
     ],
     "creators": [
       "Craig Mazin",
       "Neil Druckmann"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 100088
   },
   {
-    "title": "BEEF",
-    "date": "2023-05-22T00:00:00.000Z",
     "type": "tv",
+    "title": "BEEF",
+    "date": "2023-05-22",
     "release_year": 2023,
     "review": {
       "rating": 5,
@@ -1285,17 +1328,18 @@
       "Comedy",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [],
     "creators": [
       "Lee Sung-jin"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 154385
   },
   {
-    "title": "Silo",
-    "date": "2023-06-30T00:00:00.000Z",
     "type": "tv",
+    "title": "Silo",
+    "date": "2023-06-30",
     "release_year": 2023,
     "review": {
       "rating": 5,
@@ -1305,23 +1349,24 @@
       "Sci-Fi & Fantasy",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
-      "Morten Tyldum",
       "Adam Bernstein",
-      "Bertie",
+      "Morten Tyldum",
       "Bert",
-      "David Semel"
+      "David Semel",
+      "Bertie"
     ],
     "creators": [
       "Graham Yost"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 125988
   },
   {
-    "title": "Barry",
-    "date": "2023-07-11T00:00:00.000Z",
     "type": "tv",
+    "title": "Barry",
+    "date": "2023-07-11",
     "release_year": 2018,
     "review": {
       "rating": 4,
@@ -1332,25 +1377,26 @@
       "Crime",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Bill Hader",
       "Alec Berg",
       "Hiro Murai",
+      "Maggie Carey",
       "Minkie Spiro",
-      "Liza Johnson",
-      "Maggie Carey"
+      "Liza Johnson"
     ],
     "creators": [
       "Bill Hader",
       "Alec Berg"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 73107
   },
   {
-    "title": "Barry",
-    "date": "2023-07-22T00:00:00.000Z",
     "type": "tv",
+    "title": "Barry",
+    "date": "2023-07-22",
     "release_year": 2018,
     "review": {
       "rating": 5,
@@ -1361,25 +1407,26 @@
       "Crime",
       "Drama"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Bill Hader",
       "Alec Berg",
       "Hiro Murai",
+      "Maggie Carey",
       "Minkie Spiro",
-      "Liza Johnson",
-      "Maggie Carey"
+      "Liza Johnson"
     ],
     "creators": [
       "Bill Hader",
       "Alec Berg"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 73107
   },
   {
-    "title": "The Bear",
-    "date": "2023-07-24T00:00:00.000Z",
     "type": "tv",
+    "title": "The Bear",
+    "date": "2023-07-24",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1389,23 +1436,24 @@
       "Drama",
       "Comedy"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Duccio Fabbri",
       "Christopher Storer",
       "Joanna Calo",
-      "Ayo Edebiri",
-      "Ramy Youssef"
+      "Ramy Youssef",
+      "Ayo Edebiri"
     ],
     "creators": [
       "Christopher Storer"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 136315
   },
   {
-    "title": "Barry",
-    "date": "2023-07-26T00:00:00.000Z",
     "type": "tv",
+    "title": "Barry",
+    "date": "2023-07-26",
     "release_year": 2018,
     "review": {
       "rating": 5,
@@ -1416,25 +1464,26 @@
       "Crime",
       "Drama"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Bill Hader",
       "Alec Berg",
       "Hiro Murai",
+      "Maggie Carey",
       "Minkie Spiro",
-      "Liza Johnson",
-      "Maggie Carey"
+      "Liza Johnson"
     ],
     "creators": [
       "Bill Hader",
       "Alec Berg"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 73107
   },
   {
-    "title": "Secret Invasion",
-    "date": "2023-07-26T00:00:00.000Z",
     "type": "tv",
+    "title": "Secret Invasion",
+    "date": "2023-07-26",
     "release_year": 2023,
     "review": {
       "rating": 3,
@@ -1445,19 +1494,20 @@
       "Sci-Fi & Fantasy",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Ali Selim"
     ],
     "creators": [
       "Kyle Bradstreet"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 114472
   },
   {
-    "title": "Foundation",
-    "date": "2023-09-19T00:00:00.000Z",
     "type": "tv",
+    "title": "Foundation",
+    "date": "2023-09-19",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -1467,8 +1517,6 @@
       "Sci-Fi & Fantasy",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Alex Graves",
       "Roxann Dawson",
@@ -1480,12 +1528,15 @@
     ],
     "creators": [
       "David S. Goyer"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 93740
   },
   {
-    "title": "Succession",
-    "date": "2023-09-29T00:00:00.000Z",
     "type": "tv",
+    "title": "Succession",
+    "date": "2023-09-29",
     "release_year": 2018,
     "review": {
       "rating": 5,
@@ -1495,31 +1546,32 @@
       "Drama",
       "Comedy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Mark Mylod",
       "Andrij Parekh",
+      "Shari Springer Berman",
       "Robert Pulcini",
       "Lorene Scafaria",
-      "Shari Springer Berman",
+      "Adam Arkin",
       "Becky Martin",
       "Kevin Bray",
-      "Adam Arkin",
-      "Cathy Yan",
       "Adam McKay",
       "S.J. Clarkson",
+      "Cathy Yan",
       "Miguel Arteta",
       "Matt Shakman"
     ],
     "creators": [
       "Jesse Armstrong"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 76331
   },
   {
-    "title": "Barry",
-    "date": "2023-09-30T00:00:00.000Z",
     "type": "tv",
+    "title": "Barry",
+    "date": "2023-09-30",
     "release_year": 2018,
     "review": {
       "rating": 5,
@@ -1530,25 +1582,26 @@
       "Crime",
       "Drama"
     ],
-    "season": 4,
-    "episode_count": null,
     "directors": [
       "Bill Hader",
       "Alec Berg",
       "Hiro Murai",
+      "Maggie Carey",
       "Minkie Spiro",
-      "Liza Johnson",
-      "Maggie Carey"
+      "Liza Johnson"
     ],
     "creators": [
       "Bill Hader",
       "Alec Berg"
-    ]
+    ],
+    "season": 4,
+    "episode_count": null,
+    "tmdbId": 73107
   },
   {
-    "title": "Ahsoka",
-    "date": "2023-10-04T00:00:00.000Z",
     "type": "tv",
+    "title": "Ahsoka",
+    "date": "2023-10-04",
     "release_year": 2023,
     "review": {
       "rating": 4,
@@ -1558,24 +1611,25 @@
       "Sci-Fi & Fantasy",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
-      "Dave Filoni",
       "Steph Green",
+      "Dave Filoni",
       "Jennifer Getzinger",
-      "Rick Famuyiwa",
       "Geeta Patel",
-      "Peter Ramsey"
+      "Peter Ramsey",
+      "Rick Famuyiwa"
     ],
     "creators": [
       "Dave Filoni"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 114461
   },
   {
-    "title": "Succession",
-    "date": "2023-10-12T00:00:00.000Z",
     "type": "tv",
+    "title": "Succession",
+    "date": "2023-10-12",
     "release_year": 2018,
     "review": {
       "rating": 4,
@@ -1585,31 +1639,32 @@
       "Drama",
       "Comedy"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Mark Mylod",
       "Andrij Parekh",
+      "Shari Springer Berman",
       "Robert Pulcini",
       "Lorene Scafaria",
-      "Shari Springer Berman",
+      "Adam Arkin",
       "Becky Martin",
       "Kevin Bray",
-      "Adam Arkin",
-      "Cathy Yan",
       "Adam McKay",
       "S.J. Clarkson",
+      "Cathy Yan",
       "Miguel Arteta",
       "Matt Shakman"
     ],
     "creators": [
       "Jesse Armstrong"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 76331
   },
   {
-    "title": "Succession",
-    "date": "2023-11-02T00:00:00.000Z",
     "type": "tv",
+    "title": "Succession",
+    "date": "2023-11-02",
     "release_year": 2018,
     "review": {
       "rating": 4,
@@ -1619,31 +1674,32 @@
       "Drama",
       "Comedy"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Mark Mylod",
       "Andrij Parekh",
+      "Shari Springer Berman",
       "Robert Pulcini",
       "Lorene Scafaria",
-      "Shari Springer Berman",
+      "Adam Arkin",
       "Becky Martin",
       "Kevin Bray",
-      "Adam Arkin",
-      "Cathy Yan",
       "Adam McKay",
       "S.J. Clarkson",
+      "Cathy Yan",
       "Miguel Arteta",
       "Matt Shakman"
     ],
     "creators": [
       "Jesse Armstrong"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 76331
   },
   {
-    "title": "Gen V",
-    "date": "2023-11-09T00:00:00.000Z",
     "type": "tv",
+    "title": "Gen V",
+    "date": "2023-11-09",
     "release_year": 2023,
     "review": {
       "rating": 4,
@@ -1654,27 +1710,28 @@
       "Drama",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Nelson Cragg",
-      "Clare Kilner",
-      "Rachel Goldberg",
-      "Shana Stein",
       "Sanaa Hamri",
+      "Rachel Goldberg",
       "Philip Sgriccia",
-      "Steve Boyum"
+      "Steve Boyum",
+      "Shana Stein",
+      "Clare Kilner"
     ],
     "creators": [
       "Evan Goldberg",
       "Eric Kripke",
       "Craig Rosenberg"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 205715
   },
   {
-    "title": "Loki",
-    "date": "2023-11-11T00:00:00.000Z",
     "type": "tv",
+    "title": "Loki",
+    "date": "2023-11-11",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -1684,23 +1741,24 @@
       "Drama",
       "Sci-Fi & Fantasy"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Kate Herron",
       "Aaron Moorhead",
       "Justin Benson",
-      "Kasra Farahani",
-      "Dan DeLeeuw"
+      "Dan DeLeeuw",
+      "Kasra Farahani"
     ],
     "creators": [
       "Michael Waldron"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 84958
   },
   {
-    "title": "Scavengers Reign",
-    "date": "2023-11-22T00:00:00.000Z",
     "type": "tv",
+    "title": "Scavengers Reign",
+    "date": "2023-11-22",
     "release_year": 2023,
     "review": {
       "rating": 5,
@@ -1711,26 +1769,27 @@
       "Drama",
       "Animation"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Vincent Tsui",
-      "Jonathan Djob Nkondo",
       "Rachel Reid",
-      "Christine Jie-Eun Shin",
       "Diego Porral",
+      "Jonathan Djob Nkondo",
+      "Christine Jie-Eun Shin",
       "Charles Huettner",
       "Joseph Bennett"
     ],
     "creators": [
       "Charles Huettner",
       "Joseph Bennett"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 204154
   },
   {
-    "title": "What If...?",
-    "date": "2024-01-07T00:00:00.000Z",
     "type": "tv",
+    "title": "What If...?",
+    "date": "2024-01-07",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -1741,18 +1800,19 @@
       "Action & Adventure",
       "Sci-Fi & Fantasy"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Bryan Andrews",
       "Stephan Franck"
     ],
-    "creators": []
+    "creators": [],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 91363
   },
   {
-    "title": "Echo",
-    "date": "2024-01-14T00:00:00.000Z",
     "type": "tv",
+    "title": "Echo",
+    "date": "2024-01-14",
     "release_year": 2024,
     "review": {
       "rating": 4,
@@ -1763,18 +1823,19 @@
       "Crime",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Sydney Freeland",
       "Catriona McKenzie"
     ],
-    "creators": []
+    "creators": [],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 122226
   },
   {
-    "title": "Reacher",
-    "date": "2024-01-21T00:00:00.000Z",
     "type": "tv",
+    "title": "Reacher",
+    "date": "2024-01-21",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -1785,28 +1846,29 @@
       "Crime",
       "Drama"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
-      "Sam Hill",
       "Omar Madha",
-      "Julian Holmes",
+      "Sam Hill",
       "Carol Banker",
-      "Thomas Vincent",
-      "Christine Moore",
+      "Julian Holmes",
       "Lin Oeding",
+      "Thomas Vincent",
       "Stephen Surjik",
+      "M.J. Bassett",
       "Norberto Barba",
-      "M.J. Bassett"
+      "Christine Moore"
     ],
     "creators": [
       "Nick Santora"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 108978
   },
   {
-    "title": "The Gentlemen",
-    "date": "2024-03-15T00:00:00.000Z",
     "type": "tv",
+    "title": "The Gentlemen",
+    "date": "2024-03-15",
     "release_year": 2024,
     "review": {
       "rating": 5,
@@ -1817,22 +1879,23 @@
       "Drama",
       "Crime"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
-      "Eran Creevy",
-      "Guy Ritchie",
+      "David Caffrey",
       "Nima Nourizadeh",
-      "David Caffrey"
+      "Guy Ritchie",
+      "Eran Creevy"
     ],
     "creators": [
       "Guy Ritchie"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 236235
   },
   {
-    "title": "Pantheon",
-    "date": "2024-03-30T00:00:00.000Z",
     "type": "tv",
+    "title": "Pantheon",
+    "date": "2024-03-30",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -1842,25 +1905,26 @@
       "Animation",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Melchior Zwyer",
       "Juno John Lee",
       "Ed Tadem",
+      "Mari Yang",
       "David Dwooman Woo",
       "Micah Gunnell",
-      "Mari Yang",
       "Jae Kim"
     ],
     "creators": [
       "Craig Silverstein"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 195339
   },
   {
-    "title": "Tokyo Vice",
-    "date": "2024-04-03T00:00:00.000Z",
     "type": "tv",
+    "title": "Tokyo Vice",
+    "date": "2024-04-03",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1870,22 +1934,23 @@
       "Crime",
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Josef Kubota Wladyka",
-      "Hikari",
       "Alan Poul",
+      "Hikari",
       "Michael Mann"
     ],
     "creators": [
       "J.T. Rogers"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 90296
   },
   {
-    "title": "INVINCIBLE",
-    "date": "2024-04-04T00:00:00.000Z",
     "type": "tv",
+    "title": "INVINCIBLE",
+    "date": "2024-04-04",
     "release_year": 2021,
     "review": {
       "rating": 5,
@@ -1897,28 +1962,29 @@
       "Action & Adventure",
       "Drama"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Sol Choi",
+      "Tanner Johnson",
       "Paul Furminger",
       "Ian Abando",
-      "Tanner Johnson",
-      "Jay Baker",
-      "Jason Zurek",
-      "William Ruzicka",
-      "Robert Valley",
-      "Jeff Allen",
       "Vinton Heuck",
-      "Haylee Herrick",
-      "Cory Evans"
+      "Robert Valley",
+      "Jason Zurek",
+      "Jay Baker",
+      "William Ruzicka",
+      "Cory Evans",
+      "Jeff Allen",
+      "Haylee Herrick"
     ],
-    "creators": []
+    "creators": [],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 95557
   },
   {
-    "title": "Fallout",
-    "date": "2024-04-13T00:00:00.000Z",
     "type": "tv",
+    "title": "Fallout",
+    "date": "2024-04-13",
     "release_year": 2024,
     "review": {
       "rating": 5,
@@ -1927,26 +1993,27 @@
     "genres": [
       "Sci-Fi & Fantasy",
       "Action & Adventure",
-      "Mystery"
+      "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Jonathan Nolan",
       "Clare Kilner",
       "Fred Toye",
-      "Daniel Gray Longino",
-      "Wayne Che Yip"
+      "Wayne Che Yip",
+      "Daniel Gray Longino"
     ],
     "creators": [
       "Geneva Robertson-Dworet",
       "Graham Wagner"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 106379
   },
   {
-    "title": "Tokyo Vice",
-    "date": "2024-04-18T00:00:00.000Z",
     "type": "tv",
+    "title": "Tokyo Vice",
+    "date": "2024-04-18",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -1956,22 +2023,23 @@
       "Crime",
       "Drama"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
       "Josef Kubota Wladyka",
-      "Hikari",
       "Alan Poul",
+      "Hikari",
       "Michael Mann"
     ],
     "creators": [
       "J.T. Rogers"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 90296
   },
   {
-    "title": "Shogun",
-    "date": "2024-04-27T00:00:00.000Z",
     "type": "tv",
+    "title": "Shōgun",
+    "date": "2024-04-27",
     "release_year": 2024,
     "review": {
       "rating": 5,
@@ -1981,25 +2049,26 @@
       "Drama",
       "War & Politics"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Fred Toye",
       "Jonathan van Tulleken",
-      "Hiromi Kamata",
-      "Takeshi Fukunaga",
       "Charlotte Brändström",
-      "Emmanuel Osei-Kuffour, Jr."
+      "Emmanuel Osei-Kuffour, Jr.",
+      "Takeshi Fukunaga",
+      "Hiromi Kamata"
     ],
     "creators": [
       "Justin Marks",
       "Rachel Kondo"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 126308
   },
   {
-    "title": "Baby Reindeer",
-    "date": "2024-05-05T00:00:00.000Z",
     "type": "tv",
+    "title": "Baby Reindeer",
+    "date": "2024-05-05",
     "release_year": 2024,
     "review": {
       "rating": 4,
@@ -2008,20 +2077,21 @@
     "genres": [
       "Drama"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Weronika Tofilska",
       "Josephine Bornebusch"
     ],
     "creators": [
       "Richard Gadd"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 241259
   },
   {
-    "title": "X-Men '97",
-    "date": "2024-05-15T00:00:00.000Z",
     "type": "tv",
+    "title": "X-Men '97",
+    "date": "2024-05-15",
     "release_year": 2024,
     "review": {
       "rating": 5,
@@ -2032,19 +2102,20 @@
       "Action & Adventure",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Chase Conley",
       "Emi Yonemura",
       "Jake Castorena"
     ],
-    "creators": []
+    "creators": [],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 138502
   },
   {
-    "title": "Hvite gutter",
-    "date": "2024-05-24T00:00:00.000Z",
     "type": "tv",
+    "title": "White Boys",
+    "date": "2024-05-24",
     "release_year": 2018,
     "review": {
       "rating": 4,
@@ -2053,15 +2124,16 @@
     "genres": [
       "Comedy"
     ],
+    "directors": [],
+    "creators": [],
     "season": 7,
     "episode_count": null,
-    "directors": [],
-    "creators": []
+    "tmdbId": 76361
   },
   {
-    "title": "Clarkson's Farm",
-    "date": "2024-06-19T00:00:00.000Z",
     "type": "tv",
+    "title": "Clarkson's Farm",
+    "date": "2024-06-19",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -2071,19 +2143,20 @@
       "Reality",
       "Comedy"
     ],
+    "directors": [
+      "Kit Lynch-Robinson",
+      "Will Yapp",
+      "Gavin Whitehead"
+    ],
+    "creators": [],
     "season": 1,
     "episode_count": null,
-    "directors": [
-      "Kit Lynch-Robinson",
-      "Will Yapp",
-      "Gavin Whitehead"
-    ],
-    "creators": []
+    "tmdbId": 117648
   },
   {
-    "title": "Clarkson's Farm",
-    "date": "2024-06-21T00:00:00.000Z",
     "type": "tv",
+    "title": "Clarkson's Farm",
+    "date": "2024-06-21",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -2093,19 +2166,20 @@
       "Reality",
       "Comedy"
     ],
+    "directors": [
+      "Kit Lynch-Robinson",
+      "Will Yapp",
+      "Gavin Whitehead"
+    ],
+    "creators": [],
     "season": 2,
     "episode_count": null,
-    "directors": [
-      "Kit Lynch-Robinson",
-      "Will Yapp",
-      "Gavin Whitehead"
-    ],
-    "creators": []
+    "tmdbId": 117648
   },
   {
-    "title": "Clarkson's Farm",
-    "date": "2024-06-25T00:00:00.000Z",
     "type": "tv",
+    "title": "Clarkson's Farm",
+    "date": "2024-06-25",
     "release_year": 2021,
     "review": {
       "rating": 4,
@@ -2115,19 +2189,20 @@
       "Reality",
       "Comedy"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
       "Kit Lynch-Robinson",
       "Will Yapp",
       "Gavin Whitehead"
     ],
-    "creators": []
+    "creators": [],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 117648
   },
   {
-    "title": "The Acolyte",
-    "date": "2024-07-17T00:00:00.000Z",
     "type": "tv",
+    "title": "The Acolyte",
+    "date": "2024-07-17",
     "release_year": 2024,
     "review": {
       "rating": 4,
@@ -2137,8 +2212,6 @@
       "Mystery",
       "Sci-Fi & Fantasy"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
       "Alex Garcia Lopez",
       "Kogonada",
@@ -2147,12 +2220,15 @@
     ],
     "creators": [
       "Leslye Headland"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 114479
   },
   {
-    "title": "The Boys",
-    "date": "2024-07-18T00:00:00.000Z",
     "type": "tv",
+    "title": "The Boys",
+    "date": "2024-07-18",
     "release_year": 2019,
     "review": {
       "rating": 4,
@@ -2162,37 +2238,38 @@
       "Sci-Fi & Fantasy",
       "Action & Adventure"
     ],
-    "season": 4,
-    "episode_count": null,
     "directors": [
       "Philip Sgriccia",
       "Fred Toye",
-      "Stefan Schwartz",
-      "Sarah Boyd",
-      "Nelson Cragg",
       "Karen Gaviola",
-      "Julian Holmes",
-      "Eric Kripke",
-      "Alex Graves",
-      "Shana Stein",
-      "Jennifer Phang",
       "Sarah Boyd",
-      "Matt Shakman",
-      "Liz Friedlander",
-      "Catriona McKenzie",
-      "Batan Silva",
-      "Steve Boyum",
+      "Eric Kripke",
+      "Nelson Cragg",
+      "Julian Holmes",
+      "Stefan Schwartz",
+      "Daniel Attias",
       "Dan Trachtenberg",
-      "Daniel Attias"
+      "Catriona McKenzie",
+      "Shana Stein",
+      "Liz Friedlander",
+      "Batan Silva",
+      "Sarah Boyd",
+      "Steve Boyum",
+      "Alex Graves",
+      "Matt Shakman",
+      "Jennifer Phang"
     ],
     "creators": [
       "Eric Kripke"
-    ]
+    ],
+    "season": 4,
+    "episode_count": null,
+    "tmdbId": 76479
   },
   {
-    "title": "Love & Anarchy",
-    "date": "2022-06-17T00:00:00.000Z",
     "type": "tv",
+    "title": "Love & Anarchy",
+    "date": "2022-06-17",
     "release_year": 2020,
     "review": {
       "rating": 3,
@@ -2202,20 +2279,21 @@
       "Comedy",
       "Drama"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
-      "Emma Bucht",
-      "Lisa Langseth"
+      "Lisa Langseth",
+      "Emma Bucht"
     ],
     "creators": [
       "Lisa Langseth"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 111743
   },
   {
-    "title": "Black Mirror",
-    "date": "2023-07-18T00:00:00.000Z",
     "type": "tv",
+    "title": "Black Mirror",
+    "date": "2023-07-18",
     "release_year": 2011,
     "review": {
       "rating": 4,
@@ -2226,23 +2304,41 @@
       "Drama",
       "Mystery"
     ],
-    "season": 6,
-    "episode_count": null,
     "directors": [
-      "Sam Miller",
+      "Owen Harris",
+      "James Hawes",
+      "Toby Haynes",
+      "Carl Tibbetts",
+      "Bryn Higgins",
+      "Dan Trachtenberg",
+      "Tim Van Patten",
       "Ally Pankiw",
       "John Crowley",
+      "Anne Sewitsky",
+      "Colm McCarthy",
+      "Joe Wright",
+      "John Hillcoat",
+      "James Watkins",
+      "Otto Bathurst",
       "Uta Briesewitz",
-      "Toby Haynes"
+      "Euros Lyn",
+      "Jakob Verbruggen",
+      "Brian Welsh",
+      "Jodie Foster",
+      "David Slade",
+      "Sam Miller"
     ],
     "creators": [
       "Charlie Brooker"
-    ]
+    ],
+    "season": 6,
+    "episode_count": null,
+    "tmdbId": 42009
   },
   {
-    "title": "Game of Thrones",
-    "date": "2024-07-29T00:00:00.000Z",
     "type": "tv",
+    "title": "Game of Thrones",
+    "date": "2024-07-29",
     "release_year": 2011,
     "review": {
       "rating": 5,
@@ -2253,23 +2349,39 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 1,
-    "episode_count": null,
     "directors": [
+      "David Nutter",
+      "Alan Taylor",
+      "Alex Graves",
+      "Miguel Sapochnik",
+      "Jeremy Podeswa",
+      "Mark Mylod",
       "Daniel Minahan",
+      "Alik Sakharov",
+      "Michelle MacLaren",
       "Brian Kirk",
+      "Neil Marshall",
+      "David Benioff",
+      "Matt Shakman",
       "Tim Van Patten",
-      "Alan Taylor"
+      "Michael Slovis",
+      "Daniel Sackheim",
+      "David Petrarca",
+      "Jack Bender",
+      "D. B. Weiss"
     ],
     "creators": [
       "David Benioff",
       "D. B. Weiss"
-    ]
+    ],
+    "season": 1,
+    "episode_count": null,
+    "tmdbId": 1399
   },
   {
-    "title": "House of the Dragon",
-    "date": "2024-08-05T00:00:00.000Z",
     "type": "tv",
+    "title": "House of the Dragon",
+    "date": "2024-08-05",
     "release_year": 2022,
     "review": {
       "rating": 5,
@@ -2280,18 +2392,27 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 2,
-    "episode_count": null,
-    "directors": [],
+    "directors": [
+      "Clare Kilner",
+      "Geeta Patel",
+      "Miguel Sapochnik",
+      "Greg Yaitanes",
+      "Alan Taylor",
+      "Andrij Parekh",
+      "Loni Peristere"
+    ],
     "creators": [
       "George R. R. Martin",
       "Ryan Condal"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 94997
   },
   {
-    "title": "Game of Thrones",
-    "date": "2024-08-08T00:00:00.000Z",
     "type": "tv",
+    "title": "Game of Thrones",
+    "date": "2024-08-08",
     "release_year": 2011,
     "review": {
       "rating": 5,
@@ -2302,24 +2423,39 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 2,
-    "episode_count": null,
     "directors": [
-      "Alan Taylor",
-      "David Petrarca",
       "David Nutter",
+      "Alan Taylor",
+      "Alex Graves",
+      "Miguel Sapochnik",
+      "Jeremy Podeswa",
+      "Mark Mylod",
+      "Daniel Minahan",
+      "Alik Sakharov",
+      "Michelle MacLaren",
+      "Brian Kirk",
       "Neil Marshall",
-      "Alik Sakharov"
+      "David Benioff",
+      "Matt Shakman",
+      "Tim Van Patten",
+      "Michael Slovis",
+      "Daniel Sackheim",
+      "David Petrarca",
+      "Jack Bender",
+      "D. B. Weiss"
     ],
     "creators": [
       "David Benioff",
       "D. B. Weiss"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 1399
   },
   {
-    "title": "Pantheon",
-    "date": "2024-08-24T00:00:00.000Z",
     "type": "tv",
+    "title": "Pantheon",
+    "date": "2024-08-24",
     "release_year": 2022,
     "review": {
       "rating": 4,
@@ -2329,17 +2465,26 @@
       "Animation",
       "Sci-Fi & Fantasy"
     ],
-    "season": 2,
-    "episode_count": null,
-    "directors": [],
+    "directors": [
+      "Melchior Zwyer",
+      "Juno John Lee",
+      "Ed Tadem",
+      "Mari Yang",
+      "David Dwooman Woo",
+      "Micah Gunnell",
+      "Jae Kim"
+    ],
     "creators": [
       "Craig Silverstein"
-    ]
+    ],
+    "season": 2,
+    "episode_count": null,
+    "tmdbId": 195339
   },
   {
-    "title": "Game of Thrones",
-    "date": "2024-08-16T00:00:00.000Z",
     "type": "tv",
+    "title": "Game of Thrones",
+    "date": "2024-08-16",
     "release_year": 2011,
     "review": {
       "rating": 5,
@@ -2350,47 +2495,76 @@
       "Drama",
       "Action & Adventure"
     ],
-    "season": 3,
-    "episode_count": null,
     "directors": [
-      "Alex Graves",
       "David Nutter",
-      "Michelle MacLaren",
+      "Alan Taylor",
+      "Alex Graves",
+      "Miguel Sapochnik",
+      "Jeremy Podeswa",
+      "Mark Mylod",
       "Daniel Minahan",
       "Alik Sakharov",
-      "David Benioff"
+      "Michelle MacLaren",
+      "Brian Kirk",
+      "Neil Marshall",
+      "David Benioff",
+      "Matt Shakman",
+      "Tim Van Patten",
+      "Michael Slovis",
+      "Daniel Sackheim",
+      "David Petrarca",
+      "Jack Bender",
+      "D. B. Weiss"
     ],
     "creators": [
       "David Benioff",
       "D. B. Weiss"
-    ]
+    ],
+    "season": 3,
+    "episode_count": null,
+    "tmdbId": 1399
   },
   {
     "type": "tv",
     "title": "Game of Thrones",
-    "date": "2024-09-01T00:00:00.000Z",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
+    "date": "2024-09-01",
     "release_year": 2011,
     "review": {
       "rating": 5,
       "comment": "Rewatching the show. Having so much fun!"
     },
-    "season": 4,
-    "episode_count": null,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
     "directors": [
+      "David Nutter",
+      "Alan Taylor",
       "Alex Graves",
-      "Michelle MacLaren",
+      "Miguel Sapochnik",
+      "Jeremy Podeswa",
+      "Mark Mylod",
+      "Daniel Minahan",
       "Alik Sakharov",
+      "Michelle MacLaren",
+      "Brian Kirk",
       "Neil Marshall",
+      "David Benioff",
+      "Matt Shakman",
+      "Tim Van Patten",
+      "Michael Slovis",
+      "Daniel Sackheim",
+      "David Petrarca",
+      "Jack Bender",
       "D. B. Weiss"
     ],
     "creators": [
       "David Benioff",
       "D. B. Weiss"
-    ]
+    ],
+    "season": 4,
+    "episode_count": null,
+    "tmdbId": 1399
   }
 ]
