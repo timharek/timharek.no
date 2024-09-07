@@ -10,9 +10,7 @@ const titleAuthorSchema = z.object({
 });
 
 const metadataSchema = z.object({
-  date: z.string().transform((value) =>
-    new Date(value).toISOString().split("T")[0]
-  ),
+  date: z.string().date(),
   genres: z.array(z.string()),
   rating: z.number(),
   comment: z.string().optional(),
@@ -99,7 +97,7 @@ export async function logRead(): Promise<Entry> {
   return {
     type: "book",
     title: result.title,
-    date: new Date(date),
+    date: date,
     publish_year: bookFields.publishYear ?? 0,
     author: bookFields.author ?? [],
     review: { rating, comment: comment ?? null },

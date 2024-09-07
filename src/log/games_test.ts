@@ -18,7 +18,7 @@ Deno.test("Log a game", async () => {
   const expected: Entry = {
     title: "A video game",
     type: "game",
-    date: new Date("2012-12-26"),
+    date: "2012-12-26",
     release_year: 2012,
     review: { rating: 5, comment: "" },
     genres: [],
