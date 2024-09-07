@@ -10,6 +10,7 @@ const Review = z.object({
 
 const MovieEntry = z.object({
   type: z.literal("movie"),
+  tmdbId: z.number().nullable(),
   release_year: z.number(),
   review: Review,
   genres: z.array(z.string()).optional(),
@@ -18,6 +19,7 @@ const MovieEntry = z.object({
 
 const TVEntry = z.object({
   type: z.literal("tv"),
+  tmdbId: z.number().nullable(),
   release_year: z.number().nullable(),
   review: Review,
   genres: z.array(z.string()).optional(),
@@ -48,7 +50,7 @@ const Occassion = z.enum(["business", "pleasure"]);
 const TravelEntry = z.object({
   type: z.literal("travel"),
   occasion: Occassion,
-  to_date: z.coerce.date(),
+  to_date: z.string().date(),
   location: z.object({
     country: z.object({
       name: z.string(),
@@ -61,7 +63,7 @@ const TravelEntry = z.object({
 const Entry = z.intersection(
   z.object({
     title: z.string(),
-    date: z.coerce.date(),
+    date: z.string().date(),
   }),
   z.discriminatedUnion("type", [
     MovieEntry,

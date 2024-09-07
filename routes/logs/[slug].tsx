@@ -85,9 +85,7 @@ export const handler: Handlers<LogProps, ServerState> = {
         const log = z.array(Log.Entry).parse(logRaw);
         logs.push(...log);
       }
-      logs.sort((a, b) =>
-        b.date.toISOString().localeCompare(a.date.toISOString())
-      );
+      logs.sort((a, b) => b.date.localeCompare(a.date));
 
       if (isRequestionJSON) {
         return new Response(JSON.stringify(logs, null, 2), {
@@ -323,13 +321,13 @@ function LogEntryListItem(
   );
 }
 
-function DateT({ date }: { date: Date }) {
+function DateT({ date }: { date: string }) {
   const formattedDate = new Intl.DateTimeFormat("en-US", {
     day: "numeric",
     month: "short",
-  }).format(date);
+  }).format(new Date(date));
   return (
-    <time dateTime={date.toISOString()} title={date.toISOString()}>
+    <time dateTime={date} title={date}>
       {formattedDate}
     </time>
   );

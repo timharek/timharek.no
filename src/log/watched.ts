@@ -7,9 +7,7 @@ import { z } from "zod";
 const movieOrTVSchema = z.object({
   title: z.string(),
   season: z.number().optional(),
-  date: z.string().transform((value) =>
-    new Date(value).toISOString().split("T")[0]
-  ),
+  date: z.string().date(),
   rating: z.number().max(5).min(1),
   comment: z.string().optional(),
 });
@@ -107,8 +105,9 @@ export async function logWatched(
 
     return {
       type: "movie",
+      tmdbId: movie.id,
       title: movie.title,
-      date: new Date(date),
+      date: date,
       genres: movie.genres,
       release_year: movie.release_year,
       review: { rating, comment: comment ?? null },
@@ -156,8 +155,9 @@ export async function logWatched(
 
   return {
     type: "tv",
+    tmdbId: tvShow.id,
     title: tvShow.title,
-    date: new Date(date),
+    date: date,
     genres: tvShow.genres,
     release_year: tvShow.release_year,
     review: { rating, comment: comment ?? null },
