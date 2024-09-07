@@ -1,7 +1,7 @@
 [
   {
     "title": "The Elder Scrolls V: Skyrim",
-    "date": "2012-02-03T00:00:00.000Z",
+    "date": "2012-02-03",
     "type": "game",
     "release_year": 2011,
     "review": {
@@ -16,7 +16,7 @@
   },
   {
     "title": "Portal 2",
-    "date": "2012-07-13T00:00:00.000Z",
+    "date": "2012-07-13",
     "type": "game",
     "release_year": 2011,
     "review": {
@@ -31,7 +31,7 @@
   },
   {
     "title": "Just Cause 2",
-    "date": "2012-07-24T00:00:00.000Z",
+    "date": "2012-07-24",
     "type": "game",
     "release_year": 2010,
     "review": {
@@ -45,7 +45,7 @@
   },
   {
     "title": "Sleeping Dogs",
-    "date": "2012-08-18T00:00:00.000Z",
+    "date": "2012-08-18",
     "type": "game",
     "release_year": 2012,
     "review": {
@@ -59,7 +59,7 @@
   },
   {
     "title": "Far Cry 3",
-    "date": "2012-12-10T00:00:00.000Z",
+    "date": "2012-12-10",
     "type": "game",
     "release_year": 2012,
     "review": {
@@ -73,7 +73,7 @@
   },
   {
     "title": "Don't Starve",
-    "date": "2013-05-23T00:00:00.000Z",
+    "date": "2013-05-23",
     "type": "game",
     "release_year": 2013,
     "review": {
@@ -87,7 +87,7 @@
   },
   {
     "title": "Payday 2",
-    "date": "2013-08-23T00:00:00.000Z",
+    "date": "2013-08-23",
     "type": "game",
     "release_year": 2013,
     "review": {
@@ -101,7 +101,7 @@
   },
   {
     "title": "Amnesia: A Machine for Pigs",
-    "date": "2013-09-13T00:00:00.000Z",
+    "date": "2013-09-13",
     "type": "game",
     "release_year": 2013,
     "review": {
@@ -117,7 +117,7 @@
   },
   {
     "title": "Batman: Arkham Origins",
-    "date": "2013-10-27T00:00:00.000Z",
+    "date": "2013-10-27",
     "type": "game",
     "release_year": 2013,
     "review": {
@@ -131,7 +131,7 @@
   },
   {
     "title": "Game Dev Tycoon",
-    "date": "2013-12-02T00:00:00.000Z",
+    "date": "2013-12-02",
     "type": "game",
     "release_year": 2013,
     "review": {
@@ -147,7 +147,7 @@
   },
   {
     "title": "Hacknet",
-    "date": "2015-08-25T00:00:00.000Z",
+    "date": "2015-08-25",
     "type": "game",
     "release_year": 2015,
     "review": {
@@ -161,7 +161,7 @@
   },
   {
     "title": "Prey",
-    "date": "2017-05-12T00:00:00.000Z",
+    "date": "2017-05-12",
     "type": "game",
     "release_year": 2017,
     "review": {
@@ -175,7 +175,7 @@
   },
   {
     "title": "Hob",
-    "date": "2017-10-01T00:00:00.000Z",
+    "date": "2017-10-01",
     "type": "game",
     "release_year": 2017,
     "review": {
@@ -190,7 +190,7 @@
   },
   {
     "title": "Red Dead Redemption 2",
-    "date": "2018-01-01T00:00:00.000Z",
+    "date": "2018-01-01",
     "type": "game",
     "release_year": 2018,
     "review": {
@@ -205,7 +205,7 @@
   },
   {
     "title": "The Last of Us: Part 2",
-    "date": "2020-06-21T00:00:00.000Z",
+    "date": "2020-06-21",
     "type": "game",
     "release_year": 2020,
     "review": {
@@ -220,7 +220,7 @@
   },
   {
     "title": "Ori and the Blind Forest",
-    "date": "2020-10-02T00:00:00.000Z",
+    "date": "2020-10-02",
     "type": "game",
     "release_year": 2015,
     "review": {
@@ -234,7 +234,7 @@
   },
   {
     "title": "Ori and the Will of The Wisp",
-    "date": "2020-10-06T00:00:00.000Z",
+    "date": "2020-10-06",
     "type": "game",
     "release_year": 2020,
     "review": {
@@ -248,7 +248,7 @@
   },
   {
     "title": "Return of the Obra Dinn",
-    "date": "2022-08-22T00:00:00.000Z",
+    "date": "2022-08-22",
     "type": "game",
     "release_year": 2018,
     "review": {
@@ -264,7 +264,7 @@
   },
   {
     "title": "Detroit: Become Human",
-    "date": "2022-09-17T00:00:00.000Z",
+    "date": "2022-09-17",
     "type": "game",
     "release_year": 2020,
     "review": {
@@ -278,7 +278,7 @@
   },
   {
     "title": "God of War: Ragnarök",
-    "date": "2022-11-13T00:00:00.000Z",
+    "date": "2022-11-13",
     "type": "game",
     "release_year": 2022,
     "review": {
@@ -293,7 +293,7 @@
   },
   {
     "title": "Dredge",
-    "date": "2023-04-06T00:00:00.000Z",
+    "date": "2023-04-06",
     "type": "game",
     "release_year": 2023,
     "review": {
@@ -309,7 +309,7 @@
   },
   {
     "title": "Star Wars Jedi: Survivor",
-    "date": "2023-05-01T00:00:00.000Z",
+    "date": "2023-05-01",
     "type": "game",
     "release_year": 2023,
     "review": {
