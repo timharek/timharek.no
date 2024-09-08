@@ -27,6 +27,8 @@ Watchlist:
 - Speak No Evil (2024)
 - Paddleton (2019)
 - A Ghost Story (2017)
+- Gangs of New York (2002)
+- There Will Be Blood (2007)
 
 <details>
   <summary>Legend</summary>
