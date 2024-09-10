@@ -8,7 +8,7 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
-- Game of Thrones S5
+- Game of Thrones S6
 - The Bear S3
 
 Watchlist:
@@ -29,6 +29,7 @@ Watchlist:
 - A Ghost Story (2017)
 - Gangs of New York (2002)
 - There Will Be Blood (2007)
+- Master and Commander: The Far Side of the World (2003)
 
 <details>
   <summary>Legend</summary>
