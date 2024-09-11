@@ -4,6 +4,7 @@ import { getSection } from "../../src/content.ts";
 import { ServerState } from "../_middleware.ts";
 import { groupBy } from "../../src/group_by.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
+import { jsonResponse } from "../../src/utils.ts";
 
 interface BlogProps {
   posts: Post[];
@@ -20,9 +21,7 @@ export const handler: Handlers<BlogProps, ServerState> = {
     const isRequestionJSON = headers?.includes("application/json");
 
     if (isRequestionJSON) {
-      return new Response(JSON.stringify(posts), {
-        headers: { "Content-Type": "application/json" },
-      });
+      return jsonResponse(posts);
     }
 
     if (blog.description) {

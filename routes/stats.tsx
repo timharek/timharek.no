@@ -7,6 +7,7 @@ import { css } from "../src/markdown.ts";
 import { Definition } from "../components/Definition.tsx";
 import { Chart } from "$fresh_charts/mod.ts";
 import { transparentize } from "$fresh_charts/utils.ts";
+import { jsonResponse } from "../src/utils.ts";
 
 interface Props {
   page: Page;
@@ -27,9 +28,7 @@ export const handler: Handlers<Props, ServerState> = {
     const isRequestionJSON = headers?.includes("application/json");
 
     if (isRequestionJSON) {
-      return new Response(JSON.stringify(stats), {
-        headers: { "Content-Type": "application/json" },
-      });
+      return jsonResponse(stats);
     }
 
     ctx.state.title = `${page.title} - ${ctx.state.title}`;

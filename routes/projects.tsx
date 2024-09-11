@@ -1,4 +1,4 @@
-import { Handlers, PageProps } from "$fresh/server.ts";
+import { Handlers, PageProps, STATUS_CODE } from "$fresh/server.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
@@ -7,6 +7,7 @@ import { Head } from "$fresh/runtime.ts";
 import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
 import * as TOML from "@std/toml";
+import { jsonResponse } from "../src/utils.ts";
 
 interface Projects {
   page: Page;
@@ -86,9 +87,10 @@ export const handler: Handlers<Projects, ServerState> = {
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify({ message: "error" }), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse(
+          { message: "error" },
+          STATUS_CODE.InternalServerError,
+        );
       }
       return ctx.renderNotFound();
     }

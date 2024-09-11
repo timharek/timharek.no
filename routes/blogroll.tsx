@@ -7,6 +7,7 @@ import { Link } from "../components/Link.tsx";
 import { css } from "../src/markdown.ts";
 import { parse } from "@libs/xml";
 import { z } from "zod";
+import { jsonResponse } from "../src/utils.ts";
 
 const OPMLOutlineItem = z.object({
   "@text": z.string(),
@@ -83,17 +84,13 @@ export const handler: Handlers<Props, ServerState> = {
       const feedsObj = OPML.parse(parse(feedsRaw));
       const feeds = feedsObj.opml.body.outline;
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify(feeds), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse(feeds);
       }
       return ctx.render({ page, entries: feeds });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify({ message: "error" }), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse({ message: "error" });
       }
       return ctx.renderNotFound();
     }

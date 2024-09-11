@@ -4,6 +4,7 @@ import { getPage } from "../src/content.ts";
 import { ServerState } from "./_middleware.ts";
 import { PageHeader } from "../components/PageHeader.tsx";
 import { css } from "../src/markdown.ts";
+import { jsonResponse } from "../src/utils.ts";
 
 interface Props {
   page: Page;
@@ -23,9 +24,7 @@ export const handler: Handlers<Props, ServerState> = {
       const isRequestionJSON = headers?.includes("application/json");
 
       if (isRequestionJSON) {
-        return new Response(JSON.stringify(page), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse(page);
       }
 
       ctx.state.title = `${page.title} - ${ctx.state.title}`;

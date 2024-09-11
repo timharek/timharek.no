@@ -1,4 +1,4 @@
-import { Handlers, PageProps } from "$fresh/server.ts";
+import { Handlers, PageProps, STATUS_CODE } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
 import { PageHeader } from "../../components/PageHeader.tsx";
 import { getPage } from "../../src/content.ts";
@@ -16,6 +16,7 @@ import {
 } from "../../src/schemas.ts";
 import { z } from "zod";
 import { zfd } from "zod-form-data";
+import { jsonResponse } from "../../src/utils.ts";
 
 const slugSchema = z.enum(["watched", "reading", "games", "travel"]);
 type AvailableLogs = Record<z.infer<typeof slugSchema>, string[]>;
@@ -88,9 +89,7 @@ export const handler: Handlers<LogProps, ServerState> = {
       logs.sort((a, b) => b.date.localeCompare(a.date));
 
       if (isRequestionJSON) {
-        return new Response(JSON.stringify(logs), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse(logs);
       }
 
       if (type) {
@@ -106,9 +105,10 @@ export const handler: Handlers<LogProps, ServerState> = {
     } catch (error) {
       console.error(error);
       if (isRequestionJSON) {
-        return new Response(JSON.stringify({ message: "error" }, null, 2), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse(
+          { message: "error" },
+          STATUS_CODE.InternalServerError,
+        );
       }
       return ctx.renderNotFound();
     }

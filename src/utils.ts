@@ -85,3 +85,10 @@ export function getReplyToHTMLString(email: string, title: string): string {
 export function getReplyToLink(email: string, title: string): string {
   return `mailto:${email}?subject=RE: ${title}`;
 }
+
+export function jsonResponse(data: unknown, status?: number): Response {
+  return new Response(JSON.stringify(data), {
+    headers: { "content-type": "application/json; charset=utf-8" },
+    ...(status && { status }),
+  });
+}

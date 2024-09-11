@@ -2,7 +2,7 @@ import { Handlers } from "$fresh/server.ts";
 import { config } from "../config.ts";
 import { getSection } from "../src/content.ts";
 import { stringify } from "@libs/xml";
-import { getReplyToHTMLString } from "../src/utils.ts";
+import { getReplyToHTMLString, jsonResponse } from "../src/utils.ts";
 import { z } from "zod";
 
 const availableExtension = z.enum(["xml", "atom", "json"]);
@@ -24,9 +24,7 @@ export const handler: Handlers = {
       }
 
       const jsonFeed = generateJsonFeed(latestPosts);
-      return new Response(JSON.stringify(jsonFeed), {
-        headers: { "content-type": "application/json; charset=utf-8" },
-      });
+      return jsonResponse(jsonFeed);
     } catch (error) {
       console.error(error);
       return ctx.renderNotFound();

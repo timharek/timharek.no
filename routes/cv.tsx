@@ -4,6 +4,7 @@ import { PageHeader } from "../components/PageHeader.tsx";
 import { ServerState } from "./_middleware.ts";
 import { z } from "zod";
 import * as TOML from "@std/toml";
+import { jsonResponse } from "../src/utils.ts";
 
 const WorkExp = z.object({
   name: z.string(),
@@ -102,9 +103,7 @@ export const handler: Handlers<CVProps, ServerState> = {
       const cvRaw = await Deno.readTextFile(cvPath);
       let cv = CVSchema.parse(TOML.parse(cvRaw));
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify(cv), {
-          headers: { "Content-Type": "application/json" },
-        });
+        return jsonResponse(cv);
       }
       const { searchParams } = url;
       ctx.state.title = `CV - ${ctx.state.title}`;
@@ -129,10 +128,10 @@ export const handler: Handlers<CVProps, ServerState> = {
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify({ message: "error" }), {
-          headers: { "Content-Type": "application/json" },
-          status: STATUS_CODE.InternalServerError,
-        });
+        return jsonResponse(
+          { message: "error" },
+          STATUS_CODE.InternalServerError,
+        );
       }
       return ctx.renderNotFound();
     }

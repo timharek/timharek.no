@@ -1,5 +1,6 @@
-import { Handlers } from "$fresh/server.ts";
+import { Handlers, STATUS_CODE } from "$fresh/server.ts";
 import { Image } from "https://deno.land/x/imagescript@1.2.15/mod.ts";
+import { jsonResponse } from "../../src/utils.ts";
 
 type ImageType = "jpg" | "png";
 
@@ -33,11 +34,9 @@ export const handler: Handlers = {
       });
     } catch (error) {
       console.error(error);
-      return new Response(
-        JSON.stringify({ message: "No avatar available." }),
-        {
-          headers: { "content-type": "application/json; charset=utf-8" },
-        },
+      return jsonResponse(
+        { message: "No avatar available." },
+        STATUS_CODE.InternalServerError,
       );
     }
   },

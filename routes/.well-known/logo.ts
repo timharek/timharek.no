@@ -1,4 +1,5 @@
-import { Handlers } from "$fresh/server.ts";
+import { Handlers, STATUS_CODE } from "$fresh/server.ts";
+import { jsonResponse } from "../../src/utils.ts";
 
 export const handler: Handlers = {
   async GET(_req, _ctx) {
@@ -11,11 +12,9 @@ export const handler: Handlers = {
       });
     } catch (error) {
       console.error(error);
-      return new Response(
-        JSON.stringify({ message: "No logo available." }),
-        {
-          headers: { "content-type": "application/json; charset=utf-8" },
-        },
+      return jsonResponse(
+        { message: "No logo available." },
+        STATUS_CODE.InternalServerError,
       );
     }
   },

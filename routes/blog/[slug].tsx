@@ -8,6 +8,7 @@ import { Link } from "../../components/Link.tsx";
 import { Icon } from "../../components/Icons.tsx";
 import { css } from "../../src/markdown.ts";
 import { getReplyToLink } from "../../src/utils.ts";
+import { jsonResponse } from "../../src/utils.ts";
 
 interface BlogPostProps {
   post: Post;
@@ -26,9 +27,7 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
     const isRequestionJSON = headers?.includes("application/json");
 
     if (isRequestionJSON) {
-      return new Response(JSON.stringify(post), {
-        headers: { "Content-Type": "application/json" },
-      });
+      return jsonResponse(post);
     }
 
     const url = new URL(req.url);
