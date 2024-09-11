@@ -24,7 +24,7 @@ export const handler: Handlers = {
       }
 
       const jsonFeed = generateJsonFeed(latestPosts);
-      return new Response(JSON.stringify(jsonFeed, null, 2), {
+      return new Response(JSON.stringify(jsonFeed), {
         headers: { "content-type": "application/json; charset=utf-8" },
       });
     } catch (error) {

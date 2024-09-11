@@ -23,7 +23,7 @@ export const handler: Handlers<Props, ServerState> = {
       const isRequestionJSON = headers?.includes("application/json");
 
       if (isRequestionJSON) {
-        return new Response(JSON.stringify(page, null, 2), {
+        return new Response(JSON.stringify(page), {
           headers: { "Content-Type": "application/json" },
         });
       }

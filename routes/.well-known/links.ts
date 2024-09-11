@@ -20,7 +20,7 @@ export const handler: Handlers = {
       externalLinks = externalLinks.filter((link) => link.domain === domain);
     }
 
-    return new Response(JSON.stringify(externalLinks, null, 2), {
+    return new Response(JSON.stringify(externalLinks), {
       headers: { "content-type": "application/json; charset=utf-8" },
     });
   },

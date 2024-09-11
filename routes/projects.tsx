@@ -86,7 +86,9 @@ export const handler: Handlers<Projects, ServerState> = {
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify({ message: "error" }, null, 2));
+        return new Response(JSON.stringify({ message: "error" }), {
+          headers: { "Content-Type": "application/json" },
+        });
       }
       return ctx.renderNotFound();
     }

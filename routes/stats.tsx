@@ -27,7 +27,7 @@ export const handler: Handlers<Props, ServerState> = {
     const isRequestionJSON = headers?.includes("application/json");
 
     if (isRequestionJSON) {
-      return new Response(JSON.stringify(stats, null, 2), {
+      return new Response(JSON.stringify(stats), {
         headers: { "Content-Type": "application/json" },
       });
     }

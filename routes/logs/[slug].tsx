@@ -88,7 +88,7 @@ export const handler: Handlers<LogProps, ServerState> = {
       logs.sort((a, b) => b.date.localeCompare(a.date));
 
       if (isRequestionJSON) {
-        return new Response(JSON.stringify(logs, null, 2), {
+        return new Response(JSON.stringify(logs), {
           headers: { "Content-Type": "application/json" },
         });
       }

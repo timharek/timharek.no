@@ -83,13 +83,17 @@ export const handler: Handlers<Props, ServerState> = {
       const feedsObj = OPML.parse(parse(feedsRaw));
       const feeds = feedsObj.opml.body.outline;
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify(feeds, null, 2));
+        return new Response(JSON.stringify(feeds), {
+          headers: { "Content-Type": "application/json" },
+        });
       }
       return ctx.render({ page, entries: feeds });
     } catch (error) {
       console.error(error);
       if (!isRequestingHtml) {
-        return new Response(JSON.stringify({ message: "error" }, null, 2));
+        return new Response(JSON.stringify({ message: "error" }), {
+          headers: { "Content-Type": "application/json" },
+        });
       }
       return ctx.renderNotFound();
     }
