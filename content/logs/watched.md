@@ -30,6 +30,7 @@ Watchlist:
 - Gangs of New York (2002)
 - There Will Be Blood (2007)
 - Master and Commander: The Far Side of the World (2003)
+- Mickey 17 (2025)
 
 <details>
   <summary>Legend</summary>
