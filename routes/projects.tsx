@@ -30,7 +30,7 @@ export const handler: Handlers<Projects, ServerState> = {
     const isRequestingHtml = headers?.includes("text/html");
 
     try {
-      const cvPath = new URL("../static/api/cv.toml", import.meta.url);
+      const cvPath = new URL("../static/api/cv_.toml", import.meta.url);
       const cvRaw = await Deno.readTextFile(cvPath);
       const cv = CVSchema.parse(TOML.parse(cvRaw));
       if (!isRequestingHtml) {
