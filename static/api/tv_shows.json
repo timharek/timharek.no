@@ -2568,10 +2568,39 @@
     ]
   },
   {
+    "title": "Game of Thrones",
+    "date": "2024-09-09",
+    "type": "tv",
+    "tmdbId": 1399,
+    "release_year": 2011,
+    "review": {
+      "rating": 5,
+      "comment": "Rewatch. I totally forgot how this season ended, fantastic!"
+    },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "season": 5,
+    "episode_count": null,
+    "directors": [
+      "Michael Slovis",
+      "David Nutter",
+      "Miguel Sapochnik",
+      "Mark Mylod",
+      "Jeremy Podeswa"
+    ],
+    "creators": [
+      "David Benioff",
+      "D. B. Weiss"
+    ]
+  },
+  {
     "type": "tv",
     "tmdbId": 1399,
     "title": "Game of Thrones",
-    "date": "2024-09-09",
+    "date": "2024-09-19",
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama",
@@ -2580,15 +2609,15 @@
     "release_year": 2011,
     "review": {
       "rating": 5,
-      "comment": "Rewatch. I totally forgot how this season ended, fantastic!"
+      "comment": "Rewatch!"
     },
-    "season": 5,
+    "season": 6,
     "episode_count": null,
     "directors": [
-      "Michael Slovis",
-      "David Nutter",
       "Miguel Sapochnik",
+      "Daniel Sackheim",
       "Mark Mylod",
+      "Jack Bender",
       "Jeremy Podeswa"
     ],
     "creators": [
