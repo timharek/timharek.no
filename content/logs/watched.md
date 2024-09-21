@@ -10,6 +10,7 @@ Currently watching:
 - Succession S4 (not sure when we'll finish this one...)
 - Game of Thrones S7
 - The Bear S3
+- The Penguin S1
 
 Watchlist:
 
