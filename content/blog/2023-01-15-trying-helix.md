@@ -7,7 +7,7 @@ tags = ["100 days to offload", "Software", "Tools", "Helix"]
 
 Two years ago I discovered a course at MIT called [The Missing Semester of Your
 CS Education][m_mit]. I learned a lot, a lot of stuff that I thought I was going
-to learn during my degree. And when it came to their explaination and approach
+to learn during my degree. And when it came to their explanations and approach
 to Vim, I was hooked! I started using Vim everyday, learning to add plugins,
 looking at other peoples configs and so on. I eventually ended up switching to
 Neovim last year and rewrote my config in Lua and I was happy. I was happy until
@@ -27,7 +27,7 @@ basically selecting/highlighting.
 
 It's been fun, I'm really taken aback by some of the keymaps, like undo/redo
 which is `u`/`U` respectively. In Vim that would be `u`/`<C-r>` which also
-works, but may seem backwords because a lot of the backwardness in modal-editors
+works, but may seem backwards because a lot of the backwardness in modal-editors
 seems to be lowercase and then uppercase. I dunno, I like it!
 
 I spent time refactoring my scripts for my log-handling on my blog, and I used

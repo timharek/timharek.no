@@ -8,7 +8,7 @@ tags = ["Deno", "Software", "100 days to offload"]
 ## What is Deno?
 
 [Deno][deno] is a secure alternative to [Node.js][nodejs]. Scratch that, Deno is
-a easy to understand JavaScript runtime with batteries included! You install
+an easy to understand JavaScript runtime with batteries included! You install
 dependencies once, globally, no `package.json` and TypeScript is available out
 of the box! It's fast, it uses Chrome's V8 JavaScript engine which means it has
 the same features as a browser. And there's so much more!
@@ -29,12 +29,12 @@ Some projects I've used it for:
 
 I use these project regularly, especially `d-yr` - it's a super fast way to
 check the current weather. And whenever I need to try something out with
-JavaScript I just fire up Deno's Repl and play around with it.
+JavaScript I just fire up Deno's REPL and play around with it.
 
 ## Should you try it?
 
 If you work with Node.js and are tired of setting up linting, formatting, types
-etc. then you should most definitely try Deno!
+etc., then you should most definitely try Deno!
 
 [deno]: https://deno.land
 [nodejs]: https://nodejs.org/en/

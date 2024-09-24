@@ -31,7 +31,7 @@ tasks:
       deno task build
 ```
 
-This method uses the `curl`-installation method on a Ubuntu-system. If you want
+This method uses the `curl`-installation method on an Ubuntu-system. If you want
 to have multiple tasks for running `deno` you need to bring `DENO_INSTALL` and
 the new `PATH` for each tasks using `deno`.
 
