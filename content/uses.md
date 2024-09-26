@@ -16,20 +16,20 @@ some snapshots of my current workspace.
 <figure>
   <img
     src="/img/uses/setup.webp"
-    alt="My desk setup. Photo">
+    alt="My not so current current desk setup. Photo">
   <figcaption>
-    My current desk setup.
+    My not so current current desk setup.
   </figcaption>
 </figure>
 
 ## Hardware
 
-|          |                                     |
-| -------: | :---------------------------------- |
-| Computer | MacBook Pro 14" M2 16GB             |
-|    Phone | iPhone 15 Pro                       |
-|    Watch | Apple Watch Ultra                   |
-| Keyboard | [ZSA Moonlander Mark I][moonlander] |
+|          |                         |
+| -------: | :---------------------- |
+| Computer | MacBook Pro 14" M2 16GB |
+|    Phone | iPhone 15 Pro           |
+|    Watch | Apple Watch Ultra       |
+| Keyboard | [ZSA Voyager]           |
 
 <!-- TODO: Add new photo of new setup --->
 
@@ -139,7 +139,7 @@ this is what I use daily.
 [AppCleaner]: https://freemacsoft.net/appcleaner/
 [MacUpdater]: https://www.corecode.io/macupdater/
 [dotfiles]: https://git.sr.ht/~timharek/dotfiles
-[Moonlander]: https://www.zsa.io/moonlander/
+[ZSA Voyager]: https://www.zsa.io/voyager
 [Uses this]: https://usesthis.com/
 [SourceHut]: https://sourcehut.org
 [Helix]: https://helix-editor.com/
