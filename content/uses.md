@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-08-18
+updatedAt = 2024-09-27
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -37,7 +37,7 @@ some snapshots of my current workspace.
 
 |            |                                          |
 | ---------: | :--------------------------------------- |
-|  Gaming PC | Custom built                             |
+|  Gaming PC | Custom built (running [Bazzite])         |
 |  Hand-held | Steam Deck 512GB                         |
 |   Consoles | PlayStation 5 disc, Nintendo Switch OLED |
 |     Server | Zimaboard 432                            |
@@ -154,3 +154,4 @@ this is what I use daily.
 [pen]: https://www.amazon.com/Artline-Black-Fineliner-point-0-4mm/dp/B003UH1A40
 [App defaults]: https://defaults.rknight.me/
 [Tailscale]: https://tailscale.com/
+[bazzite]: https://bazzite.gg
