@@ -2597,20 +2597,20 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 1399,
     "title": "Game of Thrones",
     "date": "2024-09-19",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
+    "type": "tv",
+    "tmdbId": 1399,
     "release_year": 2011,
     "review": {
       "rating": 5,
       "comment": "Rewatch!"
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
     "season": 6,
     "episode_count": null,
     "directors": [
@@ -2619,6 +2619,34 @@
       "Mark Mylod",
       "Jack Bender",
       "Jeremy Podeswa"
+    ],
+    "creators": [
+      "David Benioff",
+      "D. B. Weiss"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 1399,
+    "title": "Game of Thrones",
+    "date": "2024-09-30",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "release_year": 2011,
+    "review": {
+      "rating": 4,
+      "comment": "Rewatch. It was alright, the writing is more off than the other seasons."
+    },
+    "season": 7,
+    "episode_count": null,
+    "directors": [
+      "Mark Mylod",
+      "Jeremy Podeswa",
+      "Matt Shakman",
+      "Alan Taylor"
     ],
     "creators": [
       "David Benioff",

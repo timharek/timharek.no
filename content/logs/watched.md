@@ -8,7 +8,7 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
-- Game of Thrones S7
+- Game of Thrones S8
 - The Bear S3
 - The Penguin S1
 
