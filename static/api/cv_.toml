@@ -725,3 +725,13 @@ Generate SVGs from GPX routes.
 startDate = 2024-05-28
 keywords = ["Tool", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = ["https://git.sr.ht/~timharek/gpx-to-svg"]
+
+[[projects]]
+name = "yr"
+url = "https://git.sr.ht/~timharek/yr"
+description = """
+CLI tool and Go package for getting weather data.
+"""
+startDate = 2024-09-24
+keywords = ["Tool", "Go", "API", "Personal", "Open source", "Package"]
+sources = ["https://git.sr.ht/~timharek/yr"]
