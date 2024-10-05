@@ -1,4 +1,4 @@
-last_update = 2024-09-19
+last_update = 2024-10-05
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -735,3 +735,14 @@ CLI tool and Go package for getting weather data.
 startDate = 2024-09-24
 keywords = ["Tool", "Go", "API", "Personal", "Open source", "Package"]
 sources = ["https://git.sr.ht/~timharek/yr"]
+
+[[projects]]
+name = "Unofficial BIR.no API"
+url = "https://git.sr.ht/~timharek/bir"
+description = """
+API to get trash collection days from BIR.no, making it possible to subscribe to
+my address via calendar instead of relying on their app.
+"""
+startDate = 2024-10-05
+keywords = ["Go", "API", "Personal", "Open source", "Package"]
+sources = ["https://git.sr.ht/~timharek/bir"]
