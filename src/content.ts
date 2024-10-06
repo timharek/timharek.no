@@ -20,6 +20,7 @@ const Attrs = z.object({
   draft: z.boolean().default(false),
   updatedAt: z.date().optional(),
   language: z.enum(["en", "no"]).default("en"),
+  hidden: z.boolean().optional(),
 }).strict();
 
 type Attrs = z.infer<typeof Attrs>;

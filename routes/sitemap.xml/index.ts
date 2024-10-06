@@ -7,7 +7,7 @@ export const handler: Handlers = {
   async GET(_req, _ctx) {
     const pages = await getAllPages();
 
-    const sitemap = generateSitemapXML([...pages]);
+    const sitemap = generateSitemapXML([...pages.filter((p) => !p.hidden)]);
 
     return new Response(sitemap, {
       headers: { "Content-Type": "text/xml; charset=utf-8" },
