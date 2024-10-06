@@ -41,6 +41,9 @@ export const handler: Handlers<Props, ServerState> = {
           path: url.pathname,
         },
       ];
+      if (page.language) {
+        ctx.state.language = page.language;
+      }
 
       return ctx.render({ page });
     } catch (error) {
