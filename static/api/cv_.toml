@@ -1,4 +1,4 @@
-last_update = 2024-10-05
+last_update = 2024-10-08
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -42,7 +42,8 @@ url = "https://value.no"
 startDate = 2023-08-07
 highlights = [
   "Full-stack applications for internal and external use.",
-  "Manage and automating infrastructure running in Google Cloud Platform.",
+  "Manage and automate infrastructure running in Google Cloud Platform.",
+  "Automate cloud deployment with Pulumi.",
   "Maintain, monitor and design full-stack applications.",
   "Integrate with different ERP- and accounting-software.",
   "Normalize data with Raw technologies.",
@@ -231,7 +232,8 @@ keywords = [
   "SQLite",
   "PostgreSQL",
   "MariaDB/MySQL",
-  "Sentry"
+  "Sentry",
+  "Pulumi"
 ]
 
 [[skills]]
