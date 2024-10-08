@@ -35,7 +35,7 @@
     "@std/text": "jsr:@std/text@1.0.5",
     "@std/toml": "jsr:@std/toml@0.224.0",
     "@timharek/linkding": "jsr:@timharek/linkding@^2.0.3",
-    "@timharek/openlibrary": "jsr:@timharek/openlibrary@^2.0.1",
+    "@timharek/openlibrary": "jsr:@timharek/openlibrary@2.0.1",
     "@timharek/tmdb": "https://git.sr.ht/~timharek/tmdb/blob/main/mod.ts",
     "highlight.js": "npm:highlight.js@11.9.0",
     "icons/": "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/",
