@@ -24,7 +24,6 @@ Watchlist:
 - The Legend of Vox Machina S3
 - Silo S2
 - Severance S2
-- The Wild Robot (2024)
 - Speak No Evil (2024)
 - Paddleton (2019)
 - A Ghost Story (2017)

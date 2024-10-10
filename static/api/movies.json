@@ -5782,21 +5782,40 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 956842,
     "title": "Fly Me to the Moon",
     "date": "2024-09-14",
-    "genres": [
-      "Romance",
-      "Comedy"
-    ],
+    "type": "movie",
+    "tmdbId": 956842,
     "release_year": 2024,
     "review": {
       "rating": 3,
       "comment": "OK. It was fun to learn more about the history, but it seems like they changed a lot."
     },
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
     "directors": [
       "Greg Berlanti"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 1184918,
+    "title": "The Wild Robot",
+    "date": "2024-10-09",
+    "genres": [
+      "Animation",
+      "Science Fiction",
+      "Family"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "It was not what I expected, at all. I thought it would be a more Wall-E movie. It was a entertaining watch and an incredible looking animation, I love the style where they mix 3D animation with 2D drawings."
+    },
+    "directors": [
+      "Chris Sanders"
     ]
   }
 ]
