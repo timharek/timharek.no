@@ -19,7 +19,7 @@
       "./src/types.d.ts"
     ]
   },
-  "nodeModulesDir": true,
+  "nodeModulesDir": "auto",
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.7.1/",
     "$fresh_charts/": "https://deno.land/x/fresh_charts@0.3.1/",
