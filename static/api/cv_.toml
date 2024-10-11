@@ -1,4 +1,4 @@
-last_update = 2024-10-08
+last_update = 2024-10-11
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -748,3 +748,13 @@ my address via calendar instead of relying on their app.
 startDate = 2024-10-05
 keywords = ["Go", "API", "Personal", "Open source", "Package"]
 sources = ["https://git.sr.ht/~timharek/bir"]
+
+[[projects]]
+name = "timharek.no"
+url = "https://timharek.no"
+description = """
+My personal website where I write about stuff that interest me.
+"""
+startDate = 2019-03-28
+keywords = ["Deno", "API", "Personal", "Open source", "Website", "Blogging"]
+sources = ["https://git.sr.ht/~timharek/timharek.no"]
