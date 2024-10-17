@@ -7,7 +7,7 @@
     "log": "deno run --allow-net=api.themoviedb.org,openlibrary.org --allow-read --allow-write=./static/api --allow-env src/log/cli.ts",
     "blog": "deno run -A src/blog.ts",
     "setup:hooks": "deno run -A -r https://deno.land/x/githooks/githooks.ts",
-    "check": "deno fmt --check && deno lint && deno check **/*.tsx && deno check **/*.ts",
+    "check": "deno fmt --check && deno lint && deno check --allow-import=git.sr.ht:443,esm.sh:443,deno.land:443,jsr.io:443 **/*.tsx && deno check --allow-import=git.sr.ht:443,esm.sh:443,deno.land:443,jsr.io:443 **/*.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
     "blogroll:update": "cp \"$(deno eval --env='.env' 'console.log(Deno.env.get(`NETNEWSWIRE_PATH`))')\" $INIT_CWD/static/api/feeds.opml"
@@ -19,7 +19,7 @@
       "./src/types.d.ts"
     ]
   },
-  "nodeModulesDir": true,
+  "nodeModulesDir": "auto",
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.7.1/",
     "$fresh_charts/": "https://deno.land/x/fresh_charts@0.3.1/",
@@ -64,6 +64,9 @@
   "fmt": {
     "exclude": [
       "**/*.md",
+      "**/*.html",
+      ".build.yml",
+      "**/*.yml",
       "**/*.json"
     ],
     "useTabs": false,
