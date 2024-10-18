@@ -5800,22 +5800,59 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 1184918,
     "title": "The Wild Robot",
     "date": "2024-10-09",
-    "genres": [
-      "Animation",
-      "Science Fiction",
-      "Family"
-    ],
+    "type": "movie",
+    "tmdbId": 1184918,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "It was not what I expected, at all. I thought it would be a more Wall-E movie. It was a entertaining watch and an incredible looking animation, I love the style where they mix 3D animation with 2D drawings."
     },
+    "genres": [
+      "Animation",
+      "Science Fiction",
+      "Family"
+    ],
     "directors": [
       "Chris Sanders"
+    ]
+  },
+  {
+    "title": "The Apprentice",
+    "date": "2024-10-18",
+    "type": "movie",
+    "tmdbId": 1182047,
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "This was really something. I highly recommend watching this."
+    },
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Ali Abbasi"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 414906,
+    "title": "The Batman",
+    "date": "2024-10-19",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 5,
+      "comment": "Rewatch. The atmosphere in this movie is excellent, the world-building, I love it!"
+    },
+    "directors": [
+      "Matt Reeves"
     ]
   }
 ]
