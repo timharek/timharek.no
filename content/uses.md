@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-09-27
+updatedAt = 2024-10-21
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -104,6 +104,7 @@ This is software that I use on my devices. Inspired by [App defaults].
 |               Music | [Spotify]                 |
 |        Source forge | [SourceHut]               |
 |        VPS provider | [1984 Hosting][1984]      |
+|       Search engine | [Kagi]                    |
 
 ## Note-taking
 
@@ -155,3 +156,4 @@ this is what I use daily.
 [App defaults]: https://defaults.rknight.me/
 [Tailscale]: https://tailscale.com/
 [bazzite]: https://bazzite.gg
+[kagi]: https://kagi.com
