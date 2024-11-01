@@ -23,8 +23,6 @@ tasks:
       set -x
       deno test -A
       deno task check
-  - nopr: |
-      [ "$BUILD_SUBMITTER" = 'git.sr.ht' ] || complete-build
   - check: |
       if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
         complete-build; \
