@@ -7,7 +7,7 @@ Video games I've finished. Not a complete list.
 
 Currently playing:
 
-- Dave the Diver (2023), the Steam Deck
+- Baldur's Gate 3, PC
 - Jusant (2023), Steam Deck
 - Pacific Drive (2024), PC
 
