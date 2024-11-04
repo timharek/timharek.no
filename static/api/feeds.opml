@@ -24,6 +24,7 @@
 		<outline text="Deadguy" title="Deadguy" description="" type="rss" version="RSS" htmlUrl="https://dgy.fuckup.club/blog/" xmlUrl="https://dgy.fuckup.club/blog/index.xml"/>
 		<outline text="Drew DeVault" title="Drew DeVault" description="" type="rss" version="RSS" htmlUrl="https://drewdevault.com/" xmlUrl="https://drewdevault.com/blog/index.xml"/>
 		<outline text="Eddie Dale" title="Eddie Dale" description="" type="rss" version="RSS" htmlUrl="https://www.eddiedale.com/blog" xmlUrl="https://www.eddiedale.com/blog-feed"/>
+		<outline text="Effin' Birds" title="Effin' Birds" description="" type="rss" version="RSS" htmlUrl="https://effinbirds.blog/" xmlUrl="https://effinbirds.blog/rss"/>
 		<outline text="Erik Johannes Husom" title="Erik Johannes Husom" description="" type="rss" version="RSS" htmlUrl="https://erikjohannes.no/posts/" xmlUrl="https://erikjohannes.no/index.xml"/>
 		<outline text="Evan Hahn's blog" title="Evan Hahn's blog" description="" type="rss" version="RSS" htmlUrl="https://evanhahn.com/blog/" xmlUrl="https://evanhahn.com/blog/index.xml"/>
 		<outline text="FIGBERT" title="FIGBERT" description="" type="rss" version="RSS" htmlUrl="https://figbert.com/" xmlUrl="https://figbert.com/atom.xml"/>
@@ -62,11 +63,13 @@
 		<outline text="Personvernbloggen" title="Personvernbloggen" description="" type="rss" version="RSS" htmlUrl="https://www.personvernbloggen.no/" xmlUrl="https://www.personvernbloggen.no/feed/"/>
 		<outline text="Peter Cammeraat" title="Peter Cammeraat" description="" type="rss" version="RSS" htmlUrl="https://petercammeraat.net/" xmlUrl="https://petercammeraat.net/index.xml"/>
 		<outline text="Public Notebook" title="Public Notebook" description="" type="rss" version="RSS" htmlUrl="https://notebook.hew.tt/" xmlUrl="https://notebook.hew.tt/index.xml"/>
+		<outline text="Register Spill" title="Register Spill" description="" type="rss" version="RSS" htmlUrl="https://registerspill.thorstenball.com/" xmlUrl="https://registerspill.thorstenball.com/feed"/>
 		<outline text="Robin Rendle" title="Robin Rendle" description="" type="rss" version="RSS" htmlUrl="https://robinrendle.com/" xmlUrl="https://robinrendle.com/feed.xml"/>
 		<outline text="schpet’s notebook" title="schpet’s notebook" description="" type="rss" version="RSS" htmlUrl="https://schpet.com/" xmlUrl="https://schpet.com/feed.xml"/>
 		<outline text="Scott Nesbit - Open Source Musings" title="Scott Nesbit - Open Source Musings" description="" type="rss" version="RSS" htmlUrl="https://opensourcemusings.com/" xmlUrl="https://opensourcemusings.com/feed.xml"/>
 		<outline text="Scott Nesbit - The Monday Kickoff" title="Scott Nesbit - The Monday Kickoff" description="" type="rss" version="RSS" htmlUrl="https://mondaykickoff.com/" xmlUrl="https://mondaykickoff.com/feed/"/>
 		<outline text="Sigurd S. Ovesen" title="Sigurd S. Ovesen" description="" type="rss" version="RSS" htmlUrl="https://www.sigurdovesen.no/" xmlUrl="https://www.sigurdovesen.no/rss.xml"/>
+		<outline text="Sindre Kjelsrud" title="Sindre Kjelsrud" description="" type="rss" version="RSS" htmlUrl="https://kjelsrud.dev/" xmlUrl="https://kjelsrud.dev/rss.xml"/>
 		<outline text="Sourcehut" title="Sourcehut" description="" type="rss" version="RSS" htmlUrl="https://sourcehut.org/blog/" xmlUrl="https://sourcehut.org/blog/index.xml"/>
 		<outline text="Steph Ango" title="Steph Ango" description="" type="rss" version="RSS" htmlUrl="https://stephango.com/" xmlUrl="https://stephango.com/feed.xml"/>
 		<outline text="taylor.town" title="taylor.town" description="" type="rss" version="RSS" htmlUrl="https://taylor.town/" xmlUrl="https://taylor.town/feed.xml"/>
@@ -78,6 +81,7 @@
 		<outline text="Victoria Drake" title="Victoria Drake" description="" type="rss" version="RSS" htmlUrl="https://victoria.dev/archive/" xmlUrl="https://victoria.dev/blog/index.xml"/>
 		<outline text="xkcd" title="xkcd" description="" type="rss" version="RSS" htmlUrl="https://xkcd.com/" xmlUrl="https://xkcd.com/rss.xml"/>
 		<outline text="Yarmo" title="Yarmo" description="" type="rss" version="RSS" htmlUrl="https://yarmo.eu/blog/" xmlUrl="https://yarmo.eu/atom.xml"/>
+		<outline text="ZSA Blog" title="ZSA Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.zsa.io/" xmlUrl="https://blog.zsa.io/posts.rss"/>
 		<outline text="マリウス" title="マリウス" description="" type="rss" version="RSS" htmlUrl="https://xn--gckvb8fzb.com/" xmlUrl="https://xn--gckvb8fzb.com/index.xml"/>
 	</outline>
 	<outline text="Hardware" title="Hardware">
@@ -88,7 +92,6 @@
 	</outline>
 	<outline text="News" title="News">
 		<outline text="Changelog posts" title="Changelog posts" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/posts" xmlUrl="https://changelog.com/posts/feed"/>
-		<outline text="ComicBookMovie" title="ComicBookMovie" description="" type="rss" version="RSS" htmlUrl="https://comicbookmovie.com/rss/" xmlUrl="https://comicbookmovie.com/rss/"/>
 		<outline text="Filmpolitiet API" title="Filmpolitiet API" description="" type="rss" version="RSS" htmlUrl="http://filmpolitiet.wyd.no/feed.xml" xmlUrl="https://filmpolitiet.wyd.no/feed.xml"/>
 		<outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="https://hnrss.org/frontpage"/>
 		<outline text="kode24" title="kode24" description="" type="rss" version="RSS" htmlUrl="https://rss.kode24.no/" xmlUrl="https://rss.kode24.no/"/>
@@ -99,8 +102,8 @@
 	</outline>
 	<outline text="Podcasts" title="Podcasts">
 		<outline text="JS Party" title="JS Party" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/jsparty" xmlUrl="https://changelog.com/jsparty/feed"/>
-		<outline text="Kortslutning" title="Kortslutning" description="" type="rss" version="RSS" htmlUrl="https://kortslutning.fun/" xmlUrl="https://feeds.simplecast.com/UBBVMPjb"/>
-		<outline text="Linux Unplugged" title="Linux Unplugged" description="" type="rss" version="RSS" htmlUrl="http://jblive.fm/" xmlUrl="https://feeds.jupiterbroadcasting.com/lup"/>
+		<outline text="Kortslutning" title="Kortslutning" description="" type="rss" version="RSS" htmlUrl="https://simplecast.superfeedr.com/" xmlUrl="https://feeds.simplecast.com/UBBVMPjb"/>
+		<outline text="Linux Unplugged" title="Linux Unplugged" description="" type="rss" version="RSS" htmlUrl="https://linuxunplugged.com/" xmlUrl="https://feeds.jupiterbroadcasting.com/lup"/>
 		<outline text="localfirst.fm" title="localfirst.fm" description="" type="rss" version="RSS" htmlUrl="https://www.localfirst.fm/" xmlUrl="https://www.localfirst.fm/feed"/>
 		<outline text="Plattformpodden" title="Plattformpodden" description="" type="rss" version="RSS" htmlUrl="https://plattformpodden.no/" xmlUrl="https://feeds.transistor.fm/plattformpodden"/>
 		<outline text="Self-Hosted" title="Self-Hosted" description="" type="rss" version="RSS" htmlUrl="https://selfhosted.show/" xmlUrl="https://feeds.fireside.fm/selfhosted/rss"/>
