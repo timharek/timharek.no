@@ -508,19 +508,36 @@
     ]
   },
   {
-    "type": "book",
     "title": "System Collapse",
     "date": "2024-07-02",
+    "type": "book",
     "publish_year": 2023,
-    "author": [
-      "Martha Wells"
-    ],
     "review": {
       "rating": 5,
       "comment": "Excellent! The action-parts feels like a cinematic experience in book/audiobook-form."
     },
+    "author": [
+      "Martha Wells"
+    ],
     "genres": [
       "Sci-Fi"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "A Game of Thrones",
+    "date": "2024-11-07",
+    "publish_year": 1996,
+    "author": [
+      "George R. R. Martin"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "The TV shows are really faithful to the first book. I enjoyed this, but it was very long."
+    },
+    "genres": [
+      "Fantasy",
+      "Adventure"
     ]
   }
 ]
