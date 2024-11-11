@@ -28,7 +28,6 @@ Watchlist:
 - Silo S2
 - Speak No Evil (2024)
 - Spermageddon (2024)
-- The Legend of Vox Machina S3
 - The Mauritanian (2021)
 - The Sweet East (2023)
 - There Will Be Blood (2007)

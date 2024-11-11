@@ -2626,20 +2626,20 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 1399,
     "title": "Game of Thrones",
     "date": "2024-09-30",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
+    "type": "tv",
+    "tmdbId": 1399,
     "release_year": 2011,
     "review": {
       "rating": 4,
       "comment": "Rewatch. It was alright, the writing is more off than the other seasons."
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
     "season": 7,
     "episode_count": null,
     "directors": [
@@ -2651,6 +2651,27 @@
     "creators": [
       "David Benioff",
       "D. B. Weiss"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 135934,
+    "title": "The Legend of Vox Machina",
+    "date": "2024-11-10",
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 4,
+      "comment": "It felt like a different show this season, I did enjoy it however, but the pacing felt off. Maybe they can catch-up for next season!"
+    },
+    "season": 3,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Chris Prynoski"
     ]
   }
 ]
