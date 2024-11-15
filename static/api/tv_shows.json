@@ -2654,24 +2654,48 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 135934,
     "title": "The Legend of Vox Machina",
     "date": "2024-11-10",
-    "genres": [
-      "Animation",
-      "Sci-Fi & Fantasy"
-    ],
+    "type": "tv",
+    "tmdbId": 135934,
     "release_year": 2022,
     "review": {
       "rating": 4,
       "comment": "It felt like a different show this season, I did enjoy it however, but the pacing felt off. Maybe they can catch-up for next season!"
     },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
     "season": 3,
     "episode_count": null,
     "directors": [],
     "creators": [
       "Chris Prynoski"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 93405,
+    "title": "Squid Game",
+    "date": "2024-11-15",
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Drama"
+    ],
+    "release_year": 2021,
+    "review": {
+      "rating": 4,
+      "comment": "After years of convincing, my SO managed to get me to watch this show. It was pretty good, not the story I expected at all. The ending felt preditcable, but it was fun to watch!"
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [
+      "Hwang Dong-hyuk"
+    ],
+    "creators": [
+      "Hwang Dong-hyuk"
     ]
   }
 ]
