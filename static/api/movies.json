@@ -5856,20 +5856,38 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 1388624,
     "title": "Half-Life 2: 20th Anniversary Documentary",
     "date": "2024-11-16",
-    "genres": [
-      "Documentary"
-    ],
+    "type": "movie",
+    "tmdbId": 1388624,
     "release_year": 2024,
     "review": {
       "rating": 5,
       "comment": "Great doc about HL2 history and everything that went down at Valve at the time with lawsuits and Steam."
     },
+    "genres": [
+      "Documentary"
+    ],
     "directors": [
       "Danny O'Dwyer"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 1167027,
+    "title": "The Remarkable Life of Ibelin",
+    "date": "2024-11-16",
+    "genres": [
+      "Documentary",
+      "Animation"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Touching story about a person who found his sanctuary in playing video games, making a difference in his own way."
+    },
+    "directors": [
+      "Benjamin Ree"
     ]
   }
 ]
