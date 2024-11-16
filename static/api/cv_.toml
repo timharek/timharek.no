@@ -729,7 +729,7 @@ sources = ["https://git.sr.ht/~timharek/gpx-to-svg"]
 
 [[projects]]
 name = "yr"
-url = "https://git.sr.ht/~timharek/yr"
+url = "https://sr.ht/~timharek/yr"
 description = """
 CLI tool and Go package for getting weather data.
 """
@@ -757,3 +757,13 @@ My personal website where I write about stuff that interest me.
 startDate = 2019-03-28
 keywords = ["Deno", "API", "Personal", "Open source", "Website", "Blogging"]
 sources = ["https://git.sr.ht/~timharek/timharek.no"]
+
+[[projects]]
+name = "migadu package/CLI"
+url = "https://sr.ht/~timharek/migadu"
+description = """
+Go package and CLI for Migadu's API.
+"""
+startDate = 2024-10-27
+keywords = ["Go", "API", "Personal", "Open source", "Email", "CLI"]
+sources = ["https://git.sr.ht/~timharek/migadu"]
