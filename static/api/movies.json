@@ -5837,22 +5837,39 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 414906,
     "title": "The Batman",
     "date": "2024-10-19",
-    "genres": [
-      "Crime",
-      "Mystery",
-      "Thriller"
-    ],
+    "type": "movie",
+    "tmdbId": 414906,
     "release_year": 2022,
     "review": {
       "rating": 5,
       "comment": "Rewatch. The atmosphere in this movie is excellent, the world-building, I love it!"
     },
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "directors": [
       "Matt Reeves"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 1388624,
+    "title": "Half-Life 2: 20th Anniversary Documentary",
+    "date": "2024-11-16",
+    "genres": [
+      "Documentary"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 5,
+      "comment": "Great doc about HL2 history and everything that went down at Valve at the time with lawsuits and Steam."
+    },
+    "directors": [
+      "Danny O'Dwyer"
     ]
   }
 ]
