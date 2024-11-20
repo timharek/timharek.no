@@ -30,6 +30,7 @@
 		<outline text="FIGBERT" title="FIGBERT" description="" type="rss" version="RSS" htmlUrl="https://figbert.com/" xmlUrl="https://figbert.com/atom.xml"/>
 		<outline text="Fran Velasco" title="Fran Velasco" description="" type="rss" version="RSS" htmlUrl="https://franvelas.co/" xmlUrl="https://franvelas.co/feed.xml"/>
 		<outline text="friByte" title="friByte" description="" type="rss" version="RSS" htmlUrl="https://fribyte.no/" xmlUrl="https://fribyte.no/rss.xml"/>
+		<outline text="Gabriel Garrido" title="Gabriel Garrido" description="" type="rss" version="RSS" htmlUrl="https://garrido.io/" xmlUrl="https://garrido.io/index.xml"/>
 		<outline text="garrit.xyz" title="garrit.xyz" description="" type="rss" version="RSS" htmlUrl="https://garrit.xyz/" xmlUrl="https://garrit.xyz/rss.xml"/>
 		<outline text="Henrique Dias" title="Henrique Dias" description="" type="rss" version="RSS" htmlUrl="https://hacdias.com/" xmlUrl="https://hacdias.com/feed.json"/>
 		<outline text="HeydonWorks" title="HeydonWorks" description="" type="rss" version="RSS" htmlUrl="https://heydonworks.com/" xmlUrl="https://heydonworks.com/feed.xml"/>
@@ -74,7 +75,7 @@
 		<outline text="Steph Ango" title="Steph Ango" description="" type="rss" version="RSS" htmlUrl="https://stephango.com/" xmlUrl="https://stephango.com/feed.xml"/>
 		<outline text="taylor.town" title="taylor.town" description="" type="rss" version="RSS" htmlUrl="https://taylor.town/" xmlUrl="https://taylor.town/feed.xml"/>
 		<outline text="tempertemper" title="tempertemper" description="" type="rss" version="RSS" htmlUrl="https://www.tempertemper.net/" xmlUrl="https://www.tempertemper.net/feeds/main.json"/>
-		<outline text="The Jolly Teapot" title="The Jolly Teapot" description="" type="rss" version="RSS" htmlUrl="http://thejollyteapot.com/" xmlUrl="https://thejollyteapot.com/feed.rss"/>
+		<outline text="The Jolly Teapot" title="The Jolly Teapot" description="" type="rss" version="RSS" htmlUrl="https://thejollyteapot.com/" xmlUrl="https://thejollyteapot.com/feed.rss"/>
 		<outline text="Tim Hårek (for testing)" title="Tim Hårek (for testing)" description="" type="rss" version="RSS" htmlUrl="https://timharek.no/" xmlUrl="https://timharek.no/feed.xml"/>
 		<outline text="Tom Macwright" title="Tom Macwright" description="" type="rss" version="RSS" htmlUrl="https://macwright.com/" xmlUrl="https://macwright.com/rss.xml"/>
 		<outline text="Tom Macwright Micro" title="Tom Macwright Micro" description="" type="rss" version="RSS" htmlUrl="https://macwright.com/" xmlUrl="https://macwright.com/micro/rss.xml"/>
@@ -103,7 +104,7 @@
 	<outline text="Podcasts" title="Podcasts">
 		<outline text="JS Party" title="JS Party" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/jsparty" xmlUrl="https://changelog.com/jsparty/feed"/>
 		<outline text="Kortslutning" title="Kortslutning" description="" type="rss" version="RSS" htmlUrl="https://simplecast.superfeedr.com/" xmlUrl="https://feeds.simplecast.com/UBBVMPjb"/>
-		<outline text="Linux Unplugged" title="Linux Unplugged" description="" type="rss" version="RSS" htmlUrl="https://linuxunplugged.com/" xmlUrl="https://feeds.jupiterbroadcasting.com/lup"/>
+		<outline text="Linux Unplugged" title="Linux Unplugged" description="" type="rss" version="RSS" htmlUrl="http://jblive.fm/" xmlUrl="https://feeds.jupiterbroadcasting.com/lup"/>
 		<outline text="localfirst.fm" title="localfirst.fm" description="" type="rss" version="RSS" htmlUrl="https://www.localfirst.fm/" xmlUrl="https://www.localfirst.fm/feed"/>
 		<outline text="Plattformpodden" title="Plattformpodden" description="" type="rss" version="RSS" htmlUrl="https://plattformpodden.no/" xmlUrl="https://feeds.transistor.fm/plattformpodden"/>
 		<outline text="Self-Hosted" title="Self-Hosted" description="" type="rss" version="RSS" htmlUrl="https://selfhosted.show/" xmlUrl="https://feeds.fireside.fm/selfhosted/rss"/>
