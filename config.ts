@@ -57,5 +57,7 @@ export const config = {
     "mailto:tim@harek.no",
     "/public-key.asc",
     "https://www.printables.com/@timharek",
+    "https://www.openstreetmap.org/user/timharek",
+    "https://codeberg.org/timharek",
   ],
 } as const;

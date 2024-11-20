@@ -10,10 +10,12 @@ E-mail: [tim@harek.no](mailto:tim@harek.no)
 
 ## Across the web
 
-- [SourceHut](https://sr.ht/~timharek)
+- [Codeberg](https://codeberg.org/timharek)
 - [GitHub](https://github.com/timharek)
-- [Printables](https://www.printables.com/@timharek)
 - [JSR](https://jsr.io/@timharek)
+- [OpenStreetMap](https://www.openstreetmap.org/user/timharek)
+- [Printables](https://www.printables.com/@timharek)
+- [SourceHut](https://sr.ht/~timharek)
 
 ## PGP
 
