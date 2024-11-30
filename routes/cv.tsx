@@ -278,6 +278,6 @@ function formatDate(dateString: string) {
       .format(date);
   } catch (error) {
     console.error(error);
-    throw new Error(error);
+    throw new Error("failed to format date");
   }
 }
