@@ -487,11 +487,11 @@
     }
   },
   {
-    "type": "travel",
     "title": "Wedding abroad",
     "date": "2024-08-28",
-    "to_date": "2024-08-31",
+    "type": "travel",
     "occasion": "pleasure",
+    "to_date": "2024-08-31",
     "location": {
       "country": {
         "name": "Northern Ireland",
@@ -500,6 +500,22 @@
       "cities": [
         "Belfast",
         "Bangor"
+      ]
+    }
+  },
+  {
+    "type": "travel",
+    "title": "Meeting, demo and factory tour",
+    "date": "2024-11-26",
+    "to_date": "2024-11-27",
+    "occasion": "business",
+    "location": {
+      "country": {
+        "name": "Norway",
+        "emoji": "🇳🇴"
+      },
+      "cities": [
+        "Trondheim"
       ]
     }
   }
