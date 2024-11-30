@@ -77,6 +77,8 @@
     "pre-push": "deno test -A"
   },
   "exclude": [
-    "**/_fresh/*"
+    "**/_fresh/*",
+    "static",
+    ".build.yml"
   ]
 }
