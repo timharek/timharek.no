@@ -2699,21 +2699,44 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 273170,
     "title": "Avlogga",
     "date": "2024-11-15",
-    "genres": [
-      "Documentary"
-    ],
+    "type": "tv",
+    "tmdbId": 273170,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Norwegian show about disconnecting and not using a smartphone in a year. Cool project, leanred lots!"
     },
+    "genres": [
+      "Documentary"
+    ],
     "season": 1,
     "episode_count": null,
     "directors": [],
     "creators": []
+  },
+  {
+    "type": "tv",
+    "tmdbId": 194764,
+    "title": "The Penguin",
+    "date": "2024-12-01",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Great show! Intense finale, was not expecting that!"
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [
+      "Craig Zobel"
+    ],
+    "creators": [
+      "Lauren LeFranc"
+    ]
   }
 ]
