@@ -5873,21 +5873,39 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 1167027,
     "title": "The Remarkable Life of Ibelin",
     "date": "2024-11-16",
-    "genres": [
-      "Documentary",
-      "Animation"
-    ],
+    "type": "movie",
+    "tmdbId": 1167027,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Touching story about a person who found his sanctuary in playing video games, making a difference in his own way."
     },
+    "genres": [
+      "Documentary",
+      "Animation"
+    ],
     "directors": [
       "Benjamin Ree"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 1365712,
+    "title": "Money Electric: The Bitcoin Mystery",
+    "date": "2024-12-04",
+    "genres": [
+      "Documentary",
+      "Mystery"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Learned lots of the origin of Bitcoin, and about the mystry surrounding its creator."
+    },
+    "directors": [
+      "Cullen Hoback"
     ]
   }
 ]
