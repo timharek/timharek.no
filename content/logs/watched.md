@@ -9,6 +9,7 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - The Bear S3
+- Silo S2
 
 Watchlist:
 
@@ -23,7 +24,6 @@ Watchlist:
 - Past Lives (2023)
 - Secret Level S1
 - Severance S2
-- Silo S2
 - Speak No Evil (2024)
 - Spermageddon (2024)
 - The Mauritanian (2021)
