@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updatedAt = 2024-06-22
+updatedAt = 2024-12-04
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not
@@ -49,8 +49,6 @@ when possible!_
 
 |          |                                                                                                                                  |
 | -------: | :------------------------------------------------------------------------------------------------------------------------------- |
-| 2 500 kr | [The Wool Fleece Hoodie, black L](https://www.northernplayground.no/nb/shop/the-wool-fleece-hoodie?fit=men&size=L&color=C000000) |
-| 7 500 kr | [The Last Jacket, dark gray L](https://www.northernplayground.no/nb/shop/the-last-jacket?fit=men&color=C464646&size=L)           |
 |        ? | Barefoot indoor shoes                                                                                                            |
 
 ## Tech
