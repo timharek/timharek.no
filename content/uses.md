@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-10-21
+updatedAt = 2024-12-04
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -41,7 +41,7 @@ some snapshots of my current workspace.
 |  Hand-held | Steam Deck 512GB                         |
 |   Consoles | PlayStation 5 disc, Nintendo Switch OLED |
 |     Server | Zimaboard 432                            |
-| 3D-printer | Original Prusa MK4                       |
+| 3D-printer | Original Prusa MK4S                      |
 
 <figure>
   <img
