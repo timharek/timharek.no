@@ -1,7 +1,7 @@
 +++
 title = "How I remember birthdays"
 description = "Or how I use technology to remember birthdays."
-tags = ["Thoughts"]
+tags = ["Tutorial"]
 +++
 
 Since I remove social media from my life friends and family has asked me
