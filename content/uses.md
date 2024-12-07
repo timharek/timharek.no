@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-12-04
+updatedAt = 2024-12-07
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -86,7 +86,6 @@ This is software that I use on my devices. Inspired by [App defaults].
 | Keyboard shortcuts | [SKHD]       |
 |       Color picker | [Pika]       |
 |       Productivity | [Alfred]     |
-|       App switcher | [AltTab]     |
 |            Updater | [MacUpdater] |
 |    Network monitor | [Lulu]       |
 
@@ -148,7 +147,6 @@ this is what I use daily.
 [1Password]: https://1password.com
 [Pika]: https://superhighfives.com/pika
 [Alfred]: https://www.alfredapp.com/
-[AltTab]: https://alt-tab-macos.netlify.app/
 [Field notes]: https://fieldnotesbrand.com/
 [field_notes_cover]:
   https://fieldnotesbrand.com/products/everyday-inspiration-leather-notebook-cover
