@@ -138,6 +138,8 @@ function ProjectWrapper({ project }: { project: Project }) {
   };
 
   const isJSRModule = project.keywords.includes("JSR");
+  const isGoPackage = project.keywords.includes("Go") &&
+    project.keywords.includes("Package");
   return (
     <div class="py-4 md:grid grid-cols-[0.25fr_1fr]">
       <ProjectDates start={dates.start} end={dates.end} />
@@ -148,6 +150,7 @@ function ProjectWrapper({ project }: { project: Project }) {
             : project.name} {project.client && "- " + project.client}
         </h2>
         {isJSRModule && project.url && <JSRDetails url={project.url} />}
+        {isGoPackage && project.url && <GoDetails sources={project.sources} />}
         <p class="">{project.description}</p>
         {project.sources && (
           <Link href={project.sources[0]} label="Source code" target="_blank" />
@@ -222,6 +225,23 @@ function JSRDetails({ url }: { url: string }) {
       </a>
       <a href={url}>
         <img src={scoreBadgeURL} alt="" />
+      </a>
+    </div>
+  );
+}
+
+function GoDetails({ sources }: { sources?: string[] }) {
+  if (!sources) {
+    return <></>;
+  }
+  const source = sources[0].replaceAll("https://", "");
+  const goReference = `https://pkg.go.dev/${source}/`;
+  const goReferenceBadge = `https://pkg.go.dev/badge/${source}/.svg`;
+
+  return (
+    <div className="flex gap-2">
+      <a href={goReference}>
+        <img src={goReferenceBadge} alt="Go reference" />
       </a>
     </div>
   );
