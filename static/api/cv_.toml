@@ -745,7 +745,7 @@ API to get trash collection days from BIR.no, making it possible to subscribe to
 my address via calendar instead of relying on their app.
 """
 startDate = 2024-10-05
-keywords = ["Go", "API", "Personal", "Open source", "Package"]
+keywords = ["Go", "API", "Personal", "Open source"]
 sources = ["https://git.sr.ht/~timharek/bir"]
 
 [[projects]]
@@ -765,7 +765,7 @@ description = """
 Go package and CLI for Migadu's API.
 """
 startDate = 2024-10-27
-keywords = ["Go", "API", "Personal", "Open source", "Email", "CLI"]
+keywords = ["Go", "API", "Personal", "Open source", "Email", "CLI", "Package"]
 sources = ["https://git.sr.ht/~timharek/migadu"]
 
 [[projects]]
@@ -775,7 +775,7 @@ description = """
 API-client for accessing OpenLibrary's API for searching books, authors etc.
 """
 startDate = 2024-12-07
-keywords = ["Tool", "Go", "API", "Personal", "Open source"]
+keywords = ["Tool", "Go", "API", "Personal", "Open source", "Package"]
 sources = [
   "https://git.sr.ht/~timharek/openlibrary-go"
 ]
