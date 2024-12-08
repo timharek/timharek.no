@@ -767,3 +767,15 @@ Go package and CLI for Migadu's API.
 startDate = 2024-10-27
 keywords = ["Go", "API", "Personal", "Open source", "Email", "CLI"]
 sources = ["https://git.sr.ht/~timharek/migadu"]
+
+[[projects]]
+name = "openlibrary-go"
+url = "https://sr.ht/~timharek/openlibrary-go/"
+description = """
+API-client for accessing OpenLibrary's API for searching books, authors etc.
+"""
+startDate = 2024-12-07
+keywords = ["Tool", "Go", "API", "Personal", "Open source"]
+sources = [
+  "https://git.sr.ht/~timharek/openlibrary-go"
+]
