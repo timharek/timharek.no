@@ -5891,21 +5891,41 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 1365712,
     "title": "Money Electric: The Bitcoin Mystery",
     "date": "2024-12-04",
-    "genres": [
-      "Documentary",
-      "Mystery"
-    ],
+    "type": "movie",
+    "tmdbId": 1365712,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Learned lots of the origin of Bitcoin, and about the mystry surrounding its creator."
     },
+    "genres": [
+      "Documentary",
+      "Mystery"
+    ],
     "directors": [
       "Cullen Hoback"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 670,
+    "title": "Oldboy",
+    "date": "2024-12-14",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery",
+      "Action"
+    ],
+    "release_year": 2003,
+    "review": {
+      "rating": 3,
+      "comment": "I had high expectations for this. I guessed the twist at the beginning when they introduced a character... The movie was a letdown because of that. I think I've seen to many movies over the years."
+    },
+    "directors": [
+      "Park Chan-wook"
     ]
   }
 ]
