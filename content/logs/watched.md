@@ -8,8 +8,8 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
-- The Bear S3
 - Silo S2
+- Secret Level S1
 
 Watchlist:
 
@@ -22,7 +22,6 @@ Watchlist:
 - Mickey 17 (2025)
 - Paddleton (2019)
 - Past Lives (2023)
-- Secret Level S1
 - Severance S2
 - Speak No Evil (2024)
 - Spermageddon (2024)

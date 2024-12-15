@@ -2717,19 +2717,19 @@
     "creators": []
   },
   {
-    "type": "tv",
-    "tmdbId": 194764,
     "title": "The Penguin",
     "date": "2024-12-01",
-    "genres": [
-      "Drama",
-      "Crime"
-    ],
+    "type": "tv",
+    "tmdbId": 194764,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Great show! Intense finale, was not expecting that!"
     },
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
     "season": 1,
     "episode_count": null,
     "directors": [
@@ -2737,6 +2737,27 @@
     ],
     "creators": [
       "Lauren LeFranc"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 136315,
+    "title": "The Bear",
+    "date": "2024-12-15",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "release_year": 2022,
+    "review": {
+      "rating": 3,
+      "comment": "This season took us a while. We never go hooked like the two previous seasons. The story felt like it was all over the place."
+    },
+    "season": 3,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Christopher Storer"
     ]
   }
 ]
