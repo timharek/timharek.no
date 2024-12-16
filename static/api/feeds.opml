@@ -58,8 +58,7 @@
 		<outline text="N O D E" title="N O D E" description="" type="rss" version="RSS" htmlUrl="https://N-O-D-E.net/" xmlUrl="https://n-o-d-e.net/rss/rss.xml"/>
 		<outline text="Nick Scialli" title="Nick Scialli" description="" type="rss" version="RSS" htmlUrl="https://nick.scialli.me/" xmlUrl="https://nick.scialli.me/feed/feed.json"/>
 		<outline text="Nils Norman Haukås" title="Nils Norman Haukås" description="" type="rss" version="RSS" htmlUrl="https://nilsnh.no/" xmlUrl="https://nilsnh.no/index.xml"/>
-		<outline text="NOYB.eu" title="NOYB.eu" description="" type="rss" version="RSS" htmlUrl="https://noyb.eu/en" xmlUrl="https://noyb.eu/en/rss"/>
-		<outline text="Out of the Software Crisis (Newsletter)" title="Out of the Software Crisis (Newsletter)" description="" type="rss" version="RSS" htmlUrl="https://softwarecrisis.dev/" xmlUrl="https://softwarecrisis.dev/feed.xml"/>
+		<outline text="Out of the Software Crisis" title="Out of the Software Crisis" description="" type="rss" version="RSS" htmlUrl="https://softwarecrisis.dev/" xmlUrl="https://softwarecrisis.dev/feed.xml"/>
 		<outline text="Paul Stamatiou" title="Paul Stamatiou" description="" type="rss" version="RSS" htmlUrl="https://paulstamatiou.com/" xmlUrl="https://paulstamatiou.com/posts.xml"/>
 		<outline text="Personvernbloggen" title="Personvernbloggen" description="" type="rss" version="RSS" htmlUrl="https://www.personvernbloggen.no/" xmlUrl="https://www.personvernbloggen.no/feed/"/>
 		<outline text="Peter Cammeraat" title="Peter Cammeraat" description="" type="rss" version="RSS" htmlUrl="https://petercammeraat.net/" xmlUrl="https://petercammeraat.net/index.xml"/>
@@ -74,7 +73,6 @@
 		<outline text="Sourcehut" title="Sourcehut" description="" type="rss" version="RSS" htmlUrl="https://sourcehut.org/blog/" xmlUrl="https://sourcehut.org/blog/index.xml"/>
 		<outline text="Steph Ango" title="Steph Ango" description="" type="rss" version="RSS" htmlUrl="https://stephango.com/" xmlUrl="https://stephango.com/feed.xml"/>
 		<outline text="taylor.town" title="taylor.town" description="" type="rss" version="RSS" htmlUrl="https://taylor.town/" xmlUrl="https://taylor.town/feed.xml"/>
-		<outline text="tempertemper" title="tempertemper" description="" type="rss" version="RSS" htmlUrl="https://www.tempertemper.net/" xmlUrl="https://www.tempertemper.net/feeds/main.json"/>
 		<outline text="The Jolly Teapot" title="The Jolly Teapot" description="" type="rss" version="RSS" htmlUrl="https://thejollyteapot.com/" xmlUrl="https://thejollyteapot.com/feed.rss"/>
 		<outline text="Tim Hårek (for testing)" title="Tim Hårek (for testing)" description="" type="rss" version="RSS" htmlUrl="https://timharek.no/" xmlUrl="https://timharek.no/feed.xml"/>
 		<outline text="Tom Macwright" title="Tom Macwright" description="" type="rss" version="RSS" htmlUrl="https://macwright.com/" xmlUrl="https://macwright.com/rss.xml"/>
@@ -82,7 +80,6 @@
 		<outline text="Victoria Drake" title="Victoria Drake" description="" type="rss" version="RSS" htmlUrl="https://victoria.dev/archive/" xmlUrl="https://victoria.dev/blog/index.xml"/>
 		<outline text="xkcd" title="xkcd" description="" type="rss" version="RSS" htmlUrl="https://xkcd.com/" xmlUrl="https://xkcd.com/rss.xml"/>
 		<outline text="Yarmo" title="Yarmo" description="" type="rss" version="RSS" htmlUrl="https://yarmo.eu/blog/" xmlUrl="https://yarmo.eu/atom.xml"/>
-		<outline text="ZSA Blog" title="ZSA Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.zsa.io/" xmlUrl="https://blog.zsa.io/posts.rss"/>
 		<outline text="マリウス" title="マリウス" description="" type="rss" version="RSS" htmlUrl="https://xn--gckvb8fzb.com/" xmlUrl="https://xn--gckvb8fzb.com/index.xml"/>
 	</outline>
 	<outline text="Hardware" title="Hardware">
@@ -90,6 +87,7 @@
 		<outline text="Framework" title="Framework" description="" type="rss" version="RSS" htmlUrl="https://frame.work/" xmlUrl="https://frame.work/blog.rss"/>
 		<outline text="Playdate News" title="Playdate News" description="" type="rss" version="RSS" htmlUrl="https://news.play.date/" xmlUrl="https://news.play.date/index.xml"/>
 		<outline text="Prusa blog" title="Prusa blog" description="" type="rss" version="RSS" htmlUrl="https://blog.prusa3d.com/" xmlUrl="https://blog.prusa3d.com/feed/"/>
+		<outline text="ZSA Blog" title="ZSA Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.zsa.io/" xmlUrl="https://blog.zsa.io/posts.rss"/>
 	</outline>
 	<outline text="News" title="News">
 		<outline text="Changelog posts" title="Changelog posts" description="" type="rss" version="RSS" htmlUrl="https://changelog.com/posts" xmlUrl="https://changelog.com/posts/feed"/>
@@ -97,6 +95,7 @@
 		<outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="https://hnrss.org/frontpage"/>
 		<outline text="kode24" title="kode24" description="" type="rss" version="RSS" htmlUrl="https://rss.kode24.no/" xmlUrl="https://rss.kode24.no/"/>
 		<outline text="Lobsters" title="Lobsters" description="" type="rss" version="RSS" htmlUrl="https://lobste.rs/" xmlUrl="https://lobste.rs/rss"/>
+		<outline text="NOYB.eu" title="NOYB.eu" description="" type="rss" version="RSS" htmlUrl="https://noyb.eu/en" xmlUrl="https://noyb.eu/en/rss"/>
 		<outline text="NRKbeta" title="NRKbeta" description="" type="rss" version="RSS" htmlUrl="https://nrkbeta.no/" xmlUrl="https://nrkbeta.no/feed/"/>
 		<outline text="Tek.no" title="Tek.no" description="" type="rss" version="RSS" htmlUrl="https://www.tek.no/" xmlUrl="https://www.tek.no/api/rss/rss2/medium/collections"/>
 		<outline text="The Verge" title="The Verge" description="" type="rss" version="RSS" htmlUrl="https://www.theverge.com/" xmlUrl="https://www.theverge.com/rss/front-page/index.xml"/>
