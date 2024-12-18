@@ -9,7 +9,6 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - Silo S2
-- Secret Level S1
 
 Watchlist:
 

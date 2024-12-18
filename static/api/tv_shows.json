@@ -2740,24 +2740,46 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 136315,
     "title": "The Bear",
     "date": "2024-12-15",
-    "genres": [
-      "Drama",
-      "Comedy"
-    ],
+    "type": "tv",
+    "tmdbId": 136315,
     "release_year": 2022,
     "review": {
       "rating": 3,
       "comment": "This season took us a while. We never go hooked like the two previous seasons. The story felt like it was all over the place."
     },
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "season": 3,
     "episode_count": null,
     "directors": [],
     "creators": [
       "Christopher Storer"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 261579,
+    "title": "Secret Level",
+    "date": "2024-12-18",
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Lots of great epiosdes, some better than others. I enjoyed ep 4, 5, 6, 7, 8, 9 and 11 the most."
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Tim Miller"
     ]
   }
 ]
