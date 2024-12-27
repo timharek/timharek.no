@@ -24,25 +24,16 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
         Skip to content
       </a>
       <header
-        class="print:hidden max-w-screen-md mx-auto px-4 flex justify-between items-center my-4"
+        class="print:hidden max-w-screen-md mx-auto px-4 flex gap-4 items-center my-4"
         aria-label="Main navigation"
       >
-        <a
-          class="group flex gap-2 items-center"
-          rel="me"
-          href="/"
-          aria-label="Home"
-        >
-          <Logo className="w-16 h-16" />
-          <div className="md:border-4 border-bg md:p-1 md:group-hover:border-primary transition-all">
-            <div className="group-hover:underline bg-primary h-max text-bg font-bold p-1">
-              Tim Hårek
-            </div>
-          </div>
-        </a>
+        <Logo className="w-16 h-16" />
 
         <nav>
           <ul class="flex gap-4">
+            <li>
+              <Link href="/" label="Home" />
+            </li>
             {navigation.map((item) => (
               <li>
                 <Link href={item.path} label={item.title} />
