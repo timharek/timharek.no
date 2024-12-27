@@ -81,10 +81,10 @@ async function getRecentBookmarks(): Promise<Bookmark[]> {
 
 function makeBookmarksIntoLinkList(bookmarks: Bookmark[]): string {
   const markdownList = bookmarks.map((bookmark) =>
-    `- [${bookmark.website_title}] – ${bookmark.notes}`
+    `- [${bookmark.title}] – ${bookmark.notes}`
   );
   const footerLinks = bookmarks.map((bookmark) =>
-    `[${bookmark.website_title}]: ${bookmark.url}`
+    `[${bookmark.title}]: ${bookmark.url}`
   );
 
   return `## 🌐 Links
