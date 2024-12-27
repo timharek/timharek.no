@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-# Hi, I'm Tim Hårek 👋
+# Hi, I'm Tim 👋
 
 I'm a technologist from Norway. I care about creating solutions that respects
 people in terms of privacy, security and user experience. This is my corner on

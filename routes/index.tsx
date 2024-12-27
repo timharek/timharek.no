@@ -6,7 +6,7 @@ export default async function Home() {
   return (
     <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
       <section class="space-y-4 md:space-y-4">
-        <h1 class="text-4xl font-semibold">Hi, I'm Tim Hårek 👋</h1>
+        <h1 class="text-4xl font-semibold">Hi, I'm Tim 👋</h1>
         <p class="max-w-prose">
           I'm a technologist from Norway. I care about creating solutions that
           respects people's privacy, security and user experience. This is my
