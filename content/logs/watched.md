@@ -9,6 +9,8 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - Silo S2
+- Squid Game S2
+- What If? S3
 
 Watchlist:
 
