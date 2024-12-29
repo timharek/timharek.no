@@ -27,7 +27,7 @@ export function Header({ currentPath, breadcrumbs }: HeaderProps) {
         class="print:hidden max-w-screen-md mx-auto px-4 flex gap-4 items-center my-4"
         aria-label="Main navigation"
       >
-        <Logo className="w-16 h-16" />
+        <Logo className="w-14 h-14" />
 
         <nav>
           <ul class="flex gap-4">
