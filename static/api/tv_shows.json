@@ -2761,25 +2761,45 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 261579,
     "title": "Secret Level",
     "date": "2024-12-18",
-    "genres": [
-      "Animation",
-      "Sci-Fi & Fantasy",
-      "Action & Adventure"
-    ],
+    "type": "tv",
+    "tmdbId": 261579,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Lots of great epiosdes, some better than others. I enjoyed ep 4, 5, 6, 7, 8, 9 and 11 the most."
     },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
     "season": 1,
     "episode_count": null,
     "directors": [],
     "creators": [
       "Tim Miller"
     ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 242977,
+    "title": "La Palma",
+    "date": "2024-12-31",
+    "genres": [
+      "Drama"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 1,
+      "comment": "Just. Really. Terrible. Haven't seen any other Norwegian disaster movie, but if they are like this I don't want to watch them either."
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [
+      "Kasper Barfoed"
+    ],
+    "creators": []
   }
 ]
