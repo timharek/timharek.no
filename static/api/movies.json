@@ -5929,21 +5929,40 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 230731,
     "title": "Louis & Luca and the Snow Machine",
     "date": "2024-12-22",
-    "genres": [
-      "Animation",
-      "Family"
-    ],
+    "type": "movie",
+    "tmdbId": 230731,
     "release_year": 2013,
     "review": {
       "rating": 4,
       "comment": "Flåklypa!"
     },
+    "genres": [
+      "Animation",
+      "Family"
+    ],
     "directors": [
       "Rasmus A. Sivertsen"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 877817,
+    "title": "Wolfs",
+    "date": "2025-01-01",
+    "genres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 3,
+      "comment": "The first/last movie we watched for New Year's Eve. Fun to see Clooney and Pitt work together again, but not much more than that."
+    },
+    "directors": [
+      "Jon Watts"
     ]
   }
 ]
