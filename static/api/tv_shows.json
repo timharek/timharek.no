@@ -2783,23 +2783,43 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 242977,
     "title": "La Palma",
     "date": "2024-12-31",
-    "genres": [
-      "Drama"
-    ],
+    "type": "tv",
+    "tmdbId": 242977,
     "release_year": 2024,
     "review": {
       "rating": 1,
       "comment": "Just. Really. Terrible. Haven't seen any other Norwegian disaster movie, but if they are like this I don't want to watch them either."
     },
+    "genres": [
+      "Drama"
+    ],
     "season": 1,
     "episode_count": null,
     "directors": [
       "Kasper Barfoed"
     ],
+    "creators": []
+  },
+  {
+    "type": "tv",
+    "tmdbId": 91363,
+    "title": "What If...?",
+    "date": "2025-01-02",
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "release_year": 2021,
+    "review": {
+      "rating": 2,
+      "comment": "Disappointed, felt like there was no stakes in this season at all. And it's a huge waste that this was the last season."
+    },
+    "season": 3,
+    "episode_count": null,
+    "directors": [],
     "creators": []
   }
 ]
