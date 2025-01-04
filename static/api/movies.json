@@ -5947,22 +5947,41 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 877817,
     "title": "Wolfs",
     "date": "2025-01-01",
-    "genres": [
-      "Comedy",
-      "Action",
-      "Crime"
-    ],
+    "type": "movie",
+    "tmdbId": 877817,
     "release_year": 2024,
     "review": {
       "rating": 3,
       "comment": "The first/last movie we watched for New Year's Eve. Fun to see Clooney and Pitt work together again, but not much more than that."
     },
+    "genres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
     "directors": [
       "Jon Watts"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 98,
+    "title": "Gladiator",
+    "date": "2025-01-04",
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "release_year": 2000,
+    "review": {
+      "rating": 4,
+      "comment": "Can't remember the last time I watched this, but it still holds up!"
+    },
+    "directors": [
+      "Ridley Scott"
     ]
   }
 ]
