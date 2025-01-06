@@ -2803,23 +2803,45 @@
     "creators": []
   },
   {
-    "type": "tv",
-    "tmdbId": 91363,
     "title": "What If...?",
     "date": "2025-01-02",
-    "genres": [
-      "Animation",
-      "Action & Adventure",
-      "Sci-Fi & Fantasy"
-    ],
+    "type": "tv",
+    "tmdbId": 91363,
     "release_year": 2021,
     "review": {
       "rating": 2,
       "comment": "Disappointed, felt like there was no stakes in this season at all. And it's a huge waste that this was the last season."
     },
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
     "season": 3,
     "episode_count": null,
     "directors": [],
     "creators": []
+  },
+  {
+    "type": "tv",
+    "tmdbId": 93405,
+    "title": "Squid Game",
+    "date": "2025-01-04",
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Drama"
+    ],
+    "release_year": 2021,
+    "review": {
+      "rating": 3,
+      "comment": "Great start, was captivated initially, but the ending was not so great. The last season had much more open ending whereas this season you know there will be season 3."
+    },
+    "season": 2,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Hwang Dong-hyuk"
+    ]
   }
 ]

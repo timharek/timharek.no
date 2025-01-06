@@ -9,7 +9,6 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - Silo S2
-- Squid Game S2
 - Creature Commandos S1
 
 Watchlist:
