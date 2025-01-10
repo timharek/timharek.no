@@ -2823,25 +2823,47 @@
     "creators": []
   },
   {
-    "type": "tv",
-    "tmdbId": 93405,
     "title": "Squid Game",
     "date": "2025-01-04",
-    "genres": [
-      "Action & Adventure",
-      "Mystery",
-      "Drama"
-    ],
+    "type": "tv",
+    "tmdbId": 93405,
     "release_year": 2021,
     "review": {
       "rating": 3,
       "comment": "Great start, was captivated initially, but the ending was not so great. The last season had much more open ending whereas this season you know there will be season 3."
     },
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Drama"
+    ],
     "season": 2,
     "episode_count": null,
     "directors": [],
     "creators": [
       "Hwang Dong-hyuk"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 219543,
+    "title": "Creature Commandos",
+    "date": "2025-01-09",
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Awesome characters, haven't heard of any of them before except Weasel."
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "James Gunn"
     ]
   }
 ]
