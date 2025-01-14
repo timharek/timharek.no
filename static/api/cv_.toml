@@ -1,8 +1,8 @@
-last_update = 2024-10-24
+last_update = 2025-01-14
 
 [basics]
 name = "Tim Hårek Andreassen"
-label = "Software engineer"
+label = "Tech lead"
 image = "https://timharek.no/.well-known/avatar"
 email = "tim@harek.no"
 phone = "+47 400 43 672"
@@ -37,9 +37,21 @@ url = "https://www.printables.com/@timharek"
 
 [[work]]
 name = "Value Technology"
+position = "Tech lead & partner"
+url = "https://value.no"
+startDate = 2025-01-01
+highlights = [
+  "Tech lead and architect for full-stack applications serving internal and external clients.",
+  "Hands-on directly with customers.",
+  "Project manage multiple projects simultaneously (pro juggler)."
+]
+
+[[work]]
+name = "Value Technology"
 position = "Software engineer & partner"
 url = "https://value.no"
 startDate = 2023-08-07
+endDate = 2024-12-31
 highlights = [
   "Lead architect for full-stack applications serving internal and external clients",
   "Designed and implemented cloud infrastructure automation using Google Cloud Platform and Pulumi",
@@ -789,3 +801,26 @@ Super simple website for Bergen Rørarbeid.
 startDate = 2024-12-31
 endDate = 2024-12-31
 keywords = ["HTML", "Work", "Website"]
+
+[[projects]]
+name = "Rewrote webservice in Go"
+client = "Gaitline"
+roles = ["Tech lead", "Developer"]
+description = """
+Rewrote a webservice for generating EDIFACT-files, that was initially written in
+TypeScript/Deno. Now written in Go, with less code and less dependencies.
+"""
+startDate = 2024-11-08
+endDate = 2024-11-29
+keywords = ["API", "Go", "GCP", "Value", "Work", "SFTP", "Email", "EDIFACT"]
+
+[[projects]]
+name = "Contracting Works integration with 24SevenOffice"
+client = "24SevenOffice/Value"
+roles = ["Tech lead", "Developer"]
+description = """
+An integration that makes orders and project management easier for contractors.
+Lots of moving parts. A tight-integration between the systems.
+"""
+startDate = 2024-09-15
+keywords = ["API", "Go", "GCP", "Value", "Work", "ERP", "Integration"]
