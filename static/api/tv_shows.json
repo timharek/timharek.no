@@ -2845,25 +2845,48 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 219543,
     "title": "Creature Commandos",
     "date": "2025-01-09",
-    "genres": [
-      "Animation",
-      "Sci-Fi & Fantasy",
-      "Action & Adventure"
-    ],
+    "type": "tv",
+    "tmdbId": 219543,
     "release_year": 2024,
     "review": {
       "rating": 4,
       "comment": "Awesome characters, haven't heard of any of them before except Weasel."
     },
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
     "season": 1,
     "episode_count": null,
     "directors": [],
     "creators": [
       "James Gunn"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 118642,
+    "title": "Mr. & Mrs. Smith",
+    "date": "2025-01-13",
+    "genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Fun show, lots of laughs and the acting was really good. It wasn't too serious, and the spy genre didn't disappoint."
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Donald Glover",
+      "Francesca Sloane"
     ]
   }
 ]
