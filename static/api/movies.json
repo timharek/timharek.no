@@ -5966,22 +5966,39 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 98,
     "title": "Gladiator",
     "date": "2025-01-04",
-    "genres": [
-      "Action",
-      "Drama",
-      "Adventure"
-    ],
+    "type": "movie",
+    "tmdbId": 98,
     "release_year": 2000,
     "review": {
       "rating": 4,
       "comment": "Can't remember the last time I watched this, but it still holds up!"
     },
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
     "directors": [
       "Ridley Scott"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 7345,
+    "title": "There Will Be Blood",
+    "date": "2025-01-17",
+    "genres": [
+      "Drama"
+    ],
+    "release_year": 2007,
+    "review": {
+      "rating": 4,
+      "comment": "Greed! I kept waiting for someone to fuck over the main characters."
+    },
+    "directors": [
+      "Paul Thomas Anderson"
     ]
   }
 ]

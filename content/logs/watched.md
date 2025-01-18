@@ -8,7 +8,6 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
-- Silo S2
 
 Watchlist:
 
@@ -26,7 +25,6 @@ Watchlist:
 - Spermageddon (2024)
 - The Mauritanian (2021)
 - The Sweet East (2023)
-- There Will Be Blood (2007)
 
 <details>
   <summary>Legend</summary>
