@@ -34,7 +34,7 @@ export const handler: Handlers<BlogPostProps, ServerState> = {
     ctx.state.title = `${post.title} - ${ctx.state.title}`;
     ctx.state.breadcrumbs = [
       {
-        title: "Index",
+        title: "Home",
         path: "/",
       },
       {

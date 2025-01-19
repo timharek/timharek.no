@@ -33,7 +33,7 @@ export const handler: Handlers<Props, ServerState> = {
       }
       ctx.state.breadcrumbs = [
         {
-          title: "Index",
+          title: "Home",
           path: "/",
         },
         {

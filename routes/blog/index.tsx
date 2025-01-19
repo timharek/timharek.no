@@ -29,7 +29,7 @@ export const handler: Handlers<BlogProps, ServerState> = {
     }
     ctx.state.breadcrumbs = [
       {
-        title: "Index",
+        title: "Home",
         path: "/",
       },
       {

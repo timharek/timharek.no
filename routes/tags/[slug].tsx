@@ -30,7 +30,7 @@ export const handler: Handlers<TagPageProps, ServerState> = {
     ctx.state.title = `Tags: ${tag.title} - ${ctx.state.title}`;
     ctx.state.breadcrumbs = [
       {
-        title: "Index",
+        title: "Home",
         path: "/",
       },
       {

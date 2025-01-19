@@ -43,7 +43,7 @@ export const handler: Handlers<Projects, ServerState> = {
       }
       ctx.state.breadcrumbs = [
         {
-          title: "Index",
+          title: "Home",
           path: "/",
         },
         {

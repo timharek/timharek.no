@@ -70,7 +70,7 @@ export const handler: Handlers<LogProps, ServerState> = {
       ctx.state.description = page.description;
     }
     ctx.state.breadcrumbs = [
-      { title: "Index", path: "/" },
+      { title: "Home", path: "/" },
       { title: "Logs", path: "/logs" },
       { title: page.title, path: url.pathname },
     ];

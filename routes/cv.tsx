@@ -110,7 +110,7 @@ export const handler: Handlers<CVProps, ServerState> = {
       ctx.state.description = "Tim Hårek's CV.";
       ctx.state.breadcrumbs = [
         {
-          title: "Index",
+          title: "Home",
           path: "/",
         },
         {
