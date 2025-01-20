@@ -8,6 +8,7 @@ Movies and TV shows that I've watched. Not a complete list.
 Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
+- Severance S2
 
 Watchlist:
 
@@ -20,7 +21,6 @@ Watchlist:
 - Mickey 17 (2025)
 - Paddleton (2019)
 - Past Lives (2023)
-- Severance S2
 - Speak No Evil (2024)
 - Spermageddon (2024)
 - The Mauritanian (2021)
