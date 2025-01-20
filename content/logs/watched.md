@@ -26,6 +26,8 @@ Watchlist:
 - The Mauritanian (2021)
 - The Sweet East (2023)
 - Syk pike (2022)
+- Lucky (2017)
+- Paris, Texas (1984)
 
 <details>
   <summary>Legend</summary>
