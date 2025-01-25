@@ -7,7 +7,6 @@ Books that I've read.
 
 Currently reading:
 
-- How the world really works (2022), Vaclav Smil.
 - The Norse Myths (1980), Kevin Crossley-Holland
 
 Reading list:

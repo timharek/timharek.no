@@ -524,20 +524,56 @@
     ]
   },
   {
-    "type": "book",
     "title": "A Game of Thrones",
     "date": "2024-11-07",
+    "type": "book",
     "publish_year": 1996,
-    "author": [
-      "George R. R. Martin"
-    ],
     "review": {
       "rating": 4,
       "comment": "The TV shows are really faithful to the first book. I enjoyed this, but it was very long."
     },
+    "author": [
+      "George R. R. Martin"
+    ],
     "genres": [
       "Fantasy",
       "Adventure"
+    ]
+  },
+  {
+    "title": "How the World Really Works",
+    "date": "2025-01-25",
+    "type": "book",
+    "publish_year": 2022,
+    "review": {
+      "rating": 4,
+      "comment": "It took me almost two years to finish this book, not because it was boring, but because there is a lot of material to process behind each chapter. I'm impressed on how the author managed to compress so much information into a tiny bit more than 200 pages. I recommend!"
+    },
+    "author": [
+      "Vaclav Smil"
+    ],
+    "genres": [
+      "Science"
+    ]
+  },
+  {
+    "type": "book",
+    "title": "Homeland",
+    "date": "2025-01-24",
+    "publish_year": 2013,
+    "author": [
+      "Cory Doctorow",
+      "Wil Wheaton"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "I was not expecting this level of detail to cyber security in a book! The story was captivating, and it bascially felt like a story that seems so plausible in today's USA. And I didn't realize that there was a book before this one, so I guess I have to read that one next..."
+    },
+    "genres": [
+      "Fiction",
+      "Terrorism",
+      "Cryptography",
+      "Privacy"
     ]
   }
 ]
