@@ -28,6 +28,7 @@ Watchlist:
 - Syk pike (2022)
 - Lucky (2017)
 - Paris, Texas (1984)
+- The Brutalist (2024)
 
 <details>
   <summary>Legend</summary>
