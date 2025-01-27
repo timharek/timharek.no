@@ -9,6 +9,7 @@ Currently watching:
 
 - Succession S4 (not sure when we'll finish this one...)
 - Severance S2
+- Sugar S1
 
 Watchlist:
 
