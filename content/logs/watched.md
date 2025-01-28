@@ -30,6 +30,10 @@ Watchlist:
 - Lucky (2017)
 - Paris, Texas (1984)
 - The Brutalist (2024)
+- Triangle of Sadness (2022)
+- Perfect Days (2023)
+- The Square (2017)
+- Force Majeure (2014)
 
 <details>
   <summary>Legend</summary>
