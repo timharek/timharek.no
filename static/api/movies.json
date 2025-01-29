@@ -5985,20 +5985,38 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 7345,
     "title": "There Will Be Blood",
     "date": "2025-01-17",
-    "genres": [
-      "Drama"
-    ],
+    "type": "movie",
+    "tmdbId": 7345,
     "release_year": 2007,
     "review": {
       "rating": 4,
       "comment": "Greed! I kept waiting for someone to fuck over the main characters."
     },
+    "genres": [
+      "Drama"
+    ],
     "directors": [
       "Paul Thomas Anderson"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 428449,
+    "title": "A Ghost Story",
+    "date": "2025-01-29",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "release_year": 2017,
+    "review": {
+      "rating": 4,
+      "comment": "It was a weirdly slowpace movie that made sense. Death is a weird topic. And ghosts."
+    },
+    "directors": [
+      "David Lowery"
     ]
   }
 ]

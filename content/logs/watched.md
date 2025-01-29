@@ -13,7 +13,6 @@ Currently watching:
 
 Watchlist:
 
-- A Ghost Story (2017)
 - Asteroid City (2023)
 - Civil War (2024)
 - Gangs of New York (2002)
