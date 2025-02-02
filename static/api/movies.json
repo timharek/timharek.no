@@ -6002,21 +6002,58 @@
     ]
   },
   {
-    "type": "movie",
-    "tmdbId": 428449,
     "title": "A Ghost Story",
     "date": "2025-01-29",
-    "genres": [
-      "Drama",
-      "Fantasy"
-    ],
+    "type": "movie",
+    "tmdbId": 428449,
     "release_year": 2017,
     "review": {
       "rating": 4,
       "comment": "It was a weirdly slowpace movie that made sense. Death is a weird topic. And ghosts."
     },
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
     "directors": [
       "David Lowery"
+    ]
+  },
+  {
+    "title": "Parasite",
+    "date": "2025-01-31",
+    "type": "movie",
+    "tmdbId": 496243,
+    "release_year": 2019,
+    "review": {
+      "rating": 4,
+      "comment": "Rewatch. This movie is is metaphor for a metaphor, it's so great!"
+    },
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "directors": [
+      "Bong Joon-ho"
+    ]
+  },
+  {
+    "type": "movie",
+    "tmdbId": 933260,
+    "title": "The Substance",
+    "date": "2025-02-01",
+    "genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 3,
+      "comment": "The concept was well executed up until the third act. Then everything became so ridiculous. It was good social commentary towards the absurd beauty standard people have to live up today, except the third act. I got the point long before that."
+    },
+    "directors": [
+      "Coralie Fargeat"
     ]
   }
 ]
