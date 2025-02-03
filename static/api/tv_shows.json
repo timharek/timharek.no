@@ -2890,24 +2890,45 @@
     ]
   },
   {
-    "type": "tv",
-    "tmdbId": 125988,
     "title": "Silo",
     "date": "2025-01-17",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama"
-    ],
+    "type": "tv",
+    "tmdbId": 125988,
     "release_year": 2023,
     "review": {
       "rating": 5,
       "comment": "The tension! Absolutely loved this season!"
     },
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
     "season": 2,
     "episode_count": null,
     "directors": [],
     "creators": [
       "Graham Yost"
+    ]
+  },
+  {
+    "type": "tv",
+    "tmdbId": 203744,
+    "title": "Sugar",
+    "date": "2025-02-02",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "release_year": 2024,
+    "review": {
+      "rating": 4,
+      "comment": "Almost relaxing TV-show, the atmosphere was great and I like Colin's voiceover. The twist was very unexpected."
+    },
+    "season": 1,
+    "episode_count": null,
+    "directors": [],
+    "creators": [
+      "Mark Protosevich"
     ]
   }
 ]
