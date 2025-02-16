@@ -32,6 +32,7 @@ Watchlist:
 - Perfect Days (2023)
 - The Square (2017)
 - Force Majeure (2014)
+- Friendship (2025)
 
 <details>
   <summary>Legend</summary>
