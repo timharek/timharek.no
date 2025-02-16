@@ -767,7 +767,7 @@ description = """
 My personal website where I write about stuff that interest me.
 """
 startDate = 2019-03-28
-keywords = ["Deno", "API", "Personal", "Open source", "Website", "Blogging"]
+keywords = ["Hugo", "Personal", "Open source", "Website", "Blogging"]
 sources = ["https://git.sr.ht/~timharek/timharek.no"]
 
 [[projects]]
