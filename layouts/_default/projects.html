@@ -1,0 +1,112 @@
+{{ define "main" }}
+  <div class="p-4 mx-auto max-w-screen-md">
+    {{ partial "page-header.html" . }}
+    {{ $projects := .Site.Data.cv.projects }}
+    {{ $withEndDate := where $projects "endDate" "!=" nil }}
+    {{ $withoutEndDate := where $projects  "endDate" "==" nil }}
+
+    {{ $sortedWithEndDate := sort $withEndDate "startDate" "desc" }}
+    {{ $sortedWithoutEndDate := sort $withoutEndDate "startDate" "desc" }}
+
+    {{ $sorted := append  $sortedWithEndDate $sortedWithoutEndDate }}
+    <div class="space-y-4 max-w-prose">
+      <div class="markdown-body">
+        {{ .Content }}
+      </div>
+    </div>
+    <ul class="divide-y-2 divide-slate-600">
+      {{ range $sorted }}
+        <li>
+          {{ partial "inline/project.html" . }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+
+{{ define "partials/inline/project.html" }}
+  <div class="py-4 md:grid gap-4 grid-cols-[0.25fr_1fr]">
+    {{ partial "inline/project-dates.html" . }}
+    <div class="space-y-4">
+      <h2 class="text-xl">
+        {{ if .url }}
+          <a href="{{ .url }}" class="normal">{{ .name }}</a>
+        {{ else }}
+          {{ .name }}
+        {{ end }}
+        {{ if .client }}
+          {{ " " }} - {{ .client }}
+        {{ end }}
+      </h2>
+      {{ if in .keywords "JSR" }}
+        {{ partial "inline/jsr" . }}
+      {{ end }}
+      {{ if and (in .keywords "Go") (in .keywords "Package") }}
+        {{ partial "inline/go" . }}
+      {{ end }}
+      <p class="">{{ .description }}</p>
+      {{ if .sources }}
+        <a href="{{ index .sources 0 }}" class="normal" target="_blank">Source code</a>
+      {{ end }}
+      <ul class="flex flex-wrap gap-2">
+        {{ range .keywords }}
+          <li class="">
+            #{{ anchorize . }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}
+
+{{ define "partials/inline/project-dates.html" }}
+  <div class="w-full text-sm text-gray-400">
+    {{ $dateMachine := .startDate | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .startDate | time.Format "Jan 2006" }}
+    {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" ""}}
+    {{ partial "date.html" $ctx . }}
+    –
+    {{ if .endDate }}
+      {{ $dateMachine := .endDate | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .endDate | time.Format "Jan 2006" }}
+      {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" ""}}
+      {{ partial "date.html" $ctx . }}
+    {{ else }}
+      present
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ define "partials/inline/go.html" }}
+  {{ $source := index .sources 0 | replace "https://" ""}}
+  {{ $goref := printf "https://pkg.go.dev/%s" $source }}
+  {{ $gorefBadge := printf "https://pkg.go.dev/badge/%s.svg" $source }}
+
+  <div class="flex gap-2">
+    <a href={{ $goref }}>
+      <img src={{ $gorefBadge }} alt="Go reference" />
+    </a>
+  </div>
+{{ end }}
+
+{{ define "partials/inline/jsr.html" }}
+  {{ $scopeRegex := `@([^/]+)` }}
+  {{ $scopeMatch := findRE $scopeRegex .url 1 }}
+  {{ $scope := cond (len $scopeMatch) (index $scopeMatch 0) "" }}
+
+  {{ $moduleRegex := `/([^/]+)$` }}
+  {{ $moduleMatch := findRE $moduleRegex .url 1 }}
+  {{ $module := cond (len $moduleMatch) (index $moduleMatch 0 | strings.TrimPrefix "/") "" }}
+
+  {{ $versionBadgeURL := printf "https://jsr.io/badges/%s/%s" $scope $module }}
+  {{ $scoreBadgeURL := printf "%s/score" $versionBadgeURL }}
+
+  <div class="flex gap-2">
+    <a href={{ .url }}>
+      <img src={{ $versionBadgeURL }} alt="" />
+    </a>
+    <a href={{ .url }}>
+      <img src={{ $scoreBadgeURL }} alt="" />
+    </a>
+  </div>
+{{ end }}

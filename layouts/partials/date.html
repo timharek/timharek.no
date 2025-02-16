@@ -1,0 +1,15 @@
+{{ if .text }}
+<div class="">
+  {{ .text }}
+{{ end }}
+  <time
+    dateTime={{ .date }}
+    title={{ .date }}
+    class=""
+  >
+    {{ .dateHuman }}
+  </time>
+{{ if .text }}
+</div>
+{{ end }}
+

@@ -60,7 +60,7 @@ out of the public's eyes.
 
 <figure>
   <img
-    src="/img/blog/ns6.no-screenshot.png"
+    src="ns6.no-screenshot.png"
     alt="Screenshot of the website I made.">
   <figcaption>
     The super simple website for the building I live in.

@@ -1,0 +1,7 @@
+[[language]]
+name = "gotmpl"
+file-types = ["html"]
+injection-regex = "gotmpl"
+language-servers = ["gopls", "vscode-html-language-server", "emmet"]
+auto-format = true
+

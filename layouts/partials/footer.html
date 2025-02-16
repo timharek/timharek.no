@@ -1,0 +1,25 @@
+<footer class="print:hidden max-w-screen-md mx-auto my-4 px-4 flex justify-between flex-wrap">
+  <div>
+    Last deploy: <span class="font-mono" title="{{ now.Format "2006-01-02T15:04:05Z07:00" }}">{{ now.Format "2006-01-02" }}</span>
+  </div>
+
+  {{ $page := .Page }}
+  <nav class="footer__nav" aria-label="Secondary navigation">
+    <ul class="flex gap-4">
+      {{ range .Site.Menus.footer }}
+        <li>
+          <a
+            href={{ .URL }}
+            {{ if $page.IsMenuCurrent .Menu . }}
+            class="normal !text-text"
+            {{ else }}
+            class="normal"
+            {{ end }}
+            >
+            {{ .Name }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+</footer>

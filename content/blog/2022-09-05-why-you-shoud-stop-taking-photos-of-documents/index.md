@@ -24,7 +24,7 @@ Nextcloud-app.
 
 <figure>
   <img
-    src="/img/blog/2022-09-05-why-you-shoud-stop-taking-photos-of-documents/files-scan.webp"
+    src="files-scan.webp"
     alt="Screenshots from iOS scanning a document">
   <figcaption>
     How you can scan documents on iOS with the Files-app.

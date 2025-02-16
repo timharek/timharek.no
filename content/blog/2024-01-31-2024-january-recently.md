@@ -27,7 +27,7 @@ running semi-regulary!
 Ran another race, half-marathon, on the 20th. It was snowy and icy, lots of fun!
 
 <figure>
-  <img src="/img/blog/2024-01-31-2024-january-recently/snowy.webp" />
+  <img src="snowy.webp" />
   <figcaption>One of the best parts of the track 😅</figcaption>
 </figure>
 

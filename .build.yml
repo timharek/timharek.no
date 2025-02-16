@@ -1,13 +1,13 @@
 image: alpine/edge
 packages:
-  - deno
+  - hugo
+  - npm
   - rsync
 environment:
   deploy: tim@vps.tukler.no
   GIT_SSH_COMMAND: ssh -o StrictHostKeyChecking=no
 secrets:
   - 0323bc6f-a046-4b96-8496-2bac6e7ee107 # SSH
-  - ea9f1115-a96f-449a-9383-450f7e0783d1 # TMDB
 sources:
   - https://git.sr.ht/~timharek/timharek.no
 triggers:
@@ -17,22 +17,14 @@ triggers:
 tasks:
   - setup: |
       echo 'cd timharek.no' >> ~/.buildenv
-  - test: |
-      set +x
-      export TMDB_API=$(cat ~/TMDB_API)
-      set -x
-      deno test -A
-      deno task check
-  - check: |
-      if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then \
-        complete-build; \
-      fi
+  - build: |
+      npm i
+      hugo
   - mirror: |
       git push --force --mirror git@github.com:timharek/timharek.no.git
       git push --force --mirror git@codeberg.org:timharek/timharek.no.git
   - deploy: |
-      git --no-pager log -1 --format=%ci > last_deploy
       sshopts="ssh -o StrictHostKeyChecking=no"
-      rsync --rsh="$sshopts" -avrP --exclude "last_deploy" --exclude ".git" --exclude "node_modules" --exclude ".env*" --delete . $deploy:/var/www/timharek.no
-      rsync --rsh="$sshopts" -avrP last_deploy $deploy:/var/www/timharek.no/last_deploy
+      rsync --rsh="$sshopts" -avz --delete public/ $deploy:/var/www/timharek.no
+      rsync --rsh="$sshopts" -avz --delete redirects $deploy:/var/www/timharek.no/redirects
 

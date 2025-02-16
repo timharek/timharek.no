@@ -1,0 +1,25 @@
+<div class="mb-4">
+  <h1 class="p-name text-4xl font-semibold mb-4">{{ .Title }}</h1>
+  {{ if and (ne .Path "/blog") (ne .Path "/") (ne .Kind "taxonomy") (ne .Kind "term") }}
+    <div class="space-y-1">
+      {{ with .Date }}
+        {{ $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{ $dateHuman := . | time.Format ":date_long" }}
+        {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" "Published"}}
+        {{ partial "date.html" $ctx . }}
+      {{ end }}
+      {{ if .Lastmod.After .Date }}
+        {{ with .Lastmod }}
+          {{ $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+          {{ $dateHuman := . | time.Format ":date_long" }}
+          {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" "Last updated"}}
+          {{ partial "date.html" $ctx . }}
+        {{ end }}
+      {{ end }}
+      {{ if and (eq .Section "blog") (eq .Kind "page") }}
+        {{ printf "%d minutes read" .ReadingTime }}
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+

@@ -1,7 +1,7 @@
 +++
 title = "Colophon"
 description = "How my website is made, with what tools and technologies."
-updatedAt = 2024-06-06
+updatedAt = 2025-02-15
 +++
 
 A colophon is a page or section, like a footer, of a site that describes how the
@@ -11,8 +11,8 @@ details.
 
 ## TL;DR
 
-This website is built using [Deno] and [Fresh] by yours truly. It's hosted on a
-[1984 Hosting] VPS.
+This website is built using [Hugo] by yours truly. It's hosted on a [1984
+Hosting] VPS.
 
 Source code is available on [SourceHut].
 
@@ -26,15 +26,13 @@ Proud member of:
 
 ## The stack
 
-|                      |                                |
-| :------------------- | :----------------------------- |
-| Language             | TypeScript with TSX templating |
-| Framework            | [Fresh], server-side rendered  |
-| Runtime              | [Deno]                         |
-| Hosted on            | [1984 Hosting] VPS             |
-| Reverse-proxy        | [Caddy]                        |
-| Source code hosting  | [SourceHut]                    |
-| Automatic deployment | [SourceHut builds]             |
+|                             |                    |
+| :-------------------------- | :----------------- |
+| Static site generator (SSG) | [Hugo]             |
+| Hosted on                   | [1984 Hosting] VPS |
+| Reverse-proxy               | [Caddy]            |
+| Source code hosting         | [SourceHut]        |
+| Automatic deployment        | [SourceHut builds] |
 
 ## Site structure
 
@@ -57,49 +55,9 @@ Proud member of:
 [json schema]: https://jsonresume.org/
 [blogroll]: /blogroll
 [opml]: https://opml.org/spec2.opml
-
-## Website dependencies
-
-|                           |                     |
-| :------------------------ | :------------------ |
-| Styling                   | [Tailwind]          |
-| Markdown-rendering        | [Marked]            |
-| Front-matter for Markdown | [@std/front-matter] |
-| Syntax-highlighting       | [Highlight.js]      |
-| JSON-schema validation    | [Zod]               |
-| Icons                     | [Tabler icons]      |
-
 [Tailwind]: https://tailwindcss.com/
-[Marked]: https://marked.js.org/
-[Zod]: https://zod.dev/
-[@std/front-matter]: https://jsr.io/@std/front-matter
-[Highlight.js]: https://highlightjs.org/
-[Tabler icons]: https://tabler-icons-tsx.deno.dev/
-
-## Website CLI
-
-I have made a custom CLI for creating new blogposts and updating my logs. I use
-[cliffy] with Deno's `task` command to achieve this.
-
-### Examples
-
-New blogpost:
-
-```bash
-deno task blog "New post title"
-# fill out log-form
-```
-
-New log-entry:
-
-```bash
-deno task log
-# fill out log-form
-```
-
 [1984 Hosting]: https://1984hosting.com
-[Deno]: https://deno.com/
-[Fresh]: https://fresh.deno.dev/
+[Hugo]: https://gohugo.io
 [SourceHut]: https://git.sr.ht/~timharek/timharek.no
 [SourceHut Builds]: https://builds.sr.ht/
 [Caddy]: https://caddyserver.com/

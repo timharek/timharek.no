@@ -16,7 +16,7 @@ form. Why do I need to sign up to browse the internet?
 
 <figure>
   <img
-    src="/img/blog/2023-08-01-arc-browser-account/arc-screenshot.webp"
+    src="arc-screenshot.webp"
     alt="Screentshot of Arc browser after first time opening.">
   <figcaption>
     What I was greeted with after opening the Arc browser for the first time.

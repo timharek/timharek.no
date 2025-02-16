@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
+    <section class="space-y-4 md:space-y-4">
+      {{ partial "page-header.html" . }}
+      <div class="markdown-body">{{ .Content }}</div>
+    </section>
+    <section class="space-y-4 md:space-y-4">
+      <h2 class="text-3xl font-semibold">Writing</h2>
+      <dl class="columns-2 space-y-2">
+        {{ $yearsOfWriting := dict "label" "Years of writing" "value" (sub (add now.Year 1) 2021) }}
+        {{ partial "inline/stats-definition.html" $yearsOfWriting }}
+
+        {{ $blog := where .Site.Pages "Section" "blog" }}
+        {{ $posts := where $blog "Kind" "page" }}
+
+        {{ $postsDef := dict "label" "Posts" "value" (len $posts) }}
+        {{ partial "inline/stats-definition.html" $postsDef }}
+        {{ $wordCount := 0 }}
+        {{ range $posts }}
+          {{ $wordCount = add $wordCount .WordCount }}
+        {{ end }}
+        {{ $wordCountDef := dict "label" "Words" "value" ($wordCount | lang.FormatNumber 0) }}
+        {{ partial "inline/stats-definition.html" $wordCountDef}}
+
+
+        {{ $tags := .Site.Taxonomies.tags }}
+        {{ $tagsDef := dict "label" "Tags" "value" (len $tags) }}
+        {{ partial "inline/stats-definition.html" $tagsDef}}
+
+        {{ $pages := where (where .Site.Pages "Section" "ne" "blog") "Kind" "page" }}
+        {{ $pagesDef := dict "label" "Pages" "value" (len $pages) }}
+        {{ partial "inline/stats-definition.html" $pagesDef}}
+      </dl>
+    </section>
+    <section class="space-y-4 md:space-y-4">
+      <h2 class="text-3xl font-semibold">Posts / Words per year</h2>
+      <dl class="columns-2 space-y-2">
+        {{ range $blog.GroupByPublishDate "2006" "asc" }}
+        {{ $wordCount := 0 }}
+        {{ range .Pages }}
+          {{ $wordCount = add $wordCount .WordCount }}
+        {{ end }}
+          {{ $v := printf "%s / %s" (len .Pages | lang.FormatNumber 0) ($wordCount | lang.FormatNumber 0)}}
+          {{ $def := dict "label" .Key "value" $v }}
+          {{ partial "inline/stats-definition.html" $def }}
+        {{ end }}
+      </dl>
+    </section>
+  </div>
+{{ end }}
+
+{{ define "partials/inline/stats-definition.html" }}
+  <div class="before:content-[''] before:bg-text before:w-2 before:h-2 before:rounded-full before:inline-block flex items-center gap-2">
+    <dt class="after:content-[':'] mr-1">{{ .label }}</dt>
+    <dd>{{ .value }}</dd>
+  </div>
+{{ end }}

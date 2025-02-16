@@ -1,0 +1,49 @@
+{{ $wrapperClass := "py-4 grid md:grid-cols-4 grid-cols-1 gap-4 hover:bg-zinc-800"}}
+
+{{ if .review.comment }}
+ <li>
+  <details>
+    <summary class="{{ $wrapperClass }} cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+     {{ partial "row" . }}
+    </summary>
+    <p class="py-2 pl-4">
+     {{ .review.comment }}
+    </p>
+  </details>
+ </li>
+{{ else }}
+ <li class="{{ $wrapperClass }}">
+  {{ partial "row" . }}
+ </li>
+{{ end }}
+
+{{ define "partials/row" }}
+ <h3 class="md:col-span-2">
+  {{ .title }}
+  {{ if .season }}
+   S{{ .season }}
+  {{ end }}
+ </h3>
+ {{ partial "rating" .review.rating }}
+ <div class="md:justify-self-end">
+  <time datetime="" class="font-mono">
+   {{ .date | time.Format "Jan 2" }}
+  </time>
+ </div>
+{{ end }}
+
+{{ define "partials/rating" }}
+ {{ $rating := . }}
+ {{ $maxStars := 5 }}
+ {{ $stars := slice }}
+ {{ range seq $rating }}
+  {{ $stars = $stars | append "★" }}
+ {{ end }}
+ {{ $nonStars := sub $maxStars $rating }}
+ {{ range seq $nonStars }}
+  {{ $stars = $stars | append "☆" }}
+ {{ end }}
+ <div aria-label="{{ $rating }} stars" title={{ $rating }} stars>
+  {{ delimit $stars "" }}
+ </div>
+{{ end }}

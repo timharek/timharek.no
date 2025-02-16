@@ -41,7 +41,7 @@ same flexibility and look.
 
 <figure>
   <img
-    src="/img/blog/2024-07-13-i-broke-my-glasses/ref.webp"
+    src="ref.webp"
     alt="My reference photo for when I designed the new arm.. Photo">
   <figcaption>
     My reference photo for when I designed the new arm.
@@ -50,7 +50,7 @@ same flexibility and look.
 
 <figure>
   <img
-    src="/img/blog/2024-07-13-i-broke-my-glasses/all.webp"
+    src="all.webp"
     alt="All the different arms I used. Photo">
   <figcaption>
     All the different arms I used.
@@ -63,7 +63,7 @@ to buy a new pair.
 
 <figure>
   <img
-    src="/img/blog/2024-07-13-i-broke-my-glasses/now.webp"
+    src="now.webp"
     alt="End result. Photo">
   <figcaption>
     The end result.

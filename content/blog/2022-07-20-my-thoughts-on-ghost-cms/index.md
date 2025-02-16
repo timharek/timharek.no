@@ -30,7 +30,7 @@ of the expenses were taken away.
 
 <figure>
   <img
-    src="/img/blog/2022-07-20-my-thoughts-on-ghost-cms/snapshot.webp"
+    src="snapshot.webp"
     alt="Screenshot of Ghost's dashboard">
   <figcaption>
     The beautiful Ghost Dashboard.
@@ -138,7 +138,7 @@ instead of the pop-up preview they were shown in the UI.
 
 <figure>
   <img
-    src="/img/blog/2022-07-20-my-thoughts-on-ghost-cms/pop-preview.webp"
+    src="pop-preview.webp"
     alt="Screenshot of pop-up preview">
   <figcaption>
     The preview in Ghost

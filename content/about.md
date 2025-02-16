@@ -28,12 +28,11 @@ More details can be found under [connect](/connect).
 
 ## Colophon
 
-This website is built using [Deno] and [Fresh] by yours truly. It's hosted on a
-[1984 Hosting] VPS.
+This website is built with [Hugo] by yours truly. It's hosted on a [1984
+Hosting] VPS.
 
 More details on my [colophon]-page.
 
 [1984 Hosting]: https://1984hosting.com
-[Deno]: https://deno.com/
-[Fresh]: https://fresh.deno.dev/
+[Hugo]: https://gohugo.io
 [colophon]: /colophon

@@ -1,0 +1,231 @@
+@import "tailwindcss";
+@source "hugo_stats.json";
+
+@theme {
+  --color-orange-300: #f56642;
+  --color-blue-100: #427bf5;
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f5f9;
+  --color-gray-200: #e2e8f0;
+  --color-green-800: #3f6212;
+  --color-green-900: #365314;
+  --color-green-950: #1a2e05;
+
+  --color-primary: #2563eb;
+  --color-bg: var(--color-slate-100);
+  --color-text: var(--color-zinc-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #0098fd;
+    --color-bg: var(--color-zinc-900);
+    --color-text: var(--color-slate-100);
+  }
+}
+
+a.normal {
+  @apply text-primary font-semibold underline hover:bg-primary hover:text-bg hover:decoration-primary data-[current]:text-text data-[current]:hover:text-bg font-semibold;
+}
+
+.markdown-body {
+  --color-canvas-default: hsl(
+    var(--color-bg) / var(--tw-bg-opacity)
+  ) !important;
+  --color-fg-default: var(--color-text) !important;
+  --color-accent-fg: var(--color-primary);
+
+  --color-note: #539bf5;
+  --color-caution: #e5534b;
+  --color-tip: #57ab5a;
+  --color-important: #986ee2;
+  --color-warning: #c69026;
+  @apply max-w-prose space-y-4;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-sans tracking-tight;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  h4 {
+    @apply text-lg font-bold;
+  }
+
+  h5 {
+    @apply text-base font-bold;
+  }
+
+  h6 {
+    @apply text-sm font-bold;
+  }
+
+  p + h2,
+  p + h3,
+  ul + h2,
+  ul + h3,
+  ol + h2,
+  ol + h3 {
+    @apply mt-6;
+  }
+
+  h2 + h3 {
+    @apply mt-2;
+  }
+
+  p {
+    @apply text-base mt-2 leading-relaxed;
+  }
+
+  a {
+    @apply text-blue-600 underline;
+  }
+
+  a:hover {
+    @apply text-blue-800;
+  }
+
+  ul {
+    @apply list-disc pl-4 mt-2;
+  }
+
+  ol {
+    @apply list-decimal pl-4 mt-2;
+  }
+
+  li:not(:last-child) {
+    @apply mb-2;
+  }
+
+  blockquote {
+    @apply border-l-2 border-gray-200 pl-3 mt-6 mb-8;
+  }
+
+  .highlight {
+    @apply my-2;
+    pre {
+      @apply text-sm m-0 p-4;
+
+      code {
+        @apply bg-none p-0;
+      }
+    }
+  }
+
+  pre:has(code) {
+    @apply p-2 m-4 bg-gray-100 rounded-lg overflow-x-auto;
+  }
+
+  pre {
+    code {
+      @apply bg-inherit border-none text-sm font-mono;
+    }
+  }
+
+  code {
+    @apply text-sm bg-bg border-primary border-1 px-2 py-1 rounded-md text-text;
+  }
+  a {
+    @apply underline font-semibold text-primary;
+  }
+  a:hover {
+    @apply bg-primary text-bg;
+  }
+  table {
+    @apply border-none w-fit;
+  }
+  table tr,
+  table th,
+  table td {
+    border: none;
+    background: none !important;
+  }
+  table th:empty,
+  table td:empty {
+    @apply m-0 p-0;
+  }
+  table th,
+  table td {
+    @apply p-2;
+  }
+
+  pre {
+    color: white;
+    border: 0.1rem solid var(--color-primary);
+  }
+
+  .markdown-alert {
+    border-left-width: 0.25rem;
+    padding-left: 0.5rem;
+  }
+
+  .markdown-alert.markdown-alert-note {
+    border-left-color: var(--color-note);
+  }
+
+  .markdown-alert.markdown-alert-important {
+    border-left-color: var(--color-important);
+  }
+  .markdown-alert.markdown-alert-warning {
+    border-left-color: var(--color-warning);
+  }
+
+  .markdown-alert.markdown-alert-caution {
+    border-left-color: var(--color-warning);
+  }
+  .markdown-alert.markdown-alert-tip {
+    border-left-color: var(--color-tip);
+  }
+
+  .markdown-alert.markdown-alert-caution {
+    border-left-color: var(--color-caution);
+  }
+
+  .markdown-alert.markdown-alert-tip {
+    border-left-color: var(--color-tip);
+  }
+
+  .markdown-alert.markdown-alert-caution {
+    border-left-color: var(--color-caution);
+  }
+
+  .markdown-alert > .markdown-alert-title {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+  }
+
+  .markdown-alert-note > .markdown-alert-title {
+    color: var(--color-note);
+  }
+
+  .markdown-alert-tip > .markdown-alert-title {
+    color: var(--color-tip);
+  }
+
+  .markdown-alert-important > .markdown-alert-title {
+    color: var(--color-important);
+  }
+
+  .markdown-alert-warning > .markdown-alert-title {
+    color: var(--color-warning);
+  }
+
+  .markdown-alert-caution > .markdown-alert-title {
+    color: var(--color-caution);
+  }
+}

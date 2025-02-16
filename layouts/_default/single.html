@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <article class="max-w-screen-md mx-auto px-4 mb-4">
+    {{ partial "page-header.html"  . }}
+    <div class="markdown-body">
+      {{ .Content }}
+    </div>
+    {{ partial "page-footer.html"  . }}
+  </article>
+{{ end }}

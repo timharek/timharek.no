@@ -1,0 +1,35 @@
+{{ if eq .Section "blog" }}
+  <div class="border-y-2 border-primary py-4 mt-4 flex flex-wrap gap-4 justify-between items-center">
+    <div class="space-y-4">
+      {{ with .GetTerms "tags" }}
+        <div class="flex gap-2 flex-wrap">
+          <h2>Tagged with</h2>
+          <ul class="flex gap-1 flex-wrap">
+            {{ range . }}
+              <li>
+                <a class="normal" href="{{ .RelPermalink }}">
+                  #{{ anchorize .LinkTitle }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+      <div class="flex gap-2">
+        <Icon.Script aria-hidden="true" />
+        <h2>{{ .WordCount }} words</h2>
+      </div>
+    </div>
+    <a
+      class="print:hidden border-2 border-primary px-3 py-2 rounded-lg text-primary hover:text-bg hover:bg-primary transition-all duration-150"
+      {{ $replyToLink := printf "mailto:%s?subject=RE: %s" .Site.Params.author.email .Title }}
+      href={{ $replyToLink }}
+    >
+      <span class="flex gap-2">
+        <Icon.Mail aria-hidden="true" />
+        Reply via email
+      </span>
+    </a>
+  </div>
+{{ end }}
+

@@ -1,0 +1,42 @@
+{{ $pageTitle := .Title }}
+{{- $pages := (sort (where (where .Site.Pages "Section" "blog") "Kind" "page") "Date" "desc") }}
+{{- $pages = $pages | first .Site.Config.Services.RSS.Limit }}
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ .Site.Title }}",
+  "home_page_url": "{{ .Permalink }}",
+  "feed_url": "{{ .Permalink }}feed.json",
+  "author": {
+    "name": "{{ .Site.Params.author.name }}",
+    "url": "{{ absURL "/" }}",
+    "avatar": "{{ .Site.Params.author.photo }}"
+  },
+  "items": [
+    {{- range $index, $page := $pages }}
+    {{ if ge $index 1 }}, {{end}}{
+      "id": {{ .Permalink | jsonify }},
+      "url": {{ .Permalink | jsonify }},
+      "title": {{ .Title | jsonify }},
+      "summary": {{ .Summary | jsonify }},
+      "date_published": {{ dateFormat "2006-01-02T15:04:05-07:00" .Date | jsonify }},
+      {{- if .Lastmod.After .Date }}
+      "date_modified": {{ dateFormat "2006-01-02T15:04:05-07:00" .Lastmod | jsonify }},
+      {{ else }}
+      "date_modified": {{ dateFormat "2006-01-02T15:04:05-07:00" .Date | jsonify }},
+      {{ end }}
+      {{ $title := .Title }}
+      {{ $email := .Site.Params.author.email}}
+      {{ $replyToLink := printf "mailto:%s?subject=RE: %s" $email $title }}
+      {{ $ctx := dict "content" .Content "replyToLink " $replyToLink }}
+      "content_html": {{ (partial "fns/content-feed-footer" $ctx) | jsonify }}{{ with .Params.tags }},
+      "tags": [
+        {{ range $i, $t := sort . -}}
+          {{- if ne $i 0 }}, {{ end -}}
+          {{ $page := $.Page.Site.GetPage (printf "/tags/%s" $t) }}
+          "{{ $page.Title }}"
+        {{- end -}}
+      ]{{ end }}
+    }
+    {{ end }}
+  ]
+}

@@ -1,0 +1,128 @@
+baseURL = 'https://timharek.no'
+language = 'en'
+title = 'Tim Hårek'
+rssLimit = 15
+enableGitInfo = true
+
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[security]
+[security.funcs]
+getenv = ['^HUGO_', '^CI$', '^LINKDING_']
+
+[minify]
+minifyOutput = true
+
+[menus]
+[[menus.main]]
+pageRef = '/'
+name = 'Home'
+weight = 1
+[[menus.main]]
+pageRef = '/blog'
+name = 'Blog'
+weight = 2
+[[menus.main]]
+pageRef = '/about'
+name = 'About'
+weight = 3
+[[menus.main]]
+pageRef = '/more'
+name = 'More…'
+weight = 4
+[[menus.footer]]
+pageRef = '/stats'
+name = 'Stats'
+weight = 1
+[[menus.footer]]
+pageRef = '/privacy'
+name = 'Privacy'
+weight = 2
+[[menus.footer]]
+pageRef = '/connect'
+name = 'Connect'
+weight = 3
+[[menus.footer]]
+pageRef = '/subscribe'
+name = 'Subscribe'
+weight = 4
+
+[params]
+[params.author]
+name = 'Tim Hårek Andreassen'
+photo = ''
+url = 'https://timharek.no'
+email = 'tim@harek.no'
+
+[[params.elsewhere]]
+name = "GitHub"
+url = "https://github.com/timharek"
+[[params.elsewhere]]
+name = "SourceHut"
+url = "https://sr.ht/~timharek"
+[[params.elsewhere]]
+name = "Public key"
+url = "/public-key.asc"
+[[params.elsewhere]]
+name = "Printables"
+url = "https://www.printables.com/@timharek"
+[[params.elsewhere]]
+name = "OpenStreetMap"
+url = "https://www.openstreetmap.org/user/timharek"
+[[params.elsewhere]]
+name = "Codeberg"
+url = "https://codeberg.org/timharek"
+
+
+[mediaTypes.'application/atom+xml']
+suffixes = ['xml']
+
+[outputFormats]
+[outputFormats.atom]
+baseName = 'feed'
+mediaType = 'application/atom+xml'
+isPlainText = false
+rel = 'alternate'
+noUgly = true
+permalinkable = false
+[outputFormats.json]
+baseName = 'feed'
+mediaType = 'application/json'
+isPlainText = true
+rel = 'alternate'
+noUgly = true
+permalinkable = false
+
+[outputs]
+home = ["html", "atom", "json"]
+
+[build]
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/notwatching/hugo_stats\.json'
+target = 'css'
+[[build.cachebusters]]
+source = '(postcss|tailwind)\.config\.js'
+target = 'css'
+[module]
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+[[module.mounts]]
+disableWatch = true
+source = 'hugo_stats.json'
+target = 'assets/notwatching/hugo_stats.json'
+
+[frontmatter]
+date = [':filename', 'date']
+publishDate = [':filename', 'createdAt', 'date']
+lastmod = ['updatedAt']
+
+[markup]
+[markup.highlight]
+style = 'onedark'
+tabWidth = 2

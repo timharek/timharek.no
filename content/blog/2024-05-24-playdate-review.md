@@ -7,7 +7,7 @@ updatedAt = 2024-05-27
 
 <figure>
   <img
-    src="/img/blog/2024-05-24-playdate-review/playdate.webp"
+    src="playdate.webp"
     alt="Painc's Playdate handheld. Photo">
   <figcaption>
     What the Playdate looks like.
@@ -78,7 +78,7 @@ reminded me of my first [Game Boy Color], but much better.
 
 <figure>
   <img
-    src="/img/blog/2024-05-24-playdate-review/settings.webp"
+    src="settings.webp"
     alt="The Playdate's settings. Photo">
   <figcaption>
     The Playdate's settings.
@@ -103,7 +103,7 @@ The system update process is straight forward, even with a cool UI for it.
 
 <figure>
   <img
-    src="/img/blog/2024-05-24-playdate-review/update.webp"
+    src="update.webp"
     alt="Update interface. Photo">
   <figcaption>
     Update interface.
@@ -129,7 +129,7 @@ I have bought the following games:
 
 <figure>
   <img
-    src="/img/blog/2024-05-24-playdate-review/soko.webp"
+    src="soko.webp"
     alt="Playing Soko on the Playdate. Photo">
   <figcaption>
     Playing Soko.
@@ -153,7 +153,7 @@ thing all the time anyway.
 
 <figure>
   <img
-    src="/img/blog/2024-05-24-playdate-review/wifi.webp"
+    src="wifi.webp"
     alt="Interface for typing in a password. Photo">
   <figcaption>
     Interface for typing in a password.

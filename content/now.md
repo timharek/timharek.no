@@ -1,15 +1,16 @@
 +++
 title = "What I'm doing now"
-updatedAt = 2024-12-27
+updatedAt = 2025-02-16
 +++
 
-- Learning Go by making small programs!
+- Finishing projects!
 - Fixing stuff around the house with 3D printing.
 
 ## Recent
 
 |              |                                                             |
 | -----------: | :---------------------------------------------------------- |
+| `2025-02-15` | Rewrote my website with [Hugo]              |
 | `2024-12-08` | Created an [OpenLibrary package] written in Go              |
 | `2024-11-13` | Created a [Migadu CLI and package] written in Go            |
 | `2024-10-30` | Started a new Baldur's Gate 3 story                         |
@@ -28,10 +29,10 @@ updatedAt = 2024-12-27
 | `2024-04-25` | "Finished" [Filmpolitiet API]                               |
 | `2024-04-09` | Resigned from [friByte]                                     |
 
+[hugo]: https://gohugo.io
 [hima]: https://sr.ht/~timharek/hima/
 [Filmpolitiet API]: https://sr.ht/~timharek/filmpolitiet-api/
-[Moved all my Deno modules to JSR]:
-  /blog/all-my-deno-modules-are-now-available-on-jsr
+[Moved all my Deno modules to JSR]: /blog/all-my-deno-modules-are-now-available-on-jsr
 [`gpx-to-svg`]: https://jsr.io/@timharek/gpx-to-svg
 [fribyte]: https://fribyte.no/
 [colophon]: /colophon

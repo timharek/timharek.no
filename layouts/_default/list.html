@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="px-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
+    {{ partial "page-header.html" .}}
+    <article class="markdown-body">
+      {{ .Content }}
+      <ul class="">
+        {{ range .Pages }}
+          <li><a href="{{ .RelPermalink }}" class="normal">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </article>
+  </div>
+{{ end }}
+

@@ -1,14 +1,7 @@
-static/processed_images
 public
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-
-last_deploy
-
-# Fresh build directory
-_fresh/
+resources
 node_modules
+package-lock.json
+.hugo_build.lock
+.env
+hugo_stats.json

@@ -23,7 +23,7 @@ previous setup.
 
 <figure>
   <img
-    src="/img/blog/2024-06-24-kaizen-3-revamped-homelab/old-setup.webp"
+    src="old-setup.webp"
     alt="My previous setup. Photo">
   <figcaption>
     My previous setup. Please ignore the mess 😅
@@ -76,7 +76,7 @@ NixOS with all the different services I want to host.
 
 <figure>
   <img
-    src="/img/blog/2024-06-24-kaizen-3-revamped-homelab/zimaboard.webp"
+    src="zimaboard.webp"
     alt="My Zimaboard setup. Photo">
   <figcaption>
     My Zimaboard setup.

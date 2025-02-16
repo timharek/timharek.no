@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <div class="p-4 mx-auto max-w-screen-md space-y-4 md:space-y-8">
+    <section class="space-y-4 md:space-y-4">
+      {{ partial "page-header.html" . }}
+      <div class="markdown-body">{{ .Content }}</div>
+    </section>
+    <section class="space-y-4 md:space-y-4">
+      <h2 class="text-3xl font-semibold">Latest posts</h2>
+      {{ partial "blogposts.html" (first 5 (sort (where (where .Site.Pages "Section" "blog") "Kind" "page") "Date" "desc")) }}
+    </section>
+  </div>
+{{ end }}

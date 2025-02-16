@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="px-4 mx-auto max-w-screen-md">
+    {{ partial "page-header.html" .}}
+    <article class="markdown-body">
+      {{ .Content }}
+      <ul class="columns-2">
+        {{ range sort .Pages "Title" "asc" }}
+          <li>
+            <a href="{{ .RelPermalink }}" class="normal">{{ .Title }}</a>
+            ({{ len .Pages }})
+          </li>
+        {{ end }}
+      </ul>
+    </article>
+  </div>
+{{ end }}
+

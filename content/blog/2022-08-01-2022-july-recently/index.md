@@ -33,7 +33,7 @@ custom-designed mop-holder!
 
 <figure>
   <img
-    src="/img/blog/2022-08-01-2022-july-recently/mop_overview.webp"
+    src="mop_overview.webp"
     alt="My mop hanging in the closet. Photo">
   <figcaption>
     My first custom 3D design, a mop holder.

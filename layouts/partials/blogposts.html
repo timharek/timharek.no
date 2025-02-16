@@ -1,0 +1,35 @@
+{{ $pages := . }}
+<ul class="space-y-4">
+  {{ range $pages }}
+   <li
+     class="h-entry border-l-4 border-primary pl-2 w-full"
+     {{ if eq .Params.Language "no" }}
+      lang={{ .Params.Language }}
+     {{ end }}
+   >
+    <div class="flex flex-wrap-reverse gap-2 justify-between">
+     <div class="flex gap-2">
+      <a href="{{ .RelPermalink }}" class="normal p-name u-url">
+       {{ if eq .Params.Language "no" }}
+        🇳🇴{{ " "}}
+       {{ end }}
+       {{ .Title }}
+      </a>
+     </div>
+     {{ with .PublishDate }}
+      {{ $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := . | time.Format "2006-01-02" }}
+      <time
+        class="dt-published text-gray-400 font-mono"
+        dateTime="{{ $dateMachine }}"
+        title="{{ $dateMachine }}">
+         {{ $dateHuman }}
+      </time>
+     {{ end }}
+    </div>
+    <p class="p-summary">{{ .Description }}</p>
+   </li>
+  {{ else }}
+   No pages provided
+  {{ end }}
+</ul>

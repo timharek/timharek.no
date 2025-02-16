@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <div class="max-w-screen-md mx-auto px-4 mb-4 space-y-4">
+    <article class="">
+      {{ partial "page-header.html"  . }}
+      <div class="markdown-body">
+        {{ .Content }}
+        {{ with resources.Get "feeds.xml" }}
+          <p>Also available as an <a href="{{ .RelPermalink }}">OPML-file</a>.</p>
+        {{ end }}
+      </div>
+    </article>
+    <section class="space-y-4">
+      {{ with resources.Get "feeds.xml" }}
+        {{ with .Content  }}
+          {{ $opml := . | transform.Unmarshal }}
+          {{ range $opml.body.outline }}
+            <h2 class="text-3xl font-semibold">{{ index . "-title" }}</h2>
+            <ul class="space-y-2 list-disc md:columns-2">
+              {{ range sort (.outline) "-title" "asc" }}
+                <li class="flex items-center justify-between gap-2 border border-gray-700 rounded p-2">
+                  <a href="{{ index . "-htmlUrl" }}" class="normal">{{ index . "-title" }}</a>
+                  <a href="{{ index . "-xmlUrl" }}" class="normal">RSS</a>
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        Found no <code>feeds.xml</code> file.
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

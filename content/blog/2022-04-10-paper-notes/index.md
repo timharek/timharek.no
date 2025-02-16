@@ -40,7 +40,7 @@ adjusted everything and nailed the presentation!
 
 <figure>
   <img
-    src="/img/blog/2022-04-10-paper-notes/paper-notes.webp"
+    src="paper-notes.webp"
     alt="My field notes. Photo">
   <figcaption>
     My field notes with my Space Pen.

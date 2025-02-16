@@ -1,0 +1,75 @@
+{{ define "main" }}
+  <div class="max-w-screen-md mx-auto px-4 mb-4">
+   <article class="">
+     {{ partial "page-header.html"  . }}
+     <div class="markdown-body">
+       {{ .Content }}
+     </div>
+   </article>
+   <div>
+    {{ $data := slice }}
+    {{ if strings.Contains .Path "reading" }}
+      {{ $data = .Site.Data.logs.reading }}
+    {{ else if strings.Contains .Path "games" }}
+      {{ $data = .Site.Data.logs.games }}
+    {{ else if strings.Contains .Path "watched" }}
+      {{ $data = .Site.Data.logs.movies }}
+      {{ $data = $data | append .Site.Data.logs.tv }}
+    {{ else if strings.Contains .Path "travel" }}
+      {{ $data = .Site.Data.logs.travel }}
+    {{ end }}
+    {{ $entries := partial "fns/group-date-year.html" $data }}
+    {{ range $entries.years }}
+      {{ $year := . }}
+      {{ $entries := index $entries.map $year }}
+      <div class="">
+        <div class="flex items-center gap-2 sticky top-0 bg-bg">
+        <h3 class="text-2xl font-semibold my-4">{{ $year }}</h3>
+        <p class="">({{ len $entries }} entries)</p>
+        </div>
+        <ul class="divide-gray-700 divide-y-2">
+          {{ range $entries }}
+            {{ if strings.Contains $.Path "travel" }}
+              {{ partial "inline/logs/entry-travel.html" . }}
+            {{ else }}
+              {{ partial "logs/entry.html" . }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    {{ else }}
+      No entries.
+    {{ end }}
+   </div>
+  </div>
+{{ end }}
+
+{{ define "partials/inline/logs/entry-travel.html" }}
+  {{ $wrapperClass := "py-4 grid md:grid-cols-4 grid-cols-1 gap-4 hover:bg-zinc-800"}}
+  <li class="{{ $wrapperClass }}">
+    <h3 class="md:col-span-2"> {{ .title }} </h3>
+    {{ with .location }}
+      <div class="">
+        <span aria-label="{{ .country.name }}" title="{{ .country.name}}">
+          {{ .country.emoji }}
+        </span>
+        {{ delimit (sort .cities) ", " " and "}}
+      </div>
+    {{ end }}
+    <div class="text-gray-400 font-mono md:justify-self-end">
+      {{ with .date }}
+        {{ $dateMachine := . | time.Format "2006-01-02" }}
+        {{ $dateHuman := . | time.Format "Jan 2" }}
+        {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" "" }}
+        {{ partial "date.html" $ctx . }}
+      {{ end }}
+      {{ " – " }}
+      {{ with .to_date }}
+        {{ $dateMachine := . | time.Format "2006-01-02" }}
+        {{ $dateHuman := . | time.Format "Jan 2" }}
+        {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" "" }}
+        {{ partial "date.html" $ctx . }}
+      {{ end }}
+    </div>
+  </li>
+{{ end }}

@@ -4,13 +4,9 @@
 
 [![builds.sr.ht status](https://builds.sr.ht/~timharek/timharek.no.svg)](https://builds.sr.ht/~timharek/timharek.no)
 
-[![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
-
 # [timharek.no](https://timharek.no)
 
 My personal website and blog.
-
-It's made with [Fresh](https://fresh.deno.dev).
 
 ## Features
 

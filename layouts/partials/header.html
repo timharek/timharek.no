@@ -1,0 +1,50 @@
+<a
+  class="print:hidden transition left-0 bg-primary text-bg font-semibold absolute p-3 m-3 -translate-y-32 focus:translate-y-0"
+  href="#main"
+>
+  Skip to content
+</a>
+<header
+  class="print:hidden max-w-screen-md mx-auto px-4 flex gap-4 items-center my-4"
+  aria-label="Main navigation"
+>
+  {{ $ctx := dict "className" "w-14 h-14"}}
+  {{ partial "logo.html" $ctx . }}
+
+  {{ $page := .Page }}
+  <nav>
+    <ul class="flex gap-4">
+      {{ range .Site.Menus.main }}
+        <li>
+          <a
+            href={{ .URL }}
+            {{ if $page.IsMenuCurrent .Menu . }}
+            class="normal !text-text"
+            {{ else }}
+            class="normal"
+            {{ end }}
+            >
+            {{ .Name }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>
+
+{{ partial "breadcrumbs.html" . }}
+
+{{ with .Site.Params.author }}
+  <div class="h-card" hidden>
+    <a href={{ .url }} class="u-uid u-url p-name">
+      {{ .name }}
+    </a>
+    <a class="u-photo" href={{ .photo }}>
+      (Photo)
+    </a>
+    <a href="mailto:{{ .email }}" rel="me" class="u-email">
+      {{ .email }}
+    </a>
+    <a class="u-key" href="{{ .url }}/public-key.asc">PGP key</a>
+  </div>
+{{ end }}

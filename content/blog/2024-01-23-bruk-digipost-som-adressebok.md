@@ -17,7 +17,7 @@ av oss var klar over at vi hadde samtykket til dette.
 
 <figure>
   <img
-    src="/img/blog/2024-01-23-bruk-digipost-som-adressebok/search.webp"
+    src="search.webp"
     alt="Skjermdump. Søkeresultater">
   <figcaption>
     Hva man får opp når man søker på "Ola Nord…"
@@ -28,7 +28,7 @@ Heldigvis går det an å skru dette av via "Personlig informasjon" og helt
 nederest på siden, under "Synlighet ved søk".
 
 <img
-  src="/img/blog/2024-01-23-bruk-digipost-som-adressebok/permission.webp"
+  src="permission.webp"
   alt="Skjermdump. Skru av synlighet ved søk i Digipost sine innstillinger.">
 
 Jeg føler dette burde komme bedre frem, men jeg kan ikke huske når jeg fikk meg
