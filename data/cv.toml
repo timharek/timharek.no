@@ -227,7 +227,9 @@ keywords = [
   "jQuery",
   "Oak",
   "Zod",
-  "MUI"
+  "MUI",
+  "Hugo",
+  "templ"
 ]
 
 [[skills]]
