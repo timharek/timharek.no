@@ -15,7 +15,7 @@
           {{ $opml := . | transform.Unmarshal }}
           {{ range $opml.body.outline }}
             <h2 class="text-3xl font-semibold">{{ index . "-title" }}</h2>
-            <ul class="space-y-2 list-disc md:columns-2">
+            <ul class="space-y-2 list-disc md:columns-3 sm:columns-2">
               {{ range sort (.outline) "-title" "asc" }}
                 <li class="flex items-center justify-between gap-2 border border-gray-700 rounded p-2">
                   <a href="{{ index . "-htmlUrl" }}" class="normal">{{ index . "-title" }}</a>
