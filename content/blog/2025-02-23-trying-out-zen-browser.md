@@ -62,3 +62,5 @@ yet. If I need to watch something with DRM, I will fire up Firefox again.
 Hopefully I can stop using Chrome for work now, and fully commit to using Zen. I
 have changed my default browser to Zen for now, and hopefully I'm not
 encountering any issues that requires me to switch back.
+
+Which browser are you using?
