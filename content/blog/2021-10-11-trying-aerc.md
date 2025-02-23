@@ -3,7 +3,7 @@ title = "Trying out aerc"
 description = """
 After using Apple Mail for a while, I'm trying aerc as my new email client."""
 updatedAt = 2022-01-09
-tags = ["Email", "FOSS", "Software", "Tools"] 
+tags = ["Email", "FOSS", "Software", "Tools", "Trying stuff"] 
 +++
 
 Yesterday I thought I should try to find a better alternative to Apple Mail on

@@ -2,7 +2,7 @@
 title = "Trying out Helix (editor)"
 description = "After two years of Vim and Neovim, I discovered a new rabbit hole."
 updatedAt = 2023-01-21
-tags = ["100 days to offload", "Software", "Tools", "Helix"]
+tags = ["100 days to offload", "Software", "Tools", "Helix", "Trying stuff"]
 +++
 
 Two years ago I discovered a course at MIT called [The Missing Semester of Your
