@@ -426,5 +426,21 @@
     },
     "genres": [],
     "platform": "PS5"
+  },
+  {
+    "title": "Kingdom Come: Deliverance II",
+    "type": "game",
+    "date": "2025-02-24",
+    "release_year": 2025,
+    "review": {
+      "rating": 5,
+      "comment": "Fantastic game! It kept me engaged for more than 50 hours on end. The story was grounded in a medieval-setting I can believe. The combat is fun and interesting, the characters and choices you get to make is really something. I haven't had an engaging experience since the first time I played Skryim back in 2011."
+    },
+    "genres": [
+      "Adventure",
+      "History",
+      "Action"
+    ],
+    "platform": "PC"
   }
 ]

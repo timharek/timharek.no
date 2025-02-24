@@ -5,17 +5,23 @@ description = "Video games I've finished, mostly recorded here."
 
 Video games I've finished. Not a complete list.
 
-Currently playing:
+## Currently playing
+
+- Deadlock (TBD), PC (I play it very now and then)
+- Marvel Rivals (2024), PC (I play it very now and then)
+
+## On pause
 
 - Baldur's Gate 3, PC
 - Jusant (2023), Steam Deck
 - Pacific Drive (2024), PC
 
-Want to play:
+## Want to play
 
 - Cocoon (2023)
 - Planet of Lana (2023)
 - Fears to Fathom - Ironbark Lookout (2023)
+- Spider-Man 3 (????)
 
 <details>
   <summary>Legend</summary>
