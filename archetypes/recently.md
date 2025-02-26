@@ -8,6 +8,13 @@ draft = true
 
 <!-- TODO: Add brief intro -->
 
+From the blog this month:
+{{- $currentMonth := time.AsTime (printf "%s-01" (now.Format "2006-01")) }}
+{{- $posts := sort (where (where .Site.RegularPages "Section" "blog") "Date" "ge" $currentMonth) "Date" "asc" }}
+{{- range $posts }}
+  - [{{ .Title }}]({{ .Path }})
+{{- end }}
+
 ## 🍀 Life
 
 <!-- TODO: What has been going on -->
