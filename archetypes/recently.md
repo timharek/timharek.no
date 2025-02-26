@@ -54,7 +54,8 @@ From my [logs](/logs).
 
 ## 🌐 Links
 
-{{- $url := printf "%s/api/bookmarks?limit=150" (getenv "LINKDING_URL") }}
+{{- $timestamp := now.Unix }}
+{{- $url := printf "%s/api/bookmarks?limit=150&t=%d" (getenv "LINKDING_URL") $timestamp }}
 {{- $opts := dict "headers" (dict "Authorization" (printf "Token %s" (getenv "LINKDING_API"))) }}
 {{- with try (resources.GetRemote $url $opts) }}
   {{- with .Err }}
