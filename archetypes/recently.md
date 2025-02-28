@@ -4,6 +4,7 @@
 title = '{{ strings.TrimSpace (replace (.File.ContentBaseName | replaceRE "\\d{4}-\\d{2}-\\d{2}\\s?" "") "-" " ") | title }}'
 description = "What I've been up to since {{ $lastMonth.Month.String }}."
 draft = true
+tags = ["Recently"]
 +++
 
 <!-- TODO: Add brief intro -->
