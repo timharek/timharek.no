@@ -35,7 +35,7 @@
     <section class="space-y-4 md:space-y-4">
       <h2 class="text-3xl font-semibold">Posts / Words per year</h2>
       <dl class="columns-2 space-y-2">
-        {{ range $blog.GroupByPublishDate "2006" "asc" }}
+        {{ range sort ($blog.GroupByPublishDate "2006" "asc") "Key" "desc" }}
         {{ $wordCount := 0 }}
         {{ range .Pages }}
           {{ $wordCount = add $wordCount .WordCount }}
@@ -45,6 +45,55 @@
           {{ partial "inline/stats-definition.html" $def }}
         {{ end }}
       </dl>
+    </section>
+    <section class="space-y-2 md:space-y-4">
+      <h2 class="text-3xl font-semibold">Logs per year</h2>
+      <p class="italic">I started tracking fulltime in 2022.</p>
+      <section class="space-y-2 md:space-y-4">
+        <h3 class="text-2xl font-semibold">Movies</h3>
+        {{ $movies := partial "fns/group-date-year.html" .Site.Data.logs.movies }}
+        <dl class="columns-2 space-y-2">
+          {{ range $movies.years }}
+            {{ $year := . }}
+            {{ $entries := index $movies.map $year }}
+            {{ $count := len $entries }}
+            {{ $def := dict "label" $year "value" $count }}
+            {{ partial "inline/stats-definition.html" $def }}
+          {{ else }}
+            No entries.
+          {{ end }}
+        </dl>
+      </section>
+      <section class="space-y-2 md:space-y-4">
+        <h3 class="text-2xl font-semibold">TV shows</h3>
+        {{ $shows:= partial "fns/group-date-year.html" .Site.Data.logs.tv }}
+        <dl class="columns-2 space-y-2">
+          {{ range $shows.years }}
+            {{ $year := . }}
+            {{ $entries := index $shows.map $year }}
+            {{ $count := len $entries }}
+            {{ $def := dict "label" $year "value" $count }}
+            {{ partial "inline/stats-definition.html" $def }}
+          {{ else }}
+            No entries.
+          {{ end }}
+        </dl>
+      </section>
+      <section class="space-y-2 md:space-y-4">
+        <h3 class="text-2xl font-semibold">Books</h3>
+        {{ $books:= partial "fns/group-date-year.html" .Site.Data.logs.reading }}
+        <dl class="columns-2 space-y-2">
+          {{ range $books.years }}
+            {{ $year := . }}
+            {{ $entries := index $books.map $year }}
+            {{ $count := len $entries }}
+            {{ $def := dict "label" $year "value" $count }}
+            {{ partial "inline/stats-definition.html" $def }}
+          {{ else }}
+            No entries.
+          {{ end }}
+        </dl>
+      </section>
     </section>
   </div>
 {{ end }}
