@@ -20,8 +20,11 @@
 {{ define "partials/row" }}
  <h3 class="md:col-span-2">
   {{ .title }}
-  {{ if .season }}
+  {{ if eq .type "tv" }}
    S{{ .season }}
+  {{ end }}
+  {{ if eq .type "movie" }}
+   ({{ .release_year }})
   {{ end }}
  </h3>
  {{ partial "rating" .review.rating }}
