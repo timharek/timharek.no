@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2024-12-27
+updatedAt = 2025-03-01
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -91,19 +91,19 @@ This is software that I use on my devices. Inspired by [App defaults].
 
 ## Services
 
-|                     |                           |
-| ------------------: | :------------------------ |
-|         Mail server | [Migadu]                  |
-|    Photo management | [Nextcloud] + Photos.app  |
-|  Cloud File Storage | [Nextcloud]               |
-|           Bookmarks | [Linkding]                |
-|       Read-it-later | [Linkding]                |
-| Password management | [Bitwarden] & [1Password] |
-|             Weather | [Yr.no]                   |
-|               Music | [Spotify]                 |
-|        Source forge | [SourceHut]               |
-|        VPS provider | [1984 Hosting][1984]      |
-|       Search engine | [Kagi]                    |
+|                     |                                      |
+| ------------------: | :----------------------------------- |
+|         Mail server | [Migadu]                             |
+|    Photo management | [Nextcloud] + Photos.app             |
+|  Cloud File Storage | [Nextcloud]                          |
+|           Bookmarks | [Linkding]                           |
+|       Read-it-later | [Linkding]                           |
+| Password management | [Bitwarden] & [1Password]            |
+|             Weather | [Yr.no]                              |
+|               Music | [Spotify]                            |
+|        Source forge | [SourceHut]                          |
+|        VPS provider | [1984 Hosting][1984]                 |
+|       Search engine | [Kagi] ([review](/blog/kagi-review)) |
 
 ## Note-taking
 
