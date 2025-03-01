@@ -5835,5 +5835,23 @@
       "rating": 3,
       "comment": "I had high expectations. The motivation for the protagonist makes sense, but in comparsion to the previous movie, we never learned how the protagonist become such a skilled swordsman and a leader type. And the sea-battle in the colosseum looks cool on paper, but in the movie it was the most boring part."
     }
+  },
+  {
+    "title": "Whiplash",
+    "date": "2025-03-01T00:00:00Z",
+    "type": "",
+    "tmdbId": 244786,
+    "release_year": 2014,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "directors": [
+      "Damien Chazelle"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Rewatch. Fantastic! The whole premise of the movie reminds me of a song by NF called the The Search. \"Just think about it for a second, if you look at your face Every day when you get up and think you'll never be great You'll never be great, not because you're not, but the hate Will always find a way to cut you up and murder your faith.\""
+    }
   }
 ]
