@@ -5853,5 +5853,23 @@
       "rating": 5,
       "comment": "Rewatch. Fantastic! The whole premise of the movie reminds me of a song by NF called the The Search. \"Just think about it for a second, if you look at your face Every day when you get up and think you'll never be great You'll never be great, not because you're not, but the hate Will always find a way to cut you up and murder your faith.\""
     }
+  },
+  {
+    "title": "The Big Lebowski",
+    "date": "2025-03-02T00:00:00Z",
+    "type": "",
+    "tmdbId": 115,
+    "release_year": 1998,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Joel Coen"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "I thought it was a rewatch, but I didn't remember anything from this one. There were some hilarious scenes, but overall pretty meh, imo."
+    }
   }
 ]
