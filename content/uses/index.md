@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2025-03-01
+updatedAt = 2025-03-02
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -66,7 +66,7 @@ This is software that I use on my devices. Inspired by [App defaults].
 |       Calendar | Calendar.app                                        |
 |            RSS | [NetNewsWire] + [Feedbin]                           |
 |       Contacts | Contacts.app                                        |
-|        Browser | [Firefox][firefox] (& Safari iOS)                   |
+|        Browser | [Zen Browser] (& Safari iOS)                        |
 |           Chat | [Signal][signal] & iMessage                         |
 |  Shopping List | Reminders.app                                       |
 |        Podcast | Podcasts.app                                        |
@@ -118,7 +118,7 @@ this is what I use daily.
 
 [Affinity Designer]: https://affinity.serif.com/en-us/designer
 [Affinity Photo]: https://affinity.serif.com/en-us/photo
-[Firefox]: https://www.mozilla.org/en-US/firefox/new
+[Zen Browser]: https://zen-browser.app
 [Bitwarden]: https://bitwarden.com
 [Mattermost]: https://mattermost.com
 [NetNewsWire]: https://netnewswire.com
