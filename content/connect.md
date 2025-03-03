@@ -16,6 +16,7 @@ E-mail: [tim@harek.no](mailto:tim@harek.no)
 - [OpenStreetMap](https://www.openstreetmap.org/user/timharek)
 - [Printables](https://www.printables.com/@timharek)
 - [SourceHut](https://sr.ht/~timharek)
+- [Signal (@timharek.91)](https://signal.me/#eu/LROc76aSLC_UOicGo__io5h7-akrMDuJu7QArz48VLyjKQqpTG1BB6SrRi4pjHbt)
 
 ## PGP
 
