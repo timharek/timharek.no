@@ -62,3 +62,4 @@ Movies and TV shows that I've watched. Not a complete list.
 - The Square (2017)
 - Force Majeure (2014)
 - Friendship (2025)
+- Crazy Heart (2009)
