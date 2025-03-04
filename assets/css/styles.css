@@ -24,6 +24,10 @@
   }
 }
 
+.button {
+  @apply border-2 border-primary px-3 py-2 rounded-lg text-primary hover:text-bg hover:bg-primary transition-all duration-150;
+}
+
 a.normal {
   @apply text-primary font-semibold underline hover:bg-primary hover:text-bg hover:decoration-primary data-[current]:text-text data-[current]:hover:text-bg font-semibold;
 }
