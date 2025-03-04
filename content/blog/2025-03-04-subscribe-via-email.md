@@ -10,7 +10,7 @@ the site frequently.
 Not everyone uses RSS, and some even prefer to subscribe via email for their
 online consumption outside of social media and such. And now you can!
 
-I signed up for [Buttondown] today, and I opted for their basic plan to simply
+I signed up for [Buttondown] today, and I opted for their basic plan to simplify
 the process of not having to copy/paste my posts over. Buttondown uses my
 RSS-feed to fetch the latest posts and send them out as a newsletter. It can do
 it automatically, but to begin with I prefer to click the "send"-button.
@@ -36,7 +36,7 @@ The [Subscribe](/subscribe)-page is also updated with the same form.
 
 And I won't be using any tracking with my Buttondown-account, affilate links,
 ads etc. It will just be a plain copy of what's already been posted to my blog
-with a link to it. You can unsubscribe anytime you want, all emails will have a
+with a link to it. You can unsubscribe anytime you want, all emails will have an
 unsubscribe link.
 
 [Buttondown]: https://buttondown.com
