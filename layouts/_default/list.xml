@@ -41,7 +41,7 @@
     {{ $email := .Site.Params.author.email}}
     {{- with .Content }}
       {{ $replyToLink := printf "mailto:%s?subject=RE: %s" $email $title }}
-      {{ $ctx := dict "content" . "replyToLink " $replyToLink }}
+      {{ $ctx := dict "content" . "replyToLink" $replyToLink }}
       {{ printf `<content type="html"><![CDATA[%s]]></content>` (partial "fns/content-feed-footer" $ctx) | safeHTML }}
     {{- end }}
     {{ range .Params.tags }}<category term="{{ ($.Page.Site.GetPage (printf "/tags/%s" .)).Title }}"/>{{ end }}

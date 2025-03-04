@@ -27,7 +27,7 @@
       {{ $title := .Title }}
       {{ $email := .Site.Params.author.email}}
       {{ $replyToLink := printf "mailto:%s?subject=RE: %s" $email $title }}
-      {{ $ctx := dict "content" .Content "replyToLink " $replyToLink }}
+      {{ $ctx := dict "content" .Content "replyToLink" $replyToLink }}
       "content_html": {{ (partial "fns/content-feed-footer" $ctx) | jsonify }}{{ with .Params.tags }},
       "tags": [
         {{ range $i, $t := sort . -}}
