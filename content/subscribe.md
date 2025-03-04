@@ -29,6 +29,6 @@ but there are plenty of
 Want to learn more about how I RSS, I wrote about it here: [How I RSS]
 
 [rss_wiki]: https://en.wikipedia.org/wiki/RSS
-[atom]: /rss.xml
+[atom]: /feed.xml
 [json]: /feed.json
 [How I RSS]: /blog/how-i-rss
