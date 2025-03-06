@@ -817,12 +817,17 @@ endDate = 2024-11-29
 keywords = ["API", "Go", "GCP", "Value", "Work", "SFTP", "Email", "EDIFACT"]
 
 [[projects]]
-name = "Contracting Works integration with 24SevenOffice"
-client = "24SevenOffice/Value"
+name = "Contracting Works integration with ERPs"
+url = "https://value.no/tjenester/teknologi/systemer/contracting-works"
+client = "Value Technology"
 roles = ["Tech lead", "Developer"]
 description = """
-An integration that makes orders and project management easier for contractors.
-Lots of moving parts. A tight-integration between the systems.
+Started off as an integration with a single ERP, 24SevenOffice, but is now
+supporting Tripletex as well. The integration has a lot of moving parts as it
+syncs a bunch of different data one- and two-ways. For 24SO's part we
+used their SOAP API against CW's GraphQL (read) and OpenAPI (write). For Tripletex
+we used their OpenAPI API against CW's APIs.
 """
 startDate = 2024-09-15
-keywords = ["API", "Go", "GCP", "Value", "Work", "ERP", "Integration"]
+keywords = ["API", "Go", "GCP", "Value", "Work", "ERP", "Integration", "24SevenOffice", "GraphQL", "OpenAPI", "SOAP", "Tripletex"]
+
