@@ -5871,5 +5871,24 @@
       "rating": 3,
       "comment": "I thought it was a rewatch, but I didn't remember anything from this one. There were some hilarious scenes, but overall pretty meh, imo."
     }
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "date": "2025-03-08T00:00:00Z",
+    "type": "",
+    "tmdbId": 822119,
+    "release_year": 2025,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Julius Onah"
+    ],
+    "review": {
+      "rating": 2,
+      "comment": "The whole movie felt off. The pacing, acting, and the stakes. Some of the scenes felt like they were put together last minute and some of the CGI was awful, especially when Sam talks with Ross at the end of the last fight."
+    }
   }
 ]
