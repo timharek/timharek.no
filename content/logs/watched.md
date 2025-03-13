@@ -36,7 +36,6 @@ Movies and TV shows that I've watched. Not a complete list.
 
 - Succession S4 (not sure when we'll finish this one...)
 - Severance S2
-- Invincible S3
 - Reacher S3
 - Daredevil: Born Again S1
 

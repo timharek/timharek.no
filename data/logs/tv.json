@@ -2804,5 +2804,25 @@
       "rating": 3,
       "comment": "People have hyped this up too much. It was mediocre at best. The last two episodes was better than the others."
     }
+  },
+  {
+    "title": "INVINCIBLE",
+    "date": "2025-03-13T00:00:00Z",
+    "type": "",
+    "tmdbId": 95557,
+    "release_year": 2021,
+    "season": 3,
+    "genres": [
+      "Animation",
+      "Sci-Fi \u0026 Fantasy",
+      "Action \u0026 Adventure",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 5,
+      "comment": "It's the most intense entertainment I have ever seen. There's never a dull moment, and whenever I think a character is OK or when I start to care about someone... BAM! Something insane happens. I really liked the different storylines in this season in comparison to the other two seasons. Season 4 can't come soon enough!"
+    }
   }
 ]
