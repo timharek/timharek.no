@@ -5820,7 +5820,7 @@
   {
     "title": "Gladiator II",
     "date": "2025-03-01T00:00:00Z",
-    "type": "",
+    "type": "movie",
     "tmdbId": 558449,
     "release_year": 2024,
     "genres": [
@@ -5839,7 +5839,7 @@
   {
     "title": "Whiplash",
     "date": "2025-03-01T00:00:00Z",
-    "type": "",
+    "type": "movie",
     "tmdbId": 244786,
     "release_year": 2014,
     "genres": [
@@ -5857,7 +5857,7 @@
   {
     "title": "The Big Lebowski",
     "date": "2025-03-02T00:00:00Z",
-    "type": "",
+    "type": "movie",
     "tmdbId": 115,
     "release_year": 1998,
     "genres": [
@@ -5875,7 +5875,7 @@
   {
     "title": "Captain America: Brave New World",
     "date": "2025-03-08T00:00:00Z",
-    "type": "",
+    "type": "movie",
     "tmdbId": 822119,
     "release_year": 2025,
     "genres": [

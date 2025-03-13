@@ -2789,7 +2789,7 @@
   {
     "title": "The White Lotus",
     "date": "2025-03-09T00:00:00Z",
-    "type": "",
+    "type": "tv",
     "tmdbId": 111803,
     "release_year": 2021,
     "season": 1,
@@ -2808,7 +2808,7 @@
   {
     "title": "INVINCIBLE",
     "date": "2025-03-13T00:00:00Z",
-    "type": "",
+    "type": "tv",
     "tmdbId": 95557,
     "release_year": 2021,
     "season": 3,
