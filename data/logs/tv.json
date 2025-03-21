@@ -5,6 +5,7 @@
     "type": "tv",
     "tmdbId": 61889,
     "release_year": 2015,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Crime",
@@ -51,6 +52,7 @@
     "type": "tv",
     "tmdbId": 61889,
     "release_year": 2015,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Crime",
@@ -97,6 +99,7 @@
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -138,6 +141,7 @@
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Drama",
@@ -179,6 +183,7 @@
     "type": "tv",
     "tmdbId": 61889,
     "release_year": 2015,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Crime",
@@ -225,6 +230,7 @@
     "type": "tv",
     "tmdbId": 80307,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Crime",
@@ -248,6 +254,7 @@
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Drama",
@@ -289,6 +296,7 @@
     "type": "tv",
     "tmdbId": 71912,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -321,6 +329,7 @@
     "type": "tv",
     "tmdbId": 63247,
     "release_year": 2016,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -363,6 +372,7 @@
     "type": "tv",
     "tmdbId": 85922,
     "release_year": 2020,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Comedy",
@@ -391,6 +401,7 @@
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
+    "runtime_per_episode": null,
     "season": 4,
     "genres": [
       "Drama",
@@ -432,6 +443,7 @@
     "type": "tv",
     "tmdbId": 60625,
     "release_year": 2013,
+    "runtime_per_episode": null,
     "season": 5,
     "genres": [
       "Animation",
@@ -471,6 +483,7 @@
     "type": "tv",
     "tmdbId": 81356,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Comedy",
@@ -497,6 +510,7 @@
     "type": "tv",
     "tmdbId": 88329,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -521,6 +535,7 @@
     "type": "tv",
     "tmdbId": 71912,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -553,6 +568,7 @@
     "type": "tv",
     "tmdbId": 131927,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -575,6 +591,7 @@
     "type": "tv",
     "tmdbId": 115036,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -600,6 +617,7 @@
     "type": "tv",
     "tmdbId": 110492,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -625,6 +643,7 @@
     "type": "tv",
     "tmdbId": 85552,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Drama"
@@ -648,6 +667,7 @@
     "type": "tv",
     "tmdbId": 108978,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -679,6 +699,7 @@
     "type": "tv",
     "tmdbId": 110695,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Crime",
@@ -703,6 +724,7 @@
     "type": "tv",
     "tmdbId": 92749,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -727,6 +749,7 @@
     "type": "tv",
     "tmdbId": 111141,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama"
@@ -751,6 +774,7 @@
     "type": "tv",
     "tmdbId": 95396,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -775,6 +799,7 @@
     "type": "tv",
     "tmdbId": 157008,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Crime",
@@ -796,6 +821,7 @@
     "type": "tv",
     "tmdbId": 122066,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama"
@@ -818,6 +844,7 @@
     "type": "tv",
     "tmdbId": 65495,
     "release_year": 2016,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Comedy",
@@ -845,6 +872,7 @@
     "type": "tv",
     "tmdbId": 92830,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -865,6 +893,7 @@
     "type": "tv",
     "tmdbId": 92782,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -890,6 +919,7 @@
     "type": "tv",
     "tmdbId": 76479,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -929,6 +959,7 @@
     "type": "tv",
     "tmdbId": 76479,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -968,6 +999,7 @@
     "type": "tv",
     "tmdbId": 60059,
     "release_year": 2015,
+    "runtime_per_episode": null,
     "season": 6,
     "genres": [
       "Crime",
@@ -1014,6 +1046,7 @@
     "type": "tv",
     "tmdbId": 136315,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -1039,6 +1072,7 @@
     "type": "tv",
     "tmdbId": 92783,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Comedy",
@@ -1062,6 +1096,7 @@
     "type": "tv",
     "tmdbId": 113988,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Crime",
@@ -1089,6 +1124,7 @@
     "type": "tv",
     "tmdbId": 94997,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1119,6 +1155,7 @@
     "type": "tv",
     "tmdbId": 155537,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -1143,6 +1180,7 @@
     "type": "tv",
     "tmdbId": 83867,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1167,6 +1205,7 @@
     "type": "tv",
     "tmdbId": 135934,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Animation",
@@ -1191,6 +1230,7 @@
     "type": "tv",
     "tmdbId": 135934,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Animation",
@@ -1216,6 +1256,7 @@
     "type": "tv",
     "tmdbId": 100088,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama"
@@ -1245,6 +1286,7 @@
     "type": "tv",
     "tmdbId": 154385,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Comedy",
@@ -1264,6 +1306,7 @@
     "type": "tv",
     "tmdbId": 125988,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1290,6 +1333,7 @@
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Comedy",
@@ -1318,6 +1362,7 @@
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Comedy",
@@ -1346,6 +1391,7 @@
     "type": "tv",
     "tmdbId": 136315,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Drama",
@@ -1371,6 +1417,7 @@
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Comedy",
@@ -1399,6 +1446,7 @@
     "type": "tv",
     "tmdbId": 114472,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -1422,6 +1470,7 @@
     "type": "tv",
     "tmdbId": 93740,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1450,6 +1499,7 @@
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -1484,6 +1534,7 @@
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 4,
     "genres": [
       "Comedy",
@@ -1512,6 +1563,7 @@
     "type": "tv",
     "tmdbId": 114461,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1539,6 +1591,7 @@
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Drama",
@@ -1573,6 +1626,7 @@
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Drama",
@@ -1607,6 +1661,7 @@
     "type": "tv",
     "tmdbId": 205715,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -1638,6 +1693,7 @@
     "type": "tv",
     "tmdbId": 84958,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Drama",
@@ -1664,6 +1720,7 @@
     "type": "tv",
     "tmdbId": 204154,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1694,6 +1751,7 @@
     "type": "tv",
     "tmdbId": 91363,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Animation",
@@ -1716,6 +1774,7 @@
     "type": "tv",
     "tmdbId": 122226,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -1738,6 +1797,7 @@
     "type": "tv",
     "tmdbId": 108978,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Action \u0026 Adventure",
@@ -1770,6 +1830,7 @@
     "type": "tv",
     "tmdbId": 236235,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Comedy",
@@ -1796,6 +1857,7 @@
     "type": "tv",
     "tmdbId": 195339,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Animation",
@@ -1824,6 +1886,7 @@
     "type": "tv",
     "tmdbId": 90296,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Crime",
@@ -1849,6 +1912,7 @@
     "type": "tv",
     "tmdbId": 95557,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Animation",
@@ -1882,6 +1946,7 @@
     "type": "tv",
     "tmdbId": 106379,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -1910,6 +1975,7 @@
     "type": "tv",
     "tmdbId": 90296,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Crime",
@@ -1935,6 +2001,7 @@
     "type": "tv",
     "tmdbId": 126308,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -1963,6 +2030,7 @@
     "type": "tv",
     "tmdbId": 241259,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama"
@@ -1985,6 +2053,7 @@
     "type": "tv",
     "tmdbId": 138502,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Animation",
@@ -2008,6 +2077,7 @@
     "type": "tv",
     "tmdbId": 76361,
     "release_year": 2018,
+    "runtime_per_episode": null,
     "season": 7,
     "genres": [
       "Comedy"
@@ -2025,6 +2095,7 @@
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Reality",
@@ -2046,6 +2117,7 @@
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Reality",
@@ -2067,6 +2139,7 @@
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Reality",
@@ -2088,6 +2161,7 @@
     "type": "tv",
     "tmdbId": 114479,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Mystery",
@@ -2113,6 +2187,7 @@
     "type": "tv",
     "tmdbId": 76479,
     "release_year": 2019,
+    "runtime_per_episode": null,
     "season": 4,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2153,6 +2228,7 @@
     "type": "tv",
     "tmdbId": 111743,
     "release_year": 2020,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Comedy",
@@ -2175,6 +2251,7 @@
     "type": "tv",
     "tmdbId": 42009,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 6,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2218,6 +2295,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2260,6 +2338,7 @@
     "type": "tv",
     "tmdbId": 94997,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2290,6 +2369,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2332,6 +2412,7 @@
     "type": "tv",
     "tmdbId": 195339,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Animation",
@@ -2360,6 +2441,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2402,6 +2484,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 4,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2444,6 +2527,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 5,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2472,6 +2556,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 6,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2500,6 +2585,7 @@
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
+    "runtime_per_episode": null,
     "season": 7,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2527,6 +2613,7 @@
     "type": "tv",
     "tmdbId": 135934,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Animation",
@@ -2547,6 +2634,7 @@
     "type": "tv",
     "tmdbId": 93405,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -2570,6 +2658,7 @@
     "type": "tv",
     "tmdbId": 273170,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Documentary"
@@ -2587,6 +2676,7 @@
     "type": "tv",
     "tmdbId": 194764,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -2609,6 +2699,7 @@
     "type": "tv",
     "tmdbId": 136315,
     "release_year": 2022,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Drama",
@@ -2629,6 +2720,7 @@
     "type": "tv",
     "tmdbId": 261579,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Animation",
@@ -2650,6 +2742,7 @@
     "type": "tv",
     "tmdbId": 242977,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama"
@@ -2669,6 +2762,7 @@
     "type": "tv",
     "tmdbId": 91363,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Animation",
@@ -2688,6 +2782,7 @@
     "type": "tv",
     "tmdbId": 93405,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Action \u0026 Adventure",
@@ -2709,6 +2804,7 @@
     "type": "tv",
     "tmdbId": 219543,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Animation",
@@ -2730,6 +2826,7 @@
     "type": "tv",
     "tmdbId": 118642,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Action \u0026 Adventure",
@@ -2752,6 +2849,7 @@
     "type": "tv",
     "tmdbId": 125988,
     "release_year": 2023,
+    "runtime_per_episode": null,
     "season": 2,
     "genres": [
       "Sci-Fi \u0026 Fantasy",
@@ -2772,6 +2870,7 @@
     "type": "tv",
     "tmdbId": 203744,
     "release_year": 2024,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Drama",
@@ -2792,6 +2891,7 @@
     "type": "tv",
     "tmdbId": 111803,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 1,
     "genres": [
       "Comedy",
@@ -2811,6 +2911,7 @@
     "type": "tv",
     "tmdbId": 95557,
     "release_year": 2021,
+    "runtime_per_episode": null,
     "season": 3,
     "genres": [
       "Animation",
@@ -2823,6 +2924,28 @@
     "review": {
       "rating": 5,
       "comment": "It's the most intense entertainment I have ever seen. There's never a dull moment, and whenever I think a character is OK or when I start to care about someone... BAM! Something insane happens. I really liked the different storylines in this season in comparison to the other two seasons. Season 4 can't come soon enough!"
+    }
+  },
+  {
+    "title": "Severance",
+    "date": "2025-03-21T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 95396,
+    "release_year": 2022,
+    "runtime_per_episode": null,
+    "season": 2,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi \u0026 Fantasy"
+    ],
+    "directors": [
+      "Aoife McArdle"
+    ],
+    "creators": null,
+    "review": {
+      "rating": 5,
+      "comment": "Captivating from start to finish! After watching two seasons of this show I'm certain that I don't want to separate my work and personal life into two separate identities."
     }
   }
 ]
