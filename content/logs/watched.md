@@ -47,7 +47,6 @@ Movies and TV shows that I've watched. Not a complete list.
 - Master and Commander: The Far Side of the World (2003)
 - Paddleton (2019)
 - Past Lives (2023)
-- Speak No Evil (2024)
 - Spermageddon (2024)
 - The Mauritanian (2021)
 - The Sweet East (2023)
@@ -63,4 +62,3 @@ Movies and TV shows that I've watched. Not a complete list.
 - Crazy Heart (2009)
 - Mors Hus (1974)
 - Gritt (2021)
-- Speak No Evil (2024)

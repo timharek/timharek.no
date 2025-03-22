@@ -6235,5 +6235,24 @@
       "rating": 4,
       "comment": "Awesome story! I liked the subtle and not-so subtle social commentary, and how the antagonist was a parody of multiple well know figures."
     }
+  },
+  {
+    "title": "Speak No Evil",
+    "date": "2025-03-22T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1114513,
+    "release_year": 2024,
+    "runtime": 110,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "directors": [
+      "James Watkins"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Fun to see two opposites from Halt and Catch Fire play a couple, and in a horror-setting! I enjoyed this movie. The setting hits close to home as my SO and I went to visit a friend couple I had met online five year prior while gaming. In our case I had known them for five years online, but for my SO, she had only spoken to them once before meeting them in person."
+    }
   }
 ]
