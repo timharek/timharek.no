@@ -2947,5 +2947,25 @@
       "rating": 5,
       "comment": "Captivating from start to finish! After watching two seasons of this show I'm certain that I don't want to separate my work and personal life into two separate identities."
     }
+  },
+  {
+    "title": "The Day of the Jackal",
+    "date": "2025-03-25T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 222766,
+    "release_year": 2024,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Drama",
+      "Action \u0026 Adventure",
+      "Mystery"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 5,
+      "comment": "Excellent from start to finish! The story, characters, technology, and over all a really good show. All of the episodes lived up to the pilot/ep1."
+    }
   }
 ]
