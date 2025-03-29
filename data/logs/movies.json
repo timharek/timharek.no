@@ -6254,5 +6254,44 @@
       "rating": 4,
       "comment": "Fun to see two opposites from Halt and Catch Fire play a couple, and in a horror-setting! I enjoyed this movie. The setting hits close to home as my SO and I went to visit a friend couple I had met online five year prior while gaming. In our case I had known them for five years online, but for my SO, she had only spoken to them once before meeting them in person."
     }
+  },
+  {
+    "title": "The Ugly Stepsister",
+    "date": "2025-03-28T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1284120,
+    "release_year": 2025,
+    "runtime": 105,
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "directors": [
+      "Emilie Kristine Blichfeldt"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "What a movie. So weird and fucked up, but funny! They took a page or two out of the original story and just went bananas."
+    }
+  },
+  {
+    "title": "Click",
+    "date": "2025-03-29T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 9339,
+    "release_year": 2006,
+    "runtime": 107,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "directors": [
+      "Frank Coraci"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "Rewatch. Today this movies makes me think of AI, and how we should use it carefully and not overdo it."
+    }
   }
 ]
