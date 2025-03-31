@@ -45,8 +45,9 @@ Hopefully in March.
 
 My CLIs are now available via Homebrew. I thought was much more complicated to
 set up my own Homebrew-tap, but it took me less than five minutes. You can see
-my [GitHub-repo]() for more details. Only my tap is hosted on GitHub, the actual
-tools are hosted on my preferred source-forge, SourceHut. Now you can run
+my [GitHub-repo](https://github.com/timharek/homebrew-tap) for more details.
+Only my tap is hosted on GitHub, the actual tools are hosted on my preferred
+source-forge, SourceHut. Now you can run
 
 ```bash
 brew tap timharek/tap
