@@ -2967,5 +2967,25 @@
       "rating": 5,
       "comment": "Excellent from start to finish! The story, characters, technology, and over all a really good show. All of the episodes lived up to the pilot/ep1."
     }
+  },
+  {
+    "title": "Reacher",
+    "date": "2025-03-30T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 108978,
+    "release_year": 2022,
+    "runtime_per_episode": null,
+    "season": 3,
+    "genres": [
+      "Action \u0026 Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "Started of great, became more generic towards the end, but overall great season!"
+    }
   }
 ]
