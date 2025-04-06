@@ -6293,5 +6293,24 @@
       "rating": 3,
       "comment": "Rewatch. Today this movies makes me think of AI, and how we should use it carefully and not overdo it."
     }
+  },
+  {
+    "title": "We Live in Time",
+    "date": "2025-04-06T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1100099,
+    "release_year": 2024,
+    "runtime": 108,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "directors": [
+      "John Crowley"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Hits close to home, heartbreaking story."
+    }
   }
 ]
