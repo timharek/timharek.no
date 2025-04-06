@@ -36,6 +36,7 @@ Movies and TV shows that I've watched. Not a complete list.
 
 - Succession S4 (not sure when we'll finish this one...)
 - Daredevil: Born Again S1
+- MobLand S1
 
 ## Watchlist
 
