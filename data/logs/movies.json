@@ -6312,5 +6312,24 @@
       "rating": 4,
       "comment": "Hits close to home, heartbreaking story."
     }
+  },
+  {
+    "title": "Alien: Romulus",
+    "date": "2025-04-12T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 945961,
+    "release_year": 2024,
+    "runtime": 119,
+    "genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Fede Álvarez"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Cool movie, I liked most of the effects. The ending was meh, but overall cool."
+    }
   }
 ]
