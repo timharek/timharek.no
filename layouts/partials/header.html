@@ -18,10 +18,9 @@
         <li>
           <a
             href={{ .URL }}
-            {{ if $page.IsMenuCurrent .Menu . }}
-            class="normal !text-text"
-            {{ else }}
             class="normal"
+            {{ if $page.IsMenuCurrent .Menu . }}
+            data-current
             {{ end }}
             >
             {{ .Name }}

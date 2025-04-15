@@ -29,7 +29,7 @@
 }
 
 a.normal {
-  @apply text-primary font-semibold underline hover:bg-primary hover:text-bg hover:decoration-primary data-[current]:text-text data-[current]:hover:text-bg font-semibold;
+  @apply text-primary font-semibold underline hover:bg-primary hover:text-bg hover:decoration-primary data-current:text-text data-current:hover:text-bg;
 }
 
 .markdown-body {

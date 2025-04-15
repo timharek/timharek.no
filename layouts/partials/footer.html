@@ -9,11 +9,10 @@
       {{ range .Site.Menus.footer }}
         <li>
           <a
+            class="normal"
             href={{ .URL }}
             {{ if $page.IsMenuCurrent .Menu . }}
-            class="normal !text-text"
-            {{ else }}
-            class="normal"
+              data-current
             {{ end }}
             >
             {{ .Name }}
