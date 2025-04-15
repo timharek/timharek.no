@@ -9,6 +9,7 @@ Books that I've read.
 
 - The Norse Myths (1980), Kevin Crossley-Holland
 - Secure by Design (2019), Dan Bergh Johnsson, Daniel Deogun, Daniel Sawano
+- The Body (2019), Bill Bryson
 
 ## Reading list
 
@@ -17,3 +18,4 @@ Books that I've read.
 - No longer human (1948), Osamu Dazai.
 - The Sailor Who Fell from Grace with the Sea (1963), Yukio Mishima.
 - Nexus (2024), Yuval Noah Harari
+- At Home (2010), Bill Bryson
