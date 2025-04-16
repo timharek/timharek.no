@@ -3025,5 +3025,24 @@
       "rating": 4,
       "comment": "The ending made the show better. Some stuff felt rushed, the CGI stuff in the first couple of episodes was so weird compared to the original Netflix series. The Punisher stuff was excellent! Hopefully we can see more of him in the future."
     }
+  },
+  {
+    "title": "Succession",
+    "date": "2025-04-16T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 76331,
+    "release_year": 2018,
+    "runtime_per_episode": null,
+    "season": 4,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 2,
+      "comment": "This took so long to finish. This season kept on getting more and more boring. And I had to find out how it ended, and I was surprised. But man was this boring..."
+    }
   }
 ]
