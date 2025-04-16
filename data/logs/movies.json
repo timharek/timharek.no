@@ -6331,5 +6331,25 @@
       "rating": 4,
       "comment": "Cool movie, I liked most of the effects. The ending was meh, but overall cool."
     }
+  },
+  {
+    "title": "Ford v Ferrari",
+    "date": "2025-04-16T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 359724,
+    "release_year": 2019,
+    "runtime": 153,
+    "genres": [
+      "Drama",
+      "Action",
+      "History"
+    ],
+    "directors": [
+      "James Mangold"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Cars, cars, cars! Adrenaline fueled movie, a fun watch!"
+    }
   }
 ]
