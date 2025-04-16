@@ -523,12 +523,13 @@ keywords = ["Website", "Zola", "Open source"]
 sources = ["https://github.com/fribyte-code/fribyte.no"]
 
 [[projects]]
-name = "vestkontakt.no"
+name = "vestkontakt.no in Jekyll"
 client = "Vest Kontakt"
 url = "https://vestkontakt.no"
 roles = ["Developer"]
 description = """
-I created a new website using Jekyll.
+Replaced their old PHP/MySQL website with a static generated website, with
+Jekyll.
 """
 startDate = 2021-01-07
 endDate = 2021-02-22
@@ -830,3 +831,16 @@ we used their OpenAPI API against CW's APIs.
 startDate = 2024-09-15
 keywords = ["API", "Go", "GCP", "Value", "Work", "ERP", "Integration", "24SevenOffice", "GraphQL", "OpenAPI", "SOAP", "Tripletex"]
 
+[[projects]]
+name = "vestkontakt.no in Hugo"
+client = "Vest Kontakt"
+url = "https://vestkontakt.no"
+roles = ["Developer"]
+description = """
+Replaced the Jekyll website with Hugo. Revamped the content structure to match
+their primary business.
+
+Decided Hugo was a better choice than Jekyll because of all its built-ins.
+"""
+startDate = 2025-04-07
+keywords = ["Website", "Hugo", "Work"]

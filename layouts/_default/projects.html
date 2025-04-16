@@ -44,7 +44,7 @@
       {{ if and (in .keywords "Go") (in .keywords "Package") }}
         {{ partial "inline/go" . }}
       {{ end }}
-      <p class="">{{ .description }}</p>
+      <div class="space-y-2">{{ .description | markdownify }}</div>
       {{ if .sources }}
         <a href="{{ index .sources 0 }}" class="normal" target="_blank">Source code</a>
       {{ end }}
