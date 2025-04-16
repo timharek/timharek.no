@@ -1,65 +1,65 @@
 {{ define "main" }}
-  <div class="px-4 mx-auto max-w-screen-md">
-    <div class="space-y-4 mb-4">
-      {{ partial "page-header.html" . }}
-      {{ with .GitInfo }}
-        {{ $dateMachine := .CommitDate | time.Format "2006-01-02T15:04:05-07:00" }}
-        {{ $dateHuman := .CommitDate | time.Format ":date_long" }}
-        {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" "Last updated"}}
-        {{ partial "date.html" $ctx . }}
-      {{ end }}
+  {{ with .Site.Data.cv }}
+    <div class="px-4 mx-auto max-w-screen-md">
+      <div class="space-y-4 mb-4">
+        {{ partial "page-header.html" . }}
+        {{ with .updatedAt }}
+          {{ $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+          {{ $dateHuman := . | time.Format ":date_long" }}
+          {{ $ctx := dict "date" $dateMachine "dateHuman" $dateHuman "text" "Last updated"}}
+          {{ partial "date.html" $ctx . }}
+        {{ end }}
+      </div>
+      <div class="space-y-4 max-w-prose">
+        <section class="space-y-4">
+          <h2 class="text-3xl font-semibold">TL;DR</h2>
+          <p>
+            {{ .basics.summary }}
+          </p>
+        </section>
+        <section class="space-y-4">
+          <h2 class="text-3xl font-semibold">Work</h2>
+          <ul class="space-y-6">
+            {{ range .work }}
+              <li>
+                {{ partial "inline/work.html" . }}
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+        <section class="space-y-4">
+          <h2 class="text-3xl font-semibold">Voluntary</h2>
+          <ul class="space-y-6">
+            {{ range .volunteer }}
+              <li>
+                {{ partial "inline/work.html" . }}
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+        <section class="space-y-4">
+          <h2 class="text-3xl font-semibold">Education</h2>
+          <ul class="space-y-6">
+            {{ range .education }}
+              <li>
+                {{ partial "inline/edu.html" . }}
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+        <section class="space-y-4">
+          <h2 class="text-3xl font-semibold">Skills</h2>
+          <ul class="space-y-6">
+            {{ range .skills }}
+              <li>
+                {{ partial "inline/skill.html" . }}
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      </div>
     </div>
-    {{ $cv := .Site.Data.cv }}
-    <div class="space-y-4 max-w-prose">
-      <section class="space-y-4">
-        <h2 class="text-3xl font-semibold">TL;DR</h2>
-        <p>
-          {{ $cv.basics.summary }}
-        </p>
-      </section>
-      <section class="space-y-4">
-        <h2 class="text-3xl font-semibold">Work</h2>
-        <ul class="space-y-6">
-          {{ range $cv.work }}
-            <li>
-              {{ partial "inline/work.html" . }}
-            </li>
-          {{ end }}
-        </ul>
-      </section>
-      <section class="space-y-4">
-        <h2 class="text-3xl font-semibold">Voluntary</h2>
-        <ul class="space-y-6">
-          {{ range $cv.volunteer }}
-            <li>
-              {{ partial "inline/work.html" . }}
-            </li>
-          {{ end }}
-        </ul>
-      </section>
-      <section class="space-y-4">
-        <h2 class="text-3xl font-semibold">Education</h2>
-        <ul class="space-y-6">
-          {{ range $cv.education }}
-            <li>
-              {{ partial "inline/edu.html" . }}
-            </li>
-          {{ end }}
-        </ul>
-      </section>
-      <section class="space-y-4">
-        <h2 class="text-3xl font-semibold">Skills</h2>
-        <ul class="space-y-6">
-          {{ range $cv.skills }}
-            <li>
-              {{ partial "inline/skill.html" . }}
-            </li>
-          {{ end }}
-        </ul>
-      </section>
-    </div>
-  </div>
-  </div>
+  {{ end }}
 {{ end }}
 
 {{ define "partials/inline/work.html" }}
