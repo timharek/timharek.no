@@ -3006,5 +3006,24 @@
       "rating": 5,
       "comment": "Intense, thought-provoking and incredible storytelling. How everything was one take, how everything felt fluid and believeable. I've never watched anything like it. Good characters, acting, and story overall."
     }
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "date": "2025-04-16T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 202555,
+    "release_year": 2025,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "The ending made the show better. Some stuff felt rushed, the CGI stuff in the first couple of episodes was so weird compared to the original Netflix series. The Punisher stuff was excellent! Hopefully we can see more of him in the future."
+    }
   }
 ]
