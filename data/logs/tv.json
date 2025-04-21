@@ -3044,5 +3044,24 @@
       "rating": 2,
       "comment": "This took so long to finish. This season kept on getting more and more boring. And I had to find out how it ended, and I was surprised. But man was this boring..."
     }
+  },
+  {
+    "title": "Devil in the Family: The Fall of Ruby Franke",
+    "date": "2025-04-21T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 281371,
+    "release_year": 2025,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "WTF. When everything is content, and religion can be your excuse. I don't have fucking words."
+    }
   }
 ]
