@@ -1,34 +1,28 @@
 [
   {
     "title": "Essentialism: The Disciplined Pursuit of Less",
-    "date": "2018-12-14",
+    "date": "2018-12-14T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2014,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Greg McKeown"
-    ],
     "genres": [
       "Nonfiction",
       "Self Help",
       "Psychology",
       "Productivity",
       "Business"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "How To Win Friends And Influence People",
-    "date": "2019-08-06",
+    "date": "2019-08-06T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 1936,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Dale Carnegie"
-    ],
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -37,95 +31,90 @@
       "Business",
       "Leadership",
       "Relationships"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Sapiens: A Brief History of Humankind",
-    "date": "2019-08-08",
+    "date": "2019-08-08T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2011,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Yuval Noah Harari"
-    ],
     "genres": [
       "Nonfiction",
       "Science",
       "History",
       "Anthropology",
       "Sociology"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Homo Deus: A Breif History of Tomorrow",
-    "date": "2019-09-22",
+    "date": "2019-09-22T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2015,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Yuval Noah Harari"
-    ],
     "genres": [
       "Nonfiction",
       "Science",
       "History",
       "Anthropology",
       "Sociology"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Norse Mythology",
-    "date": "2019-09-22",
+    "date": "2019-09-22T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2017,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Neil Gaiman"
-    ],
     "genres": [
       "Fantasy",
       "Fiction",
       "Mythology",
       "Adult",
       "Short Stories"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "21 Lessons for the 21st Century",
-    "date": "2019-11-19",
+    "date": "2019-11-19T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Yuval Noah Harari"
-    ],
     "genres": [
       "Nonfiction",
       "Science",
       "History",
       "Anthropology",
       "Sociology"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Digital Minimalism",
-    "date": "2019-12-08",
+    "date": "2019-12-08T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2019,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Cal Newport"
-    ],
     "genres": [
       "Nonfiction",
       "Self Help",
@@ -133,111 +122,105 @@
       "Productivity",
       "Science",
       "Technology"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Permanent Record",
-    "date": "2020-01-14",
+    "date": "2020-01-14T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2019,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Edward Snowden"
-    ],
     "genres": [
       "Nonfiction",
       "Biography",
       "Politics",
       "Autobiography",
       "Technology"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "1984",
-    "date": "2021-04-03",
+    "date": "2021-04-03T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 1949,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "George Orwell"
-    ],
     "genres": [
       "Fiction",
       "Science Fiction",
       "Politics"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "The Subtle Art of Not Giving a Fuck: A Counterintuitive Approach to Living a Good Life",
-    "date": "2021-04-27",
+    "date": "2021-04-27T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2016,
-    "review": {
-      "rating": 3
-    },
-    "author": [
-      "Mark Manson"
-    ],
     "genres": [
       "Nonfiction",
       "Self Help",
       "Psychology",
       "Productivity",
       "Business"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "Talk Like TED",
-    "date": "2021-05-30",
+    "date": "2021-05-30T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2017,
-    "review": {
-      "rating": 3
-    },
-    "author": [
-      "Carmine Gallo"
-    ],
     "genres": [
       "Nonfiction",
       "Self Help",
       "Psychology",
       "Productivity",
       "Business"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "Atomic Habits",
-    "date": "2021-12-18",
+    "date": "2021-12-18T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "James Clear"
-    ],
     "genres": [
       "Nonfiction",
       "Self Help",
       "Psychology",
       "Productivity"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "New Dark Age",
-    "date": "2022-03-10",
+    "date": "2022-03-10T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "James Bridle"
-    ],
     "genres": [
       "Nonfiction",
       "Science",
@@ -245,19 +228,18 @@
       "Philosophy",
       "Sociology",
       "Futurism"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Lost Connections",
-    "date": "2022-03-22",
+    "date": "2022-03-22T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Johann Hari"
-    ],
     "genres": [
       "Nonfiction",
       "Science",
@@ -265,37 +247,35 @@
       "Sociology",
       "Health",
       "Self Help"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Thor: The God of Thunder #1 - #11",
-    "date": "2022-07-06",
+    "date": "2022-07-06T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2013,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Jason Aaron"
-    ],
     "genres": [
       "Comicbook",
       "Adventure",
       "Fantasy",
       "Action"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Ruined by Design",
-    "date": "2022-07-22",
+    "date": "2022-07-22T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2019,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Mike Monteiro"
-    ],
     "genres": [
       "Nonfiction",
       "Design",
@@ -303,19 +283,18 @@
       "Technology",
       "Programming",
       "Science"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "The Phoenix Project",
-    "date": "2022-10-30",
+    "date": "2022-10-30T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2013,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Gene Kim"
-    ],
     "genres": [
       "Fiction",
       "Technology",
@@ -323,257 +302,252 @@
       "Business",
       "Leadership",
       "Management"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Kang the Conqueror",
-    "date": "2023-01-15",
+    "date": "2023-01-15T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2022,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Carlos Magno",
-      "Collin Kelly",
-      "Jackson Lanzing"
-    ],
     "genres": [
       "Comicbook"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Crossover: Volume 1",
-    "date": "2023-06-17",
+    "date": "2023-06-17T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2022,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Scott Snyder"
-    ],
     "genres": [
       "Comicbook"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Skriv godt, bli forstått",
-    "date": "2023-07-04",
+    "date": "2023-07-04T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2021,
-    "review": {
-      "rating": 5
-    },
-    "author": [
-      "Christine Calvert",
-      "Ove Dalen"
-    ],
     "genres": [
       "Writing",
       "Language"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Frontiersman, Volume 1",
-    "date": "2023-08-09",
+    "date": "2023-08-09T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2022,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Patrick Kindlon",
-      "Marco Ferrari",
-      "Maurizio Rosenzweig"
-    ],
     "genres": [
       "Comicbook"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "The Pragmatic Programmer",
-    "date": "2024-01-22",
+    "date": "2024-01-22T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 1999,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Andy Hunt",
-      "David Thomas",
-      "Dave Thomas",
-      "Andrew Hunt"
-    ],
     "genres": [
       "Programming",
       "Computer-Science",
       "Technology",
       "Nonfiction",
       "Software"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "All Systems Red",
-    "date": "2024-05-31",
+    "date": "2024-05-31T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2017,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "authors": null,
     "review": {
       "rating": 5,
       "comment": "Short, but very entertaining!"
-    },
-    "author": [
-      "Martha Wells"
-    ],
-    "genres": [
-      "Sci-Fi"
-    ]
+    }
   },
   {
     "title": "Artificial condition",
-    "date": "2024-06-01",
+    "date": "2024-06-01T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "authors": null,
     "review": {
       "rating": 5,
       "comment": "Everyone needs ART in their life!"
-    },
-    "author": [
-      "Martha Wells"
-    ],
-    "genres": [
-      "Sci-Fi"
-    ]
+    }
   },
   {
     "title": "Rouge Protocol",
-    "date": "2024-06-04",
+    "date": "2024-06-04T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "authors": null,
     "review": {
       "rating": 4,
       "comment": "The intense corridors, the scaning, talking, everything."
-    },
-    "author": [
-      "Martha Wells"
-    ],
-    "genres": [
-      "Sci-Fi"
-    ]
+    }
   },
   {
     "title": "Exit strategy",
-    "date": "2024-06-07",
+    "date": "2024-06-07T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2018,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Martha Wells"
-    ],
     "genres": [
       "Sci-Fi"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Network Effect",
-    "date": "2024-06-18",
+    "date": "2024-06-18T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2020,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "authors": null,
     "review": {
       "rating": 5,
       "comment": "This entry was so full of detail, like the previous ones, but on a different level. It had so much exciting going on!"
-    },
-    "author": [
-      "Martha Wells"
-    ],
-    "genres": [
-      "Sci-Fi"
-    ]
+    }
   },
   {
     "title": "Fugitive Telemetry",
-    "date": "2024-06-22",
+    "date": "2024-06-22T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2021,
-    "review": {
-      "rating": 4
-    },
-    "author": [
-      "Martha Wells"
-    ],
     "genres": [
       "Sci-Fi"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "System Collapse",
-    "date": "2024-07-02",
+    "date": "2024-07-02T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2023,
+    "genres": [
+      "Sci-Fi"
+    ],
+    "authors": null,
     "review": {
       "rating": 5,
       "comment": "Excellent! The action-parts feels like a cinematic experience in book/audiobook-form."
-    },
-    "author": [
-      "Martha Wells"
-    ],
-    "genres": [
-      "Sci-Fi"
-    ]
+    }
   },
   {
     "title": "A Game of Thrones",
-    "date": "2024-11-07",
+    "date": "2024-11-07T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 1996,
-    "review": {
-      "rating": 4,
-      "comment": "The TV shows are really faithful to the first book. I enjoyed this, but it was very long."
-    },
-    "author": [
-      "George R. R. Martin"
-    ],
     "genres": [
       "Fantasy",
       "Adventure"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4,
+      "comment": "The TV shows are really faithful to the first book. I enjoyed this, but it was very long."
+    }
   },
   {
     "title": "How the World Really Works",
-    "date": "2025-01-25",
+    "date": "2025-01-25T00:00:00Z",
     "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2022,
+    "genres": [
+      "Science"
+    ],
+    "authors": null,
     "review": {
       "rating": 4,
       "comment": "It took me almost two years to finish this book, not because it was boring, but because there is a lot of material to process behind each chapter. I'm impressed on how the author managed to compress so much information into a tiny bit more than 200 pages. I recommend!"
-    },
-    "author": [
-      "Vaclav Smil"
-    ],
-    "genres": [
-      "Science"
-    ]
+    }
   },
   {
-    "type": "book",
     "title": "Homeland",
-    "date": "2025-01-24",
+    "date": "2025-01-24T00:00:00Z",
+    "type": "book",
+    "openlibrary_id": "",
     "publish_year": 2013,
-    "author": [
-      "Cory Doctorow",
-      "Wil Wheaton"
-    ],
-    "review": {
-      "rating": 4,
-      "comment": "I was not expecting this level of detail to cyber security in a book! The story was captivating, and it bascially felt like a story that seems so plausible in today's USA. And I didn't realize that there was a book before this one, so I guess I have to read that one next..."
-    },
     "genres": [
       "Fiction",
       "Terrorism",
       "Cryptography",
       "Privacy"
-    ]
+    ],
+    "authors": null,
+    "review": {
+      "rating": 4,
+      "comment": "I was not expecting this level of detail to cyber security in a book! The story was captivating, and it bascially felt like a story that seems so plausible in today's USA. And I didn't realize that there was a book before this one, so I guess I have to read that one next..."
+    }
+  },
+  {
+    "title": "The Body",
+    "date": "2025-04-18T00:00:00Z",
+    "type": "book",
+    "openlibrary_id": "/works/OL20333471W",
+    "publish_year": 2019,
+    "genres": null,
+    "authors": [
+      "Bill Bryson"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Facinating stuff. The body is a complex piece of flesh. And now, thanks to this book, I have lots of facts I can use on occation! Thanks, Bill! Jokes aside, I've learned lots. Everything from how complex our eyes are to how antibiotics was discovered and to how messed up the US health-stuff is."
+    }
   }
 ]

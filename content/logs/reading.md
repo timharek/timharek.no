@@ -9,7 +9,6 @@ Books that I've read.
 
 - The Norse Myths (1980), Kevin Crossley-Holland
 - Secure by Design (2019), Dan Bergh Johnsson, Daniel Deogun, Daniel Sawano
-- The Body (2019), Bill Bryson
 
 ## Reading list
 
