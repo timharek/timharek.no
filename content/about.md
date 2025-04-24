@@ -1,20 +1,22 @@
 +++
 title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
-updatedAt = 2024-12-16
+updatedAt = 2025-04-24
 +++
 
-Hi, I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway that
-likes to write about my learnings, design, programming, [logging](/logs),
-[note-taking](/tags/note-taking) and more. I care about creating solutions that
-respects people's privacy, security and user experience.
+Hi, I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway. I
+like to write about [programming](/tags/programming), [logging](/logs),
+[note-taking](/tags/note-taking), what I've learned, and more. I care about
+making things that respect people, in terms of their privacy, security, user
+experience, and time.
 
-I work as a software engineer at Value Technology, where I dabble with full
-stack development, architecture, accessibility and UX design.
+Beside my personal website I work as a software engineer at Value Technology in
+Bergen, Norway. I dabble with full-stack development, software architecture,
+maintainability, automation, and sysadmin stuff.
 
 During my spare time I learn about new technologies, write the occasional
-blogpost, automate my everyday, 3D-print something I (definitely) need and hike
-with my dog! 🐕
+blogpost, automate my everyday, 3D-print something I (definitely) need, and
+hangout with my daughter!
 
 Check out my [now](/now)-page for what I'm up to now, or my [more](/more)-page
 to checkout more stuff on my website.
