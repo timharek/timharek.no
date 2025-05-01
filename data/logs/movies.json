@@ -6371,5 +6371,25 @@
       "rating": 4,
       "comment": "Rewatch. Fun cop-movie, it still holds up!"
     }
+  },
+  {
+    "title": "Thunderbolts*",
+    "date": "2025-05-01T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 986056,
+    "release_year": 2025,
+    "runtime": 127,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Jake Schreier"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "Meh. The thrid act was weird and slow. Hopefully the next Fant4stic movie can fix the MCU-draught."
+    }
   }
 ]
