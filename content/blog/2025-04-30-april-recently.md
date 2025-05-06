@@ -1,5 +1,6 @@
 +++
 title = 'April 2025'
+updatedAt = 2025-05-06
 description = "What I've been up to since March."
 tags = ["Recently"]
 +++
@@ -118,7 +119,7 @@ so good about it, but it's so damn intriguing – mobsters in the UK.
 - [Cassette Futurism] – I didn't know this term, but I have always been fond of
   it!
 - [to do nothing] – Let's do nothing.
-- [The blissful zen of a good side project] – Relateable!
+- [The blissful zen of a good side project] – Relatable!
 - [Milk Kanban] – Simplicity is king!
 
 [Be Kind]: https://boz.com/articles/be-kind
