@@ -561,6 +561,7 @@ description = """
 API-client for accessing OpenLibrary's API for searching books, authors etc.
 """
 startDate = 2023-01-15
+endDate = 2024-09-30
 keywords = ["Tool", "Deno", "API", "Personal", "Open source", "JSR"]
 sources = [
   "https://github.com/timharek/openlibrary",
