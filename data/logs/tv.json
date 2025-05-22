@@ -3063,5 +3063,25 @@
       "rating": 4,
       "comment": "WTF. When everything is content, and religion can be your excuse. I don't have fucking words."
     }
+  },
+  {
+    "title": "Andor",
+    "date": "2025-05-22T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 83867,
+    "release_year": 2022,
+    "runtime_per_episode": null,
+    "season": 2,
+    "genres": [
+      "Sci-Fi \u0026 Fantasy",
+      "Action \u0026 Adventure",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "The atmosphere in this show is excellent. The tone feels a lot more Star Wars than some of the other recent shows. The main characters is really something too."
+    }
   }
 ]
