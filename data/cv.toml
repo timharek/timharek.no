@@ -1,5 +1,5 @@
 "$schema" = "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json"
-updatedAt = 2025-04-16
+updatedAt = 2025-05-25
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -853,3 +853,11 @@ Decided Hugo was a better choice than Jekyll because of all its built-ins.
 """
 startDate = 2025-04-07
 keywords = ["Website", "Hugo", "Work"]
+
+[[projects]]
+name = "git-bump"
+description = """
+Easily tag new versions (semver) with git.
+"""
+startDate = 2025-11-15
+keywords = ["git", "Go", "CLI", "Personal"]
