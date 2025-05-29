@@ -6391,5 +6391,23 @@
       "rating": 3,
       "comment": "Meh. The thrid act was weird and slow. Hopefully the next Fant4stic movie can fix the MCU-draught."
     }
+  },
+  {
+    "title": "The Brutalist",
+    "date": "2025-05-29T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 549509,
+    "release_year": 2024,
+    "runtime": 215,
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      "Brady Corbet"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Long movie, and not in a bad way. The overall story was great, some characters could have been explored more imho."
+    }
   }
 ]
