@@ -3083,5 +3083,23 @@
       "rating": 4,
       "comment": "The atmosphere in this show is excellent. The tone feels a lot more Star Wars than some of the other recent shows. The main characters is really something too."
     }
+  },
+  {
+    "title": "The Last of Us",
+    "date": "2025-05-30T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 100088,
+    "release_year": 2023,
+    "runtime_per_episode": null,
+    "season": 2,
+    "genres": [
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "Really good, but not the same as the previous season. I'm not too sold on Ellie's character. The other supporting characters was excellent."
+    }
   }
 ]
