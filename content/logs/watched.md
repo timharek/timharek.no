@@ -41,7 +41,6 @@ Movies and TV shows that I've watched. Not a complete list.
 
 - Asteroid City (2023)
 - Civil War (2024)
-- Gangs of New York (2002)
 - Killers of the Flower Moon (2023)
 - Master and Commander: The Far Side of the World (2003)
 - Paddleton (2019)

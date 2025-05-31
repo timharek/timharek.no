@@ -6409,5 +6409,25 @@
       "rating": 4,
       "comment": "Long movie, and not in a bad way. The overall story was great, some characters could have been explored more imho."
     }
+  },
+  {
+    "title": "Gangs of New York",
+    "date": "2025-05-31T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 3131,
+    "release_year": 2002,
+    "runtime": 168,
+    "genres": [
+      "Drama",
+      "History",
+      "Crime"
+    ],
+    "directors": [
+      "Martin Scorsese"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "This movie felt lika circus."
+    }
   }
 ]
