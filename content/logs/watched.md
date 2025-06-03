@@ -34,7 +34,6 @@ Movies and TV shows that I've watched. Not a complete list.
 
 ## Currently watching
 
-- MobLand S1
 - Black Mirror S7
 
 ## Watchlist

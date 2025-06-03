@@ -3101,5 +3101,24 @@
       "rating": 4,
       "comment": "Really good, but not the same as the previous season. I'm not too sold on Ellie's character. The other supporting characters was excellent."
     }
+  },
+  {
+    "title": "MobLand",
+    "date": "2025-06-01T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 247718,
+    "release_year": 2025,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 5,
+      "comment": "An awesome crime, mafia, drama, etc etc, fucking TV show! It was a blast beginning to end! I loved all the characters. The twists were great. Not a lot I actually saw coming. I recommend this show to everyone that likes the crime/mafia genre. My last 10 Sundays have been an absolute blast!"
+    }
   }
 ]
