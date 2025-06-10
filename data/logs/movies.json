@@ -6429,5 +6429,44 @@
       "rating": 3,
       "comment": "This movie felt lika circus."
     }
+  },
+  {
+    "title": "Predator: Killer of Killers",
+    "date": "2025-06-08T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1376434,
+    "release_year": 2025,
+    "runtime": 85,
+    "genres": [
+      "Animation",
+      "Science Fiction",
+      "Action"
+    ],
+    "directors": [
+      "Dan Trachtenberg"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Cool animated movie! I thought this was going to be TV show, and it seems like that was the original intention in terms of how the movie was structured. But it was good nonetheless!"
+    }
+  },
+  {
+    "title": "Mountainhead",
+    "date": "2025-06-09T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1417059,
+    "release_year": 2025,
+    "runtime": 109,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "directors": [
+      "Jesse Armstrong"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "WTF. How do they come up with this?"
+    }
   }
 ]
