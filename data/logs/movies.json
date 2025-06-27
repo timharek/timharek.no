@@ -6468,5 +6468,25 @@
       "rating": 4,
       "comment": "WTF. How do they come up with this?"
     }
+  },
+  {
+    "title": "28 Days Later",
+    "date": "2025-06-27T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 170,
+    "release_year": 2002,
+    "runtime": 113,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Danny Boyle"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "An alright movie. I'm trying to watch this and 28 weeks later in preparation for 28 years later. I like the premise, rage infection."
+    }
   }
 ]
