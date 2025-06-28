@@ -6488,5 +6488,25 @@
       "rating": 4,
       "comment": "An alright movie. I'm trying to watch this and 28 weeks later in preparation for 28 years later. I like the premise, rage infection."
     }
+  },
+  {
+    "title": "28 Weeks Later",
+    "date": "2025-06-28T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1562,
+    "release_year": 2007,
+    "runtime": 100,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Juan Carlos Fresnadillo"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "Like the previous one, this one felt low budget, and the story wasn't anything out of the ordinary. I noticed that they reuse the music score all the time... and it wasn't great. Hopefully the new one is great!"
+    }
   }
 ]
