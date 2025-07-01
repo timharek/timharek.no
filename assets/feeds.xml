@@ -16,8 +16,9 @@
 		<outline text="Caffeinspiration" title="Caffeinspiration" description="" type="rss" version="RSS" htmlUrl="https://alexanderell.is/" xmlUrl="https://alexanderell.is/index.xml"/>
 		<outline text="Carl Barenbrug" title="Carl Barenbrug" description="" type="rss" version="RSS" htmlUrl="https://carlbarenbrug.com/" xmlUrl="https://carlbarenbrug.com/feed/rss"/>
 		<outline text="Chris Coyier" title="Chris Coyier" description="" type="rss" version="RSS" htmlUrl="https://chriscoyier.net/" xmlUrl="https://chriscoyier.net/feed/"/>
-		<outline text="Christian Engelsen" title="Christian Engelsen" description="" type="rss" version="RSS" htmlUrl="https://cengelsen.no/" xmlUrl="https://cengelsen.no/index.xml"/>
+		<outline text="Christian Engelsen" title="Christian Engelsen" description="" type="rss" version="RSS" htmlUrl="http://cengelsen.no/" xmlUrl="https://cengelsen.no/index.xml"/>
 		<outline text="Daring Fireball" title="Daring Fireball" description="" type="rss" version="RSS" htmlUrl="https://daringfireball.net/" xmlUrl="https://daringfireball.net/feeds/json"/>
+		<outline text="datagubbe" title="datagubbe" description="" type="rss" version="RSS" htmlUrl="https://www.datagubbe.se/" xmlUrl="https://www.datagubbe.se/atom.xml"/>
 		<outline text="Dave Rupert" title="Dave Rupert" description="" type="rss" version="RSS" htmlUrl="https://daverupert.com/" xmlUrl="https://daverupert.com/atom.xml"/>
 		<outline text="David Eisinger" title="David Eisinger" description="" type="rss" version="RSS" htmlUrl="https://davideisinger.com/" xmlUrl="https://davideisinger.com/index.xml"/>
 		<outline text="Deadguy" title="Deadguy" description="" type="rss" version="RSS" htmlUrl="https://dgy.fuckup.club/blog/" xmlUrl="https://dgy.fuckup.club/blog/index.xml"/>
@@ -55,6 +56,7 @@
 		<outline text="Martin Koksrud Bekkelund" title="Martin Koksrud Bekkelund" description="" type="rss" version="RSS" htmlUrl="https://www.bekkelund.net/" xmlUrl="https://www.bekkelund.net/feed/"/>
 		<outline text="Mathias Haugsbø" title="Mathias Haugsbø" description="" type="rss" version="RSS" htmlUrl="https://mathiash98.github.io/" xmlUrl="https://mathiash98.github.io/rss.xml"/>
 		<outline text="Mats BS" title="Mats BS" description="" type="rss" version="RSS" htmlUrl="https://matsbs.com/" xmlUrl="https://matsbs.com/rss/"/>
+		<outline text="Matthew Sanabria" title="Matthew Sanabria" description="" type="rss" version="RSS" htmlUrl="https://matthewsanabria.dev/" xmlUrl="https://matthewsanabria.dev/index.xml"/>
 		<outline text="Max Bernstein" title="Max Bernstein" description="" type="rss" version="RSS" htmlUrl="https://bernsteinbear.com/" xmlUrl="https://bernsteinbear.com/feed.xml"/>
 		<outline text="Maxime Vaillancourt" title="Maxime Vaillancourt" description="" type="rss" version="RSS" htmlUrl="https://maximevaillancourt.com/" xmlUrl="https://maximevaillancourt.com/rss.xml"/>
 		<outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" description="" type="rss" version="RSS" htmlUrl="https://mitchellh.com/writing" xmlUrl="https://mitchellh.com/feed.xml"/>
@@ -75,7 +77,7 @@
 		<outline text="The Jolly Teapot" title="The Jolly Teapot" description="" type="rss" version="RSS" htmlUrl="https://thejollyteapot.com/" xmlUrl="https://thejollyteapot.com/feed.rss"/>
 		<outline text="Tom Macwright" title="Tom Macwright" description="" type="rss" version="RSS" htmlUrl="https://macwright.com/" xmlUrl="https://macwright.com/rss.xml"/>
 		<outline text="Tom Macwright Micro" title="Tom Macwright Micro" description="" type="rss" version="RSS" htmlUrl="https://macwright.com/" xmlUrl="https://macwright.com/micro/rss.xml"/>
-		<outline text="Victoria Drake" title="Victoria Drake" description="" type="rss" version="RSS" htmlUrl="https://victoria.dev/archive/" xmlUrl="https://victoria.dev/blog/index.xml"/>
+		<outline text="Victoria Drake" title="Victoria Drake" description="" type="rss" version="RSS" htmlUrl="https://victoriadrake.github.io/archive/" xmlUrl="https://victoria.dev/blog/index.xml"/>
 		<outline text="xkcd" title="xkcd" description="" type="rss" version="RSS" htmlUrl="https://xkcd.com/" xmlUrl="https://xkcd.com/rss.xml"/>
 		<outline text="Yarmo" title="Yarmo" description="" type="rss" version="RSS" htmlUrl="https://yarmo.eu/blog/" xmlUrl="https://yarmo.eu/atom.xml"/>
 		<outline text="マリウス" title="マリウス" description="" type="rss" version="RSS" htmlUrl="https://xn--gckvb8fzb.com/" xmlUrl="https://xn--gckvb8fzb.com/index.xml"/>
@@ -118,6 +120,7 @@
 		<outline text="Linkding releases" title="Linkding releases" description="" type="rss" version="RSS" htmlUrl="https://github.com/sissbruecker/linkding/releases" xmlUrl="https://github.com/sissbruecker/linkding/releases.atom"/>
 		<outline text="Mullvad" title="Mullvad" description="" type="rss" version="RSS" htmlUrl="https://www.mullvad.net/blog/" xmlUrl="https://mullvad.net/en/blog/feed/rss/"/>
 		<outline text="Signal" title="Signal" description="" type="rss" version="RSS" htmlUrl="https://signal.org/blog/" xmlUrl="https://signal.org/blog/rss.xml"/>
+		<outline text="Tripletex – For Developers" title="Tripletex – For Developers" description="" type="rss" version="RSS" htmlUrl="https://developer.tripletex.no/" xmlUrl="https://developer.tripletex.no/feed/"/>
 		<outline text="Zen Browser Release Notes" title="Zen Browser Release Notes" description="" type="rss" version="RSS" htmlUrl="https://www.zen-browser.app/release-notes" xmlUrl="https://zen-browser.app/feed.xml"/>
 	</outline>
 	</body>
