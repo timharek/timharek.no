@@ -6508,5 +6508,25 @@
       "rating": 3,
       "comment": "Like the previous one, this one felt low budget, and the story wasn't anything out of the ordinary. I noticed that they reuse the music score all the time... and it wasn't great. Hopefully the new one is great!"
     }
+  },
+  {
+    "title": "Palm Springs",
+    "date": "2025-07-05T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 587792,
+    "release_year": 2020,
+    "runtime": 90,
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Max Barbakow"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "I know they wanted to say, but they didn't. Groundhog Day. The movie could have been better if they had explored a bit more around how long the Nyles character was around."
+    }
   }
 ]

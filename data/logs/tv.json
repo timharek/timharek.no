@@ -3141,5 +3141,25 @@
       "rating": 4,
       "comment": "It so much fun to watch these people run a farm 😂"
     }
+  },
+  {
+    "title": "Squid Game",
+    "date": "2025-07-05T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 93405,
+    "release_year": 2021,
+    "runtime_per_episode": null,
+    "season": 3,
+    "genres": [
+      "Action \u0026 Adventure",
+      "Mystery",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "Nearly perfect ending, except for introducing *** version of Squid Game. It did peak my interest if they are going to continue the story or end it there. Time will show."
+    }
   }
 ]
