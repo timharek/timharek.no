@@ -3181,5 +3181,24 @@
       "rating": 4,
       "comment": "It doesn't remind me much of the books, to be honest. The overall show was great, and the setting is really cool. But I want it to be more like the books. The tone was the only thing in the show that was off. It never really landed. It felt like they were trying to be funny and dramatic like Fallout, but it wasn't funny like that. Just more awkward 😅"
     }
+  },
+  {
+    "title": "Ironheart",
+    "date": "2025-07-12T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 114471,
+    "release_year": 2025,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Sci-Fi \u0026 Fantasy",
+      "Crime"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 3,
+      "comment": "It's bearly better than Ms. Marvel. I only watched it because one big character was introduced in the last episode. And Zeke was a cool character up until the end."
+    }
   }
 ]

@@ -6528,5 +6528,25 @@
       "rating": 4,
       "comment": "I know they wanted to say, but they didn't. Groundhog Day. The movie could have been better if they had explored a bit more around how long the Nyles character was around."
     }
+  },
+  {
+    "title": "War Dogs",
+    "date": "2025-07-12T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 308266,
+    "release_year": 2016,
+    "runtime": 114,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "directors": [
+      "Todd Phillips"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Rewatch. The movie still holds up well."
+    }
   }
 ]
