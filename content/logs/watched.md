@@ -45,7 +45,6 @@ Movies and TV shows that I've watched. Not a complete list.
 - Master and Commander: The Far Side of the World (2003)
 - Paddleton (2019)
 - Past Lives (2023)
-- Spermageddon (2025)
 - The Mauritanian (2021)
 - The Sweet East (2023)
 - Syk pike (2022)
