@@ -3200,5 +3200,24 @@
       "rating": 3,
       "comment": "It's bearly better than Ms. Marvel. I only watched it because one big character was introduced in the last episode. And Zeke was a cool character up until the end."
     }
+  },
+  {
+    "title": "The Rehearsal",
+    "date": "2025-07-20T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 204284,
+    "release_year": 2022,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Comedy",
+      "Documentary"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "WTF... Nathan is so weird, and fucking awkward."
+    }
   }
 ]

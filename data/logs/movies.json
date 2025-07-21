@@ -6569,5 +6569,25 @@
       "rating": 3,
       "comment": "What a movie 😂"
     }
+  },
+  {
+    "title": "Superman",
+    "date": "2025-07-17T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1061474,
+    "release_year": 2025,
+    "runtime": 130,
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "directors": [
+      "James Gunn"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "What a blast! The action, acting and overall story was really cool. They even made Superman's silly custume work, and his weird moves from the comics and games like spinning around work perfectly. The supporting cast and heroes also worked well. Now, I have high hopes for the DCU."
+    }
   }
 ]
