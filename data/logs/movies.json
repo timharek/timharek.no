@@ -6589,5 +6589,63 @@
       "rating": 5,
       "comment": "What a blast! The action, acting and overall story was really cool. They even made Superman's silly custume work, and his weird moves from the comics and games like spinning around work perfectly. The supporting cast and heroes also worked well. Now, I have high hopes for the DCU."
     }
+  },
+  {
+    "title": "The Power of the Dog",
+    "date": "2025-07-24T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 600583,
+    "release_year": 2021,
+    "runtime": 127,
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "directors": [
+      "Jane Campion"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "The first half was bad, the story felt stichted together. The second half was good and the ending was wtf."
+    }
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "date": "2025-07-25T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 617126,
+    "release_year": 2025,
+    "runtime": 115,
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Matt Shakman"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Fun movie! There was a lot less superheroing than I expected. The big bad was meh. Silver Surfer's CGI looked worse than the one in 2007 movie."
+    }
+  },
+  {
+    "title": "28 Years Later",
+    "date": "2025-07-25T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1100988,
+    "release_year": 2025,
+    "runtime": 115,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Danny Boyle"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "An intense movie from start to finish! I liked that they kept the shaky handycam visuals for some shots in the movie, and I really liked the music and score."
+    }
   }
 ]
