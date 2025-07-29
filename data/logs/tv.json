@@ -3219,5 +3219,26 @@
       "rating": 4,
       "comment": "WTF... Nathan is so weird, and fucking awkward."
     }
+  },
+  {
+    "title": "Rick and Morty",
+    "date": "2025-07-29T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 60625,
+    "release_year": 2013,
+    "runtime_per_episode": null,
+    "season": 8,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi \u0026 Fantasy",
+      "Action \u0026 Adventure"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 3,
+      "comment": "It's getting boring now. I just watch it to see if the \"story\" progresses."
+    }
   }
 ]
