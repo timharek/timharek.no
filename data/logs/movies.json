@@ -6647,5 +6647,45 @@
       "rating": 4,
       "comment": "An intense movie from start to finish! I liked that they kept the shaky handycam visuals for some shots in the movie, and I really liked the music and score."
     }
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "date": "2025-07-27T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1087192,
+    "release_year": 2025,
+    "runtime": 125,
+    "genres": [
+      "Fantasy",
+      "Family",
+      "Action"
+    ],
+    "directors": [
+      "Dean DeBlois"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "The CGI was great, the acting was so-and-so – and the overall story isn't that great, feels like it's missing something."
+    }
+  },
+  {
+    "title": "Warfare",
+    "date": "2025-07-28T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1241436,
+    "release_year": 2025,
+    "runtime": 95,
+    "genres": [
+      "War",
+      "Action"
+    ],
+    "directors": [
+      "Ray Mendoza",
+      "Alex Garland"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Holy shit! It's been a while since I've watched a movie that only takes place within one building. The movie is intense from start to finish. The acting is superb, and the attention to detail about shellshock and trauma was excellent. War fucking sucks."
+    }
   }
 ]
