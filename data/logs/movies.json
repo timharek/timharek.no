@@ -6687,5 +6687,25 @@
       "rating": 4,
       "comment": "Holy shit! It's been a while since I've watched a movie that only takes place within one building. The movie is intense from start to finish. The acting is superb, and the attention to detail about shellshock and trauma was excellent. War fucking sucks."
     }
+  },
+  {
+    "title": "The Magic of Ordinary Days",
+    "date": "2025-07-31T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 47525,
+    "release_year": 2005,
+    "runtime": 120,
+    "genres": [
+      "Drama",
+      "Romance",
+      "TV Movie"
+    ],
+    "directors": [
+      "Brent Shields"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Heartwarming story. The old days were sinful 😂"
+    }
   }
 ]
