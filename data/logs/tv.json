@@ -3240,5 +3240,24 @@
       "rating": 3,
       "comment": "It's getting boring now. I just watch it to see if the \"story\" progresses."
     }
+  },
+  {
+    "title": "The Rehearsal",
+    "date": "2025-07-21T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 204284,
+    "release_year": 2022,
+    "runtime_per_episode": null,
+    "season": 2,
+    "genres": [
+      "Comedy",
+      "Documentary"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "This Nathan fellow is almost too dedicated to his craft!"
+    }
   }
 ]
