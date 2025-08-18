@@ -3259,5 +3259,24 @@
       "rating": 4,
       "comment": "This Nathan fellow is almost too dedicated to his craft!"
     }
+  },
+  {
+    "title": "The Wire",
+    "date": "2025-08-15T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 1438,
+    "release_year": 2002,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 5,
+      "comment": "This show has been recommended to me for a long long time, and now I understand what all the fuzz has been about. Looking forward to watching the rest!!"
+    }
   }
 ]
