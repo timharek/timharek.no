@@ -6726,5 +6726,23 @@
       "rating": 3,
       "comment": "WTF. Weird concept. Weird story. Fucked ending."
     }
+  },
+  {
+    "title": "Final Destination",
+    "date": "2025-08-30T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 9532,
+    "release_year": 2000,
+    "runtime": 98,
+    "genres": [
+      "Horror"
+    ],
+    "directors": [
+      "James Wong"
+    ],
+    "review": {
+      "rating": 2,
+      "comment": "Was this any good back in 2000?"
+    }
   }
 ]
