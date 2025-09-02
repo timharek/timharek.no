@@ -1,7 +1,6 @@
 +++
 title = "August 2025"
 description = "What I've been up to since July."
-draft = true
 tags = ["Recently"]
 +++
 
