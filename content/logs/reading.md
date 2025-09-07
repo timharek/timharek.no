@@ -17,4 +17,3 @@ Books that I've read.
 - No longer human (1948), Osamu Dazai.
 - The Sailor Who Fell from Grace with the Sea (1963), Yukio Mishima.
 - Nexus (2024), Yuval Noah Harari
-- At Home (2010), Bill Bryson

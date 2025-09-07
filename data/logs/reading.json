@@ -549,5 +549,20 @@
       "rating": 5,
       "comment": "Facinating stuff. The body is a complex piece of flesh. And now, thanks to this book, I have lots of facts I can use on occation! Thanks, Bill! Jokes aside, I've learned lots. Everything from how complex our eyes are to how antibiotics was discovered and to how messed up the US health-stuff is."
     }
+  },
+  {
+    "title": "At Home",
+    "date": "2025-09-05T00:00:00Z",
+    "type": "book",
+    "openlibrary_id": "/works/OL15100470W",
+    "publish_year": 2010,
+    "genres": null,
+    "authors": [
+      "Bill Bryson"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "There are a lot of rooms in a home, and man do they have a lot of history! I learned a lot! My overall takeaway from the book is that I should have started with this, and then read \"The Body\"... there's some overlaps."
+    }
   }
 ]
