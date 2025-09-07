@@ -6744,5 +6744,24 @@
       "rating": 2,
       "comment": "Was this any good back in 2000?"
     }
+  },
+  {
+    "title": "Weapons",
+    "date": "2025-09-06T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1078605,
+    "release_year": 2025,
+    "runtime": 129,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "directors": [
+      "Zach Cregger"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "The director's last movie was a banger. This was another banger. But WTF!? How the story is told fits really good for this movie. A lot of mysteries, a lot of uncanny stuff that just keeps you on the edge of your seat."
+    }
   }
 ]

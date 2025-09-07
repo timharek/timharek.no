@@ -3278,5 +3278,25 @@
       "rating": 5,
       "comment": "This show has been recommended to me for a long long time, and now I understand what all the fuzz has been about. Looking forward to watching the rest!!"
     }
+  },
+  {
+    "title": "Dexter: Resurrection",
+    "date": "2025-09-05T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 259909,
+    "release_year": 2025,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "He's back, again! This new show makes up for the badly handled ending for the original show and the last episode of New Blood. The new show brings a lot more mysteries with it, new and old characters. They used what worked from New Blood, and removed what didn't. I'm hopeful for the contiunation of the story!"
+    }
   }
 ]
