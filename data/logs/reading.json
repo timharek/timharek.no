@@ -564,5 +564,20 @@
       "rating": 4,
       "comment": "There are a lot of rooms in a home, and man do they have a lot of history! I learned a lot! My overall takeaway from the book is that I should have started with this, and then read \"The Body\"... there's some overlaps."
     }
+  },
+  {
+    "title": "Information Doesn't Want to Be Free",
+    "date": "2025-09-08T00:00:00Z",
+    "type": "book",
+    "openlibrary_id": "/works/OL17329377W",
+    "publish_year": 2014,
+    "genres": null,
+    "authors": [
+      "Cory Doctorow"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Doctorow has a lot of good points about copyright, DRM, and overall physical locks. I think there's a lot more people than me that should read this book and learn about what hindering consumers actually results in."
+    }
   }
 ]
