@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updatedAt = 2024-12-04
+updatedAt = 2025-09-10
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not
@@ -45,11 +45,11 @@ when possible!_
 | -------: | :------------------------------------------------------------------------------ |
 | € 15–150 | [Simon Stålenhag artwork](https://www.redbubble.com/people/simonstalenhag/shop) |
 
-## Fashion
+## Clothing
 
-|          |                                                                                                                                  |
-| -------: | :------------------------------------------------------------------------------------------------------------------------------- |
-|        ? | Barefoot indoor shoes                                                                                                            |
+|     |               |
+| --: | :------------ |
+|   ? | Running socks |
 
 ## Tech
 
@@ -57,7 +57,6 @@ when possible!_
 | ---------: | :---------------------------------------------------------------------------------------------- |
 |       $189 | [uConsole](https://www.clockworkpi.com/product-page/uconsole-kit-rpi-cm4-lite)                  |
 | 131 360 kr | [Shining 3D Einscan HX](https://3dnet.no/collections/3d-scanner/products/shining-3d-einscan-hx) |
-| 700 000 kr | Volkswagen ID Buzz                                                                              |
 
 ## Credits
 
