@@ -36,7 +36,7 @@ Movies and TV shows that I've watched. Not a complete list.
 
 - Black Mirror S7
 - The Bear S4
-- The Wire S2
+- The Wire S3
 - Alien: Earth S1
 - Peacemaker S2
 
