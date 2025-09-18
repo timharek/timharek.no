@@ -34,8 +34,7 @@ Video games I've finished. Not a complete list.
 
 ## Currently playing
 
-- Deadlock (TBD), PC (I play it very now and then)
-- Marvel Rivals (2024), PC (I play it very now and then)
+- Deadlock (TBD), PC (I play it ery now and then)
 
 ## On pause
 
@@ -48,4 +47,5 @@ Video games I've finished. Not a complete list.
 - Cocoon (2023)
 - Planet of Lana (2023)
 - Fears to Fathom - Ironbark Lookout (2023)
+- Dispatch (2025)
 - Spider-Man 3 (????)
