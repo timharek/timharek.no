@@ -579,5 +579,20 @@
       "rating": 4,
       "comment": "Doctorow has a lot of good points about copyright, DRM, and overall physical locks. I think there's a lot more people than me that should read this book and learn about what hindering consumers actually results in."
     }
+  },
+  {
+    "title": "The Internet Con",
+    "date": "2025-09-24T00:00:00Z",
+    "type": "book",
+    "openlibrary_id": "/works/OL28800590W",
+    "publish_year": 2023,
+    "genres": null,
+    "authors": [
+      "Cory Doctorow"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Mr. Doctorow spitting straight facts. One day we have to take sovereign over our own digital stuff. We can't let the big corpos police everything we own online.\n"
+    }
   }
 ]
