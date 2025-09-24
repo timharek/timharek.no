@@ -6763,5 +6763,23 @@
       "rating": 5,
       "comment": "The director's last movie was a banger. This was another banger. But WTF!? How the story is told fits really good for this movie. A lot of mysteries, a lot of uncanny stuff that just keeps you on the edge of your seat."
     }
+  },
+  {
+    "title": "Rebel Royals: An Unlikely Love Story",
+    "date": "2025-09-24T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1535385,
+    "release_year": 2025,
+    "runtime": 95,
+    "genres": [
+      "Documentary"
+    ],
+    "directors": [
+      "Rebecca Chaiklin"
+    ],
+    "review": {
+      "rating": 2,
+      "comment": "It's incredible that our Norwegian goverment has financed this couple... I have no words."
+    }
   }
 ]

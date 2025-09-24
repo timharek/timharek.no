@@ -3317,5 +3317,24 @@
       "rating": 4,
       "comment": "It's all connected! Drugs, murders, gangsters. Everything!"
     }
+  },
+  {
+    "title": "Alien: Earth",
+    "date": "2025-09-24T00:00:00Z",
+    "type": "tv",
+    "tmdbId": 157239,
+    "release_year": 2025,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Sci-Fi \u0026 Fantasy",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": null,
+    "review": {
+      "rating": 4,
+      "comment": "Cool story. It brings more depth to the aliens themselves, but I'm a bit confused by the timelines. This is before the first movie, but the characters in the first movie didn't know anything about the aliens. And the last minute in the finale is corny af."
+    }
   }
 ]
