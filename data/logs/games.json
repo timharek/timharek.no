@@ -1,320 +1,340 @@
 [
   {
     "title": "The Elder Scrolls V: Skyrim",
-    "date": "2012-02-03",
+    "date": "2012-02-03T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2011,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure",
       "Fantasy"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Portal 2",
-    "date": "2012-07-13",
+    "date": "2012-07-13T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2011,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Sci-Fi",
       "Puzzle"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Just Cause 2",
-    "date": "2012-07-24",
+    "date": "2012-07-24T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2010,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Sleeping Dogs",
-    "date": "2012-08-18",
+    "date": "2012-08-18T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2012,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Far Cry 3",
-    "date": "2012-12-10",
+    "date": "2012-12-10T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2012,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Don't Starve",
-    "date": "2013-05-23",
+    "date": "2013-05-23T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2013,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Payday 2",
-    "date": "2013-08-23",
+    "date": "2013-08-23T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2013,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "RPG"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Amnesia: A Machine for Pigs",
-    "date": "2013-09-13",
+    "date": "2013-09-13T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2013,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure",
       "Indie",
       "Horror"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Batman: Arkham Origins",
-    "date": "2013-10-27",
+    "date": "2013-10-27T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2013,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Game Dev Tycoon",
-    "date": "2013-12-02",
+    "date": "2013-12-02T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2013,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Casual",
       "Indie",
       "Simulation",
       "Strategy"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Hacknet",
-    "date": "2015-08-25",
+    "date": "2015-08-25T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2015,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PC",
     "genres": [
       "Indie",
       "Simulation"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Prey",
-    "date": "2017-05-12",
+    "date": "2017-05-12T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2017,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Hob",
-    "date": "2017-10-01",
+    "date": "2017-10-01T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2017,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure",
       "Indie"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Red Dead Redemption 2",
-    "date": "2018-01-01",
+    "date": "2018-01-01T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2018,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PS4",
     "genres": [
       "Action",
       "Adventure",
       "Single-Player"
     ],
-    "platform": "PS4"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "The Last of Us: Part 2",
-    "date": "2020-06-21",
+    "date": "2020-06-21T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2020,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PS4",
     "genres": [
       "Action",
       "Adventure",
       "Survival"
     ],
-    "platform": "PS4"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Ori and the Blind Forest",
-    "date": "2020-10-02",
+    "date": "2020-10-02T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2015,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Platformer"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Ori and the Will of The Wisp",
-    "date": "2020-10-06",
+    "date": "2020-10-06T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2020,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Platformer"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Return of the Obra Dinn",
-    "date": "2022-08-22",
+    "date": "2022-08-22T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2018,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure",
       "Indie",
       "Puzzle"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Detroit: Become Human",
-    "date": "2022-09-17",
+    "date": "2022-09-17T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2020,
-    "review": {
-      "rating": 3
-    },
+    "platform": "PS5",
     "genres": [
       "Action",
       "Adventure"
     ],
-    "platform": "PS5"
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "God of War: Ragnarök",
-    "date": "2022-11-13",
+    "date": "2022-11-13T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2022,
-    "review": {
-      "rating": 5
-    },
+    "platform": "PS5",
     "genres": [
       "Action",
       "Adventure",
       "Single-Player"
     ],
-    "platform": "PS5"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Dredge",
-    "date": "2023-04-06",
+    "date": "2023-04-06T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2023,
-    "review": {
-      "rating": 5
-    },
+    "platform": "Steam Deck",
     "genres": [
       "Adventure",
       "Single-Player",
       "Survival",
       "Casual"
     ],
-    "platform": "Steam Deck"
+    "review": {
+      "rating": 5
+    }
   },
   {
     "title": "Star Wars Jedi: Survivor",
-    "date": "2023-05-01",
+    "date": "2023-05-01T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2023,
-    "review": {
-      "rating": 4
-    },
+    "platform": "PS5",
     "genres": [
       "Action",
       "Adventure",
@@ -322,64 +342,68 @@
       "Single-Player",
       "Sci-Fi"
     ],
-    "platform": "PS5"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Deathloop",
-    "date": "2021-09-22",
+    "date": "2021-09-22T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2021,
-    "review": {
-      "rating": 3
-    },
+    "platform": "PS5",
     "genres": [
       "Action",
       "Adventure",
       "Single-Player",
       "FPS"
     ],
-    "platform": "PS5"
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "Hogwarts Legacy",
-    "date": "2023-02-23",
+    "date": "2023-02-23T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2023,
-    "review": {
-      "rating": 3
-    },
+    "platform": "PS5",
     "genres": [
       "Action",
       "Adventure",
       "Fantasy",
       "Single-Player"
     ],
-    "platform": "PS5"
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "Elden Ring",
-    "date": "2022-09-03",
+    "date": "2022-09-03T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2022,
-    "review": {
-      "rating": 3
-    },
+    "platform": "PS5",
     "genres": [
       "Action",
       "Adventure",
       "Fantasy",
       "Single-Player"
     ],
-    "platform": "PS5"
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "Starfield",
-    "date": "2023-10-20",
+    "date": "2023-10-20T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2023,
-    "review": {
-      "rating": 3
-    },
+    "platform": "PC",
     "genres": [
       "Action",
       "Adventure",
@@ -387,60 +411,79 @@
       "RPG",
       "Single-Player"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 3
+    }
   },
   {
     "title": "Zelda: Tears of Kingdom",
-    "date": "2023-10-20",
+    "date": "2023-10-20T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2023,
-    "review": {
-      "rating": 4
-    },
+    "platform": "Nintendo Switch",
     "genres": [
       "Action",
       "Adventure",
       "Fantasy",
       "Single-Player"
     ],
-    "platform": "Nintendo Switch"
+    "review": {
+      "rating": 4
+    }
   },
   {
     "title": "Spider-Man 2",
-    "date": "2023-10-22",
+    "date": "2023-10-22T00:00:00Z",
     "type": "game",
+    "igdb_id": 0,
     "release_year": 2023,
+    "platform": "PS5",
+    "genres": [],
     "review": {
       "rating": 4
-    },
-    "genres": [],
-    "platform": "PS5"
+    }
   },
   {
     "title": "God of War Ragnarok: Valhalla",
+    "date": "2023-12-27T00:00:00Z",
     "type": "game",
-    "date": "2023-12-27",
+    "igdb_id": 0,
     "release_year": 2023,
+    "platform": "PS5",
+    "genres": [],
     "review": {
       "rating": 4
-    },
-    "genres": [],
-    "platform": "PS5"
+    }
   },
   {
     "title": "Kingdom Come: Deliverance II",
+    "date": "2025-02-24T00:00:00Z",
     "type": "game",
-    "date": "2025-02-24",
+    "igdb_id": 0,
     "release_year": 2025,
-    "review": {
-      "rating": 5,
-      "comment": "Fantastic game! It kept me engaged for more than 50 hours on end. The story was grounded in a medieval-setting I can believe. The combat is fun and interesting, the characters and choices you get to make is really something. I haven't had an engaging experience since the first time I played Skryim back in 2011."
-    },
+    "platform": "PC",
     "genres": [
       "Adventure",
       "History",
       "Action"
     ],
-    "platform": "PC"
+    "review": {
+      "rating": 5,
+      "comment": "Fantastic game! It kept me engaged for more than 50 hours on end. The story was grounded in a medieval-setting I can believe. The combat is fun and interesting, the characters and choices you get to make is really something. I haven't had an engaging experience since the first time I played Skryim back in 2011."
+    }
+  },
+  {
+    "title": "The Lift (playtest)",
+    "date": "2025-09-23T00:00:00Z",
+    "type": "game",
+    "igdb_id": 0,
+    "release_year": 2025,
+    "platform": "PC",
+    "genres": null,
+    "review": {
+      "rating": 4,
+      "comment": "Awesome demo/playtest. Just the right amout of upkeep work and puzzles. Looking forward to the full game!"
+    }
   }
 ]
