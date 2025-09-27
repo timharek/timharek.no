@@ -1,14 +1,14 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2025-03-02
+updatedAt = 2025-09-27
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
 tools others use to get through their day to day.
 
 This page contains lists of different technologies that I use, hardware,
-software and services.
+software, and services.
 
 I don't really arrange my desk to well, I only do that occasionally. Here is
 some snapshots of my current workspace.
@@ -24,12 +24,12 @@ some snapshots of my current workspace.
 
 ## Hardware
 
-|          |                         |
-| -------: | :---------------------- |
-| Computer | MacBook Pro 14" M2 16GB |
-|    Phone | iPhone 15 Pro           |
-|    Watch | Apple Watch Ultra       |
-| Keyboard | [ZSA Voyager]           |
+|          |                          |
+| -------: | :----------------------- |
+| Computer | MacBook Pro 14" M2 16 GB |
+|    Phone | iPhone 15 Pro            |
+|    Watch | Apple Watch Ultra        |
+| Keyboard | [ZSA Voyager]            |
 
 <!-- TODO: Add new photo of new setup --->
 
@@ -38,7 +38,7 @@ some snapshots of my current workspace.
 |            |                                          |
 | ---------: | :--------------------------------------- |
 |  Gaming PC | Custom built (running [Bazzite])         |
-|  Hand-held | Steam Deck 512GB                         |
+|  Hand-held | Steam Deck 512 GB                        |
 |   Consoles | PlayStation 5 disc, Nintendo Switch OLED |
 |     Server | Zimaboard 432                            |
 | 3D-printer | Original Prusa MK4S                      |
@@ -58,35 +58,34 @@ For a more frequently updated overview you can checkout my [dotfiles].
 
 This is software that I use on my devices. Inspired by [App defaults].
 
-|                |                                                     |
-| -------------: | :-------------------------------------------------- |
-|    Mail client | Mail.app                                            |
-|          Notes | [Helix] with Markdown, or [physicial](#note-taking) |
-|           Todo | [Physicial book](#note-taking)                      |
-|       Calendar | Calendar.app                                        |
-|            RSS | [NetNewsWire] + [Feedbin]                           |
-|       Contacts | Contacts.app                                        |
-|        Browser | [Zen Browser] (& Safari iOS)                        |
-|           Chat | [Signal][signal] & iMessage                         |
-|  Shopping List | Reminders.app                                       |
-|        Podcast | Podcasts.app                                        |
-|  Photo editing | [Affinity Photo]                                    |
-| Vector editing | [Affinity Designer]                                 |
-|         Editor | [Helix]                                             |
-|       Terminal | [Ghostty]                                           |
-|     Calculator | [Numi]                                              |
-|            VPN | [Tailscale]                                         |
+|                |                                                    |
+| -------------: | :------------------------------------------------- |
+|    Mail client | Mail.app                                           |
+|          Notes | [Helix] with Markdown, or [physical](#note-taking) |
+|           Todo | [Physical book](#note-taking)                      |
+|       Calendar | Calendar.app                                       |
+|            RSS | [NetNewsWire] + [Feedbin]                          |
+|       Contacts | Contacts.app                                       |
+|        Browser | [Zen Browser] (& Safari iOS)                       |
+|           Chat | [Signal] & iMessage                                |
+|  Shopping List | Reminders.app                                      |
+|        Podcast | Podcasts.app                                       |
+|  Photo editing | [Affinity Photo]                                   |
+| Vector editing | [Affinity Designer]                                |
+|         Editor | [Helix]                                            |
+|       Terminal | [Ghostty]                                          |
+|     Calculator | [Numi]                                             |
+|            VPN | [Tailscale]                                        |
 
 ### Utilities
 
 |                    |              |
 | -----------------: | :----------- |
 |    App uninstaller | [AppCleaner] |
-|     Window manager | [Yabai]      |
+|     Window manager | [Aerospace]  |
 | Keyboard shortcuts | [SKHD]       |
 |       Color picker | [Pika]       |
 |       Productivity | [Alfred]     |
-|            Updater | [MacUpdater] |
 |    Network monitor | [Lulu]       |
 
 ## Services
@@ -134,10 +133,8 @@ this is what I use daily.
 [1984]: https://1984hosting.com
 [Migadu]: https://migadu.com
 [migadu_review]: /blog/migadu-review
-[Yabai]: https://github.com/koekeishiya/yabai
 [LuLu]: https://objective-see.com/products/lulu.html
 [AppCleaner]: https://freemacsoft.net/appcleaner/
-[MacUpdater]: https://www.corecode.io/macupdater/
 [dotfiles]: https://git.sr.ht/~timharek/dotfiles
 [ZSA Voyager]: https://www.zsa.io/voyager
 [Uses this]: https://usesthis.com/
@@ -155,3 +152,4 @@ this is what I use daily.
 [Tailscale]: https://tailscale.com/
 [bazzite]: https://bazzite.gg
 [kagi]: https://kagi.com
+[Aerospace]: https://github.com/nikitabobko/AeroSpace
