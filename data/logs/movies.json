@@ -6781,5 +6781,26 @@
       "rating": 2,
       "comment": "It's incredible that our Norwegian goverment has financed this couple... I have no words."
     }
+  },
+  {
+    "title": "Novocaine",
+    "date": "2025-09-27T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1195506,
+    "release_year": 2025,
+    "runtime": 110,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "directors": [
+      "Dan Berk",
+      "Robert Olsen"
+    ],
+    "review": {
+      "rating": 2,
+      "comment": "WTF. This kept getting more and more ridiculous. The origin story of a guy that got laid once."
+    }
   }
 ]
