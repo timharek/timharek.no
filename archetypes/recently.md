@@ -1,17 +1,18 @@
 +++
 {{- $d := .Date | time.AsTime }}
-{{- $lastMonth := $d.AddDate 0 -1 0 }}
+{{- $recentlyPosts := sort (where (where .Site.RegularPages "Section" "blog") "Params.tags" "intersect" (slice "Recently")) "Date" "desc" }}
+{{- $lastRecentlyPost := index $recentlyPosts 0 }}
+{{- $lastRecentlyDate := $lastRecentlyPost.Date | time.AsTime }}
 title = '{{ strings.TrimSpace (replace (.File.ContentBaseName | replaceRE "\\d{4}-\\d{2}-\\d{2}\\s?" "") "-" " ") | title }}'
-description = "What I've been up to since {{ $lastMonth.Month.String }}."
+description = "What I've been up to since {{ $lastRecentlyDate.Format "January 2006" }}."
 draft = true
 tags = ["Recently"]
 +++
 
 <!-- TODO: Add brief intro -->
 
-From the blog this month:
-{{- $currentMonth := time.AsTime (printf "%s-01" (now.Format "2006-01")) }}
-{{- $posts := sort (where (where .Site.RegularPages "Section" "blog") "Date" "ge" $currentMonth) "Date" "asc" }}
+From the blog since my last recently post:
+{{- $posts := sort (where (where .Site.RegularPages "Section" "blog") "Date" "gt" $lastRecentlyDate) "Date" "asc" }}
 {{- range $posts }}
   - [{{ .Title }}]({{ .Path }})
 {{- end }}
@@ -36,19 +37,17 @@ From my [logs](/logs).
 
 ### Movies
 
-{{- $startOfMonth := time.AsTime (printf "%s-01" (now.Format "2006-01")) }}
-{{- $endOfMonth := $startOfMonth.AddDate 0 1 -1 }}
-{{- $startOfMonthString := $startOfMonth.Format "2006-01-02" }}
-{{- $endOfMonthString := $endOfMonth.Format "2006-01-02" }}
+{{- $startDateString := $lastRecentlyDate.Format "2006-01-02" }}
+{{- $endDateString := $d.Format "2006-01-02" }}
 
-{{- $movies := where (where .Site.Data.logs.movies "date" "ge" $startOfMonthString) "date" "le" $endOfMonthString }}
+{{- $movies := where (where .Site.Data.logs.movies "date" "ge" $startDateString) "date" "le" $endDateString }}
 {{ range $movies }}
 - **{{ .title }} ({{ .release_year }})** – {{ .review.comment }}
 {{ end}}
 
 ### TV
 
-{{- $shows := where (where .Site.Data.logs.tv "date" "ge" $startOfMonthString) "date" "le" $endOfMonthString }}
+{{- $shows := where (where .Site.Data.logs.tv "date" "ge" $startDateString) "date" "le" $endDateString }}
 {{ range $shows }}
 - **{{ .title }} ({{ .release_year }})** – {{ .review.comment }}
 {{ end}}
@@ -63,9 +62,9 @@ From my [logs](/logs).
     {{- errorf "%s" . }}
   {{- else with .Value }}
     {{- $data := . | transform.Unmarshal }}
-    {{- $startOfMonthString := $startOfMonth.Format "2006-01-02T15:04:05.999999999Z07:00" }}
-    {{- $endOfMonthString := $endOfMonth.Format "2006-01-02T15:04:05.999999999Z07:00" }}
-    {{- $bookmarks := where (where $data.results "date_modified" "ge" $startOfMonthString) "date_modified" "le" $endOfMonthString }}
+    {{- $startDateBookmarkString := $lastRecentlyDate.Format "2006-01-02T15:04:05.999999999Z07:00" }}
+    {{- $endDateBookmarkString := $d.Format "2006-01-02T15:04:05.999999999Z07:00" }}
+    {{- $bookmarks := where (where $data.results "date_modified" "ge" $startDateBookmarkString) "date_modified" "le" $endDateBookmarkString }}
     {{ range $bookmarks }}
       {{- if .notes }}
 - [{{ .title }}] – {{ .notes }}
