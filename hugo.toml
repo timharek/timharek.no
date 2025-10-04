@@ -19,7 +19,7 @@ minifyOutput = true
 [menus]
 [[menus.main]]
 pageRef = '/'
-name = 'Home'
+name = 'Tim Hårek'
 weight = 1
 [[menus.main]]
 pageRef = '/blog'

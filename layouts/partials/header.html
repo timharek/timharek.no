@@ -5,16 +5,29 @@
   Skip to content
 </a>
 <header
-  class="print:hidden max-w-screen-md mx-auto px-4 flex gap-4 items-center my-4"
+  class="print:hidden max-w-screen-md mx-auto px-4 flex gap-4 items-center justify-between my-4"
   aria-label="Main navigation"
 >
-  {{ $ctx := dict "className" "w-14 h-14"}}
-  {{ partial "logo.html" $ctx . }}
-
   {{ $page := .Page }}
+  <div class="flex items-center gap-2 font-semibold">
+    {{ $ctx := dict "className" "w-10 h-10"}}
+    {{ partial "logo.html" $ctx . }}
+    {{ with index .Site.Menus.main 0 }}
+      <a
+        href={{ .URL }}
+        class="normal"
+        {{ if $page.IsMenuCurrent .Menu . }}
+        data-current
+        {{ end }}
+        >
+        {{ .Name }}
+      </a>
+    {{ end }}
+  </div>
+
   <nav>
     <ul class="flex gap-4">
-      {{ range .Site.Menus.main }}
+      {{ range where .Site.Menus.main "URL" "ne" "/" }}
         <li>
           <a
             href={{ .URL }}
