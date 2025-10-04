@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updatedAt = 2025-09-10
+updatedAt = 2025-10-04
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not
@@ -47,9 +47,12 @@ when possible!_
 
 ## Clothing
 
-|     |               |
-| --: | :------------ |
-|   ? | Running socks |
+|          |                                                                                                                      |
+| -------: | :------------------------------------------------------------------------------------------------------------------- |
+|        ? | Running socks short EU 45                                                                                            |
+|        ? | Running socks long EU 45                                                                                             |
+| 1 799 kr | [Aalesund Oljeklede Ona regnjakke - Marine/Svart XL](https://oljeklede.no/products/ona-jakke?variant=42464555466934) |
+|   999 kr | [Aalesund Oljeklede Ona regnbukse - Svart XL](https://oljeklede.no/products/ona-bukse?variant=42464556187830)        |
 
 ## Tech
 
@@ -57,6 +60,13 @@ when possible!_
 | ---------: | :---------------------------------------------------------------------------------------------- |
 |       $189 | [uConsole](https://www.clockworkpi.com/product-page/uconsole-kit-rpi-cm4-lite)                  |
 | 131 360 kr | [Shining 3D Einscan HX](https://3dnet.no/collections/3d-scanner/products/shining-3d-einscan-hx) |
+
+## Miscellaneous
+
+|          |                                                                        |
+| -------: | :--------------------------------------------------------------------- |
+| > 200 kr | Generic dark dice bag                                                  |
+|    > $15 | [Field Notes dotgrid notebooks](https://fieldnotesbrand.com/#products) |
 
 ## Credits
 
