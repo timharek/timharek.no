@@ -6802,5 +6802,25 @@
       "rating": 2,
       "comment": "WTF. This kept getting more and more ridiculous. The origin story of a guy that got laid once."
     }
+  },
+  {
+    "title": "One Battle After Another",
+    "date": "2025-10-12T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1054867,
+    "release_year": 2025,
+    "runtime": 162,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "directors": [
+      "Paul Thomas Anderson"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Excellent! I had a blast throughtout this whole movie. The music was really cool and fit to every scene. The story of the revolutionists was really cool, and how they communicated together. I highly recommend!"
+    }
   }
 ]
