@@ -44,6 +44,7 @@ when possible!_
 |          |                                                                                 |
 | -------: | :------------------------------------------------------------------------------ |
 | € 15–150 | [Simon Stålenhag artwork](https://www.redbubble.com/people/simonstalenhag/shop) |
+| > 400 kr | [Simon Stålenhag art books](https://www.outland.no/boker/Simon+St%C3%A5lenhag)  |
 
 ## Clothing
 
@@ -63,10 +64,11 @@ when possible!_
 
 ## Miscellaneous
 
-|          |                                                                        |
-| -------: | :--------------------------------------------------------------------- |
-| > 200 kr | Generic dark dice bag                                                  |
-|    > $15 | [Field Notes dotgrid notebooks](https://fieldnotesbrand.com/#products) |
+|            |                                                                                           |
+| ---------: | :---------------------------------------------------------------------------------------- |
+|   > 200 kr | Generic dark dice bag                                                                     |
+|      > $15 | [Field Notes dotgrid notebooks](https://fieldnotesbrand.com/#products)                    |
+| > 2 000 kr | [Treningsbenk (example)](https://sportoutlet.no/trimutstyr/apparater/product/119626?c=57) |
 
 ## Credits
 
