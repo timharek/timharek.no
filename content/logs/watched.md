@@ -59,3 +59,5 @@ Movies and TV shows that I've watched. Not a complete list.
 - Crazy Heart (2009)
 - Mors Hus (1974)
 - Gritt (2021)
+- Anora (2024)
+- The Pod Generation (2023)
