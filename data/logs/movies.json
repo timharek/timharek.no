@@ -6822,5 +6822,28 @@
       "rating": 5,
       "comment": "Excellent! I had a blast throughtout this whole movie. The music was really cool and fit to every scene. The story of the revolutionists was really cool, and how they communicated together. I highly recommend!"
     }
+  },
+  {
+    "title": "Treasure Planet",
+    "date": "2025-10-25T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 9016,
+    "release_year": 2002,
+    "runtime": 96,
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "directors": [
+      "Ron Clements",
+      "John Musker"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "I remember watching this movie as a kid, and that I loved it. I didn't remember any details, but after rewatching it I still love it!"
+    }
   }
 ]
