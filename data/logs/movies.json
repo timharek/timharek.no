@@ -6904,5 +6904,25 @@
       "rating": 3,
       "comment": "Couldn't remember having watched this. I'm impressed that this movie was the \"origin\" of the Predator-franchise. Today it's a bit more silly than serious. The music/score element to this movie is so weird compared to today's movies. Well, at least I got \"Get to da choppa!\" quote and another meme-scene."
     }
+  },
+  {
+    "title": "Roofman",
+    "date": "2025-11-27T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1242419,
+    "release_year": 2025,
+    "runtime": 126,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "directors": [
+      "Derek Cianfrance"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Awesome story. The US is weird, but its weirdness makes for a lot of great stories to be told, and made in to entertainment for the rest of us."
+    }
   }
 ]
