@@ -6845,5 +6845,64 @@
       "rating": 5,
       "comment": "I remember watching this movie as a kid, and that I loved it. I didn't remember any details, but after rewatching it I still love it!"
     }
+  },
+  {
+    "title": "His Mother's House",
+    "date": "2025-11-09T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 348014,
+    "release_year": 1974,
+    "runtime": 84,
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      "Per Blom"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "WTF."
+    }
+  },
+  {
+    "title": "Predator: Badlands",
+    "date": "2025-11-13T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1242898,
+    "release_year": 2025,
+    "runtime": 107,
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Dan Trachtenberg"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Awesome movie! I never thought I would root for a Yautja, and a synth!"
+    }
+  },
+  {
+    "title": "Predator",
+    "date": "2025-11-15T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 106,
+    "release_year": 1987,
+    "runtime": 107,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "directors": [
+      "John McTiernan"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "Couldn't remember having watched this. I'm impressed that this movie was the \"origin\" of the Predator-franchise. Today it's a bit more silly than serious. The music/score element to this movie is so weird compared to today's movies. Well, at least I got \"Get to da choppa!\" quote and another meme-scene."
+    }
   }
 ]
