@@ -485,5 +485,18 @@
       "rating": 4,
       "comment": "Awesome demo/playtest. Just the right amout of upkeep work and puzzles. Looking forward to the full game!"
     }
+  },
+  {
+    "title": "Dispatch",
+    "date": "2025-11-28T00:00:00Z",
+    "type": "game",
+    "igdb_id": 0,
+    "release_year": 2025,
+    "platform": "PC",
+    "genres": null,
+    "review": {
+      "rating": 5,
+      "comment": "I love the superhero genre, especially when they try to do something different. In this game it worked really well. I played the game with QTE disabled, because I wanted TV show experience with my own decisions, and the game fully delivered on that. The characters are top-notch, and now they need to create comic-books about this universe, because I need more!\n\nThe game played excellent on Linux."
+    }
   }
 ]

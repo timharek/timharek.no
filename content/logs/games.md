@@ -34,7 +34,7 @@ Video games I've finished. Not a complete list.
 
 ## Currently playing
 
-- Deadlock (TBD), PC (I play it ery now and then)
+- ARC Raiders (2025): It's so good!
 
 ## On pause
 
