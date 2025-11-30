@@ -6924,5 +6924,25 @@
       "rating": 4,
       "comment": "Awesome story. The US is weird, but its weirdness makes for a lot of great stories to be told, and made in to entertainment for the rest of us."
     }
+  },
+  {
+    "title": "Bugonia",
+    "date": "2025-11-29T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 701387,
+    "release_year": 2025,
+    "runtime": 119,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Yorgos Lanthimos"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "WTF. How the turn-tables. I initially thought that this was a regular thriller, but when I started the movie I saw that it was a comedy. This movie had us second-guessing what was going to happen more than once. Cool movie. Conspiracy dudes are weird dudes."
+    }
   }
 ]
