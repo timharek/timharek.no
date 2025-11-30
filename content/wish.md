@@ -20,7 +20,6 @@ when possible!_
 
 |        |                                                                                                                                   |
 | -----: | :-------------------------------------------------------------------------------------------------------------------------------- |
-| 370 kr | [The Unicorn Project](https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/the-unicorn-project)                   |
 | 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer)          |
 | 199 kr | [The Internet Con](https://www.norli.no/boker/fagboker/samfunnsvitenskap/statsvitenskap-politikk-og-forvaltning/the-internet-con) |
 | 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)                    |
@@ -48,12 +47,10 @@ when possible!_
 
 ## Clothing
 
-|          |                                                                                                                      |
-| -------: | :------------------------------------------------------------------------------------------------------------------- |
-|        ? | Running socks short EU 45                                                                                            |
-|        ? | Running socks long EU 45                                                                                             |
-| 1 799 kr | [Aalesund Oljeklede Ona regnjakke - Marine/Svart XL](https://oljeklede.no/products/ona-jakke?variant=42464555466934) |
-|   999 kr | [Aalesund Oljeklede Ona regnbukse - Svart XL](https://oljeklede.no/products/ona-bukse?variant=42464556187830)        |
+|     |                           |
+| --: | :------------------------ |
+|   ? | Running socks short EU 45 |
+|   ? | Running socks long EU 45  |
 
 ## Tech
 
