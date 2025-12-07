@@ -6944,5 +6944,25 @@
       "rating": 4,
       "comment": "WTF. How the turn-tables. I initially thought that this was a regular thriller, but when I started the movie I saw that it was a comedy. This movie had us second-guessing what was going to happen more than once. Cool movie. Conspiracy dudes are weird dudes."
     }
+  },
+  {
+    "title": "Idiocracy",
+    "date": "2025-12-06T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 7512,
+    "release_year": 2006,
+    "runtime": 84,
+    "genres": [
+      "Comedy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Mike Judge"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "I remembered this movie being better..."
+    }
   }
 ]
