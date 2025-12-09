@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updatedAt = 2025-10-04
+updatedAt = 2025-12-09
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not
@@ -18,18 +18,17 @@ when possible!_
 
 ## Books
 
-|        |                                                                                                                                   |
-| -----: | :-------------------------------------------------------------------------------------------------------------------------------- |
-| 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer)          |
-| 199 kr | [The Internet Con](https://www.norli.no/boker/fagboker/samfunnsvitenskap/statsvitenskap-politikk-og-forvaltning/the-internet-con) |
-| 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)                    |
-| 265 kr | [Ada & Zangemann](https://www.norli.no/boker/barneboker/ada-zangemann)                                                            |
+|        |                                                                                                                          |
+| -----: | :----------------------------------------------------------------------------------------------------------------------- |
+| 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer) |
+| 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)           |
+| 265 kr | [Ada & Zangemann](https://www.norli.no/boker/barneboker/ada-zangemann)                                                   |
 
 ## DIY
 
 |        |                                                                                                                                                 |
 | -----: | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-|  € 272 | [Prusa MMU3](https://www.prusa3d.com/product/original-prusa-mmu3-upgrade-kit-for-mk4-2/)                                                        |
+|  € 399 | [Prusa MMU3](https://www.prusa3d.com/product/original-prusa-mmu3-for-mk4s-mk3-9s-assembled-unit-2/)                                             |
 | ~ € 25 | [Prusament](https://www.prusa3d.com/category/pla/?filters=%7B%22brands%22%3A%5B%2224824bd8-0ec7-4cc5-aea4-c3ac7c16e2d0%22%5D%7D): Galaxy colors |
 
 ## Home
