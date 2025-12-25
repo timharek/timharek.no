@@ -6983,5 +6983,23 @@
       "rating": 4,
       "comment": "Incredible story. I had never heard about this General Magic company before watching this doc. And like the doc clearly lays out, they were ahead of their time with their \"smartphone\", but they absolutely paved the way for Apple, and others."
     }
+  },
+  {
+    "title": "Rain Man",
+    "date": "2025-12-20T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 380,
+    "release_year": 1988,
+    "runtime": 134,
+    "genres": [
+      "Drama"
+    ],
+    "directors": [
+      "Barry Levinson"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "I believe Tom Cruise is like this in real life, he's not actually acting 😂"
+    }
   }
 ]
