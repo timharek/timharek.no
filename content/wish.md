@@ -21,8 +21,6 @@ when possible!_
 |        |                                                                                                                          |
 | -----: | :----------------------------------------------------------------------------------------------------------------------- |
 | 490 kr | [The Little Schemer](https://www.norli.no/boker/fagboker/data-og-informasjonsteknologi/programmering/the-little-schemer) |
-| 199 kr | [Effortless](https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/effortless)           |
-| 265 kr | [Ada & Zangemann](https://www.norli.no/boker/barneboker/ada-zangemann)                                                   |
 
 ## DIY
 
@@ -62,7 +60,6 @@ when possible!_
 
 |            |                                                                                           |
 | ---------: | :---------------------------------------------------------------------------------------- |
-|   > 200 kr | Generic dark dice bag                                                                     |
 |      > $15 | [Field Notes dotgrid notebooks](https://fieldnotesbrand.com/#products)                    |
 | > 2 000 kr | [Treningsbenk (example)](https://sportoutlet.no/trimutstyr/apparater/product/119626?c=57) |
 
