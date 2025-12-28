@@ -7001,5 +7001,44 @@
       "rating": 4,
       "comment": "I believe Tom Cruise is like this in real life, he's not actually acting 😂"
     }
+  },
+  {
+    "title": "Sick of Myself",
+    "date": "2025-12-26T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 788734,
+    "release_year": 2022,
+    "runtime": 97,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "directors": [
+      "Kristoffer Borgli"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "WTF. The directory/writer must know someone like this. And it's sick that people actually will go to these lengths just for attention. And I see a clear similarilty between The Substance and this movie."
+    }
+  },
+  {
+    "title": "Avatar: Fire and Ash",
+    "date": "2025-12-27T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 83533,
+    "release_year": 2025,
+    "runtime": 198,
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Fantasy"
+    ],
+    "directors": [
+      "James Cameron"
+    ],
+    "review": {
+      "rating": 3,
+      "comment": "It has touching moments, a bunch of weird dialog and even cringe dialog. The action was cool, but what threw me off from the whole movie and annoyed me from start to end was that some of the movie is 24 FPS and some of it is 48 (felt higher). So whenever the movie went from 48 to 24 FPS the movie felt like a videogame and felt like it was lagging."
+    }
   }
 ]
