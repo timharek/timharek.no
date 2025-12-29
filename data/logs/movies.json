@@ -7040,5 +7040,24 @@
       "rating": 3,
       "comment": "It has touching moments, a bunch of weird dialog and even cringe dialog. The action was cool, but what threw me off from the whole movie and annoyed me from start to end was that some of the movie is 24 FPS and some of it is 48 (felt higher). So whenever the movie went from 48 to 24 FPS the movie felt like a videogame and felt like it was lagging."
     }
+  },
+  {
+    "title": "Marty Supreme",
+    "date": "2025-12-28T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 1317288,
+    "release_year": 2025,
+    "runtime": 150,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "directors": [
+      "Josh Safdie"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "This movie had everything: an obnoxious protaganist, obnoxious supporting characters, likeable story, fucked up events, awesome setting (1950s). This movie kept me entertained from start to finish."
+    }
   }
 ]
