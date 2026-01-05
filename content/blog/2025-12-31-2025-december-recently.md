@@ -70,7 +70,7 @@ the world. I just kept the loot safe the other guy 😂
 - [I Wish People Were More Public] – I agree. We can learn from each other and
   be inspired. Needless to say that we don't need to be public through social
   media, but do whatever floats your boat :)
-- [Thin Desires Are Eating Your Life] – Excellent post about not gaining or
+- [Thin Desires Are Eating Your Life] – Excellent post about not gaining or
   losing weight!
 - [How to be exceptional at anything] – Simple (not easy) and effective habits
   to live by!

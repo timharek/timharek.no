@@ -7059,5 +7059,25 @@
       "rating": 5,
       "comment": "This movie had everything: an obnoxious protaganist, obnoxious supporting characters, likeable story, fucked up events, awesome setting (1950s). This movie kept me entertained from start to finish."
     }
+  },
+  {
+    "title": "The Menu",
+    "date": "2025-12-31T00:00:00Z",
+    "type": "movie",
+    "tmdbId": 593643,
+    "release_year": 2022,
+    "runtime": 107,
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Thriller"
+    ],
+    "directors": [
+      "Mark Mylod"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Expected some of the stuff to happen. The execution was really good, but some of the acting felt off. But the overall theme and message was really fitting. One goal of mine is to never become a snob."
+    }
   }
 ]
