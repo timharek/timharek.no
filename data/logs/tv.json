@@ -1,7 +1,7 @@
 [
   {
     "title": "Marvel's Daredevil",
-    "date": "2015-04-11T00:00:00Z",
+    "date": "2015-04-11",
     "type": "tv",
     "tmdbId": 61889,
     "release_year": 2015,
@@ -48,7 +48,7 @@
   },
   {
     "title": "Marvel's Daredevil",
-    "date": "2016-03-19T00:00:00Z",
+    "date": "2016-03-19",
     "type": "tv",
     "tmdbId": 61889,
     "release_year": 2015,
@@ -95,7 +95,7 @@
   },
   {
     "title": "Atypical",
-    "date": "2017-08-17T00:00:00Z",
+    "date": "2017-08-17",
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
@@ -137,7 +137,7 @@
   },
   {
     "title": "Atypical",
-    "date": "2018-10-07T00:00:00Z",
+    "date": "2018-10-07",
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
@@ -179,7 +179,7 @@
   },
   {
     "title": "Marvel's Daredevil",
-    "date": "2018-10-29T00:00:00Z",
+    "date": "2018-10-29",
     "type": "tv",
     "tmdbId": 61889,
     "release_year": 2015,
@@ -226,7 +226,7 @@
   },
   {
     "title": "Bodyguard",
-    "date": "2018-11-08T00:00:00Z",
+    "date": "2018-11-08",
     "type": "tv",
     "tmdbId": 80307,
     "release_year": 2018,
@@ -250,7 +250,7 @@
   },
   {
     "title": "Atypical",
-    "date": "2019-11-03T00:00:00Z",
+    "date": "2019-11-03",
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
@@ -292,7 +292,7 @@
   },
   {
     "title": "The Witcher",
-    "date": "2019-12-25T00:00:00Z",
+    "date": "2019-12-25",
     "type": "tv",
     "tmdbId": 71912,
     "release_year": 2019,
@@ -325,7 +325,7 @@
   },
   {
     "title": "Westworld",
-    "date": "2020-05-09T00:00:00Z",
+    "date": "2020-05-09",
     "type": "tv",
     "tmdbId": 63247,
     "release_year": 2016,
@@ -368,7 +368,7 @@
   },
   {
     "title": "Space Force",
-    "date": "2020-06-03T00:00:00Z",
+    "date": "2020-06-03",
     "type": "tv",
     "tmdbId": 85922,
     "release_year": 2020,
@@ -397,7 +397,7 @@
   },
   {
     "title": "Atypical",
-    "date": "2021-07-20T00:00:00Z",
+    "date": "2021-07-20",
     "type": "tv",
     "tmdbId": 71578,
     "release_year": 2017,
@@ -439,7 +439,7 @@
   },
   {
     "title": "Rick and Morty",
-    "date": "2021-08-09T00:00:00Z",
+    "date": "2021-08-09",
     "type": "tv",
     "tmdbId": 60625,
     "release_year": 2013,
@@ -479,7 +479,7 @@
   },
   {
     "title": "Sex Education",
-    "date": "2021-10-13T00:00:00Z",
+    "date": "2021-10-13",
     "type": "tv",
     "tmdbId": 81356,
     "release_year": 2019,
@@ -506,7 +506,7 @@
   },
   {
     "title": "Hawkeye",
-    "date": "2021-12-22T00:00:00Z",
+    "date": "2021-12-22",
     "type": "tv",
     "tmdbId": 88329,
     "release_year": 2021,
@@ -531,7 +531,7 @@
   },
   {
     "title": "The Witcher",
-    "date": "2022-01-09T00:00:00Z",
+    "date": "2022-01-09",
     "type": "tv",
     "tmdbId": 71912,
     "release_year": 2019,
@@ -564,7 +564,7 @@
   },
   {
     "title": "Dexter: New Blood",
-    "date": "2022-01-11T00:00:00Z",
+    "date": "2022-01-11",
     "type": "tv",
     "tmdbId": 131927,
     "release_year": 2021,
@@ -587,7 +587,7 @@
   },
   {
     "title": "The Book of Boba Fett",
-    "date": "2022-02-11T00:00:00Z",
+    "date": "2022-02-11",
     "type": "tv",
     "tmdbId": 115036,
     "release_year": 2021,
@@ -613,7 +613,7 @@
   },
   {
     "title": "Peacemaker",
-    "date": "2022-02-18T00:00:00Z",
+    "date": "2022-02-18",
     "type": "tv",
     "tmdbId": 110492,
     "release_year": 2022,
@@ -639,7 +639,7 @@
   },
   {
     "title": "Euphoria",
-    "date": "2022-03-02T00:00:00Z",
+    "date": "2022-03-02",
     "type": "tv",
     "tmdbId": 85552,
     "release_year": 2019,
@@ -663,7 +663,7 @@
   },
   {
     "title": "Reacher",
-    "date": "2022-03-03T00:00:00Z",
+    "date": "2022-03-03",
     "type": "tv",
     "tmdbId": 108978,
     "release_year": 2022,
@@ -695,7 +695,7 @@
   },
   {
     "title": "Dopesick",
-    "date": "2022-04-10T00:00:00Z",
+    "date": "2022-04-10",
     "type": "tv",
     "tmdbId": 110695,
     "release_year": 2021,
@@ -720,7 +720,7 @@
   },
   {
     "title": "Moon Knight",
-    "date": "2022-05-04T00:00:00Z",
+    "date": "2022-05-04",
     "type": "tv",
     "tmdbId": 92749,
     "release_year": 2022,
@@ -745,7 +745,7 @@
   },
   {
     "title": "Maid",
-    "date": "2022-05-09T00:00:00Z",
+    "date": "2022-05-09",
     "type": "tv",
     "tmdbId": 111141,
     "release_year": 2021,
@@ -770,7 +770,7 @@
   },
   {
     "title": "Severance",
-    "date": "2022-05-28T00:00:00Z",
+    "date": "2022-05-28",
     "type": "tv",
     "tmdbId": 95396,
     "release_year": 2022,
@@ -795,7 +795,7 @@
   },
   {
     "title": "Clark",
-    "date": "2022-05-28T00:00:00Z",
+    "date": "2022-05-28",
     "type": "tv",
     "tmdbId": 157008,
     "release_year": 2022,
@@ -817,7 +817,7 @@
   },
   {
     "title": "The Dropout",
-    "date": "2022-05-28T00:00:00Z",
+    "date": "2022-05-28",
     "type": "tv",
     "tmdbId": 122066,
     "release_year": 2022,
@@ -840,7 +840,7 @@
   },
   {
     "title": "Atlanta",
-    "date": "2022-06-17T00:00:00Z",
+    "date": "2022-06-17",
     "type": "tv",
     "tmdbId": 65495,
     "release_year": 2016,
@@ -868,7 +868,7 @@
   },
   {
     "title": "Obi-Wan Kenobi",
-    "date": "2022-06-22T00:00:00Z",
+    "date": "2022-06-22",
     "type": "tv",
     "tmdbId": 92830,
     "release_year": 2022,
@@ -889,7 +889,7 @@
   },
   {
     "title": "Ms. Marvel",
-    "date": "2022-07-14T00:00:00Z",
+    "date": "2022-07-14",
     "type": "tv",
     "tmdbId": 92782,
     "release_year": 2022,
@@ -915,7 +915,7 @@
   },
   {
     "title": "The Boys",
-    "date": "2022-07-22T00:00:00Z",
+    "date": "2022-07-22",
     "type": "tv",
     "tmdbId": 76479,
     "release_year": 2019,
@@ -955,7 +955,7 @@
   },
   {
     "title": "The Boys",
-    "date": "2022-07-31T00:00:00Z",
+    "date": "2022-07-31",
     "type": "tv",
     "tmdbId": 76479,
     "release_year": 2019,
@@ -995,7 +995,7 @@
   },
   {
     "title": "Better Call Saul",
-    "date": "2022-08-18T00:00:00Z",
+    "date": "2022-08-18",
     "type": "tv",
     "tmdbId": 60059,
     "release_year": 2015,
@@ -1042,7 +1042,7 @@
   },
   {
     "title": "The Bear",
-    "date": "2022-09-27T00:00:00Z",
+    "date": "2022-09-27",
     "type": "tv",
     "tmdbId": 136315,
     "release_year": 2022,
@@ -1068,7 +1068,7 @@
   },
   {
     "title": "She-Hulk: Attorney at Law",
-    "date": "2022-10-13T00:00:00Z",
+    "date": "2022-10-13",
     "type": "tv",
     "tmdbId": 92783,
     "release_year": 2022,
@@ -1092,7 +1092,7 @@
   },
   {
     "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
-    "date": "2022-10-15T00:00:00Z",
+    "date": "2022-10-15",
     "type": "tv",
     "tmdbId": 113988,
     "release_year": 2022,
@@ -1120,7 +1120,7 @@
   },
   {
     "title": "House of the Dragon",
-    "date": "2022-10-24T00:00:00Z",
+    "date": "2022-10-24",
     "type": "tv",
     "tmdbId": 94997,
     "release_year": 2022,
@@ -1151,7 +1151,7 @@
   },
   {
     "title": "Black Bird",
-    "date": "2022-12-06T00:00:00Z",
+    "date": "2022-12-06",
     "type": "tv",
     "tmdbId": 155537,
     "release_year": 2022,
@@ -1176,7 +1176,7 @@
   },
   {
     "title": "Star Wars: Andor",
-    "date": "2023-01-01T00:00:00Z",
+    "date": "2023-01-01",
     "type": "tv",
     "tmdbId": 83867,
     "release_year": 2022,
@@ -1201,7 +1201,7 @@
   },
   {
     "title": "The Legend of Vox Machina",
-    "date": "2023-01-27T00:00:00Z",
+    "date": "2023-01-27",
     "type": "tv",
     "tmdbId": 135934,
     "release_year": 2022,
@@ -1226,7 +1226,7 @@
   },
   {
     "title": "The Legend of Vox Machina",
-    "date": "2023-02-10T00:00:00Z",
+    "date": "2023-02-10",
     "type": "tv",
     "tmdbId": 135934,
     "release_year": 2022,
@@ -1252,7 +1252,7 @@
   },
   {
     "title": "The Last of Us",
-    "date": "2023-03-14T00:00:00Z",
+    "date": "2023-03-14",
     "type": "tv",
     "tmdbId": 100088,
     "release_year": 2023,
@@ -1282,7 +1282,7 @@
   },
   {
     "title": "BEEF",
-    "date": "2023-05-22T00:00:00Z",
+    "date": "2023-05-22",
     "type": "tv",
     "tmdbId": 154385,
     "release_year": 2023,
@@ -1302,7 +1302,7 @@
   },
   {
     "title": "Silo",
-    "date": "2023-06-30T00:00:00Z",
+    "date": "2023-06-30",
     "type": "tv",
     "tmdbId": 125988,
     "release_year": 2023,
@@ -1329,7 +1329,7 @@
   },
   {
     "title": "Barry",
-    "date": "2023-07-11T00:00:00Z",
+    "date": "2023-07-11",
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
@@ -1358,7 +1358,7 @@
   },
   {
     "title": "Barry",
-    "date": "2023-07-22T00:00:00Z",
+    "date": "2023-07-22",
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
@@ -1387,7 +1387,7 @@
   },
   {
     "title": "The Bear",
-    "date": "2023-07-24T00:00:00Z",
+    "date": "2023-07-24",
     "type": "tv",
     "tmdbId": 136315,
     "release_year": 2022,
@@ -1413,7 +1413,7 @@
   },
   {
     "title": "Barry",
-    "date": "2023-07-26T00:00:00Z",
+    "date": "2023-07-26",
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
@@ -1442,7 +1442,7 @@
   },
   {
     "title": "Secret Invasion",
-    "date": "2023-07-26T00:00:00Z",
+    "date": "2023-07-26",
     "type": "tv",
     "tmdbId": 114472,
     "release_year": 2023,
@@ -1466,7 +1466,7 @@
   },
   {
     "title": "Foundation",
-    "date": "2023-09-19T00:00:00Z",
+    "date": "2023-09-19",
     "type": "tv",
     "tmdbId": 93740,
     "release_year": 2021,
@@ -1495,7 +1495,7 @@
   },
   {
     "title": "Succession",
-    "date": "2023-09-29T00:00:00Z",
+    "date": "2023-09-29",
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
@@ -1530,7 +1530,7 @@
   },
   {
     "title": "Barry",
-    "date": "2023-09-30T00:00:00Z",
+    "date": "2023-09-30",
     "type": "tv",
     "tmdbId": 73107,
     "release_year": 2018,
@@ -1559,7 +1559,7 @@
   },
   {
     "title": "Ahsoka",
-    "date": "2023-10-04T00:00:00Z",
+    "date": "2023-10-04",
     "type": "tv",
     "tmdbId": 114461,
     "release_year": 2023,
@@ -1587,7 +1587,7 @@
   },
   {
     "title": "Succession",
-    "date": "2023-10-12T00:00:00Z",
+    "date": "2023-10-12",
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
@@ -1622,7 +1622,7 @@
   },
   {
     "title": "Succession",
-    "date": "2023-11-02T00:00:00Z",
+    "date": "2023-11-02",
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
@@ -1657,7 +1657,7 @@
   },
   {
     "title": "Gen V",
-    "date": "2023-11-09T00:00:00Z",
+    "date": "2023-11-09",
     "type": "tv",
     "tmdbId": 205715,
     "release_year": 2023,
@@ -1689,7 +1689,7 @@
   },
   {
     "title": "Loki",
-    "date": "2023-11-11T00:00:00Z",
+    "date": "2023-11-11",
     "type": "tv",
     "tmdbId": 84958,
     "release_year": 2021,
@@ -1716,7 +1716,7 @@
   },
   {
     "title": "Scavengers Reign",
-    "date": "2023-11-22T00:00:00Z",
+    "date": "2023-11-22",
     "type": "tv",
     "tmdbId": 204154,
     "release_year": 2023,
@@ -1747,7 +1747,7 @@
   },
   {
     "title": "What If...?",
-    "date": "2024-01-07T00:00:00Z",
+    "date": "2024-01-07",
     "type": "tv",
     "tmdbId": 91363,
     "release_year": 2021,
@@ -1770,7 +1770,7 @@
   },
   {
     "title": "Echo",
-    "date": "2024-01-14T00:00:00Z",
+    "date": "2024-01-14",
     "type": "tv",
     "tmdbId": 122226,
     "release_year": 2024,
@@ -1793,7 +1793,7 @@
   },
   {
     "title": "Reacher",
-    "date": "2024-01-21T00:00:00Z",
+    "date": "2024-01-21",
     "type": "tv",
     "tmdbId": 108978,
     "release_year": 2022,
@@ -1826,7 +1826,7 @@
   },
   {
     "title": "The Gentlemen",
-    "date": "2024-03-15T00:00:00Z",
+    "date": "2024-03-15",
     "type": "tv",
     "tmdbId": 236235,
     "release_year": 2024,
@@ -1853,7 +1853,7 @@
   },
   {
     "title": "Pantheon",
-    "date": "2024-03-30T00:00:00Z",
+    "date": "2024-03-30",
     "type": "tv",
     "tmdbId": 195339,
     "release_year": 2022,
@@ -1882,7 +1882,7 @@
   },
   {
     "title": "Tokyo Vice",
-    "date": "2024-04-03T00:00:00Z",
+    "date": "2024-04-03",
     "type": "tv",
     "tmdbId": 90296,
     "release_year": 2022,
@@ -1908,7 +1908,7 @@
   },
   {
     "title": "INVINCIBLE",
-    "date": "2024-04-04T00:00:00Z",
+    "date": "2024-04-04",
     "type": "tv",
     "tmdbId": 95557,
     "release_year": 2021,
@@ -1942,7 +1942,7 @@
   },
   {
     "title": "Fallout",
-    "date": "2024-04-13T00:00:00Z",
+    "date": "2024-04-13",
     "type": "tv",
     "tmdbId": 106379,
     "release_year": 2024,
@@ -1971,7 +1971,7 @@
   },
   {
     "title": "Tokyo Vice",
-    "date": "2024-04-18T00:00:00Z",
+    "date": "2024-04-18",
     "type": "tv",
     "tmdbId": 90296,
     "release_year": 2022,
@@ -1997,7 +1997,7 @@
   },
   {
     "title": "Shōgun",
-    "date": "2024-04-27T00:00:00Z",
+    "date": "2024-04-27",
     "type": "tv",
     "tmdbId": 126308,
     "release_year": 2024,
@@ -2026,7 +2026,7 @@
   },
   {
     "title": "Baby Reindeer",
-    "date": "2024-05-05T00:00:00Z",
+    "date": "2024-05-05",
     "type": "tv",
     "tmdbId": 241259,
     "release_year": 2024,
@@ -2049,7 +2049,7 @@
   },
   {
     "title": "X-Men '97",
-    "date": "2024-05-15T00:00:00Z",
+    "date": "2024-05-15",
     "type": "tv",
     "tmdbId": 138502,
     "release_year": 2024,
@@ -2073,7 +2073,7 @@
   },
   {
     "title": "White Boys",
-    "date": "2024-05-24T00:00:00Z",
+    "date": "2024-05-24",
     "type": "tv",
     "tmdbId": 76361,
     "release_year": 2018,
@@ -2091,7 +2091,7 @@
   },
   {
     "title": "Clarkson's Farm",
-    "date": "2024-06-19T00:00:00Z",
+    "date": "2024-06-19",
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
@@ -2113,7 +2113,7 @@
   },
   {
     "title": "Clarkson's Farm",
-    "date": "2024-06-21T00:00:00Z",
+    "date": "2024-06-21",
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
@@ -2135,7 +2135,7 @@
   },
   {
     "title": "Clarkson's Farm",
-    "date": "2024-06-25T00:00:00Z",
+    "date": "2024-06-25",
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
@@ -2157,7 +2157,7 @@
   },
   {
     "title": "The Acolyte",
-    "date": "2024-07-17T00:00:00Z",
+    "date": "2024-07-17",
     "type": "tv",
     "tmdbId": 114479,
     "release_year": 2024,
@@ -2183,7 +2183,7 @@
   },
   {
     "title": "The Boys",
-    "date": "2024-07-18T00:00:00Z",
+    "date": "2024-07-18",
     "type": "tv",
     "tmdbId": 76479,
     "release_year": 2019,
@@ -2224,7 +2224,7 @@
   },
   {
     "title": "Love \u0026 Anarchy",
-    "date": "2022-06-17T00:00:00Z",
+    "date": "2022-06-17",
     "type": "tv",
     "tmdbId": 111743,
     "release_year": 2020,
@@ -2247,7 +2247,7 @@
   },
   {
     "title": "Black Mirror",
-    "date": "2023-07-18T00:00:00Z",
+    "date": "2023-07-18",
     "type": "tv",
     "tmdbId": 42009,
     "release_year": 2011,
@@ -2291,7 +2291,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-07-29T00:00:00Z",
+    "date": "2024-07-29",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2334,7 +2334,7 @@
   },
   {
     "title": "House of the Dragon",
-    "date": "2024-08-05T00:00:00Z",
+    "date": "2024-08-05",
     "type": "tv",
     "tmdbId": 94997,
     "release_year": 2022,
@@ -2365,7 +2365,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-08-08T00:00:00Z",
+    "date": "2024-08-08",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2408,7 +2408,7 @@
   },
   {
     "title": "Pantheon",
-    "date": "2024-08-24T00:00:00Z",
+    "date": "2024-08-24",
     "type": "tv",
     "tmdbId": 195339,
     "release_year": 2022,
@@ -2437,7 +2437,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-08-16T00:00:00Z",
+    "date": "2024-08-16",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2480,7 +2480,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-09-01T00:00:00Z",
+    "date": "2024-09-01",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2523,7 +2523,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-09-09T00:00:00Z",
+    "date": "2024-09-09",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2552,7 +2552,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-09-19T00:00:00Z",
+    "date": "2024-09-19",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2581,7 +2581,7 @@
   },
   {
     "title": "Game of Thrones",
-    "date": "2024-09-30T00:00:00Z",
+    "date": "2024-09-30",
     "type": "tv",
     "tmdbId": 1399,
     "release_year": 2011,
@@ -2609,7 +2609,7 @@
   },
   {
     "title": "The Legend of Vox Machina",
-    "date": "2024-11-10T00:00:00Z",
+    "date": "2024-11-10",
     "type": "tv",
     "tmdbId": 135934,
     "release_year": 2022,
@@ -2630,7 +2630,7 @@
   },
   {
     "title": "Squid Game",
-    "date": "2024-11-15T00:00:00Z",
+    "date": "2024-11-15",
     "type": "tv",
     "tmdbId": 93405,
     "release_year": 2021,
@@ -2654,7 +2654,7 @@
   },
   {
     "title": "Avlogga",
-    "date": "2024-11-15T00:00:00Z",
+    "date": "2024-11-15",
     "type": "tv",
     "tmdbId": 273170,
     "release_year": 2024,
@@ -2672,7 +2672,7 @@
   },
   {
     "title": "The Penguin",
-    "date": "2024-12-01T00:00:00Z",
+    "date": "2024-12-01",
     "type": "tv",
     "tmdbId": 194764,
     "release_year": 2024,
@@ -2695,7 +2695,7 @@
   },
   {
     "title": "The Bear",
-    "date": "2024-12-15T00:00:00Z",
+    "date": "2024-12-15",
     "type": "tv",
     "tmdbId": 136315,
     "release_year": 2022,
@@ -2716,7 +2716,7 @@
   },
   {
     "title": "Secret Level",
-    "date": "2024-12-18T00:00:00Z",
+    "date": "2024-12-18",
     "type": "tv",
     "tmdbId": 261579,
     "release_year": 2024,
@@ -2738,7 +2738,7 @@
   },
   {
     "title": "La Palma",
-    "date": "2024-12-31T00:00:00Z",
+    "date": "2024-12-31",
     "type": "tv",
     "tmdbId": 242977,
     "release_year": 2024,
@@ -2758,7 +2758,7 @@
   },
   {
     "title": "What If...?",
-    "date": "2025-01-02T00:00:00Z",
+    "date": "2025-01-02",
     "type": "tv",
     "tmdbId": 91363,
     "release_year": 2021,
@@ -2778,7 +2778,7 @@
   },
   {
     "title": "Squid Game",
-    "date": "2025-01-04T00:00:00Z",
+    "date": "2025-01-04",
     "type": "tv",
     "tmdbId": 93405,
     "release_year": 2021,
@@ -2800,7 +2800,7 @@
   },
   {
     "title": "Creature Commandos",
-    "date": "2025-01-09T00:00:00Z",
+    "date": "2025-01-09",
     "type": "tv",
     "tmdbId": 219543,
     "release_year": 2024,
@@ -2822,7 +2822,7 @@
   },
   {
     "title": "Mr. \u0026 Mrs. Smith",
-    "date": "2025-01-13T00:00:00Z",
+    "date": "2025-01-13",
     "type": "tv",
     "tmdbId": 118642,
     "release_year": 2024,
@@ -2845,7 +2845,7 @@
   },
   {
     "title": "Silo",
-    "date": "2025-01-17T00:00:00Z",
+    "date": "2025-01-17",
     "type": "tv",
     "tmdbId": 125988,
     "release_year": 2023,
@@ -2866,7 +2866,7 @@
   },
   {
     "title": "Sugar",
-    "date": "2025-02-02T00:00:00Z",
+    "date": "2025-02-02",
     "type": "tv",
     "tmdbId": 203744,
     "release_year": 2024,
@@ -2887,7 +2887,7 @@
   },
   {
     "title": "The White Lotus",
-    "date": "2025-03-09T00:00:00Z",
+    "date": "2025-03-09",
     "type": "tv",
     "tmdbId": 111803,
     "release_year": 2021,
@@ -2907,7 +2907,7 @@
   },
   {
     "title": "INVINCIBLE",
-    "date": "2025-03-13T00:00:00Z",
+    "date": "2025-03-13",
     "type": "tv",
     "tmdbId": 95557,
     "release_year": 2021,
@@ -2928,7 +2928,7 @@
   },
   {
     "title": "Severance",
-    "date": "2025-03-21T00:00:00Z",
+    "date": "2025-03-21",
     "type": "tv",
     "tmdbId": 95396,
     "release_year": 2022,
@@ -2950,7 +2950,7 @@
   },
   {
     "title": "The Day of the Jackal",
-    "date": "2025-03-25T00:00:00Z",
+    "date": "2025-03-25",
     "type": "tv",
     "tmdbId": 222766,
     "release_year": 2024,
@@ -2970,7 +2970,7 @@
   },
   {
     "title": "Reacher",
-    "date": "2025-03-30T00:00:00Z",
+    "date": "2025-03-30",
     "type": "tv",
     "tmdbId": 108978,
     "release_year": 2022,
@@ -2990,7 +2990,7 @@
   },
   {
     "title": "Adolescence",
-    "date": "2025-04-14T00:00:00Z",
+    "date": "2025-04-14",
     "type": "tv",
     "tmdbId": 249042,
     "release_year": 2025,
@@ -3009,7 +3009,7 @@
   },
   {
     "title": "Daredevil: Born Again",
-    "date": "2025-04-16T00:00:00Z",
+    "date": "2025-04-16",
     "type": "tv",
     "tmdbId": 202555,
     "release_year": 2025,
@@ -3028,7 +3028,7 @@
   },
   {
     "title": "Succession",
-    "date": "2025-04-16T00:00:00Z",
+    "date": "2025-04-16",
     "type": "tv",
     "tmdbId": 76331,
     "release_year": 2018,
@@ -3047,7 +3047,7 @@
   },
   {
     "title": "Devil in the Family: The Fall of Ruby Franke",
-    "date": "2025-04-21T00:00:00Z",
+    "date": "2025-04-21",
     "type": "tv",
     "tmdbId": 281371,
     "release_year": 2025,
@@ -3066,7 +3066,7 @@
   },
   {
     "title": "Andor",
-    "date": "2025-05-22T00:00:00Z",
+    "date": "2025-05-22",
     "type": "tv",
     "tmdbId": 83867,
     "release_year": 2022,
@@ -3086,7 +3086,7 @@
   },
   {
     "title": "The Last of Us",
-    "date": "2025-05-30T00:00:00Z",
+    "date": "2025-05-30",
     "type": "tv",
     "tmdbId": 100088,
     "release_year": 2023,
@@ -3104,7 +3104,7 @@
   },
   {
     "title": "MobLand",
-    "date": "2025-06-01T00:00:00Z",
+    "date": "2025-06-01",
     "type": "tv",
     "tmdbId": 247718,
     "release_year": 2025,
@@ -3123,7 +3123,7 @@
   },
   {
     "title": "Clarkson's Farm",
-    "date": "2025-06-09T00:00:00Z",
+    "date": "2025-06-09",
     "type": "tv",
     "tmdbId": 117648,
     "release_year": 2021,
@@ -3144,7 +3144,7 @@
   },
   {
     "title": "Squid Game",
-    "date": "2025-07-05T00:00:00Z",
+    "date": "2025-07-05",
     "type": "tv",
     "tmdbId": 93405,
     "release_year": 2021,
@@ -3164,7 +3164,7 @@
   },
   {
     "title": "Murderbot",
-    "date": "2025-07-11T00:00:00Z",
+    "date": "2025-07-11",
     "type": "tv",
     "tmdbId": 241554,
     "release_year": 2025,
@@ -3184,7 +3184,7 @@
   },
   {
     "title": "Ironheart",
-    "date": "2025-07-12T00:00:00Z",
+    "date": "2025-07-12",
     "type": "tv",
     "tmdbId": 114471,
     "release_year": 2025,
@@ -3203,7 +3203,7 @@
   },
   {
     "title": "The Rehearsal",
-    "date": "2025-07-20T00:00:00Z",
+    "date": "2025-07-20",
     "type": "tv",
     "tmdbId": 204284,
     "release_year": 2022,
@@ -3222,7 +3222,7 @@
   },
   {
     "title": "Rick and Morty",
-    "date": "2025-07-29T00:00:00Z",
+    "date": "2025-07-29",
     "type": "tv",
     "tmdbId": 60625,
     "release_year": 2013,
@@ -3243,7 +3243,7 @@
   },
   {
     "title": "The Rehearsal",
-    "date": "2025-07-21T00:00:00Z",
+    "date": "2025-07-21",
     "type": "tv",
     "tmdbId": 204284,
     "release_year": 2022,
@@ -3262,7 +3262,7 @@
   },
   {
     "title": "The Wire",
-    "date": "2025-08-15T00:00:00Z",
+    "date": "2025-08-15",
     "type": "tv",
     "tmdbId": 1438,
     "release_year": 2002,
@@ -3281,7 +3281,7 @@
   },
   {
     "title": "Dexter: Resurrection",
-    "date": "2025-09-05T00:00:00Z",
+    "date": "2025-09-05",
     "type": "tv",
     "tmdbId": 259909,
     "release_year": 2025,
@@ -3301,7 +3301,7 @@
   },
   {
     "title": "The Wire",
-    "date": "2025-09-17T00:00:00Z",
+    "date": "2025-09-17",
     "type": "tv",
     "tmdbId": 1438,
     "release_year": 2002,
@@ -3320,7 +3320,7 @@
   },
   {
     "title": "Alien: Earth",
-    "date": "2025-09-24T00:00:00Z",
+    "date": "2025-09-24",
     "type": "tv",
     "tmdbId": 157239,
     "release_year": 2025,
@@ -3339,7 +3339,7 @@
   },
   {
     "title": "Peacemaker",
-    "date": "2025-10-10T00:00:00Z",
+    "date": "2025-10-10",
     "type": "tv",
     "tmdbId": 110492,
     "release_year": 2022,
