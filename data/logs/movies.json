@@ -7079,5 +7079,24 @@
       "rating": 4,
       "comment": "Expected some of the stuff to happen. The execution was really good, but some of the acting felt off. But the overall theme and message was really fitting. One goal of mine is to never become a snob."
     }
+  },
+  {
+    "title": "Rental Family",
+    "date": "2026-01-16",
+    "type": "movie",
+    "tmdbId": 1208348,
+    "release_year": 2025,
+    "runtime": 110,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Hikari"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Heartfelt movie, and what a strange concept. I kept thinking that this would never work in Norway because it's such a small country, Tokyo has almost three times our population 😅"
+    }
   }
 ]
