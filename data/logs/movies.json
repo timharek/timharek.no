@@ -7098,5 +7098,25 @@
       "rating": 4,
       "comment": "Heartfelt movie, and what a strange concept. I kept thinking that this would never work in Norway because it's such a small country, Tokyo has almost three times our population 😅"
     }
+  },
+  {
+    "title": "28 Years Later: The Bone Temple",
+    "date": "2026-01-25",
+    "type": "movie",
+    "tmdbId": 1272837,
+    "release_year": 2026,
+    "runtime": 109,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "directors": [
+      "Nia DaCosta"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Brutally good! I was not expecting this good of a movie. There were some brutal scenes in this movie, and the acting was overall very good. Jimmy and Jimmies, fuck, i dunno. Really looking forward to the next one!"
+    }
   }
 ]
