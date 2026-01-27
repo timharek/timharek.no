@@ -1,5 +1,5 @@
 "$schema" = "https://raw.githubusercontent.com/jsonresume/resume-schema/refs/heads/master/schema.json"
-updatedAt = 2025-05-25
+updatedAt = 2026-01-27
 
 [basics]
 name = "Tim Hårek Andreassen"
@@ -9,12 +9,11 @@ email = "tim@harek.no"
 phone = "+47 400 43 672"
 url = "https://timharek.no"
 summary = """
-I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway that
-likes to write about my learnings, design, programming, logging, note-taking and
-so on… I care about creating solutions that respects people's privacy, security
-and user experience. I have a bachelors degree in informatics, specifically
-Computer Security. Presently I'm working as a software engineer at Value
-Technology in Bergen.
+I'm Tim Hårek Andreassen, a technologist from the west coast of Norway who
+enjoys writing about design, programming, and personal knowledge management.
+I care about creating solutions that respect people's privacy, security, and
+user experience. I have a bachelor's degree in Computer Security and currently
+work as a tech lead and partner at Value Technology in Bergen.
 """
 
 [basics.location]
@@ -42,9 +41,10 @@ position = "Tech lead & partner"
 url = "https://value.no"
 startDate = 2025-01-01
 highlights = [
-  "Tech lead and architect for full-stack applications serving internal and external clients.",
-  "Migrated the mother organization from vacc.no to value.no in Google Workspace.",
-  "Hands-on directly with customers."
+  "Lead architecture and development for full-stack applications serving internal and external clients.",
+  "Migrated the parent organization from vacc.no to value.no in Google Workspace.",
+  "Built and maintained an internal integration platform (Mono) for standardizing client integrations.",
+  "Work directly with customers to gather requirements and deliver solutions.",
 ]
 
 [[work]]
@@ -60,7 +60,7 @@ highlights = [
   "Established and maintained development guidelines and best practices across multiple projects",
   "Successfully integrated complex ERP and accounting software systems",
   "Implemented data normalization solutions using Raw technologies",
-  "Managed deployment automation and monitoring systems"
+  "Managed deployment automation and monitoring systems",
 ]
 
 [[work]]
@@ -85,7 +85,7 @@ highlights = [
   "Led digital transformation initiatives, implementing CRM and accounting systems",
   "Redesigned company website using modern technologies and automated deployment",
   "Automated annual inventory processes, significantly reducing manual effort",
-  "Provided comprehensive IT support for remote and on-site staff"
+  "Provided comprehensive IT support for remote and on-site staff",
 ]
 
 [[work]]
@@ -94,9 +94,9 @@ position = "Full-stack developer"
 startDate = 2021-04-19
 endDate = 2021-07-16
 highlights = [
-  "Worked for Netlife Bergen.",
-  "Development on KHdele's website.",
-  "Development on One Ocean Expedtion's website.",
+  "Contracted by Netlife Bergen before joining full-time.",
+  "Developed the website for KHdele (Arts and Crafts education).",
+  "Developed the website for One Ocean Expedition.",
 ]
 
 [[work]]
@@ -164,11 +164,11 @@ position = "Member"
 startDate = 2020-09-08
 endDate = 2024-04-09
 highlights = [
-  "Maintenance and operation of IT systems for student organizations in Bergen.",
-  "Set up of different services for automatic deployment of other services.",
-  "Configuring a easy to maintain script for checking server availability.",
-  "Set up Mattermost, moderating channels and maintaining channel workflows.",
-  "Initiate Ansible-workflow for maintaining servers.",
+  "Maintained and operated IT systems for student organizations in Bergen.",
+  "Set up services for automatic deployment.",
+  "Configured scripts for monitoring server availability.",
+  "Deployed Mattermost and maintained channel workflows.",
+  "Initiated Ansible workflow for server maintenance.",
 ]
 
 [[volunteer]]
@@ -179,9 +179,9 @@ startDate = 2021-01-23
 endDate = 2021-12-31
 highlights = [
   "Administrative tasks, convene meetings etc.",
-  "Re-designed the current website website.",
+  "Re-designed the website.",
   "Restructured some of the server-infrastructure.",
-  "Simplified how the organization operates and responds to inquires.",
+  "Simplified how the organization operates and responds to inquiries.",
 ]
 
 [[volunteer]]
@@ -190,10 +190,10 @@ url = "https://srib.no"
 position = "Web developer"
 startDate = 2020-02-12
 endDate = 2021-05-29
-highlights = ["Contributed on the development on their new website."]
+highlights = ["Contributed to the development of their new website."]
 
 [[education]]
-institituon = "University of Bergen"
+institution = "University of Bergen"
 url = "https://uib.no"
 area = "Computer Security"
 studyType = "Bachelor"
@@ -209,8 +209,18 @@ issuer = "Prosessarbeid AS (Målfrid J. Ågotnes)"
 
 
 [[skills]]
-name = "Programming langauges"
-keywords = ["Java", "C#", "Python", "HTML", "CSS", "JavaScript", "PHP", "SQL", "Go"]
+name = "Programming languages"
+keywords = [
+  "Java",
+  "C#",
+  "Python",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "PHP",
+  "SQL",
+  "Go",
+]
 
 [[skills]]
 name = "Libraries and frameworks"
@@ -230,7 +240,7 @@ keywords = [
   "Zod",
   "MUI",
   "Hugo",
-  "templ"
+  "templ",
 ]
 
 [[skills]]
@@ -246,7 +256,7 @@ keywords = [
   "PostgreSQL",
   "MariaDB/MySQL",
   "Sentry",
-  "Pulumi"
+  "Pulumi",
 ]
 
 [[skills]]
@@ -291,7 +301,7 @@ client = "Sticos"
 url = "https://sticos.no"
 roles = ["Tech lead"]
 description = """
-We created a new website for Sticos using HubSpot CMS. We also integreated Docebo
+We created a new website for Sticos using HubSpot CMS. We also integrated Docebo
 LMS for their courses pages, this was done using HubSpot's HubDB.
 """
 startDate = 2022-12-05
@@ -359,7 +369,7 @@ name = "viljareiser.no"
 client = "Vilja"
 url = "https://viljareiser.no/"
 roles = ["Tech lead", "Developer", "UX designer"]
-description ="""
+description = """
 We created a new website for a travel agency. We built our own custom 
 integration with their existing booking-system.
 """
@@ -373,7 +383,7 @@ client = "Ambita"
 roles = ["Tech lead", "Developer"]
 description = """
 I helped the client lift their knowledge about frontend development, using Vue3,
-SASS, and best practises when it comes to UX. They needed assistance for their
+SASS, and best practices when it comes to UX. They needed assistance for their
 new version of their existing webapp made with Java and REST APIs. 
 """
 startDate = 2021-10-04
@@ -388,7 +398,7 @@ roles = ["Developer"]
 description = """
 We created a website with Next.js using data from Havforskningsinstituttet with
 live-data coming from a sea vessel, Statsraad Lehmkuhl. We added data-points to
-a map tracking the ships coordinates with Mapbox.
+a map tracking the ship's coordinates with Mapbox.
 """
 startDate = 2021-05-31
 endDate = 2021-09-22
@@ -404,7 +414,7 @@ keywords = [
 ]
 
 [[projects]]
-name = "Optimze handelensmiljofond.no"
+name = "Optimize handelensmiljofond.no"
 client = "Handelens Miljøfond"
 url = "https://handelensmiljofond.no/"
 roles = ["Developer"]
@@ -415,7 +425,7 @@ JavaScript etc. I reduced the biggest pages from 18 MB down to approximately
 """
 startDate = 2021-10-18
 endDate = 2021-10-21
-keywords = ["Website", "Craft CMS", "Optimze", "Netlife", "Work"]
+keywords = ["Website", "Craft CMS", "Optimize", "Netlife", "Work"]
 
 [[projects]]
 name = "verdighetsenteret.no"
@@ -630,6 +640,7 @@ publicly accessible through an API. Made by scraping Filmpolitiet's RSS feeds.
 Made using Deno, Fresh and SQLite.
 """
 startDate = 2023-05-31
+endDate = 2025-01-30
 keywords = [
   "API",
   "Database",
@@ -723,7 +734,18 @@ recipients using email and SFTP (SSH).
 """
 startDate = 2023-01-24
 endDate = 2023-05-16
-keywords = ["API", "Deno", "GCP", "Netlife", "Oak", "Value", "Work", "SFTP", "Email", "EDIFACT"]
+keywords = [
+  "API",
+  "Deno",
+  "GCP",
+  "Netlife",
+  "Oak",
+  "Value",
+  "Work",
+  "SFTP",
+  "Email",
+  "EDIFACT",
+]
 
 [[projects]]
 name = "Bergen Open Source Website"
@@ -774,7 +796,7 @@ sources = ["https://git.sr.ht/~timharek/bir"]
 name = "timharek.no"
 url = "https://timharek.no"
 description = """
-My personal website where I write about stuff that interest me.
+My personal website where I write about things that interest me.
 """
 startDate = 2019-03-28
 keywords = ["Hugo", "Personal", "Open source", "Website", "Blogging"]
@@ -797,11 +819,9 @@ description = """
 API-client for accessing OpenLibrary's API for searching books, authors etc.
 """
 startDate = 2024-12-07
-endDate = 2024-09-30
+endDate = 2025-01-25
 keywords = ["Tool", "Go", "API", "Personal", "Open source", "Package"]
-sources = [
-  "https://git.sr.ht/~timharek/openlibrary-go"
-]
+sources = ["https://git.sr.ht/~timharek/openlibrary-go"]
 
 [[projects]]
 name = "Bergen Rørarbeid AS"
@@ -831,14 +851,29 @@ url = "https://value.no/tjenester/teknologi/systemer/contracting-works"
 client = "Value Technology"
 roles = ["Tech lead", "Developer"]
 description = """
-Started off as an integration with a single ERP, 24SevenOffice, but is now
-supporting Tripletex as well. The integration has a lot of moving parts as it
-syncs a bunch of different data one- and two-ways. For 24SO's part we
-used their SOAP API against CW's GraphQL (read) and OpenAPI (write). For Tripletex
-we used their OpenAPI API against CW's APIs.
+Started off as an integration with a single ERP, Finago
+(formerly 24SevenOffice), but is now supporting Tripletex as well. The
+integration has a lot of moving parts as it syncs a bunch of different data
+one- and two-ways. For 24SO's part we used their SOAP API against CW's
+GraphQL (read) and OpenAPI (write). For Tripletex we used their OpenAPI
+API against CW's APIs.
 """
 startDate = 2024-09-15
-keywords = ["API", "Go", "GCP", "Value", "Work", "ERP", "Integration", "24SevenOffice", "GraphQL", "OpenAPI", "SOAP", "Tripletex"]
+keywords = [
+  "API",
+  "Go",
+  "GCP",
+  "Value",
+  "Work",
+  "ERP",
+  "Integration",
+  "24SevenOffice",
+  "Finago",
+  "GraphQL",
+  "OpenAPI",
+  "SOAP",
+  "Tripletex",
+]
 
 [[projects]]
 name = "vestkontakt.no in Hugo"
@@ -856,8 +891,149 @@ keywords = ["Website", "Hugo", "Work"]
 
 [[projects]]
 name = "git-bump"
+url = "https://git.sr.ht/~timharek/git-bump"
 description = """
-Easily tag new versions (semver) with git.
+Easily tag new versions (semver/calver/custom) with git.
 """
 startDate = 2025-11-15
 keywords = ["git", "Go", "CLI", "Personal"]
+sources = ["https://git.sr.ht/~timharek/git-bump"]
+
+[[projects]]
+name = "Automating registering paid invoices from CRM"
+client = "Nettbil"
+roles = ["Developer", "Tech lead"]
+description = """
+Automate registering paid invoices in Salesforce based on ledger-data from
+Finago (formerly 24SevenOffice). Use number-plates from settlements in
+Salesforce to look for unpaid invoices.
+"""
+startDate = 2025-07-11
+endDate = 2025-11-28
+keywords = [
+  "API",
+  "Salesforce",
+  "24SevenOffice",
+  "Finago",
+  "ERP",
+  "OpenAPI",
+  "SOAP",
+  "Integration",
+  "Work",
+  "Value",
+  "CRM",
+  "Go",
+  "Mono"
+]
+
+[[projects]]
+name = "Automating settlements book-keeping"
+client = "Nettbil"
+roles = ["Developer", "Tech lead"]
+description = """
+Automate payouts transaction to sellers and/or banks based on settlement-info
+from Salesforce.
+"""
+startDate = 2025-07-11
+keywords = [
+  "API",
+  "Salesforce",
+  "24SevenOffice",
+  "Finago",
+  "ERP",
+  "OpenAPI",
+  "SOAP",
+  "Integration",
+  "Work",
+  "Value",
+  "Go",
+  "Mono"
+]
+
+[[projects]]
+name = "PowerOffice Go import from TaxiFinans"
+client = "JDK Regnskap"
+roles = ["Developer", "Tech lead"]
+description = """
+Create a PowerOffice Go import based on data from taxi accounting system export
+in SIE.
+"""
+startDate = 2025-12-01
+endDate = 2026-01-20
+keywords = ["PowerOfficeGo", "ERP", "Work", "Value", "Go", "Mono"]
+
+[[projects]]
+name = "Huma -> Finago Payday"
+client = "Veøy AS"
+roles = ["Tech lead"]
+description = """
+Lead the development for transferring employee and absence data from Huma HR to
+Finago Payday based on webhooks.
+"""
+startDate = 2025-11-24
+keywords = [
+  "API",
+  "Huma",
+  "HR",
+  "24SevenOffice",
+  "Finago",
+  "Payroll",
+  "Payday",
+  "ERP",
+  "OpenAPI",
+  "Huma",
+  "Integration",
+  "Work",
+  "Value",
+  "Webhooks",
+  "Go",
+  "Mono"
+]
+
+[[projects]]
+name = "Huma -> EQS Kvalitetssikring"
+client = "Veøy AS"
+roles = ["Developer", "Tech lead"]
+description = """
+Automate transfer of employees from Huma HR via webhooks to EQS.
+"""
+startDate = 2025-11-24
+keywords = [
+  "API",
+  "Huma",
+  "HR",
+  "24SevenOffice",
+  "Finago",
+  "Payroll",
+  "Payday",
+  "ERP",
+  "OpenAPI",
+  "Huma",
+  "Integration",
+  "Work",
+  "Value",
+  "Webhooks",
+  "Go",
+  "Mono",
+]
+
+[[projects]]
+name = "Integrate Voss of Norway with Raw from SAP"
+client = "Voss of Norway"
+roles = ["Tech lead", "Developer"]
+description = """
+Automate transferring of general ledger and sales exported from SAP on an
+SFTP-server to Raw via their APIs.
+"""
+startDate = 2025-01-20
+keywords = ["Value", "Integration", "Raw", "Work", "SAP", "API", "Go", "Mono"]
+
+[[projects]]
+name = "Mono: Integration platform"
+roles = ["Developer"]
+description = """
+Creating and maintaining an integration platform where we can create and
+scaffold all of our integrations.
+"""
+startDate = 2025-03-23
+keywords = ["Value", "Integration", "Work", "API", "Go", "Mono"]
