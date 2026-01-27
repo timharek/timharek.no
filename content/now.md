@@ -1,14 +1,26 @@
 +++
 title = "What I'm doing now"
-updatedAt = 2025-09-27
+updatedAt = 2026-01-27
 +++
 
+- Becoming a proper homeowner (bought a big house)
+- Expecting another daughter
 - [Working on Hima](/tags/hima)
+- Playing [Daggerheart] (TTRPG)
 
 ## Recent
 
 |              |                                                             |
 | -----------: | :---------------------------------------------------------- |
+| `2025-11-30` | Started moving into our new house                           |
+| `2025-01-26` | Handed over the keys to housing cooperative house           |
+| `2025-12-07` | Wrote [Do something about it]                               |
+| `2025-11-26` | Sold our housing cooperative house                          |
+| `2025-11-15` | Bought a standalone house with double garage                |
+| `2025-11-01` | Replaced Nextcloud with [Syncthing]                         |
+| `2025-10-21` | Wrote [Hima Devlog #1]                                      |
+| `2025-10-15` | Started playing [ARC Raiders]                               |
+| `2025-09-21` | Started playing [Daggerheart] (TTRPG)                       |
 | `2025-09-18` | Switched out yabai with [Aerospace]                         |
 | `2025-09-09` | Wrote about [a year with Go]                                |
 | `2025-07-17` | Bought my first EV, Volkswagen ID. Buzz                     |
@@ -50,3 +62,8 @@ updatedAt = 2025-09-27
 [OpenLibrary package]: https://git.sr.ht/~timharek/openlibrary-go
 [a year with Go]: /blog/a-year-with-go
 [Aerospace]: https://github.com/nikitabobko/AeroSpace
+[Do something about it]: /blog/do-something-about-it
+[Syncthing]: https://syncthing.net/
+[Hima Devlog #1]: /blog/hima-devlog-1
+[ARC Raiders]: https://www.arcraiders.com/
+[Daggerheart]: https://www.daggerheart.com/
