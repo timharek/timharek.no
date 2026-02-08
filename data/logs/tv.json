@@ -3356,5 +3356,27 @@
       "rating": 4,
       "comment": "I liked the retcon from season 1 from DCEU. It was fun seeing all the main characters playing alongside each other as friends throughout the whole season. And Vigilante, what a great character, the actor nails it. I want a spin-off show for just Vigilante with his vigilanting and interactions with his mom and day-to-day."
     }
+  },
+  {
+    "title": "Fallout",
+    "date": "2026-02-04",
+    "type": "tv",
+    "tmdbId": 106379,
+    "release_year": 2024,
+    "runtime_per_episode": null,
+    "season": 2,
+    "genres": [
+      "Action \u0026 Adventure",
+      "Sci-Fi \u0026 Fantasy"
+    ],
+    "directors": null,
+    "creators": [
+      "Graham Wagner",
+      "Geneva Robertson-Dworet"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Excellent! More slow-paced compared to last season, and the same with the scale of the world building. The acting is great! All three main characters feels like three sperate player characters that has very different perks. Had a blast from start to finish."
+    }
   }
 ]
