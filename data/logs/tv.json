@@ -3378,5 +3378,27 @@
       "rating": 5,
       "comment": "Excellent! More slow-paced compared to last season, and the same with the scale of the world building. The acting is great! All three main characters feels like three sperate player characters that has very different perks. Had a blast from start to finish."
     }
+  },
+  {
+    "title": "Wonder Man",
+    "date": "2026-02-09",
+    "type": "tv",
+    "tmdbId": 198178,
+    "release_year": 2026,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "directors": null,
+    "creators": [
+      "Andrew Guest",
+      "Destin Daniel Cretton"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Breath of fresh air! Trevor is back, and he's more interesting than ever. The show works well on its own. The bromance stuff actually works. The DODC was the weakest part of the whole show imo."
+    }
   }
 ]

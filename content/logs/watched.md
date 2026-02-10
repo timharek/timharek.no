@@ -38,6 +38,7 @@ Movies and TV shows that I've watched. Not a complete list.
 - The Bear S4
 - The Wire S3
 - Pluribus S1
+- A Knight of the Seven Kingdoms S1
 
 ## Watchlist
 
