@@ -3400,5 +3400,28 @@
       "rating": 5,
       "comment": "Breath of fresh air! Trevor is back, and he's more interesting than ever. The show works well on its own. The bromance stuff actually works. The DODC was the weakest part of the whole show imo."
     }
+  },
+  {
+    "title": "A Knight of the Seven Kingdoms",
+    "date": "2026-02-23",
+    "type": "tv",
+    "tmdbId": 224372,
+    "release_year": 2026,
+    "runtime_per_episode": null,
+    "season": 1,
+    "genres": [
+      "Drama",
+      "Sci-Fi \u0026 Fantasy",
+      "Action \u0026 Adventure"
+    ],
+    "directors": null,
+    "creators": [
+      "George R. R. Martin",
+      "Ira Parker"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "A really different GoT story. I loved the characters. The Dunk and Egg actors were phenomonal together! The show could have been better if it had not been for the ever-lasting teasing of a \"great battle\". I'm looking forward to their future adventures!"
+    }
   }
 ]

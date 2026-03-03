@@ -7118,5 +7118,63 @@
       "rating": 5,
       "comment": "Brutally good! I was not expecting this good of a movie. There were some brutal scenes in this movie, and the acting was overall very good. Jimmy and Jimmies, fuck, i dunno. Really looking forward to the next one!"
     }
+  },
+  {
+    "title": "A Million Miles Away",
+    "date": "2026-02-15",
+    "type": "movie",
+    "tmdbId": 1002185,
+    "release_year": 2023,
+    "runtime": 122,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Alejandra Márquez Abella"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Touching story about a guy that just wanted to go to space."
+    }
+  },
+  {
+    "title": "Hamnet",
+    "date": "2026-02-28",
+    "type": "movie",
+    "tmdbId": 858024,
+    "release_year": 2025,
+    "runtime": 126,
+    "genres": [
+      "Drama",
+      "Romance",
+      "History"
+    ],
+    "directors": [
+      "Chloé Zhao"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Beautiful, and heartbreaking. The acting was excellent, the story felt like a smooth combination of theater-drama and regular movie-drama. And man, what a tearjerker. "
+    }
+  },
+  {
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "date": "2026-02-27",
+    "type": "movie",
+    "tmdbId": 100,
+    "release_year": 1998,
+    "runtime": 105,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Guy Ritchie"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Rewatch. It's been forever since I've watched this movie. We laughed so much it hurt sometimes!"
+    }
   }
 ]
