@@ -7215,5 +7215,24 @@
       "rating": 5,
       "comment": "Rewatch. I like dags!"
     }
+  },
+  {
+    "title": "Next Door",
+    "date": "2026-03-08",
+    "type": "movie",
+    "tmdbId": 572,
+    "release_year": 2005,
+    "runtime": 75,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Pål Sletaune"
+    ],
+    "review": {
+      "rating": 4,
+      "comment": "Subtle hints throughout the film. I don't think I have ever seen a Norwegian movie likes this. And the setting and overall story is so bizarre."
+    }
   }
 ]
