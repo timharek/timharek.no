@@ -498,5 +498,20 @@
       "rating": 5,
       "comment": "I love the superhero genre, especially when they try to do something different. In this game it worked really well. I played the game with QTE disabled, because I wanted TV show experience with my own decisions, and the game fully delivered on that. The characters are top-notch, and now they need to create comic-books about this universe, because I need more!\n\nThe game played excellent on Linux."
     }
+  },
+  {
+    "title": "Esoteric Ebb",
+    "date": "2026-03-12",
+    "type": "game",
+    "igdb_id": 0,
+    "release_year": 2026,
+    "platform": "PC",
+    "genres": [
+      "Adventure"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "The dialogue in this game is amazing. I told everyone I was apolitical all the time, and I had heated discussions with my Intellegence throughout the game. A lot of interesting characters, the world was not too big, nor too small. It was perfect. Ran flawlessly on the Steam Deck."
+    }
   }
 ]
