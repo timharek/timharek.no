@@ -32,10 +32,6 @@ Video games I've finished. Not a complete list.
   </dl>
 </details>
 
-## Currently playing
-
-- ARC Raiders (2025): It's so good!
-
 ## On pause
 
 - Baldur's Gate 3, PC

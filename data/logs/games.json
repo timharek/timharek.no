@@ -513,5 +513,20 @@
       "rating": 5,
       "comment": "The dialogue in this game is amazing. I told everyone I was apolitical all the time, and I had heated discussions with my Intellegence throughout the game. A lot of interesting characters, the world was not too big, nor too small. It was perfect. Ran flawlessly on the Steam Deck."
     }
+  },
+  {
+    "title": "ARC Raiders",
+    "date": "2025-12-31",
+    "type": "game",
+    "igdb_id": 0,
+    "release_year": 2025,
+    "platform": "PC",
+    "genres": [
+      "Action"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "One of the best multiplayer games I have ever played. The community is great, the gameplay is awesome, the game-loop is rewarding and addicting at the same time. It's fun alone, and it's fun with friends. I think I will play ARC every now and then in the coming years."
+    }
   }
 ]
