@@ -7254,5 +7254,45 @@
       "rating": 2,
       "comment": "This was not worth it."
     }
+  },
+  {
+    "title": "Project Hail Mary",
+    "date": "2026-03-27",
+    "type": "movie",
+    "tmdbId": 687163,
+    "release_year": 2026,
+    "runtime": 157,
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "directors": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "review": {
+      "rating": 5,
+      "comment": "Fantastic movie! Fist my bump!"
+    }
+  },
+  {
+    "title": "Send Help",
+    "date": "2026-03-28",
+    "type": "movie",
+    "tmdbId": 1198994,
+    "release_year": 2026,
+    "runtime": 113,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Comedy"
+    ],
+    "directors": [
+      "Sam Raimi"
+    ],
+    "review": {
+      "rating": 1,
+      "comment": "The premise seemed really cool, the start of the movie was OK, but something was off. And then the whole movie became more and more strange..."
+    }
   }
 ]
