@@ -6740,8 +6740,10 @@ comment = "One of the best multiplayer games I have ever played. The community i
 kind = "book"
 title = "Essentialism: The Disciplined Pursuit of Less"
 date = 2018-12-14
+openlibrary_id = "/works/OL17043626W"
 publish_year = 2014
 genres = ["Nonfiction", "Self Help", "Psychology", "Productivity", "Business"]
+authors = ["Greg McKeown"]
 [logs.review]
 rating = 4
 
@@ -6749,8 +6751,10 @@ rating = 4
 kind = "book"
 title = "How To Win Friends And Influence People"
 date = 2019-08-06
+openlibrary_id = "/works/OL1063267W"
 publish_year = 1936
 genres = ["Nonfiction", "Self Help", "Psychology", "Productivity", "Business", "Leadership", "Relationships"]
+authors = ["Dale Carnegie"]
 [logs.review]
 rating = 4
 
@@ -6758,8 +6762,10 @@ rating = 4
 kind = "book"
 title = "Sapiens: A Brief History of Humankind"
 date = 2019-08-08
+openlibrary_id = "/works/OL17075811W"
 publish_year = 2011
 genres = ["Nonfiction", "Science", "History", "Anthropology", "Sociology"]
+authors = ["Yuval Noah Harari"]
 [logs.review]
 rating = 5
 
@@ -6767,8 +6773,10 @@ rating = 5
 kind = "book"
 title = "Homo Deus: A Breif History of Tomorrow"
 date = 2019-09-22
-publish_year = 2015
+openlibrary_id = "/works/OL27969037W"
+publish_year = 2017
 genres = ["Nonfiction", "Science", "History", "Anthropology", "Sociology"]
+authors = ["Yuval Noah Harari"]
 [logs.review]
 rating = 5
 
@@ -6776,8 +6784,10 @@ rating = 5
 kind = "book"
 title = "Norse Mythology"
 date = 2019-09-22
-publish_year = 2017
+openlibrary_id = "/works/OL17619634W"
+publish_year = 2016
 genres = ["Fantasy", "Fiction", "Mythology", "Adult", "Short Stories"]
+authors = ["Neil Gaiman", "Anna Llisterri"]
 [logs.review]
 rating = 4
 
@@ -6785,8 +6795,10 @@ rating = 4
 kind = "book"
 title = "21 Lessons for the 21st Century"
 date = 2019-11-19
+openlibrary_id = "/works/OL17917961W"
 publish_year = 2018
 genres = ["Nonfiction", "Science", "History", "Anthropology", "Sociology"]
+authors = ["Yuval Noah Harari"]
 [logs.review]
 rating = 4
 
@@ -6794,8 +6806,10 @@ rating = 4
 kind = "book"
 title = "Digital Minimalism"
 date = 2019-12-08
+openlibrary_id = "/works/OL19541830W"
 publish_year = 2019
 genres = ["Nonfiction", "Self Help", "Psychology", "Productivity", "Science", "Technology"]
+authors = ["Cal Newport"]
 [logs.review]
 rating = 4
 
@@ -6803,8 +6817,10 @@ rating = 4
 kind = "book"
 title = "Permanent Record"
 date = 2020-01-14
+openlibrary_id = "/works/OL20080323W"
 publish_year = 2019
 genres = ["Nonfiction", "Biography", "Politics", "Autobiography", "Technology"]
+authors = ["Edward Snowden"]
 [logs.review]
 rating = 5
 
@@ -6812,8 +6828,10 @@ rating = 5
 kind = "book"
 title = "1984"
 date = 2021-04-03
+openlibrary_id = "/works/OL1168083W"
 publish_year = 1949
 genres = ["Fiction", "Science Fiction", "Politics"]
+authors = ["George Orwell"]
 [logs.review]
 rating = 5
 
@@ -6821,8 +6839,10 @@ rating = 5
 kind = "book"
 title = "The Subtle Art of Not Giving a Fuck: A Counterintuitive Approach to Living a Good Life"
 date = 2021-04-27
+openlibrary_id = "/works/OL17590212W"
 publish_year = 2016
 genres = ["Nonfiction", "Self Help", "Psychology", "Productivity", "Business"]
+authors = ["Mark Manson"]
 [logs.review]
 rating = 3
 
@@ -6830,8 +6850,10 @@ rating = 3
 kind = "book"
 title = "Talk Like TED"
 date = 2021-05-30
-publish_year = 2017
+openlibrary_id = "/works/OL17076301W"
+publish_year = 2014
 genres = ["Nonfiction", "Self Help", "Psychology", "Productivity", "Business"]
+authors = ["Carmine Gallo"]
 [logs.review]
 rating = 3
 
@@ -6839,8 +6861,10 @@ rating = 3
 kind = "book"
 title = "Atomic Habits"
 date = 2021-12-18
-publish_year = 2018
+openlibrary_id = "/works/OL17930368W"
+publish_year = 2016
 genres = ["Nonfiction", "Self Help", "Psychology", "Productivity"]
+authors = ["James Clear"]
 [logs.review]
 rating = 5
 
@@ -6848,8 +6872,10 @@ rating = 5
 kind = "book"
 title = "New Dark Age"
 date = 2022-03-10
-publish_year = 2018
+openlibrary_id = "/works/OL27410418W"
+publish_year = 2021
 genres = ["Nonfiction", "Science", "Technology", "Philosophy", "Sociology", "Futurism"]
+authors = ["Ross Patrick"]
 [logs.review]
 rating = 4
 
@@ -6857,8 +6883,10 @@ rating = 4
 kind = "book"
 title = "Lost Connections"
 date = 2022-03-22
+openlibrary_id = "/works/OL19729600W"
 publish_year = 2018
 genres = ["Nonfiction", "Science", "Psychology", "Sociology", "Health", "Self Help"]
+authors = ["Johann Hari"]
 [logs.review]
 rating = 4
 
@@ -6875,8 +6903,10 @@ rating = 5
 kind = "book"
 title = "Ruined by Design"
 date = 2022-07-22
+openlibrary_id = "/works/OL24994697W"
 publish_year = 2019
 genres = ["Nonfiction", "Design", "Politics", "Technology", "Programming", "Science"]
+authors = ["Mike Monteiro"]
 [logs.review]
 rating = 5
 
@@ -6884,8 +6914,10 @@ rating = 5
 kind = "book"
 title = "The Phoenix Project"
 date = 2022-10-30
+openlibrary_id = "/works/OL16806686W"
 publish_year = 2013
 genres = ["Fiction", "Technology", "Programming", "Business", "Leadership", "Management"]
+authors = ["Gene Kim", "Kevin Behr", "George Spafford", "Gene Kim"]
 [logs.review]
 rating = 5
 
@@ -6920,8 +6952,10 @@ rating = 5
 kind = "book"
 title = "Frontiersman, Volume 1"
 date = 2023-08-09
+openlibrary_id = "/works/OL27491108W"
 publish_year = 2022
 genres = ["Comicbook"]
+authors = ["Patrick Kindlon", "Marco Ferrari", "Maurizio Rosenzweig"]
 [logs.review]
 rating = 4
 
@@ -6929,8 +6963,10 @@ rating = 4
 kind = "book"
 title = "The Pragmatic Programmer"
 date = 2024-01-22
+openlibrary_id = "/works/OL5748544W"
 publish_year = 1999
 genres = ["Programming", "Computer-Science", "Technology", "Nonfiction", "Software"]
+authors = ["Andy Hunt", "David Thomas", "Dave Thomas", "David . Thomas"]
 [logs.review]
 rating = 4
 
@@ -6938,8 +6974,10 @@ rating = 4
 kind = "book"
 title = "All Systems Red"
 date = 2024-05-31
+openlibrary_id = "/works/OL17914663W"
 publish_year = 2017
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 5
 comment = "Short, but very entertaining!"
@@ -6948,8 +6986,10 @@ comment = "Short, but very entertaining!"
 kind = "book"
 title = "Artificial condition"
 date = 2024-06-01
+openlibrary_id = "/works/OL19747311W"
 publish_year = 2018
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 5
 comment = "Everyone needs ART in their life!"
@@ -6958,8 +6998,10 @@ comment = "Everyone needs ART in their life!"
 kind = "book"
 title = "Rouge Protocol"
 date = 2024-06-04
-publish_year = 2018
+openlibrary_id = "/works/OL27973424W"
+publish_year = 2020
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 4
 comment = "The intense corridors, the scaning, talking, everything."
@@ -6968,8 +7010,10 @@ comment = "The intense corridors, the scaning, talking, everything."
 kind = "book"
 title = "Exit strategy"
 date = 2024-06-07
+openlibrary_id = "/works/OL19763338W"
 publish_year = 2018
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 4
 
@@ -6977,8 +7021,10 @@ rating = 4
 kind = "book"
 title = "Network Effect"
 date = 2024-06-18
+openlibrary_id = "/works/OL20735675W"
 publish_year = 2020
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 5
 comment = "This entry was so full of detail, like the previous ones, but on a different level. It had so much exciting going on!"
@@ -6987,8 +7033,10 @@ comment = "This entry was so full of detail, like the previous ones, but on a di
 kind = "book"
 title = "Fugitive Telemetry"
 date = 2024-06-22
+openlibrary_id = "/works/OL20805971W"
 publish_year = 2021
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 4
 
@@ -6996,8 +7044,10 @@ rating = 4
 kind = "book"
 title = "System Collapse"
 date = 2024-07-02
+openlibrary_id = "/works/OL33402895W"
 publish_year = 2023
 genres = ["Sci-Fi"]
+authors = ["Martha Wells"]
 [logs.review]
 rating = 5
 comment = "Excellent! The action-parts feels like a cinematic experience in book/audiobook-form."
@@ -7006,8 +7056,10 @@ comment = "Excellent! The action-parts feels like a cinematic experience in book
 kind = "book"
 title = "A Game of Thrones"
 date = 2024-11-07
+openlibrary_id = "/works/OL257943W"
 publish_year = 1996
 genres = ["Fantasy", "Adventure"]
+authors = ["George R. R. Martin"]
 [logs.review]
 rating = 4
 comment = "The TV shows are really faithful to the first book. I enjoyed this, but it was very long."
@@ -7016,8 +7068,10 @@ comment = "The TV shows are really faithful to the first book. I enjoyed this, b
 kind = "book"
 title = "How the World Really Works"
 date = 2025-01-25
+openlibrary_id = "/works/OL25283119W"
 publish_year = 2022
 genres = ["Science"]
+authors = ["Vaclav Smil"]
 [logs.review]
 rating = 4
 comment = "It took me almost two years to finish this book, not because it was boring, but because there is a lot of material to process behind each chapter. I'm impressed on how the author managed to compress so much information into a tiny bit more than 200 pages. I recommend!"
@@ -7026,8 +7080,10 @@ comment = "It took me almost two years to finish this book, not because it was b
 kind = "book"
 title = "Homeland"
 date = 2025-01-24
+openlibrary_id = "/works/OL17048592W"
 publish_year = 2013
 genres = ["Fiction", "Terrorism", "Cryptography", "Privacy"]
+authors = ["Cory Doctorow"]
 [logs.review]
 rating = 4
 comment = "I was not expecting this level of detail to cyber security in a book! The story was captivating, and it bascially felt like a story that seems so plausible in today's USA. And I didn't realize that there was a book before this one, so I guess I have to read that one next..."
