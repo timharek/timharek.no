@@ -20,10 +20,10 @@
 {{ define "partials/row" }}
  <h3 class="md:col-span-2">
   {{ .title }}
-  {{ if eq .type "tv" }}
+  {{ if eq .kind "tv" }}
    S{{ .season }}
   {{ end }}
-  {{ if eq .type "movie" }}
+  {{ if eq .kind "movie" }}
    ({{ .release_year }})
   {{ end }}
  </h3>

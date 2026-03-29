@@ -51,7 +51,8 @@
       <p class="italic">I started tracking fulltime in 2022.</p>
       <section class="space-y-2 md:space-y-4">
         <h3 class="text-2xl font-semibold">Movies</h3>
-        {{ $movies := partial "fns/group-date-year.html" .Site.Data.logs.movies }}
+        {{ $movieData := slice }}{{ range where .Site.Data.logs.logs "kind" "movie" }}{{ $movieData = $movieData | append . }}{{ end }}
+        {{ $movies := partial "fns/group-date-year.html" $movieData }}
         <dl class="columns-2 space-y-2">
           {{ range $movies.years }}
             {{ $year := . }}
@@ -66,7 +67,8 @@
       </section>
       <section class="space-y-2 md:space-y-4">
         <h3 class="text-2xl font-semibold">TV shows</h3>
-        {{ $shows:= partial "fns/group-date-year.html" .Site.Data.logs.tv }}
+        {{ $tvData := slice }}{{ range where .Site.Data.logs.logs "kind" "tv" }}{{ $tvData = $tvData | append . }}{{ end }}
+        {{ $shows:= partial "fns/group-date-year.html" $tvData }}
         <dl class="columns-2 space-y-2">
           {{ range $shows.years }}
             {{ $year := . }}
@@ -81,7 +83,8 @@
       </section>
       <section class="space-y-2 md:space-y-4">
         <h3 class="text-2xl font-semibold">Books</h3>
-        {{ $books:= partial "fns/group-date-year.html" .Site.Data.logs.reading }}
+        {{ $bookData := slice }}{{ range where .Site.Data.logs.logs "kind" "book" }}{{ $bookData = $bookData | append . }}{{ end }}
+        {{ $books:= partial "fns/group-date-year.html" $bookData }}
         <dl class="columns-2 space-y-2">
           {{ range $books.years }}
             {{ $year := . }}

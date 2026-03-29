@@ -8,15 +8,16 @@
    </article>
    <div>
     {{ $data := slice }}
-    {{ if strings.Contains .Path "reading" }}
-      {{ $data = .Site.Data.logs.reading }}
-    {{ else if strings.Contains .Path "games" }}
-      {{ $data = .Site.Data.logs.games }}
-    {{ else if strings.Contains .Path "watched" }}
-      {{ $data = .Site.Data.logs.movies }}
-      {{ $data = $data | append .Site.Data.logs.tv }}
-    {{ else if strings.Contains .Path "travel" }}
-      {{ $data = .Site.Data.logs.travel }}
+    {{ range .Site.Data.logs.logs }}
+      {{ if and (strings.Contains $.Path "reading") (eq .kind "book") }}
+        {{ $data = $data | append . }}
+      {{ else if and (strings.Contains $.Path "games") (eq .kind "game") }}
+        {{ $data = $data | append . }}
+      {{ else if and (strings.Contains $.Path "watched") (or (eq .kind "movie") (eq .kind "tv")) }}
+        {{ $data = $data | append . }}
+      {{ else if and (strings.Contains $.Path "travel") (eq .kind "travel") }}
+        {{ $data = $data | append . }}
+      {{ end }}
     {{ end }}
     {{ $entries := partial "fns/group-date-year.html" $data }}
     {{ range $entries.years }}
