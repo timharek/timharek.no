@@ -6362,9 +6362,10 @@ comment = "The first episode didn't click. But people kept recommending this, so
 kind = "game"
 title = "The Elder Scrolls V: Skyrim"
 date = 2012-02-03
+rawg_id = 5679
 release_year = 2011
 platform = "PC"
-genres = ["Action", "Adventure", "Fantasy"]
+genres = ["Action", "RPG"]
 [logs.review]
 rating = 5
 
@@ -6372,9 +6373,10 @@ rating = 5
 kind = "game"
 title = "Portal 2"
 date = 2012-07-13
+rawg_id = 4200
 release_year = 2011
 platform = "PC"
-genres = ["Action", "Sci-Fi", "Puzzle"]
+genres = ["Shooter", "Puzzle"]
 [logs.review]
 rating = 5
 
@@ -6382,9 +6384,10 @@ rating = 5
 kind = "game"
 title = "Just Cause 2"
 date = 2012-07-24
+rawg_id = 4513
 release_year = 2010
 platform = "PC"
-genres = ["Action", "Adventure"]
+genres = ["Shooter", "Action"]
 [logs.review]
 rating = 4
 
@@ -6392,9 +6395,10 @@ rating = 4
 kind = "game"
 title = "Sleeping Dogs"
 date = 2012-08-18
+rawg_id = 16113
 release_year = 2012
 platform = "PC"
-genres = ["Action", "Adventure"]
+genres = ["Adventure", "Action"]
 [logs.review]
 rating = 4
 
@@ -6402,9 +6406,10 @@ rating = 4
 kind = "game"
 title = "Far Cry 3"
 date = 2012-12-10
+rawg_id = 4161
 release_year = 2012
 platform = "PC"
-genres = ["Action", "Adventure"]
+genres = ["Shooter", "Action"]
 [logs.review]
 rating = 5
 
@@ -6412,9 +6417,10 @@ rating = 5
 kind = "game"
 title = "Don't Starve"
 date = 2013-05-23
+rawg_id = 9475
 release_year = 2013
 platform = "PC"
-genres = ["Action", "Adventure"]
+genres = ["Indie"]
 [logs.review]
 rating = 4
 
@@ -6422,9 +6428,10 @@ rating = 4
 kind = "game"
 title = "Payday 2"
 date = 2013-08-23
+rawg_id = 3939
 release_year = 2013
 platform = "PC"
-genres = ["Action", "RPG"]
+genres = ["Shooter", "Action"]
 [logs.review]
 rating = 4
 
@@ -6432,9 +6439,10 @@ rating = 4
 kind = "game"
 title = "Amnesia: A Machine for Pigs"
 date = 2013-09-13
+rawg_id = 13268
 release_year = 2013
 platform = "PC"
-genres = ["Action", "Adventure", "Indie", "Horror"]
+genres = ["Indie", "Adventure", "Action"]
 [logs.review]
 rating = 4
 
@@ -6442,9 +6450,10 @@ rating = 4
 kind = "game"
 title = "Batman: Arkham Origins"
 date = 2013-10-27
+rawg_id = 2235
 release_year = 2013
 platform = "PC"
-genres = ["Action", "Adventure"]
+genres = ["Action"]
 [logs.review]
 rating = 5
 
@@ -6452,9 +6461,10 @@ rating = 5
 kind = "game"
 title = "Game Dev Tycoon"
 date = 2013-12-02
-release_year = 2013
+rawg_id = 13570
+release_year = 2012
 platform = "PC"
-genres = ["Casual", "Indie", "Simulation", "Strategy"]
+genres = ["Casual", "Strategy", "Indie", "Simulation"]
 [logs.review]
 rating = 5
 
@@ -6462,6 +6472,7 @@ rating = 5
 kind = "game"
 title = "Hacknet"
 date = 2015-08-25
+rawg_id = 9653
 release_year = 2015
 platform = "PC"
 genres = ["Indie", "Simulation"]
@@ -6472,9 +6483,10 @@ rating = 4
 kind = "game"
 title = "Prey"
 date = 2017-05-12
+rawg_id = 39
 release_year = 2017
 platform = "PC"
-genres = ["Action", "Adventure"]
+genres = ["Shooter", "Action", "RPG"]
 [logs.review]
 rating = 5
 
@@ -6482,9 +6494,10 @@ rating = 5
 kind = "game"
 title = "Hob"
 date = 2017-10-01
+rawg_id = 10661
 release_year = 2017
 platform = "PC"
-genres = ["Action", "Adventure", "Indie"]
+genres = ["Indie", "Adventure", "Action"]
 [logs.review]
 rating = 5
 
@@ -6492,9 +6505,10 @@ rating = 5
 kind = "game"
 title = "Red Dead Redemption 2"
 date = 2018-01-01
+rawg_id = 28
 release_year = 2018
 platform = "PS4"
-genres = ["Action", "Adventure", "Single-Player"]
+genres = ["Action"]
 [logs.review]
 rating = 5
 
@@ -6502,9 +6516,10 @@ rating = 5
 kind = "game"
 title = "The Last of Us: Part 2"
 date = 2020-06-21
+rawg_id = 51325
 release_year = 2020
 platform = "PS4"
-genres = ["Action", "Adventure", "Survival"]
+genres = ["Shooter", "Adventure", "Action"]
 [logs.review]
 rating = 5
 
@@ -6512,9 +6527,10 @@ rating = 5
 kind = "game"
 title = "Ori and the Blind Forest"
 date = 2020-10-02
+rawg_id = 19590
 release_year = 2015
 platform = "PC"
-genres = ["Action", "Platformer"]
+genres = ["Platformer", "Adventure"]
 [logs.review]
 rating = 5
 
@@ -6522,9 +6538,10 @@ rating = 5
 kind = "game"
 title = "Ori and the Will of The Wisp"
 date = 2020-10-06
+rawg_id = 28199
 release_year = 2020
 platform = "PC"
-genres = ["Action", "Platformer"]
+genres = ["Platformer", "Adventure", "Action"]
 [logs.review]
 rating = 5
 
@@ -6532,9 +6549,10 @@ rating = 5
 kind = "game"
 title = "Return of the Obra Dinn"
 date = 2022-08-22
+rawg_id = 46508
 release_year = 2018
 platform = "PC"
-genres = ["Action", "Adventure", "Indie", "Puzzle"]
+genres = ["Indie", "Adventure"]
 [logs.review]
 rating = 5
 
@@ -6542,9 +6560,10 @@ rating = 5
 kind = "game"
 title = "Detroit: Become Human"
 date = 2022-09-17
-release_year = 2020
+rawg_id = 29177
+release_year = 2018
 platform = "PS5"
-genres = ["Action", "Adventure"]
+genres = ["Adventure", "Action"]
 [logs.review]
 rating = 3
 
@@ -6552,9 +6571,10 @@ rating = 3
 kind = "game"
 title = "God of War: Ragnarök"
 date = 2022-11-13
+rawg_id = 494384
 release_year = 2022
 platform = "PS5"
-genres = ["Action", "Adventure", "Single-Player"]
+genres = ["Action"]
 [logs.review]
 rating = 5
 
@@ -6562,9 +6582,10 @@ rating = 5
 kind = "game"
 title = "Dredge"
 date = 2023-04-06
+rawg_id = 842402
 release_year = 2023
 platform = "Steam Deck"
-genres = ["Adventure", "Single-Player", "Survival", "Casual"]
+genres = ["Adventure", "RPG"]
 [logs.review]
 rating = 5
 
@@ -6572,9 +6593,10 @@ rating = 5
 kind = "game"
 title = "Star Wars Jedi: Survivor"
 date = 2023-05-01
+rawg_id = 793647
 release_year = 2023
 platform = "PS5"
-genres = ["Action", "Adventure", "Platformer", "Single-Player", "Sci-Fi"]
+genres = ["Adventure", "Action"]
 [logs.review]
 rating = 4
 
@@ -6582,9 +6604,10 @@ rating = 4
 kind = "game"
 title = "Deathloop"
 date = 2021-09-22
+rawg_id = 326251
 release_year = 2021
 platform = "PS5"
-genres = ["Action", "Adventure", "Single-Player", "FPS"]
+genres = ["Action", "RPG"]
 [logs.review]
 rating = 3
 
@@ -6592,9 +6615,10 @@ rating = 3
 kind = "game"
 title = "Hogwarts Legacy"
 date = 2023-02-23
+rawg_id = 906547
 release_year = 2023
 platform = "PS5"
-genres = ["Action", "Adventure", "Fantasy", "Single-Player"]
+genres = ["Action", "RPG"]
 [logs.review]
 rating = 3
 
@@ -6602,9 +6626,10 @@ rating = 3
 kind = "game"
 title = "Elden Ring"
 date = 2022-09-03
+rawg_id = 326243
 release_year = 2022
 platform = "PS5"
-genres = ["Action", "Adventure", "Fantasy", "Single-Player"]
+genres = ["Action", "RPG"]
 [logs.review]
 rating = 3
 
@@ -6612,9 +6637,10 @@ rating = 3
 kind = "game"
 title = "Starfield"
 date = 2023-10-20
+rawg_id = 58779
 release_year = 2023
 platform = "PC"
-genres = ["Action", "Adventure", "Sci-Fi", "RPG", "Single-Player"]
+genres = ["Adventure", "RPG"]
 [logs.review]
 rating = 3
 
@@ -6622,9 +6648,10 @@ rating = 3
 kind = "game"
 title = "Zelda: Tears of Kingdom"
 date = 2023-10-20
+rawg_id = 327239
 release_year = 2023
 platform = "Nintendo Switch"
-genres = ["Action", "Adventure", "Fantasy", "Single-Player"]
+genres = ["Adventure", "Action"]
 [logs.review]
 rating = 4
 
@@ -6632,9 +6659,10 @@ rating = 4
 kind = "game"
 title = "Spider-Man 2"
 date = 2023-10-22
+rawg_id = 662316
 release_year = 2023
 platform = "PS5"
-genres = []
+genres = ["Adventure", "Action"]
 [logs.review]
 rating = 4
 
@@ -6642,9 +6670,10 @@ rating = 4
 kind = "game"
 title = "God of War Ragnarok: Valhalla"
 date = 2023-12-27
+rawg_id = 973384
 release_year = 2023
 platform = "PS5"
-genres = []
+genres = ["Action"]
 [logs.review]
 rating = 4
 
@@ -6652,9 +6681,10 @@ rating = 4
 kind = "game"
 title = "Kingdom Come: Deliverance II"
 date = 2025-02-24
+rawg_id = 980502
 release_year = 2025
 platform = "PC"
-genres = ["Adventure", "History", "Action"]
+genres = ["Adventure", "Action", "RPG"]
 [logs.review]
 rating = 5
 comment = "Fantastic game! It kept me engaged for more than 50 hours on end. The story was grounded in a medieval-setting I can believe. The combat is fun and interesting, the characters and choices you get to make is really something. I haven't had an engaging experience since the first time I played Skryim back in 2011."
@@ -6663,8 +6693,9 @@ comment = "Fantastic game! It kept me engaged for more than 50 hours on end. The
 kind = "game"
 title = "The Lift (playtest)"
 date = 2025-09-23
-release_year = 2025
+release_year = 2018
 platform = "PC"
+genres = ["Adventure", "Action"]
 [logs.review]
 rating = 4
 comment = "Awesome demo/playtest. Just the right amout of upkeep work and puzzles. Looking forward to the full game!"
@@ -6673,8 +6704,10 @@ comment = "Awesome demo/playtest. Just the right amout of upkeep work and puzzle
 kind = "game"
 title = "Dispatch"
 date = 2025-11-28
+rawg_id = 337273
 release_year = 2025
 platform = "PC"
+genres = ["Adventure", "Action", "Casual", "Strategy", "Indie"]
 [logs.review]
 rating = 5
 comment = "I love the superhero genre, especially when they try to do something different. In this game it worked really well. I played the game with QTE disabled, because I wanted TV show experience with my own decisions, and the game fully delivered on that. The characters are top-notch, and now they need to create comic-books about this universe, because I need more!\n\nThe game played excellent on Linux."
@@ -6683,6 +6716,7 @@ comment = "I love the superhero genre, especially when they try to do something 
 kind = "game"
 title = "Esoteric Ebb"
 date = 2026-03-12
+rawg_id = 1016144
 release_year = 2026
 platform = "PC"
 genres = ["Adventure"]
@@ -6694,6 +6728,7 @@ comment = "The dialogue in this game is amazing. I told everyone I was apolitica
 kind = "game"
 title = "ARC Raiders"
 date = 2025-12-31
+rawg_id = 704787
 release_year = 2025
 platform = "PC"
 genres = ["Action"]
