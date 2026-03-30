@@ -1,6 +1,7 @@
 +++
 title = "Hudd review"
 description = "A quick overview and review of Hudd, the Norwegian social media platform alternative to Facebook."
+updatedAt = 2026-03-30
 tags = ["Social Media", "Review"]
 +++
 
@@ -217,6 +218,29 @@ However, for people who actually want a Facebook-like experience, Hudd is a much
 better alternative. But this review made it clear to me that I don't want that
 experience at all, social media platforms as a whole are flawed, especially
 since they just copy each other and make addiction into a currency.
+
+## UPDATE: 2026-03-30
+
+Hudd responded to my deletion request. It's possible to do in the browser. Edit
+your profile, click the three dots and voila!
+
+<figure>
+  <img
+    src="edit-profile-dots.webp"
+    alt="Screenshot of Hudd's hidden delete account feature">
+  <figcaption>
+    Screenshot of Hudd's "hidden" delete account feature
+  </figcaption>
+</figure>
+
+<figure>
+  <img
+    src="delete-account.webp"
+    alt="Screenshot of Hudd's delete account confirmation">
+  <figcaption>
+    Screenshot of Hudd's delete account confirmation
+  </figcaption>
+</figure>
 
 [about how to break free from the tech giants]:
   https://www.nrk.no/norge/slik-kan-du-gjore-deg-mer-uavhengig-av-teknologigigantene-1.17800060
