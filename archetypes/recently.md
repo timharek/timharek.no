@@ -41,7 +41,7 @@ From my [logs](/logs).
 {{- $endDate := $d }}
 
 {{- $movies := slice }}
-{{- range where .Site.Data.logs.logs "kind" "movie" }}
+{{- range where hugo.Data.logs.logs "kind" "movie" }}
   {{- $entryDate := .date | time.AsTime }}
   {{- if and (ge $entryDate.Unix $startDate.Unix) (le $entryDate.Unix $endDate.Unix) }}
     {{- $movies = $movies | append . }}
@@ -54,7 +54,7 @@ From my [logs](/logs).
 ### TV
 
 {{- $shows := slice }}
-{{- range where .Site.Data.logs.logs "kind" "tv" }}
+{{- range where hugo.Data.logs.logs "kind" "tv" }}
   {{- $entryDate := .date | time.AsTime }}
   {{- if and (ge $entryDate.Unix $startDate.Unix) (le $entryDate.Unix $endDate.Unix) }}
     {{- $shows = $shows | append . }}
@@ -67,7 +67,7 @@ From my [logs](/logs).
 ### Games
 
 {{- $games := slice }}
-{{- range where .Site.Data.logs.logs "kind" "game" }}
+{{- range where hugo.Data.logs.logs "kind" "game" }}
   {{- $entryDate := .date | time.AsTime }}
   {{- if and (ge $entryDate.Unix $startDate.Unix) (le $entryDate.Unix $endDate.Unix) }}
     {{- $games = $games | append . }}

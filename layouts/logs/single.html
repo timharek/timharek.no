@@ -8,7 +8,7 @@
    </article>
    <div>
     {{ $data := slice }}
-    {{ range .Site.Data.logs.logs }}
+    {{ range hugo.Data.logs.logs }}
       {{ if and (strings.Contains $.Path "reading") (eq .kind "book") }}
         {{ $data = $data | append . }}
       {{ else if and (strings.Contains $.Path "games") (eq .kind "game") }}

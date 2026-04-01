@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="p-4 mx-auto max-w-screen-md">
     {{ partial "page-header.html" . }}
-    {{ $projects := .Site.Data.cv.projects }}
+    {{ $projects := hugo.Data.cv.projects }}
     {{ $withEndDate := where $projects "endDate" "!=" nil }}
     {{ $withoutEndDate := where $projects  "endDate" "==" nil }}
 
