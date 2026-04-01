@@ -37,18 +37,43 @@ From my [logs](/logs).
 
 ### Movies
 
-{{- $startDateString := $lastRecentlyDate.Format "2006-01-02" }}
-{{- $endDateString := $d.Format "2006-01-02" }}
+{{- $startDate := $lastRecentlyDate }}
+{{- $endDate := $d }}
 
-{{- $movies := where (where .Site.Data.logs.movies "date" "ge" $startDateString) "date" "le" $endDateString }}
+{{- $movies := slice }}
+{{- range where .Site.Data.logs.logs "kind" "movie" }}
+  {{- $entryDate := .date | time.AsTime }}
+  {{- if and (ge $entryDate.Unix $startDate.Unix) (le $entryDate.Unix $endDate.Unix) }}
+    {{- $movies = $movies | append . }}
+  {{- end }}
+{{- end }}
 {{ range $movies }}
 - **{{ .title }} ({{ .release_year }})** – {{ .review.comment }}
 {{ end}}
 
 ### TV
 
-{{- $shows := where (where .Site.Data.logs.tv "date" "ge" $startDateString) "date" "le" $endDateString }}
+{{- $shows := slice }}
+{{- range where .Site.Data.logs.logs "kind" "tv" }}
+  {{- $entryDate := .date | time.AsTime }}
+  {{- if and (ge $entryDate.Unix $startDate.Unix) (le $entryDate.Unix $endDate.Unix) }}
+    {{- $shows = $shows | append . }}
+  {{- end }}
+{{- end }}
 {{ range $shows }}
+- **{{ .title }} ({{ .release_year }})** – {{ .review.comment }}
+{{ end}}
+
+### Games
+
+{{- $games := slice }}
+{{- range where .Site.Data.logs.logs "kind" "game" }}
+  {{- $entryDate := .date | time.AsTime }}
+  {{- if and (ge $entryDate.Unix $startDate.Unix) (le $entryDate.Unix $endDate.Unix) }}
+    {{- $games = $games | append . }}
+  {{- end }}
+{{- end }}
+{{ range $games }}
 - **{{ .title }} ({{ .release_year }})** – {{ .review.comment }}
 {{ end}}
 
