@@ -1,7 +1,7 @@
 +++
 title = "Switching to SourceHut Builds"
 description = "Earlier this year I started using git-hooks for CI/CD, but now I'm switching to SourceHut."
-updatedAt = 2023-06-18
+updatedAt = 2026-04-03
 tags = ["Git", "DevOps", "SourceHut", "CI/CD"]
 +++
 
@@ -48,6 +48,6 @@ away a lot of unnecessary bits that other source-forges has.
 [git_hooks_repo]: https://github.com/timharek/git-hooks
 [sourcehut]: https://sourcehut.org
 [srht_images]: https://man.sr.ht/builds.sr.ht/compatibility.md
-[place_i_live]: /blog/i-made-a-website-for-the-place-i-live/index
+[place_i_live]: /blog/i-made-a-website-for-the-place-i-live
 [everyday_privacy]: https://everyday-privacy.com
 [ben_post]: https://benbusby.com/gh-vs-gl-vs-sh/
