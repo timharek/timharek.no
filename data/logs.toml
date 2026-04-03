@@ -7515,3 +7515,16 @@ cities = ["Trondheim"]
 [logs.location.country]
 name = "Norway"
 emoji = "🇳🇴"
+
+[[logs]]
+kind = "movie"
+title = "Tenet"
+date = 2026-04-03
+tmdbId = 577922
+release_year = 2020
+runtime = 150
+genres = ["Action", "Thriller", "Science Fiction"]
+directors = ["Christopher Nolan"]
+[logs.review]
+rating = 4
+comment = "Rewatch. This movie still holds up. The time travel stuff is highly confusing, and that seems like it's the point of the movie. I know Nolan loves to mess with time, but this is time-full movie... hehe."
