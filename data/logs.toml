@@ -7528,3 +7528,42 @@ directors = ["Christopher Nolan"]
 [logs.review]
 rating = 4
 comment = "Rewatch. This movie still holds up. The time travel stuff is highly confusing, and that seems like it's the point of the movie. I know Nolan loves to mess with time, but this is time-full movie... hehe."
+
+[[logs]]
+kind = "movie"
+title = "The Pod Generation"
+date = 2026-04-03
+tmdbId = 889675
+release_year = 2023
+runtime = 110
+genres = ["Science Fiction", "Comedy", "Romance"]
+directors = ["Sophie Barthes"]
+[logs.review]
+rating = 4
+comment = "I'm glad I watched this movie in 2026, instead of when it came out. Because it is much more fitting today. We use AI to a lot of weird and shitty stuff, and this is just next level. The movie felt like a too long Black Mirror episode. The ending felt rushed..."
+
+[[logs]]
+kind = "movie"
+title = "No Other Choice"
+date = 2026-04-04
+tmdbId = 639988
+release_year = 2025
+runtime = 139
+genres = ["Comedy", "Crime", "Thriller"]
+directors = ["Park Chan-wook"]
+[logs.review]
+rating = 3
+comment = "People have killed for less, but the protagonist's motive was not working for me. The story's red-line was very jagged for me. Fun humor, but nothing more than that."
+
+[[logs]]
+kind = "movie"
+title = "Falling Down"
+date = 2026-04-05
+tmdbId = 37094
+release_year = 1993
+runtime = 113
+genres = ["Crime", "Drama", "Thriller"]
+directors = ["Joel Schumacher"]
+[logs.review]
+rating = 3
+comment = "I had higher expecations for this, the overall story was bland, but the social commentary for what the US had become up until 1993 was really good. Because the US has been pretty bad and messed up for a long long time."
