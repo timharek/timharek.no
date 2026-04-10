@@ -2,6 +2,7 @@
 title = "March 2026"
 description = "What I've been up to since February 2026."
 tags = ["Recently"]
+updatedAt = 2026-04-10
 +++
 
 I must be getting older, because it feels like I just wrote my previous
@@ -10,7 +11,7 @@ in!
 
 From the blog since my last recently post:
 
-- [Hudd review](/blog/2026-03-25-hudd-review)
+- [Hudd review](/blog/hudd-review)
 
 ## 🍀 Life
 
