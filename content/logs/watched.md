@@ -56,7 +56,6 @@ Movies and TV shows that I've watched. Not a complete list.
 - Perfect Days (2023)
 - The Square (2017)
 - Force Majeure (2014)
-- Friendship (2025)
 - Crazy Heart (2009)
 - Gritt (2021)
 - Anora (2024)

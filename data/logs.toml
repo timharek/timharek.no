@@ -7567,3 +7567,16 @@ directors = ["Joel Schumacher"]
 [logs.review]
 rating = 3
 comment = "I had higher expecations for this, the overall story was bland, but the social commentary for what the US had become up until 1993 was really good. Because the US has been pretty bad and messed up for a long long time."
+
+[[logs]]
+kind = "movie"
+title = "Friendship"
+date = 2026-04-11
+tmdbId = 1239655
+release_year = 2025
+runtime = 100
+genres = ["Comedy", "Drama"]
+directors = ["Andrew DeYoung"]
+[logs.review]
+rating = 3
+comment = "This movie made me feel uncomfortable throughout. The main character had it all. There was one thing that stood out for me, when Craig said that he had spent his free time doing nothing, he is always available."
