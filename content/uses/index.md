@@ -1,7 +1,7 @@
 +++
 title = "Uses"
 description = "What I use on a day-to-day basis."
-updatedAt = 2025-09-27
+updatedAt = 2026-04-13
 +++
 
 Inspired by what other people uses from [Uses This], I like to read about what
@@ -64,7 +64,7 @@ This is software that I use on my devices. Inspired by [App defaults].
 |          Notes | [Helix] with Markdown, or [physical](#note-taking) |
 |           Todo | [Physical book](#note-taking)                      |
 |       Calendar | Calendar.app                                       |
-|            RSS | [NetNewsWire] + [Feedbin]                          |
+|            RSS | [NetNewsWire] + [Miniflux]                         |
 |       Contacts | Contacts.app                                       |
 |        Browser | [Zen Browser] (& Safari iOS)                       |
 |           Chat | [Signal] & iMessage                                |
@@ -90,19 +90,19 @@ This is software that I use on my devices. Inspired by [App defaults].
 
 ## Services
 
-|                     |                                      |
-| ------------------: | :----------------------------------- |
-|         Mail server | [Migadu]                             |
-|    Photo management | [Nextcloud] + Photos.app             |
-|  Cloud File Storage | [Nextcloud]                          |
-|           Bookmarks | [Linkding]                           |
-|       Read-it-later | [Linkding]                           |
-| Password management | [Bitwarden] & [1Password]            |
-|             Weather | [Yr.no]                              |
-|               Music | [Spotify]                            |
-|        Source forge | [SourceHut]                          |
-|        VPS provider | [1984 Hosting][1984]                 |
-|       Search engine | [Kagi] ([review](/blog/kagi-review)) |
+|                     |                                          |
+| ------------------: | :--------------------------------------- |
+|         Mail server | [Migadu]                                 |
+|    Photo management | [Nextcloud] + Photos.app                 |
+|  Cloud File Storage | [Nextcloud]                              |
+|           Bookmarks | [Linkding]                               |
+|       Read-it-later | [Linkding]                               |
+| Password management | [Bitwarden] & [1Password]                |
+|             Weather | [Yr.no]                                  |
+|               Music | [Spotify]                                |
+|        Source forge | [SourceHut]                              |
+|        VPS provider | [1984 Hosting], [Hetzner] and [Gigahost] |
+|       Search engine | [Kagi] ([review](/blog/kagi-review))     |
 
 ## Note-taking
 
@@ -121,7 +121,7 @@ this is what I use daily.
 [Bitwarden]: https://bitwarden.com
 [Mattermost]: https://mattermost.com
 [NetNewsWire]: https://netnewswire.com
-[Feedbin]: https://feedbin.com
+[Miniflux]: https://miniflux.app/
 [Nextcloud]: https://nextcloud.com
 [Numi]: https://numi.app
 [Signal]: https://signal.org
@@ -130,7 +130,7 @@ this is what I use daily.
 [Spotify]: https://spotify.com
 [VSCodium]: https://github.com/VSCodium/vscodium
 [Yr.no]: https://apps.apple.com/jo/app/yr-no/id490989206
-[1984]: https://1984hosting.com
+[1984 Hosting]: https://1984hosting.com
 [Migadu]: https://migadu.com
 [migadu_review]: /blog/migadu-review
 [LuLu]: https://objective-see.com/products/lulu.html
@@ -153,3 +153,5 @@ this is what I use daily.
 [bazzite]: https://bazzite.gg
 [kagi]: https://kagi.com
 [Aerospace]: https://github.com/nikitabobko/AeroSpace
+[Hetzner]: https://hetzner.com
+[Gigahost]: https://gigahost.no

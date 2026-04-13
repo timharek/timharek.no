@@ -1,7 +1,7 @@
 +++
 title = "Wish"
 description = "Tim Hårek's public wishlist."
-updatedAt = 2025-12-09
+updatedAt = 2026-04-13
 +++
 
 [Guesswork](https://en.wiktionary.org/wiki/guesswork) gifting is not
@@ -26,7 +26,6 @@ when possible!_
 
 |        |                                                                                                                                                 |
 | -----: | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-|  € 399 | [Prusa MMU3](https://www.prusa3d.com/product/original-prusa-mmu3-for-mk4s-mk3-9s-assembled-unit-2/)                                             |
 | ~ € 25 | [Prusament](https://www.prusa3d.com/category/pla/?filters=%7B%22brands%22%3A%5B%2224824bd8-0ec7-4cc5-aea4-c3ac7c16e2d0%22%5D%7D): Galaxy colors |
 
 ## Home
@@ -42,12 +41,10 @@ when possible!_
 | € 15–150 | [Simon Stålenhag artwork](https://www.redbubble.com/people/simonstalenhag/shop) |
 | > 400 kr | [Simon Stålenhag art books](https://www.outland.no/boker/Simon+St%C3%A5lenhag)  |
 
-## Clothing
+<!-- ## Clothing -->
 
-|     |                           |
-| --: | :------------------------ |
-|   ? | Running socks short EU 45 |
-|   ? | Running socks long EU 45  |
+<!-- |     |                           | -->
+<!-- | --: | :------------------------ | -->
 
 ## Tech
 
@@ -58,10 +55,9 @@ when possible!_
 
 ## Miscellaneous
 
-|            |                                                                                           |
-| ---------: | :---------------------------------------------------------------------------------------- |
-|      > $15 | [Field Notes dotgrid notebooks](https://fieldnotesbrand.com/#products)                    |
-| > 2 000 kr | [Treningsbenk (example)](https://sportoutlet.no/trimutstyr/apparater/product/119626?c=57) |
+|       |                                                                        |
+| ----: | :--------------------------------------------------------------------- |
+| > $15 | [Field Notes dotgrid notebooks](https://fieldnotesbrand.com/#products) |
 
 ## Credits
 
