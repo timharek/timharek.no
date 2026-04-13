@@ -1,7 +1,8 @@
 +++
-title = 'Subscribe via e-mail'
+title = "Subscribe via e-mail (outdated)"
 description = 'You can now subscribe to my blog via e-mail!'
-tags = ["Meta"]
+tags = ["Meta", "RSS"]
+updatedAt = 2026-04-13
 +++
 
 As of today you can subscribe to the blog via email, not just RSS or by browsing
@@ -34,9 +35,14 @@ You can subscribe below:
 
 The [Subscribe](/subscribe)-page is also updated with the same form.
 
-And I won't be using any tracking with my Buttondown-account, affilate links,
+And I won't be using any tracking with my Buttondown-account, affiliate links,
 ads etc. It will just be a plain copy of what's already been posted to my blog
 with a link to it. You can unsubscribe anytime you want, all emails will have an
 unsubscribe link.
+
+## Updated 2026-04-13
+
+I have removed the ability to subscribe via e-mail now, and the last e-mail can
+be sent May 4th 2026.
 
 [Buttondown]: https://buttondown.com

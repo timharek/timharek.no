@@ -5,3 +5,4 @@ package-lock.json
 .hugo_build.lock
 .env
 hugo_stats.json
+server-logs
