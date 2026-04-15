@@ -1,3 +1,5 @@
+"$schema" = "https://git.sr.ht/~timharek/art/blob/main/logs.schema.json"
+
 [[logs]]
 kind = "movie"
 title = "Inception"
