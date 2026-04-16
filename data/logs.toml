@@ -7582,3 +7582,14 @@ directors = ["Andrew DeYoung"]
 [logs.review]
 rating = 3
 comment = "This movie made me feel uncomfortable throughout. The main character had it all. There was one thing that stood out for me, when Craig said that he had spent his free time doing nothing, he is always available."
+
+[[logs]]
+kind = "book"
+title = "Project Hail Mary"
+date = 2026-04-16
+openlibrary_id = "/works/OL21745884W"
+publish_year = 2021
+authors = ["Andy Weir"]
+[logs.review]
+rating = 5
+comment = "Wow. This adds a lot more depth than the movie could ever do. I loved all the science details and how Grace explains everything. It makes more sense that the story spans more than a few weeks. And the backstories gives the overall story so much more substance. It's a great book!"
