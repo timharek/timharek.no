@@ -7593,3 +7593,16 @@ authors = ["Andy Weir"]
 [logs.review]
 rating = 5
 comment = "Wow. This adds a lot more depth than the movie could ever do. I loved all the science details and how Grace explains everything. It makes more sense that the story spans more than a few weeks. And the backstories gives the overall story so much more substance. It's a great book!"
+
+[[logs]]
+kind = "movie"
+title = "Caught Stealing"
+date = 2026-04-17
+tmdbId = 1245993
+release_year = 2025
+runtime = 107
+genres = ["Crime", "Thriller", "Comedy"]
+directors = ["Darren Aronofsky"]
+[logs.review]
+rating = 4
+comment = "Worth a watch! The overall story was kinda meh, but the action and comedy was pretty good. Enjoyed this movie."
