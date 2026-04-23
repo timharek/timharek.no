@@ -7606,3 +7606,29 @@ directors = ["Darren Aronofsky"]
 [logs.review]
 rating = 4
 comment = "Worth a watch! The overall story was kinda meh, but the action and comedy was pretty good. Enjoyed this movie."
+
+[[logs]]
+kind = "movie"
+title = "Chronicle"
+date = 2026-04-20
+tmdbId = 76726
+release_year = 2012
+runtime = 84
+genres = ["Science Fiction", "Drama", "Thriller"]
+directors = ["Josh Trank"]
+[logs.review]
+rating = 4
+comment = "Rewatch! Cool movie, it would have been awesome if the story was continued in more movies, or other mediums. Telekinies looks like a lot of fun!"
+
+[[logs]]
+kind = "movie"
+title = "American Beauty"
+date = 2026-04-23
+tmdbId = 14
+release_year = 1999
+runtime = 122
+genres = ["Drama"]
+directors = ["Sam Mendes"]
+[logs.review]
+rating = 4
+comment = "People were weird in '99, and even weirder today. Some of the messaging in this movie didn't age too well imo, like being weird and recording girls resulting in getting a girlfriend. Maybe not something we want happening in society."
