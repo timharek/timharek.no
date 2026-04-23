@@ -38,7 +38,6 @@ Movies and TV shows that I've watched. Not a complete list.
 - The Wire S3
 - Pluribus S1
 - Young Sherlock S1
-- Invincible S4
 
 ## Watchlist
 
