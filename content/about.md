@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "About Tim Hårek, a technologist based in Norway."
-updatedAt = 2026-01-27
+updatedAt = 2026-04-29
 +++
 
 Hi, I'm Tim Hårek Andreassen, a technologist from the west-coast of Norway. I
@@ -15,11 +15,11 @@ Bergen, Norway. I dabble with full-stack development, software architecture,
 maintainability, automation, customer relations, and sysadmin stuff.
 
 During my spare time I learn about new technologies, write the occasional
-blogpost, automate my everyday, 3D-print something I (definitely) need, and
-hangout with family (SO, daughter, cat, and dog)!
+blogpost, automate stuff, 3D-print something I (definitely) need, tinker with
+stuff, and hangout with family, SO, daughters, cat, and dog.
 
-Check out my [now](/now)-page for what I'm up to now, or my [more](/more)-page
-to checkout more stuff on my website.
+Check out my [now](/now)-page for what I'm up to, or my [more](/more)-page to
+check out more stuff on my website.
 
 ## Contact
 

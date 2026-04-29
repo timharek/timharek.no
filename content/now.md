@@ -1,30 +1,45 @@
 +++
 title = "What I'm doing now"
-updatedAt = 2026-01-27
+updatedAt = 2026-04-29
 +++
 
-- Becoming a proper homeowner (bought a big house)
-- Expecting another daughter
+- Planning migrating all of my homelab stuff to a complete Ansible managed
+  system
 - [Working on Hima](/tags/hima)
 - Playing [Daggerheart] (TTRPG)
 
-## Recent
+## 2026
+
+|              |                                                                |
+| -----------: | :------------------------------------------------------------- |
+| `2026-04-21` | Got a new 3D-printer, Prusa Core One L                         |
+| `2026-04-13` | [Canceled my newsletter](/blog/subscribe-via-rss) (Buttondown) |
+|    `2026-04` | Had a second daughter                                          |
+| `2026-03-25` | [Tried and reviewed Hudd](/blog/hudd-review)                   |
+| `2026-03-13` | Started working on a new side-project with a buddy             |
+| `2026-01-30` | Started moving into our new house                              |
+| `2026-01-26` | Handed over the keys to housing cooperative house              |
+
+## 2025
+
+|              |                                              |
+| -----------: | :------------------------------------------- |
+| `2025-12-07` | Wrote [Do something about it]                |
+| `2025-11-26` | Sold our housing cooperative house           |
+| `2025-11-15` | Bought a standalone house with double garage |
+| `2025-11-01` | Replaced Nextcloud with [Syncthing]          |
+| `2025-10-21` | Wrote [Hima Devlog #1]                       |
+| `2025-10-15` | Started playing [ARC Raiders]                |
+| `2025-09-21` | Started playing [Daggerheart] (TTRPG)        |
+| `2025-09-18` | Switched out yabai with [Aerospace]          |
+| `2025-09-09` | Wrote about [a year with Go]                 |
+| `2025-07-17` | Bought my first EV, Volkswagen ID. Buzz      |
+| `2025-02-15` | Rewrote my website with [Hugo]               |
+
+## 2024
 
 |              |                                                             |
 | -----------: | :---------------------------------------------------------- |
-| `2025-11-30` | Started moving into our new house                           |
-| `2025-01-26` | Handed over the keys to housing cooperative house           |
-| `2025-12-07` | Wrote [Do something about it]                               |
-| `2025-11-26` | Sold our housing cooperative house                          |
-| `2025-11-15` | Bought a standalone house with double garage                |
-| `2025-11-01` | Replaced Nextcloud with [Syncthing]                         |
-| `2025-10-21` | Wrote [Hima Devlog #1]                                      |
-| `2025-10-15` | Started playing [ARC Raiders]                               |
-| `2025-09-21` | Started playing [Daggerheart] (TTRPG)                       |
-| `2025-09-18` | Switched out yabai with [Aerospace]                         |
-| `2025-09-09` | Wrote about [a year with Go]                                |
-| `2025-07-17` | Bought my first EV, Volkswagen ID. Buzz                     |
-| `2025-02-15` | Rewrote my website with [Hugo]                              |
 | `2024-12-08` | Created an [OpenLibrary package] written in Go              |
 | `2024-11-13` | Created a [Migadu CLI and package] written in Go            |
 | `2024-10-30` | Started a new Baldur's Gate 3 story                         |
