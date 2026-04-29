@@ -7644,3 +7644,16 @@ genres = ["Animation", "Drama", "Sci-Fi & Fantasy", "Action & Adventure"]
 [logs.review]
 rating = 5
 comment = "Honestly, this is one of my top 5 shows of all time. The story-, world-, and character-building is so good. I feel attached and connected to a lot of the characters, and always end up siting on the edge of my seat during combat scenes. I want more, now!"
+
+[[logs]]
+kind = "movie"
+title = "Team America: World Police"
+date = 2026-04-28
+tmdbId = 3989
+release_year = 2004
+runtime = 98
+genres = ["Adventure", "Action", "Comedy"]
+directors = ["Trey Parker"]
+[logs.review]
+rating = 3
+comment = "Funny, and relevant today!"
